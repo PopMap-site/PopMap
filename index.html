@@ -109,6 +109,9 @@ select.chip{appearance:none;-webkit-appearance:none;padding-right:28px;backgroun
 @keyframes pulse{0%{transform:scale(1);opacity:.6}100%{transform:scale(2.6);opacity:0}}
 body.moving .pulse,body.moving .dot{animation:none}body.moving #ov text{display:none}
 @media (max-width:760px),(pointer:coarse){.glass,.chip,.scope-ov{backdrop-filter:none!important;-webkit-backdrop-filter:none!important}.glass{background:var(--card)}.chip{background:var(--card)}}
+h2[data-radio]{cursor:pointer;display:flex;align-items:center;gap:10px}
+.radio-btn{flex:none;display:inline-flex;align-items:center;gap:5px;font:600 11px/1 var(--f-body);letter-spacing:.06em;text-transform:uppercase;color:var(--ink);background:var(--card);border:1px solid var(--line);border-radius:999px;padding:6px 10px;cursor:pointer}
+.radio-btn.on{background:var(--c-guerre);color:#fff;border-color:transparent;animation:beat 1.4s infinite}
 @media (prefers-reduced-motion:reduce){.pulse,.dot,.ev.new circle.m,.sp.new circle.m{animation:none}}
 .zoomctl{position:absolute;z-index:4;left:max(12px,env(safe-area-inset-left,0px));bottom:calc(78px + env(safe-area-inset-bottom,0px));display:flex;flex-direction:column;gap:4px}
 .zoomctl button{width:40px;height:40px;border-radius:10px;color:var(--ink);font:500 19px/1 var(--f-mono);cursor:pointer}
@@ -450,7 +453,26 @@ const srcs=a=>`<h3>Sources</h3><div class="src">${a.map(k=>S[k]?`<a href="${S[k]
 function hero(e){const ps=e.photos;if(!ps)return"";const p=ps[phIdx%ps.length];
   return`<figure class="hero"><img class="bg" src="${p.f}" alt=""><img class="fg" src="${p.f}" alt="${p.cap}">${ps.length>1?`<button class="nav prev" aria-label="Photo précédente">‹</button><button class="nav next" aria-label="Photo suivante">›</button><div class="dots">${ps.map((_,i)=>`<i class="${i===phIdx%ps.length?"on":""}"></i>`).join("")}</div>`:""}${p.archive?`<span class="badge">Photo d'archive</span>`:`<span class="badge live">Photo · ${fmt(e.t?e.t.slice(0,10):e.date)}</span>`}</figure><p class="cap">${p.cap} <span>© ${p.cr}, ${p.lic}, via Wikimedia Commons</span></p>`}
 function open(mode){panel.dataset.mode=mode;const was=panel.hidden;panel.hidden=false;document.body.classList.add("open");if(was)panel.scrollTop=0;hint()}
-function select(id,spotKey,move=true){
+/* ---------- voix radio ---------- */
+const RADIO=(()=>{let ac=null,noise=null,cur=null;const ok="speechSynthesis" in window;
+ const ctx=()=>{ac=ac||new(window.AudioContext||window.webkitAudioContext)();if(ac.state==="suspended")ac.resume();return ac};
+ function jingle(){const a=ctx(),t=a.currentTime+.05;[[784,0],[659,.17],[523,.34],[784,.56]].forEach(([f,d])=>{const o=a.createOscillator(),g=a.createGain(),bp=a.createBiquadFilter();o.type="square";o.frequency.value=f;bp.type="bandpass";bp.frequency.value=1500;bp.Q.value=.9;g.gain.setValueAtTime(0,t+d);g.gain.linearRampToValueAtTime(.07,t+d+.02);g.gain.exponentialRampToValueAtTime(.001,t+d+.32);o.connect(bp).connect(g).connect(a.destination);o.start(t+d);o.stop(t+d+.35)});return 1000}
+ function crackle(){const a=ctx(),n=a.sampleRate*2,b=a.createBuffer(1,n,a.sampleRate),d=b.getChannelData(0);for(let i=0;i<n;i++)d[i]=(Math.random()*2-1)*.22+(Math.random()<.0009?(Math.random()*2-1)*1.6:0);
+  const s=a.createBufferSource();s.buffer=b;s.loop=true;const f=a.createBiquadFilter();f.type="bandpass";f.frequency.value=2300;f.Q.value=.6;const g=a.createGain();g.gain.setValueAtTime(0,a.currentTime);g.gain.linearRampToValueAtTime(.045,a.currentTime+.3);s.connect(f).connect(g).connect(a.destination);s.start();noise={s,g}}
+ function stop(){if(ok)speechSynthesis.cancel();if(noise&&ac){const{s,g}=noise;g.gain.cancelScheduledValues(ac.currentTime);g.gain.setValueAtTime(g.gain.value,ac.currentTime);g.gain.linearRampToValueAtTime(0,ac.currentTime+.25);setTimeout(()=>{try{s.stop()}catch(_){}},320)}noise=null;cur=null;document.querySelectorAll(".radio-btn.on").forEach(b=>b.classList.remove("on"))}
+ const voice=()=>{const vs=speechSynthesis.getVoices().filter(v=>/^fr/i.test(v.lang));return vs.find(v=>/thomas|daniel|paul|henri|nicolas|homme|male/i.test(v.name))||vs.find(v=>/fr-FR/i.test(v.lang))||vs[0]};
+ function play(key,text,btn){if(cur===key){stop();return}stop();if(!ok)return;cur=key;if(btn)btn.classList.add("on");
+  try{crackle()}catch(_){}speechSynthesis.speak(new SpeechSynthesisUtterance(" "));let w=0;try{w=jingle()}catch(_){}
+  setTimeout(()=>{if(cur!==key)return;const u=new SpeechSynthesisUtterance(text);u.lang="fr-FR";const v=voice();if(v)u.voice=v;u.rate=1.03;u.pitch=.78;u.onend=u.onerror=()=>{if(cur===key)stop()};speechSynthesis.speak(u)},w)}
+ if(ok)speechSynthesis.getVoices();
+ return{play,stop,ok}})();
+const plain=h=>{const d=document.createElement("div");d.innerHTML=h||"";return d.textContent.replace(/\s+/g," ").trim()};
+panel.addEventListener("click",ev=>{const h=ev.target.closest("[data-radio]");if(!h||!RADIO.ok)return;const e=EVENTS.find(x=>x.id===selected);if(!e)return;
+ const btn=h.querySelector(".radio-btn");let txt,key;
+ if(selSpot){const s=(e.spots||[])[+selSpot.slice(e.id.length)];if(!s)return;key=selSpot;txt=`Ici POPMAP. ${e.place}, ${s.n}. ${plain(s.d)}`}
+ else{key=e.id;txt=`Ici POPMAP. ${e.place}. ${plain(e.title)}. ${plain(e.summary)}`}
+ RADIO.play(key,txt,btn)});
+function select(id,spotKey,move=true){RADIO.stop();
   selected=id;selSpot=spotKey||null;selPrac=null;const e=EVENTS.find(x=>x.id===id),c=col(e.cat);
   if(lastId!==id){phIdx=0;lastId=id}
   const near=e.spots||[];
@@ -458,7 +480,7 @@ function select(id,spotKey,move=true){
    panel.innerHTML=`<button class="close" aria-label="Fermer la fiche">×</button>
    <div class="kicker" style="margin-top:6px"><span class="pill" style="background:${c}">${CATS[e.cat].label}</span><span>Point chaud · ${e.place}</span></div>
    <div class="kicker">${s.t?(()=>{const x=dt(s.t,s.ta);return x.day+" · "+x.h})():fmt(e.date)}</div>
-   <h2>${s.n}</h2><p>${s.d}</p>
+   <h2 data-radio>${s.n}${RADIO.ok?`<button class="radio-btn" aria-label="Écouter en version radio"><svg viewBox="0 0 16 16" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="1.5" y="5.5" width="13" height="8.5" rx="1.8"/><path d="M4 5.5L11 2"/><circle cx="10.5" cy="9.7" r="2"/><path d="M3.8 8.5h3M3.8 11h3"/></svg>Radio</button>`:""}</h2><p>${s.d}</p>
    <button class="btn" id="backev">Toute la fiche ${e.place} →</button>
    ${near.length>1?`<h3>Autres points chauds · ${e.place}</h3><div class="spots">${near.map((x,j)=>j===i?"":`<button data-i="${j}"><i style="background:${c}"></i><span>${x.n}<small>${x.d}</small></span><em>${x.t?dt(x.t,x.ta).h:""}</em></button>`).join("")}</div>`:""}
    ${srcs(e.src)}<p class="note">${META.note}</p>`;
@@ -470,7 +492,7 @@ function select(id,spotKey,move=true){
   panel.innerHTML=`<button class="close" aria-label="Fermer la fiche">×</button>${hero(e)}
    <div class="kicker"><span class="pill" style="background:${c}">${CATS[e.cat].label}</span><span class="sev" title="Intensité ${e.sev}/3">${[1,2,3].map(i=>`<b class="${i<=e.sev?"on":""}"></b>`).join("")}</span>${trust(e)}</div>
    <div class="kicker">${e.country} · ${e.t?(()=>{const x=dt(e.t,e.ta);return x.day+(e.ta?"":" · "+x.h)})():fmt(e.date)}${e.live?" · en cours":""}</div>
-   <h2>${e.place}</h2>
+   <h2 data-radio>${e.place}${RADIO.ok?`<button class="radio-btn" aria-label="Écouter en version radio"><svg viewBox="0 0 16 16" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="1.5" y="5.5" width="13" height="8.5" rx="1.8"/><path d="M4 5.5L11 2"/><circle cx="10.5" cy="9.7" r="2"/><path d="M3.8 8.5h3M3.8 11h3"/></svg>Radio</button>`:""}</h2>
    ${e.posts?`<div class="posts">${e.posts.map(p=>`<a class="post" href="${p.u}" target="_blank" rel="noopener"><span class="av">${p.ini}</span><span class="pb"><b>${p.who}</b><span>${p.txt}</span></span><span class="pv">Voir le post ↗</span></a>`).join("")}</div>`:""}
    ${e.media?`<div class="real"><span>Voir en vrai</span>${e.media.map(m=>`<a href="${m[2]}" target="_blank" rel="noopener"><b>${m[0]}</b>${m[1]} ↗</a>`).join("")}</div>`:""}
    <p><strong>${e.title}.</strong> ${e.summary}</p>
@@ -546,7 +568,7 @@ function pollCount(){const n=document.getElementById("pollN");if(n)n.textContent
   if(uid){const mine=await db.doc("votes/"+uid).get().catch(()=>null);if(mine&&mine.exists)myVote=mine.data()}
   db.collection("votes").where("d","==",Q.date).onSnapshot(s=>{votes=s.docs.map(d=>d.data());pollCount();if(!panel.hidden&&panel.dataset.mode==="poll"&&!pending&&!panel.contains(document.activeElement))openPoll();else render()},()=>{});
 }catch(e){db=null}finally{dbTried=true;if(!panel.hidden&&panel.dataset.mode==="poll")openPoll()}})();
-function closePanel(){if(panel.hidden)return;panel.hidden=true;document.body.classList.remove("open");selected=selSpot=selPrac=null;render();hint()}
+function closePanel(){RADIO.stop();if(panel.hidden)return;panel.hidden=true;document.body.classList.remove("open");selected=selSpot=selPrac=null;render();hint()}
 function hint(){const h=document.getElementById("hint");const L=EVENTS.filter(e=>active.has(e.cat)&&inScope(e));
   h.textContent=L.length||showPrac?`${L.length} foyer${L.length>1?"s":""} · ${L.filter(e=>e.live).length} en cours · touche un point`:"Carte vierge · active une catégorie en haut";h.style.opacity=panel.hidden&&!replayOn&&!aroundOn?1:0}
 addEventListener("keydown",e=>{if(e.key==="Escape"){if(!panel.hidden)closePanel();else if(replayOn)stopReplay();else if(aroundOn)stopAround()}});
