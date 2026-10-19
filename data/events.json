@@ -66,6 +66,10 @@
    [
     "19 oct.",
     "Selon le parquet de Paris, au moins 145 gardes à vue ; dans la nuit, 36 commerces dégradés dont 33 pillés et 176 feux de voie publique. Le gouvernement estime à au moins 3 000 le nombre de commerces touchés en France ; fonds de soutien et chômage partiel annoncés. Le garde des Sceaux compte 2 331 gardes à vue sur le week-end."
+   ],
+   [
+    "19 oct. soir",
+    "Couvre-feu de 22 h à 6 h place de la République et autour des Halles, pour tout le public, et interdiction de manifester dans certains quartiers de 20 h à 6 h, selon la préfecture. Le garde des Sceaux Gérald Darmanin annonce 2 513 gardes à vue et 67 personnes incarcérées depuis samedi."
    ]
   ],
   "spots": [
@@ -222,7 +226,9 @@
    "express18",
    "bfmnuit",
    "e1live",
-   "sudradio"
+   "sudradio",
+   "cnewscf",
+   "morandcf"
   ],
   "photos": [
    {
@@ -956,7 +962,15 @@
   "src": [
    "cannes",
    "nicep",
-   "ajeu2"
+   "ajeu2",
+   "morandcf",
+   "boursocf"
+  ],
+  "tl": [
+   [
+    "19 oct.",
+    "Couvre-feu pour les mineurs de 21 h à 6 h dans le centre-ville jusqu'au dimanche 25 octobre, annoncé par le maire Éric Ciotti et relayé par la préfecture."
+   ]
   ]
  },
  {
@@ -1399,26 +1413,26 @@
   "cat": "emeute",
   "sev": 3,
   "live": true,
-  "date": "2026-10-18",
+  "date": "2026-10-19",
   "zoom": 18000,
   "title": "Guérilla urbaine autour du Duomo",
   "summary": "La manifestation « Italia in piazza » contre la vie chère, le prix de l'essence et la pression fiscale (environ 5 000 personnes, très jeunes, mobilisées via TikTok et Instagram) a dégénéré samedi. Des groupes vêtus de noir ont repoussé la police et occupé la piazza del Duomo à coups de pierres, pétards et barrières. Nouvelles tensions et commerces attaqués dimanche après-midi.",
   "figs": [
    [
-    "160",
-    "personnes conduites à la questura le 18, ~80 % mineurs"
+    "32",
+    "arrestations le 18, dont 23 mineurs"
    ],
    [
-    "104",
-    "policiers blessés soignés à Milan le 17"
+    "271",
+    "personnes conduites à la questura le 18"
    ],
    [
-    "17",
-    "arrestations à Milan le 17"
+    "~1 M€",
+    "de dégâts (Confcommercio)"
    ],
    [
-    "141",
-    "agents blessés en Italie le 17"
+    "~200",
+    "agents blessés en Italie (Mattarella)"
    ]
   ],
   "tl": [
@@ -1437,6 +1451,10 @@
    [
     "19 oct.",
     "Sommet sur l'ordre public au Palazzo Chigi autour de Giorgia Meloni ; un décret visant notamment les mineurs est à l'étude. Dégâts du 17 estimés à plus de 500 000 € par Confcommercio."
+   ],
+   [
+    "19 oct.",
+    "Bilan du 18 : 32 arrestations dont 23 mineurs, 271 personnes conduites à la questura, 14 policiers blessés. Dégâts estimés à environ un million d'euros par Confcommercio ; commerces du luxe fermés par précaution. Le président Mattarella dénonce des « violences inacceptables » ; un décret sur l'ordre public est attendu en Conseil des ministres le 20 octobre (garde à vue préventive jusqu'à 24 h selon la Ligue). 500 militaires supplémentaires annoncés pour Milan."
    ]
   ],
   "spots": [
@@ -1562,7 +1580,9 @@
    "reu",
    "fa",
    "ansami18",
-   "ansachigi"
+   "ansachigi",
+   "lapresse19",
+   "ansa19mi"
   ],
   "photos": [
    {
@@ -2091,8 +2111,8 @@
   "cat": "emeute",
   "sev": 3,
   "live": true,
-  "date": "2026-10-18",
-  "title": "Sixième jour de heurts, Rama refuse de démissionner",
+  "date": "2026-10-19",
+  "title": "Septième jour de heurts, Rama refuse de démissionner",
   "summary": "Parti des étudiants (coût des études) et de la vente d'une partie du littoral à un projet de luxe lié à Jared Kushner, le mouvement réclame de meilleures conditions d'études, des emplois et la démission du Premier ministre. Heurts devant le ministère de l'Éducation et autour du bureau d'Edi Rama ; balles en caoutchouc, canons à eau et gaz lacrymogènes. Rama refuse de démissionner, évoque une « main étrangère » et un risque pour l'adhésion à l'UE.",
   "figs": [
    [
@@ -2130,6 +2150,14 @@
     "d": "Affrontements aux abords, balles en caoutchouc et canons à eau.",
     "t": "2026-10-17T19:00",
     "ta": true
+   },
+   {
+    "n": "Boulevard Dëshmorët e Kombit",
+    "lon": 19.819,
+    "lat": 41.32,
+    "d": "19 oct. : la police disperse les manifestants au gaz lacrymogène.",
+    "t": "2026-10-19T18:00",
+    "ta": true
    }
   ],
   "src": [
@@ -2138,7 +2166,9 @@
    "ajeu",
    "ajtirana",
    "usnrama",
-   "euntirana"
+   "euntirana",
+   "adn7",
+   "cna7"
   ],
   "photos": [
    {
@@ -2155,6 +2185,10 @@
    [
     "18 oct.",
     "Sixième journée de mobilisation ; Rama exclut toute démission."
+   ],
+   [
+    "19 oct.",
+    "Septième journée : jets de pierres et de cocktails Molotov vers le boulevard Dëshmorët e Kombit, gaz lacrymogène de la police. Bilans non communiqués."
    ]
   ],
   "zoom": 12000

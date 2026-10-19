@@ -371,18 +371,48 @@
   ]
  },
  {
+  "id": "p-paris-cf",
+  "kind": "interdiction",
+  "place": "Paris · République et Les Halles",
+  "lon": 2.355,
+  "lat": 48.864,
+  "t": "2026-10-19T22:00",
+  "until": "2026-10-20T06:00",
+  "title": "Couvre-feu 22 h – 6 h",
+  "text": "Couvre-feu pour tout le public place de la République et autour des Halles ; manifestations interdites dans certains quartiers de 20 h à 6 h, selon la préfecture de police.",
+  "src": [
+   "cnewscf",
+   "morandcf"
+  ]
+ },
+ {
+  "id": "p-nice-cf",
+  "kind": "interdiction",
+  "place": "Nice · centre-ville",
+  "lon": 7.27,
+  "lat": 43.699,
+  "t": "2026-10-19T21:00",
+  "until": "2026-10-25T06:00",
+  "title": "Couvre-feu des mineurs 21 h – 6 h",
+  "text": "Couvre-feu pour les mineurs dans le centre-ville jusqu'au 25 octobre, annoncé par le maire et la préfecture des Alpes-Maritimes.",
+  "src": [
+   "morandcf",
+   "boursocf"
+  ]
+ },
+ {
   "id": "p-nord",
   "kind": "interdiction",
   "place": "Lille · Douai · Wattignies · Denain",
   "lon": 3.0573,
   "lat": 50.6292,
-  "t": "2026-10-19T21:00",
+  "t": "2026-10-19T20:00",
   "until": "2026-10-21T06:00",
-  "ta": true,
-  "title": "Premiers couvre-feux dans le Nord",
-  "text": "Matignon annonce de premiers couvre-feux pour les nuits de lundi et mardi à Lille, Douai, Wattignies et Denain (horaires et périmètres précisés par les préfectures).",
+  "title": "Couvre-feux 20 h – 6 h",
+  "text": "Couvre-feux sur une partie de chaque commune les nuits de lundi et mardi, annoncés par Matignon avec l'accord des maires ; zones précisées par la préfecture du Nord. À Denain, couvre-feu municipal jusqu'au 25 octobre.",
   "src": [
-   "e1live"
+   "e1live",
+   "morandcf"
   ]
  }
 ]

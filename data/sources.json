@@ -990,5 +990,33 @@
  "antilla19": {
   "t": "Antilla — le mouvement a commencé",
   "u": "https://antilla-martinique.com/le-mouvement-annonce-par-le-rpprac-a-bien-commence-ce-lundi-19-octobre-2026/"
+ },
+ "cnewscf": {
+  "t": "CNews — couvre-feu à Paris dès ce soir",
+  "u": "https://www.cnews.fr/france/2026-10-19/violences-urbaines-un-couvre-feu-instaure-des-ce-soir-paris-autour-de-la-place-de"
+ },
+ "morandcf": {
+  "t": "JeanMarcMorandini.com — couvre-feux du 19",
+  "u": "https://www.jeanmarcmorandini.com/article-655109-urgent-chaos-un-couvre-feu-instaure-pour-les-mineurs-des-ce-soir-a-paris-place-de-la-republique-et-autour-des-halles-mais-egalement-dans-plusieurs-quartiers-a-nice-lille-douai-wattignies-et-denain.html"
+ },
+ "boursocf": {
+  "t": "Boursorama / Reuters — couvre-feux Paris, Nice, Lille",
+  "u": "https://www.boursorama.com/bourse/actualites/en-direct-des-couvre-feux-annonces-a-paris-nice-et-lille-apres-les-violences-2e2faec92c5c0c0b446dc1c561a89241"
+ },
+ "lapresse19": {
+  "t": "LaPresse — Milan, direct du 19",
+  "u": "https://www.lapresse.it/cronaca/2026/10/19/scontri-a-milano-le-notizie-in-diretta-del-19-ottobre-2026/"
+ },
+ "ansa19mi": {
+  "t": "ANSA — Mattarella, magasins fermés",
+  "u": "https://www.ansa.it/sito/notizie/cronaca/2026/10/19/paura-di-nuovi-disordini-a-milano-chiudono-i-negozi-del-lusso_0d0d286f-7f8f-420a-9737-2566da0ba8a2.html"
+ },
+ "adn7": {
+  "t": "Albanian Daily News — 7e jour",
+  "u": "https://albaniandailynews.com/news/albania-protest-enters-seventh-day-as-clashes-erupt-between-demonstrators-and-police"
+ },
+ "cna7": {
+  "t": "Top Channel / CNA — 7e jour",
+  "u": "https://www.cna.al/english/aktualitet/fotolajm-dita-e-7-te-e-protestes-tirana-mes-tensioneve-dhe-kaosit-i477340"
  }
 }
