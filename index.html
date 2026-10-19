@@ -23,6 +23,22 @@
 .ab .fine{font-size:12px;opacity:.6;margin-top:18px}
 .ab .cta{all:unset;display:block;text-align:center;cursor:not-allowed;padding:11px 14px;border-radius:10px;background:var(--bg);font:600 14px var(--f-body);opacity:.75;margin-top:10px}
 .ab .lnk{all:unset;cursor:pointer;color:var(--accent);font:600 14px var(--f-body)}
+
+.scope-ov{position:fixed;inset:0;z-index:50;display:grid;place-items:center;padding:16px;background:color-mix(in srgb,var(--bg) 55%,transparent);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px)}
+.scope-ov[hidden]{display:none}
+.scope-card{width:min(560px,100%);max-height:calc(100dvh - 32px);overflow:auto;background:var(--card);color:var(--ink);border-radius:18px;padding:22px 20px 18px;box-shadow:0 20px 60px rgba(0,0,0,.25)}
+.scope-card h2{margin:4px 0 4px;font:800 26px/1.1 var(--f-head,inherit);letter-spacing:-.01em}
+.scope-card .sub{margin:0 0 14px;opacity:.7;font-size:14px}
+.scope-card h3{margin:16px 0 8px;font:600 11px var(--f-mono);text-transform:uppercase;letter-spacing:.06em;opacity:.65}
+.scope-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+.scope-grid.big button{padding:14px 12px;font-size:15px}
+.scope-grid.big{grid-template-columns:repeat(2,minmax(0,1fr))!important}
+.scope-grid button{all:unset;box-sizing:border-box;cursor:pointer;padding:10px 12px;border-radius:12px;background:var(--bg);font:600 14px var(--f-body);display:flex;flex-direction:column;gap:2px}
+.scope-grid button small{font:400 12px var(--f-body);opacity:.65}
+.scope-grid button:hover,.scope-grid button:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+.scope-grid button[aria-current]{background:var(--accent);color:#fff}
+.scope-grid button[aria-current] small{opacity:.85}
+@media (max-width:420px){.scope-grid{grid-template-columns:1fr 1fr}.scope-card h2{font-size:22px}}
 </style>
 </head><body>
 <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css">
@@ -249,6 +265,14 @@ h3{font:600 11px/1 var(--f-mono);text-transform:uppercase;letter-spacing:.08em;c
   <article class="panel" id="panel" aria-live="polite" hidden></article>
 </div>
 
+<div class="scope-ov" id="scopeOv" hidden role="dialog" aria-modal="true" aria-labelledby="scopeT">
+  <div class="scope-card">
+    <div class="kicker">POPMAP</div>
+    <h2 id="scopeT">Quelle carte veux-tu voir ?</h2>
+    <p class="sub">Tu ne verras que ce qui se passe dans la zone choisie. Tu pourras changer à tout moment.</p>
+    <div id="scopeBody"></div>
+  </div>
+</div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
 <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
 <script>
@@ -282,6 +306,48 @@ const jSel=document.createElement("select");jSel.className="chip";jSel.setAttrib
 jSel.innerHTML=`<option value="">Aller à…</option>`+JUMPS.map((j,i)=>`<option value="${i}">${j[0]}</option>`).join("");
 jSel.onchange=()=>{const j=JUMPS[+jSel.value];if(j){closePanel();fly(j[1],j[2],j[3])}jSel.value=""};
 fEl.appendChild(jSel);
+
+/* ---------- choix de la carte (zone) ---------- */
+const bb=(a,b,c,d)=>o=>o.lon>=a&&o.lon<=b&&o.lat>=c&&o.lat<=d;
+const city=(lon,lat,r=.45)=>bb(lon-r*1.4,lon+r*1.4,lat-r,lat+r);
+const isFr=o=>o.country?o.country.startsWith("France"):(bb(-5.5,10,41.2,51.3)(o)||bb(-63.2,-60.7,14.3,16.6)(o)||bb(55,56,-21.5,-20.8)(o)||bb(44.9,45.4,-13.1,-12.5)(o));
+const SCOPES=[
+ {id:"monde",g:0,n:"Le monde entier",d:"Tout ce qu'on suit",lon:15,lat:25,p:-1,f:null},
+ {id:"europe",g:0,n:"L'Europe",d:"De Lisbonne à Kyiv",lon:12,lat:50,p:9,f:bb(-25,45,34,72)},
+ {id:"france",g:0,n:"La France",d:"Avec l'outre-mer",lon:2.5,lat:46.6,p:40,f:isFr},
+ {id:"paris",g:0,n:"Paris",d:"Et l'Île-de-France",lon:2.35,lat:48.86,p:2000,f:bb(1.4,3.6,48.1,49.3)},
+ {id:"lyon",g:1,n:"Lyon",lon:4.835,lat:45.76,p:3500,f:city(4.835,45.76)},
+ {id:"marseille",g:1,n:"Marseille",lon:5.38,lat:43.3,p:3500,f:city(5.38,43.3)},
+ {id:"bordeaux",g:1,n:"Bordeaux",lon:-0.575,lat:44.84,p:3500,f:city(-0.575,44.84)},
+ {id:"lille",g:1,n:"Lille",lon:3.06,lat:50.63,p:3500,f:city(3.06,50.63)},
+ {id:"toulouse",g:1,n:"Toulouse",lon:1.444,lat:43.605,p:3500,f:city(1.444,43.605)},
+ {id:"nantes",g:1,n:"Nantes",lon:-1.556,lat:47.214,p:3500,f:city(-1.556,47.214)},
+ {id:"strasbourg",g:1,n:"Strasbourg",lon:7.748,lat:48.583,p:3500,f:city(7.748,48.583)},
+ {id:"nice",g:1,n:"Nice",lon:7.26,lat:43.70,p:3500,f:city(7.26,43.70)},
+ {id:"moyenorient",g:2,n:"Moyen-Orient",d:"Gaza, Liban, Iran, Golfe",lon:42,lat:27,p:11,f:bb(25,63,10,42)},
+ {id:"ukraine",g:2,n:"Ukraine et Russie",lon:34,lat:52,p:12,f:bb(22,60,44,62)},
+ {id:"afrique",g:2,n:"Afrique",lon:18,lat:5,p:5,f:bb(-20,52,-36,24)},
+ {id:"ameriques",g:2,n:"Amériques",lon:-80,lat:15,p:3,f:bb(-170,-30,-56,72)},
+ {id:"asie",g:2,n:"Asie",lon:95,lat:25,p:4.5,f:bb(60,150,-12,55)}];
+let SCOPE=SCOPES.find(s=>s.id===store.get("pm_scope"))||null;
+function inScope(o){return !SCOPE||!SCOPE.f||SCOPE.f(o)}
+const scopeOv=document.getElementById("scopeOv"),scopeBody=document.getElementById("scopeBody");
+const scopeChip=document.createElement("button");scopeChip.className="chip";scopeChip.id="scopeChip";scopeChip.setAttribute("aria-label","Choisir ma carte");
+function scopeLabel(){scopeChip.innerHTML=`<i style="background:var(--accent)"></i>${SCOPE?SCOPE.n.replace(/^(Le |La |L')/,"").replace(/^monde entier$/,"Monde"):"Monde"} ▾`}
+scopeLabel();fEl.insertBefore(scopeChip,jSel);
+function scopeView(s){closePanel();if(s.p<0)fly(s.lon,s.lat,Math.max(1,Math.min(innerWidth,innerHeight*1.6)/400));else fly(s.lon,s.lat,s.p)}
+function setScope(id){SCOPE=SCOPES.find(s=>s.id===id)||null;store.set("pm_scope",id);scopeLabel();scopeOv.hidden=true;render();hint();if(SCOPE)scopeView(SCOPE)}
+function openScope(){const cur=SCOPE?SCOPE.id:"";
+  const btn=s=>`<button data-s="${s.id}" ${s.id===cur?'aria-current="true"':""}>${s.n}${s.d?`<small>${s.d}</small>`:""}</button>`;
+  scopeBody.innerHTML=`<div class="scope-grid big">${SCOPES.filter(s=>s.g===0).map(btn).join("")}</div>
+   <h3>Une ville</h3><div class="scope-grid">${SCOPES.filter(s=>s.g===1).map(btn).join("")}</div>
+   <h3>Une région du monde</h3><div class="scope-grid">${SCOPES.filter(s=>s.g===2).map(btn).join("")}</div>
+   <h3>Près de chez moi</h3><div class="scope-grid"><button data-s="around">Autour de moi<small>Je place mon repère</small></button></div>`;
+  scopeBody.querySelectorAll("button").forEach(b=>b.onclick=()=>{if(b.dataset.s==="around"){setScope("monde");document.getElementById("btnAround").click()}else setScope(b.dataset.s)});
+  scopeOv.hidden=false;scopeBody.querySelector("button")?.focus()}
+scopeChip.onclick=openScope;
+scopeOv.addEventListener("click",e=>{if(e.target===scopeOv&&SCOPE){scopeOv.hidden=true}});
+addEventListener("keydown",e=>{if(e.key==="Escape"&&!scopeOv.hidden){scopeOv.hidden=true;if(!SCOPE)setScope("monde")}});
 Object.entries(CATS).forEach(([k,c])=>{const b=document.createElement("button");b.className="chip";b.setAttribute("aria-pressed","true");b.dataset.k=k;
   b.innerHTML=`<i style="background:var(${c.v})"></i>${c.label}`;
   b.onclick=()=>{active.has(k)?active.delete(k):active.add(k);sync();render();hint()};fEl.appendChild(b)});
@@ -316,7 +382,7 @@ let me=store.get("rc_me"),radius=store.get("rc_r")||20,aroundOn=false;
 const km=(a,b)=>{const r=Math.PI/180,dl=(b[1]-a[1])*r,dn=(b[0]-a[0])*r;const x=Math.sin(dl/2)**2+Math.cos(a[1]*r)*Math.cos(b[1]*r)*Math.sin(dn/2)**2;return 12742*Math.asin(Math.sqrt(x))};
 const pracState=p=>{const a=T(p.t),b=p.until?T(p.until):a;return NOW<a?"avenir":NOW>b?"passe":"encours"};
 
-function visEvents(){return EVENTS.filter(e=>active.has(e.cat)&&(!replayOn||(e.t&&T(e.t)>=R0&&T(e.t)<=tCur)))}
+function visEvents(){return EVENTS.filter(e=>active.has(e.cat)&&inScope(e)&&(!replayOn||(e.t&&T(e.t)>=R0&&T(e.t)<=tCur)))}
 function render(){
   const P=ppd(),street=P>1800;
   const sv=e=>e.spots&&P>Math.min(1800,(e.zoom||9000)*.5);
@@ -330,12 +396,12 @@ function render(){
   ev.select("circle.halo").attr("r",d=>3+d.sev*2).attr("stroke",d=>col(d.cat)).style("display",d=>d.live&&!replayOn?null:"none");
   ev.select("text").text(d=>(P>=28||(d.sev===3&&P>=4)||(d.id===selected&&P>=4)||(replayOn&&P>=8))?d.place:"");
   ev.sort((a,b)=>(a.id===selected)-(b.id===selected));
-  const spots=EVENTS.filter(e=>sv(e)&&active.has(e.cat)).flatMap(e=>e.spots.map((s,i)=>({...s,ev:e,key:e.id+i}))).filter(s=>!replayOn||(s.t&&T(s.t)<=tCur&&T(s.t)>=R0));
+  const spots=EVENTS.filter(e=>sv(e)&&active.has(e.cat)&&inScope(e)).flatMap(e=>e.spots.map((s,i)=>({...s,ev:e,key:e.id+i}))).filter(s=>!replayOn||(s.t&&T(s.t)<=tCur&&T(s.t)>=R0));
   const sp=gSp.selectAll("g.sp").data(spots,d=>d.key).join(enter=>{const g=enter.append("g").attr("class","sp").style("cursor","pointer").on("click",(e,d)=>{if(aroundOn)return;e.stopPropagation();select(d.ev.id,d.key)});
     g.append("circle").attr("r",16).attr("fill","transparent");g.append("circle").attr("class","m").attr("r",6);g.append("text").attr("x",10).attr("y",4);if(replayOn)g.classed("new",true);return g});
   sp.attr("transform",d=>{const p=proj([d.lon,d.lat]);return`translate(${p[0]},${p[1]})`}).classed("sel",d=>d.key===selSpot);
   sp.select("circle.m").attr("fill",d=>col(d.ev.cat));sp.select("text").text(d=>d.n);
-  const pr=showPrac?PRAC.filter(p=>!replayOn||(T(p.t)<=tCur&&T(p.t)>=R0)).filter(p=>p.kind!=="agenda"||!replayOn):[];
+  const pr=showPrac?PRAC.filter(p=>inScope(p)&&(!replayOn||(T(p.t)<=tCur&&T(p.t)>=R0))).filter(p=>p.kind!=="agenda"||!replayOn):[];
   const g3=gPr.selectAll("g.pr").data(pr,d=>d.id).join(enter=>{const g=enter.append("g").attr("class","pr").style("cursor","pointer").on("click",(e,d)=>{if(aroundOn)return;e.stopPropagation();selectPrac(d.id)});
     g.append("circle").attr("r",15).attr("fill","transparent");g.append("rect").attr("x",-6.5).attr("y",-6.5).attr("width",13).attr("height",13).attr("rx",2.5);g.append("rect").attr("class","bar").attr("x",-4).attr("y",-1.2).attr("width",8).attr("height",2.4).attr("rx",1);g.append("text").attr("x",11).attr("y",4);return g});
   g3.attr("transform",d=>{const p=proj([d.lon,d.lat]);return`translate(${p[0]},${p[1]})${d.kind==="agenda"?" rotate(45)":""}`}).classed("past",d=>!replayOn&&pracState(d)==="passe").classed("sel",d=>d.id===selPrac);
@@ -472,8 +538,8 @@ function pollCount(){const n=document.getElementById("pollN");if(n)n.textContent
   db.collection("votes").where("d","==",Q.date).onSnapshot(s=>{votes=s.docs.map(d=>d.data());pollCount();if(!panel.hidden&&panel.dataset.mode==="poll"&&!pending&&!panel.contains(document.activeElement))openPoll();else render()},()=>{});
 }catch(e){db=null}finally{dbTried=true;if(!panel.hidden&&panel.dataset.mode==="poll")openPoll()}})();
 function closePanel(){if(panel.hidden)return;panel.hidden=true;document.body.classList.remove("open");selected=selSpot=selPrac=null;render();hint()}
-function hint(){const h=document.getElementById("hint");const L=EVENTS.filter(e=>active.has(e.cat));
-  h.textContent=L.length||showPrac?`${L.length} foyers · ${L.filter(e=>e.live).length} en cours · touche un point`:"Carte vierge · active une catégorie en haut";h.style.opacity=panel.hidden&&!replayOn&&!aroundOn?1:0}
+function hint(){const h=document.getElementById("hint");const L=EVENTS.filter(e=>active.has(e.cat)&&inScope(e));
+  h.textContent=L.length||showPrac?`${L.length} foyer${L.length>1?"s":""} · ${L.filter(e=>e.live).length} en cours · touche un point`:"Carte vierge · active une catégorie en haut";h.style.opacity=panel.hidden&&!replayOn&&!aroundOn?1:0}
 addEventListener("keydown",e=>{if(e.key==="Escape"){if(!panel.hidden)closePanel();else if(replayOn)stopReplay();else if(aroundOn)stopAround()}});
 map.on("click",e=>{if(aroundOn){me=[+e.lngLat.lng.toFixed(4),+e.lngLat.lat.toFixed(4)];store.set("rc_me",me);updAround();render();return}closePanel()});
 
@@ -576,6 +642,8 @@ function openVideo(){selected=selSpot=selPrac=null;
   open("video");panel.scrollTop=0;render()}
 {const b=document.getElementById("brandBtn");b.onclick=openAbout;b.onkeydown=e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();openAbout()}}}
 document.getElementById("btnVideo").onclick=openVideo;
+
+{const hh=location.hash.slice(1);if(SCOPE&&!hh)requestAnimationFrame(()=>scopeView(SCOPE));else if(!SCOPE&&!hh)openScope();}
 
 })();
 </script>
