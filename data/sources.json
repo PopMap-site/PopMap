@@ -790,5 +790,129 @@
  "focustw": {
   "t": "Focus Taiwan — exercices éloignés",
   "u": "https://focustaiwan.tw/politics/202610120006"
+ },
+ "zaymq": {
+  "t": "ZayActu — nuit du 18 au 19 en Martinique",
+  "u": "https://www.zayactu.org/martinique/nuit-agitee-en-martinique-avec-plus-de-20-barrages-des-commerces-saccages-et-5-braquages"
+ },
+ "zaymq2": {
+  "t": "ZayActu — barrages enflammés",
+  "u": "https://www.zayactu.org/martinique/des-barrages-enflammes-eriges-dans-plusieurs-communes-durant-la-nuit-pompiers-et-forces-de-l-ordre-mobilises"
+ },
+ "zaymq3": {
+  "t": "ZayActu — ultimatum du RPPRAC",
+  "u": "https://www.zayactu.org/martinique/vie-chere-en-martinique-le-rpprac-annonce-la-reprise-du-combat-a-partir-du-19-octobre-2026"
+ },
+ "la1mq": {
+  "t": "Martinique La 1ère — points de blocage",
+  "u": "https://la1ere.franceinfo.fr/martinique/barrages-en-martinique-la-circulation-perturbee-ce-lundi-voici-les-points-de-blocage-1749552.html"
+ },
+ "varinfos": {
+  "t": "Var Infos — Toulon",
+  "u": "https://www.varinfos.fr/news/toulon-11-interpellations-apres-une-manifestation-emaillee-de-violences-1128"
+ },
+ "varactu": {
+  "t": "Var Actu — Toulon",
+  "u": "https://www.varactu.fr/manifestation-a-toulon-ce-samedi-17-octobre-quatre-interpellations-et-une-dispersion-forcee/"
+ },
+ "icibay": {
+  "t": "ICI Pays basque — Bayonne",
+  "u": "https://www.ici.fr/nouvelle-aquitaine/pyrenees-atlantiques-64/bayonne/mobilisation-du-17-octobre-a-bayonne-9-personnes-ont-ete-interpellees-37-sur-l-ensemble-du-departement-6004470"
+ },
+ "icibay2": {
+  "t": "ICI Pays basque — heurts",
+  "u": "https://www.ici.fr/nouvelle-aquitaine/pyrenees-atlantiques-64/bayonne/mobilisation-du-17-octobre-a-bayonne-des-heurts-eclatent-apres-quatre-heures-de-manifestation-calme-et-bon-enfant-9389225"
+ },
+ "icipoit": {
+  "t": "ICI Poitou — Poitiers",
+  "u": "https://www.ici.fr/nouvelle-aquitaine/vienne-86/poitiers/mobilisation-du-17-octobre-a-poitiers-une-vaste-manifestation-ternie-par-les-debordements-d-une-minorite-9677157"
+ },
+ "f3poit": {
+  "t": "France 3 Poitou — Poitiers",
+  "u": "https://france3-regions.franceinfo.fr/nouvelle-aquitaine/vienne/poitiers/manifestations-du-17-octobre-comment-a-poitiers-une-mobilisation-pacifiste-s-est-conclut-dans-la-violence-3435264.html"
+ },
+ "f3amiens": {
+  "t": "France 3 Picardie — Amiens",
+  "u": "https://france3-regions.franceinfo.fr/hauts-de-france/somme/amiens/mobilisation-du-17-octobre-2026-entre-6-000-et-15-000-manifestants-a-amiens-plusieurs-points-de-rassemblement-dans-la-somme-l-oise-et-l-aisne-3435144.html"
+ },
+ "f3brest": {
+  "t": "France 3 Bretagne — Finistère et Morbihan",
+  "u": "https://france3-regions.franceinfo.fr/bretagne/finistere/brest/mouvement-du-17-octobre-un-deferlement-de-violence-a-touche-le-finistere-et-le-morbihan-en-marge-de-rassemblements-denses-et-pacifiques-3435480.html"
+ },
+ "rsiit": {
+  "t": "RSI — de Milan à Palerme",
+  "u": "https://www.rsi.ch/info/mondo/Il-carovita-fa-ribollire-l%E2%80%99Italia-da-Milano-a-Palermo--4171174.html"
+ },
+ "btliege": {
+  "t": "Brussels Times — Liège",
+  "u": "https://www.brusselstimes.com/belgium/2366595/police-resorts-to-water-cannons-at-ferocious-liege-protest"
+ },
+ "rtbfbl": {
+  "t": "RTBF — Bruxelles et Liège",
+  "u": "https://www.rtbf.be/article/la-contestation-continue-en-belgique-plusieurs-centaines-de-personnes-majoritairement-des-jeunes-reunies-dans-le-calme-a-bruxelles-et-a-liege-11801756"
+ },
+ "metrobcn": {
+  "t": "Metrópoli Abierta — 120 tentes",
+  "u": "https://metropoliabierta.elespanol.com/el-pulso-de-la-ciudad/20261001/acampada-vivienda-barcelona-crece-tiendas-plaza-catalunya/1003742799063_0.html"
+ },
+ "elnacbcn": {
+  "t": "El Nacional — Plaça Catalunya",
+  "u": "https://www.elnacional.cat/es/politica/acampada-por-vivienda-barcelona-seguira-en-plaza-catalunya-pesar-alerta-por-temporal_1704742_102.html"
+ },
+ "arabhoms": {
+  "t": "Arab News — bus attaqué à Homs",
+  "u": "https://www.arabnews.com/middle-east/attack-on-bus-in-syria-kills-seven-state-news-agency-3003989"
+ },
+ "anhahoms": {
+  "t": "ANHA — Homs",
+  "u": "https://hawarnews.com/en/7-killed-4-injured-after-bus-targeted-in-homs"
+ },
+ "toiharedi": {
+  "t": "Times of Israel — route 4 bloquée",
+  "u": "https://timesofisrael.com/liveblog_entry/haredi-anti-draft-protesters-block-route-4-in-central-israel-in-both-directions/"
+ },
+ "larepar": {
+  "t": "La República — Buenos Aires",
+  "u": "https://larepublica.pe/mundo/2026/10/15/policia-reprime-marcha-en-argentina-contra-los-recortes-de-milei-a-la-universidad-publica-y-su-financiamiento-1486365"
+ },
+ "cnnear": {
+  "t": "CNN en español — étudiants argentins",
+  "u": "https://cnnespanol.cnn.com/2026/10/15/latinoamerica/estudiantes-marchan-argentina-malestar-milei-orix"
+ },
+ "riocol": {
+  "t": "Rio Times — Amérique latine, 16 oct.",
+  "u": "https://www.riotimesonline.com/latin-american-pulse-for-friday-october-16-2026/"
+ },
+ "riocali": {
+  "t": "Rio Times — grenade à Cali",
+  "u": "https://www.riotimesonline.com/colombia-cali-grenade-attack-police-2026/"
+ },
+ "africanewscm": {
+  "t": "Africanews — féminicides au Cameroun",
+  "u": "https://www.africanews.com/2026/10/15/rise-in-femicides-in-cameroon-spurs-protests-and-demands-for-better-laws/"
+ },
+ "wpcm": {
+  "t": "Washington Post / AP — Cameroun",
+  "u": "https://www.washingtonpost.com/world/2026/10/15/cameroon-femicide-women/9be4e884-c856-11f1-aefb-abe4112d087e_story.html"
+ },
+ "starbelg": {
+  "t": "The Star / Reuters — Belgorod",
+  "u": "https://www.thestar.com.my/news/world/2026/10/09/two-dead-in-drone-strikes-in-russia039s-belgorod-region-officials-say"
+ },
+ "cleplyon": {
+  "t": "La Clé publique — bilan à Lyon",
+  "u": "https://laclepublique.fr/lyon-rhone/articles/2026/2026-10-18-lyon-bilan-emeutes/"
+ },
+ "lyonmag2": {
+  "t": "LyonMag — pillages la nuit et dimanche matin",
+  "u": "https://www.lyonmag.com/article/154445/lyon-les-pillages-se-sont-poursuivis-la-nuit-et-meme-dimanche-matin-aucun-commerce-epargne-en-presqu-ile"
+ },
+ "lyonmag3": {
+  "t": "LyonMag — une dizaine de pilleurs interpellés dimanche",
+  "u": "https://www.lyonmag.com/article/154468/lyon-une-dizaine-de-pilleurs-encore-interpelles-dimanche"
+ },
+ "maritima17": {
+  "t": "Maritima — le préfet évoque 7 000 à 8 000 pilleurs",
+  "u": "https://maritima.fr/actualites/faits-divers/marseille/16215/pillages-et-violences-a-marseille-nous-faisons-face-a-entre-7-000-et-8-000-pilleurs-alerte-le-prefet-jacques-witkowski"
  }
 }

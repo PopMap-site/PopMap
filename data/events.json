@@ -265,12 +265,20 @@
   "summary": "Environ 20 000 manifestants. Le pavillon historique de l'office de tourisme, place Bellecour, a été saccagé puis incendié vers 14 h 30 ; des groupes hostiles ont empêché les pompiers d'approcher. Magasins attaqués, canons à eau sur les ponts en fin d'après-midi. Dimanche, une cinquantaine de jeunes ont tenté de forcer la vitrine d'un magasin Lacoste.",
   "figs": [
    [
-    "20 000",
-    "manifestants (autorités)"
+    "160",
+    "gardes à vue, dont 36 mineurs (préfet)"
    ],
    [
-    "3",
-    "interpellés dimanche"
+    "100",
+    "policiers blessés (préfet)"
+   ],
+   [
+    "20 000+",
+    "manifestants (préfecture)"
+   ],
+   [
+    "13",
+    "pilleurs interpellés dimanche"
    ]
   ],
   "tl": [
@@ -289,6 +297,10 @@
    [
     "18 oct.",
     "Tentative de pillage d'un magasin Lacoste, dispersée au gaz lacrymogène."
+   ],
+   [
+    "17-18 oct.",
+    "Les pillages se poursuivent dans la nuit et jusqu'à dimanche matin vers 8 h dans la Presqu'île. Le préfet Étienne Guyot : « Notre priorité, hier, a été de protéger les vies »."
    ]
   ],
   "spots": [
@@ -355,6 +367,38 @@
     "d": "Intervention de la police à 19 h 50.",
     "t": "2026-10-17T19:50",
     "ta": false
+   },
+   {
+    "n": "Rue de la République",
+    "lon": 4.836,
+    "lat": 45.763,
+    "d": "Commerces attaqués et pillés, jusque dans la nuit.",
+    "t": "2026-10-17T18:00",
+    "ta": true
+   },
+   {
+    "n": "Rue Victor-Hugo",
+    "lon": 4.83,
+    "lat": 45.754,
+    "d": "Commerces attaqués.",
+    "t": "2026-10-17T17:00",
+    "ta": true
+   },
+   {
+    "n": "Hôtel de ville",
+    "lon": 4.8357,
+    "lat": 45.7676,
+    "d": "Protégé en priorité une partie de la soirée selon le maire.",
+    "t": "2026-10-17T20:00",
+    "ta": true
+   },
+   {
+    "n": "Cours Gambetta",
+    "lon": 4.846,
+    "lat": 45.752,
+    "d": "Rassemblements dans l'après-midi.",
+    "t": "2026-10-17T14:00",
+    "ta": true
    }
   ],
   "src": [
@@ -363,7 +407,10 @@
    "dh",
    "fi18",
    "lyonmag",
-   "express18"
+   "express18",
+   "cleplyon",
+   "lyonmag2",
+   "lyonmag3"
   ],
   "photos": [
    {
@@ -424,6 +471,10 @@
    [
     "19 oct.",
     "Toutes les manifestations interdites de 12 h à 20 h sur la commune. Laurent Nuñez reporte sa visite pour une réunion avec le Premier ministre. 13 personnes placées en détention provisoire à Marseille selon le garde des Sceaux."
+   ],
+   [
+    "17 oct. soir",
+    "Le préfet Jacques Witkowski évoque 7 000 à 8 000 pilleurs, 30 à 40 commerces pillés ou dégradés dont des armureries, 29 policiers blessés dont 2 grièvement, une vingtaine de civils blessés ; des incendies dans des immeubles d'habitation."
    ]
   ],
   "spots": [
@@ -486,7 +537,8 @@
    "onemedia",
    "maritima",
    "destimed",
-   "e1live"
+   "e1live",
+   "maritima17"
   ],
   "t": "2026-10-17T05:30",
   "ta": false
@@ -1567,13 +1619,22 @@
     "d": "Façade tagguée.",
     "t": "2026-10-17T16:30",
     "ta": true
+   },
+   {
+    "n": "Piazza Medaglie d'Oro",
+    "lon": 11.343,
+    "lat": 44.505,
+    "d": "Devant la gare : canons à eau et lacrymogènes contre des jeunes cagoulés.",
+    "t": "2026-10-17T16:00",
+    "ta": true
    }
   ],
   "src": [
    "agi",
    "fa",
    "reu",
-   "sky18"
+   "sky18",
+   "rsiit"
   ],
   "t": "2026-10-17T16:00",
   "ta": true
@@ -1615,12 +1676,21 @@
     "d": "Heurts dans l'après-midi.",
     "t": "2026-10-17T16:30",
     "ta": true
+   },
+   {
+    "n": "Piazza Vittorio Veneto",
+    "lon": 7.695,
+    "lat": 45.065,
+    "d": "Une bouteille lancée sur la police ; deux bousculades pendant la marche.",
+    "t": "2026-10-17T16:00",
+    "ta": true
    }
   ],
   "src": [
    "agi",
    "sky18",
-   "ansa"
+   "ansa",
+   "rsiit"
   ],
   "t": "2026-10-17T16:00",
   "ta": true,
@@ -1759,12 +1829,24 @@
   "live": true,
   "date": "2026-10-03",
   "title": "Campement « illimité » pour le logement",
-  "summary": "Comme à Madrid, un campement s'est installé et dit vouloir rester « indéfiniment », en direction d'une grève générale. Autres marches début octobre à Saint-Sébastien, Cadix, aux Canaries et à Teruel.",
+  "summary": "Depuis fin septembre, un campement pour le logement occupe la plaça de Catalunya (jusqu'à environ 120 tentes début octobre) ; l'assemblée a voté de rester « en toutes circonstances », malgré l'alerte rouge aux pluies du 3 octobre. Autres marches début octobre à Saint-Sébastien, Cadix, aux Canaries et à Teruel.",
   "src": [
-   "eues"
+   "eues",
+   "metrobcn",
+   "elnacbcn"
   ],
   "t": "2026-10-03T12:00",
-  "ta": true
+  "ta": true,
+  "spots": [
+   {
+    "n": "Plaça de Catalunya",
+    "lon": 2.17,
+    "lat": 41.387,
+    "d": "Campement pour le logement, environ 120 tentes début octobre.",
+    "t": "2026-10-01T12:00",
+    "ta": true
+   }
+  ]
  },
  {
   "id": "lisbonne",
@@ -1958,17 +2040,47 @@
   "lon": 5.5797,
   "lat": 50.6326,
   "cat": "manif",
-  "sev": 1,
+  "sev": 2,
   "live": false,
   "date": "2026-10-17",
-  "title": "Canons à eau sur de petits groupes",
-  "summary": "Une marche d'environ 250 personnes, en grande partie pacifique ; canons à eau utilisés contre de petits groupes.",
+  "title": "Canons à eau place Saint-Lambert",
+  "summary": "Environ 200 à 250 jeunes rassemblés vers 10 h à la gare des Guillemins. Sit-in bloquant les bus place Saint-Lambert, où une cinquantaine de personnes tirent des mortiers d'artifice vers le palais des Princes-Évêques ; canon à eau et gaz lacrymogène. Barricades et feux sur la voie publique le soir, accès à l'autoroute bloqué. Calme revenu en soirée selon la police.",
   "src": [
    "eube",
-   "kt"
+   "kt",
+   "btliege",
+   "rtbfbl"
   ],
   "t": "2026-10-17T15:00",
-  "ta": true
+  "ta": true,
+  "figs": [
+   [
+    "45",
+    "arrestations, dont 12 mineurs"
+   ],
+   [
+    "200-250",
+    "manifestants"
+   ]
+  ],
+  "spots": [
+   {
+    "n": "Gare des Guillemins",
+    "lon": 5.5667,
+    "lat": 50.6243,
+    "d": "Rassemblement pacifique vers 10 h.",
+    "t": "2026-10-17T10:00",
+    "ta": true
+   },
+   {
+    "n": "Place Saint-Lambert",
+    "lon": 5.5735,
+    "lat": 50.6455,
+    "d": "Sit-in, tirs de mortiers vers le palais ; canon à eau et lacrymogènes.",
+    "t": "2026-10-17T14:00",
+    "ta": true
+   }
+  ]
  },
  {
   "id": "tirana",
@@ -4034,5 +4146,440 @@
    "fortifyr"
   ],
   "zoom": 250
+ },
+ {
+  "id": "martinique",
+  "place": "Martinique",
+  "country": "France (outre-mer)",
+  "lon": -61.0242,
+  "lat": 14.6161,
+  "cat": "emeute",
+  "sev": 2,
+  "live": true,
+  "date": "2026-10-19",
+  "t": "2026-10-18T22:00",
+  "ta": true,
+  "zoom": 400,
+  "title": "Reprise de la mobilisation contre la vie chère",
+  "summary": "Le mouvement RPPRAC avait fixé au 19 octobre un ultimatum sur les prix, deux ans après le protocole contre la vie chère. Dans la nuit du 18 au 19, plus d'une vingtaine de barrages, certains incendiés, dans 18 communes ; deux commerces saccagés (Saint-Pierre, Le Robert), cinq braquages au Lamentin et à Fort-de-France, véhicules brûlés et forces de l'ordre visées par des projectiles. Lundi, circulation perturbée ; des établissements scolaires passent à l'enseignement à distance.",
+  "figs": [
+   [
+    "20+",
+    "barrages dans 18 communes"
+   ],
+   [
+    "6",
+    "interpellations"
+   ],
+   [
+    "5",
+    "braquages"
+   ]
+  ],
+  "spots": [
+   {
+    "n": "Le Lamentin — Pelletier",
+    "lon": -60.993,
+    "lat": 14.625,
+    "d": "Barrages enflammés dans la nuit du 18 au 19.",
+    "t": "2026-10-18T23:00",
+    "ta": true
+   },
+   {
+    "n": "Fort-de-France",
+    "lon": -61.07,
+    "lat": 14.604,
+    "d": "Barrages et braquages dans la nuit.",
+    "t": "2026-10-19T01:00",
+    "ta": true
+   },
+   {
+    "n": "Ducos",
+    "lon": -60.974,
+    "lat": 14.574,
+    "d": "Barrages routiers.",
+    "t": "2026-10-18T23:00",
+    "ta": true
+   },
+   {
+    "n": "Rivière-Salée",
+    "lon": -60.967,
+    "lat": 14.526,
+    "d": "Barrages routiers.",
+    "t": "2026-10-18T23:00",
+    "ta": true
+   },
+   {
+    "n": "Le Robert",
+    "lon": -60.939,
+    "lat": 14.678,
+    "d": "Un grossiste pharmaceutique saccagé.",
+    "t": "2026-10-19T01:00",
+    "ta": true
+   }
+  ],
+  "src": [
+   "zaymq",
+   "zaymq2",
+   "zaymq3",
+   "la1mq"
+  ]
+ },
+ {
+  "id": "toulon",
+  "place": "Toulon",
+  "country": "France",
+  "lon": 5.928,
+  "lat": 43.1242,
+  "cat": "emeute",
+  "sev": 1,
+  "live": false,
+  "date": "2026-10-17",
+  "t": "2026-10-17T16:00",
+  "ta": true,
+  "title": "Manifestation non déclarée dispersée",
+  "summary": "Une manifestation non déclarée est dispersée après des violences et dégradations dans le centre : barrières du marché de Noël renversées place de la Liberté, vitrines brisées place Puget et au Champ-de-Mars, une pompe à essence vandalisée boulevard Clemenceau (fuite de carburant). Plus de 20 feux de poubelles.",
+  "figs": [
+   [
+    "11",
+    "interpellations"
+   ],
+   [
+    "3",
+    "policiers blessés"
+   ]
+  ],
+  "spots": [
+   {
+    "n": "Place de la Liberté",
+    "lon": 5.93,
+    "lat": 43.1255,
+    "d": "Barrières renversées et lancées sur les policiers, vitrines dégradées.",
+    "t": "2026-10-17T16:00",
+    "ta": true
+   },
+   {
+    "n": "Boulevard Clemenceau",
+    "lon": 5.936,
+    "lat": 43.123,
+    "d": "Pompe à essence vandalisée, environ 200 m² de carburant répandu.",
+    "t": "2026-10-17T17:00",
+    "ta": true
+   }
+  ],
+  "src": [
+   "varinfos",
+   "varactu"
+  ]
+ },
+ {
+  "id": "bayonne",
+  "place": "Bayonne",
+  "country": "France",
+  "lon": -1.4748,
+  "lat": 43.4929,
+  "cat": "manif",
+  "sev": 1,
+  "live": false,
+  "date": "2026-10-17",
+  "t": "2026-10-17T17:00",
+  "ta": true,
+  "title": "Heurts après quatre heures de cortège calme",
+  "summary": "Après quatre heures de manifestation calme, des heurts éclatent en fin de journée. Neuf interpellations à Bayonne, 37 dans les Pyrénées-Atlantiques selon la préfecture.",
+  "figs": [
+   [
+    "9",
+    "interpellations (37 dans le département)"
+   ]
+  ],
+  "src": [
+   "icibay",
+   "icibay2"
+  ]
+ },
+ {
+  "id": "poitiers",
+  "place": "Poitiers",
+  "country": "France",
+  "lon": 0.3404,
+  "lat": 46.5802,
+  "cat": "emeute",
+  "sev": 1,
+  "live": false,
+  "date": "2026-10-17",
+  "t": "2026-10-17T17:00",
+  "ta": true,
+  "title": "Une vaste manifestation, des débordements en fin de journée",
+  "summary": "Une manifestation pacifique et massive se conclut par des débordements d'une minorité ; LBD et grenades détonantes utilisés par les forces de l'ordre.",
+  "figs": [
+   [
+    "8",
+    "blessés"
+   ],
+   [
+    "8",
+    "interpellations"
+   ]
+  ],
+  "src": [
+   "icipoit",
+   "f3poit"
+  ]
+ },
+ {
+  "id": "amiens",
+  "place": "Amiens",
+  "country": "France",
+  "lon": 2.2958,
+  "lat": 49.8941,
+  "cat": "manif",
+  "sev": 1,
+  "live": false,
+  "date": "2026-10-17",
+  "t": "2026-10-17T14:00",
+  "ta": true,
+  "title": "Entre 6 000 et 15 000 manifestants",
+  "summary": "Entre 6 000 et 15 000 manifestants à Amiens selon les sources, et plusieurs points de rassemblement dans la Somme, l'Oise et l'Aisne.",
+  "src": [
+   "f3amiens"
+  ]
+ },
+ {
+  "id": "brest",
+  "place": "Brest",
+  "country": "France",
+  "lon": -4.4861,
+  "lat": 48.3904,
+  "cat": "emeute",
+  "sev": 1,
+  "live": false,
+  "date": "2026-10-17",
+  "t": "2026-10-17T17:00",
+  "ta": true,
+  "title": "Dégradations en marge de rassemblements pacifiques",
+  "summary": "Rassemblements denses et pacifiques dans le Finistère et le Morbihan, avec un « déferlement de violence » en marge à Brest et à Lorient selon France 3 ; des commerçants se disent choqués par les dégradations.",
+  "src": [
+   "f3brest"
+  ]
+ },
+ {
+  "id": "genes",
+  "place": "Gênes",
+  "country": "Italie",
+  "lon": 8.934,
+  "lat": 44.4072,
+  "cat": "manif",
+  "sev": 1,
+  "live": false,
+  "date": "2026-10-17",
+  "t": "2026-10-17T15:00",
+  "ta": true,
+  "title": "Marche dans le centre historique",
+  "summary": "Environ 200 personnes rassemblées piazza De Ferrari puis en marche dans le centre historique derrière la banderole « Italia in piazza contro il carovita » : financement des écoles, aide au loyer, opposition aux dépenses d'armement.",
+  "src": [
+   "rsiit"
+  ]
+ },
+ {
+  "id": "calabre",
+  "place": "Crotone",
+  "country": "Italie",
+  "lon": 17.125,
+  "lat": 39.0808,
+  "cat": "manif",
+  "sev": 1,
+  "live": true,
+  "date": "2026-10-17",
+  "t": "2026-10-16T08:00",
+  "ta": true,
+  "title": "Routiers et agriculteurs bloquent les routes",
+  "summary": "Depuis le 16 octobre, des routiers d'Isola Capo Rizzuto et de Crotone bloquent les principaux axes contre le prix du carburant. En Sicile, un convoi de tracteurs d'environ 10 km a circulé sur la route Sciacca-Palerme.",
+  "src": [
+   "rsiit"
+  ],
+  "zoom": 60
+ },
+ {
+  "id": "homs",
+  "place": "Masyaf (Homs)",
+  "country": "Syrie",
+  "lon": 36.344,
+  "lat": 35.065,
+  "cat": "frappe",
+  "sev": 2,
+  "live": false,
+  "date": "2026-09-30",
+  "t": "2026-09-30T19:00",
+  "ta": true,
+  "title": "Un bus d'ouvriers alaouites attaqué",
+  "summary": "Le 30 septembre au soir, des hommes armés et masqués, se faisant passer pour des agents de sécurité selon l'Observatoire syrien des droits de l'homme, arrêtent un bus près du pont de Masyaf, contrôlent les identités et ouvrent le feu. 7 morts et 4 blessés selon l'agence officielle Sana (8 morts selon d'autres décomptes), tous alaouites selon l'OSDH. Attaque non revendiquée.",
+  "figs": [
+   [
+    "7-8",
+    "morts"
+   ],
+   [
+    "4",
+    "blessés"
+   ]
+  ],
+  "src": [
+   "arabhoms",
+   "anhahoms"
+  ]
+ },
+ {
+  "id": "yavne",
+  "place": "Yavne (route 4)",
+  "country": "Israël",
+  "lon": 34.74,
+  "lat": 31.878,
+  "cat": "manif",
+  "sev": 1,
+  "live": false,
+  "date": "2026-10-18",
+  "t": "2026-10-18T17:00",
+  "ta": true,
+  "title": "Des ultra-orthodoxes bloquent une autoroute contre la conscription",
+  "summary": "Le 18 octobre, des manifestants ultra-orthodoxes bloquent la route 4 près de l'échangeur de Yavne après l'incarcération de deux étudiants de yeshiva réfractaires ; heurts avec la police. Le même jour, à Jérusalem, des manifestants dénoncent les violences de colons devant le ministère des Affaires étrangères. Législatives le 27 octobre.",
+  "spots": [
+   {
+    "n": "Ministère des Affaires étrangères (Jérusalem)",
+    "lon": 35.201,
+    "lat": 31.781,
+    "d": "Rassemblement contre les violences de colons en Cisjordanie.",
+    "t": "2026-10-18T12:00",
+    "ta": true
+   }
+  ],
+  "src": [
+   "toi18",
+   "toiharedi"
+  ]
+ },
+ {
+  "id": "buenosaires",
+  "place": "Buenos Aires",
+  "country": "Argentine",
+  "lon": -58.3925,
+  "lat": -34.6098,
+  "cat": "manif",
+  "sev": 1,
+  "live": false,
+  "date": "2026-10-15",
+  "t": "2026-10-15T16:30",
+  "ta": true,
+  "title": "Marche universitaire gazée devant le Congrès",
+  "summary": "Le 15 octobre, des milliers d'étudiants et d'enseignants marchent contre les coupes de Javier Milei dans l'université publique. Après qu'une huitaine de personnes cagoulées ont dégradé du mobilier et visé les grilles du Parlement, la police utilise gaz lacrymogène et canons à eau ; un député d'opposition dit avoir été gazé en sortant de séance, un caméraman blessé au visage.",
+  "spots": [
+   {
+    "n": "Congrès de la Nation",
+    "lon": -58.3925,
+    "lat": -34.6098,
+    "d": "Gaz lacrymogène et canons à eau sur la place.",
+    "t": "2026-10-15T16:30",
+    "ta": true
+   }
+  ],
+  "src": [
+   "larepar",
+   "cnnear"
+  ]
+ },
+ {
+  "id": "bogota",
+  "place": "Bogotá",
+  "country": "Colombie",
+  "lon": -74.0721,
+  "lat": 4.711,
+  "cat": "manif",
+  "sev": 1,
+  "live": false,
+  "date": "2026-10-14",
+  "t": "2026-10-14T10:00",
+  "ta": true,
+  "title": "Première grande journée contre le président De la Espriella",
+  "summary": "Le 14 octobre, syndicats, organisations de l'éducation et partis d'opposition défilent dans tout le pays contre le gouvernement d'Abelardo de la Espriella, au pouvoir depuis août. Le 15 au soir, à Cali, une grenade lancée depuis un pont blesse cinq policiers ; un homme de 23 ans est arrêté, mobile inconnu.",
+  "spots": [
+   {
+    "n": "Cali — Ciudad Córdoba",
+    "lon": -76.495,
+    "lat": 3.43,
+    "d": "15 oct. vers 20 h 10 : grenade contre une patrouille, 5 policiers blessés.",
+    "t": "2026-10-15T20:10",
+    "ta": false
+   },
+   {
+    "n": "Bogotá",
+    "lon": -74.0721,
+    "lat": 4.711,
+    "d": "14 oct. : marche contre le gouvernement.",
+    "t": "2026-10-14T10:00",
+    "ta": true
+   }
+  ],
+  "src": [
+   "riocol",
+   "riocali"
+  ],
+  "zoom": 60
+ },
+ {
+  "id": "douala",
+  "place": "Douala",
+  "country": "Cameroun",
+  "lon": 9.7679,
+  "lat": 4.0511,
+  "cat": "manif",
+  "sev": 1,
+  "live": false,
+  "date": "2026-10-15",
+  "t": "2026-10-14T10:00",
+  "ta": true,
+  "title": "Des milliers de personnes contre les féminicides",
+  "summary": "Des milliers de personnes ont manifesté à Douala et Yaoundé pour réclamer justice après la mort d'une enseignante et le vote d'une loi faisant du féminicide une infraction à part entière, attendue au Parlement en novembre. Près de 70 femmes tuées cette année pour des raisons liées au genre selon le ministère de la Femme.",
+  "spots": [
+   {
+    "n": "Yaoundé",
+    "lon": 11.5021,
+    "lat": 3.848,
+    "d": "Manifestation contre les féminicides.",
+    "t": "2026-10-14T10:00",
+    "ta": true
+   }
+  ],
+  "zoom": 60,
+  "src": [
+   "africanewscm",
+   "wpcm"
+  ]
+ },
+ {
+  "id": "belgorod",
+  "place": "Belgorod",
+  "country": "Russie",
+  "lon": 36.587,
+  "lat": 50.595,
+  "cat": "frappe",
+  "sev": 1,
+  "live": false,
+  "date": "2026-10-08",
+  "t": "2026-10-08T12:00",
+  "ta": true,
+  "title": "Deux morts dans des frappes de drones",
+  "summary": "Le 8 octobre, deux personnes tuées dans la région frontalière de Belgorod par des drones ukrainiens selon les autorités régionales (une voiture touchée, puis une frappe en soirée faisant aussi trois blessés). Reuters n'a pas pu vérifier.",
+  "figs": [
+   [
+    "2",
+    "morts"
+   ],
+   [
+    "3",
+    "blessés"
+   ]
+  ],
+  "src": [
+   "starbelg"
+  ]
  }
 ]
