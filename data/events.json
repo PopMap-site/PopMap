@@ -2272,28 +2272,57 @@
   "cat": "frappe",
   "sev": 2,
   "live": true,
-  "date": "2026-10-18",
-  "title": "Une station de métro touchée",
-  "summary": "Dans la nuit du 17 au 18 octobre, l'attaque russe (un missile Iskander et 180 drones selon l'armée de l'air ukrainienne) touche Kyiv : une femme tuée, trois blessés, une station de métro et un immeuble de 25 étages endommagés selon le maire Vitali Klitschko. Le 14, des frappes avaient visé les installations énergétiques de la capitale malgré l'annonce d'une « trêve énergétique » par Donald Trump.",
+  "date": "2026-10-19",
+  "title": "Nouvelle nuit de frappes sur la capitale",
+  "summary": "Dans la nuit du 18 au 19 octobre, missiles et drones russes touchent trois arrondissements de Kyiv : 1 mort et 8 blessés selon les autorités locales ; un établissement médical, une station de métro, des écoles et un équipement sportif endommagés. La nuit précédente, une autre attaque avait fait 1 morte et 3 blessés. Moscou dit avoir visé une usine liée à l'industrie militaire dans la région.",
   "src": [
    "hl",
    "cg",
    "fdd",
    "ajspb19",
-   "pravda18"
+   "pravda18",
+   "abckyiv19",
+   "kpkyiv19"
   ],
   "t": "2026-10-14T12:00",
   "ta": true,
   "figs": [
    [
     "1",
-    "morte le 18 oct."
+    "mort le 19 oct."
    ],
    [
-    "3",
+    "8",
     "blessés"
    ]
-  ]
+  ],
+  "spots": [
+   {
+    "n": "Solomianskyï",
+    "lon": 30.45,
+    "lat": 50.43,
+    "d": "Incendie dans un établissement médical au 3e étage d'un immeuble de 25 étages.",
+    "t": "2026-10-19T03:00",
+    "ta": true
+   },
+   {
+    "n": "Desnianskyï",
+    "lon": 30.62,
+    "lat": 50.51,
+    "d": "Une clinique et une station de métro endommagées.",
+    "t": "2026-10-19T03:00",
+    "ta": true
+   },
+   {
+    "n": "Dniprovskyï",
+    "lon": 30.61,
+    "lat": 50.455,
+    "d": "Écoles et équipement sportif touchés par des débris.",
+    "t": "2026-10-19T03:00",
+    "ta": true
+   }
+  ],
+  "zoom": 1200
  },
  {
   "id": "hormuz",
@@ -4246,13 +4275,28 @@
     "d": "Un grossiste pharmaceutique saccagé.",
     "t": "2026-10-19T01:00",
     "ta": true
+   },
+   {
+    "n": "Sainte-Thérèse (Fort-de-France)",
+    "lon": -61.056,
+    "lat": 14.611,
+    "d": "19 oct. : quartier parmi les plus touchés par les barrages, avenue Maurice-Bishop impraticable par endroits.",
+    "t": "2026-10-19T07:00",
+    "ta": true
    }
   ],
   "src": [
    "zaymq",
    "zaymq2",
    "zaymq3",
-   "la1mq"
+   "la1mq",
+   "antilla19"
+  ],
+  "tl": [
+   [
+    "19 oct. matin",
+    "Barrages et feux de détritus à Fort-de-France (Sainte-Thérèse, Canal Alaric), au Lamentin et au Robert, où des véhicules ont été incendiés ; bus à haut niveau de service à l'arrêt, navettes maritimes réduites. Le maire du Robert condamne ces destructions ; le RPPRAC n'y est pas directement lié."
+   ]
   ]
  },
  {
@@ -4805,6 +4849,62 @@
   "src": [
    "unimanipur",
    "bntmanipur"
+  ]
+ },
+ {
+  "id": "novavodolaha",
+  "place": "Nova Vodolaha",
+  "country": "Ukraine",
+  "lon": 35.864,
+  "lat": 49.724,
+  "cat": "frappe",
+  "sev": 3,
+  "live": false,
+  "date": "2026-10-19",
+  "t": "2026-10-19T15:00",
+  "ta": true,
+  "title": "Un drone frappe un parc : 6 morts dont 3 enfants",
+  "summary": "Le 19 octobre, un drone russe frappe le parc central de Nova Vodolaha (région de Kharkiv), fréquenté par des familles : 6 morts dont 3 enfants selon le gouverneur régional, et au moins 14 blessés dont 7 enfants selon le ministère ukrainien de l'Intérieur.",
+  "figs": [
+   [
+    "6",
+    "morts dont 3 enfants"
+   ],
+   [
+    "14+",
+    "blessés"
+   ]
+  ],
+  "src": [
+   "apanv"
+  ]
+ },
+ {
+  "id": "kryvyirih",
+  "place": "Kryvyi Rih",
+  "country": "Ukraine",
+  "lon": 33.391,
+  "lat": 47.91,
+  "cat": "frappe",
+  "sev": 2,
+  "live": false,
+  "date": "2026-10-19",
+  "t": "2026-10-19T12:00",
+  "ta": true,
+  "title": "Un site industriel frappé : 2 morts",
+  "summary": "Le 19 octobre, une frappe russe sur un site industriel de Kryvyi Rih tue deux hommes et en blesse sept, dont un adolescent de 15 ans ; à Dnipro, une infrastructure critique visée, un blessé (autorités régionales).",
+  "figs": [
+   [
+    "2",
+    "morts"
+   ],
+   [
+    "8",
+    "blessés dont un enfant"
+   ]
+  ],
+  "src": [
+   "glavkr"
   ]
  }
 ]

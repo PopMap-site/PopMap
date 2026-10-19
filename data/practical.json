@@ -369,5 +369,20 @@
   "src": [
    "ejeimss"
   ]
+ },
+ {
+  "id": "p-nord",
+  "kind": "interdiction",
+  "place": "Lille · Douai · Wattignies · Denain",
+  "lon": 3.0573,
+  "lat": 50.6292,
+  "t": "2026-10-19T21:00",
+  "until": "2026-10-21T06:00",
+  "ta": true,
+  "title": "Premiers couvre-feux dans le Nord",
+  "text": "Matignon annonce de premiers couvre-feux pour les nuits de lundi et mardi à Lille, Douai, Wattignies et Denain (horaires et périmètres précisés par les préfectures).",
+  "src": [
+   "e1live"
+  ]
  }
 ]

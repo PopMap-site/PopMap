@@ -970,5 +970,25 @@
  "bntmanipur": {
   "t": "Business News Today — Manipur",
   "u": "https://business-news-today.com/kuki-naga-tensions-deepen-as-manipur-reports-one-of-its-deadliest-days-in-2026/"
+ },
+ "abckyiv19": {
+  "t": "AP via ABC News — Kyiv, 19 oct.",
+  "u": "https://abcnews.com/International/wireStory/russian-missiles-drones-hit-kyiv-overnight-killing-1-137371029"
+ },
+ "kpkyiv19": {
+  "t": "Kyiv Post — Kyiv, 19 oct.",
+  "u": "https://www.kyivpost.com/post/87466"
+ },
+ "apanv": {
+  "t": "APA — Nova Vodolaha",
+  "u": "https://en.apa.az/europe/russian-strike-on-park-in-kharkiv-region-kills-six-updated-530961"
+ },
+ "glavkr": {
+  "t": "Glavnoe — Dnipro et Kryvyi Rih",
+  "u": "https://glavnoe.in.ua/en/news-en/russia-strikes-dnipro-and-industrial-facility-in-kryvyi-rih-killing-two-and-injuring-several-including-a-child"
+ },
+ "antilla19": {
+  "t": "Antilla — le mouvement a commencé",
+  "u": "https://antilla-martinique.com/le-mouvement-annonce-par-le-rpprac-a-bien-commence-ce-lundi-19-octobre-2026/"
  }
 }
