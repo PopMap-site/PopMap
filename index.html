@@ -12,6 +12,17 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <style>:root{padding:env(safe-area-inset-top,0px) 0 env(safe-area-inset-bottom,0px)}img{max-width:100%}[hidden]{display:none!important}#daily:empty{display:none}
 .replay[hidden],.around[hidden]{display:none}
+
+.brand{cursor:pointer}
+.brand .ab-i{all:unset;display:inline-grid;place-items:center;width:18px;height:18px;border-radius:50%;border:1.5px solid currentColor;font:700 11px var(--f-body);opacity:.55;margin-left:8px;vertical-align:middle}
+.ab h3{margin-top:18px}
+.ab p{margin:6px 0}
+.ab ul{margin:6px 0 0;padding-left:18px}
+.ab li{margin:4px 0;font-size:14px;line-height:1.45}
+.ab .soon{display:inline-block;font:600 11px var(--f-mono);text-transform:uppercase;letter-spacing:.04em;padding:2px 7px;border-radius:999px;background:var(--bg);margin-left:6px}
+.ab .fine{font-size:12px;opacity:.6;margin-top:18px}
+.ab .cta{all:unset;display:block;text-align:center;cursor:not-allowed;padding:11px 14px;border-radius:10px;background:var(--bg);font:600 14px var(--f-body);opacity:.75;margin-top:10px}
+.ab .lnk{all:unset;cursor:pointer;color:var(--accent);font:600 14px var(--f-body)}
 </style>
 </head><body>
 <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css">
@@ -208,7 +219,7 @@ h3{font:600 11px/1 var(--f-mono);text-transform:uppercase;letter-spacing:.08em;c
 <div class="app">
   <div id="map"><div class="loading" id="loading">Chargement de la carte…</div></div>
   <div class="top">
-    <div class="brand glass"><h1>POP<span>MAP</span></h1><div class="stamp"><span class="dot" aria-hidden="true"></span><span id="stamp"></span></div></div>
+    <div class="brand glass" id="brandBtn" role="button" tabindex="0" aria-label="À propos de POPMAP"><h1>POP<span>MAP</span><span class="ab-i" aria-hidden="true">i</span></h1><div class="stamp"><span class="dot" aria-hidden="true"></span><span id="stamp"></span></div></div>
     <div class="row" id="filters" role="group" aria-label="Filtres"></div>
     <div class="row" id="daily" role="group" aria-label="Rendez-vous du jour"></div>
   </div>
@@ -216,6 +227,7 @@ h3{font:600 11px/1 var(--f-mono);text-transform:uppercase;letter-spacing:.08em;c
   <div class="zoomctl"><button class="glass" id="zin" aria-label="Zoomer">+</button><button class="glass" id="zout" aria-label="Dézoomer">−</button></div>
   <div class="scale glass" id="scale"></div>
   <div class="tools">
+    <button class="tool glass" id="btnVideo"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="1.5" y="4" width="9" height="8" rx="1.5"/><path d="M10.5 7l4-2.2v6.4l-4-2.2z" fill="currentColor"/></svg><span>Envoyer une vidéo</span></button>
     <button class="tool glass" id="btnAround" aria-pressed="false"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="8" cy="8" r="5.5"/><circle cx="8" cy="8" r="1.6" fill="currentColor"/></svg><span>Autour de moi</span></button>
     <button class="tool glass" id="btnReplay" aria-pressed="false"><svg viewBox="0 0 16 16" fill="currentColor"><path d="M4 2.5v11l9-5.5z"/></svg><span>Rejouer la nuit</span></button>
   </div>
@@ -510,6 +522,61 @@ const h=location.hash.slice(1);if(h==="rejouer")startReplay();else if(h&&EVENTS.
 const rr=()=>{render();if(selected)select(selected,selSpot,false);else if(selPrac)selectPrac(selPrac,false)};
 matchMedia("(prefers-color-scheme: dark)").addEventListener("change",rr);
 new MutationObserver(rr).observe(document.documentElement,{attributes:true,attributeFilter:["data-theme"]});
+/* ---------- à propos & vidéos ---------- */
+function openAbout(){selected=selSpot=selPrac=null;
+  panel.innerHTML=`<button class="close" aria-label="Fermer">×</button><div class="ab">
+   <div class="kicker" style="margin-top:6px">À propos</div>
+   <h2>POPMAP</h2>
+   <p><strong>Ce qui se passe près de chez toi et dans le monde : manifs, grèves, perturbations, crises. Vérifié et sans panique.</strong></p>
+   <h3>Gratuit, pour tout le monde</h3>
+   <p>La carte est et restera gratuite et ouverte à tous. POPMAP veut être un média de la population : simple, accessible, utile au quotidien.</p>
+   <h3>Comment on travaille</h3>
+   <ul>
+    <li>Des faits datés et attribués : « selon la préfecture », « selon les organisateurs »… Quand les chiffres divergent, on donne les deux.</li>
+    <li>Un fait important est confirmé par au moins deux sources indépendantes ; sinon la fiche l'indique (« Une seule source »).</li>
+    <li>Aucun parti pris : on ne qualifie pas les mouvements, on rapporte ce qui s'est passé.</li>
+    <li>Un ton calme : informer sans angoisser.</li>
+    <li>Pour la sécurité de tous, les positions sont approximatives et publiées avec un léger décalage ; aucun commerce visé n'est nommé.</li>
+    <li>Carte mise à jour trois fois par jour. Chaque fiche renvoie à ses sources.</li>
+   </ul>
+   <h3>POPMAG, le point du matin <span class="soon">Bientôt</span></h3>
+   <p>Chaque matin, l'essentiel de la nuit en deux minutes de lecture, ville par ville.</p>
+   <h3>Tes vidéos <span class="soon">Bientôt</span></h3>
+   <p>Tu es sur place ? Tu pourras envoyer ta vidéo gratuitement. Chaque vidéo sera vérifiée avant d'apparaître sur la carte. <button class="lnk" id="abVid">Les règles →</button></p>
+   <h3>Soutenir POPMAP <span class="soon">Bientôt</span></h3>
+   <p>POPMAP est un projet indépendant. Les dons seront bientôt possibles pour l'aider à grandir.</p>
+   <p class="fine">Veille et mise en forme assistées par des outils d'IA ; chaque information est rattachée à ses sources. ${META.note}</p>
+  </div>`;
+  panel.querySelector(".close").onclick=closePanel;
+  panel.querySelector("#abVid").onclick=openVideo;
+  open("about");panel.scrollTop=0;render()}
+function openVideo(){selected=selSpot=selPrac=null;
+  panel.innerHTML=`<button class="close" aria-label="Fermer">×</button><div class="ab">
+   <div class="kicker" style="margin-top:6px">Participer</div>
+   <h2>Envoyer une vidéo</h2>
+   <p>Tu es témoin d'une manifestation, d'une grève ou d'une perturbation ? Ta vidéo peut aider tout le monde à comprendre ce qui se passe. L'envoi est gratuit et ouvert à tous.</p>
+   <h3>Avant de filmer</h3>
+   <ul>
+    <li>Ta sécurité d'abord : ne te mets jamais en danger pour une image.</li>
+    <li>Évite de filmer les visages en gros plan.</li>
+    <li>Filme ce que tu vois, sans commentaire : où, quand, ce qui se passe.</li>
+    <li>Pas d'images de violences graves ni de personnes blessées.</li>
+   </ul>
+   <h3>Ce qu'on en fait</h3>
+   <ul>
+    <li>Chaque vidéo est vérifiée (lieu, date, cohérence) avant publication.</li>
+    <li>Elle apparaît avec un léger décalage, jamais en direct.</li>
+    <li>Tu peux demander son retrait à tout moment.</li>
+   </ul>
+   <span class="cta" aria-disabled="true">Envoi bientôt ouvert</span>
+   <p class="fine"><button class="lnk" id="vidAb">← À propos de POPMAP</button></p>
+  </div>`;
+  panel.querySelector(".close").onclick=closePanel;
+  panel.querySelector("#vidAb").onclick=openAbout;
+  open("video");panel.scrollTop=0;render()}
+{const b=document.getElementById("brandBtn");b.onclick=openAbout;b.onkeydown=e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();openAbout()}}}
+document.getElementById("btnVideo").onclick=openVideo;
+
 })();
 </script>
 
