@@ -74,6 +74,10 @@
    [
     "19 oct. soir",
     "Couvre-feu de 22 h à 6 h place de la République et autour des Halles, pour tout le public, et interdiction de manifester dans certains quartiers de 20 h à 6 h, selon la préfecture. Le garde des Sceaux Gérald Darmanin annonce 2 513 gardes à vue et 67 personnes incarcérées depuis samedi."
+   ],
+   [
+    "19 oct. 21 h",
+    "Le garde des Sceaux Gérald Darmanin annonce que les gardes à vue liées aux violences du 17 octobre pourront passer de 48 à 72 heures, sur qualification de « criminalité organisée » ; une instruction a été adressée à tous les parquets."
    ]
   ],
   "spots": [
@@ -233,7 +237,9 @@
    "sudradio",
    "f24live19",
    "cnewscf",
-   "morandcf"
+   "morandcf",
+   "fi72h",
+   "cnewsgav"
   ],
   "photos": [
    {
@@ -270,7 +276,7 @@
   "cat": "emeute",
   "sev": 3,
   "live": true,
-  "date": "2026-10-18",
+  "date": "2026-10-19",
   "zoom": 9000,
   "title": "L'office de tourisme de Bellecour incendié",
   "summary": "Environ 20 000 manifestants. Le pavillon historique de l'office de tourisme, place Bellecour, a été saccagé puis incendié vers 14 h 30 ; des groupes hostiles ont empêché les pompiers d'approcher. Magasins attaqués, canons à eau sur les ponts en fin d'après-midi. Dimanche, une cinquantaine de jeunes ont tenté de forcer la vitrine d'un magasin Lacoste.",
@@ -312,6 +318,10 @@
    [
     "17-18 oct.",
     "Les pillages se poursuivent dans la nuit et jusqu'à dimanche matin vers 8 h dans la Presqu'île. Le préfet Étienne Guyot : « Notre priorité, hier, a été de protéger les vies »."
+   ],
+   [
+    "19 oct. soir",
+    "Le préfet du Rhône Étienne Guyot instaure un couvre-feu de 21 h à 6 h sur une partie de la Presqu'île (de la rue Constantine au cours de Condé, entre Rhône et Saône) pour tout le public, sauf motifs autorisés ; manifestations et rassemblements interdits de 18 h à 21 h. Bars, restaurants et transports restent ouverts."
    ]
   ],
   "spots": [
@@ -421,7 +431,9 @@
    "express18",
    "cleplyon",
    "lyonmag2",
-   "lyonmag3"
+   "lyonmag3",
+   "lyonmagcf",
+   "lyoncapcf"
   ],
   "photos": [
    {
@@ -1482,6 +1494,10 @@
    [
     "19 oct.",
     "Bilan du 18 : 32 arrestations dont 23 mineurs, 271 personnes conduites à la questura, 14 policiers blessés. Dégâts estimés à environ un million d'euros par Confcommercio ; commerces du luxe fermés par précaution. Le président Mattarella dénonce des « violences inacceptables » ; un décret sur l'ordre public est attendu en Conseil des ministres le 20 octobre (garde à vue préventive jusqu'à 24 h selon la Ligue). 500 militaires supplémentaires annoncés pour Milan."
+   ],
+   [
+    "19 oct. soir",
+    "Conseil des ministres convoqué mardi 20 octobre à 17 h 30 au Palazzo Chigi pour un décret-loi : arrestation obligatoire pour « dévastation » pendant les cortèges, garde à vue préventive jusqu'à 24 h, renforcement de l'opération « Strade sicure », selon des sous-secrétaires de la Ligue. Dans l'opposition, Matteo Renzi (Italia Viva) réclame la démission du ministre de l'Intérieur Matteo Piantedosi."
    ]
   ],
   "spots": [
@@ -1611,7 +1627,10 @@
    "ansachigi2",
    "ilpost19",
    "lapresse19",
-   "ansa19mi"
+   "ansa19mi",
+   "sussicdm",
+   "strettocdm",
+   "infodifesa19"
   ],
   "photos": [
    {
@@ -2155,6 +2174,10 @@
    [
     "167",
     "arrestations en 5 jours"
+   ],
+   [
+    "10",
+    "policiers blessés le 19 (police)"
    ]
   ],
   "spots": [
@@ -2199,7 +2222,8 @@
    "eun19tir",
    "ansatirana",
    "adn7",
-   "cna7"
+   "cna7",
+   "agitirana19"
   ],
   "photos": [
    {
@@ -2228,6 +2252,10 @@
    [
     "19 oct.",
     "Septième journée : jets de pierres et de cocktails Molotov vers le boulevard Dëshmorët e Kombit, gaz lacrymogène de la police. Bilans non communiqués."
+   ],
+   [
+    "19 oct. soir",
+    "Selon la police, 10 agents blessés et « de nombreuses arrestations » : jets de pierres et pétards devant le ministère de l'Éducation, vitres de la cour d'appel brisées, un commissariat visé par des cocktails Molotov (incendie vite éteint). Edi Rama parle d'une « ligne rouge » franchie, renouvelle son offre de dialogue « sans préconditions » et accuse la Russie et l'Iran d'avoir mobilisé des milliers de faux comptes ; Moscou a déjà rejeté ces accusations."
    ]
   ],
   "zoom": 12000
@@ -2253,12 +2281,17 @@
    "wpserb",
    "intelliser",
    "vremeserb",
-   "wpserb19"
+   "wpserb19",
+   "ansaserb22"
   ],
   "tl": [
    [
     "19 oct.",
     "Les étudiants marchent en trois colonnes depuis l'ouest de la Serbie vers Belgrade et la place Slavija, pour le dernier grand rassemblement avant le scrutin du 25 octobre."
+   ],
+   [
+    "19 oct.",
+    "Le grand rassemblement de clôture de la liste étudiante est prévu jeudi 22 octobre place Slavija."
    ]
   ]
  },
@@ -2363,7 +2396,8 @@
    "ajspb19",
    "pravda18",
    "abckyiv19",
-   "kpkyiv19"
+   "kpkyiv19",
+   "pbskyiv19"
   ],
   "t": "2026-10-14T12:00",
   "ta": true,
@@ -2375,6 +2409,10 @@
    [
     "8",
     "blessés"
+   ],
+   [
+    "500 000+",
+    "personnes privées d'électricité (Zelensky)"
    ]
   ],
   "spots": [
@@ -2403,7 +2441,13 @@
     "ta": true
    }
   ],
-  "zoom": 1200
+  "zoom": 1200,
+  "tl": [
+   [
+    "19 oct.",
+    "Selon Volodymyr Zelensky, plus de 10 installations énergétiques touchées dans le pays, plus d'un demi-million de personnes privées d'électricité, de chauffage et d'eau ; 16 missiles balistiques ont visé Kyiv et sa région. Le ministère russe de la Défense dit avoir visé un centre de données, un dépôt logistique de drones et de missiles et une usine de composants. Kyiv dit ne pas avoir reçu d'alerte préalable de ses partenaires."
+   ]
+  ]
  },
  {
   "id": "hormuz",
@@ -4152,24 +4196,77 @@
   "id": "kordofanouest",
   "place": "Kordofan-Ouest",
   "country": "Soudan",
-  "lon": 29.25,
-  "lat": 12.35,
+  "lon": 28.4,
+  "lat": 11.6,
   "cat": "frappe",
-  "sev": 2,
+  "sev": 3,
   "live": false,
-  "date": "2026-10-17",
-  "t": "2026-10-17T12:00",
+  "date": "2026-10-18",
+  "t": "2026-10-18T19:00",
   "ta": true,
-  "title": "Un véhicule civil touché par un drone",
-  "summary": "Près d'Ankoush, un véhicule transportant des malades et des personnes allant acheter des produits de base est touché : 4 civils tués et plusieurs blessés. L'Observatoire du Kordofan attribue la frappe à un drone de l'armée soudanaise ; information non confirmée de façon indépendante.",
+  "title": "Frappe de drone à Al-Dibab : environ 80 morts",
+  "summary": "Dimanche soir 18 octobre, une frappe de drone en deux vagues touche une gare routière près d'un marché à Al-Dibab, où des habitants attendaient un camion : au moins 80 morts selon l'alliance Tasis (bras politique des FSR) et l'AFP, qui cite une source médicale et un témoin. Tasis accuse l'armée soudanaise ; l'attribution n'est pas vérifiée de façon indépendante. Le groupe Emergency Lawyers impute aussi à l'armée une frappe sur le marché d'al-Muglad samedi. Plus tôt, près d'Ankoush, 4 civils avaient été tués dans un véhicule (frappe attribuée à l'armée par l'Observatoire du Kordofan, non confirmée).",
   "figs": [
    [
+    "~80",
+    "morts à Al-Dibab (Tasis, AFP)"
+   ],
+   [
+    "47",
+    "blessés évacués, dont 30 décédés ensuite (source médicale)"
+   ],
+   [
     "4",
-    "civils tués"
+    "civils tués près d'Ankoush"
    ]
   ],
   "src": [
-   "stkordo"
+   "stkordo",
+   "f24soudan19",
+   "afrikdibab",
+   "tv5dibab",
+   "apsudan19"
+  ],
+  "zoom": 150,
+  "tl": [
+   [
+    "17 oct.",
+    "Près d'Ankoush, un véhicule civil touché : 4 morts selon l'Observatoire du Kordofan."
+   ],
+   [
+    "17 oct.",
+    "Frappe sur le marché d'al-Muglad, attribuée à l'armée par Emergency Lawyers, qui fait état de « dizaines » de civils tués sur le week-end."
+   ],
+   [
+    "18 oct. soir",
+    "Frappe de drone sur la gare routière d'Al-Dibab : environ 80 morts."
+   ]
+  ],
+  "spots": [
+   {
+    "n": "Al-Dibab — gare routière",
+    "lon": 28.3,
+    "lat": 11.45,
+    "d": "Dimanche soir, une frappe de drone en deux vagues touche la gare routière près du marché : environ 80 morts selon Tasis et l'AFP.",
+    "t": "2026-10-18T19:00",
+    "ta": true
+   },
+   {
+    "n": "Al-Muglad — marché",
+    "lon": 27.74,
+    "lat": 11.03,
+    "d": "Samedi, une frappe touche le marché ; Emergency Lawyers l'attribue à l'armée soudanaise.",
+    "t": "2026-10-17T12:00",
+    "ta": true
+   },
+   {
+    "n": "Ankoush",
+    "lon": 29.25,
+    "lat": 12.35,
+    "d": "Un véhicule transportant des malades et des acheteurs touché par un drone : 4 civils tués.",
+    "t": "2026-10-17T12:00",
+    "ta": true
+   }
   ]
  },
  {
@@ -5061,6 +5158,30 @@
   ],
   "src": [
    "glavkr"
+  ]
+ },
+ {
+  "id": "khartoum",
+  "place": "Khartoum",
+  "country": "Soudan",
+  "lon": 32.57,
+  "lat": 15.585,
+  "cat": "frappe",
+  "sev": 1,
+  "live": false,
+  "date": "2026-10-19",
+  "t": "2026-10-19T12:00",
+  "ta": true,
+  "title": "Trois enfants tués par un drone",
+  "summary": "Lundi, une frappe de drone dans le quartier d'Imtidad Nasser, à l'est de l'aéroport, tue trois enfants de 2, 4 et 6 ans selon le groupe Emergency Lawyers, qui l'attribue aux Forces de soutien rapide (FSR) ; les FSR n'ont pas réagi dans l'immédiat.",
+  "figs": [
+   [
+    "3",
+    "enfants tués (Emergency Lawyers)"
+   ]
+  ],
+  "src": [
+   "apsudan19"
   ]
  }
 ]

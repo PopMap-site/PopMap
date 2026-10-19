@@ -445,5 +445,49 @@
    "morandcf",
    "boursocf"
   ]
+ },
+ {
+  "id": "p-lyon-cf",
+  "kind": "interdiction",
+  "place": "Lyon · Presqu'île",
+  "lon": 4.8335,
+  "lat": 45.7605,
+  "t": "2026-10-19T21:00",
+  "until": "2026-10-20T06:00",
+  "title": "Couvre-feu 21 h – 6 h",
+  "text": "Arrêté du préfet du Rhône : circulation et présence sur la voie publique interdites de 21 h à 6 h entre la rue Constantine (Terreaux exclus), les quais du Rhône, le cours de Condé et les quais de Saône, sauf motifs autorisés (domicile, travail, santé…). Rassemblements interdits de 18 h à 21 h. Bars, restaurants et transports en commun fonctionnent.",
+  "src": [
+   "lyonmagcf",
+   "lyoncapcf"
+  ]
+ },
+ {
+  "id": "a-romecdm",
+  "kind": "agenda",
+  "place": "Rome · Palazzo Chigi",
+  "lon": 12.48,
+  "lat": 41.901,
+  "t": "2026-10-20T17:30",
+  "title": "Conseil des ministres sur l'ordre public",
+  "text": "Mardi 20 octobre à 17 h 30 : examen d'un décret-loi après les violences de Milan, Bologne et Turin (arrestations, garde à vue préventive, mineurs).",
+  "src": [
+   "sussicdm",
+   "strettocdm"
+  ]
+ },
+ {
+  "id": "a-belgrade22",
+  "kind": "agenda",
+  "place": "Belgrade · place Slavija",
+  "lon": 20.4683,
+  "lat": 44.8025,
+  "t": "2026-10-22T18:00",
+  "ta": true,
+  "title": "Rassemblement de clôture des étudiants",
+  "text": "Jeudi 22 octobre, dernier grand rassemblement de campagne de la liste étudiante avant les législatives du 25 octobre ; des colonnes de marcheurs convergent depuis plusieurs villes.",
+  "src": [
+   "ansaserb22",
+   "vremeserb"
+  ]
  }
 ]
