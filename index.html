@@ -107,6 +107,8 @@ select.chip{appearance:none;-webkit-appearance:none;padding-right:28px;backgroun
 .me circle.p{fill:var(--accent);stroke:var(--card);stroke-width:2.5}
 .pulse{animation:pulse 2s ease-out infinite;transform-box:fill-box;transform-origin:center}
 @keyframes pulse{0%{transform:scale(1);opacity:.6}100%{transform:scale(2.6);opacity:0}}
+body.moving .pulse,body.moving .dot{animation:none}body.moving #ov text{display:none}
+@media (max-width:760px),(pointer:coarse){.glass,.chip,.scope-ov{backdrop-filter:none!important;-webkit-backdrop-filter:none!important}.glass{background:var(--card)}.chip{background:var(--card)}}
 @media (prefers-reduced-motion:reduce){.pulse,.dot,.ev.new circle.m,.sp.new circle.m{animation:none}}
 .zoomctl{position:absolute;z-index:4;left:max(12px,env(safe-area-inset-left,0px));bottom:calc(78px + env(safe-area-inset-bottom,0px));display:flex;flex-direction:column;gap:4px}
 .zoomctl button{width:40px;height:40px;border-radius:10px;color:var(--ink);font:500 19px/1 var(--f-mono);cursor:pointer}
@@ -361,13 +363,20 @@ sync();
 /* ---------- carte ---------- */
 const box=document.getElementById("map"),panel=document.getElementById("panel");
 const Z=p=>Math.log2(p*360/512);const ppd=()=>512*Math.pow(2,map.getZoom())/360;
-const map=new maplibregl.Map({container:"map",style:"https://tiles.openfreemap.org/styles/positron",center:[innerWidth<760?6:10,46],zoom:Z(innerWidth<760?7:9),minZoom:1,maxZoom:18,attributionControl:false,dragRotate:false,pitchWithRotate:false,renderWorldCopies:false});
+const map=new maplibregl.Map({container:"map",style:"https://tiles.openfreemap.org/styles/positron",center:[innerWidth<760?6:10,46],zoom:Z(innerWidth<760?7:9),minZoom:1,maxZoom:18,attributionControl:false,dragRotate:false,touchPitch:false,fadeDuration:0,pixelRatio:Math.min(devicePixelRatio||1,2),pitchWithRotate:false,renderWorldCopies:false});
 map.touchZoomRotate.disableRotation();
 map.addControl(new maplibregl.AttributionControl({compact:true}),"bottom-left");
 const proj=ll=>{const p=map.project(ll);return[p.x,p.y]};
 const svg=d3.select(box.parentNode).insert("svg",".top").attr("id","ov").attr("aria-label","Événements sur la carte");
 const gMe=svg.append("g").attr("class","me"),gPz=svg.append("g"),gPr=svg.append("g"),gEv=svg.append("g"),gSp=svg.append("g"),gGd=svg.append("g");
-let raf=0;function schedule(){if(!raf)raf=requestAnimationFrame(()=>{raf=0;render()})}
+let raf=0,moving=false,lastFull=0;
+function fastMove(){const tr=d=>{const p=proj([d.lon,d.lat]);return`translate(${p[0]},${p[1]})`};
+  gEv.selectAll("g.ev").attr("transform",tr);gSp.selectAll("g.sp").attr("transform",tr);gGd.selectAll("g.gd").attr("transform",tr);gPz.selectAll("g.pz").attr("transform",tr);
+  gPr.selectAll("g.pr").attr("transform",d=>tr(d)+(d.kind==="agenda"?" rotate(45)":""));
+  gMe.selectAll("g.mm").each(function(d){const p=proj(d),q=proj([d[0]+radius/(111.32*Math.cos(d[1]*Math.PI/180)),d[1]]);d3.select(this).select(".c").attr("cx",p[0]).attr("cy",p[1]).attr("r",Math.max(4,q[0]-p[0]));d3.select(this).select(".p").attr("cx",p[0]).attr("cy",p[1])})}
+function schedule(){if(!raf)raf=requestAnimationFrame(()=>{raf=0;const n=performance.now();if(moving&&n-lastFull<350)fastMove();else{lastFull=n;render()}})}
+map.on("movestart",()=>{moving=true;document.body.classList.add("moving")});
+map.on("moveend",()=>{moving=false;document.body.classList.remove("moving");lastFull=performance.now();render()});
 map.on("move",schedule);map.on("resize",schedule);
 const reduce=matchMedia("(prefers-reduced-motion: reduce)").matches;
 function off(){if(panel.hidden)return[0,0];if(innerWidth>=760)return[-(panel.offsetWidth+12)/2,0];return[0,-panel.offsetHeight/2]}
