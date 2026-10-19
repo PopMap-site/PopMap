@@ -922,5 +922,53 @@
  "ajsudan6": {
   "t": "Al Jazeera — ONU et Soudan",
   "u": "https://www.aljazeera.com/news/2026/10/6/un-rights-council-condemns-attacks-on-civilians-in-sudan-calls-for-truce"
+ },
+ "brzawiya": {
+  "t": "Business Recorder / Reuters — Zawiya",
+  "u": "https://www.brecorder.com/news/40444935/nine-security-agency-members-killed-in-blast-west-of-libyan-capital-tripoli"
+ },
+ "infobchad": {
+  "t": "Infobae / EFE — lac Tchad",
+  "u": "https://www.infobae.com/america/agencias/2026/10/14/al-menos-20-muertos-incluidos-cuatro-ninos-en-un-ataque-yihadista-en-el-oeste-de-chad/"
+ },
+ "chafrica": {
+  "t": "Channel Africa — frontière Tchad-Centrafrique",
+  "u": "https://www.channelafrica.co.za/channelafrica/news/chad-summons-car-ambassador-following-fatal-border-incursion/"
+ },
+ "starbara": {
+  "t": "The Star / Reuters — Bara",
+  "u": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/10/14/police-clash-with-imran-khan-supporters-in-north-western-pakistan"
+ },
+ "bnekp": {
+  "t": "bne IntelliNews — Khyber Pakhtunkhwa",
+  "u": "https://www.intellinews.com/pakistan-police-clash-with-protesters-after-khyber-pakhtunkhwa-takeover-475803/"
+ },
+ "riovzla": {
+  "t": "Rio Times — appel du 22 octobre",
+  "u": "https://www.riotimesonline.com/venezuela-election-date-protest-22-october-2026/"
+ },
+ "ejeimss": {
+  "t": "Eje Central — mégamarche de l'IMSS",
+  "u": "https://www.ejecentral.com.mx/nuestro-eje/megamarcha-nacional-del-imss-el-21-de-octubre-hora-exacta-ruta-todos-los-bloqueos-y-alternativas-viales"
+ },
+ "infobpe": {
+  "t": "Infobae Pérou — transporteurs",
+  "u": "https://www.infobae.com/peru/2026/10/06/transportistas-evaluan-nuevo-paro-nacional-tras-asesinatos-de-conductores-gremio-se-reunira-este-viernes/"
+ },
+ "larepe": {
+  "t": "La República — paro des transporteurs",
+  "u": "https://larepublica.pe/sociedad/2026/10/07/transportistas-evaluan-paro-nacional-ante-aumento-de-ataques-y-extorsiones-no-vamos-a-esperar-mas-182490"
+ },
+ "novinite": {
+  "t": "Novinite — Sofia",
+  "u": "https://www.novinite.com/articles/241091/Protesters+Accuse+Bulgaria%E2%80%99s+Leaders+of+Pro-Kremlin+Policies"
+ },
+ "unimanipur": {
+  "t": "UNI — Manipur",
+  "u": "https://www.uniindia.com/east-india/violence-manipur-killed-leads-ca3-updated/209685"
+ },
+ "bntmanipur": {
+  "t": "Business News Today — Manipur",
+  "u": "https://business-news-today.com/kuki-naga-tensions-deepen-as-manipur-reports-one-of-its-deadliest-days-in-2026/"
  }
 }

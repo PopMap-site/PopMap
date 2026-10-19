@@ -342,5 +342,32 @@
   "src": [
    "infobbol"
   ]
+ },
+ {
+  "id": "a-venezuela",
+  "kind": "agenda",
+  "place": "Venezuela",
+  "lon": -66.9036,
+  "lat": 10.4806,
+  "t": "2026-10-22T10:00",
+  "ta": true,
+  "title": "Appel à manifester pour une date d'élection",
+  "text": "Jeudi 22 octobre, la plateforme liée à María Corina Machado appelle à manifester dans tout le pays pour obtenir une date d'élection présidentielle.",
+  "src": [
+   "riovzla"
+  ]
+ },
+ {
+  "id": "a-mexico",
+  "kind": "agenda",
+  "place": "Mexico",
+  "lon": -99.155,
+  "lat": 19.407,
+  "t": "2026-10-21T15:00",
+  "title": "Mégamarche des salariés de l'IMSS",
+  "text": "Mercredi 21 octobre à 15 h, départ du Centro Médico Nacional Siglo XXI : salaires, médicaments, personnel. Perturbations possibles sur l'avenue Cuauhtémoc et le Paseo de la Reforma.",
+  "src": [
+   "ejeimss"
+  ]
  }
 ]

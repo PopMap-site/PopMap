@@ -4611,5 +4611,200 @@
   "src": [
    "starbelg"
   ]
+ },
+ {
+  "id": "zawiya",
+  "place": "Zawiya",
+  "country": "Libye",
+  "lon": 12.7278,
+  "lat": 32.7571,
+  "cat": "frappe",
+  "sev": 2,
+  "live": false,
+  "date": "2026-10-18",
+  "t": "2026-10-18T22:00",
+  "ta": true,
+  "title": "Explosion pendant un entraînement : 9 morts",
+  "summary": "Dans la soirée du 18 octobre, à Zawiya (40 km à l'ouest de Tripoli), un obus de mortier de 82 mm explose pendant un exercice d'une agence de sécurité rattachée au gouvernement d'union nationale : au moins 9 morts et plusieurs blessés selon la chaîne Libya Alahrar. Les autorités n'ont pas encore commenté.",
+  "figs": [
+   [
+    "9",
+    "membres des forces de sécurité tués"
+   ]
+  ],
+  "src": [
+   "brzawiya"
+  ]
+ },
+ {
+  "id": "lactchad",
+  "place": "Ngouboua (lac Tchad)",
+  "country": "Tchad",
+  "lon": 14.096,
+  "lat": 13.375,
+  "cat": "frappe",
+  "sev": 2,
+  "live": false,
+  "date": "2026-10-14",
+  "t": "2026-10-14T05:00",
+  "ta": false,
+  "title": "Des pêcheurs tués dans une attaque attribuée à Boko Haram",
+  "summary": "Le 14 octobre vers 5 h, des familles de pêcheurs sont attaquées près du village de Ngouboua Koura, dans la province du Lac, près de la frontière nigériane : au moins 20 morts dont 4 enfants et 7 femmes selon l'armée tchadienne, qui attribue l'attaque à Boko Haram.",
+  "figs": [
+   [
+    "20+",
+    "morts, dont 4 enfants"
+   ]
+  ],
+  "src": [
+   "infobchad"
+  ]
+ },
+ {
+  "id": "amnabaka",
+  "place": "Amnabaka",
+  "country": "Tchad / Centrafrique",
+  "lon": 22.4,
+  "lat": 10.45,
+  "cat": "guerre",
+  "sev": 1,
+  "live": false,
+  "date": "2026-10-10",
+  "t": "2026-10-10T12:00",
+  "ta": true,
+  "title": "Incursion centrafricaine à la frontière",
+  "summary": "Des troupes centrafricaines sont entrées en territoire tchadien près d'Amnabaka lors d'une opération dans la Vakaga : plusieurs civils tués et 16 soldats tchadiens grièvement blessés selon N'Djamena, qui a convoqué l'ambassadeur centrafricain. Localisation approximative.",
+  "src": [
+   "chafrica"
+  ]
+ },
+ {
+  "id": "bara",
+  "place": "Bara (Peshawar)",
+  "country": "Pakistan",
+  "lon": 71.45,
+  "lat": 33.93,
+  "cat": "manif",
+  "sev": 2,
+  "live": false,
+  "date": "2026-10-13",
+  "t": "2026-10-13T12:00",
+  "ta": true,
+  "title": "Heurts après la mise sous tutelle du Khyber Pakhtunkhwa",
+  "summary": "Le 11 octobre, le gouvernement fédéral déclare l'état d'urgence au Khyber Pakhtunkhwa et place la province sous contrôle direct, invoquant la violence militante ; le parti d'Imran Khan (PTI) y voit un coup politique. Le 13, heurts au bazar de Bara : le PTI accuse la police de tirs à balles réelles, ce que l'administration dément ; un centre administratif incendié.",
+  "figs": [
+   [
+    "~50",
+    "arrestations"
+   ],
+   [
+    "5",
+    "blessés selon le PTI"
+   ]
+  ],
+  "src": [
+   "starbara",
+   "bnekp"
+  ]
+ },
+ {
+  "id": "lima",
+  "place": "Lima",
+  "country": "Pérou",
+  "lon": -77.0428,
+  "lat": -12.0464,
+  "cat": "manif",
+  "sev": 1,
+  "live": true,
+  "date": "2026-10-09",
+  "t": "2026-10-06T12:00",
+  "ta": true,
+  "title": "Les transporteurs face aux extorsions",
+  "summary": "Après de nouveaux assassinats de chauffeurs de bus (notamment à El Triángulo et Independencia, au nord de Lima), les syndicats de transport envisagent une nouvelle grève nationale contre les extorsions. La Chambre du transport uni compte 85 chauffeurs tués. Le syndicat enseignant SUTEP appelle par ailleurs à une grève nationale le 29 octobre.",
+  "figs": [
+   [
+    "85",
+    "conducteurs tués (syndicat du transport)"
+   ]
+  ],
+  "src": [
+   "infobpe",
+   "larepe",
+   "gestionpe"
+  ]
+ },
+ {
+  "id": "sofia",
+  "place": "Sofia",
+  "country": "Bulgarie",
+  "lon": 23.3219,
+  "lat": 42.6977,
+  "cat": "manif",
+  "sev": 1,
+  "live": false,
+  "date": "2026-10-15",
+  "t": "2026-10-15T18:30",
+  "ta": false,
+  "title": "Rassemblement contre le gouvernement Radev",
+  "summary": "Le 15 octobre à 18 h 30, des centaines de personnes devant la présidence réclament la démission du Premier ministre Roumen Radev et de la présidente Iliana Yotova, accusés de politique pro-Kremlin. Les organisateurs imputent à la Russie des attaques contre des navires dans la zone économique bulgare ; affirmation non vérifiée.",
+  "src": [
+   "novinite"
+  ]
+ },
+ {
+  "id": "manipur",
+  "place": "Manipur",
+  "country": "Inde",
+  "lon": 94.2,
+  "lat": 24.9,
+  "cat": "guerre",
+  "sev": 2,
+  "live": false,
+  "date": "2026-10-10",
+  "t": "2026-10-09T22:00",
+  "ta": true,
+  "zoom": 120,
+  "title": "Affrontements entre Kukis et Nagas : une dizaine de morts",
+  "summary": "Entre le 9 et le 10 octobre, des violences entre communautés kuki et naga dans les districts de Kamjong, Kangpokpi et Ukhrul font 9 à 10 morts selon les sources, et au moins 14 maisons brûlées. La première victime, une femme kuki, est tuée lors d'une opération de sécurité dont les circonstances sont contestées. Interdictions de rassemblement et appels à la grève générale.",
+  "figs": [
+   [
+    "9-10",
+    "morts"
+   ],
+   [
+    "14+",
+    "maisons incendiées"
+   ]
+  ],
+  "spots": [
+   {
+    "n": "Chassad (Kamjong)",
+    "lon": 94.36,
+    "lat": 24.66,
+    "d": "Une femme tuée lors d'une opération de sécurité contestée, dix maisons incendiées.",
+    "t": "2026-10-09T22:00",
+    "ta": true
+   },
+   {
+    "n": "Kangpokpi",
+    "lon": 93.97,
+    "lat": 25.15,
+    "d": "Quatre villageois nagas tués dans une attaque attribuée à des militants kukis.",
+    "t": "2026-10-10T06:00",
+    "ta": true
+   },
+   {
+    "n": "Ukhrul",
+    "lon": 94.36,
+    "lat": 25.1,
+    "d": "Une personne tuée dans une embuscade.",
+    "t": "2026-10-10T12:00",
+    "ta": true
+   }
+  ],
+  "src": [
+   "unimanipur",
+   "bntmanipur"
+  ]
  }
 ]
