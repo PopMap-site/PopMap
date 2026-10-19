@@ -8,7 +8,7 @@
   "cat": "emeute",
   "sev": 3,
   "live": true,
-  "date": "2026-10-18",
+  "date": "2026-10-19",
   "zoom": 5000,
   "title": "Paris sous tension depuis le 17-octobre",
   "summary": "Journée nationale contre la vie chère, dans la foulée du mouvement lycéen : 110 000 manifestants à Paris selon l'Intérieur. Le cortège autorisé République–Clichy est resté calme, mais des groupes masqués ont multiplié les heurts autour. Cortèges sauvages vers l'Élysée, barricades sur les Champs-Élysées, voitures brûlées, pillages, stations de métro fermées. Dès 7 h, le siège de CNews et Europe 1 avait été visé par une centaine d'individus cagoulés. Nouveaux affrontements dimanche à République ; allocution d'Emmanuel Macron dimanche soir.",
@@ -66,6 +66,10 @@
    [
     "19 oct.",
     "Selon le parquet de Paris, au moins 145 gardes à vue ; dans la nuit, 36 commerces dégradés dont 33 pillés et 176 feux de voie publique. Le gouvernement estime à au moins 3 000 le nombre de commerces touchés en France ; fonds de soutien et chômage partiel annoncés. Le garde des Sceaux compte 2 331 gardes à vue sur le week-end."
+   ],
+   [
+    "19 oct. après-midi",
+    "Une centaine de personnes rassemblées devant l'Hôtel de ville à l'appel de l'Association des maires de France. Le Premier ministre annonce un chômage partiel à 100 % pour les commerces touchés et met en cause l'ultragauche ; Jordan Bardella (RN) annonce que ni lui ni Marine Le Pen n'iront à la réunion des chefs de parti et demande à Jean-Luc Mélenchon de condamner les violences ; le maire PS de Paris, Emmanuel Grégoire, réclame une « réponse politique » et une négociation avec lycéens, étudiants et salariés."
    ],
    [
     "19 oct. soir",
@@ -227,6 +231,7 @@
    "bfmnuit",
    "e1live",
    "sudradio",
+   "f24live19",
    "cnewscf",
    "morandcf"
   ],
@@ -439,7 +444,7 @@
   "cat": "emeute",
   "sev": 3,
   "live": true,
-  "date": "2026-10-18",
+  "date": "2026-10-19",
   "zoom": 9000,
   "title": "Mairie forcée, 118 policiers blessés",
   "summary": "Des individus sont entrés dans le hall de l'hôtel de ville et ont attaqué le poste de police municipale de la Canebière (tentative d'incendie avortée). La préfecture a compté jusqu'à 30 000 pilleurs au plus fort des émeutes, dont 8 000 émeutiers. Tous les transports publics ont été arrêtés à 15 h 25 ; blindés Centaure de la gendarmerie déployés en soirée.",
@@ -455,6 +460,10 @@
    [
     "30 000",
     "pilleurs comptés par la préfecture"
+   ],
+   [
+    "101",
+    "interpellations pour les violences du 17 (parquet : 74 majeurs, 27 mineurs)"
    ]
   ],
   "tl": [
@@ -481,6 +490,10 @@
    [
     "17 oct. soir",
     "Le préfet Jacques Witkowski évoque 7 000 à 8 000 pilleurs, 30 à 40 commerces pillés ou dégradés dont des armureries, 29 policiers blessés dont 2 grièvement, une vingtaine de civils blessés ; des incendies dans des immeubles d'habitation."
+   ],
+   [
+    "19 oct. après-midi",
+    "Le parquet compte 101 interpellations liées au 17 octobre, surtout pour vols avec dégradation en réunion ; 30 personnes déjà présentées à la justice, 38 attendues, audiences de comparution immédiate supplémentaires mardi et mercredi. La Métropole Aix-Marseille-Provence chiffre les dégâts à plus de 10 millions d'euros et demande un « état de catastrophe commerciale »."
    ]
   ],
   "spots": [
@@ -544,7 +557,8 @@
    "maritima",
    "destimed",
    "e1live",
-   "maritima17"
+   "maritima17",
+   "maritima19"
   ],
   "t": "2026-10-17T05:30",
   "ta": false
@@ -889,15 +903,18 @@
   "lat": 50.6305,
   "cat": "emeute",
   "sev": 1,
-  "live": false,
-  "date": "2026-10-17",
+  "live": true,
+  "date": "2026-10-19",
   "title": "Intrusion à l'hôtel de ville",
-  "summary": "Affrontements dès 14 h ; le cortège pacifique part vers 15 h. Les portes vitrées de la mairie sont forcées et une partie des locaux saccagée, avant que les CRS n'entrent vérifier que le bâtiment est vide. Magasins pillés en centre-ville ; nouveaux commerces visés dimanche.",
+  "summary": "Affrontements dès 14 h ; le cortège pacifique part vers 15 h. Les portes vitrées de la mairie sont forcées et une partie des locaux saccagée, avant que les CRS n'entrent vérifier que le bâtiment est vide. Magasins pillés en centre-ville ; nouveaux commerces visés dimanche. Lundi 19 octobre, la préfecture du Nord instaure un couvre-feu de 20 h à 6 h pour les nuits de lundi et mardi sur certaines portions de Lille, Douai, Wattignies et Denain, avec l'accord des maires.",
   "src": [
    "clep",
    "tn",
    "f24lille",
-   "onemedia"
+   "onemedia",
+   "e1live",
+   "actu17cf",
+   "fi19"
   ],
   "t": "2026-10-17T15:00",
   "ta": true,
@@ -910,6 +927,12 @@
     "t": "2026-10-17T15:00",
     "ta": true
    }
+  ],
+  "tl": [
+   [
+    "19 oct.",
+    "Couvre-feu préfectoral de 20 h à 6 h les nuits du 19 et du 20 octobre sur des portions de la ville ; franceinfo indique qu'il vise les mineurs. Le maire Arnaud Deslandes avait écarté un couvre-feu municipal."
+   ]
   ]
  },
  {
@@ -1453,6 +1476,10 @@
     "Sommet sur l'ordre public au Palazzo Chigi autour de Giorgia Meloni ; un décret visant notamment les mineurs est à l'étude. Dégâts du 17 estimés à plus de 500 000 € par Confcommercio."
    ],
    [
+    "19 oct. soir",
+    "À l'issue du sommet au Palazzo Chigi, « l'État donnera une réponse ferme » selon des sources gouvernementales citées par l'ANSA : un décret-loi (mineurs, blocages routiers) pourrait passer en Conseil des ministres dès le 20 octobre, d'autres médias évoquent plutôt la fin de semaine. Selon Il Post, plus de 200 jeunes ont été interpellés le 18, dont 160 conduits à la questura."
+   ],
+   [
     "19 oct.",
     "Bilan du 18 : 32 arrestations dont 23 mineurs, 271 personnes conduites à la questura, 14 policiers blessés. Dégâts estimés à environ un million d'euros par Confcommercio ; commerces du luxe fermés par précaution. Le président Mattarella dénonce des « violences inacceptables » ; un décret sur l'ordre public est attendu en Conseil des ministres le 20 octobre (garde à vue préventive jusqu'à 24 h selon la Ligue). 500 militaires supplémentaires annoncés pour Milan."
    ]
@@ -1581,6 +1608,8 @@
    "fa",
    "ansami18",
    "ansachigi",
+   "ansachigi2",
+   "ilpost19",
    "lapresse19",
    "ansa19mi"
   ],
@@ -2167,6 +2196,8 @@
    "ajtirana",
    "usnrama",
    "euntirana",
+   "eun19tir",
+   "ansatirana",
    "adn7",
    "cna7"
   ],
@@ -2185,6 +2216,14 @@
    [
     "18 oct.",
     "Sixième journée de mobilisation ; Rama exclut toute démission."
+   ],
+   [
+    "18 oct. soir",
+    "Rez-de-chaussée d'un commissariat incendié et entrée du ministère de l'Intérieur visée ; 28 blessés dans la journée selon le ministère de la Santé, dont 19 policiers."
+   ],
+   [
+    "19 oct.",
+    "Edi Rama affirme qu'un drone explosif visant le siège du gouvernement a été neutralisé deux jours plus tôt et parle d'une « main étrangère » ; la diplomatie russe rejette ces accusations. Sa visite à Vienne prévue lundi est annulée. La Commission européenne condamne les violences et demande une réponse proportionnée ; l'ambassade américaine appelle au calme."
    ],
    [
     "19 oct.",
@@ -2212,7 +2251,15 @@
    "reuserb",
    "intelli",
    "wpserb",
-   "intelliser"
+   "intelliser",
+   "vremeserb",
+   "wpserb19"
+  ],
+  "tl": [
+   [
+    "19 oct.",
+    "Les étudiants marchent en trois colonnes depuis l'ouest de la Serbie vers Belgrade et la place Slavija, pour le dernier grand rassemblement avant le scrutin du 25 octobre."
+   ]
   ]
  },
  {
@@ -2367,7 +2414,7 @@
   "cat": "guerre",
   "sev": 3,
   "live": true,
-  "date": "2026-10-18",
+  "date": "2026-10-19",
   "title": "Guerre d'Iran : la bataille du détroit",
   "summary": "Guerre ouverte depuis l'offensive américaine du 28 février. Washington maintient un blocus des ports iraniens ; Washington et Téhéran revendiquent chacun le contrôle du détroit. Au moins 12 navires attaqués la semaine du 16 octobre selon l'agence britannique UKMTO (un coulé, deux immobilisés), un supertanker en feu après une mine selon les Gardiens de la révolution, un remorqueur touché le 18. Le flux pétrolier est tombé à environ 68 % du niveau d'avant-guerre ; le Brent a touché 110 $. L'Iran propose une réouverture du détroit en six jours puis des négociations, contre la levée du blocus.",
   "figs": [
@@ -2388,10 +2435,18 @@
    "cg",
    "iran",
    "ajhormuz",
-   "cbsiran"
+   "cbsiran",
+   "f24golfe",
+   "cnewsmacron"
   ],
   "t": "2026-10-16T12:00",
-  "ta": true
+  "ta": true,
+  "tl": [
+   [
+    "19 oct.",
+    "Emmanuel Macron entame au Koweït une tournée dans quatre pays du Golfe consacrée à la sécurité énergétique et à la réouverture du détroit. Téhéran dit que son plan de réouverture en sept jours reste « sur la table »."
+   ]
+  ]
  },
  {
   "id": "teheran",
@@ -2665,15 +2720,17 @@
   "cat": "guerre",
   "sev": 2,
   "live": true,
-  "date": "2026-10-05",
+  "date": "2026-10-17",
   "title": "Guerre ouverte depuis février",
   "summary": "Nouvelles frappes pakistanaises en Afghanistan début octobre et combats dans le district de Kamdesh (Nouristan). Le Pakistan vient de vivre sa plus forte hausse de violence en près de cinq ans.",
   "src": [
    "lwj",
    "afpk",
-   "lwjpak"
+   "lwjpak",
+   "khaama17",
+   "nationpk18"
   ],
-  "t": "2026-10-05T12:00",
+  "t": "2026-10-17T12:00",
   "ta": true,
   "tl": [
    [
@@ -2683,7 +2740,21 @@
    [
     "2 oct.",
     "Combats dans le district de Kamdesh (Nouristan) ; chaque camp accuse l'autre."
+   ],
+   [
+    "17-18 oct.",
+    "Échanges de tirs près du district de Dand Patan (Paktia), face au district de Kurram ; une roquette touche une zone habitée. Islamabad dit avoir tué des combattants talibans, ce qui n'est pas vérifié de façon indépendante ; Kaboul n'a pas donné de bilan."
    ]
+  ],
+  "spots": [
+   {
+    "n": "Dand Patan (Paktia)",
+    "lon": 69.95,
+    "lat": 33.73,
+    "d": "17 oct. : échanges de tirs entre talibans et forces pakistanaises, une roquette tombe sur une zone habitée ; bilan inconnu.",
+    "t": "2026-10-17T12:00",
+    "ta": true
+   }
   ]
  },
  {
@@ -2695,7 +2766,7 @@
   "cat": "guerre",
   "sev": 3,
   "live": true,
-  "date": "2026-10-18",
+  "date": "2026-10-19",
   "title": "Un an de cessez-le-feu, des frappes presque quotidiennes",
   "summary": "Le cessez-le-feu du 10 octobre 2025 a un an, mais plus de 100 ONG (Amnesty, NRC, Save the Children, Oxfam) estiment qu'il n'existe « que de nom ». Selon le ministère de la Santé de Gaza, 1 493 Palestiniens ont été tués et 5 299 blessés depuis la trêve (au 12 octobre). Israël, qui contrôle près des deux tiers de la bande, a encore avancé sa « ligne jaune » dans des quartiers de Gaza City. Israël affirme viser des membres de groupes armés ; plusieurs de ces affirmations sont contestées et non vérifiées de façon indépendante. L'aide entre à environ un tiers du rythme prévu.",
   "src": [
@@ -2705,18 +2776,19 @@
    "ocha",
    "meegaza",
    "ajrimal",
-   "toi18"
+   "toi18",
+   "xinhuagaza19"
   ],
   "t": "2026-10-12T12:00",
   "ta": true,
   "zoom": 900,
   "figs": [
    [
-    "1 501",
-    "tués depuis la trêve (ministère de la Santé de Gaza, 15 oct.)"
+    "1 517",
+    "tués depuis la trêve (autorités sanitaires de Gaza, 18 oct.)"
    ],
    [
-    "5 323",
+    "5 400",
     "blessés depuis la trêve"
    ],
    [
@@ -2748,6 +2820,10 @@
    [
     "18 oct.",
     "Selon des médias palestiniens, une fillette de 7 ans tuée par des tirs près du camp d'al-Maghazi et un garçon dans le nord de la bande ; l'armée israélienne n'a pas commenté. Les négociations sur la deuxième phase du plan américain sont au point mort."
+   ],
+   [
+    "18-19 oct.",
+    "Selon des sources médicales citées par Xinhua, 4 Palestiniens tués dimanche, dont un enfant : un par drone dans l'ouest de Gaza City, un à Beit Lahia, une femme à Khan Younès et un enfant au camp d'al-Maghazi. L'armée israélienne n'a pas commenté ces cas."
    ]
   ],
   "spots": [
@@ -2794,6 +2870,14 @@
     "lon": 34.387,
     "lat": 31.422,
     "d": "18 oct. : une fillette de 7 ans tuée par des tirs selon des médias palestiniens ; pas de commentaire de l'armée.",
+    "t": "2026-10-18T12:00",
+    "ta": true
+   },
+   {
+    "n": "Beit Lahia",
+    "lon": 34.495,
+    "lat": 31.555,
+    "d": "18 oct. : un homme meurt de blessures par balle selon des sources médicales palestiniennes.",
     "t": "2026-10-18T12:00",
     "ta": true
    }
@@ -3010,7 +3094,7 @@
   "cat": "guerre",
   "sev": 2,
   "live": true,
-  "date": "2026-10-15",
+  "date": "2026-10-19",
   "t": "2026-10-15T12:00",
   "ta": true,
   "title": "Une capitale sous contrôle des gangs",
@@ -3018,7 +3102,9 @@
   "src": [
    "cnnhaiti",
    "swj",
-   "latinpost"
+   "latinpost",
+   "aphaiti19",
+   "wphaiti19"
   ],
   "spots": [
    {
@@ -3028,9 +3114,23 @@
     "d": "Juillet-août : au moins 164 morts et plus de 70 enlèvements dans deux attaques de gangs.",
     "t": "2026-08-24T12:00",
     "ta": true
+   },
+   {
+    "n": "Croix-des-Bouquets",
+    "lon": -72.225,
+    "lat": 18.577,
+    "d": "18 oct. : un blindé transportant quatre militaires salvadoriens de la force anti-gangs est attaqué aux explosifs et incendié ; les quatre hommes sont portés disparus selon les forces armées du Salvador.",
+    "t": "2026-10-18T12:00",
+    "ta": true
    }
   ],
-  "zoom": 600
+  "zoom": 600,
+  "tl": [
+   [
+    "18-19 oct.",
+    "Plus grande attaque contre la nouvelle force internationale anti-gangs : à Croix-des-Bouquets, un véhicule blindé est incendié et des hélicoptères salvadoriens essuient des tirs. Quatre militaires salvadoriens sont portés disparus ; aucun groupe n'a revendiqué."
+   ]
+  ]
  },
  {
   "id": "sagaing",
@@ -3515,12 +3615,28 @@
     "d": "Zone industrielle et portuaire touchée par les blocages.",
     "t": "2026-10-15T08:00",
     "ta": true
+   },
+   {
+    "n": "Le Lamentin (Guadeloupe)",
+    "lon": -61.632,
+    "lat": 16.27,
+    "d": "19 oct. au matin : un barrage en feu à la cité Crane et une voiture incendiée devant la mairie.",
+    "t": "2026-10-19T05:00",
+    "ta": true
    }
   ],
   "src": [
    "rcigua",
    "la1gua",
-   "etvgua"
+   "etvgua",
+   "rcigua19",
+   "la1gua19"
+  ],
+  "tl": [
+   [
+    "19 oct. matin",
+    "Jusqu'à neuf barrages au Gosier (Riviera, Grande Ravine, bourg, Mare-Gaillard), obstacles aux Abymes et sur la RN1, voiture incendiée devant la mairie du Lamentin ; la zone de Jarry reste perturbée selon RCI."
+   ]
   ]
  },
  {
@@ -4324,12 +4440,18 @@
    "zaymq2",
    "zaymq3",
    "la1mq",
-   "antilla19"
+   "antilla19",
+   "etvmq19",
+   "la1mqbilan"
   ],
   "tl": [
    [
     "19 oct. matin",
     "Barrages et feux de détritus à Fort-de-France (Sainte-Thérèse, Canal Alaric), au Lamentin et au Robert, où des véhicules ont été incendiés ; bus à haut niveau de service à l'arrêt, navettes maritimes réduites. Le maire du Robert condamne ces destructions ; le RPPRAC n'y est pas directement lié."
+   ],
+   [
+    "19 oct.",
+    "Le préfet condamne les violences de la nuit : « rien ne peut justifier de telles exactions ». Le RPPRAC conditionne la reprise du dialogue au départ du préfet et à la démission du président de la CTM."
    ]
   ]
  },

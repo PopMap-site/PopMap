@@ -371,6 +371,52 @@
   ]
  },
  {
+  "id": "p-nord",
+  "kind": "interdiction",
+  "place": "Lille · Douai · Wattignies · Denain",
+  "lon": 3.0573,
+  "lat": 50.6292,
+  "t": "2026-10-19T20:00",
+  "until": "2026-10-21T06:00",
+  "ta": false,
+  "title": "Couvre-feu 20 h – 6 h dans quatre villes du Nord",
+  "text": "Arrêté du préfet du Nord : couvre-feu de 20 h à 6 h les nuits du lundi 19 et du mardi 20 octobre sur certaines portions de Lille, Douai, Wattignies et Denain, avec l'accord des maires ; franceinfo indique qu'il vise les mineurs. À Denain, un couvre-feu municipal de 21 h à 6 h s'applique en outre jusqu'au 25 octobre.",
+  "src": [
+   "e1live",
+   "actu17cf",
+   "fi19"
+  ]
+ },
+ {
+  "id": "a-acte2",
+  "kind": "agenda",
+  "place": "France entière",
+  "lon": 2.35,
+  "lat": 48.85,
+  "t": "2026-10-24T14:00",
+  "ta": true,
+  "title": "« Acte II » des Gilets jaunes",
+  "text": "Samedi 24 octobre, nouvelle journée d'actions annoncée par la coordination des Gilets jaunes (76 actions recensées sur son site). Le gouvernement a évoqué des manifestations « encadrées voire interdites » ; consultez les arrêtés préfectoraux la veille.",
+  "src": [
+   "sudradio24",
+   "f24acte2",
+   "f3tlse24"
+  ]
+ },
+ {
+  "id": "a-lyon24",
+  "kind": "agenda",
+  "place": "Lyon · place Bellecour",
+  "lon": 4.832,
+  "lat": 45.7578,
+  "t": "2026-10-24T14:00",
+  "title": "Appel à manifester place Bellecour",
+  "text": "Samedi 24 octobre à 14 h, appel des Gilets jaunes place Bellecour, ainsi qu'à Vénissieux (place Jean-Macé) ; aucune réaction de la préfecture à ce stade.",
+  "src": [
+   "lyonmag24"
+  ]
+ },
+ {
   "id": "p-paris-cf",
   "kind": "interdiction",
   "place": "Paris · République et Les Halles",
@@ -398,21 +444,6 @@
   "src": [
    "morandcf",
    "boursocf"
-  ]
- },
- {
-  "id": "p-nord",
-  "kind": "interdiction",
-  "place": "Lille · Douai · Wattignies · Denain",
-  "lon": 3.0573,
-  "lat": 50.6292,
-  "t": "2026-10-19T20:00",
-  "until": "2026-10-21T06:00",
-  "title": "Couvre-feux 20 h – 6 h",
-  "text": "Couvre-feux sur une partie de chaque commune les nuits de lundi et mardi, annoncés par Matignon avec l'accord des maires ; zones précisées par la préfecture du Nord. À Denain, couvre-feu municipal jusqu'au 25 octobre.",
-  "src": [
-   "e1live",
-   "morandcf"
   ]
  }
 ]
