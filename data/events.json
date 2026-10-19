@@ -14,20 +14,20 @@
   "summary": "Journée nationale contre la vie chère, dans la foulée du mouvement lycéen : 110 000 manifestants à Paris selon l'Intérieur. Le cortège autorisé République–Clichy est resté calme, mais des groupes masqués ont multiplié les heurts autour. Cortèges sauvages vers l'Élysée, barricades sur les Champs-Élysées, voitures brûlées, pillages, stations de métro fermées. Dès 7 h, le siège de CNews et Europe 1 avait été visé par une centaine d'individus cagoulés. Nouveaux affrontements dimanche à République ; allocution d'Emmanuel Macron dimanche soir.",
   "figs": [
    [
+    "2 397",
+    "interpellations en France le 17 (Intérieur)"
+   ],
+   [
+    "997",
+    "policiers et gendarmes blessés en France, dont 7 grièvement"
+   ],
+   [
     "855",
-    "interpellations à Paris, 444 gardes à vue"
+    "interpellations à Paris le 17"
    ],
    [
-    "13",
-    "policiers et gendarmes blessés à Paris, + 2 pompiers"
-   ],
-   [
-    "111",
-    "manifestants blessés à Paris"
-   ],
-   [
-    "1",
-    "mort après un malaise bd de Magenta"
+    "117 à 351",
+    "interpellations à Paris le 18 selon les décomptes"
    ]
   ],
   "tl": [
@@ -54,6 +54,18 @@
    [
     "19 oct.",
     "Le ministre de l'Intérieur Laurent Nuñez reconnaît un « manque d'anticipation » et présente sa démission, refusée par Emmanuel Macron. Le Premier ministre annonce des couvre-feux partiels et localisés."
+   ],
+   [
+    "18 oct.",
+    "Bilan consolidé du ministère de l'Intérieur pour le 17 : 2 397 interpellations et 997 policiers et gendarmes blessés, dont 7 grièvement. Environ 1 500 commerces touchés selon la Fédération du commerce et de la distribution."
+   ],
+   [
+    "18 oct. soir",
+    "Nouveaux heurts à République, aux Halles et à Belleville. La préfecture de police compte 117 interpellations à 1 h du matin ; Le JDD en cite 351 sur la soirée."
+   ],
+   [
+    "19 oct.",
+    "Selon le parquet de Paris, au moins 145 gardes à vue ; dans la nuit, 36 commerces dégradés dont 33 pillés et 176 feux de voie publique. Le gouvernement estime à au moins 3 000 le nombre de commerces touchés en France ; fonds de soutien et chômage partiel annoncés. Le garde des Sceaux compte 2 331 gardes à vue sur le week-end."
    ]
   ],
   "spots": [
@@ -136,6 +148,46 @@
     "d": "13 oct. : fin de rassemblement lycéen, heurts avec la police antiémeute.",
     "t": "2026-10-13T17:00",
     "ta": true
+   },
+   {
+    "n": "Les Halles",
+    "lon": 2.347,
+    "lat": 48.862,
+    "d": "Dimanche 18 vers 22 h, le secteur échappe au contrôle des forces de l'ordre ; pillages jusque vers 1 h du matin (Le JDD).",
+    "t": "2026-10-18T22:00",
+    "ta": true
+   },
+   {
+    "n": "Rue du Faubourg-Saint-Martin (10e)",
+    "lon": 2.3585,
+    "lat": 48.8722,
+    "d": "Dimanche 18 au soir, des dizaines de personnes vêtues de noir forcent la porte d'un immeuble d'habitation (Le JDD).",
+    "t": "2026-10-18T21:00",
+    "ta": true
+   },
+   {
+    "n": "Belleville",
+    "lon": 2.377,
+    "lat": 48.872,
+    "d": "Dimanche 18 : tensions et magasins pillés dans le quartier (préfecture de police, Ouest-France).",
+    "t": "2026-10-18T20:00",
+    "ta": true
+   },
+   {
+    "n": "Avenue Montaigne",
+    "lon": 2.3045,
+    "lat": 48.8665,
+    "d": "Samedi 17 vers 18 h 15 : barricades dressées après le passage des Champs-Élysées.",
+    "t": "2026-10-17T18:15",
+    "ta": true
+   },
+   {
+    "n": "Rue Saint-Martin",
+    "lon": 2.351,
+    "lat": 48.864,
+    "d": "Dimanche 18 en soirée : nouvelles dégradations.",
+    "t": "2026-10-18T22:00",
+    "ta": true
    }
   ],
   "media": [
@@ -164,7 +216,13 @@
    "brut",
    "f24macron",
    "lcp",
-   "bours"
+   "bours",
+   "ecomatin",
+   "jdd18",
+   "express18",
+   "bfmnuit",
+   "e1live",
+   "sudradio"
   ],
   "photos": [
    {
@@ -257,13 +315,55 @@
     "d": "Rassemblements et canons à eau sur les ponts du Rhône.",
     "t": "2026-10-17T17:50",
     "ta": false
+   },
+   {
+    "n": "Rue Édouard-Herriot",
+    "lon": 4.833,
+    "lat": 45.762,
+    "d": "Commerces de la Presqu'île pillés dans l'après-midi.",
+    "t": "2026-10-17T15:30",
+    "ta": true
+   },
+   {
+    "n": "Quai Saint-Antoine",
+    "lon": 4.83,
+    "lat": 45.763,
+    "d": "Un incendie allumé par des groupes.",
+    "t": "2026-10-17T16:00",
+    "ta": true
+   },
+   {
+    "n": "Préfecture du Rhône",
+    "lon": 4.843,
+    "lat": 45.759,
+    "d": "Rassemblement dès 8 h, puis barrages improvisés et gaz lacrymogènes sur les quais du Rhône.",
+    "t": "2026-10-17T08:00",
+    "ta": true
+   },
+   {
+    "n": "Place Guichard",
+    "lon": 4.846,
+    "lat": 45.759,
+    "d": "Un cortège sauvage repoussé par les gaz lacrymogènes vers Saxe-Gambetta.",
+    "t": "2026-10-17T17:00",
+    "ta": true
+   },
+   {
+    "n": "Place de la République",
+    "lon": 4.836,
+    "lat": 45.762,
+    "d": "Intervention de la police à 19 h 50.",
+    "t": "2026-10-17T19:50",
+    "ta": false
    }
   ],
   "src": [
    "pandore",
    "clep",
    "dh",
-   "fi18"
+   "fi18",
+   "lyonmag",
+   "express18"
   ],
   "photos": [
    {
@@ -316,6 +416,14 @@
    [
     "18 oct.",
     "Nouveaux heurts et commerces pillés."
+   ],
+   [
+    "18 oct.",
+    "Quatre événements annulés dimanche, dont le marché du Vieux-Port."
+   ],
+   [
+    "19 oct.",
+    "Toutes les manifestations interdites de 12 h à 20 h sur la commune. Laurent Nuñez reporte sa visite pour une réunion avec le Premier ministre. 13 personnes placées en détention provisoire à Marseille selon le garde des Sceaux."
    ]
   ],
   "spots": [
@@ -334,13 +442,51 @@
     "d": "Poste de police municipale dégradé, tentative d'incendie.",
     "t": "2026-10-17T16:00",
     "ta": true
+   },
+   {
+    "n": "Rue Saint-Ferréol",
+    "lon": 5.379,
+    "lat": 43.293,
+    "d": "Avant midi, des magasins fermés sur conseil de la préfecture sont fracturés et pillés.",
+    "t": "2026-10-17T11:30",
+    "ta": true
+   },
+   {
+    "n": "Les Réformés",
+    "lon": 5.386,
+    "lat": 43.299,
+    "d": "Poubelles et mobilier urbain incendiés.",
+    "t": "2026-10-17T16:00",
+    "ta": true
+   },
+   {
+    "n": "Place Castellane",
+    "lon": 5.383,
+    "lat": 43.286,
+    "d": "Passage du cortège, heurts sporadiques.",
+    "t": "2026-10-17T14:00",
+    "ta": true
+   },
+   {
+    "n": "Château-Gombert",
+    "lon": 5.433,
+    "lat": 43.353,
+    "d": "Dès 5 h 30, rassemblement devant un site industriel de l'armement.",
+    "t": "2026-10-17T05:30",
+    "ta": false
    }
   ],
   "src": [
    "pandore",
    "dh",
    "clep",
-   "fi18"
+   "fi18",
+   "marsactu",
+   "icimrs",
+   "onemedia",
+   "maritima",
+   "destimed",
+   "e1live"
   ],
   "t": "2026-10-17T05:30",
   "ta": false
@@ -388,6 +534,10 @@
    [
     "19 oct.",
     "Le Premier ministre assure au maire que l'hôtel de ville sera reconstruit."
+   ],
+   [
+    "19 oct.",
+    "Le préfet de la Haute-Vienne juge l'incendie « vraisemblablement » prémédité."
    ]
   ],
   "posts": [
@@ -419,7 +569,8 @@
    "icilim",
    "pandore",
    "clep",
-   "lcp"
+   "lcp",
+   "icilim2"
   ],
   "photos": [
    {
@@ -440,18 +591,85 @@
   "lon": -0.5792,
   "lat": 44.8378,
   "cat": "emeute",
-  "sev": 2,
+  "sev": 3,
   "live": false,
   "date": "2026-10-17",
   "title": "La résidence de la préfète saccagée",
-  "summary": "La résidence officielle de la préfète de Gironde a été envahie et saccagée ; le RAID a été mobilisé et deux blindés Centaure envoyés vers l'hôtel de ville. Commerces touchés.",
+  "summary": "Environ 30 000 manifestants selon Rue89 Bordeaux. Premiers gaz lacrymogènes place du Parlement, puis tirs place Pey-Berland vers 16 h et canons à eau vers 17 h. Rue Sainte-Catherine, des commerces sont pillés par des groupes cagoulés ; vers 18 h, la résidence de la préfète Sophie Brocas est envahie et saccagée, le RAID est mobilisé. Barricades incendiées quai Richelieu, gros incendie cours Alsace-Lorraine. Opérations encore en cours à 20 h 30.",
   "src": [
    "clep",
    "tn",
-   "pandore"
+   "pandore",
+   "r89bdx",
+   "f3bdx",
+   "ecomatin"
   ],
   "t": "2026-10-17T15:00",
-  "ta": true
+  "ta": true,
+  "figs": [
+   [
+    "55",
+    "interpellations à 20 h 30"
+   ],
+   [
+    "23",
+    "blessés : 15 policiers et gendarmes, 8 manifestants"
+   ],
+   [
+    "~30 000",
+    "manifestants (Rue89 Bordeaux)"
+   ]
+  ],
+  "spots": [
+   {
+    "n": "Place du Parlement",
+    "lon": -0.5714,
+    "lat": 44.8405,
+    "d": "Premiers tirs de gaz lacrymogène après des bousculades.",
+    "t": "2026-10-17T15:00",
+    "ta": true
+   },
+   {
+    "n": "Place Pey-Berland",
+    "lon": -0.5776,
+    "lat": 44.8378,
+    "d": "Devant l'hôtel de ville : tirs vers 16 h, charges des CRS, canons à eau vers 17 h.",
+    "t": "2026-10-17T16:00",
+    "ta": true
+   },
+   {
+    "n": "Rue Sainte-Catherine",
+    "lon": -0.5737,
+    "lat": 44.84,
+    "d": "Commerces pillés par des groupes cagoulés ; un feu de magasin gagne une partie de l'immeuble.",
+    "t": "2026-10-17T17:00",
+    "ta": true
+   },
+   {
+    "n": "Place de la Bourse",
+    "lon": -0.57,
+    "lat": 44.8414,
+    "d": "Manifestants gazés à leur arrivée, vitres de la CCI brisées.",
+    "t": "2026-10-17T16:30",
+    "ta": true
+   },
+   {
+    "n": "Quai Richelieu",
+    "lon": -0.5693,
+    "lat": 44.8395,
+    "d": "Barricades de barrières, trottinettes et vélos incendiés, circulation bloquée.",
+    "t": "2026-10-17T18:00",
+    "ta": true
+   },
+   {
+    "n": "Cours Alsace-Lorraine",
+    "lon": -0.571,
+    "lat": 44.8385,
+    "d": "Un important incendie bloque la rue.",
+    "t": "2026-10-17T18:30",
+    "ta": true
+   }
+  ]
  },
  {
   "id": "toulouse",
@@ -477,10 +695,41 @@
   ],
   "src": [
    "pandore",
-   "clep"
+   "clep",
+   "icitls",
+   "icitls18",
+   "onemedia"
   ],
   "t": "2026-10-17T15:00",
-  "ta": true
+  "ta": true,
+  "spots": [
+   {
+    "n": "Saint-Cyprien",
+    "lon": 1.432,
+    "lat": 43.5985,
+    "d": "Vers 15 h 45, affrontements : environ 200 personnes lancent des projectiles.",
+    "t": "2026-10-17T15:45",
+    "ta": false
+   },
+   {
+    "n": "Patte-d'Oie",
+    "lon": 1.418,
+    "lat": 43.596,
+    "d": "Tensions en fin d'après-midi ; quatre responsables syndicales blessées et évacuées selon la CGT.",
+    "t": "2026-10-17T16:30",
+    "ta": true
+   }
+  ],
+  "tl": [
+   [
+    "17 oct.",
+    "Environ 20 commerces pillés selon un premier bilan de la préfecture."
+   ],
+   [
+    "18 oct.",
+    "Nouveaux affrontements en centre-ville au lendemain de la manifestation."
+   ]
+  ]
  },
  {
   "id": "grenoble",
@@ -489,26 +738,70 @@
   "lon": 5.7245,
   "lat": 45.1885,
   "cat": "emeute",
-  "sev": 2,
+  "sev": 3,
   "live": false,
   "date": "2026-10-17",
-  "title": "300 cagoulés contre la police",
-  "summary": "Vers 11 h 30, environ 300 personnes encagoulées se détachent du cortège et attaquent les forces de l'ordre. 55 interventions des pompiers pour des feux criminels.",
+  "title": "Immeuble incendié, plus de 30 commerces pillés",
+  "summary": "Jusqu'à 13 000 manifestants dans quatre cortèges selon la préfecture. Vers 11 h 30, environ 300 personnes cagoulées se détachent et attaquent les forces de l'ordre. Vers 13 h, l'hôtel de ville puis le rectorat sont visés ; l'église Saint-Louis est dégradée. Plus de 30 commerces et agences bancaires pillés, un immeuble ravagé par les flammes près de l'arrêt Alsace-Lorraine. Le soir, nouvelles violences à Échirolles. Trams perturbés plusieurs jours.",
   "figs": [
+   [
+    "51",
+    "interpellations (préfecture)"
+   ],
+   [
+    "30+",
+    "commerces et banques pillés"
+   ],
    [
     "55",
     "feux criminels"
    ],
    [
     "3",
-    "blessés : 1 pompier, 2 policiers"
+    "blessés : 2 policiers, 1 pompier"
    ]
   ],
   "src": [
-   "pandore"
+   "pandore",
+   "gremag",
+   "f3gre"
   ],
   "t": "2026-10-17T11:30",
-  "ta": false
+  "ta": false,
+  "spots": [
+   {
+    "n": "Hôtel de ville",
+    "lon": 5.7357,
+    "lat": 45.1866,
+    "d": "Vers 13 h, plusieurs centaines de personnes s'en prennent à la mairie : vitres et accès brisés.",
+    "t": "2026-10-17T13:00",
+    "ta": false
+   },
+   {
+    "n": "Église Saint-Louis",
+    "lon": 5.7262,
+    "lat": 45.1895,
+    "d": "Des individus entrent et dégradent l'église.",
+    "t": "2026-10-17T14:00",
+    "ta": true
+   },
+   {
+    "n": "Arrêt de tram Alsace-Lorraine",
+    "lon": 5.72,
+    "lat": 45.189,
+    "d": "Un immeuble ravagé par un incendie, l'une des 55 interventions des pompiers.",
+    "t": "2026-10-17T16:00",
+    "ta": true
+   },
+   {
+    "n": "Échirolles — av. des États-Généraux",
+    "lon": 5.719,
+    "lat": 45.152,
+    "d": "Nouvelles violences dans la soirée.",
+    "t": "2026-10-17T21:00",
+    "ta": true
+   }
+  ]
  },
  {
   "id": "stetienne",
@@ -541,13 +834,25 @@
   "live": false,
   "date": "2026-10-17",
   "title": "Intrusion à l'hôtel de ville",
-  "summary": "Les portes vitrées de la mairie ont été brisées, avec intrusion et dégradations.",
+  "summary": "Affrontements dès 14 h ; le cortège pacifique part vers 15 h. Les portes vitrées de la mairie sont forcées et une partie des locaux saccagée, avant que les CRS n'entrent vérifier que le bâtiment est vide. Magasins pillés en centre-ville ; nouveaux commerces visés dimanche.",
   "src": [
    "clep",
-   "tn"
+   "tn",
+   "f24lille",
+   "onemedia"
   ],
   "t": "2026-10-17T15:00",
-  "ta": true
+  "ta": true,
+  "spots": [
+   {
+    "n": "Hôtel de ville",
+    "lon": 3.071,
+    "lat": 50.631,
+    "d": "Portes vitrées forcées, locaux en partie saccagés.",
+    "t": "2026-10-17T15:00",
+    "ta": true
+   }
+  ]
  },
  {
   "id": "nice",
@@ -615,21 +920,73 @@
   "t": "2026-10-17T14:00",
   "ta": true,
   "title": "17 blessés, la Grande Île interdite",
-  "summary": "Près de 15 000 personnes place Kléber selon la mairie (20 000 selon la CGT). La préfecture avait interdit l'accès de la Grande Île aux manifestants. Dégradations et pillages dans le centre ; un policier touché à la tête par un mortier. La maire Catherine Trautmann a réuni une cellule de crise lundi et appelle au calme ; rassemblement républicain lundi midi place de l'Étoile.",
+  "summary": "15 000 manifestants selon la préfecture (20 000 à 35 000 selon les syndicats), rassemblés place Kléber à 14 h. Le cortège est scindé par des tirs de lacrymogènes rue de la Division-Leclerc ; affrontements entre l'Homme-de-Fer et les Halles, puis dans la Krutenau jusqu'à 20 h 30. Un homme de 27 ans grièvement blessé à l'œil. Véhicules incendiés à Hautepierre jusqu'à 22 h 30 selon un syndicat de police.",
   "figs": [
    [
+    "27",
+    "interpellations (préfecture)"
+   ],
+   [
     "17",
-    "blessés dont un policier"
+    "blessés, dont 1 grave à l'œil"
+   ],
+   [
+    "27",
+    "policiers blessés"
    ],
    [
     "15 000",
-    "manifestants (mairie) / 20 000 (CGT)"
+    "manifestants (préfecture)"
    ]
   ],
   "src": [
    "strasm",
    "f3alsace",
-   "icistras"
+   "icistras",
+   "r89str",
+   "icistr"
+  ],
+  "spots": [
+   {
+    "n": "Place Kléber",
+    "lon": 7.7455,
+    "lat": 48.5835,
+    "d": "Rassemblement à 14 h, tirs continus en début de soirée.",
+    "t": "2026-10-17T14:00",
+    "ta": false
+   },
+   {
+    "n": "Rue de la Division-Leclerc",
+    "lon": 7.744,
+    "lat": 48.58,
+    "d": "Tirs de lacrymogènes qui scindent le cortège.",
+    "t": "2026-10-17T15:15",
+    "ta": true
+   },
+   {
+    "n": "Place de l'Homme-de-Fer",
+    "lon": 7.743,
+    "lat": 48.584,
+    "d": "Affrontements jusqu'au centre commercial des Halles.",
+    "t": "2026-10-17T17:00",
+    "ta": true
+   },
+   {
+    "n": "Krutenau",
+    "lon": 7.758,
+    "lat": 48.58,
+    "d": "Poursuites jusque vers 20 h 30, près du campus.",
+    "t": "2026-10-17T20:30",
+    "ta": true
+   },
+   {
+    "n": "Hautepierre",
+    "lon": 7.696,
+    "lat": 48.59,
+    "d": "Plusieurs véhicules incendiés jusque vers 22 h 30 (syndicat de police).",
+    "t": "2026-10-17T22:30",
+    "ta": true
+   }
   ]
  },
  {
@@ -645,10 +1002,32 @@
   "t": "2026-10-17T14:00",
   "ta": true,
   "title": "Débordements jusqu'en fin d'après-midi",
-  "summary": "Les manifestants ont convergé vers la place de Jaude ; affrontements avec les forces de l'ordre et magasins vandalisés et pillés jusqu'en fin d'après-midi. Bilan chiffré non publié à ce stade.",
+  "summary": "Environ 2 800 personnes selon la préfecture. Premiers affrontements vers midi près du conseil départemental ; les cortèges non déclarés convergent vers la place de Jaude. Le centre commercial ferme en début d'après-midi ; deux magasins pillés, mobilier urbain dégradé, feux de poubelles, incidents sur la ligne de tram.",
   "src": [
    "f3clermont",
-   "iciclermont"
+   "iciclermont",
+   "iciclf",
+   "f3clf"
+  ],
+  "figs": [
+   [
+    "2 800",
+    "manifestants (préfecture)"
+   ],
+   [
+    "4",
+    "interpellations"
+   ]
+  ],
+  "spots": [
+   {
+    "n": "Place de Jaude",
+    "lon": 3.082,
+    "lat": 45.777,
+    "d": "Point de convergence des cortèges, affrontements jusqu'en fin d'après-midi.",
+    "t": "2026-10-17T14:00",
+    "ta": true
+   }
   ]
  },
  {
@@ -664,7 +1043,7 @@
   "t": "2026-10-17T15:00",
   "ta": true,
   "title": "Vitrines brisées, trois blessés",
-  "summary": "Entre 4 000 et 5 000 manifestants. Vitrines brisées dans le centre-ville ; trois blessés selon la préfecture de Côte-d'Or. Des commerçants avaient fermé plus tôt et protégé leurs vitrines.",
+  "summary": "Entre 4 000 et 5 000 manifestants selon la préfecture, partis de la place de la République. En fin de rassemblement, des individus masqués lancent projectiles et mortiers ; gaz lacrymogènes. Tentative d'envahissement de la gare empêchée, vitrines brisées rue de la Liberté. Solidaires 21 dénonce de son côté une « violente répression policière ».",
   "figs": [
    [
     "3",
@@ -672,7 +1051,26 @@
    ]
   ],
   "src": [
-   "dijon"
+   "dijon",
+   "dijact17"
+  ],
+  "spots": [
+   {
+    "n": "Rue de la Liberté",
+    "lon": 5.038,
+    "lat": 47.3218,
+    "d": "Vitrines brisées et mobilier urbain dégradé.",
+    "t": "2026-10-17T17:00",
+    "ta": true
+   },
+   {
+    "n": "Gare de Dijon-Ville",
+    "lon": 5.027,
+    "lat": 47.3233,
+    "d": "Tentative d'envahissement empêchée par la police.",
+    "t": "2026-10-17T17:00",
+    "ta": true
+   }
   ]
  },
  {
@@ -700,17 +1098,67 @@
   "lon": -1.5536,
   "lat": 47.2184,
   "cat": "emeute",
-  "sev": 1,
+  "sev": 2,
   "live": false,
   "date": "2026-10-17",
-  "title": "20 000 manifestants",
-  "summary": "Forte mobilisation (environ 20 000 personnes selon les autorités), avec des tensions signalées.",
+  "title": "Place du Commerce pillée, la mairie visée",
+  "summary": "20 000 manifestants selon le ministère de l'Intérieur. Le préfet compte plus de 1 000 casseurs mêlés aux cortèges. Face-à-face de plus d'une heure et demie avec les CRS, puis pillages en fin d'après-midi autour de la place du Commerce et du quartier Graslin ; tentative d'effraction à l'hôtel de ville. À Saint-Nazaire, vitres du commissariat brisées.",
   "src": [
    "clep",
-   "tn"
+   "tn",
+   "imnantes",
+   "actu44"
   ],
   "t": "2026-10-17T14:00",
-  "ta": true
+  "ta": true,
+  "figs": [
+   [
+    "31",
+    "interpellations en Loire-Atlantique"
+   ],
+   [
+    "20 000",
+    "manifestants (Intérieur)"
+   ],
+   [
+    "1 000+",
+    "casseurs selon le préfet"
+   ]
+  ],
+  "spots": [
+   {
+    "n": "Place du Commerce",
+    "lon": -1.558,
+    "lat": 47.213,
+    "d": "Commerces pillés en fin d'après-midi et début de soirée.",
+    "t": "2026-10-17T17:45",
+    "ta": true
+   },
+   {
+    "n": "Hôtel de ville",
+    "lon": -1.553,
+    "lat": 47.218,
+    "d": "Tentative d'effraction : vitres brisées, ordinateurs et mobilier dégradés.",
+    "t": "2026-10-17T17:00",
+    "ta": true
+   },
+   {
+    "n": "Place Foch",
+    "lon": -1.548,
+    "lat": 47.219,
+    "d": "Point de convergence des cortèges.",
+    "t": "2026-10-17T15:00",
+    "ta": true
+   },
+   {
+    "n": "Quartier Graslin",
+    "lon": -1.562,
+    "lat": 47.213,
+    "d": "Un bureau de tabac attaqué.",
+    "t": "2026-10-17T18:00",
+    "ta": true
+   }
+  ]
  },
  {
   "id": "rennes",
@@ -723,22 +1171,62 @@
   "live": false,
   "date": "2026-10-17",
   "title": "27 manifestants blessés, dont un grave",
-  "summary": "Environ 10 000 manifestants selon l'Intérieur. De violents heurts ont fait 27 blessés parmi les manifestants, dont un en urgence absolue, et 4 policiers légèrement blessés.",
+  "summary": "12 000 manifestants selon la préfecture, pour une manifestation non déclarée partie à 14 h. Dès 14 h 30, des centaines de personnes masquées s'en prennent aux forces de l'ordre. Place de la République, principal point de tension jusqu'à 20 h ; une boutique incendiée rue de Nemours, vitrines attaquées vers 18 h, commerces pillés. Plus de 20 feux de poubelles et de barricades.",
   "src": [
    "icirennes",
-   "tn"
+   "tn",
+   "ria",
+   "onemedia"
   ],
   "t": "2026-10-17T14:00",
   "ta": true,
   "figs": [
    [
-    "27",
-    "manifestants blessés, 1 en urgence absolue"
+    "51",
+    "interpellations à 21 h 30"
    ],
    [
-    "4",
-    "policiers blessés légers"
+    "20",
+    "policiers et gendarmes blessés, dont 3 hospitalisés"
+   ],
+   [
+    "27",
+    "manifestants blessés, 1 en urgence absolue"
    ]
+  ],
+  "spots": [
+   {
+    "n": "Place de la République",
+    "lon": -1.679,
+    "lat": 48.11,
+    "d": "Principal point de tension de 14 h 30 à 20 h ; abribus détruits.",
+    "t": "2026-10-17T14:30",
+    "ta": false
+   },
+   {
+    "n": "Rue de Nemours",
+    "lon": -1.678,
+    "lat": 48.1083,
+    "d": "Une boutique de téléphonie prend feu.",
+    "t": "2026-10-17T17:00",
+    "ta": true
+   },
+   {
+    "n": "Rue Vasselot",
+    "lon": -1.6795,
+    "lat": 48.107,
+    "d": "Vers 16 h, tirs de grenades lacrymogènes.",
+    "t": "2026-10-17T16:00",
+    "ta": true
+   },
+   {
+    "n": "Rue du Maréchal-Joffre",
+    "lon": -1.676,
+    "lat": 48.1072,
+    "d": "Des groupes masqués harcèlent les forces de l'ordre.",
+    "t": "2026-10-17T16:30",
+    "ta": true
+   }
   ]
  },
  {
@@ -752,8 +1240,12 @@
   "live": false,
   "date": "2026-10-17",
   "title": "38 policiers blessés dans l'Hérault",
-  "summary": "Violences signalées à Montpellier ; 38 policiers blessés dans le département.",
+  "summary": "35 000 manifestants selon la préfecture de l'Hérault. Départ vers 15 h vers le Peyrou, tour de l'Écusson puis retour place de la Comédie. Journée globalement calme, avec des échauffourées devant la préfecture et des gaz lacrymogènes dans l'Écusson, où un arrêté interdisait les rassemblements de 12 h à 20 h.",
   "figs": [
+   [
+    "35 000",
+    "manifestants (préfecture)"
+   ],
    [
     "38",
     "policiers blessés (Hérault)"
@@ -761,10 +1253,37 @@
   ],
   "src": [
    "pandore",
-   "tn"
+   "tn",
+   "onemedia"
   ],
   "t": "2026-10-17T15:00",
-  "ta": true
+  "ta": true,
+  "spots": [
+   {
+    "n": "Place de la Comédie",
+    "lon": 3.8796,
+    "lat": 43.6086,
+    "d": "Retour du cortège en fin de parcours.",
+    "t": "2026-10-17T17:00",
+    "ta": true
+   },
+   {
+    "n": "Préfecture de l'Hérault",
+    "lon": 3.877,
+    "lat": 43.6118,
+    "d": "Échauffourées devant le bâtiment.",
+    "t": "2026-10-17T16:30",
+    "ta": true
+   },
+   {
+    "n": "Promenade du Peyrou",
+    "lon": 3.87,
+    "lat": 43.611,
+    "d": "Direction prise par le cortège au départ.",
+    "t": "2026-10-17T15:00",
+    "ta": true
+   }
+  ]
  },
  {
   "id": "perpignan",
@@ -777,12 +1296,19 @@
   "live": false,
   "date": "2026-10-17",
   "title": "Police municipale en renfort",
-  "summary": "La police municipale a renforcé police nationale et gendarmerie ; un policier municipal et un policier national blessés.",
+  "summary": "Plusieurs milliers de manifestants ; la fin de journée dégénère, avec des vitrines de grands magasins détruites et des commerces saccagés. La police municipale a renforcé police nationale et gendarmerie ; un policier municipal et un policier national blessés.",
   "src": [
-   "pandore"
+   "pandore",
+   "f3perp"
   ],
   "t": "2026-10-17T15:00",
-  "ta": true
+  "ta": true,
+  "figs": [
+   [
+    "20",
+    "interpellations"
+   ]
+  ]
  },
  {
   "id": "reunion",
@@ -827,20 +1353,20 @@
   "summary": "La manifestation « Italia in piazza » contre la vie chère, le prix de l'essence et la pression fiscale (environ 5 000 personnes, très jeunes, mobilisées via TikTok et Instagram) a dégénéré samedi. Des groupes vêtus de noir ont repoussé la police et occupé la piazza del Duomo à coups de pierres, pétards et barrières. Nouvelles tensions et commerces attaqués dimanche après-midi.",
   "figs": [
    [
-    "~50",
-    "jeunes interpellés à Milan, près de la moitié mineurs"
+    "160",
+    "personnes conduites à la questura le 18, ~80 % mineurs"
    ],
    [
-    "20",
-    "manifestants blessés à Milan"
+    "104",
+    "policiers blessés soignés à Milan le 17"
+   ],
+   [
+    "17",
+    "arrestations à Milan le 17"
    ],
    [
     "141",
-    "agents blessés en Italie (Milan, Turin, Bologne)"
-   ],
-   [
-    "28",
-    "arrestations en Italie, dont 12 mineurs"
+    "agents blessés en Italie le 17"
    ]
   ],
   "tl": [
@@ -851,6 +1377,14 @@
    [
     "18 oct.",
     "Nouveaux désordres dans le centre, magasins pris d'assaut."
+   ],
+   [
+    "18 oct.",
+    "Nouvelle après-midi de heurts autour du Duomo : 160 personnes conduites à la questura, environ 80 % de mineurs (ANSA). Polémique entre le maire Giuseppe Sala et le ministre de l'Intérieur sur les effectifs."
+   ],
+   [
+    "19 oct.",
+    "Sommet sur l'ordre public au Palazzo Chigi autour de Giorgia Meloni ; un décret visant notamment les mineurs est à l'étude. Dégâts du 17 estimés à plus de 500 000 € par Confcommercio."
    ]
   ],
   "spots": [
@@ -909,6 +1443,46 @@
     "d": "Reprise de la guérilla en soirée.",
     "t": "2026-10-17T19:00",
     "ta": true
+   },
+   {
+    "n": "Via Torino",
+    "lon": 9.184,
+    "lat": 45.461,
+    "d": "Dimanche 18 vers 16 h 50, vitrines brisées ; interpellations près du Carrobbio.",
+    "t": "2026-10-18T16:50",
+    "ta": false
+   },
+   {
+    "n": "Piazza Castello",
+    "lon": 9.181,
+    "lat": 45.469,
+    "d": "Dimanche 18 vers 18 h 50, un magasin visé et un petit feu près de la fontaine.",
+    "t": "2026-10-18T18:50",
+    "ta": false
+   },
+   {
+    "n": "Via Orefici",
+    "lon": 9.187,
+    "lat": 45.465,
+    "d": "Dimanche 18 vers 18 h 30, deux boutiques pillées avant un regroupement place Cordusio.",
+    "t": "2026-10-18T18:36",
+    "ta": false
+   },
+   {
+    "n": "Quartier Moscova",
+    "lon": 9.185,
+    "lat": 45.4775,
+    "d": "Dimanche 18 vers 19 h 40, bars dégradés et commerces pillés avant l'arrivée de la police.",
+    "t": "2026-10-18T19:40",
+    "ta": false
+   },
+   {
+    "n": "Via Dante",
+    "lon": 9.184,
+    "lat": 45.466,
+    "d": "Dimanche 18 vers 17 h 45, pierres et pétards contre la police, canons à eau et lacrymogènes.",
+    "t": "2026-10-18T17:46",
+    "ta": false
    }
   ],
   "media": [
@@ -934,7 +1508,9 @@
    "sky18",
    "sole",
    "reu",
-   "fa"
+   "fa",
+   "ansami18",
+   "ansachigi"
   ],
   "photos": [
    {
@@ -963,12 +1539,16 @@
   "summary": "Heurts et dégradations autour de la gare : environ 300 émeutiers face à la police dans la zone du dépôt ferroviaire, canon à eau. La basilique San Petronio a été tagguée. Le maire Matteo Lepore condamne une manifestation non autorisée ; le gouvernement annonce des amendes de 10 000 à 60 000 €.",
   "figs": [
    [
-    "7",
-    "arrestations"
+    "44",
+    "policiers et carabiniers blessés"
    ],
    [
-    "~300",
-    "émeutiers près de la gare"
+    "5",
+    "mineurs arrêtés, 7 dénoncés"
+   ],
+   [
+    "~2 000",
+    "manifestants"
    ]
   ],
   "spots": [
@@ -1010,7 +1590,7 @@
   "date": "2026-10-17",
   "zoom": 9000,
   "title": "Heurts devant Porta Nuova",
-  "summary": "Des milliers de manifestants contre la vie chère. Devant la gare de Porta Nuova, des jeunes lancent pierres, pétards et fumigènes sur la police, qui répond aux lacrymogènes. Un groupe entre dans la librairie Feltrinelli de la gare et renverse les livres.",
+  "summary": "Environ 3 000 manifestants contre la vie chère. Devant la gare de Porta Nuova, des jeunes lancent pierres, pétards et fumigènes sur la police, qui répond aux lacrymogènes ; un groupe saccage la librairie de la gare. Heurts aussi piazza Castello et via Po. 60 personnes identifiées ; trois mineurs trouvés avec des bouteilles incendiaires.",
   "spots": [
    {
     "n": "Gare de Porta Nuova",
@@ -1018,6 +1598,22 @@
     "lat": 45.0621,
     "d": "Affrontements, lacrymogènes, librairie Feltrinelli saccagée.",
     "t": "2026-10-17T16:00",
+    "ta": true
+   },
+   {
+    "n": "Piazza Castello",
+    "lon": 7.6858,
+    "lat": 45.0712,
+    "d": "Heurts dans l'après-midi.",
+    "t": "2026-10-17T16:00",
+    "ta": true
+   },
+   {
+    "n": "Via Po",
+    "lon": 7.693,
+    "lat": 45.069,
+    "d": "Heurts dans l'après-midi.",
+    "t": "2026-10-17T16:30",
     "ta": true
    }
   ],
@@ -1027,7 +1623,17 @@
    "ansa"
   ],
   "t": "2026-10-17T16:00",
-  "ta": true
+  "ta": true,
+  "figs": [
+   [
+    "60",
+    "personnes identifiées"
+   ],
+   [
+    "~3 000",
+    "manifestants"
+   ]
+  ]
  },
  {
   "id": "bergame",
@@ -1040,7 +1646,7 @@
   "live": false,
   "date": "2026-10-17",
   "title": "Incidents samedi",
-  "summary": "Jets de pierres et pétards contre les forces de l'ordre.",
+  "summary": "Environ 800 manifestants ; jets de pierres et pétards contre les forces de l'ordre. À Brescia, environ 600 personnes ont défilé.",
   "src": [
    "sky18"
   ],
@@ -1082,6 +1688,14 @@
    [
     "8 oct.",
     "12e nuit de campement, décrets publiés au BOE."
+   ],
+   [
+    "16 oct.",
+    "La Communauté de Madrid fait fermer la station de métro Sol pour nettoyage, rouverte samedi soir après mesures."
+   ],
+   [
+    "18 oct.",
+    "Trois semaines de campement : des centaines de tentes résistent à la pluie. La région demande l'évacuation et engage des poursuites."
    ]
   ],
   "spots": [
@@ -1094,7 +1708,8 @@
   ],
   "src": [
    "eues",
-   "salto"
+   "salto",
+   "infobsol"
   ],
   "photos": [
    {
@@ -1186,10 +1801,19 @@
    "ajeu",
    "eupt",
    "obs",
-   "kt"
+   "kt",
+   "dnpt18",
+   "rtppt",
+   "aj17eu"
   ],
   "t": "2026-10-17T14:30",
-  "ta": false
+  "ta": false,
+  "tl": [
+   [
+    "18 oct.",
+    "Nuit calme au campement du Rossio ; les manifestants disent rester et appellent à une « grève générale ibérique »."
+   ]
+  ]
  },
  {
   "id": "porto",
@@ -1200,15 +1824,41 @@
   "cat": "emeute",
   "sev": 2,
   "live": true,
-  "date": "2026-10-17",
+  "date": "2026-10-18",
   "title": "Le campement évacué revient",
   "summary": "La police a chargé le campement pour le logement (des dizaines de blessés) puis retiré les tentes le 15 octobre. Samedi, la marche partie de la Praça da Batalha a subi une nouvelle charge jugée « disproportionnée » ; les tentes sont revenues Praça D. João I. Des conteneurs ont été incendiés en fin de journée.",
   "src": [
    "eupt",
-   "obs"
+   "obs",
+   "dnpt18"
   ],
   "t": "2026-10-17T10:30",
-  "ta": false
+  "ta": false,
+  "spots": [
+   {
+    "n": "Praça D. João I",
+    "lon": -8.608,
+    "lat": 41.148,
+    "d": "Campement de centaines de personnes ; une poubelle incendiée dans la nuit du 17 au 18, éteinte par les manifestants.",
+    "t": "2026-10-18T02:00",
+    "ta": true
+   },
+   {
+    "n": "Praça da Batalha",
+    "lon": -8.606,
+    "lat": 41.146,
+    "d": "Départ de la marche du 17, chargée par la police.",
+    "t": "2026-10-17T15:00",
+    "ta": true
+   }
+  ],
+  "tl": [
+   [
+    "18 oct.",
+    "Nuit calme ; le maire Pedro Duarte propose de rencontrer les manifestants."
+   ]
+  ],
+  "zoom": 12000
  },
  {
   "id": "coimbra",
@@ -1239,13 +1889,67 @@
   "live": false,
   "date": "2026-10-17",
   "title": "Gaz lacrymogène dans le quartier de la Bourse",
-  "summary": "Après des semaines de manifestations lycéennes et étudiantes contre la hausse des frais d'études, des jeunes lancent bouteilles et projectiles autour de la Bourse ; canons à eau et gaz lacrymogènes. Le ministre de l'Intérieur Bernard Quintin parle de « violence pure et simple ». Aucun bilan publié.",
+  "summary": "500 à 600 jeunes, après des semaines de mobilisation lycéenne et étudiante et des heurts le 9 octobre. Vers 12 h 30, gaz lacrymogènes et canons à eau à l'esplanade de l'Europe ; dégradations vers les Marolles, où le siège bruxellois du PS a été attaqué. Heurts près de la gare Centrale vers 15 h 40, puis place de la Bourse entre 18 h et 19 h. Trois voitures incendiées rue de la Querelle. Calme revenu vers 20 h. Le ministre de l'Intérieur Bernard Quintin parle de « violence pure et simple ».",
   "src": [
    "eube",
-   "ajeu"
+   "ajeu",
+   "lalibre17",
+   "bxltoday"
   ],
   "t": "2026-10-17T15:00",
-  "ta": true
+  "ta": true,
+  "figs": [
+   [
+    "~10",
+    "interpellations (police)"
+   ],
+   [
+    "500-600",
+    "manifestants"
+   ]
+  ],
+  "spots": [
+   {
+    "n": "Esplanade de l'Europe (Midi)",
+    "lon": 4.336,
+    "lat": 50.837,
+    "d": "Vers 12 h 30, premiers heurts : gaz lacrymogènes et canons à eau.",
+    "t": "2026-10-17T12:30",
+    "ta": false
+   },
+   {
+    "n": "Marolles",
+    "lon": 4.346,
+    "lat": 50.838,
+    "d": "Siège bruxellois du PS attaqué, vitres brisées.",
+    "t": "2026-10-17T14:00",
+    "ta": true
+   },
+   {
+    "n": "Place de l'Albertine (Central)",
+    "lon": 4.356,
+    "lat": 50.844,
+    "d": "Vers 15 h 40, un grand groupe rassemblé, heurts et interpellations.",
+    "t": "2026-10-17T15:40",
+    "ta": false
+   },
+   {
+    "n": "Place de la Bourse",
+    "lon": 4.35,
+    "lat": 50.848,
+    "d": "Entre 18 h et 19 h, heurts à répétition, charge de police.",
+    "t": "2026-10-17T18:00",
+    "ta": true
+   },
+   {
+    "n": "Rue de la Querelle",
+    "lon": 4.342,
+    "lat": 50.843,
+    "d": "Trois voitures incendiées.",
+    "t": "2026-10-17T17:30",
+    "ta": true
+   }
+  ]
  },
  {
   "id": "liege",
@@ -1275,17 +1979,21 @@
   "cat": "emeute",
   "sev": 3,
   "live": true,
-  "date": "2026-10-17",
-  "title": "Cinq jours de révolte contre Edi Rama",
-  "summary": "Parti des étudiants (coût des études) et de la vente d'une partie du littoral à un projet de luxe lié à Jared Kushner, le mouvement réclame la démission du Premier ministre. Canons à eau et gaz lacrymogènes place Skanderbeg, un bureau du campus incendié, abribus et feux détruits. Rama refuse de démissionner et accuse des « mains étrangères ».",
+  "date": "2026-10-18",
+  "title": "Sixième jour de heurts, Rama refuse de démissionner",
+  "summary": "Parti des étudiants (coût des études) et de la vente d'une partie du littoral à un projet de luxe lié à Jared Kushner, le mouvement réclame de meilleures conditions d'études, des emplois et la démission du Premier ministre. Heurts devant le ministère de l'Éducation et autour du bureau d'Edi Rama ; balles en caoutchouc, canons à eau et gaz lacrymogènes. Rama refuse de démissionner, évoque une « main étrangère » et un risque pour l'adhésion à l'UE.",
   "figs": [
+   [
+    "272",
+    "blessés depuis mardi, dont 169 policiers (ministère de la Santé)"
+   ],
+   [
+    "65",
+    "blessés samedi, dont 37 policiers"
+   ],
    [
     "167",
     "arrestations en 5 jours"
-   ],
-   [
-    "61",
-    "policiers soignés le 14 oct."
    ]
   ],
   "spots": [
@@ -1294,12 +2002,31 @@
     "lon": 19.8187,
     "lat": 41.3275,
     "d": "Charges de police contre les manifestants."
+   },
+   {
+    "n": "Ministère de l'Éducation",
+    "lon": 19.82,
+    "lat": 41.326,
+    "d": "Des centaines de manifestants rassemblés, bâtiment visé.",
+    "t": "2026-10-17T18:00",
+    "ta": true
+   },
+   {
+    "n": "Bureau du Premier ministre",
+    "lon": 19.8195,
+    "lat": 41.323,
+    "d": "Affrontements aux abords, balles en caoutchouc et canons à eau.",
+    "t": "2026-10-17T19:00",
+    "ta": true
    }
   ],
   "src": [
    "ajal",
    "kt",
-   "ajeu"
+   "ajeu",
+   "ajtirana",
+   "usnrama",
+   "euntirana"
   ],
   "photos": [
    {
@@ -1311,7 +2038,14 @@
    }
   ],
   "t": "2026-10-17T12:00",
-  "ta": true
+  "ta": true,
+  "tl": [
+   [
+    "18 oct.",
+    "Sixième journée de mobilisation ; Rama exclut toute démission."
+   ]
+  ],
+  "zoom": 12000
  },
  {
   "id": "belgrade",
@@ -1322,15 +2056,17 @@
   "cat": "manif",
   "sev": 1,
   "live": true,
-  "date": "2026-10-16",
+  "date": "2026-10-19",
   "t": "2026-10-16T12:00",
   "ta": true,
   "title": "Les étudiants avant les législatives anticipées",
-  "summary": "Après près de deux ans de mobilisation étudiante anticorruption, le président Vučić a convoqué des législatives anticipées le 25 octobre. Une liste étudiante se présente ; grands rassemblements à Belgrade avant le scrutin, l'ambassade américaine a émis une alerte manifestation le 16 octobre.",
+  "summary": "Après près de deux ans de mobilisation étudiante anticorruption, le président Aleksandar Vučić a convoqué des législatives anticipées le 25 octobre. Une liste étudiante se présente. Le 19 octobre, des étudiants et leurs soutiens marchent depuis plusieurs villes du pays vers Belgrade pour un dernier grand rassemblement de campagne ; l'ambassade américaine a émis une alerte manifestation.",
   "src": [
    "usbel",
    "reuserb",
-   "intelli"
+   "intelli",
+   "wpserb",
+   "intelliser"
   ]
  },
  {
@@ -1342,9 +2078,9 @@
   "cat": "manif",
   "sev": 2,
   "live": true,
-  "date": "2026-10-13",
+  "date": "2026-10-16",
   "title": "La génération Z contre la purge électorale",
-  "summary": "Des milliers de jeunes manifestent contre la radiation de plus de 130 millions d'électeurs des listes, que les critiques jugent favorable au BJP. Le Cockroach Janta Party exige la démission du chef de la commission électorale ; nombreuses interpellations.",
+  "summary": "Des dizaines de milliers de jeunes, sous la bannière du Cockroach Janta Party, manifestent contre la radiation de plus de 130 millions d'électeurs des listes, que les critiques jugent favorable au BJP ; le mouvement s'est étendu à tout le pays. Le 16 octobre, le leader du mouvement, Abhijeet Dipke, est interpellé avant une manifestation prévue le soir dans le centre de Delhi. Civicus fait état de milliers d'interpellations.",
   "figs": [
    [
     "130 M",
@@ -1352,7 +2088,9 @@
    ]
   ],
   "src": [
-   "wbur"
+   "wbur",
+   "irishin",
+   "civicusin"
   ],
   "t": "2026-10-13T12:00",
   "ta": true
@@ -1368,12 +2106,24 @@
   "live": true,
   "date": "2026-10-15",
   "title": "Universités en grève, carburant en hausse",
-  "summary": "Les enseignants d'université sont en grève depuis le 2 octobre pour leurs arriérés de salaire. Le 15, hausse des prix du carburant et des tarifs des matatus ; les automobilistes menacent de manifester.",
+  "summary": "Les enseignants d'université (UASU) sont en grève depuis le 2 octobre pour leurs arriérés de salaire ; les négociations ont échoué le 12 et une marche était prévue le 15 de l'université de Nairobi au Parlement. Le 15, hausse des prix du carburant (diesel +9,90 shillings le litre) et annonce d'une hausse de 10 % des tarifs des matatus ; l'association des automobilistes menace de manifestations nationales.",
   "src": [
-   "kt"
+   "kt",
+   "kenyatimes",
+   "citizenke"
   ],
   "t": "2026-10-15T12:00",
-  "ta": true
+  "ta": true,
+  "spots": [
+   {
+    "n": "Université de Nairobi",
+    "lon": 36.817,
+    "lat": -1.279,
+    "d": "Départ de la marche des enseignants vers le Parlement et le Trésor.",
+    "t": "2026-10-15T10:00",
+    "ta": true
+   }
+  ]
  },
  {
   "id": "zapo",
@@ -1384,9 +2134,9 @@
   "cat": "frappe",
   "sev": 3,
   "live": true,
-  "date": "2026-10-17",
+  "date": "2026-10-18",
   "title": "Frappes russes sur des immeubles",
-  "summary": "Un immeuble d'habitation touché le 17 octobre. Le 10, des frappes aériennes avaient déjà tué au moins 17 personnes, dont trois enfants.",
+  "summary": "Le 18 octobre, deux attaques russes tuent une femme et blessent au moins deux personnes, dont une fillette de 6 ans, selon les autorités locales. Un immeuble d'habitation avait été touché le 17 ; le 10, des frappes avaient tué au moins 17 personnes, dont trois enfants.",
   "figs": [
    [
     "17+",
@@ -1395,7 +2145,8 @@
   ],
   "src": [
    "aj",
-   "eunw"
+   "eunw",
+   "ajspb19"
   ],
   "t": "2026-10-17T12:00",
   "ta": true
@@ -1409,16 +2160,28 @@
   "cat": "frappe",
   "sev": 2,
   "live": true,
-  "date": "2026-10-14",
-  "title": "Énergie visée, « trêve énergétique » fragile",
-  "summary": "Frappes russes sur les installations énergétiques de la capitale le 14 (au moins un mort). Donald Trump a annoncé une trêve sur les cibles énergétiques ; Kyiv dit l'avoir apprise sur les réseaux sociaux, et l'Ukraine a frappé une raffinerie russe après une violation par Moscou.",
+  "date": "2026-10-18",
+  "title": "Une station de métro touchée",
+  "summary": "Dans la nuit du 17 au 18 octobre, l'attaque russe (un missile Iskander et 180 drones selon l'armée de l'air ukrainienne) touche Kyiv : une femme tuée, trois blessés, une station de métro et un immeuble de 25 étages endommagés selon le maire Vitali Klitschko. Le 14, des frappes avaient visé les installations énergétiques de la capitale malgré l'annonce d'une « trêve énergétique » par Donald Trump.",
   "src": [
    "hl",
    "cg",
-   "fdd"
+   "fdd",
+   "ajspb19",
+   "pravda18"
   ],
   "t": "2026-10-14T12:00",
-  "ta": true
+  "ta": true,
+  "figs": [
+   [
+    "1",
+    "morte le 18 oct."
+   ],
+   [
+    "3",
+    "blessés"
+   ]
+  ]
  },
  {
   "id": "hormuz",
@@ -1429,18 +2192,28 @@
   "cat": "guerre",
   "sev": 3,
   "live": true,
-  "date": "2026-10-16",
+  "date": "2026-10-18",
   "title": "Guerre d'Iran : la bataille du détroit",
-  "summary": "Guerre ouverte depuis l'offensive américaine du 28 février. En octobre, l'Iran a frappé plus de vingt navires autour du détroit pendant que Washington maintient un blocus des ports iraniens.",
+  "summary": "Guerre ouverte depuis l'offensive américaine du 28 février. Washington maintient un blocus des ports iraniens ; Washington et Téhéran revendiquent chacun le contrôle du détroit. Au moins 12 navires attaqués la semaine du 16 octobre selon l'agence britannique UKMTO (un coulé, deux immobilisés), un supertanker en feu après une mine selon les Gardiens de la révolution, un remorqueur touché le 18. Le flux pétrolier est tombé à environ 68 % du niveau d'avant-guerre ; le Brent a touché 110 $. L'Iran propose une réouverture du détroit en six jours puis des négociations, contre la levée du blocus.",
   "figs": [
    [
-    "20+",
-    "navires touchés depuis le 1er oct."
+    "12+",
+    "navires attaqués en une semaine (UKMTO)"
+   ],
+   [
+    "68 %",
+    "du flux pétrolier d'avant-guerre"
+   ],
+   [
+    "110 $",
+    "pic du Brent"
    ]
   ],
   "src": [
    "cg",
-   "iran"
+   "iran",
+   "ajhormuz",
+   "cbsiran"
   ],
   "t": "2026-10-16T12:00",
   "ta": true
@@ -1485,10 +2258,18 @@
   ],
   "src": [
    "eunw",
-   "portal"
+   "portal",
+   "cbsiran",
+   "toi18"
   ],
   "t": "2026-10-14T12:00",
-  "ta": true
+  "ta": true,
+  "tl": [
+   [
+    "18 oct.",
+    "Alerte « menace aérienne hostile » levée quelques minutes plus tard ; le Kingdom Centre demande à ses occupants de télétravailler."
+   ]
+  ]
  },
  {
   "id": "dhahran",
@@ -1520,14 +2301,45 @@
   "live": true,
   "date": "2026-10-17",
   "title": "Le palais présidentiel visé",
-  "summary": "Missiles houthis sur le siège du gouvernement le 17. Une contre-offensive gouvernementale, lancée depuis l'Arabie saoudite le 4 octobre, vise à reprendre tout le territoire houthi.",
+  "summary": "Le 15 octobre, cinq missiles houthis frappent le palais présidentiel d'Al-Maashiq, siège du gouvernement reconnu : 5 morts et 16 blessés, le Premier ministre indemne. Le 16, deux missiles tombent dans l'enceinte de l'aéroport à 500 m d'un avion en partance, sans victime. Les Houthis disent viser des quartiers militaires. Une contre-offensive gouvernementale appuyée par l'aviation saoudienne (« Aube du Yémen ») est en cours depuis le 4 octobre.",
   "src": [
    "aj",
    "iran",
-   "fdd"
+   "fdd",
+   "ajaden",
+   "ajadenair"
   ],
   "t": "2026-10-17T12:00",
-  "ta": true
+  "ta": true,
+  "figs": [
+   [
+    "5",
+    "morts au palais présidentiel"
+   ],
+   [
+    "16",
+    "blessés"
+   ]
+  ],
+  "spots": [
+   {
+    "n": "Palais d'Al-Maashiq",
+    "lon": 45.035,
+    "lat": 12.779,
+    "d": "5 missiles : 5 morts, 16 blessés.",
+    "t": "2026-10-15T12:00",
+    "ta": true
+   },
+   {
+    "n": "Aéroport d'Aden",
+    "lon": 45.029,
+    "lat": 12.829,
+    "d": "Deux missiles tombent à 500 m d'un avion, sans victime.",
+    "t": "2026-10-16T12:00",
+    "ta": true
+   }
+  ],
+  "zoom": 2500
  },
  {
   "id": "nyala",
@@ -1539,13 +2351,25 @@
   "sev": 3,
   "live": true,
   "date": "2026-10-17",
-  "title": "L'armée attaque un bastion des FSR",
-  "summary": "L'armée soudanaise revendique des dizaines de combattants des Forces de soutien rapide tués ; son chef promet de reprendre tout le territoire perdu.",
+  "title": "Frappe de drone sur un marché au bétail",
+  "summary": "Le 16 octobre, une frappe de drone sur le marché au bétail de Nyala, capitale du Darfour-Sud tenue par les Forces de soutien rapide (FSR), fait 30 morts et 47 blessés selon une source médicale de l'hôpital citée par l'AFP. Les FSR accusent l'armée et un drone de fabrication turque ; l'armée, qui dit avoir intensifié ses frappes sur des positions militaires de la ville, ne revendique pas ce tir. Elle affirme par ailleurs avoir tué des dizaines de combattants des FSR.",
   "src": [
-   "aj"
+   "aj",
+   "nyalamarket",
+   "ajnyala"
   ],
   "t": "2026-10-17T12:00",
-  "ta": true
+  "ta": true,
+  "figs": [
+   [
+    "30",
+    "morts au marché (source hospitalière)"
+   ],
+   [
+    "47",
+    "blessés"
+   ]
+  ]
  },
  {
   "id": "obeid",
@@ -1568,22 +2392,76 @@
  },
  {
   "id": "tigre",
-  "place": "Rama (Tigré)",
+  "place": "Tigré",
   "country": "Éthiopie",
-  "lon": 38.75,
-  "lat": 14.4,
+  "lon": 39.4753,
+  "lat": 13.4967,
   "cat": "guerre",
   "sev": 3,
   "live": true,
-  "date": "2026-10-15",
-  "title": "Armée éthiopienne contre TPLF",
-  "summary": "Combats près de la frontière érythréenne, maisons détruites par des frappes de drones. Incursion érythréenne signalée en Éthiopie.",
+  "date": "2026-10-16",
+  "title": "L'armée éthiopienne reprend le Tigré",
+  "summary": "Après une insurrection du TPLF lancée en septembre, l'armée éthiopienne et ses alliés ont pris Mekele début octobre (le TPLF dit avoir déplacé son administration « temporairement »), repris Adoua et Adigrat sans combat et sont entrés à Aksoum selon l'ONG ACLED. Le 16 octobre, Abiy Ahmed annonce un gouvernement intérimaire de six mois. Addis-Abeba accuse l'Érythrée, le Soudan et l'Égypte de soutenir les rebelles, ce qu'ils démentent ; l'Érythrée a rompu ses relations diplomatiques. L'ONU se dit « gravement préoccupée ».",
   "src": [
    "aj",
-   "portal"
+   "portal",
+   "ajtigray15",
+   "ajtigray16",
+   "untigray"
   ],
   "t": "2026-10-15T12:00",
-  "ta": true
+  "ta": true,
+  "zoom": 150,
+  "spots": [
+   {
+    "n": "Mekele",
+    "lon": 39.4753,
+    "lat": 13.4967,
+    "d": "Capitale régionale prise par l'armée début octobre.",
+    "t": "2026-10-05T12:00",
+    "ta": true
+   },
+   {
+    "n": "Aksoum",
+    "lon": 38.723,
+    "lat": 14.121,
+    "d": "Forces gouvernementales entrées dans la ville ; des combattants rivaux restent dans les montagnes.",
+    "t": "2026-10-14T12:00",
+    "ta": true
+   },
+   {
+    "n": "Adoua",
+    "lon": 38.896,
+    "lat": 14.165,
+    "d": "Reprise sans combat.",
+    "t": "2026-10-12T12:00",
+    "ta": true
+   },
+   {
+    "n": "Adigrat",
+    "lon": 39.457,
+    "lat": 14.277,
+    "d": "Reprise sans combat.",
+    "t": "2026-10-12T12:00",
+    "ta": true
+   },
+   {
+    "n": "Zalambessa",
+    "lon": 39.515,
+    "lat": 14.516,
+    "d": "Retrait de troupes érythréennes signalé ; ville sans électricité ni eau depuis une semaine.",
+    "t": "2026-10-15T12:00",
+    "ta": true
+   },
+   {
+    "n": "Rama",
+    "lon": 38.85,
+    "lat": 14.41,
+    "d": "Avancée éthiopienne près de la frontière érythréenne.",
+    "t": "2026-10-15T12:00",
+    "ta": true
+   }
+  ]
  },
  {
   "id": "afpak",
@@ -1599,10 +2477,21 @@
   "summary": "Nouvelles frappes pakistanaises en Afghanistan début octobre et combats dans le district de Kamdesh (Nouristan). Le Pakistan vient de vivre sa plus forte hausse de violence en près de cinq ans.",
   "src": [
    "lwj",
-   "afpk"
+   "afpk",
+   "lwjpak"
   ],
   "t": "2026-10-05T12:00",
-  "ta": true
+  "ta": true,
+  "tl": [
+   [
+    "30 sept.",
+    "Troisième vague de frappes pakistanaises (Kunar, Helmand) après un attentat-suicide qui a fait 31 morts le 18 septembre. Islamabad dit avoir tué 22 militants ; les talibans parlent de 9 civils tués, la mission de l'ONU de 10, en majorité des enfants."
+   ],
+   [
+    "2 oct.",
+    "Combats dans le district de Kamdesh (Nouristan) ; chaque camp accuse l'autre."
+   ]
+  ]
  },
  {
   "id": "gaza",
@@ -1613,30 +2502,33 @@
   "cat": "guerre",
   "sev": 3,
   "live": true,
-  "date": "2026-10-12",
+  "date": "2026-10-18",
   "title": "Un an de cessez-le-feu, des frappes presque quotidiennes",
   "summary": "Le cessez-le-feu du 10 octobre 2025 a un an, mais plus de 100 ONG (Amnesty, NRC, Save the Children, Oxfam) estiment qu'il n'existe « que de nom ». Selon le ministère de la Santé de Gaza, 1 493 Palestiniens ont été tués et 5 299 blessés depuis la trêve (au 12 octobre). Israël, qui contrôle près des deux tiers de la bande, a encore avancé sa « ligne jaune » dans des quartiers de Gaza City. Israël affirme viser des membres de groupes armés ; plusieurs de ces affirmations sont contestées et non vérifiées de façon indépendante. L'aide entre à environ un tiers du rythme prévu.",
   "src": [
    "ajpw",
    "ajngo",
    "toi",
-   "ocha"
+   "ocha",
+   "meegaza",
+   "ajrimal",
+   "toi18"
   ],
   "t": "2026-10-12T12:00",
   "ta": true,
-  "zoom": 5000,
+  "zoom": 900,
   "figs": [
    [
-    "1 493",
-    "tués depuis la trêve (ministère de la Santé de Gaza)"
+    "1 501",
+    "tués depuis la trêve (ministère de la Santé de Gaza, 15 oct.)"
    ],
    [
-    "18 500",
-    "patients en attente d'évacuation médicale"
+    "5 323",
+    "blessés depuis la trêve"
    ],
    [
-    "0 / 36",
-    "hôpitaux pleinement opérationnels"
+    "~840",
+    "corps retirés des décombres depuis la trêve"
    ]
   ],
   "tl": [
@@ -1655,6 +2547,14 @@
    [
     "12 oct.",
     "2 hommes tués près d'une mosquée à al-Mawasi."
+   ],
+   [
+    "14 oct.",
+    "Vers 4 h, une frappe sur un immeuble du quartier al-Rimal (Gaza City) tue une femme et blesse deux personnes. Israël dit viser un membre du Hamas, sans en fournir la preuve, et annonce une enquête."
+   ],
+   [
+    "18 oct.",
+    "Selon des médias palestiniens, une fillette de 7 ans tuée par des tirs près du camp d'al-Maghazi et un garçon dans le nord de la bande ; l'armée israélienne n'a pas commenté. Les négociations sur la deuxième phase du plan américain sont au point mort."
    ]
   ],
   "spots": [
@@ -1687,6 +2587,22 @@
     "lon": 34.26,
     "lat": 31.36,
     "d": "12 oct. : 2 hommes tués près d'une mosquée."
+   },
+   {
+    "n": "Al-Rimal (Gaza City)",
+    "lon": 34.46,
+    "lat": 31.523,
+    "d": "14 oct. vers 4 h : frappe sur un immeuble, 1 morte et 2 blessés selon les hôpitaux.",
+    "t": "2026-10-14T04:00",
+    "ta": false
+   },
+   {
+    "n": "Camp d'al-Maghazi",
+    "lon": 34.387,
+    "lat": 31.422,
+    "d": "18 oct. : une fillette de 7 ans tuée par des tirs selon des médias palestiniens ; pas de commentaire de l'armée.",
+    "t": "2026-10-18T12:00",
+    "ta": true
    }
   ]
  },
@@ -1699,20 +2615,20 @@
   "cat": "guerre",
   "sev": 2,
   "live": true,
-  "date": "2026-10-13",
+  "date": "2026-10-17",
   "t": "2026-10-13T12:00",
   "ta": true,
-  "zoom": 6000,
-  "title": "Récolte des olives sous tension, villes bouclées",
-  "summary": "La saison des olives est marquée par une forte hausse des attaques de colons : 109 incidents liés à la récolte dans 75 localités entre le 27 septembre et le 6 octobre selon l'ONG israélienne Yesh Din. Le 7 octobre, un Palestinien a été tué et au moins 16 blessés lors d'une attaque contre des cueilleurs entre Burqa et Ramin. L'armée israélienne restreint l'accès au camp de Jénine jusqu'en 2028 et des bouclages au sud de Naplouse empêchent des enseignants de rejoindre leurs écoles.",
+  "zoom": 500,
+  "title": "Récolte des olives : attaques de colons, des diplomates européens visés",
+  "summary": "La saison des olives est marquée par une forte hausse des attaques de colons : au moins 170 depuis le 27 septembre selon l'ONG israélienne Yesh Din. Le 16 octobre, près d'Abu Falah, une photographe du Washington Post est grièvement blessée par des colons ; le 17, des diplomates européens (consul général de Belgique, diplomates français et polonais) sont agressés près de Taybeh. L'armée israélienne dit examiner pourquoi ses troupes ont été prévenues après l'attaque. Les États-Unis demandent à Israël de sévir.",
   "figs": [
+   [
+    "170+",
+    "attaques de colons depuis le 27 sept. (Yesh Din)"
+   ],
    [
     "109",
     "incidents liés à la récolte en 10 jours (Yesh Din)"
-   ],
-   [
-    "53",
-    "attaques de colons en une semaine fin septembre (OCHA)"
    ]
   ],
   "spots": [
@@ -1733,13 +2649,32 @@
     "lon": 35.25,
     "lat": 32.178,
     "d": "Bouclages : 59 enseignants empêchés de rejoindre leurs écoles."
+   },
+   {
+    "n": "Taybeh",
+    "lon": 35.3,
+    "lat": 31.955,
+    "d": "17 oct. : des colons agressent des diplomates européens venus soutenir les cueilleurs ; un maire français frappé.",
+    "t": "2026-10-17T13:30",
+    "ta": true
+   },
+   {
+    "n": "Abu Falah",
+    "lon": 35.314,
+    "lat": 31.991,
+    "d": "16 oct. : cueilleurs et photographe du Washington Post attaqués ; un Palestinien blessé par balle à la jambe.",
+    "t": "2026-10-16T12:00",
+    "ta": true
    }
   ],
   "src": [
    "ajpw",
    "ocha",
    "europal",
-   "js"
+   "js",
+   "ajwbtl",
+   "wpwb",
+   "toi18"
   ]
  },
  {
@@ -1751,16 +2686,71 @@
   "cat": "guerre",
   "sev": 2,
   "live": true,
-  "date": "2026-10-14",
+  "date": "2026-10-17",
   "title": "La « ligne jaune » israélienne au Sud-Liban",
-  "summary": "Israël occupe une bande allant jusqu'à 10 km au Sud-Liban, délimitée par une « ligne jaune » traitée comme une frontière de fait. Une cinquantaine de villages de la ligne de front, dont Khiam et Bint Jbeil, sont détruits ; les démolitions se poursuivent malgré le cessez-le-feu. Plus de 1,2 million de personnes ont été déplacées. Selon des diplomates, l'Iran a demandé au Hezbollah de se préparer à la guerre.",
+  "summary": "Israël occupe une bande allant jusqu'à 10 km au Sud-Liban, délimitée par une « ligne jaune » traitée comme une frontière de fait. Frappes aériennes et tirs d'artillerie quasi quotidiens sur les villages frontaliers ; le 16 octobre, des chars avancent vers Kfarchouba. Plus de 1,2 million de personnes ont été déplacées. Des pourparlers Liban-Israël sous égide américaine sont prévus le 20 octobre à Tampa.",
   "src": [
    "ajleb",
    "wikileb",
-   "fdd"
+   "fdd",
+   "ttleb",
+   "profleb"
   ],
   "t": "2026-10-14T12:00",
-  "ta": true
+  "ta": true,
+  "figs": [
+   [
+    "4 389",
+    "tués depuis le 2 mars (gouvernement libanais)"
+   ],
+   [
+    "12 424",
+    "blessés"
+   ]
+  ],
+  "spots": [
+   {
+    "n": "Mansouri (Tyr)",
+    "lon": 35.216,
+    "lat": 33.211,
+    "d": "16 et 17 oct. : frappe aérienne puis tirs d'artillerie.",
+    "t": "2026-10-16T12:00",
+    "ta": true
+   },
+   {
+    "n": "Kfarchouba",
+    "lon": 35.733,
+    "lat": 33.336,
+    "d": "16 oct. : un bulldozer et deux chars avancent vers la périphérie sud du village.",
+    "t": "2026-10-16T12:00",
+    "ta": true
+   },
+   {
+    "n": "Khiam",
+    "lon": 35.616,
+    "lat": 33.329,
+    "d": "Village de la ligne de front, en grande partie détruit ; explosions signalées le 17.",
+    "t": "2026-10-17T12:00",
+    "ta": true
+   },
+   {
+    "n": "Bint Jbeil",
+    "lon": 35.433,
+    "lat": 33.12,
+    "d": "16 oct. : tirs d'artillerie sur la périphérie.",
+    "t": "2026-10-16T12:00",
+    "ta": true
+   },
+   {
+    "n": "Zawtar al-Charqiya",
+    "lon": 35.545,
+    "lat": 33.333,
+    "d": "16 et 17 oct. : fortes explosions attribuées à l'armée israélienne.",
+    "t": "2026-10-17T12:00",
+    "ta": true
+   }
+  ],
+  "zoom": 300
  },
  {
   "id": "goma",
@@ -1775,11 +2765,48 @@
   "t": "2026-10-13T12:00",
   "ta": true,
   "title": "Kabila s'allie au M23",
-  "summary": "L'ancien président Joseph Kabila a lancé à Goma, tenue par le M23 depuis janvier 2025, le Front pour la refondation de la nation, coalition politico-militaire incluant le M23. Les rebelles contrôlent aussi Bukavu et des postes-frontières avec le Rwanda et l'Ouganda. Les analystes redoutent une escalade avant des pourparlers prévus au Qatar en novembre.",
+  "summary": "L'ancien président Joseph Kabila a lancé à Goma, tenue par le M23 depuis janvier 2025, le Front pour la refondation de la nation, coalition politico-militaire incluant le M23. Les combats se poursuivent dans les Kivus, avec des localités qui changent de mains d'un jour à l'autre (Kalehe, Masisi, Hauts-Plateaux) selon des sources souvent partisanes. Les médiateurs de l'Union africaine appellent au respect du cessez-le-feu et à la reprise du processus de Doha.",
   "src": [
    "ajkab",
-   "ktpress"
-  ]
+   "ktpress",
+   "ctpdrc",
+   "okapimasisi"
+  ],
+  "spots": [
+   {
+    "n": "Numbi (Kalehe)",
+    "lon": 28.88,
+    "lat": -1.83,
+    "d": "Ville minière prise par l'armée le 6 oct., reprise par le M23 le 7 selon des sources partisanes.",
+    "t": "2026-10-07T12:00",
+    "ta": true
+   },
+   {
+    "n": "Remeka (Masisi)",
+    "lon": 28.82,
+    "lat": -1.45,
+    "d": "Reprise par l'armée et les Wazalendo le 3 oct. : quatrième changement de mains depuis fin août.",
+    "t": "2026-10-03T12:00",
+    "ta": true
+   },
+   {
+    "n": "Minembwe (Hauts-Plateaux)",
+    "lon": 28.92,
+    "lat": -3.55,
+    "d": "Frappes de drones et d'artillerie autour de Point Zéro, Mukoko et Rugezi début octobre.",
+    "t": "2026-10-06T12:00",
+    "ta": true
+   },
+   {
+    "n": "Katana",
+    "lon": 28.83,
+    "lat": -2.22,
+    "d": "Reprise des combats le 6 oct. près du parc de Kahuzi-Biega.",
+    "t": "2026-10-06T12:00",
+    "ta": true
+   }
+  ],
+  "zoom": 120
  },
  {
   "id": "portauprince",
@@ -1845,23 +2872,45 @@
  },
  {
   "id": "usa",
-  "place": "États-Unis",
+  "place": "Washington",
   "country": "États-Unis",
-  "lon": -74.006,
-  "lat": 40.7128,
+  "lon": -77.0502,
+  "lat": 38.8893,
   "cat": "manif",
   "sev": 2,
   "live": false,
   "date": "2026-10-17",
   "t": "2026-10-17T18:00",
   "ta": true,
-  "title": "Nouvelle journée « No Kings »",
-  "summary": "Samedi 17 octobre, rassemblements dans des centaines de villes américaines (au moins 26 États) contre la politique de Donald Trump et pour le vote anticipé avant les élections de mi-mandat du 3 novembre. Mouvement non violent ; les organisateurs revendiquent des millions de participants, sans estimation indépendante publiée à ce stade. Des événements liés ont eu lieu au Royaume-Uni et en Europe.",
+  "title": "« No Kings » : appel au vote anticipé",
+  "summary": "Samedi 17 octobre, rassemblements « No Kings » dans des centaines de villes d'au moins 26 États contre la politique de Donald Trump et pour le vote anticipé avant les élections de mi-mandat du 3 novembre. À Washington, quelques centaines de personnes au Lincoln Memorial après une marche sur le Memorial Bridge. Mouvement non violent, aucun incident signalé ; les organisateurs revendiquent des millions de participants, sans estimation indépendante.",
   "src": [
    "nprnk",
    "wikink",
-   "tribnk"
-  ]
+   "tribnk",
+   "fox5nk",
+   "ajnk",
+   "hillnk"
+  ],
+  "spots": [
+   {
+    "n": "Lincoln Memorial",
+    "lon": -77.0502,
+    "lat": 38.8893,
+    "d": "Quelques centaines de personnes autour d'un concert, pancartes « VOTE EARLY ».",
+    "t": "2026-10-17T13:00",
+    "ta": true
+   },
+   {
+    "n": "Memorial Bridge",
+    "lon": -77.056,
+    "lat": 38.887,
+    "d": "Marche vers le Lincoln Memorial.",
+    "t": "2026-10-17T12:00",
+    "ta": true
+   }
+  ],
+  "zoom": 9000
  },
  {
   "id": "spb",
@@ -1899,13 +2948,47 @@
    [
     "18 oct.",
     "Terminal pétrolier de Saint-Pétersbourg frappé, critiques de Trump."
+   ],
+   [
+    "18 oct.",
+    "Donald Trump critique les frappes ukrainiennes sur l'énergie russe et dit que Volodymyr Zelensky « ne veut pas mettre fin à cette guerre »."
    ]
   ],
   "src": [
    "abcspb",
    "cnnspb",
-   "ajmos"
-  ]
+   "ajmos",
+   "ajspb19",
+   "cnntrump",
+   "nbcspb"
+  ],
+  "spots": [
+   {
+    "n": "Dépôt pétrolier de Routchi",
+    "lon": 30.46,
+    "lat": 59.98,
+    "d": "Incendie après l'attaque de drones.",
+    "t": "2026-10-18T03:00",
+    "ta": true
+   },
+   {
+    "n": "District de Kolpino",
+    "lon": 30.59,
+    "lat": 59.75,
+    "d": "Entrepôts industriels touchés.",
+    "t": "2026-10-18T03:00",
+    "ta": true
+   },
+   {
+    "n": "Aéroport de Poulkovo",
+    "lon": 30.2625,
+    "lat": 59.8003,
+    "d": "Opérations restreintes pendant l'attaque.",
+    "t": "2026-10-18T02:00",
+    "ta": true
+   }
+  ],
+  "zoom": 1500
  },
  {
   "id": "chinedrills",
@@ -1923,7 +3006,1033 @@
   "summary": "Après le discours de la fête nationale du président taïwanais Lai Ching-te, la Chine a déclaré cinq zones interdites à la navigation, de la mer de Chine méridionale au Liaoning, pour des exercices de tirs réels d'une semaine. Taïwan dit surveiller la situation sans changer sa posture.",
   "src": [
    "poltw",
-   "bol"
+   "bol",
+   "aniTW",
+   "focustw"
+  ],
+  "tl": [
+   [
+    "18 oct.",
+    "Taïwan détecte 2 avions et 5 navires militaires chinois autour de l'île ; le ministre de la Défense souligne que les zones de tir sont éloignées (la plus proche à 278 km)."
+   ]
   ]
+ },
+ {
+  "id": "angers",
+  "place": "Angers",
+  "country": "France",
+  "lon": -0.5632,
+  "lat": 47.4784,
+  "cat": "emeute",
+  "sev": 2,
+  "live": false,
+  "date": "2026-10-17",
+  "t": "2026-10-17T10:00",
+  "ta": true,
+  "title": "Mairie, préfecture et commissariat attaqués",
+  "summary": "Près de 10 000 participants à une manifestation non déclarée selon la préfecture, qui compte plus de 500 casseurs. Contacts avec les forces de l'ordre de 10 h à 23 h : hôtel de ville dégradé avec intrusion, début d'incendie à la préfecture éteint par un agent, commissariat assailli pendant plusieurs heures, tentative d'intrusion au château. Commerces dégradés, une supérette pillée.",
+  "figs": [
+   [
+    "7",
+    "policiers blessés"
+   ],
+   [
+    "~10 000",
+    "manifestants (préfecture)"
+   ],
+   [
+    "500+",
+    "casseurs selon la préfecture"
+   ]
+  ],
+  "spots": [
+   {
+    "n": "Château d'Angers",
+    "lon": -0.56,
+    "lat": 47.47,
+    "d": "Tentative d'intrusion.",
+    "t": "2026-10-17T17:00",
+    "ta": true
+   },
+   {
+    "n": "Hôtel de ville",
+    "lon": -0.553,
+    "lat": 47.4712,
+    "d": "Bâtiment dégradé, intrusions.",
+    "t": "2026-10-17T16:00",
+    "ta": true
+   },
+   {
+    "n": "Préfecture de Maine-et-Loire",
+    "lon": -0.5545,
+    "lat": 47.469,
+    "d": "Dégradations et début d'incendie éteint par un agent.",
+    "t": "2026-10-17T16:30",
+    "ta": true
+   }
+  ],
+  "src": [
+   "myangers",
+   "kiosque49",
+   "gnet2397"
+  ]
+ },
+ {
+  "id": "mulhouse",
+  "place": "Mulhouse",
+  "country": "France",
+  "lon": 7.3359,
+  "lat": 47.7508,
+  "cat": "emeute",
+  "sev": 2,
+  "live": false,
+  "date": "2026-10-17",
+  "t": "2026-10-17T16:30",
+  "ta": true,
+  "title": "Une adolescente perd un œil, l'IGPN saisie",
+  "summary": "Environ un millier de manifestants. Vers 16 h 30, un groupe d'environ 400 personnes se dirige vers la gare ; gaz lacrymogènes près de la gare puis dans le centre face à une tentative de pillage. Une adolescente de 17 ans a perdu son œil gauche ; France 3 évoque un tir de grenade lacrymogène, le procureur parle d'un « choc » sans détailler. Le parquet a saisi l'IGPN.",
+  "figs": [
+   [
+    "10",
+    "interpellations, 6 gardes à vue"
+   ],
+   [
+    "4",
+    "magasins pillés (préfecture)"
+   ]
+  ],
+  "spots": [
+   {
+    "n": "Abords de la gare",
+    "lon": 7.342,
+    "lat": 47.742,
+    "d": "Gaz lacrymogènes face à un groupe d'environ 400 personnes.",
+    "t": "2026-10-17T16:30",
+    "ta": true
+   }
+  ],
+  "src": [
+   "actu17mul",
+   "fimul"
+  ]
+ },
+ {
+  "id": "caen",
+  "place": "Caen",
+  "country": "France",
+  "lon": -0.3707,
+  "lat": 49.1829,
+  "cat": "emeute",
+  "sev": 2,
+  "live": false,
+  "date": "2026-10-17",
+  "t": "2026-10-17T15:30",
+  "ta": false,
+  "title": "Pillages et incendies, le préfet envisage d'interdire l'hypercentre",
+  "summary": "Près de 10 000 manifestants selon l'État ; quelques centaines de personnes dans les affrontements. Tentatives d'intrusion dans des magasins rue Saint-Pierre à 15 h 30, parking de la police municipale envahi par 200 à 300 personnes, gros incendie boulevard Bertrand. Une averse calme la situation après 18 h. Le préfet envisage d'interdire les rassemblements dans l'hypercentre.",
+  "figs": [
+   [
+    "13",
+    "interpellations au moins"
+   ],
+   [
+    "7",
+    "policiers et gendarmes blessés légers"
+   ],
+   [
+    "~10 000",
+    "manifestants (État)"
+   ]
+  ],
+  "spots": [
+   {
+    "n": "Rue Saint-Pierre",
+    "lon": -0.364,
+    "lat": 49.184,
+    "d": "15 h 30 : tentatives d'intrusion dans des magasins, puis pillage.",
+    "t": "2026-10-17T15:30",
+    "ta": false
+   },
+   {
+    "n": "Place Saint-Sauveur",
+    "lon": -0.372,
+    "lat": 49.184,
+    "d": "Un groupe d'au moins 500 personnes selon la préfecture.",
+    "t": "2026-10-17T16:30",
+    "ta": true
+   },
+   {
+    "n": "Boulevard Bertrand",
+    "lon": -0.37,
+    "lat": 49.1812,
+    "d": "Un groupe de 200 à 300 personnes et un important incendie sur le chantier du tram.",
+    "t": "2026-10-17T17:00",
+    "ta": true
+   },
+   {
+    "n": "Abbaye-aux-Hommes",
+    "lon": -0.3735,
+    "lat": 49.181,
+    "d": "Parking de la police municipale envahi, deux véhicules détruits.",
+    "t": "2026-10-17T16:00",
+    "ta": true
+   }
+  ],
+  "src": [
+   "tocaen",
+   "f3caen"
+  ]
+ },
+ {
+  "id": "rouen",
+  "place": "Rouen",
+  "country": "France",
+  "lon": 1.0993,
+  "lat": 49.4431,
+  "cat": "emeute",
+  "sev": 2,
+  "live": false,
+  "date": "2026-10-17",
+  "t": "2026-10-17T15:00",
+  "ta": true,
+  "title": "Une trentaine de commerces attaqués",
+  "summary": "Environ 9 000 manifestants selon la préfecture. Plusieurs centaines d'individus violents s'en prennent aux forces de l'ordre peu après le départ, puis à la gare rive droite et aux rues commerçantes. Environ 30 commerces attaqués à Rouen et Elbeuf, deux agences bancaires incendiées. Au Havre (4 700 manifestants), feux et barricades près de la gare.",
+  "figs": [
+   [
+    "42",
+    "interpellations Rouen + Le Havre"
+   ],
+   [
+    "18",
+    "blessés, dont 3 graves"
+   ],
+   [
+    "~9 000",
+    "manifestants (préfecture)"
+   ]
+  ],
+  "spots": [
+   {
+    "n": "Gare de Rouen rive droite",
+    "lon": 1.094,
+    "lat": 49.449,
+    "d": "Équipements voyageurs attaqués, plusieurs agressions.",
+    "t": "2026-10-17T15:00",
+    "ta": true
+   }
+  ],
+  "src": [
+   "torouen",
+   "icirouen"
+  ]
+ },
+ {
+  "id": "quetigny",
+  "place": "Quetigny",
+  "country": "France",
+  "lon": 5.106,
+  "lat": 47.315,
+  "cat": "emeute",
+  "sev": 1,
+  "live": false,
+  "date": "2026-10-18",
+  "t": "2026-10-18T01:00",
+  "ta": true,
+  "title": "« Une nuit de chaos » selon la maire",
+  "summary": "Dans la nuit du 17 au 18 octobre, place Roger-Rémond, plusieurs commerces ont été pillés et le bâtiment du centre social incendié, selon la maire Isabelle Pasteur. Remise en état dès dimanche matin ; enquêtes en cours. Rassemblements républicains devant les mairies de Côte-d'Or.",
+  "src": [
+   "dijact",
+   "icidijon"
+  ]
+ },
+ {
+  "id": "guadeloupe",
+  "place": "Guadeloupe",
+  "country": "France (outre-mer)",
+  "lon": -61.534,
+  "lat": 16.241,
+  "cat": "emeute",
+  "sev": 2,
+  "live": true,
+  "date": "2026-10-19",
+  "t": "2026-10-18T21:00",
+  "ta": true,
+  "zoom": 300,
+  "title": "Barrages contre la vie chère, nuits de tensions",
+  "summary": "Depuis le 14 octobre, barrages routiers contre la vie chère à l'appel du collectif Nou Las Palé, levés chaque matin et remontés chaque nuit (RN1, RN2, RN4, zone de Jarry). Dans la nuit du 17 au 18, barrages en feu, commerces pillés et heurts aux Abymes, à Pointe-à-Pitre, au Gosier et à Sainte-Anne ; trois policiers blessés par des tirs. Nouvelle nuit de tensions du 18 au 19, avec une quarantaine d'interpellations selon Guadeloupe La 1ère.",
+  "figs": [
+   [
+    "~40",
+    "interpellations nuit du 18 au 19"
+   ],
+   [
+    "3",
+    "policiers blessés par des tirs (nuit du 17)"
+   ]
+  ],
+  "spots": [
+   {
+    "n": "Pointe-à-Pitre — bd Chanzy",
+    "lon": -61.533,
+    "lat": 16.237,
+    "d": "Barrages de fortune, commerces visés.",
+    "t": "2026-10-17T22:00",
+    "ta": true
+   },
+   {
+    "n": "Les Abymes",
+    "lon": -61.505,
+    "lat": 16.27,
+    "d": "Barrages incendiés, heurts, gaz lacrymogènes.",
+    "t": "2026-10-17T21:00",
+    "ta": true
+   },
+   {
+    "n": "Le Gosier",
+    "lon": -61.493,
+    "lat": 16.206,
+    "d": "Obstacles enflammés au rond-point du bourg.",
+    "t": "2026-10-17T23:00",
+    "ta": true
+   },
+   {
+    "n": "Sainte-Anne — Durivage",
+    "lon": -61.38,
+    "lat": 16.227,
+    "d": "Barrages en feu sur la RN4.",
+    "t": "2026-10-17T23:00",
+    "ta": true
+   },
+   {
+    "n": "Jarry (Baie-Mahault)",
+    "lon": -61.56,
+    "lat": 16.242,
+    "d": "Zone industrielle et portuaire touchée par les blocages.",
+    "t": "2026-10-15T08:00",
+    "ta": true
+   }
+  ],
+  "src": [
+   "rcigua",
+   "la1gua",
+   "etvgua"
+  ]
+ },
+ {
+  "id": "annemasse",
+  "place": "Annemasse",
+  "country": "France",
+  "lon": 6.234,
+  "lat": 46.1934,
+  "cat": "emeute",
+  "sev": 1,
+  "live": false,
+  "date": "2026-10-17",
+  "t": "2026-10-17T21:00",
+  "ta": true,
+  "title": "Onze commerces attaqués en soirée",
+  "summary": "La journée avait commencé par l'inauguration du prolongement du tram. Le soir, des groupes de jeunes s'en prennent aux vitrines du centre-ville : onze commerces pillés ou saccagés selon la mairie, quatre interpellations. Le maire Gabriel Doublet dénonce des « scènes de chaos ».",
+  "src": [
+   "blickann",
+   "iciann"
+  ]
+ },
+ {
+  "id": "ajaccio",
+  "place": "Ajaccio",
+  "country": "France",
+  "lon": 8.7369,
+  "lat": 41.9192,
+  "cat": "manif",
+  "sev": 1,
+  "live": false,
+  "date": "2026-10-17",
+  "t": "2026-10-17T17:30",
+  "ta": true,
+  "title": "Heurts près de la préfecture",
+  "summary": "150 à 200 manifestants à l'appel de 17 organisations. En fin d'après-midi, une cinquantaine de jeunes jettent des bouteilles sur les policiers près de la préfecture, qui répondent par des gaz lacrymogènes. À Bastia, une centaine de lycéens ont défilé dans le calme.",
+  "figs": [
+   [
+    "6",
+    "interpellations"
+   ],
+   [
+    "150-200",
+    "manifestants"
+   ]
+  ],
+  "src": [
+   "cni",
+   "altafreq"
+  ]
+ },
+ {
+  "id": "nancy",
+  "place": "Nancy",
+  "country": "France",
+  "lon": 6.1844,
+  "lat": 48.6921,
+  "cat": "emeute",
+  "sev": 1,
+  "live": false,
+  "date": "2026-10-17",
+  "t": "2026-10-17T17:00",
+  "ta": true,
+  "title": "Fin de manifestation qui dérape",
+  "summary": "Plus de 4 000 personnes rassemblées ; la fin de la manifestation dégénère, avec des magasins pillés. Le maire évoque des « scènes de violences urbaines, de guérilla ».",
+  "src": [
+   "icinancy",
+   "f3nancy"
+  ]
+ },
+ {
+  "id": "besancon",
+  "place": "Besançon",
+  "country": "France",
+  "lon": 6.0241,
+  "lat": 47.2378,
+  "cat": "emeute",
+  "sev": 1,
+  "live": false,
+  "date": "2026-10-17",
+  "t": "2026-10-17T17:30",
+  "ta": true,
+  "title": "Fin de manifestation tendue près de la préfecture",
+  "summary": "9 500 manifestants selon la préfecture, 12 000 selon FO. Cortège calme puis tensions en fin de journée près de la préfecture du Doubs, avant que les violences ne gagnent le centre et les quais : vitrines dégradées, commerces pillés, tentative d'incendie à la préfecture, 14 interventions des pompiers.",
+  "figs": [
+   [
+    "9",
+    "interpellations"
+   ],
+   [
+    "3 à 8",
+    "policiers blessés selon les sources"
+   ],
+   [
+    "9 500",
+    "manifestants (préfecture)"
+   ]
+  ],
+  "spots": [
+   {
+    "n": "Préfecture du Doubs",
+    "lon": 6.0225,
+    "lat": 47.2365,
+    "d": "Affrontements en fin de journée, tentative d'incendie.",
+    "t": "2026-10-17T17:30",
+    "ta": true
+   }
+  ],
+  "src": [
+   "macommune",
+   "f3bes"
+  ]
+ },
+ {
+  "id": "rome",
+  "place": "Rome",
+  "country": "Italie",
+  "lon": 12.4764,
+  "lat": 41.9109,
+  "cat": "manif",
+  "sev": 1,
+  "live": false,
+  "date": "2026-10-17",
+  "t": "2026-10-17T15:00",
+  "ta": true,
+  "title": "Trois cortèges sans incident majeur",
+  "summary": "Environ 25 000 personnes au total dans trois rassemblements, dont un cortège de la CGIL jusqu'à la piazza del Popolo, où Maurizio Landini a annoncé une grève générale le 20 novembre. La questura ne signale pas de problème d'ordre public ; 60 personnes au visage masqué identifiées, presque toutes mineures.",
+  "figs": [
+   [
+    "~25 000",
+    "manifestants"
+   ],
+   [
+    "60",
+    "personnes masquées identifiées"
+   ]
+  ],
+  "spots": [
+   {
+    "n": "Piazza del Popolo",
+    "lon": 12.4764,
+    "lat": 41.9109,
+    "d": "Arrivée du cortège de la CGIL ; annonce d'une grève générale le 20 novembre.",
+    "t": "2026-10-17T16:00",
+    "ta": true
+   }
+  ],
+  "src": [
+   "ansaroma",
+   "sky18"
+  ]
+ },
+ {
+  "id": "londres",
+  "place": "Londres",
+  "country": "Royaume-Uni",
+  "lon": -0.1246,
+  "lat": 51.5034,
+  "cat": "manif",
+  "sev": 1,
+  "live": false,
+  "date": "2026-10-10",
+  "t": "2026-10-10T12:00",
+  "ta": true,
+  "title": "Grande marche pour la Palestine",
+  "summary": "Des milliers de personnes (250 000 selon les organisateurs) ont défilé du Victoria Embankment jusqu'à Whitehall, à l'appel de la Palestine Coalition. Marche largement pacifique, quelques heurts au mémorial de la bataille d'Angleterre. Contre-manifestation d'une trentaine de personnes devant New Scotland Yard. Des milliers de personnes ont aussi marché à Édimbourg.",
+  "figs": [
+   [
+    "~20",
+    "interpellations"
+   ]
+  ],
+  "spots": [
+   {
+    "n": "Whitehall",
+    "lon": -0.1262,
+    "lat": 51.504,
+    "d": "Rassemblement final, terminé peu avant 17 h.",
+    "t": "2026-10-10T16:00",
+    "ta": true
+   },
+   {
+    "n": "Victoria Embankment",
+    "lon": -0.122,
+    "lat": 51.506,
+    "d": "Point de départ ; six interpellations pour dégradations au mémorial.",
+    "t": "2026-10-10T12:00",
+    "ta": true
+   }
+  ],
+  "src": [
+   "itvlon"
+  ]
+ },
+ {
+  "id": "berlin",
+  "place": "Berlin",
+  "country": "Allemagne",
+  "lon": 13.405,
+  "lat": 52.52,
+  "cat": "manif",
+  "sev": 1,
+  "live": false,
+  "date": "2026-10-10",
+  "t": "2026-10-10T14:00",
+  "ta": true,
+  "title": "Manifestation contre la politique du gouvernement Merz",
+  "summary": "Environ 2 600 personnes selon les médias, à l'appel du collectif Project M1illion : démission du gouvernement, démocratie directe, arrêt de la réforme de la santé. Pas d'incident majeur selon la police. Des grèves d'avertissement ont aussi touché le commerce à Berlin et dans le Brandebourg début octobre.",
+  "src": [
+   "aaberlin"
+  ]
+ },
+ {
+  "id": "taiz",
+  "place": "Taïz",
+  "country": "Yémen",
+  "lon": 44.021,
+  "lat": 13.579,
+  "cat": "guerre",
+  "sev": 2,
+  "live": true,
+  "date": "2026-10-17",
+  "t": "2026-10-17T12:00",
+  "ta": true,
+  "title": "Combats intensifiés autour de la ville assiégée",
+  "summary": "Les combats s'intensifient dans le gouvernorat de Taïz, ville assiégée par les Houthis. L'agence gouvernementale Saba affirme que 168 combattants houthis ont été tués et 210 blessés ; ces chiffres ne sont pas vérifiés de façon indépendante.",
+  "src": [
+   "ajaden"
+  ]
+ },
+ {
+  "id": "najran",
+  "place": "Najran / Saada",
+  "country": "Arabie saoudite / Yémen",
+  "lon": 44.127,
+  "lat": 17.493,
+  "cat": "frappe",
+  "sev": 2,
+  "live": true,
+  "date": "2026-10-18",
+  "t": "2026-10-18T12:00",
+  "ta": true,
+  "title": "Échanges de frappes à la frontière",
+  "summary": "Le 18 octobre, un projectile houthi touche un quartier résidentiel de Najran (6 blessés) ; un hélicoptère saoudien s'écrase dans la région, 2 morts — la coalition invoque une panne, les Houthis affirment l'avoir abattu. Côté yéménite, une frappe attribuée à l'Arabie saoudite aurait tué au moins 9 personnes dans le nord, et la coalition dit avoir détruit deux lanceurs de missiles près de Saada. Les médias houthis comptent 12 morts dans des frappes saoudiennes le 17.",
+  "spots": [
+   {
+    "n": "Saada",
+    "lon": 43.76,
+    "lat": 16.94,
+    "d": "Deux lanceurs de missiles balistiques détruits selon la coalition.",
+    "t": "2026-10-17T06:00",
+    "ta": true
+   }
+  ],
+  "src": [
+   "cbsiran",
+   "toi18",
+   "ajaden"
+  ],
+  "zoom": 60
+ },
+ {
+  "country": "États-Unis",
+  "cat": "manif",
+  "sev": 1,
+  "live": false,
+  "date": "2026-10-17",
+  "ta": true,
+  "id": "nyc",
+  "place": "New York",
+  "lon": -73.9973,
+  "lat": 40.7308,
+  "t": "2026-10-17T13:00",
+  "title": "« No Kings : VoteFest » à Washington Square",
+  "summary": "Des milliers de personnes venues de New York et des États voisins à Washington Square Park, à Manhattan, pour appeler au vote anticipé. Aucun incident signalé.",
+  "spots": [
+   {
+    "n": "Washington Square Park",
+    "lon": -73.9973,
+    "lat": 40.7308,
+    "d": "Rassemblement de plusieurs milliers de personnes.",
+    "t": "2026-10-17T13:00",
+    "ta": true
+   }
+  ],
+  "src": [
+   "fox5nk",
+   "ajnk"
+  ]
+ },
+ {
+  "country": "États-Unis",
+  "cat": "manif",
+  "sev": 1,
+  "live": false,
+  "date": "2026-10-17",
+  "ta": true,
+  "id": "atlanta",
+  "place": "Atlanta",
+  "lon": -84.388,
+  "lat": 33.749,
+  "t": "2026-10-17T12:00",
+  "title": "Rassemblement pour le vote anticipé",
+  "summary": "Rassemblement « No Kings » ; le conseiller municipal Michael Julian Bond appelle à voter avant le 3 novembre. Une vingtaine de villes de Géorgie avaient des événements prévus.",
+  "src": [
+   "fox5nk",
+   "ajnk"
+  ]
+ },
+ {
+  "country": "États-Unis",
+  "cat": "manif",
+  "sev": 1,
+  "live": false,
+  "date": "2026-10-17",
+  "ta": true,
+  "id": "losangeles",
+  "place": "Los Angeles",
+  "lon": -118.2437,
+  "lat": 34.0549,
+  "t": "2026-10-17T13:00",
+  "title": "Une dizaine de rassemblements dans l'agglomération",
+  "summary": "Rassemblements « No Kings » prévus dans toute l'agglomération : centre-ville (Grand Park, 13 h – 17 h), Pasadena, Burbank, Culver City, Torrance, Whittier, Riverside, Huntington Beach, Irvine, Santa Clarita, Fontana, Long Beach.",
+  "spots": [
+   {
+    "n": "Grand Park (centre-ville)",
+    "lon": -118.244,
+    "lat": 34.0549,
+    "d": "Principal rassemblement, de 13 h à 17 h.",
+    "t": "2026-10-17T13:00",
+    "ta": false
+   },
+   {
+    "n": "Pasadena — Colorado Blvd",
+    "lon": -118.15,
+    "lat": 34.146,
+    "d": "Rassemblement de 11 h à 13 h.",
+    "t": "2026-10-17T11:00",
+    "ta": false
+   },
+   {
+    "n": "Huntington Beach Pier",
+    "lon": -118.005,
+    "lat": 33.655,
+    "d": "Rassemblement de 10 h à 13 h.",
+    "t": "2026-10-17T10:00",
+    "ta": false
+   }
+  ],
+  "src": [
+   "lalocal"
+  ],
+  "zoom": 120
+ },
+ {
+  "country": "États-Unis",
+  "cat": "manif",
+  "sev": 1,
+  "live": false,
+  "date": "2026-10-17",
+  "ta": true,
+  "id": "gastonia",
+  "place": "Gastonia",
+  "lon": -81.1873,
+  "lat": 35.2621,
+  "t": "2026-10-17T11:00",
+  "title": "« Marche vers les urnes »",
+  "summary": "Rassemblement « No Kings : March to the polls » près de l'église St. Stephen's AME Zion, en Caroline du Nord.",
+  "src": [
+   "ajnk"
+  ]
+ },
+ {
+  "country": "États-Unis",
+  "cat": "manif",
+  "sev": 1,
+  "live": false,
+  "date": "2026-10-17",
+  "ta": true,
+  "id": "westpalm",
+  "place": "West Palm Beach",
+  "lon": -80.0534,
+  "lat": 26.7153,
+  "t": "2026-10-17T11:00",
+  "title": "Manifestation pour le vote anticipé",
+  "summary": "Manifestation « No Kings : Vote Early » en Floride ; quatre événements étaient prévus dans le comté de Palm Beach.",
+  "src": [
+   "ajnk"
+  ]
+ },
+ {
+  "country": "États-Unis",
+  "cat": "manif",
+  "sev": 1,
+  "live": false,
+  "date": "2026-10-17",
+  "ta": true,
+  "id": "portlandme",
+  "place": "Portland (Maine)",
+  "lon": -70.2568,
+  "lat": 43.6591,
+  "t": "2026-10-17T11:00",
+  "title": "Rassemblement « Vote Early »",
+  "summary": "Le candidat démocrate au Sénat Troy Jackson prend la parole lors d'un rassemblement « No Kings : Vote Early ».",
+  "src": [
+   "ajnk"
+  ]
+ },
+ {
+  "id": "salem",
+  "place": "Salem (Oregon)",
+  "country": "États-Unis",
+  "lon": -122.968,
+  "lat": 44.93,
+  "cat": "manif",
+  "sev": 1,
+  "live": false,
+  "date": "2026-10-10",
+  "t": "2026-10-10T09:30",
+  "ta": false,
+  "title": "Gaz lacrymogène contre des opposants à l'ICE",
+  "summary": "Le 10 octobre vers 9 h 30, une trentaine de personnes bloquent des véhicules de la police de l'immigration (ICE) avec leurs voitures ; des agents fédéraux utilisent du gaz lacrymogène pour se dégager. Des personnes sont soignées sur place. La police de Salem dit ne pas avoir été prévenue ; une élue démocrate dénonce une opération « imprudente ». Revue indépendante par le ministère de la Justice de l'Oregon.",
+  "spots": [
+   {
+    "n": "Lancaster Dr / Sunnyview Rd",
+    "lon": -122.983,
+    "lat": 44.959,
+    "d": "Véhicules de l'ICE bloqués, gaz lacrymogène.",
+    "t": "2026-10-10T09:30",
+    "ta": false
+   }
+  ],
+  "src": [
+   "opbsalem"
+  ]
+ },
+ {
+  "id": "volyn",
+  "place": "Volhynie",
+  "country": "Ukraine",
+  "lon": 25.3254,
+  "lat": 50.7472,
+  "cat": "frappe",
+  "sev": 2,
+  "live": false,
+  "date": "2026-10-18",
+  "t": "2026-10-18T03:00",
+  "ta": true,
+  "title": "Immeubles d'habitation frappés dans l'ouest",
+  "summary": "Selon Volodymyr Zelensky, des frappes russes sur des immeubles d'habitation de la région de Volhynie ont tué deux personnes et blessé douze, dont deux enfants, dans la nuit du 17 au 18 octobre.",
+  "figs": [
+   [
+    "2",
+    "morts"
+   ],
+   [
+    "12",
+    "blessés dont 2 enfants"
+   ]
+  ],
+  "src": [
+   "ajspb19"
+  ]
+ },
+ {
+  "id": "dnipro",
+  "place": "Dnipro",
+  "country": "Ukraine",
+  "lon": 35.0462,
+  "lat": 48.4647,
+  "cat": "frappe",
+  "sev": 1,
+  "live": false,
+  "date": "2026-10-16",
+  "t": "2026-10-16T12:00",
+  "ta": true,
+  "title": "Quatre blessés dans des frappes russes",
+  "summary": "Quatre personnes blessées dans des frappes russes sur Dnipro, selon les autorités régionales citées par Ukrainska Pravda.",
+  "src": [
+   "pravdadnipro"
+  ]
+ },
+ {
+  "id": "pokrovsk",
+  "place": "Front de Pokrovsk",
+  "country": "Ukraine",
+  "lon": 37.18,
+  "lat": 48.283,
+  "cat": "guerre",
+  "sev": 3,
+  "live": true,
+  "date": "2026-10-17",
+  "t": "2026-10-17T12:00",
+  "ta": true,
+  "zoom": 300,
+  "title": "Le secteur le plus disputé du front",
+  "summary": "Selon l'état-major ukrainien, le secteur de Pokrovsk reste le plus actif du front, avec plus de 70 assauts russes sur ce secteur et deux autres en une journée, et jusqu'à 238 combats sur l'ensemble de la ligne. Les forces russes pressent aussi près de Kostiantynivka. Les bilans sont ceux d'une seule partie.",
+  "spots": [
+   {
+    "n": "Kostiantynivka",
+    "lon": 37.706,
+    "lat": 48.528,
+    "d": "Pression russe sur la ville selon l'état-major ukrainien.",
+    "t": "2026-10-17T12:00",
+    "ta": true
+   }
+  ],
+  "src": [
+   "pravdapok",
+   "ukrinf238"
+  ]
+ },
+ {
+  "id": "kordofanouest",
+  "place": "Kordofan-Ouest",
+  "country": "Soudan",
+  "lon": 29.25,
+  "lat": 12.35,
+  "cat": "frappe",
+  "sev": 2,
+  "live": false,
+  "date": "2026-10-17",
+  "t": "2026-10-17T12:00",
+  "ta": true,
+  "title": "Un véhicule civil touché par un drone",
+  "summary": "Près d'Ankoush, un véhicule transportant des malades et des personnes allant acheter des produits de base est touché : 4 civils tués et plusieurs blessés. L'Observatoire du Kordofan attribue la frappe à un drone de l'armée soudanaise ; information non confirmée de façon indépendante.",
+  "figs": [
+   [
+    "4",
+    "civils tués"
+   ]
+  ],
+  "src": [
+   "stkordo"
+  ]
+ },
+ {
+  "id": "rumbek",
+  "place": "Rumbek",
+  "country": "Soudan du Sud",
+  "lon": 29.701,
+  "lat": 6.807,
+  "cat": "guerre",
+  "sev": 2,
+  "live": false,
+  "date": "2026-10-09",
+  "t": "2026-10-09T12:00",
+  "ta": true,
+  "title": "Affrontements intercommunautaires : environ 70 morts",
+  "summary": "Le 9 octobre, des jeunes armés des communautés Pakam et Nyang (Dinka) s'affrontent dans l'État des Lacs ; soldats et Casques bleus interviennent. Environ 70 morts, dont 4 soldats, selon le ministère de l'Information ; plus de 50 blessés à l'hôpital de Rumbek.",
+  "figs": [
+   [
+    "~70",
+    "morts (ministère de l'Information)"
+   ],
+   [
+    "50+",
+    "blessés hospitalisés"
+   ]
+  ],
+  "src": [
+   "acmr13"
+  ]
+ },
+ {
+  "id": "zamfara",
+  "place": "Zamfara",
+  "country": "Nigeria",
+  "lon": 5.47,
+  "lat": 12.14,
+  "cat": "guerre",
+  "sev": 2,
+  "live": false,
+  "date": "2026-10-10",
+  "t": "2026-10-10T14:00",
+  "ta": false,
+  "title": "Embuscade contre un convoi de commerçants",
+  "summary": "Le 10 octobre vers 14 h, dans le district de Bukkuyum, des hommes armés attaquent un convoi de commerçants escorté par l'armée entre Gwashi et le marché de Nasarawa : au moins 20 morts (12 civils, 4 soldats, 3 policiers, 1 agent de défense civile) et 19 blessés.",
+  "figs": [
+   [
+    "20+",
+    "morts"
+   ],
+   [
+    "19",
+    "blessés"
+   ]
+  ],
+  "src": [
+   "acmr13"
+  ]
+ },
+ {
+  "id": "oudalan",
+  "place": "Oudalan",
+  "country": "Burkina Faso",
+  "lon": -0.235,
+  "lat": 14.44,
+  "cat": "guerre",
+  "sev": 2,
+  "live": true,
+  "date": "2026-10-09",
+  "t": "2026-10-09T12:00",
+  "ta": true,
+  "title": "Guerre entre groupes jihadistes à la frontière malienne",
+  "summary": "Depuis août, le Jnim (lié à al-Qaïda) et l'État islamique au Sahel s'affrontent à la frontière Mali-Burkina, non loin du Niger ; derniers combats signalés le 9 octobre près de Gonadaouri. L'EI revendique plus de 400 combattants du Jnim tués ; aucun bilan indépendant fiable. Le HCR compte près de 4 millions de déplacés dans le Sahel central.",
+  "figs": [
+   [
+    "~4 M",
+    "déplacés au Sahel central (HCR)"
+   ]
+  ],
+  "src": [
+   "aasahel",
+   "acmr13"
+  ]
+ },
+ {
+  "id": "cochabamba",
+  "place": "Cochabamba",
+  "country": "Bolivie",
+  "lon": -66.1568,
+  "lat": -17.3895,
+  "cat": "manif",
+  "sev": 1,
+  "live": true,
+  "date": "2026-10-19",
+  "t": "2026-10-19T10:00",
+  "ta": true,
+  "title": "Les partisans d'Evo Morales contre la fin de la subvention au diesel",
+  "summary": "Le 19 octobre, début de mobilisations nationales à l'appel des partisans d'Evo Morales contre la fin de la subvention au diesel et des décrets économiques : une marche d'environ 5 km dans Cochabamba. Une marche de 90 km vers La Paz est annoncée pour le 6 novembre. La centrale syndicale COB ne s'y joint pas. L'état d'exception, en vigueur jusqu'à la fin de l'année, interdit les blocages de routes.",
+  "spots": [
+   {
+    "n": "Avenida Petrolera",
+    "lon": -66.13,
+    "lat": -17.41,
+    "d": "Départ de la marche vers le centre-ville.",
+    "t": "2026-10-19T10:00",
+    "ta": true
+   }
+  ],
+  "src": [
+   "infobbol",
+   "ltbol"
+  ]
+ },
+ {
+  "id": "quito",
+  "place": "Quito",
+  "country": "Équateur",
+  "lon": -78.512,
+  "lat": -0.22,
+  "cat": "manif",
+  "sev": 1,
+  "live": false,
+  "date": "2026-10-10",
+  "t": "2026-10-10T15:00",
+  "ta": true,
+  "title": "Marche contre le gouvernement Noboa",
+  "summary": "Le 10 octobre, deuxième marche en trois jours contre le gouvernement de Daniel Noboa, à l'appel d'un front d'organisations sociales. Partis de l'Université centrale, les manifestants bloquent l'avenue América puis sont arrêtés près de la Banque centrale avant la Plaza Grande. L'Union des travailleurs (FUT) avait défilé le jeudi précédent pour les budgets de l'éducation et de la santé.",
+  "spots": [
+   {
+    "n": "Université centrale",
+    "lon": -78.505,
+    "lat": -0.2,
+    "d": "Point de rassemblement.",
+    "t": "2026-10-10T15:00",
+    "ta": true
+   },
+   {
+    "n": "Banque centrale",
+    "lon": -78.5,
+    "lat": -0.213,
+    "d": "La marche est arrêtée avant la Plaza Grande.",
+    "t": "2026-10-10T17:00",
+    "ta": true
+   }
+  ],
+  "src": [
+   "expresoq"
+  ]
+ },
+ {
+  "id": "rakhine",
+  "place": "Rakhine",
+  "country": "Birmanie",
+  "lon": 92.88,
+  "lat": 20.33,
+  "cat": "frappe",
+  "sev": 3,
+  "live": true,
+  "date": "2026-10-05",
+  "t": "2026-10-04T17:00",
+  "ta": false,
+  "title": "Frappes aériennes sur des camps de déplacés",
+  "summary": "Les 4 et 5 octobre, des frappes aériennes sur deux camps de déplacés du canton de Ponnagyun tuent 8 personnes et en blessent au moins 13, selon l'Armée d'Arakan et une association locale ; la junte n'a pas commenté et Reuters n'a pas pu vérifier. Une semaine plus tôt, des frappes près d'un marché de Kyauktaw avaient fait environ 50 morts.",
+  "spots": [
+   {
+    "n": "Ponnagyun",
+    "lon": 92.88,
+    "lat": 20.33,
+    "d": "Deux camps de déplacés frappés : 8 morts, 13 blessés.",
+    "t": "2026-10-04T17:00",
+    "ta": false
+   },
+   {
+    "n": "Kyauktaw",
+    "lon": 92.97,
+    "lat": 20.84,
+    "d": "Fin septembre : frappes près d'un marché, environ 50 morts.",
+    "t": "2026-09-28T12:00",
+    "ta": true
+   }
+  ],
+  "src": [
+   "starrakh",
+   "fortifyr"
+  ],
+  "zoom": 250
  }
 ]

@@ -28,7 +28,7 @@
   "u": "https://www.ansa.it/sito/notizie/cronaca/2026/10/17/la-protesta-per-il-carovita-diventa-guerriglia-milano-un-campo-di-battaglia_a783ef65-c2c2-4fb9-8d99-7c64d791f43c.html"
  },
  "sky18": {
-  "t": "Sky TG24 — 18 oct.",
+  "t": "Sky TG24 — ce que l'on sait",
   "u": "https://tg24.sky.it/cronaca/2026/10/18/scontri-guerriglia-milano-torino-bologna-cosa-e-successo"
  },
  "sole": {
@@ -334,5 +334,461 @@
  "wikileb": {
   "t": "Wikipédia — occupation du Sud-Liban 2026",
   "u": "https://en.wikipedia.org/wiki/Israeli_occupation_of_Southern_Lebanon_(2026)"
+ },
+ "ecomatin": {
+  "t": "Économie Matin — bilan du week-end",
+  "u": "https://www.economiematin.fr/manifestations-du-17-octobre-un-week-end-marque-par-des-violences-des-pillages-et-dimportantes-degradations"
+ },
+ "gnet2397": {
+  "t": "Gnet — bilan de l'Intérieur",
+  "u": "https://news.gnet.tn/manifestations-du-17-octobre-en-france-2-397-interpellations-et-997-policiers-et-gendarmes-blesses/"
+ },
+ "cnews2397": {
+  "t": "CNews — 2 397 interpellations",
+  "u": "https://www.cnews.fr/france/2026-10-18/mobilisation-du-17-octobre-2397-personnes-ont-ete-interpellees-et-997-policiers"
+ },
+ "jdd18": {
+  "t": "Le JDD — Paris dimanche",
+  "u": "https://www.lejdd.fr/Societe/pillages-de-commerces-immeuble-dhabitation-pris-dassaut-nouvelle-flambee-de-violences-a-paris-dimanche-186387"
+ },
+ "express18": {
+  "t": "L'Express via Orange — dimanche",
+  "u": "https://actu.orange.fr/france/apres-le-chaos-du-17-octobre-des-heurts-et-des-pillages-epars-ont-repris-dimanche-l-express-via-6medias-CNT000002t9xrt.html"
+ },
+ "bfmnuit": {
+  "t": "BFMTV via Titres Presse — nuit du 18 au 19",
+  "u": "https://www.titrespresse.com/25750212603/heurts-pillages-commerces"
+ },
+ "onemedia": {
+  "t": "OneMedia — les faits par ville",
+  "u": "https://onemedia.fr/actualite/manifestations-17-octobre-2026-deroulement-onze-villes/"
+ },
+ "r89bdx": {
+  "t": "Rue89 Bordeaux",
+  "u": "https://rue89bordeaux.com/2026/10/17-octobre-a-bordeaux-la-maree-humaine-contre-lausterite-balayee-par-une-deferlante-de-violences/"
+ },
+ "f3bdx": {
+  "t": "France 3 Nouvelle-Aquitaine",
+  "u": "https://france3-regions.franceinfo.fr/nouvelle-aquitaine/gironde/bordeaux/mobilisation-du-17-octobre-tirs-de-lacrymogenes-et-tensions-avec-les-forces-de-l-ordre-plusieurs-milliers-de-manifestants-a-bordeaux-3435111.html"
+ },
+ "icitls18": {
+  "t": "ICI Occitanie — Toulouse 18 oct.",
+  "u": "https://www.ici.fr/occitanie/haute-garonne-31/toulouse/de-nouveaux-affrontements-au-centre-ville-de-toulouse-au-lendemain-de-la-manifestation-du-17-octobre-2061114"
+ },
+ "icitls": {
+  "t": "ICI Occitanie — Toulouse 17 oct.",
+  "u": "https://www.ici.fr/occitanie/haute-garonne-31/toulouse/mobilisation-du-17-octobre-deja-24-interpellations-a-toulouse-des-interventions-eparpillees-un-peu-partout-en-ville-3763381"
+ },
+ "gremag": {
+  "t": "Grenoble Mag — bilan",
+  "u": "https://www.grenoblemag.com/article/3477/manifestations-du-17-octobre-a-grenoble-51-interpellations-trois-blesses-et-plus-de-30-commerces-pilles"
+ },
+ "f3gre": {
+  "t": "France 3 Alpes — Grenoble",
+  "u": "https://france3-regions.franceinfo.fr/auvergne-rhone-alpes/isere/grenoble/images-emeutes-a-grenoble-immeuble-ravage-par-les-flammes-commerces-pilles-des-scenes-d-une-rare-violence-en-marge-des-manifestations-du-17-octobre-3435279.html"
+ },
+ "lyonmag": {
+  "t": "LyonMag — 17 octobre",
+  "u": "https://www.lyonmag.com/article/154371/lyon-black-blocs-et-gilets-jaunes-sement-le-chaos-l-office-de-tourisme-detruit-par-un-incendie"
+ },
+ "marsactu": {
+  "t": "Marsactu — Marseille",
+  "u": "https://marsactu.fr/17-octobre-a-marseille-entre-revendications-et-pillages-la-ville-sens-dessus-dessous/"
+ },
+ "icimrs": {
+  "t": "ICI Provence — pillages à Marseille",
+  "u": "https://www.ici.fr/provence-alpes-cote-d-azur/bouches-du-rhone-13/marseille/scenes-de-pillage-hallucinantes-a-marseille-le-17-octobre-9561410"
+ },
+ "imnantes": {
+  "t": "Infos Média Nantes — bilan",
+  "u": "https://infos-media-nantes.fr/manifestations-nantes-17-octobre-2026-bilan-31-interpellations/"
+ },
+ "actu44": {
+  "t": "Actu44 — Loire-Atlantique",
+  "u": "https://www.actu44.fr/vie-chere-journee-de-tension-a-nantes-31-interpellations-en-loire-atlantique/"
+ },
+ "ria": {
+  "t": "Rennes Infos Autrement",
+  "u": "https://www.rennes-infos-autrement.fr/le-chaos-pour-une-capitale-bretonne-ko/"
+ },
+ "myangers": {
+  "t": "Angers Info — bilan préfecture",
+  "u": "https://my-angers.info/10/18/violences-a-angers-sept-policiers-blesses-des-batiments-publics-attaques-et-des-commerces-pilles-apres-la-manifestation-du-17-octobre/199030"
+ },
+ "kiosque49": {
+  "t": "Le Kiosque — bilan Angers",
+  "u": "https://www.le-kiosque.org/maine-et-loire-la-prefecture-dresse-le-bilan-des-violences-urbaines-a-angers-ce-samedi/"
+ },
+ "f24lille": {
+  "t": "France 24 — mairie de Lille",
+  "u": "https://www.france24.com/fr/info-en-continu/20261017-d%C3%A9gradations-%C3%A0-la-mairie-de-lille-bri%C3%A8vement-envahie-et-magasins-saccag%C3%A9s"
+ },
+ "r89str": {
+  "t": "Rue89 Strasbourg",
+  "u": "https://www.rue89strasbourg.com/17-octobre-retour-strasbourg-399879"
+ },
+ "icistr": {
+  "t": "ICI Alsace — 27 interpellations",
+  "u": "https://www.ici.fr/grand-est/alsace-cea/mobilisation-du-17-octobre-16-interpellations-a-strasbourg-et-11-blesses-selon-un-premier-bilan-5327220"
+ },
+ "actu17mul": {
+  "t": "Actu17 — Mulhouse",
+  "u": "https://actu17.fr/faits-divers/mulhouse-une-adolescente-de-17-ans-perd-un-oeil-en-marge-de-la-manifestation-du-17-octobre-l-igpn-saisie.html"
+ },
+ "fimul": {
+  "t": "Franceinfo — Mulhouse, IGPN saisie",
+  "u": "https://www.franceinfo.fr/societe/mobilisation-du-17-octobre/a-mulhouse-l-igpn-saisie-apres-qu-une-manifestante-mineure-a-perdu-l-usage-d-un-il_8242996.html"
+ },
+ "tocaen": {
+  "t": "Tendance Ouest — Caen",
+  "u": "https://www.tendanceouest.com/actualite-443418-photos-videos-17-octobre-a-caen-pillages-incendies-et-interpellations-des-affrontements-violents-en-marge-de-la-manifestation"
+ },
+ "f3caen": {
+  "t": "France 3 Normandie — Caen",
+  "u": "https://france3-regions.franceinfo.fr/normandie/calvados/caen/le-prefet-envisage-d-interdire-les-rassemblements-dans-l-hypercentre-ville-apres-les-pillages-et-les-degradations-du-17-octobre-a-caen-3435906.html"
+ },
+ "torouen": {
+  "t": "Tendance Ouest — Seine-Maritime",
+  "u": "https://www.tendanceouest.com/actualite-443424-seine-maritime-bilan-du-17-octobre-des-commerces-pilles-et-une-quarantaine-d-arrestations"
+ },
+ "icirouen": {
+  "t": "ICI Normandie — Rouen",
+  "u": "https://www.ici.fr/normandie/seine-maritime-76/rouen/17-octobre-des-pillages-et-d-importantes-degradations-apres-la-manifestation-2059580"
+ },
+ "iciclf": {
+  "t": "ICI Pays d'Auvergne — Clermont",
+  "u": "https://www.ici.fr/auvergne-rhone-alpes/puy-de-dome-63/clermont-ferrand/policiers-blesses-magasins-pilles-premier-bilan-des-violences-de-ce-samedi-a-clermont-ferrand-1787216"
+ },
+ "f3clf": {
+  "t": "France 3 Auvergne — Clermont",
+  "u": "https://france3-regions.franceinfo.fr/auvergne-rhone-alpes/puy-de-dome/clermont-ferrand/mobilisation-du-17-octobre-a-clermont-ferrand-le-bilan-est-lourd-2800-manifestants-magasins-vandalises-civils-blesses-3435252.html"
+ },
+ "dijact": {
+  "t": "Dijon Actualités — Quetigny",
+  "u": "https://dijon-actualites.fr/2026/10/19/quetigny-commerces-pilles-batiment-incendie-isabelle-pasteur-denonce-une-nuit-de-chaos/"
+ },
+ "icidijon": {
+  "t": "ICI Bourgogne — rassemblements républicains",
+  "u": "https://www.ici.fr/bourgogne-franche-comte/cote-d-or-21/dijon/violences-urbaines-du-17-octobre-des-rassemblements-republicains-devant-les-mairies-en-cote-d-or-et-en-saone-et-loire-6442949"
+ },
+ "rcigua": {
+  "t": "RCI Guadeloupe — nuit tendue",
+  "u": "https://rci.fm/guadeloupe/infos/Faits-divers/Nuit-tendue-en-Guadeloupe-barrages-en-feu-heurts-avec-les-forces-de-lordre-et"
+ },
+ "la1gua": {
+  "t": "Guadeloupe La 1ère — nouvelle nuit",
+  "u": "https://la1ere.franceinfo.fr/guadeloupe/barrages-pillages-et-nouvelles-interpellations-dans-la-nuit-de-dimanche-a-lundi-1749546.html"
+ },
+ "etvgua": {
+  "t": "ETV Guadeloupe",
+  "u": "https://www.etv.gp/tv/guadeloupe-tensions-nocturnes-en-guadeloupe-barrages-affrontements-et-pillages/"
+ },
+ "f3nancy": {
+  "t": "France 3 Lorraine — Nancy",
+  "u": "https://france3-regions.franceinfo.fr/grand-est/meurthe-et-moselle/nancy/nous-avons-assiste-a-des-scenes-de-violences-urbaines-de-guerilla-le-maire-de-nancy-reagit-aux-actes-de-vandalisme-au-lendemain-de-la-manifestation-du-17-octobre-3435357.html"
+ },
+ "e1live": {
+  "t": "Europe 1 / AFP — direct du 19 octobre",
+  "u": "https://www.europe1.fr/societe/en-direct-violences-urbaines-sebastien-lecornu-annonce-avoir-demande-aux-prefets-de-declencher-un-certain-nombre-de-couvre-feux-1162317"
+ },
+ "sudradio": {
+  "t": "Sud Radio — couvre-feux et aides",
+  "u": "https://www.sudradio.fr/societe/violences-lecornu-annonce-des-couvre-feux-localises-et-des-aides-pour-les-commerces-touches"
+ },
+ "maritima": {
+  "t": "Maritima — Marseille, manifestations interdites",
+  "u": "https://maritima.fr/actualites/faits-divers/marseille/16232/emeutes-a-marseille-la-prefecture-de-police-interdit-toutes-les-manifestations-ce-lundi-19-octobre"
+ },
+ "destimed": {
+  "t": "Destimed — visite reportée",
+  "u": "https://www.destimed.fr/marseille-laurent-nunez-reporte-sa-visite-pour-une-reunion-avec-le-premier-ministre"
+ },
+ "blickann": {
+  "t": "Blick — Annemasse",
+  "u": "https://www.blick.ch/fr/monde/france/annemasse-onze-commerces-pilles-en-marge-du-17-octobre/l2hs9te"
+ },
+ "iciann": {
+  "t": "ICI Pays de Savoie — Annemasse",
+  "u": "https://www.ici.fr/emissions/l-info-d-ici-ici-pays-de-savoie/mobilisation-du-17-octobre-onze-commerces-pris-pour-cible-a-annemasse-le-maire-denonce-des-scenes-de-chaos-2884694"
+ },
+ "cni": {
+  "t": "Corse Net Infos",
+  "u": "https://www.corsenetinfos.corsica/Mobilisation-du-17-octobre-en-Corse-la-colere-dans-la-rue-des-heurts-a-Ajaccio_a93219.html"
+ },
+ "altafreq": {
+  "t": "Alta Frequenza — Ajaccio",
+  "u": "https://www.alta-frequenza.corsica/legers-heurts-a-ajaccio-a-lissue-de-la-manifestation-du-17-octobre"
+ },
+ "icinancy": {
+  "t": "ICI Lorraine — Nancy",
+  "u": "https://www.ici.fr/grand-est/meurthe-et-moselle-54/mobilisation-du-17-octobre-en-meurthe-et-moselle-et-dans-les-vosges-matinee-calme-avant-les-manifestations-6395265"
+ },
+ "macommune": {
+  "t": "maCommune.info — Besançon",
+  "u": "https://www.macommune.info/manifestation-du-17-octobre-a-besancon-trois-policiers-blesses-et-neuf-interpellations/"
+ },
+ "f3bes": {
+  "t": "France 3 Franche-Comté — Besançon",
+  "u": "https://france3-regions.franceinfo.fr/bourgogne-franche-comte/doubs/besancon/a-besancon-la-manifestation-du-17-octobre-au-depart-pacifique-vire-a-la-violence-3435201.html"
+ },
+ "dijact17": {
+  "t": "Dijon Actualités — 4 000 à 5 000 manifestants",
+  "u": "https://dijon-actualites.fr/2026/10/17/dijon-entre-4-000-et-5-000-manifestants-contre-la-vie-chere-selon-la-prefecture/"
+ },
+ "f3perp": {
+  "t": "France 3 Occitanie — Perpignan",
+  "u": "https://france3-regions.franceinfo.fr/occitanie/pyrenees-orientales/perpignan/manifestation-du-17-octobre-plusieurs-milliers-de-personnes-defilent-a-perpignan-3435069.html"
+ },
+ "icilim2": {
+  "t": "ICI Limousin — acte « vraisemblablement prémédité »",
+  "u": "https://www.ici.fr/emissions/l-invite-d-ici-matin-limousin/incendie-de-l-hotel-de-ville-de-limoges-un-acte-vraisemblablement-premedite-selon-le-prefet-de-la-haute-vienne-5119335"
+ },
+ "ansami18": {
+  "t": "ANSA — Milan dimanche 18",
+  "u": "https://www.ansa.it/sito/notizie/cronaca/2026/10/18/centinaia-di-giovani-a-gruppetti-in-piazza-duomo-50-portati-in-questura_57da2060-1834-4ed4-a7a9-19a0843c94bd.html"
+ },
+ "ansachigi": {
+  "t": "ANSA — sommet au Palazzo Chigi",
+  "u": "https://www.ansa.it/sito/notizie/cronaca/2026/10/19/concluso-a-palazzo-chigi-il-vertice-sullordine-pubblico-con-meloni-_397d8359-98ac-4ba2-840f-a55dcb988745.html"
+ },
+ "ansaroma": {
+  "t": "ANSA — trois cortèges à Rome",
+  "u": "https://www.ansa.it/lazio/notizie/2026/10/17/tre-cortei-a-roma-identificati-60-incappucciati-quasi-tutti-minorenni_db43d608-bb84-4cef-b363-f8be54c744f6.html"
+ },
+ "lalibre17": {
+  "t": "La Libre — Bruxelles",
+  "u": "https://www.lalibre.be/regions/bruxelles/2026/10/17/bruxelles-une-manifestation-degenere-en-emeutes-la-police-deploie-gaz-lacrymogenes-et-canons-a-eau-ZN7G6VSOCFADDPNJ3K5FCF5ZGE/"
+ },
+ "bxltoday": {
+  "t": "BruxellesToday — bilan",
+  "u": "https://www.bruxellestoday.be/actualite/manifestation-17-octobre-degats-bilan.html"
+ },
+ "ajtirana": {
+  "t": "Al Jazeera — Tirana, 6e jour",
+  "u": "https://www.aljazeera.com/news/2026/10/18/chaos-in-tirana-demonstrators-determined-to-not-give-up-so-easily"
+ },
+ "usnrama": {
+  "t": "Reuters via US News — Rama",
+  "u": "https://www.usnews.com/news/world/articles/2026-10-18/albanian-pm-says-mass-protests-a-threat-to-eu-membership-not-government"
+ },
+ "euntirana": {
+  "t": "Euronews — Tirana",
+  "u": "https://www.euronews.com/video/2026/10/19/albanian-police-clash-with-protesters-in-tirana-as-unrest-enters-sixth-day"
+ },
+ "infobsol": {
+  "t": "Infobae / EFE — Sol, trois semaines",
+  "u": "https://www.infobae.com/espana/agencias/2026/10/18/la-acampada-de-sol-resiste-a-la-lluvia-tras-tres-semanas-de-protesta-por-la-vivienda/"
+ },
+ "dnpt18": {
+  "t": "Diário de Notícias — Lisbonne et Porto",
+  "u": "https://www.dn.pt/sociedade/estamos-aqui-para-ficar-protestos-pela-habitao-continuam-aps-noite-tranquila-em-lisboa-e-no-porto"
+ },
+ "rtppt": {
+  "t": "RTP — campements maintenus",
+  "u": "https://www.rtp.pt/noticias/pais/manifestantes-pelo-direito-a-habitacao-mantem-acampamentos-em-lisboa-e-porto_e1772433"
+ },
+ "wpserb": {
+  "t": "Washington Post / AP — Serbie",
+  "u": "https://www.washingtonpost.com/world/2026/10/19/serbia-students-election-vucic/305cf594-cbac-11f1-ac04-9f58578a68b4_story.html"
+ },
+ "intelliser": {
+  "t": "bne IntelliNews — marche vers Belgrade",
+  "u": "https://www.intellinews.com/serbian-students-march-on-belgrade-for-final-rally-ahead-of-election-476870"
+ },
+ "aj17eu": {
+  "t": "Al Jazeera — vie chère en Europe",
+  "u": "https://www.aljazeera.com/news/2026/10/17/cost-of-living-protests-hit-belgium-italy-portugal-and-france"
+ },
+ "itvlon": {
+  "t": "ITV News — Londres",
+  "u": "https://www.itv.com/news/2026-10-10/several-arrests-made-as-thousands-descend-on-london-for-pro-palestine-protest"
+ },
+ "aaberlin": {
+  "t": "Anadolu — Berlin",
+  "u": "https://www.aa.com.tr/en/europe/thousands-protest-in-berlin-against-german-chancellor-merz-s-policies/4084674"
+ },
+ "meegaza": {
+  "t": "Middle East Eye — 1 501 tués depuis la trêve",
+  "u": "https://www.middleeasteye.net/live-blog/live-blog-update/gaza-health-ministry-says-1501-palestinians-killed-october-2025"
+ },
+ "ajrimal": {
+  "t": "Al Jazeera — frappe à Gaza City, 14 oct.",
+  "u": "https://www.aljazeera.com/news/2026/10/14/israeli-air-strike-kills-palestinian-woman-in-gaza-city"
+ },
+ "toi18": {
+  "t": "Times of Israel — direct du 18 octobre",
+  "u": "https://www.timesofisrael.com/liveblog-october-18-2026/"
+ },
+ "ajwbtl": {
+  "t": "Al Jazeera — chronologie Cisjordanie",
+  "u": "https://www.aljazeera.com/news/2026/10/18/a-timeline-of-west-bank-attacks-on-palestinians-and-foreign-officials"
+ },
+ "wpwb": {
+  "t": "Washington Post — photographe attaquée",
+  "u": "https://www.washingtonpost.com/world/2026/10/16/palestinians-washington-post-photographer-attacked-west-bank/"
+ },
+ "ttleb": {
+  "t": "Türkiye Today / ANI libanaise — 16 oct.",
+  "u": "https://www.turkiyetoday.com/region/israeli-strikes-hit-southern-lebanon-as-tanks-advance-toward-border-town-3230459"
+ },
+ "profleb": {
+  "t": "Profile News — rapport du 17 oct.",
+  "u": "https://www.profilenews.com/en/october-17-2026-daily-report/"
+ },
+ "ajhormuz": {
+  "t": "Al Jazeera — contrôle du détroit",
+  "u": "https://www.aljazeera.com/news/2026/10/17/us-and-iran-both-claim-control-of-strait-of-hormuz-amid-attacks-on-vessels"
+ },
+ "cbsiran": {
+  "t": "CBS News — direct guerre d'Iran",
+  "u": "https://www.cbsnews.com/live-updates/iran-war-us-trump-strait-of-hormuz-yemen-houthis-saudi-arabia/"
+ },
+ "ajaden": {
+  "t": "Al Jazeera — frappes sur Aden",
+  "u": "https://www.aljazeera.com/news/2026/10/17/iran-backed-houthis-strike-yemens-aden-what-that-means"
+ },
+ "ajadenair": {
+  "t": "Al Jazeera — aéroport d'Aden",
+  "u": "https://www.aljazeera.com/news/2026/10/16/yemens-government-says-houthis-fired-two-missiles-at-aden-airport"
+ },
+ "fox5nk": {
+  "t": "FOX 5 DC — rassemblements No Kings",
+  "u": "https://www.fox5dc.com/news/no-kings-rallies-united-states-oct-17-2026-midterm-elections"
+ },
+ "ajnk": {
+  "t": "Al Jazeera — photos No Kings",
+  "u": "https://www.aljazeera.com/gallery/2026/10/17/photos-no-kings-rallies-in-us-urge-midterm-voters-to-cast-ballots-early"
+ },
+ "lalocal": {
+  "t": "The LA Local — rassemblements à Los Angeles",
+  "u": "https://thelalocal.org/government/election/no-kings-protests-los-angeles-saturday/"
+ },
+ "opbsalem": {
+  "t": "OPB — Salem",
+  "u": "https://www.opb.org/article/2026/10/10/federa-agents-tear-gas-salem-protestors-after-group-blocked-ice-vehicles-police-say/"
+ },
+ "hillnk": {
+  "t": "The Hill — journée d'action",
+  "u": "https://thehill.com/homenews/state-watch/6155983-no-kings-coalition-action-protests/"
+ },
+ "ajspb19": {
+  "t": "Al Jazeera — 1 000 drones sur la Russie",
+  "u": "https://www.aljazeera.com/news/2026/10/19/ukrainian-drone-attack-on-russias-st-petersburg-kills-1-hits-energy-sites"
+ },
+ "cnntrump": {
+  "t": "CNN — Trump critique Zelensky",
+  "u": "https://www.cnn.com/2026/10/18/europe/ukraine-russia-drone-attack-trump-intl"
+ },
+ "pravda18": {
+  "t": "Ukrainska Pravda — attaque russe du 18",
+  "u": "https://www.pravda.com.ua/eng/news/2026/10/18/8058570/"
+ },
+ "pravdadnipro": {
+  "t": "Ukrainska Pravda — Dnipro",
+  "u": "https://www.pravda.com.ua/eng/news/2026/10/16/8058417/"
+ },
+ "pravdapok": {
+  "t": "Ukrainska Pravda — front de Pokrovsk",
+  "u": "https://www.pravda.com.ua/eng/news/2026/10/17/8058457/"
+ },
+ "ukrinf238": {
+  "t": "Ukrinform — 238 combats en un jour",
+  "u": "https://www.ukrinform.net/rubric-ato/4175332-war-update-238-clashes-on-front-line-over-past-day-pokrovsk-sector-remains-hottest.html"
+ },
+ "nbcspb": {
+  "t": "NBC News — Saint-Pétersbourg",
+  "u": "https://www.nbcnews.com/world/russia/st-petersburg-oil-facilities-ablaze-ukraine-launches-1000-drones-russi-rcna604137"
+ },
+ "nyalamarket": {
+  "t": "24 News / AFP — marché de Nyala",
+  "u": "https://www.24newshd.tv/17-Oct-2026/drone-strike-kills-30-cattle-market-sudan-s-darfur"
+ },
+ "ajnyala": {
+  "t": "Al Jazeera — attaque de l'armée à Nyala",
+  "u": "https://www.aljazeera.com/news/2026/10/17/2550"
+ },
+ "stkordo": {
+  "t": "Sudan Tribune — Kordofan-Ouest",
+  "u": "https://sudantribune.com/article/320076"
+ },
+ "acmr13": {
+  "t": "Africa Center — revue du 13 octobre",
+  "u": "https://africacenter.org/daily-media-review/africa-media-review-for-october-13-2026/"
+ },
+ "aasahel": {
+  "t": "allAfrica / RFI — Jnim contre EIS",
+  "u": "https://fr.allafrica.com/stories/202610160142.html"
+ },
+ "ctpdrc": {
+  "t": "Critical Threats — RDC, 7 oct.",
+  "u": "https://www.criticalthreats.org/briefs/congo-war-security-review"
+ },
+ "okapimasisi": {
+  "t": "Radio Okapi — Masisi",
+  "u": "https://www.radiookapi.net/2026/10/05/actualite/securite/les-affrontements-sintensifient-masisi-les-wazalendo-revendiquent-de"
+ },
+ "irishin": {
+  "t": "Irish Times — la génération Z en Inde",
+  "u": "https://www.irishtimes.com/world/asia-pacific/2026/10/16/gen-z-protesters-are-pouring-on-to-indias-streets-as-dissent-surges-what-comes-next/"
+ },
+ "civicusin": {
+  "t": "Civicus Monitor — Inde",
+  "u": "https://monitor.civicus.org/explore/india-thousands-detained-in-crackdown-on-mass-protests-against-electoral-roll-manipulation-while-activists-and-journalists-are-criminalised/"
+ },
+ "lwjpak": {
+  "t": "Long War Journal — frappes pakistanaises",
+  "u": "https://www.longwarjournal.org/archives/2026/10/pakistan-launches-new-strikes-as-conflict-with-taliban-persist-into-third-week.php"
+ },
+ "infobbol": {
+  "t": "Infobae — mobilisations en Bolivie",
+  "u": "https://www.infobae.com/america/america-latina/2026/10/19/afines-a-evo-morales-anuncian-manifestaciones-en-rechazo-a-las-medidas-economicas-del-gobierno/"
+ },
+ "ltbol": {
+  "t": "Los Tiempos — ultimatum de sept jours",
+  "u": "https://www.lostiempos.com/actualidad/pais/20261018/evistas-se-movilizaran-si-gobierno-no-repone-subvencion-al-diesel-siete"
+ },
+ "expresoq": {
+  "t": "Expreso — marche à Quito",
+  "u": "https://www.expreso.ec/politica/organizaciones-sociales-vuelven-marchar-quito-asi-transcurrio-convocatoria-gobierno-298875.html"
+ },
+ "gestionpe": {
+  "t": "Gestión — grève des enseignants",
+  "u": "https://gestion.pe/peru/paro-nacional-29-de-octubre-sutep-protesta-y-exige-al-gobierno-frenar-al-crimen-organizado-noticia/"
+ },
+ "starrakh": {
+  "t": "The Star / Reuters — Rakhine",
+  "u": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/10/06/myanmar-military-airstrikes-on-rakhine-displacement-camps-kill-eight-rebel-group-says"
+ },
+ "fortifyr": {
+  "t": "Fortify Rights — Rakhine",
+  "u": "https://www.fortifyrights.org/mya-inv-2026-10-02/"
+ },
+ "ajtigray15": {
+  "t": "Al Jazeera — l'armée étend son contrôle au Tigré",
+  "u": "https://www.aljazeera.com/news/2026/10/15/ethiopian-forces-expand-control-in-tigray-as-militia-claims-eritrean-losses"
+ },
+ "ajtigray16": {
+  "t": "Al Jazeera — gouvernement intérimaire",
+  "u": "https://www.aljazeera.com/news/2026/10/16/ethiopia-announces-instalment-of-interim-government-in-tigray"
+ },
+ "untigray": {
+  "t": "ONU Info — Éthiopie",
+  "u": "https://news.un.org/en/story/2026/10/1168570"
+ },
+ "kenyatimes": {
+  "t": "The Kenya Times — grèves d'octobre",
+  "u": "https://thekenyatimes.com/latest-kenya-times-news/country-protests-october/"
+ },
+ "citizenke": {
+  "t": "Citizen Digital — hausse des tarifs",
+  "u": "https://citizen.digital/article/expect-10-fare-increase-nationwide-protests-after-fuel-price-hike-n392111"
+ },
+ "aniTW": {
+  "t": "ANI — Taïwan, 18 oct.",
+  "u": "https://aninews.in/news/world/asia/taiwan-detects-2-pla-aircraft-5-plan-vessels-operating-near-territory20261018065235/"
+ },
+ "focustw": {
+  "t": "Focus Taiwan — exercices éloignés",
+  "u": "https://focustaiwan.tw/politics/202610120006"
  }
 }

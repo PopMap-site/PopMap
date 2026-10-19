@@ -11,6 +11,7 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <style>:root{padding:env(safe-area-inset-top,0px) 0 env(safe-area-inset-bottom,0px)}img{max-width:100%}[hidden]{display:none!important}#daily:empty{display:none}
+.replay[hidden],.around[hidden]{display:none}
 </style>
 </head><body>
 <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css">
@@ -306,7 +307,8 @@ const pracState=p=>{const a=T(p.t),b=p.until?T(p.until):a;return NOW<a?"avenir":
 function visEvents(){return EVENTS.filter(e=>active.has(e.cat)&&(!replayOn||(e.t&&T(e.t)>=R0&&T(e.t)<=tCur)))}
 function render(){
   const P=ppd(),street=P>1800;
-  const vis=visEvents().filter(e=>!(street&&e.spots&&e.spots.some(s=>!replayOn||(s.t&&T(s.t)<=tCur))));
+  const sv=e=>e.spots&&P>Math.min(1800,(e.zoom||9000)*.5);
+  const vis=visEvents().filter(e=>!(sv(e)&&e.spots.some(s=>!replayOn||(s.t&&T(s.t)<=tCur))));
   const ev=gEv.selectAll("g.ev").data(vis,d=>d.id).join(enter=>{const g=enter.append("g").attr("class","ev").attr("tabindex",0).style("cursor","pointer")
       .on("click",(e,d)=>{if(aroundOn)return;e.stopPropagation();select(d.id)}).on("keydown",(e,d)=>{if(e.key==="Enter")select(d.id)});
     g.append("circle").attr("r",16).attr("fill","transparent");g.append("circle").attr("class","halo pulse");g.append("circle").attr("class","m");g.append("text").attr("x",11).attr("y",4);
@@ -316,7 +318,7 @@ function render(){
   ev.select("circle.halo").attr("r",d=>3+d.sev*2).attr("stroke",d=>col(d.cat)).style("display",d=>d.live&&!replayOn?null:"none");
   ev.select("text").text(d=>(P>=28||(d.sev===3&&P>=4)||(d.id===selected&&P>=4)||(replayOn&&P>=8))?d.place:"");
   ev.sort((a,b)=>(a.id===selected)-(b.id===selected));
-  const spots=street?EVENTS.filter(e=>e.spots&&active.has(e.cat)).flatMap(e=>e.spots.map((s,i)=>({...s,ev:e,key:e.id+i}))).filter(s=>!replayOn||(s.t&&T(s.t)<=tCur&&T(s.t)>=R0)):[];
+  const spots=EVENTS.filter(e=>sv(e)&&active.has(e.cat)).flatMap(e=>e.spots.map((s,i)=>({...s,ev:e,key:e.id+i}))).filter(s=>!replayOn||(s.t&&T(s.t)<=tCur&&T(s.t)>=R0));
   const sp=gSp.selectAll("g.sp").data(spots,d=>d.key).join(enter=>{const g=enter.append("g").attr("class","sp").style("cursor","pointer").on("click",(e,d)=>{if(aroundOn)return;e.stopPropagation();select(d.ev.id,d.key)});
     g.append("circle").attr("r",16).attr("fill","transparent");g.append("circle").attr("class","m").attr("r",6);g.append("text").attr("x",10).attr("y",4);if(replayOn)g.classed("new",true);return g});
   sp.attr("transform",d=>{const p=proj([d.lon,d.lat]);return`translate(${p[0]},${p[1]})`}).classed("sel",d=>d.key===selSpot);
