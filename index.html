@@ -10,7 +10,8 @@
 <link rel="apple-touch-icon" href="icons/icon-180.png">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<style>:root{padding:env(safe-area-inset-top,0px) 0 env(safe-area-inset-bottom,0px)}img{max-width:100%}[hidden]{display:none!important}</style>
+<style>:root{padding:env(safe-area-inset-top,0px) 0 env(safe-area-inset-bottom,0px)}img{max-width:100%}[hidden]{display:none!important}#daily:empty{display:none}
+</style>
 </head><body>
 <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
@@ -245,7 +246,8 @@ try{[EVENTS,S,PRAC,META,JUMPS]=await Promise.all(["data/events.json","data/sourc
 catch(err){document.getElementById("loading").textContent="Impossible de charger les données. Recharge la page.";return}
 document.getElementById("loading").remove();
 const opt=u=>get(u).catch(()=>null);
-const [Q,GOOD]=await Promise.all([opt("data/question.json"),opt("data/good.json")]);
+const DAILY=false; /* question du jour + bonne nouvelle : désactivées pour l'instant, passer à true pour les réactiver */
+const [Q,GOOD]=DAILY?await Promise.all([opt("data/question.json"),opt("data/good.json")]):[null,null];
 
 const CATS={emeute:{label:"Émeutes",v:"--c-emeute"},manif:{label:"Manifs & grèves",v:"--c-manif"},guerre:{label:"Guerres & combats",v:"--c-guerre"},frappe:{label:"Frappes & attaques",v:"--c-frappe"}};
 const KIND={transport:"Transports",interdiction:"Interdiction",agenda:"À venir"};
@@ -363,6 +365,19 @@ function select(id,spotKey,move=true){
   selected=id;selSpot=spotKey||null;selPrac=null;const e=EVENTS.find(x=>x.id===id),c=col(e.cat);
   if(lastId!==id){phIdx=0;lastId=id}
   const near=e.spots||[];
+  if(spotKey){const i=+spotKey.slice(id.length),s=near[i];if(s){
+   panel.innerHTML=`<button class="close" aria-label="Fermer la fiche">×</button>
+   <div class="kicker" style="margin-top:6px"><span class="pill" style="background:${c}">${CATS[e.cat].label}</span><span>Point chaud · ${e.place}</span></div>
+   <div class="kicker">${s.t?(()=>{const x=dt(s.t,s.ta);return x.day+" · "+x.h})():fmt(e.date)}</div>
+   <h2>${s.n}</h2><p>${s.d}</p>
+   <button class="btn" id="backev">Toute la fiche ${e.place} →</button>
+   ${near.length>1?`<h3>Autres points chauds · ${e.place}</h3><div class="spots">${near.map((x,j)=>j===i?"":`<button data-i="${j}"><i style="background:${c}"></i><span>${x.n}<small>${x.d}</small></span><em>${x.t?dt(x.t,x.ta).h:""}</em></button>`).join("")}</div>`:""}
+   ${srcs(e.src)}<p class="note">${META.note}</p>`;
+   panel.querySelector(".close").onclick=closePanel;
+   panel.querySelector("#backev").onclick=()=>{select(id,null,false);panel.scrollTop=0};
+   panel.querySelectorAll(".spots button").forEach(b=>b.onclick=()=>select(id,id+b.dataset.i));
+   open("event");panel.scrollTop=0;render();
+   if(move)requestAnimationFrame(()=>fly(s.lon,s.lat,Math.max(ppd(),(e.zoom||9000)*1.2)));return}}
   panel.innerHTML=`<button class="close" aria-label="Fermer la fiche">×</button>${hero(e)}
    <div class="kicker"><span class="pill" style="background:${c}">${CATS[e.cat].label}</span><span class="sev" title="Intensité ${e.sev}/3">${[1,2,3].map(i=>`<b class="${i<=e.sev?"on":""}"></b>`).join("")}</span>${trust(e)}</div>
    <div class="kicker">${e.country} · ${e.t?(()=>{const x=dt(e.t,e.ta);return x.day+(e.ta?"":" · "+x.h)})():fmt(e.date)}${e.live?" · en cours":""}</div>
@@ -376,7 +391,7 @@ function select(id,spotKey,move=true){
    <button class="btn" id="zoomto">${e.zoom?"Voir les rues →":"Centrer sur la carte →"}</button>
    ${srcs(e.src)}<p class="note">${META.note}</p>`;
   panel.querySelector(".close").onclick=closePanel;
-  panel.querySelectorAll(".spots button").forEach(b=>b.onclick=()=>{const s=near[+b.dataset.i];selSpot=id+b.dataset.i;panel.querySelectorAll(".spots button").forEach(x=>x.removeAttribute("aria-current"));b.setAttribute("aria-current","true");render();fly(s.lon,s.lat,(e.zoom||9000)*1.6,900)});
+  panel.querySelectorAll(".spots button").forEach(b=>b.onclick=()=>select(id,id+b.dataset.i));
   panel.querySelector(".prev")?.addEventListener("click",()=>{phIdx=(phIdx+e.photos.length-1)%e.photos.length;select(id,selSpot,false)});
   panel.querySelector(".next")?.addEventListener("click",()=>{phIdx=(phIdx+1)%e.photos.length;select(id,selSpot,false)});
   panel.querySelector("#zoomto").onclick=()=>fly(e.lon,e.lat,e.zoom||Math.max(ppd(),30));
