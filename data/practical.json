@@ -1,0 +1,275 @@
+[
+ {
+  "id": "p-champs",
+  "kind": "transport",
+  "place": "Paris · Champs-Élysées",
+  "lon": 2.305,
+  "lat": 48.87,
+  "t": "2026-10-17T08:00",
+  "until": "2026-10-17T23:59",
+  "title": "7 stations de métro fermées",
+  "text": "Charles-de-Gaulle–Étoile, Argentine, George V, Franklin D. Roosevelt, Champs-Élysées–Clemenceau, Concorde, Tuileries, fermées dès 8 h sur demande de la préfecture. Correspondances de Concorde (lignes 1, 8, 12) indisponibles. RER A perturbé à Étoile.",
+  "src": [
+   "clepmetro",
+   "ratp"
+  ]
+ },
+ {
+  "id": "p-opera",
+  "kind": "transport",
+  "place": "Paris · Opéra–Madeleine",
+  "lon": 2.33,
+  "lat": 48.8705,
+  "t": "2026-10-17T08:00",
+  "until": "2026-10-17T23:59",
+  "title": "5 stations de métro fermées",
+  "text": "Opéra, Chaussée-d'Antin–La Fayette, Pyramides, Madeleine, Miromesnil, dès 8 h. Correspondances de Madeleine (lignes 8, 12, 14) perturbées.",
+  "src": [
+   "clepmetro"
+  ]
+ },
+ {
+  "id": "p-rivegauche",
+  "kind": "transport",
+  "place": "Paris · Rive gauche",
+  "lon": 2.32,
+  "lat": 48.858,
+  "t": "2026-10-17T08:00",
+  "until": "2026-10-17T23:59",
+  "title": "4 stations de métro fermées",
+  "text": "Assemblée nationale, Solférino, Rue du Bac (ligne 12) et Varenne (ligne 13), dès 8 h.",
+  "src": [
+   "clepmetro"
+  ]
+ },
+ {
+  "id": "p-barbes",
+  "kind": "transport",
+  "place": "Paris · Barbès–Pigalle",
+  "lon": 2.345,
+  "lat": 48.883,
+  "t": "2026-10-17T12:00",
+  "until": "2026-10-17T23:59",
+  "title": "4 stations de métro fermées",
+  "text": "Anvers, Blanche, Barbès–Rochechouart, Pigalle, à partir de midi.",
+  "src": [
+   "clepmetro"
+  ]
+ },
+ {
+  "id": "p-bourse",
+  "kind": "transport",
+  "place": "Paris · Bourse",
+  "lon": 2.341,
+  "lat": 48.8686,
+  "t": "2026-10-17T12:00",
+  "until": "2026-10-17T23:59",
+  "title": "Station Bourse fermée",
+  "text": "Fermée à partir de midi ; rassemblements interdits dans le secteur.",
+  "src": [
+   "clepmetro"
+  ]
+ },
+ {
+  "id": "p-bastille",
+  "kind": "transport",
+  "place": "Paris · Bastille–Marais",
+  "lon": 2.368,
+  "lat": 48.858,
+  "t": "2026-10-17T12:00",
+  "until": "2026-10-17T23:59",
+  "title": "4 stations de métro fermées",
+  "text": "Bastille, Chemin Vert, Saint-Sébastien–Froissart, Filles du Calvaire, à partir de midi.",
+  "src": [
+   "clepmetro"
+  ]
+ },
+ {
+  "id": "p-ligne6",
+  "kind": "transport",
+  "place": "Paris · Kléber",
+  "lon": 2.2932,
+  "lat": 48.8714,
+  "t": "2026-10-17T08:00",
+  "until": "2026-10-17T23:59",
+  "title": "Ligne 6 coupée avant Étoile",
+  "text": "Terminus à Kléber, trafic interrompu entre Kléber et Charles-de-Gaulle–Étoile.",
+  "src": [
+   "clepmetro"
+  ]
+ },
+ {
+  "id": "p-interdit",
+  "kind": "interdiction",
+  "place": "Paris · Concorde",
+  "lon": 2.3212,
+  "lat": 48.8656,
+  "t": "2026-10-17T06:00",
+  "until": "2026-10-17T23:59",
+  "title": "Rassemblements interdits",
+  "text": "Arrêtés préfectoraux des 15 et 16 octobre : rassemblements interdits notamment sur les Champs-Élysées, à Concorde, Bastille, Bourse et autour des bâtiments officiels ; plusieurs parcours déclarés refusés.",
+  "src": [
+   "clepmetro"
+  ]
+ },
+ {
+  "id": "p-marseille",
+  "kind": "transport",
+  "place": "Marseille",
+  "lon": 5.381,
+  "lat": 43.2965,
+  "t": "2026-10-17T15:25",
+  "until": "2026-10-17T23:59",
+  "title": "Tous les transports en commun arrêtés",
+  "text": "Le préfet ordonne l'arrêt de tous les transports publics à 15 h 25, quartiers périphériques compris.",
+  "src": [
+   "clep",
+   "pandore"
+  ]
+ },
+ {
+  "id": "p-milan",
+  "kind": "transport",
+  "place": "Milan · Duomo",
+  "lon": 9.1895,
+  "lat": 45.4641,
+  "t": "2026-10-17T16:00",
+  "until": "2026-10-17T23:59",
+  "ta": true,
+  "title": "Station de métro Duomo fermée",
+  "text": "Fermée pendant les affrontements sur la place.",
+  "src": [
+   "reu"
+  ]
+ },
+ {
+  "id": "a-strasbourg",
+  "kind": "agenda",
+  "place": "Strasbourg",
+  "lon": 7.769,
+  "lat": 48.597,
+  "t": "2026-10-20T12:00",
+  "ta": true,
+  "title": "Rassemblement devant le Parlement européen",
+  "text": "Mardi 20 octobre, à l'appel d'organisations syndicales (distinct du 17 octobre).",
+  "src": [
+   "clep"
+  ]
+ },
+ {
+  "id": "a-greve5",
+  "kind": "agenda",
+  "place": "France entière",
+  "lon": 2.7,
+  "lat": 47.3,
+  "t": "2026-11-05T10:00",
+  "ta": true,
+  "title": "Grève interprofessionnelle, SNCF en grève",
+  "text": "Jeudi 5 novembre, journée de grève et de manifestations à l'appel de l'intersyndicale (CFDT, CGT, FO, UNSA, FSU). Les syndicats de cheminots appellent à la grève : Transilien, TER, TGV et Intercités peuvent être perturbés ; prévisions SNCF la veille. Manifestation envisagée à Paris.",
+  "src": [
+   "clep",
+   "greve5"
+  ]
+ },
+ {
+  "id": "a-italie",
+  "kind": "agenda",
+  "place": "Italie",
+  "lon": 12.4964,
+  "lat": 41.9028,
+  "t": "2026-11-20T09:00",
+  "ta": true,
+  "title": "Grève générale",
+  "text": "Annoncée par la CGIL (Maurizio Landini) pour le 20 novembre.",
+  "src": [
+   "agi"
+  ]
+ },
+ {
+  "id": "a-espagne",
+  "kind": "agenda",
+  "place": "Espagne",
+  "lon": -3.7,
+  "lat": 40.0,
+  "t": "2026-11-29T09:00",
+  "ta": true,
+  "title": "Élections législatives anticipées",
+  "text": "Convoquées le 29 novembre après la crise du logement ; une grève générale est en préparation, sans date.",
+  "src": [
+   "salto"
+  ]
+ },
+ {
+  "id": "a-serbie",
+  "kind": "agenda",
+  "place": "Serbie",
+  "lon": 20.4489,
+  "lat": 44.4,
+  "t": "2026-10-25T09:00",
+  "ta": true,
+  "title": "Législatives anticipées",
+  "text": "Scrutin du 25 octobre, avec une liste issue du mouvement étudiant.",
+  "src": [
+   "reuserb",
+   "intelli"
+  ]
+ },
+ {
+  "id": "a-strasbourg19",
+  "kind": "agenda",
+  "place": "Strasbourg · place de l'Étoile",
+  "lon": 7.756,
+  "lat": 48.578,
+  "t": "2026-10-19T12:00",
+  "title": "Rassemblement républicain",
+  "text": "Lundi 19 octobre à midi devant le centre administratif, à l'appel de l'Association des maires de France.",
+  "src": [
+   "strasm"
+  ]
+ },
+ {
+  "id": "a-midterms",
+  "kind": "agenda",
+  "place": "États-Unis",
+  "lon": -77.0369,
+  "lat": 38.9072,
+  "t": "2026-11-03T12:00",
+  "ta": true,
+  "title": "Élections de mi-mandat",
+  "text": "Mardi 3 novembre. Donald Trump a dit ne pas reprendre les frappes contre l'Iran avant ce scrutin.",
+  "src": [
+   "nprnk",
+   "iran"
+  ]
+ },
+ {
+  "id": "p-couvrefeu",
+  "kind": "interdiction",
+  "place": "France",
+  "lon": 2.2,
+  "lat": 46.6,
+  "t": "2026-10-19T12:00",
+  "until": "2026-10-25T23:59",
+  "ta": true,
+  "title": "Couvre-feux partiels annoncés",
+  "text": "Le Premier ministre Sébastien Lecornu a demandé des couvre-feux « territorialisés et partiels » après les violences du week-end. La carte des communes concernées doit être établie avec les maires ; l'état d'urgence n'est pas exclu. Zones et horaires à confirmer.",
+  "src": [
+   "lcp",
+   "f24cf"
+  ]
+ },
+ {
+  "id": "a-israel",
+  "kind": "agenda",
+  "place": "Israël",
+  "lon": 34.7818,
+  "lat": 32.0853,
+  "t": "2026-10-27T09:00",
+  "ta": true,
+  "title": "Élections législatives en Israël",
+  "text": "Mardi 27 octobre. La Liste unifiée arabe dit pouvoir soutenir de l'extérieur une coalition opposée à Benyamin Netanyahou.",
+  "src": [
+   "ajpw"
+  ]
+ }
+]
