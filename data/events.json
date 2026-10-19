@@ -2497,10 +2497,28 @@
   "summary": "Les FSR ciblent El-Obeid par drones et poursuivent leurs attaques au Nil Bleu. Un camion de l'ONU a été frappé au Kordofan du Sud (chauffeur tué).",
   "src": [
    "cg",
-   "portal"
+   "portal",
+   "ajsudan6"
   ],
   "t": "2026-10-16T12:00",
-  "ta": true
+  "ta": true,
+  "tl": [
+   [
+    "3 oct.",
+    "Sur la route Dilling-Kadugli (Kordofan-Sud), une frappe aérienne touche un convoi du Programme alimentaire mondial clairement identifié : un chauffeur tué. Le Conseil des droits de l'homme de l'ONU réclame un cessez-le-feu immédiat."
+   ]
+  ],
+  "spots": [
+   {
+    "n": "Dilling",
+    "lon": 29.66,
+    "lat": 12.05,
+    "d": "Un véhicule du PAM touché par un engin explosif, puis un convoi frappé sur la route de Kadugli.",
+    "t": "2026-10-03T12:00",
+    "ta": true
+   }
+  ],
+  "zoom": 150
  },
  {
   "id": "tigre",
@@ -2933,11 +2951,23 @@
   "t": "2026-10-15T12:00",
   "ta": true,
   "title": "Une capitale sous contrôle des gangs",
-  "summary": "Les gangs contrôlent l'essentiel de la capitale et étendent leur violence vers les zones rurales ; recrutement forcé d'enfants documenté.",
+  "summary": "Les gangs contrôleraient environ 70 % de la capitale et étendent leur violence vers les zones rurales ; recrutement forcé d'enfants documenté. À Kenscoff, sur les hauteurs, deux attaques en juillet et août ont fait au moins 164 morts selon l'AP et environ 10 000 déplacés ; le maire est mort le 9 octobre de maladie. Des élections sont fixées au 13 décembre, sous réserve d'un « environnement sécuritaire acceptable ».",
   "src": [
    "cnnhaiti",
-   "swj"
-  ]
+   "swj",
+   "latinpost"
+  ],
+  "spots": [
+   {
+    "n": "Kenscoff",
+    "lon": -72.285,
+    "lat": 18.449,
+    "d": "Juillet-août : au moins 164 morts et plus de 70 enlèvements dans deux attaques de gangs.",
+    "t": "2026-08-24T12:00",
+    "ta": true
+   }
+  ],
+  "zoom": 600
  },
  {
   "id": "sagaing",
