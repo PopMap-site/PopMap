@@ -1,0 +1,8 @@
+.git
+.github
+worker
+tools
+wrangler.toml
+.assetsignore
+node_modules
+*.py

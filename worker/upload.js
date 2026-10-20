@@ -1,4 +1,4 @@
-// POPMAP — réception des vidéos envoyées par le public (Cloudflare Pages Functions).
+// POPMAP — réception des vidéos envoyées par le public (Cloudflare Worker, route POST /api/upload).
 // Les fichiers sont déposés, par morceaux de 1 Mo, dans le dépôt GitHub PRIVÉ PopMap-site/PopMap-inbox.
 // Rien n'est publié ici : la validation se fait ensuite (tools/video_review.py).
 import { Buffer } from "node:buffer";
@@ -34,7 +34,7 @@ async function gh(env, path, b64, message, tries = 4) {
   return false;
 }
 
-export async function onRequestPost({ request, env }) {
+export async function handleUpload(request, env) {
   if (!env.GH_TOKEN) return json({ error: "Envoi pas encore configuré" }, 503);
   const u = new URL(request.url);
   const act = u.searchParams.get("act");

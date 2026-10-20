@@ -1,5 +1,9 @@
-# Configuration Cloudflare Pages (site statique + fonction functions/api/upload.js)
+# Configuration Cloudflare (Worker + fichiers statiques du site)
 name = "popmap"
-pages_build_output_dir = "."
+main = "worker/index.js"
 compatibility_date = "2026-09-01"
 compatibility_flags = ["nodejs_compat"]
+
+[assets]
+directory = "."
+binding = "ASSETS"
