@@ -112,6 +112,25 @@ body.moving .pulse,body.moving .dot{animation:none}body.moving #ov text{display:
 h2[data-radio]{cursor:pointer;display:flex;align-items:center;gap:10px}
 .radio-btn{flex:none;display:inline-flex;align-items:center;gap:5px;font:600 11px/1 var(--f-body);letter-spacing:.06em;text-transform:uppercase;color:var(--ink);background:var(--card);border:1px solid var(--line);border-radius:999px;padding:6px 10px;cursor:pointer}
 .radio-btn.on{background:var(--c-guerre);color:#fff;border-color:transparent;animation:beat 1.4s infinite}
+.vf{display:flex;flex-direction:column;gap:10px;margin:6px 0 4px}
+.vf label{display:flex;flex-direction:column;gap:4px;font:600 13px var(--f-body)}
+.vf label small{font-weight:400;color:var(--muted)}
+.vf input[type=text],.vf input[type=email],.vf input[type=datetime-local],.vf textarea{font:400 15px var(--f-body);padding:9px 10px;border-radius:8px;border:1px solid var(--line);background:var(--bg);color:var(--ink);width:100%;box-sizing:border-box}
+.vf .vfile{border:1.5px dashed var(--line);border-radius:12px;padding:16px;align-items:center;text-align:center;cursor:pointer;background:var(--bg)}
+.vf .vfile input{position:absolute;opacity:0;width:1px;height:1px}
+.vf .vfile span{font:700 15px var(--f-body);color:var(--accent)}
+.vf .chk{flex-direction:row;align-items:flex-start;gap:8px;font-weight:400;font-size:13.5px;line-height:1.4}
+.vf .chk input{margin-top:3px;flex:none}
+.vf .hp{position:absolute;left:-9999px;width:1px;height:1px;opacity:0}
+.vf .vgeo{color:var(--muted);font-size:12px;margin-top:-6px}
+.vsend{all:unset;cursor:pointer;text-align:center;padding:12px 14px;border-radius:10px;background:var(--c-guerre);color:#fff;font:700 15px var(--f-body)}
+.vsend:disabled{opacity:.5;cursor:wait}
+.vprog{height:6px;border-radius:3px;background:var(--line);overflow:hidden}.vprog i{display:block;height:100%;width:0;background:var(--accent);transition:width .3s}
+.vmsg{font-size:13px;min-height:1em;margin:0}.vmsg.bad{color:var(--c-guerre)}
+.vok{display:flex;flex-direction:column;gap:6px;padding:14px;border-radius:12px;background:var(--bg);border:1px solid var(--line)}
+.vids{display:flex;flex-direction:column;gap:10px}.vid{margin:0}.vid video{width:100%;border-radius:10px;background:#000;max-height:60vh}
+.vid figcaption{font-size:13px;margin-top:4px}.vid figcaption span{display:block;font:500 11.5px var(--f-mono);color:var(--muted);margin-top:2px}
+.vid a,.rep a{color:var(--muted)}.rep{font-size:12px;margin:0}.legal{font-size:13px}
 @media (prefers-reduced-motion:reduce){.pulse,.dot,.ev.new circle.m,.sp.new circle.m{animation:none}}
 .zoomctl{position:absolute;z-index:4;left:max(12px,env(safe-area-inset-left,0px));bottom:calc(78px + env(safe-area-inset-bottom,0px));display:flex;flex-direction:column;gap:4px}
 .zoomctl button{width:40px;height:40px;border-radius:10px;color:var(--ink);font:500 19px/1 var(--f-mono);cursor:pointer}
@@ -468,6 +487,9 @@ const RADIO=(()=>{let ac=null,noise=null,cur=null;const ok="speechSynthesis" in 
   setTimeout(()=>{if(cur!==key)return;const u=new SpeechSynthesisUtterance(text);u.lang="fr-FR";const v=voice();if(v)u.voice=v;u.rate=1.03;u.pitch=.78;u.onend=u.onerror=()=>{if(cur===key)stop()};speechSynthesis.speak(u)},w)}
  if(ok)speechSynthesis.getVoices();
  return{play,playFile,stop,ok}})();
+let VIDS=[];fetch("data/videos.json").then(r=>r.ok?r.json():[]).then(j=>{VIDS=Array.isArray(j)?j:[];if(selected&&!panel.hidden&&panel.dataset.mode==="event")select(selected,selSpot,false)}).catch(()=>{});
+function vidsFor(id,spotName){const v=VIDS.filter(x=>x.ev===id);if(!v.length)return"";
+  return`<h3>Vidéos de témoins · ${v.length}</h3><div class="vids">${v.map(x=>`<figure class="vid"><video controls playsinline preload="none" poster="${x.poster}" src="${x.f}"></video><figcaption>${x.cap||""}<span>${x.place||""}${x.t?" · "+(()=>{const d=dt(x.t,x.ta);return d.day+" · "+d.h})():""} · visages floutés · <a href="mailto:popmap@outlook.fr?subject=${encodeURIComponent("Signalement vidéo "+x.id)}">Signaler</a></span></figcaption></figure>`).join("")}</div>`}
 let AUD=null;fetch("audio/index.json").then(r=>r.ok?r.json():null).then(j=>{AUD=j}).catch(()=>{});
 const plain=h=>{const d=document.createElement("div");d.innerHTML=h||"";return d.textContent.replace(/\s+/g," ").trim()};
 panel.addEventListener("click",ev=>{const h=ev.target.closest("[data-radio]");if(!h)return;const e=EVENTS.find(x=>x.id===selected);if(!e)return;
@@ -488,7 +510,7 @@ function select(id,spotKey,move=true){RADIO.stop();
    <h2 data-radio>${s.n}${1?`<button class="radio-btn" aria-label="Écouter en version radio"><svg viewBox="0 0 16 16" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="1.5" y="5.5" width="13" height="8.5" rx="1.8"/><path d="M4 5.5L11 2"/><circle cx="10.5" cy="9.7" r="2"/><path d="M3.8 8.5h3M3.8 11h3"/></svg>Radio</button>`:""}</h2><p>${s.d}</p>
    <button class="btn" id="backev">Toute la fiche ${e.place} →</button>
    ${near.length>1?`<h3>Autres points chauds · ${e.place}</h3><div class="spots">${near.map((x,j)=>j===i?"":`<button data-i="${j}"><i style="background:${c}"></i><span>${x.n}<small>${x.d}</small></span><em>${x.t?dt(x.t,x.ta).h:""}</em></button>`).join("")}</div>`:""}
-   ${srcs(e.src)}<p class="note">${META.note}</p>`;
+   ${vidsFor(e.id,s.n)}${srcs(e.src)}${rep(e.place+" · "+s.n)}<p class="note">${META.note}</p>`;
    panel.querySelector(".close").onclick=closePanel;
    panel.querySelector("#backev").onclick=()=>{select(id,null,false);panel.scrollTop=0};
    panel.querySelectorAll(".spots button").forEach(b=>b.onclick=()=>select(id,id+b.dataset.i));
@@ -505,11 +527,13 @@ function select(id,spotKey,move=true){RADIO.stop();
    ${e.tl?`<h3>Chronologie</h3><ol class="tl">${e.tl.map(t=>`<li><time>${t[0]}</time><span>${t[1]}</span></li>`).join("")}</ol>`:""}
    ${near.length?`<h3>Points chauds · touche pour zoomer</h3><div class="spots">${near.map((s,i)=>`<button data-i="${i}" ${spotKey===id+i?'aria-current="true"':""}><i style="background:${c}"></i><span>${s.n}<small>${s.d}</small></span><em>${s.t?dt(s.t,s.ta).h:""}</em></button>`).join("")}</div>`:""}
    <button class="btn" id="zoomto">${e.zoom?"Voir les rues →":"Centrer sur la carte →"}</button>
-   ${srcs(e.src)}<p class="note">${META.note}</p>`;
+   ${vidsFor(e.id)}<button class="btn" id="sendv">Tu es sur place ? Envoyer une vidéo →</button>
+   ${srcs(e.src)}${rep(e.place)}<p class="note">${META.note}</p>`;
   panel.querySelector(".close").onclick=closePanel;
   panel.querySelectorAll(".spots button").forEach(b=>b.onclick=()=>select(id,id+b.dataset.i));
   panel.querySelector(".prev")?.addEventListener("click",()=>{phIdx=(phIdx+e.photos.length-1)%e.photos.length;select(id,selSpot,false)});
   panel.querySelector(".next")?.addEventListener("click",()=>{phIdx=(phIdx+1)%e.photos.length;select(id,selSpot,false)});
+  panel.querySelector("#sendv").onclick=()=>openVideo(id);
   panel.querySelector("#zoomto").onclick=()=>fly(e.lon,e.lat,e.zoom||Math.max(ppd(),30));
   open("event");render();
   if(move){const sp=spotKey?near[+spotKey.slice(id.length)]:null;requestAnimationFrame(()=>fly(sp?sp.lon:e.lon,sp?sp.lat:e.lat,Math.max(ppd(),sp?(e.zoom||9000)*1.2:(e.zoom?Math.min(e.zoom,40):Math.min(Math.max(ppd(),14),40)))))}
@@ -521,7 +545,7 @@ function selectPrac(id,move=true){
   panel.innerHTML=`<button class="close" aria-label="Fermer la fiche">×</button>
    <div class="kicker" style="margin-top:6px"><span class="pill" style="background:var(--c-prat);color:var(--card)">${KIND[p.kind]}</span><span class="status" style="color:${stl[1]}">${stl[0]}</span>${trust(p)}</div>
    <div class="kicker">${p.place} · ${a.day}${p.ta?"":" · dès "+a.h}</div>
-   <h2>${p.title}</h2><p>${p.text}</p>${srcs(p.src)}<p class="note">${META.note}</p>`;
+   <h2>${p.title}</h2><p>${p.text}</p>${srcs(p.src)}${rep(p.place+" · "+p.title)}<p class="note">${META.note}</p>`;
   panel.querySelector(".close").onclick=closePanel;open("prac");render();
   if(move)requestAnimationFrame(()=>fly(p.lon,p.lat,Math.max(ppd(),p.kind==="transport"&&p.place.startsWith("Paris")?2500:20)));
 }
@@ -643,41 +667,122 @@ function openAbout(){selected=selSpot=selPrac=null;
    </ul>
    <h3>POPMAG, le point du matin <span class="soon">Bientôt</span></h3>
    <p>Chaque matin, l'essentiel de la nuit en deux minutes de lecture, ville par ville.</p>
-   <h3>Tes vidéos <span class="soon">Bientôt</span></h3>
-   <p>Tu es sur place ? Tu pourras envoyer ta vidéo gratuitement. Chaque vidéo sera vérifiée avant d'apparaître sur la carte. <button class="lnk" id="abVid">Les règles →</button></p>
+   <h3>Tes vidéos</h3>
+   <p>Tu es sur place ? Envoie ta vidéo gratuitement, sans compte. Chaque vidéo est examinée avant d'apparaître sur la carte, visages floutés. <button class="lnk" id="abVid">Envoyer une vidéo →</button></p>
    <h3>Soutenir POPMAP <span class="soon">Bientôt</span></h3>
    <p>POPMAP est un projet indépendant. Les dons seront bientôt possibles pour l'aider à grandir.</p>
+   <h3>Contact</h3><p><a href="mailto:popmap@outlook.fr">popmap@outlook.fr</a> · erreurs, retraits, presse.</p>
+   <p class="legal"><button class="lnk" data-legal="mentions">Mentions légales</button> · <button class="lnk" data-legal="confidentialite">Confidentialité</button> · <button class="lnk" data-legal="conditions">Conditions d'envoi</button></p>
    <p class="fine">Veille et mise en forme assistées par des outils d'IA ; chaque information est rattachée à ses sources. ${META.note}</p>
   </div>`;
   panel.querySelector(".close").onclick=closePanel;
-  panel.querySelector("#abVid").onclick=openVideo;
+  panel.querySelector("#abVid").onclick=()=>openVideo();
+  panel.querySelectorAll("[data-legal]").forEach(b=>b.onclick=()=>openLegal(b.dataset.legal));
   open("about");panel.scrollTop=0;render()}
-function openVideo(){selected=selSpot=selPrac=null;
+function openVideo(pre){selected=selSpot=selPrac=null;
+  const ev=pre&&EVENTS.find(x=>x.id===pre);
+  const now=new Date(Date.now()-new Date().getTimezoneOffset()*6e4).toISOString().slice(0,16);
   panel.innerHTML=`<button class="close" aria-label="Fermer">×</button><div class="ab">
    <div class="kicker" style="margin-top:6px">Participer</div>
    <h2>Envoyer une vidéo</h2>
-   <p>Tu es témoin d'une manifestation, d'une grève ou d'une perturbation ? Ta vidéo peut aider tout le monde à comprendre ce qui se passe. L'envoi est gratuit et ouvert à tous.</p>
+   <p>Tu es témoin d'une manifestation, d'une grève ou d'une perturbation ? Ta vidéo peut aider tout le monde à comprendre ce qui se passe. Gratuit, sans compte.</p>
+   <form class="vf" id="vf" novalidate>
+    <label class="vfile"><input type="file" id="vfFile" accept="video/*" required><span id="vfFileL">Choisir une vidéo</span><small>1 minute maximum conseillée · 80 Mo maximum</small></label>
+    <label>Où ?<input type="text" id="vfPlace" maxlength="120" placeholder="Ville, rue ou place" value="${ev?ev.place.replace(/"/g,"&quot;"):""}" required></label>
+    <button type="button" class="lnk" id="vfGeo">📍 Utiliser ma position</button><small class="vgeo" id="vfGeoS"></small>
+    <label>Quand ?<input type="datetime-local" id="vfWhen" value="${now}" max="${now}" required></label>
+    <label>Ce qu'on voit <small>(facultatif)</small><textarea id="vfDesc" maxlength="600" rows="3" placeholder="Ex. : cortège qui remonte le boulevard, ambiance calme"></textarea></label>
+    <label>Ton e-mail <small>(facultatif, seulement pour te contacter à propos de ta vidéo)</small><input type="email" id="vfMail" maxlength="120" autocomplete="email"></label>
+    <input type="text" id="vfHp" name="website" tabindex="-1" autocomplete="off" class="hp" aria-hidden="true">
+    <label class="chk"><input type="checkbox" id="vfOwn"> J'ai filmé cette vidéo moi-même.</label>
+    <label class="chk"><input type="checkbox" id="vfOk"> J'accepte les <button type="button" class="lnk" data-legal="conditions">conditions d'envoi</button> et la <button type="button" class="lnk" data-legal="confidentialite">politique de confidentialité</button>.</label>
+    <button type="submit" class="vsend" id="vfGo">Envoyer ma vidéo</button>
+    <div class="vprog" id="vfProg" hidden><i></i></div>
+    <p class="vmsg" id="vfMsg" role="status"></p>
+   </form>
    <h3>Avant de filmer</h3>
    <ul>
     <li>Ta sécurité d'abord : ne te mets jamais en danger pour une image.</li>
-    <li>Évite de filmer les visages en gros plan.</li>
-    <li>Filme ce que tu vois, sans commentaire : où, quand, ce qui se passe.</li>
+    <li>Évite les visages en gros plan ; les visages sont floutés avant publication, mais le floutage n'est jamais parfait.</li>
+    <li>Filme ce que tu vois : où, quand, ce qui se passe.</li>
     <li>Pas d'images de violences graves ni de personnes blessées.</li>
    </ul>
    <h3>Ce qu'on en fait</h3>
    <ul>
-    <li>Chaque vidéo est vérifiée (lieu, date, cohérence) avant publication.</li>
-    <li>Elle apparaît avec un léger décalage, jamais en direct.</li>
-    <li>Tu peux demander son retrait à tout moment.</li>
+    <li>Chaque vidéo est examinée avant publication (lieu, date, cohérence avec l'actualité). Celles qui ne respectent pas les règles sont supprimées.</li>
+    <li>Elle apparaît avec un décalage de quelques heures, jamais en direct.</li>
+    <li>Tu peux demander son retrait à tout moment : <a href="mailto:popmap@outlook.fr?subject=Retrait%20de%20ma%20vid%C3%A9o">popmap@outlook.fr</a>.</li>
    </ul>
-   <span class="cta" aria-disabled="true">Envoi bientôt ouvert</span>
    <p class="fine"><button class="lnk" id="vidAb">← À propos de POPMAP</button></p>
   </div>`;
-  panel.querySelector(".close").onclick=closePanel;
-  panel.querySelector("#vidAb").onclick=openAbout;
+  const $=s=>panel.querySelector(s);let geo=ev?{lat:ev.lat,lon:ev.lon}:null;
+  $(".close").onclick=closePanel;$("#vidAb").onclick=openAbout;
+  panel.querySelectorAll("[data-legal]").forEach(b=>b.onclick=()=>openLegal(b.dataset.legal,true));
+  $("#vfFile").onchange=e=>{const f=e.target.files[0];$("#vfFileL").textContent=f?`${f.name} · ${(f.size/1048576).toFixed(1).replace(".",",")} Mo`:"Choisir une vidéo"};
+  $("#vfPlace").oninput=()=>{if(!ev||$("#vfPlace").value!==ev.place)geo=geo&&geo.gps?geo:null};
+  $("#vfGeo").onclick=()=>{if(!navigator.geolocation){$("#vfGeoS").textContent="Position indisponible sur cet appareil.";return}
+    $("#vfGeoS").textContent="Recherche de ta position…";
+    navigator.geolocation.getCurrentPosition(p=>{geo={lat:+p.coords.latitude.toFixed(4),lon:+p.coords.longitude.toFixed(4),gps:true};$("#vfGeoS").textContent="Position ajoutée ✓ (elle sert à placer la vidéo, arrondie avant publication)"},
+      ()=>{$("#vfGeoS").textContent="Position refusée : indique le lieu à la main."},{enableHighAccuracy:true,timeout:10000})};
+  $("#vf").onsubmit=async e=>{e.preventDefault();const msg=$("#vfMsg"),go=$("#vfGo"),bar=$("#vfProg");const f=$("#vfFile").files[0];
+    const say=(t,bad)=>{msg.textContent=t;msg.classList.toggle("bad",!!bad)};
+    if(!f)return say("Choisis d'abord une vidéo.",1);
+    if(!/^video\//.test(f.type||"video/"))return say("Ce fichier n'est pas une vidéo.",1);
+    if(f.size>80*1048576)return say("Vidéo trop lourde (80 Mo maximum). Coupe-la ou envoie un passage plus court.",1);
+    if(!$("#vfPlace").value.trim()&&!geo)return say("Indique où la vidéo a été filmée.",1);
+    if(!$("#vfOwn").checked||!$("#vfOk").checked)return say("Merci de cocher les deux cases.",1);
+    go.disabled=true;bar.hidden=false;const fill=bar.querySelector("i");fill.style.width="2%";say("Préparation de l'envoi…");
+    const api=(q,body,ct)=>fetch("/api/upload?"+q,{method:"POST",body,headers:{"content-type":ct||"application/json"}}).then(async r=>{const j=await r.json().catch(()=>({}));if(!r.ok)throw new Error(j.error||"Erreur "+r.status);return j});
+    try{
+      const ini=await api("act=init",JSON.stringify({size:f.size,type:f.type||"video/mp4",name:f.name,place:$("#vfPlace").value,lat:geo?geo.lat:null,lon:geo?geo.lon:null,when:$("#vfWhen").value,desc:$("#vfDesc").value,email:$("#vfMail").value,own:true,consent:true,website:$("#vfHp").value}));
+      const q=`id=${ini.id}&t=${ini.t}`;
+      for(let n=0;n<ini.parts;n++){const blob=f.slice(n*ini.partSize,(n+1)*ini.partSize);let ok=false,err;
+        for(let k=0;k<3&&!ok;k++){try{await api(`act=part&${q}&n=${n}`,blob,"application/octet-stream");ok=true}catch(x){err=x;await new Promise(r=>setTimeout(r,1500*(k+1)))}}
+        if(!ok)throw err;fill.style.width=Math.round(5+90*(n+1)/ini.parts)+"%";say(`Envoi en cours… ${Math.round(100*(n+1)/ini.parts)} %`)}
+      await api(`act=done&${q}&parts=${ini.parts}`,"");fill.style.width="100%";
+      panel.scrollTop=0;
+      $("#vf").innerHTML=`<div class="vok"><b>Merci, ta vidéo est bien arrivée ✓</b><span>Elle sera examinée dans les prochaines heures. Si elle est retenue, elle apparaîtra sur la fiche du lieu, visages floutés.</span><span class="note">Référence : ${ini.id}</span></div>`;
+    }catch(x){go.disabled=false;bar.hidden=true;say((x&&x.message)||"L'envoi a échoué. Vérifie ta connexion et réessaie.",1)}};
   open("video");panel.scrollTop=0;render()}
+
+/* ---------- pages légales ---------- */
+const LEGAL={
+ mentions:["Mentions légales",`
+  <h3>Éditeur et directeur de la publication</h3><p>Alexis Trochon<br>Contact : <a href="mailto:popmap@outlook.fr">popmap@outlook.fr</a></p>
+  <h3>Hébergement</h3><p>Site : Netlify, Inc., 101 2nd Street, San Francisco, CA 94105, États-Unis.<br>Stockage privé des vidéos reçues avant examen : GitHub, Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, États-Unis.</p>
+  <h3>Contenus</h3><p>Les fiches sont rédigées à partir de sources publiques, citées sur chaque fiche. Les vidéos envoyées par le public restent la propriété de leurs auteurs et sont publiées avec leur accord (voir les conditions d'envoi).</p>
+  <h3>Signaler un contenu</h3><p>Pour signaler une erreur, un contenu illicite ou demander un retrait : <a href="mailto:popmap@outlook.fr?subject=Signalement">popmap@outlook.fr</a>. Indique la fiche ou la vidéo concernée et la raison ; nous répondons dans les meilleurs délais et retirons rapidement tout contenu manifestement illicite.</p>
+  <h3>Fond de carte</h3><p>© OpenFreeMap, © OpenMapTiles, données © contributeurs OpenStreetMap.</p>`],
+ confidentialite:["Confidentialité",`
+  <p>Responsable du traitement : Alexis Trochon, <a href="mailto:popmap@outlook.fr">popmap@outlook.fr</a>.</p>
+  <h3>Si tu consultes la carte</h3><p>Pas de compte, pas de publicité, pas de cookies de suivi. Tes réglages (zone choisie, repère « Autour de moi ») restent uniquement sur ton appareil. Comme tout site, l'hébergeur (Netlify) et les services de polices et de fond de carte reçoivent techniquement ton adresse IP pour afficher les pages.</p>
+  <h3>Si tu envoies une vidéo</h3><ul>
+   <li><b>Ce qu'on reçoit :</b> la vidéo, le lieu, l'heure et la description que tu indiques, ta position si tu l'ajoutes, ton e-mail si tu le donnes, ainsi que des données techniques (adresse IP, date, navigateur).</li>
+   <li><b>Pourquoi :</b> examiner la vidéo, la publier si elle est retenue, te contacter à son sujet si tu as laissé ton e-mail, et répondre aux obligations légales des hébergeurs de contenus.</li>
+   <li><b>Combien de temps :</b> une vidéo refusée est supprimée dans les jours qui suivent son examen. Une vidéo publiée reste en ligne tant qu'elle est utile, et tu peux demander son retrait à tout moment. Les données techniques sont conservées un an, comme la loi l'impose aux hébergeurs, puis supprimées ; elles ne sont jamais publiées ni transmises, sauf sur réquisition judiciaire.</li>
+   <li><b>Ce qui est publié :</b> la vidéo (visages floutés, son éventuellement coupé), un lieu arrondi, l'heure et une courte légende. Jamais ton nom, ton e-mail ni ta position exacte.</li>
+   <li><b>Prestataires :</b> Netlify (réception) et GitHub (stockage privé avant examen), aux États-Unis, qui adhèrent au cadre de protection des données UE–États-Unis.</li></ul>
+  <h3>Tes droits</h3><p>Tu peux demander l'accès, la rectification ou la suppression de tes données, ou t'opposer à leur traitement, en écrivant à <a href="mailto:popmap@outlook.fr">popmap@outlook.fr</a>. Tu peux aussi saisir la CNIL (cnil.fr).</p>`],
+ conditions:["Conditions d'envoi",`
+  <ul>
+   <li><b>Tu as filmé toi-même</b> la vidéo et tu as le droit de la partager.</li>
+   <li><b>Tu restes propriétaire</b> de ta vidéo. Tu autorises gratuitement POPMAP à la diffuser, éventuellement floutée, coupée, recadrée ou compressée, sur la carte et ses canaux (site, appli, newsletter, réseaux sociaux), sans exclusivité, jusqu'à ce que tu demandes son retrait.</li>
+   <li><b>Interdit :</b> images de personnes blessées ou de violences graves, mineurs reconnaissables, contenus haineux ou appelant à la violence ou au pillage, images trompeuses ou détournées, vidéos tournées dans un lieu privé sans accord.</li>
+   <li><b>Examen avant publication :</b> chaque vidéo est examinée (lieu, date, cohérence avec l'actualité, respect de ces règles). POPMAP peut refuser ou retirer une vidéo sans avoir à se justifier. Rien n'est publié en direct.</li>
+   <li><b>Visages :</b> les visages sont floutés automatiquement avant publication, mais le floutage peut être imparfait : évite les gros plans.</li>
+   <li><b>Responsabilité :</b> tu restes responsable de ce que tu envoies.</li>
+   <li><b>Retrait :</b> à tout moment, sur simple demande à <a href="mailto:popmap@outlook.fr?subject=Retrait%20de%20ma%20vid%C3%A9o">popmap@outlook.fr</a> (indique la référence reçue après l'envoi).</li>
+  </ul>`]};
+function openLegal(k,back){const L=LEGAL[k];if(!L)return;selected=selSpot=selPrac=null;
+  panel.innerHTML=`<button class="close" aria-label="Fermer">×</button><div class="ab">
+   <div class="kicker" style="margin-top:6px">POPMAP</div><h2>${L[0]}</h2>${L[1]}
+   <p class="fine">${back?`<button class="lnk" id="lgBack">← Revenir à l'envoi</button> · `:""}<button class="lnk" id="lgAb">À propos de POPMAP</button></p></div>`;
+  panel.querySelector(".close").onclick=closePanel;panel.querySelector("#lgAb").onclick=openAbout;
+  if(back)panel.querySelector("#lgBack").onclick=()=>openVideo();
+  open("legal");panel.scrollTop=0;render()}
+function rep(label){return`<p class="rep"><a href="mailto:popmap@outlook.fr?subject=${encodeURIComponent("Erreur – "+label)}&body=${encodeURIComponent("Fiche : "+label+"\nCe qui est faux ou manquant :\nSource (si tu en as une) :\n")}">Signaler une erreur</a></p>`}
 {const b=document.getElementById("brandBtn");b.onclick=openAbout;b.onkeydown=e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();openAbout()}}}
-document.getElementById("btnVideo").onclick=openVideo;
+document.getElementById("btnVideo").onclick=()=>openVideo();
 
 {const hh=location.hash.slice(1);if(SCOPE&&!hh)requestAnimationFrame(()=>scopeView(SCOPE));else if(!SCOPE&&!hh)openScope();}
 
