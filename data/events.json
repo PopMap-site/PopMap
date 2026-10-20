@@ -2049,7 +2049,9 @@
    "sol20",
    "nam20",
    "exdig20",
-   "mundolus20"
+   "mundolus20",
+   "rrlx20",
+   "dnpsp20"
   ],
   "t": "2026-10-17T14:30",
   "ta": false,
@@ -2069,6 +2071,10 @@
    [
     "20 oct.",
     "La PSP fait état de 55 arrestations pour désobéissance et de 228 structures saisies au Rossio ; les organisateurs parlent de 50 interpellations. Les manifestants se donnent rendez-vous à 19 h au Rossio pour décider de la suite ; à Porto, rassemblement à la même heure place D. João I, où un préavis de manifestation a été déposé jusqu'au 31 décembre."
+   ],
+   [
+    "20 oct. après-midi",
+    "Selon Renascença, l'opération du Rossio a fait deux blessés. Le gouvernement salue l'action de la PSP ; les manifestants annoncent vouloir revenir « tous les jours » à 19 h."
    ]
   ],
   "figs": [
@@ -3844,7 +3850,7 @@
   "cat": "emeute",
   "sev": 2,
   "live": true,
-  "date": "2026-10-19",
+  "date": "2026-10-20",
   "t": "2026-10-18T21:00",
   "ta": true,
   "zoom": 300,
@@ -3916,12 +3922,17 @@
    "etvgua",
    "rcigua19",
    "la1gua19",
-   "mo50"
+   "mo50",
+   "etvgua20"
   ],
   "tl": [
    [
     "19 oct. matin",
     "Jusqu'à neuf barrages au Gosier (Riviera, Grande Ravine, bourg, Mare-Gaillard), obstacles aux Abymes et sur la RN1, voiture incendiée devant la mairie du Lamentin ; la zone de Jarry reste perturbée selon RCI."
+   ],
+   [
+    "19-20 oct. nuit",
+    "Nuit relativement calme selon ETV : 13 interpellations, barrages vite levés, un seul point de blocage signalé sur la N2 à Basse-Terre. Un homicide à Sainte-Rose n'est pas lié aux mobilisations, selon les autorités."
    ]
   ]
  },
@@ -5528,6 +5539,10 @@
    [
     "20 oct. ~7 h",
     "Incendie maîtrisé à Obukhiv ; déblaiement en cours (secours ukrainiens)."
+   ],
+   [
+    "20 oct.",
+    "Sur l'autoroute Kyiv–Odessa, une frappe de drone tue 3 personnes et en blesse 4, selon des informations préliminaires non vérifiées. Dans la région d'Odessa, trois installations énergétiques touchées, plus de 30 000 foyers privés d'électricité selon DTEK. Au total, au moins 7 morts en Ukraine sur la journée selon des responsables cités par l'AP. Côté russe, l'armée dit avoir abattu 136 drones ukrainiens ; un incendie est signalé sur un site pétrolier de Tambov, non confirmé par Moscou."
    ]
   ],
   "spots": [
@@ -5560,7 +5575,9 @@
    "zaxkyiv20",
    "oboz20",
    "nv20",
-   "sid20"
+   "sid20",
+   "rferl20",
+   "ap7ua20"
   ]
  },
  {

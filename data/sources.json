@@ -1470,5 +1470,25 @@
  "greekrep21": {
   "t": "GreekReporter — grèves scolaires",
   "u": "https://greekreporter.com/2026/10/20/greek-school-protests-october/"
+ },
+ "rferl20": {
+  "t": "RFE/RL — frappes russes, Zelensky à Oslo",
+  "u": "https://www.rferl.org/a/ukraine-russia-attack-zelenskyy-oslo-meeting/33880037.html"
+ },
+ "ap7ua20": {
+  "t": "AP — 7 morts en Ukraine",
+  "u": "https://abcnews.com/Business/wireStory/russian-missile-drone-blitz-kills-7-ukraine-zelenskyy-137405046"
+ },
+ "etvgua20": {
+  "t": "ETV — calme relatif en Guadeloupe",
+  "u": "https://www.etv.gp/tv/guadeloupe-calme-relatif-en-guadeloupe-13-interpellations-et-des-barrages-neutralises/"
+ },
+ "rrlx20": {
+  "t": "Renascença — deux blessés et 55 détenus au Rossio",
+  "u": "https://rr.pt/noticia/pais/2026/10/20/protestos-pela-habitacao-desmantelados-dois-feridos-e-55-detidos-na-operacao-do-rossio/489862/"
+ },
+ "dnpsp20": {
+  "t": "DN — le gouvernement salue l'action de la PSP",
+  "u": "https://www.dn.pt/sociedade/governo-elogia-atuao-da-psp-aps-interveno-nas-acampadas-pela-habitao-em-lisboa-e-no-porto"
  }
 }
