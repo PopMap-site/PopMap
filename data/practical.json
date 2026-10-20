@@ -150,10 +150,12 @@
   "lat": 48.597,
   "t": "2026-10-20T12:00",
   "ta": true,
-  "title": "Rassemblement devant le Parlement européen",
-  "text": "Mardi 20 octobre, à l'appel d'organisations syndicales (distinct du 17 octobre).",
+  "title": "Rassemblement syndical européen contre le « 28e régime »",
+  "text": "Mardi 20 octobre devant le Parlement européen, à l'appel de la Confédération européenne des syndicats et de syndicats français dont la CGT, contre le projet de « 28e régime » (statut européen optionnel pour les entreprises), qu'ils jugent porteur de dumping social. Mobilisation distincte du 17 octobre.",
   "src": [
-   "clep"
+   "clep",
+   "nvo28",
+   "cgt28"
   ]
  },
  {
@@ -252,10 +254,11 @@
   "until": "2026-10-25T23:59",
   "ta": true,
   "title": "Couvre-feux partiels annoncés",
-  "text": "Le Premier ministre Sébastien Lecornu a demandé aux préfets des couvre-feux « partiels et très localisés » dès lundi soir, surtout pour protéger les commerces ; la carte des communes doit être établie avec les maires. L'état d'urgence n'est pas exclu « si c'est utile ». Au moins 3 000 commerces touchés selon le gouvernement.",
+  "text": "Le Premier ministre Sébastien Lecornu a demandé aux préfets des couvre-feux « partiels et très localisés » dès lundi soir, surtout pour protéger les commerces ; la carte des communes doit être établie avec les maires. L'état d'urgence n'est pas exclu « si c'est utile ». Au moins 3 000 commerces touchés selon le gouvernement. Mardi matin, Sébastien Lecornu a estimé que les couvre-feux avaient « contribué au calme de la nuit » ; de nouveaux arrêtés doivent être pris mardi soir là où la situation le nécessite.",
   "src": [
    "e1live",
-   "sudradio"
+   "sudradio",
+   "e1direct20"
   ]
  },
  {
@@ -422,13 +425,14 @@
   "place": "Paris · République et Les Halles",
   "lon": 2.355,
   "lat": 48.864,
-  "t": "2026-10-19T22:00",
+  "t": "2026-10-19T23:00",
   "until": "2026-10-20T06:00",
-  "title": "Couvre-feu 22 h – 6 h",
-  "text": "Couvre-feu pour tout le public place de la République et autour des Halles ; manifestations interdites dans certains quartiers de 20 h à 6 h, selon la préfecture de police.",
+  "title": "Couvre-feu 23 h – 6 h",
+  "text": "Couvre-feu pour tout le public de 23 h à 6 h dans des périmètres restreints, notamment place de la République et autour des Halles ; manifestations interdites dans certains quartiers de 20 h à 6 h, selon la préfecture de police.",
   "src": [
-   "cnewscf",
-   "morandcf"
+   "fi23cf",
+   "e1direct19",
+   "cnewscf"
   ]
  },
  {
@@ -488,6 +492,65 @@
   "src": [
    "ansaserb22",
    "vremeserb"
+  ]
+ },
+ {
+  "id": "a-psgbarca",
+  "kind": "agenda",
+  "place": "Paris · Parc des Princes",
+  "lon": 2.253,
+  "lat": 48.8414,
+  "t": "2026-10-20T21:00",
+  "ta": true,
+  "title": "PSG–Barcelone maintenu, sécurité renforcée",
+  "text": "Le match de Ligue des champions de mardi soir est maintenu, a indiqué le ministre de l'Intérieur Laurent Nuñez, qui a exclu de le reporter. Présence policière renforcée et points de filtrage autour du stade ; prévoyez d'arriver tôt.",
+  "src": [
+   "e1direct19",
+   "psgfz"
+  ]
+ },
+ {
+  "id": "p-bordeaux-cf",
+  "kind": "interdiction",
+  "place": "Bordeaux · rue Sainte-Catherine",
+  "lon": -0.5745,
+  "lat": 44.8395,
+  "t": "2026-10-20T22:00",
+  "until": "2026-10-26T07:00",
+  "title": "Couvre-feu des mineurs 22 h – 7 h",
+  "text": "Arrêté de la préfète de la Gironde : mineurs non accompagnés interdits de 22 h à 7 h, du 20 au 26 octobre, rue Sainte-Catherine, rue de la Porte-Dijeaux, cours de l'Intendance, promenade Sainte-Catherine, place Saint-Projet et place du Général-Sarrail.",
+  "src": [
+   "rue89cf",
+   "f3bdxcf"
+  ]
+ },
+ {
+  "id": "a-matignon-synd",
+  "kind": "agenda",
+  "place": "Paris · Matignon",
+  "lon": 2.3205,
+  "lat": 48.8547,
+  "t": "2026-10-21T09:00",
+  "ta": true,
+  "title": "Le Premier ministre reçoit les syndicats",
+  "text": "Mercredi 21 octobre au matin, Sébastien Lecornu reçoit les organisations syndicales après les violences du week-end.",
+  "src": [
+   "lalibre20"
+  ]
+ },
+ {
+  "id": "a-matignon-partis",
+  "kind": "agenda",
+  "place": "Paris · Matignon",
+  "lon": 2.321,
+  "lat": 48.855,
+  "t": "2026-10-22T10:00",
+  "ta": true,
+  "title": "Réunion des partis à Matignon",
+  "text": "Jeudi 22 octobre, réunion des partis politiques, notamment sur la sécurité de la campagne présidentielle. Le RN annonce qu'il sera représenté, sans Marine Le Pen ni Jordan Bardella.",
+  "src": [
+   "lalibre20",
+   "e1direct20"
   ]
  }
 ]
