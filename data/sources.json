@@ -343,10 +343,6 @@
   "t": "Gnet — bilan de l'Intérieur",
   "u": "https://news.gnet.tn/manifestations-du-17-octobre-en-france-2-397-interpellations-et-997-policiers-et-gendarmes-blesses/"
  },
- "cnews2397": {
-  "t": "CNews — 2 397 interpellations",
-  "u": "https://www.cnews.fr/france/2026-10-18/mobilisation-du-17-octobre-2397-personnes-ont-ete-interpellees-et-997-policiers"
- },
  "jdd18": {
   "t": "Le JDD — Paris dimanche",
   "u": "https://www.lejdd.fr/Societe/pillages-de-commerces-immeuble-dhabitation-pris-dassaut-nouvelle-flambee-de-violences-a-paris-dimanche-186387"
@@ -1063,10 +1059,6 @@
   "t": "France 24 — Macron dans le Golfe",
   "u": "https://www.france24.com/fr/moyen-orient/20261019-loin-critiques-accablent-france-emmanuel-macron-tourn%C3%A9e-golfe"
  },
- "cnewsmacron": {
-  "t": "CNews — Macron dans quatre pays du Golfe",
-  "u": "https://www.cnews.fr/monde/2026-10-19/approvisionnements-en-diesel-et-petrole-emmanuel-macron-en-deplacement-dans-quatre"
- },
  "khaama17": {
   "t": "Khaama Press — heurts Paktia-Kurram",
   "u": "https://www.khaama.com/clashes-erupt-along-afghanistan-pakistan-border-near-paktia-and-kurram/"
@@ -1099,10 +1091,6 @@
   "t": "Martinique La 1ère — bilan de la nuit",
   "u": "https://la1ere.franceinfo.fr/martinique/bilan-de-la-nuit-du-18-au-19-octobre-en-martinique-une-vingtaine-de-barrages-cinq-braquages-et-des-commerces-saccages-durant-la-nuit-1749642.html"
  },
- "cnewscf": {
-  "t": "CNews — couvre-feu à Paris dès ce soir",
-  "u": "https://www.cnews.fr/france/2026-10-19/violences-urbaines-un-couvre-feu-instaure-des-ce-soir-paris-autour-de-la-place-de"
- },
  "morandcf": {
   "t": "JeanMarcMorandini.com — couvre-feux du 19",
   "u": "https://www.jeanmarcmorandini.com/article-655109-urgent-chaos-un-couvre-feu-instaure-pour-les-mineurs-des-ce-soir-a-paris-place-de-la-republique-et-autour-des-halles-mais-egalement-dans-plusieurs-quartiers-a-nice-lille-douai-wattignies-et-denain.html"
@@ -1130,10 +1118,6 @@
  "fi72h": {
   "t": "Franceinfo · gardes à vue 72 h",
   "u": "https://www.franceinfo.fr/societe/mobilisation-du-17-octobre/les-gardes-a-vue-liees-aux-violences-du-17-octobre-pourront-passer-de-48-a-72-heures-pour-criminalite-organisee-annonce-gerald-darmanin_8244574.html"
- },
- "cnewsgav": {
-  "t": "CNews · direct 19 oct. soir",
-  "u": "https://cnews.fr/france/2026-10-19/violences-urbaines-2513-gardes-vue-et-67-personnes-incarcerees-annonce-gerald"
  },
  "lyonmagcf": {
   "t": "LyonMag · couvre-feu Presqu'île",
@@ -1263,10 +1247,6 @@
   "t": "ICI Limousin — suspect arrêté",
   "u": "https://www.ici.fr/nouvelle-aquitaine/haute-vienne-87/limoges/incendie-de-l-hotel-de-ville-de-limoges-un-suspect-arrete-5319498"
  },
- "cnewslim20": {
-  "t": "CNews — suspect de Limoges interpellé",
-  "u": "https://www.cnews.fr/france/2026-10-20/violences-urbaines-le-principal-suspect-de-lincendie-de-la-mairie-de-limoges"
- },
  "rue89cf": {
   "t": "Rue89 Bordeaux — couvre-feu des mineurs",
   "u": "https://rue89bordeaux.com/2026/10/un-couvre-feu-instaure-pour-les-mineurs-a-bordeaux-jusquau-26-octobre/amp/"
@@ -1354,10 +1334,6 @@
  "fivinted20": {
   "t": "franceinfo — Ça dit quoi ce 20 octobre",
   "u": "https://franceinfo.fr/replay-radio/ca-dit-quoi/podcast-le-butin-des-pilleurs-sur-vinted-acte-ii-samedi-et-jeux-numeriques-hybrides-ca-dit-quoi-ce-20-octobre_8236144.html"
- },
- "cnewsnunez19": {
-  "t": "CNews — couvre-feux, dispositif à Marseille",
-  "u": "https://cnews.fr/france/2026-10-19/violences-urbaines-2513-gardes-vue-et-67-personnes-incarcerees-annonce-gerald"
  },
  "morandnunez20": {
   "t": "Morandini — direct 20 oct.",
