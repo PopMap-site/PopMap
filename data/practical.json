@@ -254,11 +254,12 @@
   "until": "2026-10-25T23:59",
   "ta": true,
   "title": "Couvre-feux partiels annoncés",
-  "text": "Le Premier ministre Sébastien Lecornu a demandé aux préfets des couvre-feux « partiels et très localisés » dès lundi soir, surtout pour protéger les commerces ; la carte des communes doit être établie avec les maires. L'état d'urgence n'est pas exclu « si c'est utile ». Au moins 3 000 commerces touchés selon le gouvernement. Mardi matin, Sébastien Lecornu a estimé que les couvre-feux avaient « contribué au calme de la nuit » ; de nouveaux arrêtés doivent être pris mardi soir là où la situation le nécessite.",
+  "text": "Le Premier ministre Sébastien Lecornu a demandé aux préfets des couvre-feux « partiels et très localisés » dès lundi soir, surtout pour protéger les commerces ; la carte des communes doit être établie avec les maires. L'état d'urgence n'est pas exclu « si c'est utile ». Au moins 3 000 commerces touchés selon le gouvernement. Mardi matin, Sébastien Lecornu a estimé que les couvre-feux avaient « contribué au calme de la nuit » ; de nouveaux arrêtés doivent être pris mardi soir là où la situation le nécessite. À Marseille, couvre-feu des mineurs de 22 h à 5 h jusqu'à vendredi dans des zones ciblées.",
   "src": [
    "e1live",
    "sudradio",
-   "e1direct20"
+   "e1direct20",
+   "maritimacf20"
   ]
  },
  {
@@ -551,6 +552,37 @@
   "src": [
    "lalibre20",
    "e1direct20"
+  ]
+ },
+ {
+  "id": "p-marseille-cf",
+  "kind": "interdiction",
+  "place": "Marseille · hypercentre et zones commerciales",
+  "lon": 5.3795,
+  "lat": 43.2965,
+  "t": "2026-10-20T22:00",
+  "until": "2026-10-24T05:00",
+  "ta": true,
+  "title": "Couvre-feu des mineurs 22 h – 5 h",
+  "text": "À partir de mardi 20 octobre et jusqu'à vendredi : mineurs interdits sur la voie publique de 22 h à 5 h dans l'hypercentre et autour de grands centres commerciaux, dont La Valentine. Périmètres précis publiés par la préfecture des Bouches-du-Rhône ; mesures similaires dans d'autres communes du département.",
+  "src": [
+   "maritimacf20",
+   "mimcf20",
+   "f3mrscf20"
+  ]
+ },
+ {
+  "id": "a-athenes21",
+  "kind": "agenda",
+  "place": "Athènes · Propylées",
+  "lon": 23.7333,
+  "lat": 37.9803,
+  "t": "2026-10-21T12:00",
+  "title": "Grève des enseignants et marches d'élèves en Grèce",
+  "text": "Mercredi 21 octobre : grève de 24 h du primaire (DOE), arrêt de travail de 11 h à 14 h dans le secondaire (OLME). Rassemblement à midi devant les Propylées à Athènes, à 11 h 30 près de la statue de Venizélos à Thessalonique, et dans plus de 35 villes selon les organisations d'élèves. Fermetures de stations de métro du centre d'Athènes envisagées.",
+  "src": [
+   "tovima21",
+   "greekrep21"
   ]
  }
 ]

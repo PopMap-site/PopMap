@@ -94,6 +94,10 @@
    [
     "20 oct.",
     "Selon franceinfo, le gouvernement demande aux plateformes de revente (Vinted, Leboncoin, eBay, Amazon) de retirer les annonces de produits volés lors des pillages du week-end."
+   ],
+   [
+    "20 oct.",
+    "L'Assemblée nationale approuve la création d'une commission d'enquête sur les violences du 17 octobre et le maintien de l'ordre, proposée par sa présidente Yaël Braun-Pivet et confiée à la commission des lois, avec l'accord des groupes politiques."
    ]
   ],
   "spots": [
@@ -262,7 +266,9 @@
    "lalibre20",
    "fidirect20",
    "per20",
-   "fivinted20"
+   "fivinted20",
+   "ficenq20",
+   "lcpcenq20"
   ],
   "photos": [
    {
@@ -299,7 +305,7 @@
   "cat": "emeute",
   "sev": 3,
   "live": true,
-  "date": "2026-10-19",
+  "date": "2026-10-20",
   "zoom": 9000,
   "title": "L'office de tourisme de Bellecour incendié",
   "summary": "Environ 20 000 manifestants. Le pavillon historique de l'office de tourisme, place Bellecour, a été saccagé puis incendié vers 14 h 30 ; des groupes hostiles ont empêché les pompiers d'approcher. Magasins attaqués, canons à eau sur les ponts en fin d'après-midi. Dimanche, une cinquantaine de jeunes ont tenté de forcer la vitrine d'un magasin Lacoste.",
@@ -345,6 +351,10 @@
    [
     "19 oct. soir",
     "Le préfet du Rhône Étienne Guyot instaure un couvre-feu de 21 h à 6 h sur une partie de la Presqu'île (de la rue Constantine au cours de Condé, entre Rhône et Saône) pour tout le public, sauf motifs autorisés ; manifestations et rassemblements interdits de 18 h à 21 h. Bars, restaurants et transports restent ouverts."
+   ],
+   [
+    "20 oct. matin",
+    "Environ 750 manifestants selon la préfecture du Rhône, à l'appel notamment de l'UNEF et du NPA, de la gare de Vénissieux au quartier des États-Unis (8e), dans le calme. Le tram T4 a été partiellement interrompu pendant le cortège."
    ]
   ],
   "spots": [
@@ -456,7 +466,9 @@
    "lyonmag2",
    "lyonmag3",
    "lyonmagcf",
-   "lyoncapcf"
+   "lyoncapcf",
+   "lyonmag20",
+   "f3lyon20"
   ],
   "photos": [
    {
@@ -533,6 +545,10 @@
    [
     "19 oct. soir",
     "Après avoir reporté sa visite, le ministre de l'Intérieur Laurent Nuñez se rend finalement à Marseille lundi soir ; il promet un « dispositif très important » pour samedi 24 octobre. Pas de couvre-feu général dans la ville. Le maire Benoît Payan juge « ridicule » le chiffre de 30 000 pilleurs avancé par la préfecture."
+   ],
+   [
+    "20 oct.",
+    "Couvre-feu pour les mineurs de 22 h à 5 h à partir de mardi soir et jusqu'à vendredi, dans des zones ciblées : hypercentre et abords de grands centres commerciaux, dont La Valentine ; le détail des périmètres doit être publié par la préfecture. Le maire Benoît Payan en « prend acte » et demande un déploiement policier suffisant dans toute la ville ; des mesures similaires sont prévues dans d'autres communes des Bouches-du-Rhône."
    ]
   ],
   "spots": [
@@ -599,7 +615,10 @@
    "maritima17",
    "maritima19",
    "cnewsnunez19",
-   "morandnunez20"
+   "morandnunez20",
+   "maritimacf20",
+   "mimcf20",
+   "f3mrscf20"
   ],
   "t": "2026-10-17T05:30",
   "ta": false
@@ -655,6 +674,10 @@
    [
     "20 oct.",
     "Un suspect de 34 ans est interpellé dans l'enquête sur l'incendie de l'hôtel de ville ; selon ICI Limousin, il est fiché S et présenté comme proche de l'ultragauche."
+   ],
+   [
+    "20 oct.",
+    "Selon France 3 et le JDD, le suspect a été interpellé par le RAID dans le nord de la Haute-Vienne."
    ]
   ],
   "posts": [
@@ -689,7 +712,9 @@
    "lcp",
    "icilim2",
    "icilim20",
-   "cnewslim20"
+   "cnewslim20",
+   "f3lim20",
+   "jddlim20"
   ],
   "photos": [
    {
@@ -1861,7 +1886,7 @@
   "cat": "manif",
   "sev": 2,
   "live": true,
-  "date": "2026-10-08",
+  "date": "2026-10-20",
   "zoom": 12000,
   "title": "La Puerta del Sol occupée pour le logement",
   "summary": "Un campement occupe la Puerta del Sol depuis fin septembre, parti de l'expulsion de Maricarmen Abascal, 87 ans, après 70 ans dans son logement racheté par un fonds qui exigeait +275 % de loyer. Le 3 octobre, la marche pour le logement a réuni 500 000 personnes selon les organisateurs (70 000 selon les autorités), sans incident. Maricarmen est morte le 7 octobre ; le campement s'étend aux rues voisines. Le gouvernement a fait adopter deux décrets logement et convoqué des élections anticipées le 29 novembre. Le Syndicat des locataires prépare une grève générale, sans date fixée.",
@@ -1895,6 +1920,10 @@
    [
     "18 oct.",
     "Trois semaines de campement : des centaines de tentes résistent à la pluie. La région demande l'évacuation et engage des poursuites."
+   ],
+   [
+    "20 oct.",
+    "Le campement approche de sa quatrième semaine. La présidente de la Communauté de Madrid, Isabel Díaz Ayuso (PP), envisage de déplacer temporairement son bureau de la Real Casa de Correos ; elle accuse la gauche d'être responsable de la protestation, évoque des tags sur des statues et un tort au commerce. Les campeurs revendiquent un droit au logement."
    ]
   ],
   "spots": [
@@ -1908,7 +1937,9 @@
   "src": [
    "eues",
    "salto",
-   "infobsol"
+   "infobsol",
+   "elesp20",
+   "mundiario20"
   ],
   "photos": [
    {
@@ -2020,7 +2051,9 @@
    "rrlx19",
    "eco20",
    "sol20",
-   "nam20"
+   "nam20",
+   "exdig20",
+   "mundolus20"
   ],
   "t": "2026-10-17T14:30",
   "ta": false,
@@ -2036,6 +2069,20 @@
    [
     "20 oct. ~6 h",
     "Le corps d'intervention de la PSP retire les tentes de la place du Rossio. Environ 50 personnes arrêtées selon la PSP ; un participant parle à Lusa de 30 interpellés et d'autant de blessés, et des militants accusent les policiers de violences. La police invoque l'absence d'autorisation d'occuper l'espace public. Les manifestants annoncent une assemblée et un nouveau rassemblement mardi soir."
+   ],
+   [
+    "20 oct.",
+    "La PSP fait état de 55 arrestations pour désobéissance et de 228 structures saisies au Rossio ; les organisateurs parlent de 50 interpellations. Les manifestants se donnent rendez-vous à 19 h au Rossio pour décider de la suite ; à Porto, rassemblement à la même heure place D. João I, où un préavis de manifestation a été déposé jusqu'au 31 décembre."
+   ]
+  ],
+  "figs": [
+   [
+    "55",
+    "personnes arrêtées pour désobéissance (PSP)"
+   ],
+   [
+    "228",
+    "structures saisies par la police municipale"
    ]
   ]
  },
@@ -2058,7 +2105,8 @@
    "dnpsp",
    "rrlx19",
    "eco20",
-   "nam20"
+   "nam20",
+   "exdig20"
   ],
   "t": "2026-10-17T10:30",
   "ta": false,
@@ -2092,6 +2140,10 @@
    [
     "20 oct. matin",
     "Les occupants de la place D. João I démontent leurs tentes après un ultimatum de la PSP, sans arrestation signalée ; la veille, 35 personnes avaient voté en assemblée pour rester."
+   ],
+   [
+    "20 oct.",
+    "Nouveau rassemblement annoncé à 19 h place D. João I ; le mouvement a déposé un préavis de manifestation du 21 octobre au 31 décembre."
    ]
   ],
   "zoom": 12000
@@ -2133,7 +2185,8 @@
    "bxltoday",
    "lavenir20",
    "dh20",
-   "lalibre24bx"
+   "lalibre24bx",
+   "dhbx20"
   ],
   "t": "2026-10-17T15:00",
   "ta": true,
@@ -2201,6 +2254,10 @@
    [
     "20 oct.",
     "Le parquet de Bruxelles cite cinq majeurs à comparaître devant le tribunal correctionnel ; deux reçoivent un rappel à la loi, un accepte une transaction de 1 000 euros, les mineurs sont renvoyés vers les parquets de leur domicile. Des appels anonymes à un nouveau rassemblement samedi 24 octobre circulent ; la police dit rester vigilante."
+   ],
+   [
+    "20 oct.",
+    "La police est en alerte pour samedi 24 octobre : des appels anonymes à se rassembler circulent, sans manifestation déclarée. Pour le samedi précédent, le parquet fait état de 19 suspects arrêtés (11 majeurs, 8 mineurs) et de deux policiers légèrement blessés ; la Ville de Bruxelles ne commente pas."
    ]
   ]
  },
@@ -2262,8 +2319,8 @@
   "cat": "emeute",
   "sev": 3,
   "live": true,
-  "date": "2026-10-19",
-  "title": "Septième jour de heurts, Rama refuse de démissionner",
+  "date": "2026-10-20",
+  "title": "Huitième jour : les enseignants rejoignent les étudiants",
   "summary": "Parti des étudiants (coût des études) et de la vente d'une partie du littoral à un projet de luxe lié à Jared Kushner, le mouvement réclame de meilleures conditions d'études, des emplois et la démission du Premier ministre. Heurts devant le ministère de l'Éducation et autour du bureau d'Edi Rama ; balles en caoutchouc, canons à eau et gaz lacrymogènes. Rama refuse de démissionner, évoque une « main étrangère » et un risque pour l'adhésion à l'UE.",
   "figs": [
    [
@@ -2336,7 +2393,9 @@
    "cna7",
    "agitirana19",
    "topch19",
-   "topch68"
+   "topch68",
+   "eunal20",
+   "reptir20"
   ],
   "photos": [
    {
@@ -2373,6 +2432,10 @@
    [
     "19 oct. soir",
     "Selon Top Channel, le ministère de l'Intérieur visé par des engins pyrotechniques et un cocktail Molotov vers 18 h, puis heurts dispersés jusqu'à la place Skanderbeg ; canons à eau, gaz et balles en caoutchouc. La police fait état de 68 arrestations pour la journée du 18 (36 blessés). À Kurbin, la mairie visée par des cocktails Molotov."
+   ],
+   [
+    "20 oct.",
+    "Huitième journée : des enseignants rejoignent le mouvement. Vers 10 h, le cortège gagne la Primature, renverse les chaises disposées par Edi Rama en signe d'invitation au dialogue et affiche des photos des heurts avec la police ; « pas de dialogue sans démission », scandent les manifestants. Rassemblement calme à la mi-journée selon Euronews Albania."
    ]
   ],
   "zoom": 12000
@@ -2575,7 +2638,7 @@
   "cat": "guerre",
   "sev": 3,
   "live": true,
-  "date": "2026-10-19",
+  "date": "2026-10-20",
   "title": "Guerre d'Iran : la bataille du détroit",
   "summary": "Guerre ouverte depuis l'offensive américaine du 28 février. Washington maintient un blocus des ports iraniens ; Washington et Téhéran revendiquent chacun le contrôle du détroit. Au moins 12 navires attaqués la semaine du 16 octobre selon l'agence britannique UKMTO (un coulé, deux immobilisés), un supertanker en feu après une mine selon les Gardiens de la révolution, un remorqueur touché le 18. Le flux pétrolier est tombé à environ 68 % du niveau d'avant-guerre ; le Brent a touché 110 $. L'Iran propose une réouverture du détroit en six jours puis des négociations, contre la levée du blocus.",
   "figs": [
@@ -2588,8 +2651,8 @@
     "du flux pétrolier d'avant-guerre"
    ],
    [
-    "110 $",
-    "pic du Brent"
+    "111,7 $",
+    "Brent le 20 oct. (AFP)"
    ]
   ],
   "src": [
@@ -2600,7 +2663,10 @@
    "f24golfe",
    "cnewsmacron",
    "abchegseth",
-   "foxiran19"
+   "foxiran19",
+   "toi20",
+   "aawsat20",
+   "marinelink20"
   ],
   "t": "2026-10-16T12:00",
   "ta": true,
@@ -2612,6 +2678,14 @@
    [
     "19 oct.",
     "Visite non annoncée du secrétaire américain à la Défense Pete Hegseth en Israël ; Benyamin Netanyahou dit avoir avec Donald Trump « un travail à terminer », laissant entrevoir de nouvelles frappes sur l'Iran. Les Gardiens de la révolution affirment pouvoir viser, si nécessaire, sept câbles sous-marins qui passent sous le détroit."
+   ],
+   [
+    "20 oct.",
+    "Les Gardiens de la révolution affirment que leurs mines ont stoppé et incendié deux pétroliers au sud du détroit, sur une route que Téhéran juge illégale ; ni le nom des navires ni l'heure ne sont précisés, et aucune confirmation indépendante n'est disponible à ce stade. Ils disent aussi avoir abattu un drone américain MQ-9 lundi soir ; Washington n'a pas réagi. Le brut américain gagne 5,7 % à 109,60 $, le Brent 2 % à 111,69 $ (AFP)."
+   ],
+   [
+    "20 oct.",
+    "Selon Reuters, qui cite trois responsables iraniens, Téhéran ferait durer les discussions avec Washington pour peser sur les élections de mi-mandat du 3 novembre ; ni le ministère iranien des Affaires étrangères ni la Maison-Blanche n'ont répondu."
    ]
   ]
  },
@@ -2650,8 +2724,8 @@
   "lat": 24.7136,
   "cat": "frappe",
   "sev": 3,
-  "live": false,
-  "date": "2026-10-14",
+  "live": true,
+  "date": "2026-10-20",
   "title": "Les Houthis frappent l'aéroport",
   "summary": "Pire attaque sur le sol saoudien depuis 2015 : une frappe sur l'aéroport de la capitale a fait 13 morts.",
   "figs": [
@@ -2664,7 +2738,9 @@
    "eunw",
    "portal",
    "cbsiran",
-   "toi18"
+   "toi18",
+   "apshabwa20",
+   "toi20"
   ],
   "t": "2026-10-14T12:00",
   "ta": true,
@@ -2672,6 +2748,10 @@
    [
     "18 oct.",
     "Alerte « menace aérienne hostile » levée quelques minutes plus tard ; le Kingdom Centre demande à ses occupants de télétravailler."
+   ],
+   [
+    "20 oct.",
+    "Nouvelle alerte à Riyad : une explosion est entendue près de l'aéroport international King Khalid, dont les opérations sont suspendues ; l'Arabie saoudite dit avoir intercepté un missile balistique houthi (AP). Le Royaume-Uni annonce que des Typhoon de la RAF mèneront des missions défensives au-dessus du royaume, sans frappes offensives (Reuters)."
    ]
   ]
  },
@@ -2754,13 +2834,14 @@
   "cat": "guerre",
   "sev": 3,
   "live": true,
-  "date": "2026-10-17",
+  "date": "2026-10-19",
   "title": "Frappe de drone sur un marché au bétail",
   "summary": "Le 16 octobre, une frappe de drone sur le marché au bétail de Nyala, capitale du Darfour-Sud tenue par les Forces de soutien rapide (FSR), fait 30 morts et 47 blessés selon une source médicale de l'hôpital citée par l'AFP. Les FSR accusent l'armée et un drone de fabrication turque ; l'armée, qui dit avoir intensifié ses frappes sur des positions militaires de la ville, ne revendique pas ce tir. Elle affirme par ailleurs avoir tué des dizaines de combattants des FSR.",
   "src": [
    "aj",
    "nyalamarket",
-   "ajnyala"
+   "ajnyala",
+   "citisudan20"
   ],
   "t": "2026-10-17T12:00",
   "ta": true,
@@ -2772,6 +2853,12 @@
    [
     "47",
     "blessés"
+   ]
+  ],
+  "tl": [
+   [
+    "19 oct. matin",
+    "Selon des sources médicales et des FSR citées par l'AFP, une frappe de drone tue 17 personnes, dont sept officiers des FSR, et en blesse 23."
    ]
   ]
  },
@@ -4707,7 +4794,9 @@
    "antilla19",
    "etvmq19",
    "la1mqbilan",
-   "la1erecroisiere"
+   "la1erecroisiere",
+   "zaymq20",
+   "la1mq20"
   ],
   "tl": [
    [
@@ -4721,6 +4810,10 @@
    [
     "20 oct.",
     "Le Coral Princess, premier paquebot de la saison (sur environ 300 escales prévues), annule son escale de mardi à Fort-de-France en raison des barrages, selon les autorités du tourisme citées par La 1ère."
+   ],
+   [
+    "19-20 oct. nuit",
+    "Nouvelle nuit agitée : barrages, certains incendiés, dans plusieurs communes. À Fort-de-France, le rez-de-chaussée d'un bâtiment rue Saint-Christophe détruit par un incendie ; deux vols de voitures par des individus cagoulés, dont un au Lamentin où un automobiliste a été blessé et hospitalisé. Pas de bilan officiel d'interpellations mardi matin."
    ]
   ]
  },
@@ -5365,32 +5458,42 @@
   "cat": "frappe",
   "sev": 3,
   "live": true,
-  "date": "2026-10-19",
+  "date": "2026-10-20",
   "t": "2026-10-19T09:00",
   "ta": true,
-  "title": "Missiles houthis sur un camp militaire : au moins 53 morts",
+  "title": "Missiles houthis sur un camp militaire : au moins 60 morts",
   "summary": "Lundi 19 octobre, des missiles balistiques ont frappé un camp d'entraînement des forces gouvernementales dans la province de Chabwa (sud), pendant le rassemblement de recrues des forces de sécurité intérieure. Au moins 53 morts selon des responsables militaires yéménites, et environ 200 blessés selon les autorités provinciales, bilan provisoire. Les Houthis ont reconnu avoir visé le camp. Le chef du Conseil présidentiel, Rachad al-Alimi, promet une « réponse ferme ».",
   "figs": [
    [
-    "53",
-    "morts au moins (responsables militaires)"
+    "60",
+    "morts, surtout des recrues (responsables yéménites, AP)"
    ],
    [
-    "~200",
-    "blessés (autorités provinciales)"
+    "200+",
+    "blessés"
+   ],
+   [
+    "12+",
+    "disparus au lendemain"
    ]
   ],
   "tl": [
    [
     "19 oct.",
     "Frappe sur le camp de Chabwa ; les Houthis revendiquent. Les autorités provinciales demandent un renforcement de la défense antiaérienne."
+   ],
+   [
+    "20 oct.",
+    "Le bilan passe à 60 morts selon des responsables yéménites cités par l'AP, dont au moins 15 issus d'une même tribu ; plus de 200 blessés et au moins une douzaine de disparus. Selon les autorités de Chabwa, trois missiles balistiques ont visé le camp d'al-Alam (district de Jardan, au nord d'Ataq) pendant un rassemblement de recrues ; les Houthis ont revendiqué sans détail."
    ]
   ],
   "spots": [],
   "src": [
    "pbsshabwa",
    "ktshabwa",
-   "aapshabwa"
+   "aapshabwa",
+   "apshabwa20",
+   "wapoyem20"
   ]
  },
  {
@@ -5516,6 +5619,52 @@
   ],
   "src": [
    "zaxkyiv20"
+  ]
+ },
+ {
+  "id": "nilbleu",
+  "place": "Nil Bleu (frontière éthiopienne)",
+  "country": "Soudan",
+  "lon": 34.3,
+  "lat": 10.9,
+  "cat": "frappe",
+  "sev": 3,
+  "live": false,
+  "date": "2026-10-16",
+  "t": "2026-10-16T12:00",
+  "ta": true,
+  "zoom": 150,
+  "title": "Drone sur un rassemblement de déplacés : 41 morts",
+  "summary": "Vendredi 16 octobre, une frappe de drone attribuée aux Forces de soutien rapide (FSR) touche un rassemblement de personnes déplacées dans l'État du Nil Bleu, près de la frontière éthiopienne : 41 morts selon le groupe de surveillance Emergency Lawyers. Les FSR n'ont pas commenté. Cette frappe s'inscrit dans une série d'attaques de drones qui ont fait plus de 160 morts en quelques jours au Soudan, attribuées selon les cas à l'armée ou aux FSR.",
+  "figs": [
+   [
+    "41",
+    "morts (Emergency Lawyers)"
+   ],
+   [
+    "160+",
+    "morts dans des frappes de drones au Soudan depuis le 16 oct. (AFP)"
+   ]
+  ],
+  "tl": [
+   [
+    "16 oct.",
+    "Frappe de drone sur un rassemblement de déplacés ; 41 morts selon Emergency Lawyers."
+   ]
+  ],
+  "spots": [
+   {
+    "n": "Nil Bleu, près de la frontière éthiopienne",
+    "lon": 34.3,
+    "lat": 10.9,
+    "d": "Le 16 octobre, une frappe de drone attribuée aux FSR tue 41 déplacés selon Emergency Lawyers ; localisation précise non communiquée.",
+    "t": "2026-10-16T12:00",
+    "ta": true
+   }
+  ],
+  "src": [
+   "citisudan20",
+   "arabnewssd"
   ]
  }
 ]
