@@ -710,7 +710,7 @@ function openVideo(pre){selected=selSpot=selPrac=null;
    <h3>Ce qu'on en fait</h3>
    <ul>
     <li>Chaque vidéo est examinée avant publication (lieu, date, cohérence avec l'actualité). Celles qui ne respectent pas les règles sont supprimées.</li>
-    <li>Elle apparaît avec un décalage de quelques heures, jamais en direct.</li>
+    <li>Elle apparaît en général dans l'heure. Pour les images d'émeutes ou de pillages, on attend au moins 2 heures, par sécurité.</li>
     <li>Tu peux demander son retrait à tout moment : <a href="mailto:popmap@outlook.fr?subject=Retrait%20de%20ma%20vid%C3%A9o">popmap@outlook.fr</a>.</li>
    </ul>
    <p class="fine"><button class="lnk" id="vidAb">← À propos de POPMAP</button></p>
@@ -741,7 +741,7 @@ function openVideo(pre){selected=selSpot=selPrac=null;
         if(!ok)throw err;fill.style.width=Math.round(5+90*(n+1)/ini.parts)+"%";say(`Envoi en cours… ${Math.round(100*(n+1)/ini.parts)} %`)}
       await api(`act=done&${q}&parts=${ini.parts}`,"");fill.style.width="100%";
       panel.scrollTop=0;
-      $("#vf").innerHTML=`<div class="vok"><b>Merci, ta vidéo est bien arrivée ✓</b><span>Elle sera examinée dans les prochaines heures. Si elle est retenue, elle apparaîtra sur la fiche du lieu, visages floutés.</span><span class="note">Référence : ${ini.id}</span></div>`;
+      $("#vf").innerHTML=`<div class="vok"><b>Merci, ta vidéo est bien arrivée ✓</b><span>Elle sera examinée dans l'heure. Si elle est retenue, elle apparaîtra sur la fiche du lieu, visages floutés.</span><span class="note">Référence : ${ini.id}</span></div>`;
     }catch(x){go.disabled=false;bar.hidden=true;say((x&&x.message)||"L'envoi a échoué. Vérifie ta connexion et réessaie.",1)}};
   open("video");panel.scrollTop=0;render()}
 
@@ -768,7 +768,7 @@ const LEGAL={
    <li><b>Tu as filmé toi-même</b> la vidéo et tu as le droit de la partager.</li>
    <li><b>Tu restes propriétaire</b> de ta vidéo. Tu autorises gratuitement POPMAP à la diffuser, éventuellement floutée, coupée, recadrée ou compressée, sur la carte et ses canaux (site, appli, newsletter, réseaux sociaux), sans exclusivité, jusqu'à ce que tu demandes son retrait.</li>
    <li><b>Interdit :</b> images de personnes blessées ou de violences graves, mineurs reconnaissables, contenus haineux ou appelant à la violence ou au pillage, images trompeuses ou détournées, vidéos tournées dans un lieu privé sans accord.</li>
-   <li><b>Examen avant publication :</b> chaque vidéo est examinée (lieu, date, cohérence avec l'actualité, respect de ces règles). POPMAP peut refuser ou retirer une vidéo sans avoir à se justifier. Rien n'est publié en direct.</li>
+   <li><b>Examen avant publication :</b> chaque vidéo est examinée (lieu, date, cohérence avec l'actualité, respect de ces règles). POPMAP peut refuser ou retirer une vidéo sans avoir à se justifier. Rien n'est publié en direct : les images d'émeutes ou de pillages sont publiées au plus tôt 2 heures après avoir été filmées.</li>
    <li><b>Visages :</b> les visages sont floutés automatiquement avant publication, mais le floutage peut être imparfait : évite les gros plans.</li>
    <li><b>Responsabilité :</b> tu restes responsable de ce que tu envoies.</li>
    <li><b>Retrait :</b> à tout moment, sur simple demande à <a href="mailto:popmap@outlook.fr?subject=Retrait%20de%20ma%20vid%C3%A9o">popmap@outlook.fr</a> (indique la référence reçue après l'envoi).</li>
