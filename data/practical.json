@@ -400,11 +400,12 @@
   "t": "2026-10-24T14:00",
   "ta": true,
   "title": "« Acte II » des Gilets jaunes",
-  "text": "Samedi 24 octobre, nouvelle journée d'actions annoncée par la coordination des Gilets jaunes (76 actions recensées sur son site). Le gouvernement a évoqué des manifestations « encadrées voire interdites » ; consultez les arrêtés préfectoraux la veille.",
+  "text": "Samedi 24 octobre, nouvelle journée d'actions annoncée par la coordination des Gilets jaunes (76 actions recensées sur son site). Le gouvernement a évoqué des manifestations « encadrées voire interdites » ; consultez les arrêtés préfectoraux la veille. Mardi, Sébastien Lecornu a annoncé un dispositif de sécurité « massif » pour ce samedi, avec des militaires de l'opération Sentinelle sur les gardes statiques, selon l'AFP.",
   "src": [
    "sudradio24",
    "f24acte2",
-   "f3tlse24"
+   "f3tlse24",
+   "euro20sec"
   ]
  },
  {
@@ -427,12 +428,13 @@
   "lon": 2.355,
   "lat": 48.864,
   "t": "2026-10-19T23:00",
-  "until": "2026-10-20T06:00",
+  "until": "2026-10-21T06:00",
   "title": "Couvre-feu 23 h – 6 h",
-  "text": "Couvre-feu pour tout le public de 23 h à 6 h dans des périmètres restreints, notamment place de la République et autour des Halles ; manifestations interdites dans certains quartiers de 20 h à 6 h, selon la préfecture de police.",
+  "text": "Couvre-feu pour tout le public de 23 h à 6 h, reconduit mardi 20 octobre « aussi longtemps que cela sera nécessaire » selon la préfecture de police : terre-plein central de la place de la République et sud des Halles (place Maurice-Quentin, rue Berger, partie du boulevard de Sébastopol, rue Rambuteau jusqu'à l'allée André-Breton, passage des Lingères). Résidents, personnes qui travaillent, commerçants et secours exemptés sur justificatif. Manifestations interdites de 20 h à 6 h dans un périmètre plus large.",
   "src": [
    "fi23cf",
-   "e1direct19"
+   "actu17cf20",
+   "icipcf20"
   ]
  },
  {
@@ -457,12 +459,13 @@
   "lon": 4.8335,
   "lat": 45.7605,
   "t": "2026-10-19T21:00",
-  "until": "2026-10-20T06:00",
+  "until": "2026-10-21T06:00",
   "title": "Couvre-feu 21 h – 6 h",
-  "text": "Arrêté du préfet du Rhône : circulation et présence sur la voie publique interdites de 21 h à 6 h entre la rue Constantine (Terreaux exclus), les quais du Rhône, le cours de Condé et les quais de Saône, sauf motifs autorisés (domicile, travail, santé…). Rassemblements interdits de 18 h à 21 h. Bars, restaurants et transports en commun fonctionnent.",
+  "text": "Arrêté du préfet du Rhône, renouvelé mardi 20 octobre : circulation et présence sur la voie publique interdites de 21 h à 6 h sur une partie de la Presqu'île, de la rue Constantine et de la place des Terreaux au nord jusqu'au cours de Verdun au sud, entre les quais du Rhône et de la Saône (ponts exclus), sauf motifs autorisés (domicile, travail, santé, journalistes…). Manifestations et rassemblements interdits de 16 h à 21 h. Bars, restaurants, cinémas, transports en commun et circulation automobile maintenus.",
   "src": [
    "lyonmagcf",
-   "lyoncapcf"
+   "lyoncapcf",
+   "lyoncapcf20"
   ]
  },
  {
@@ -473,10 +476,11 @@
   "lat": 41.901,
   "t": "2026-10-20T17:30",
   "title": "Conseil des ministres sur l'ordre public",
-  "text": "Mardi 20 octobre à 17 h 30 : examen d'un décret-loi après les violences de Milan, Bologne et Turin (arrestations, garde à vue préventive, mineurs).",
+  "text": "Mardi 20 octobre à 17 h 30 : examen d'un décret-loi après les violences de Milan, Bologne et Turin (arrestation différée, interdiction de rassemblement pour les personnes jugées dangereuses, 500 militaires de « Strade sicure » à Milan). Selon la presse italienne, la retenue préventive des mineurs devrait finalement sortir du texte.",
   "src": [
    "sussicdm",
-   "strettocdm"
+   "strettocdm",
+   "fqdl20"
   ]
  },
  {
@@ -582,6 +586,19 @@
   "src": [
    "tovima21",
    "greekrep21"
+  ]
+ },
+ {
+  "id": "a-milan21",
+  "kind": "agenda",
+  "place": "Milan · piazza della Scala",
+  "lon": 9.1897,
+  "lat": 45.4673,
+  "t": "2026-10-21T18:00",
+  "title": "Rassemblement « Milano non vuole la violenza »",
+  "text": "Mercredi 21 octobre à 18 h devant l'hôtel de ville, à l'appel de la CGIL, après les violences du week-end ; le maire Giuseppe Sala et le Parti démocrate annoncent leur participation.",
+  "src": [
+   "ansacgil"
   ]
  }
 ]

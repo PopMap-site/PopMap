@@ -98,6 +98,14 @@
    [
     "20 oct.",
     "L'Assemblée nationale approuve la création d'une commission d'enquête sur les violences du 17 octobre et le maintien de l'ordre, proposée par sa présidente Yaël Braun-Pivet et confiée à la commission des lois, avec l'accord des groupes politiques."
+   ],
+   [
+    "20 oct. après-midi",
+    "Le couvre-feu de 23 h à 6 h est reconduit pour une deuxième nuit sur le terre-plein de la place de la République et au sud des Halles, « aussi longtemps que cela sera nécessaire » selon la préfecture de police ; manifestations interdites de 20 h à 6 h dans un périmètre plus large. La nuit précédente, un hélicoptère a appuyé les forces de l'ordre entre minuit et 2 h, sans bilan chiffré publié."
+   ],
+   [
+    "20 oct. soir",
+    "Sébastien Lecornu annonce un dispositif de sécurité « massif » pour samedi 24 octobre. Devant le Parlement, Laurent Nuñez indique que des militaires de l'opération Sentinelle prendront le relais des policiers et gendarmes sur les gardes statiques, et envisage d'interdire les manifestations non déclarées jugées à risque ; les parcours éloignés des bâtiments publics et des grandes artères seraient privilégiés (AFP)."
    ]
   ],
   "spots": [
@@ -266,7 +274,10 @@
    "per20",
    "fivinted20",
    "ficenq20",
-   "lcpcenq20"
+   "lcpcenq20",
+   "actu17cf20",
+   "icipcf20",
+   "euro20sec"
   ],
   "photos": [
    {
@@ -353,6 +364,10 @@
    [
     "20 oct. matin",
     "Environ 750 manifestants selon la préfecture du Rhône, à l'appel notamment de l'UNEF et du NPA, de la gare de Vénissieux au quartier des États-Unis (8e), dans le calme. Le tram T4 a été partiellement interrompu pendant le cortège."
+   ],
+   [
+    "20 oct. après-midi",
+    "La préfecture du Rhône renouvelle le couvre-feu de 21 h à 6 h sur la Presqu'île, désormais jusqu'au cours de Verdun, et interdit les rassemblements de 16 h à 21 h. Selon elle, la première nuit de couvre-feu s'est déroulée sans trouble à l'ordre public."
    ]
   ],
   "spots": [
@@ -466,7 +481,8 @@
    "lyonmagcf",
    "lyoncapcf",
    "lyonmag20",
-   "f3lyon20"
+   "f3lyon20",
+   "lyoncapcf20"
   ],
   "photos": [
    {
@@ -1576,6 +1592,10 @@
    [
     "20 oct.",
     "Avant le Conseil des ministres de 17 h 30, le projet de décret-loi évoqué par la presse prévoit 500 militaires supplémentaires à Milan (opération Strade Sicure), une retenue préventive des 14-18 ans (12 ou 24 heures selon les sources) et l'arrestation en flagrance différée. Le président Sergio Mattarella : « toute violence est inacceptable »."
+   ],
+   [
+    "20 oct. soir",
+    "Le Conseil des ministres s'ouvre au Palazzo Chigi sur le décret-loi. Selon Il Fatto Quotidiano et Il Messaggero, la retenue préventive des mineurs devrait sortir du texte après des échanges avec la présidence de la République, et la piste de pouvoirs de police judiciaire pour les militaires est écartée. La CGIL appelle à un rassemblement « Milano non vuole la violenza » mercredi à 18 h piazza della Scala, avec le maire Giuseppe Sala (ANSA)."
    ]
   ],
   "spots": [
@@ -1712,7 +1732,10 @@
    "agnova20",
    "mf19",
    "novacdm20",
-   "gdscdm20"
+   "gdscdm20",
+   "fqdl20",
+   "msgdl20",
+   "ansacgil"
   ],
   "photos": [
    {
@@ -2699,14 +2722,16 @@
   "cat": "guerre",
   "sev": 2,
   "live": false,
-  "date": "2026-10-19",
+  "date": "2026-10-20",
   "title": "Menace de reprise des bombardements",
   "summary": "Le Pentagone a demandé de préparer une reprise des opérations majeures ; Trump a toutefois dit le 8 octobre ne pas frapper avant les midterms du 3 novembre, tout en menaçant un site nucléaire.",
   "src": [
    "js",
    "iran",
    "fdd",
-   "iranintl19"
+   "iranintl19",
+   "toi20",
+   "apme20"
   ],
   "t": "2026-10-16T12:00",
   "ta": true,
@@ -2714,6 +2739,10 @@
    [
     "18 oct.",
     "Donald Trump et Benyamin Netanyahou durcissent leurs menaces de nouvelles frappes, selon Iran International ; à Téhéran, le président du Parlement annonce une « autorité des données du golfe Persique » visant les entreprises d'IA de la région."
+   ],
+   [
+    "20 oct.",
+    "Benyamin Netanyahou dit avoir évoqué avec Donald Trump la nécessité d'éliminer le « régime terroriste » iranien et laisse entendre de nouvelles frappes ; à Téhéran, le président Massoud Pezeshkian reçoit le chef de l'armée pakistanaise Asim Munir pour parler de médiation (Times of Israel, AP)."
    ]
   ]
  },
@@ -2872,13 +2901,14 @@
   "cat": "frappe",
   "sev": 2,
   "live": true,
-  "date": "2026-10-16",
+  "date": "2026-10-20",
   "title": "Drones des FSR sur le Kordofan",
   "summary": "Les FSR ciblent El-Obeid par drones et poursuivent leurs attaques au Nil Bleu. Un camion de l'ONU a été frappé au Kordofan du Sud (chauffeur tué).",
   "src": [
    "cg",
    "portal",
-   "ajsudan6"
+   "ajsudan6",
+   "sttendelti"
   ],
   "t": "2026-10-16T12:00",
   "ta": true,
@@ -2886,6 +2916,10 @@
    [
     "3 oct.",
     "Sur la route Dilling-Kadugli (Kordofan-Sud), une frappe aérienne touche un convoi du Programme alimentaire mondial clairement identifié : un chauffeur tué. Le Conseil des droits de l'homme de l'ONU réclame un cessez-le-feu immédiat."
+   ],
+   [
+    "20 oct. matin",
+    "Selon des sources gouvernementales locales citées par Sudan Tribune, un drone attribué aux FSR tire deux missiles sur la station électrique de Tendelti (Nil Blanc) ; l'incendie coupe la ligne principale vers le Kordofan-Nord, privant d'électricité El-Obeid, Um Rawaba et El Rahad."
    ]
   ],
   "spots": [
@@ -2895,6 +2929,14 @@
     "lat": 12.05,
     "d": "Un véhicule du PAM touché par un engin explosif, puis un convoi frappé sur la route de Kadugli.",
     "t": "2026-10-03T12:00",
+    "ta": true
+   },
+   {
+    "n": "Tendelti",
+    "lon": 31.87,
+    "lat": 13.02,
+    "d": "Le 20 octobre au matin, une station électrique touchée par un drone attribué aux FSR selon des sources locales ; El-Obeid, Um Rawaba et El Rahad privés de courant.",
+    "t": "2026-10-20T08:00",
     "ta": true
    }
   ],
@@ -3041,7 +3083,9 @@
    "toi18",
    "xinhuagaza19",
    "aa20",
-   "anews20"
+   "anews20",
+   "haagaza20",
+   "apme20"
   ],
   "t": "2026-10-12T12:00",
   "ta": true,
@@ -3092,6 +3136,10 @@
    [
     "20 oct.",
     "Selon l'agence Anadolu, qui cite une source médicale de l'hôpital al-Shifa, un homme et sa femme sont tués par une frappe sur une maison de l'ouest de Gaza City et plusieurs personnes blessées ; tirs signalés aussi à Tuffah, Sudaniya et Khan Younès. L'armée israélienne n'a pas commenté."
+   ],
+   [
+    "20 oct. soir",
+    "Au moins cinq Palestiniens tués dans la journée selon les autorités sanitaires citées par Haaretz, dont le couple de Gaza City et un adolescent de 17 ans abattu dans le sud. L'armée israélienne dit avoir visé un membre du Hamas dans l'appartement frappé à l'aube (AP) ; avec le Shin Bet, elle annonce avoir tué à Jabalia un membre du commando impliqué dans l'enlèvement de Shani Louk le 7 octobre 2023. Le Qatar, médiateur, estime qu'Israël n'est « pas un partenaire pour la paix »."
    ]
   ],
   "spots": [
@@ -4731,15 +4779,19 @@
   "figs": [
    [
     "20+",
-    "barrages dans 18 communes"
+    "barrages dans 18 communes (nuit du 18)"
+   ],
+   [
+    "8",
+    "commerces ou entreprises visés (nuit du 19)"
    ],
    [
     "6",
-    "interpellations"
+    "véhicules volés sous la menace"
    ],
    [
-    "5",
-    "braquages"
+    "4",
+    "interpellations (nuit du 19)"
    ]
   ],
   "spots": [
@@ -4790,6 +4842,14 @@
     "d": "19 oct. : quartier parmi les plus touchés par les barrages, avenue Maurice-Bishop impraticable par endroits.",
     "t": "2026-10-19T07:00",
     "ta": true
+   },
+   {
+    "n": "Ducos",
+    "lon": -60.97,
+    "lat": 14.575,
+    "d": "Nuit du 19 au 20 octobre : des gendarmes visés par des tirs près d'un barrage, sans blessé selon les autorités ; le GIGN est déployé.",
+    "t": "2026-10-20T01:00",
+    "ta": true
    }
   ],
   "src": [
@@ -4802,7 +4862,10 @@
    "la1mqbilan",
    "la1erecroisiere",
    "zaymq20",
-   "la1mq20"
+   "la1mq20",
+   "zaymqtirs",
+   "la1mqgign",
+   "rcimqducos"
   ],
   "tl": [
    [
@@ -4820,6 +4883,10 @@
    [
     "19-20 oct. nuit",
     "Nouvelle nuit agitée : barrages, certains incendiés, dans plusieurs communes. À Fort-de-France, le rez-de-chaussée d'un bâtiment rue Saint-Christophe détruit par un incendie ; deux vols de voitures par des individus cagoulés, dont un au Lamentin où un automobiliste a été blessé et hospitalisé. Pas de bilan officiel d'interpellations mardi matin."
+   ],
+   [
+    "20 oct.",
+    "Bilan de la nuit du 19 au 20 : des gendarmes visés par des tirs à Ducos, sans blessé selon les autorités ; le GIGN est déployé. Six véhicules volés près des barrages, leurs conducteurs menacés par des armes ; huit commerces ou entreprises visés à Fort-de-France, au Lamentin, à Sainte-Marie et aux Trois-Îlets ; quatre interpellations en flagrant délit. Les grands axes sont rouverts dès 8 h. Le préfet réunit les maires mardi après-midi."
    ]
   ]
  },
@@ -5467,12 +5534,12 @@
   "date": "2026-10-20",
   "t": "2026-10-19T09:00",
   "ta": true,
-  "title": "Missiles houthis sur un camp militaire : au moins 60 morts",
+  "title": "Missiles houthis sur un camp militaire : au moins 73 morts",
   "summary": "Lundi 19 octobre, des missiles balistiques ont frappé un camp d'entraînement des forces gouvernementales dans la province de Chabwa (sud), pendant le rassemblement de recrues des forces de sécurité intérieure. Au moins 53 morts selon des responsables militaires yéménites, et environ 200 blessés selon les autorités provinciales, bilan provisoire. Les Houthis ont reconnu avoir visé le camp. Le chef du Conseil présidentiel, Rachad al-Alimi, promet une « réponse ferme ».",
   "figs": [
    [
-    "60",
-    "morts, surtout des recrues (responsables yéménites, AP)"
+    "73",
+    "morts, des recrues de 18 à 20 ans (responsable yéménite, AP)"
    ],
    [
     "200+",
@@ -5491,6 +5558,10 @@
    [
     "20 oct.",
     "Le bilan passe à 60 morts selon des responsables yéménites cités par l'AP, dont au moins 15 issus d'une même tribu ; plus de 200 blessés et au moins une douzaine de disparus. Selon les autorités de Chabwa, trois missiles balistiques ont visé le camp d'al-Alam (district de Jardan, au nord d'Ataq) pendant un rassemblement de recrues ; les Houthis ont revendiqué sans détail."
+   ],
+   [
+    "20 oct. soir",
+    "Un responsable yéménite cité par l'AP porte le bilan à 73 morts, des recrues âgées de 18 à 20 ans, et plus de 200 blessés. Le Royaume-Uni prolonge de 90 jours le ravitaillement en vol des avions saoudiens."
    ]
   ],
   "spots": [],
@@ -5499,7 +5570,8 @@
    "ktshabwa",
    "aapshabwa",
    "apshabwa20",
-   "wapoyem20"
+   "wapoyem20",
+   "apme20"
   ]
  },
  {
@@ -5677,6 +5749,73 @@
   "src": [
    "citisudan20",
    "arabnewssd"
+  ]
+ },
+ {
+  "id": "abyei",
+  "place": "Abyei",
+  "country": "Soudan / Soudan du Sud (zone disputée)",
+  "lon": 28.44,
+  "lat": 9.66,
+  "cat": "frappe",
+  "sev": 3,
+  "live": false,
+  "date": "2026-10-20",
+  "t": "2026-10-19T12:00",
+  "ta": true,
+  "zoom": 300,
+  "title": "Un drone frappe le marché d'Amiet : au moins 153 morts",
+  "summary": "Lundi 19 octobre vers midi, une frappe de drone a touché le marché d'Amiet, à une dizaine de kilomètres au nord de la ville d'Abyei, zone disputée entre le Soudan et le Soudan du Sud. Au moins 153 morts selon le ministre de l'Information par intérim de l'administration d'Abyei, Yohana Akol, qui a ensuite évoqué plus de 220 morts ; ces chiffres n'ont pas été vérifiés de façon indépendante. Les autorités d'Abyei accusent l'armée soudanaise, sans preuve publique ; l'armée n'a pas réagi. Selon trois sources diplomatiques citées par Reuters, la frappe visait un dépôt de carburant utilisé par les Forces de soutien rapide (FSR). Juba a convoqué l'ambassadeur du Soudan.",
+  "figs": [
+   [
+    "153",
+    "morts au moins (administration d'Abyei)"
+   ],
+   [
+    "220+",
+    "morts selon un bilan ultérieur de la même source"
+   ],
+   [
+    "8 000",
+    "personnes déplacées"
+   ],
+   [
+    "20+",
+    "blessés soignés par MSF à Ameth Bek"
+   ]
+  ],
+  "tl": [
+   [
+    "19 oct. ~12 h",
+    "Frappe de drone sur le marché d'Amiet ; premier bilan local d'au moins 73 morts."
+   ],
+   [
+    "20 oct.",
+    "Le bilan est porté à 153 morts (Reuters, AP), puis à plus de 220 selon l'administration d'Abyei interrogée par Eye Radio. Plus de 8 000 personnes ont fui vers la ville d'Abyei ; appel à l'aide d'urgence de l'ONU et des ONG."
+   ]
+  ],
+  "spots": [
+   {
+    "n": "Marché d'Amiet",
+    "lon": 28.44,
+    "lat": 9.69,
+    "d": "Le 19 octobre vers midi, une frappe de drone touche ce marché au nord d'Abyei : au moins 153 morts selon l'administration locale, bilan non vérifié de façon indépendante.",
+    "t": "2026-10-19T12:00",
+    "ta": true
+   },
+   {
+    "n": "Ameth Bek",
+    "lon": 28.45,
+    "lat": 9.58,
+    "d": "Hôpital où Médecins Sans Frontières soigne plus d'une vingtaine de blessés de la frappe sur le marché d'Amiet.",
+    "t": "2026-10-20T12:00",
+    "ta": true
+   }
+  ],
+  "src": [
+   "reuabyei",
+   "apabyei",
+   "eyeabyei"
   ]
  }
 ]

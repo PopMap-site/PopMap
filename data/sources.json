@@ -1490,5 +1490,73 @@
  "dnpsp20": {
   "t": "DN — le gouvernement salue l'action de la PSP",
   "u": "https://www.dn.pt/sociedade/governo-elogia-atuao-da-psp-aps-interveno-nas-acampadas-pela-habitao-em-lisboa-e-no-porto"
+ },
+ "euro20sec": {
+  "t": "Euronews/AFP — dispositif « massif » samedi, Sentinelle",
+  "u": "https://www.euronews.com/2026/10/20/france-vows-massive-security-operation-involving-military-forces-for-expected-weekend-prot"
+ },
+ "icipcf20": {
+  "t": "ICI Paris — couvre-feu reconduit mardi soir",
+  "u": "https://www.ici.fr/ile-de-france/paris-75/paris/violences-du-17-octobre-le-couvre-feu-a-paris-reconduit-a-partir-de-23h-ce-mardi-soir-3014655"
+ },
+ "actu17cf20": {
+  "t": "Actu17 — couvre-feu reconduit à République et aux Halles",
+  "u": "https://actu17.fr/societe/paris-le-couvre-feu-reconduit-a-republique-et-aux-halles-aussi-longtemps-que-cela-sera-necessaire.html"
+ },
+ "lyoncapcf20": {
+  "t": "Lyon Capitale — couvre-feu renouvelé mardi",
+  "u": "https://www.lyoncapitale.fr/actualite/la-prefecture-du-rhone-renouvelle-le-couvre-feu-et-linterdiction-des-rassemblements-en-presquile-de-lyon-ce-mardi"
+ },
+ "jdgcf20": {
+  "t": "Journal du Geek — villes sous couvre-feu",
+  "u": "https://www.journaldugeek.com/2026/10/20/couvre-feu-a-paris-marseille-nice-quartiers-concernes-et-a-partir-de-quelle-heure/"
+ },
+ "zaymqtirs": {
+  "t": "Zayactu — gendarmes visés par des tirs",
+  "u": "https://www.zayactu.org/martinique/violences-en-martinique-des-gendarmes-vises-par-des-tirs-six-vehicules-voles-et-huit-entreprises-prises-pour-cible"
+ },
+ "la1mqgign": {
+  "t": "Martinique La 1ère — bilan de la nuit du 19 au 20",
+  "u": "https://la1ere.franceinfo.fr/martinique/bilan-de-la-nuit-du-19-au-20-octobre-en-martinique-multiplication-des-barrages-routiers-deploiement-du-gign-huit-commerces-degrades-six-automobilistes-braques-1749987.html"
+ },
+ "rcimqducos": {
+  "t": "RCI — tirs à Ducos, GIGN déployé",
+  "u": "https://rci.fm/martinique/infos/Faits-divers/Barrages-en-Martinique-des-gendarmes-vises-par-des-tirs-Ducos-la-nuit-derniere"
+ },
+ "reuabyei": {
+  "t": "Reuters (TimesLIVE) — frappe sur un marché d'Abyei",
+  "u": "https://www.timeslive.co.za/news/africa/2026-10-20-more-than-150-people-feared-killed-in-sudan-drone-attack-on-market-in-disputed-zone/"
+ },
+ "apabyei": {
+  "t": "AP (Washington Times) — au moins 153 morts à Abyei",
+  "u": "https://www.washingtontimes.com/news/2026/oct/20/drone-strike-market-abyei-disputed-african-region-kills-least-153/"
+ },
+ "eyeabyei": {
+  "t": "Eye Radio — bilan porté à plus de 220",
+  "u": "https://eyeradio.org/death-toll-from-abyei-market-drone-strike-rises-to-more-than-220/"
+ },
+ "sttendelti": {
+  "t": "Sudan Tribune — centrale de Tendelti frappée",
+  "u": "https://sudantribune.com/article/320202"
+ },
+ "haagaza20": {
+  "t": "Haaretz — cinq morts à Gaza le 20 oct.",
+  "u": "https://www.haaretz.com/gaza/2026-10-20/ty-article/.premium/israeli-fire-kills-four-people-in-gaza-medics-say/000001a1-58ac-d7ce-a9a1-dbef5af60000"
+ },
+ "apme20": {
+  "t": "AP — frappe sur un appartement à Gaza et autres nouvelles",
+  "u": "https://www.click2houston.com/news/world/2026/10/20/an-israeli-pre-dawn-strike-on-a-gaza-apartment-kills-2-people-and-other-mideast-news/"
+ },
+ "fqdl20": {
+  "t": "Il Fatto Quotidiano — le fermo des mineurs pourrait sauter",
+  "u": "https://www.ilfattoquotidiano.it/2026/10/20/proteste-e-violenze-a-milano-pronto-a-saltare-il-fermo-preventivo-dei-minori-dal-decreto-del-governo-il-confronto-con-il-colle/8544499/"
+ },
+ "msgdl20": {
+  "t": "Il Messaggero — le Conseil des ministres s'ouvre",
+  "u": "https://www.ilmessaggero.it/politica/scontri_milano_nuovo_decreto_cosa_prevede_ultime_notizie-9837393.html"
+ },
+ "ansacgil": {
+  "t": "ANSA — Conseil des ministres et CGIL à Milan",
+  "u": "https://www.ansa.it/sito/notizie/politica/2026/10/20/oggi-il-cdm-sulla-sicurezza-domani-la-cgil-in-piazza-a-milano-contro-le-diseguaglianze_b5702cd2-a73e-4734-8495-07184704c255.html"
  }
 }
