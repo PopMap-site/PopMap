@@ -1,0 +1,5 @@
+# Configuration Cloudflare Pages (site statique + fonction functions/api/upload.js)
+name = "popmap"
+pages_build_output_dir = "."
+compatibility_date = "2026-09-01"
+compatibility_flags = ["nodejs_compat"]
