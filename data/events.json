@@ -14,8 +14,12 @@
   "summary": "Journée nationale contre la vie chère, dans la foulée du mouvement lycéen : 110 000 manifestants à Paris selon l'Intérieur. Le cortège autorisé République–Clichy est resté calme, mais des groupes masqués ont multiplié les heurts autour. Cortèges sauvages vers l'Élysée, barricades sur les Champs-Élysées, voitures brûlées, pillages, stations de métro fermées. Dès 7 h, le siège de CNews et Europe 1 avait été visé par une centaine d'individus cagoulés. Nouveaux affrontements dimanche à République ; allocution d'Emmanuel Macron dimanche soir.",
   "figs": [
    [
-    "123",
-    "personnes incarcérées au 20 oct. matin (garde des Sceaux)"
+    "174",
+    "personnes incarcérées en France au 21 oct. (garde des Sceaux)"
+   ],
+   [
+    "917",
+    "personnes déférées en France (garde des Sceaux)"
    ],
    [
     "2 397",
@@ -114,6 +118,10 @@
    [
     "21 oct. midi",
     "Sébastien Lecornu reçoit à Matignon les cinq syndicats représentatifs (CFDT, CGT, FO, CFTC, CFE-CGC), en présence de Laurent Nuñez ; lycéens et étudiants ne sont pas conviés (LCP). Selon Matignon, il s'agit de garantir la liberté de manifester ; les syndicats veulent aussi parler pouvoir d'achat et coût de l'énergie, et la CFDT refuse de recevoir « une leçon de responsabilité ». La nuit de mardi à mercredi a été décrite comme plutôt calme dans les grandes villes ; à Paris, couvre-feu de 23 h à 6 h autour de République et des Halles (Europe 1). Les partis sont reçus jeudi."
+   ],
+   [
+    "21 oct. après-midi",
+    "À la sortie de Matignon (environ 2 h 30 de réunion), les syndicats se disent déçus, avec des nuances. Sophie Binet (CGT) déplore « aucune mesure » et appelle à généraliser la grève à partir du 5 novembre ; Marylise Léon (CFDT) juge « impératif » d'obtenir des réponses sur les salaires d'ici là ; Cyril Chabanier (CFTC) parle d'une réunion « très décevante » mais note une ouverture sur le Smic ; Frédéric Souillot (FO) laisse « une chance à la discussion ». Le ministre du Travail Jean-Pierre Farandou doit recevoir syndicats et patronat sur les salaires ; une réunion sur les revendications des lycéens est prévue lundi (AFP). La préfecture de police reconduit le couvre-feu de 23 h à 6 h autour de République et des Halles pour une troisième nuit et interdit la manifestation lycéenne et étudiante d'Interfac prévue jeudi entre l'Hôpital et Bastille, invoquant « l'incapacité de l'organisateur à éviter les exactions » ; l'organisateur peut saisir le tribunal administratif. Sébastien Lecornu recevra jeudi après-midi les maires de Paris, Marseille et Lyon."
    ]
   ],
   "spots": [
@@ -290,7 +298,14 @@
    "jddnunez",
    "finunez24",
    "lcp21",
-   "e1live20"
+   "e1live20",
+   "e1maires21",
+   "e1cgt21",
+   "psmatignon21",
+   "fiinterfac21",
+   "sortcf21",
+   "e1darm21",
+   "pr174"
   ],
   "photos": [
    {
@@ -327,7 +342,7 @@
   "cat": "emeute",
   "sev": 3,
   "live": true,
-  "date": "2026-10-20",
+  "date": "2026-10-21",
   "zoom": 9000,
   "title": "L'office de tourisme de Bellecour incendié",
   "summary": "Environ 20 000 manifestants. Le pavillon historique de l'office de tourisme, place Bellecour, a été saccagé puis incendié vers 14 h 30 ; des groupes hostiles ont empêché les pompiers d'approcher. Magasins attaqués, canons à eau sur les ponts en fin d'après-midi. Dimanche, une cinquantaine de jeunes ont tenté de forcer la vitrine d'un magasin Lacoste.",
@@ -381,6 +396,10 @@
    [
     "20 oct. après-midi",
     "La préfecture du Rhône renouvelle le couvre-feu de 21 h à 6 h sur la Presqu'île, désormais jusqu'au cours de Verdun, et interdit les rassemblements de 16 h à 21 h. Selon elle, la première nuit de couvre-feu s'est déroulée sans trouble à l'ordre public."
+   ],
+   [
+    "21 oct. après-midi",
+    "La préfecture du Rhône renouvelle le couvre-feu de l'hypercentre pour une troisième nuit, de 23 h à 6 h, soit deux heures plus tard que les précédentes ; manifestations interdites de 16 h à 23 h sur la Presqu'île. Selon elle, aucun trouble n'a été constaté les deux nuits précédentes. Le maire Grégory Doucet sera reçu jeudi à Matignon."
    ]
   ],
   "spots": [
@@ -495,7 +514,8 @@
    "lyoncapcf",
    "lyonmag20",
    "f3lyon20",
-   "lyoncapcf20"
+   "lyoncapcf20",
+   "e1maires21"
   ],
   "photos": [
    {
@@ -518,7 +538,7 @@
   "cat": "emeute",
   "sev": 3,
   "live": true,
-  "date": "2026-10-20",
+  "date": "2026-10-21",
   "zoom": 9000,
   "title": "Mairie forcée, 118 policiers blessés",
   "summary": "Des individus sont entrés dans le hall de l'hôtel de ville et ont attaqué le poste de police municipale de la Canebière (tentative d'incendie avortée). La préfecture a compté jusqu'à 30 000 pilleurs au plus fort des émeutes, dont 8 000 émeutiers. Tous les transports publics ont été arrêtés à 15 h 25 ; blindés Centaure de la gendarmerie déployés en soirée.",
@@ -576,6 +596,10 @@
    [
     "20 oct.",
     "Couvre-feu pour les mineurs de 22 h à 5 h à partir de mardi soir et jusqu'à vendredi, dans des zones ciblées : hypercentre et abords de grands centres commerciaux, dont La Valentine ; le détail des périmètres doit être publié par la préfecture. Le maire Benoît Payan en « prend acte » et demande un déploiement policier suffisant dans toute la ville ; des mesures similaires sont prévues dans d'autres communes des Bouches-du-Rhône."
+   ],
+   [
+    "21 oct.",
+    "En déplacement à Marseille, le garde des Sceaux Gérald Darmanin dresse le bilan judiciaire national du 17 octobre : environ 2 500 gardes à vue, 917 personnes déférées et 174 incarcérées, dont des personnes sans casier judiciaire selon lui. Il annonce un circuit d'exécution rapide des peines et de nouvelles convocations pour permettre aux commerçants de chiffrer leur préjudice ; d'autres interpellations sont attendues grâce à la vidéosurveillance. Le maire Benoît Payan sera reçu jeudi à Matignon."
    ]
   ],
   "spots": [
@@ -644,7 +668,11 @@
    "morandnunez20",
    "maritimacf20",
    "mimcf20",
-   "f3mrscf20"
+   "f3mrscf20",
+   "e1darm21",
+   "icidarm21",
+   "pr174",
+   "e1maires21"
   ],
   "t": "2026-10-17T05:30",
   "ta": false
@@ -658,7 +686,7 @@
   "cat": "emeute",
   "sev": 3,
   "live": false,
-  "date": "2026-10-20",
+  "date": "2026-10-21",
   "zoom": 12000,
   "title": "L'hôtel de ville détruit par le feu",
   "summary": "Environ 5 000 manifestants. Vitres brisées, intrusion avec menaces de mort, puis incendie de l'intérieur de la mairie, inaugurée en 1883. Le personnel municipal et les élus présents ont pu sortir, sans blessé selon le préfet. Le campanile, emblème de la ville, s'est effondré et une grande partie de la toiture a brûlé ; le préfet juge le bâtiment « en grande partie perdu ». Le maire : « C'est un monument qui brûle mais pas la République. »",
@@ -704,6 +732,10 @@
    [
     "20 oct.",
     "Selon France 3 et le JDD, le suspect a été interpellé par le RAID dans le nord de la Haute-Vienne."
+   ],
+   [
+    "21 oct.",
+    "Matignon annonce que Sébastien Lecornu se rendra à Limoges vendredi 23 octobre, après l'incendie de l'hôtel de ville."
    ]
   ],
   "posts": [
@@ -739,7 +771,9 @@
    "icilim2",
    "icilim20",
    "f3lim20",
-   "jddlim20"
+   "jddlim20",
+   "e1maires21",
+   "f3limlec21"
   ],
   "photos": [
    {
@@ -1500,12 +1534,15 @@
   "cat": "emeute",
   "sev": 1,
   "live": false,
-  "date": "2026-10-17",
+  "date": "2026-10-21",
   "title": "Police municipale en renfort",
   "summary": "Plusieurs milliers de manifestants ; la fin de journée dégénère, avec des vitrines de grands magasins détruites et des commerces saccagés. La police municipale a renforcé police nationale et gendarmerie ; un policier municipal et un policier national blessés.",
   "src": [
    "pandore",
-   "f3perp"
+   "f3perp",
+   "e1perp21",
+   "f3perp21",
+   "mipperp21"
   ],
   "t": "2026-10-17T15:00",
   "ta": true,
@@ -1513,6 +1550,12 @@
    [
     "20",
     "interpellations"
+   ]
+  ],
+  "tl": [
+   [
+    "21 oct.",
+    "Le préfet des Pyrénées-Orientales Pierre Regnault de la Mothe interdit les manifestations dans l'hypercentre du jeudi 22 au dimanche 25 octobre et instaure un couvre-feu pour les mineurs de samedi 19 h 30 à dimanche 6 h. Effectifs de police doublés samedi par rapport au 17, usage possible des LBD ; le maire Louis Aliot demande de retirer de la voie publique poubelles et trottinettes. Le 17, sept commerces avaient été pillés selon la préfecture."
    ]
   ]
  },
@@ -2760,7 +2803,9 @@
    "marinelink20",
    "gulf21",
    "mmhormuz21",
-   "rigzone21"
+   "rigzone21",
+   "arabtank21",
+   "iitank21"
   ],
   "t": "2026-10-16T12:00",
   "ta": true,
@@ -2788,6 +2833,10 @@
    [
     "21 oct.",
     "Les Gardiens de la révolution affirment désormais que leurs mines ont stoppé trois pétroliers, dont deux « incendiés », sur une route du sud du détroit qu'ils jugent illégale ; aucune vérification indépendante (AFP). Selon des données compilées par Bloomberg, au moins 23 incidents visant des navires ont été recensés dans la zone pendant les deux premières semaines d'octobre ; le secrétaire américain à l'Énergie Chris Wright estime le trafic à environ 80 % de la normale."
+   ],
+   [
+    "21 oct. midi",
+    "Un pétrolier au mouillage est touché par un projectile non identifié à environ 11 milles nautiques à l'ouest de Bukha (Musandam, Oman) ; l'incendie a été éteint et tout l'équipage est sain et sauf, selon l'agence britannique UKMTO. Aucun auteur n'est désigné."
    ]
   ]
  },
@@ -2855,7 +2904,11 @@
    "apshabwa20",
    "toi20",
    "gulf21",
-   "printmedine21"
+   "printmedine21",
+   "almon21",
+   "natmac21",
+   "newarab21",
+   "gulf7"
   ],
   "t": "2026-10-14T12:00",
   "ta": true,
@@ -2875,6 +2928,10 @@
    [
     "21 oct.",
     "La coalition dit avoir intercepté des drones au-dessus de Médine et de la région orientale ; le porte-parole militaire houthi Yahya Saree dément toute opération contre l'Arabie saoudite mercredi (Reuters)."
+   ],
+   [
+    "21 oct.",
+    "Emmanuel Macron, en visite surprise, rencontre le prince héritier Mohammed ben Salmane : premier dirigeant occidental à se rendre en Arabie saoudite depuis l'intensification des attaques houthies. Il confirme que des militaires français protègent depuis huit jours le terminal pétrolier de Yanbu, une mission qu'il dit « purement défensive », et plaide pour une reprise des discussions avec les Houthis ; l'Élysée annonce des livraisons supplémentaires de gazole saoudien à la France. L'aéroport de Riyad a rouvert à des vols intérieurs limités ; plusieurs compagnies européennes annulent leurs vols jusqu'à mi-novembre (AP)."
    ]
   ]
  },
@@ -2906,7 +2963,7 @@
   "cat": "guerre",
   "sev": 3,
   "live": true,
-  "date": "2026-10-17",
+  "date": "2026-10-21",
   "title": "Le palais présidentiel visé",
   "summary": "Le 15 octobre, cinq missiles houthis frappent le palais présidentiel d'Al-Maashiq, siège du gouvernement reconnu : 5 morts et 16 blessés, le Premier ministre indemne. Le 16, deux missiles tombent dans l'enceinte de l'aéroport à 500 m d'un avion en partance, sans victime. Les Houthis disent viser des quartiers militaires. Une contre-offensive gouvernementale appuyée par l'aviation saoudienne (« Aube du Yémen ») est en cours depuis le 4 octobre.",
   "src": [
@@ -2914,7 +2971,10 @@
    "iran",
    "fdd",
    "ajaden",
-   "ajadenair"
+   "ajadenair",
+   "ajaden21",
+   "gulf7",
+   "nbcaden21"
   ],
   "t": "2026-10-17T12:00",
   "ta": true,
@@ -2946,7 +3006,13 @@
     "ta": true
    }
   ],
-  "zoom": 2500
+  "zoom": 2500,
+  "tl": [
+   [
+    "21 oct.",
+    "Une explosion est entendue à Aden et de la fumée s'élève près de l'aéroport international (police, Al Jazeera). Le porte-parole houthi Yahya Saree revendique un tir de missile balistique sur la salle d'opérations de la coalition au camp Badr, voisin de l'aéroport. Selon un responsable yéménite des transports, un avion civil avait décollé peu avant, le hall a été évacué et les opérations suspendues temporairement, sans dégât sur la piste. Aucun bilan humain rapporté ; ni le gouvernement ni la coalition n'ont commenté dans l'immédiat."
+   ]
+  ]
  },
  {
   "id": "nyala",
@@ -4321,13 +4387,20 @@
   "cat": "guerre",
   "sev": 2,
   "live": true,
-  "date": "2026-10-17",
+  "date": "2026-10-20",
   "t": "2026-10-17T12:00",
   "ta": true,
   "title": "Combats intensifiés autour de la ville assiégée",
   "summary": "Les combats s'intensifient dans le gouvernorat de Taïz, ville assiégée par les Houthis. L'agence gouvernementale Saba affirme que 168 combattants houthis ont été tués et 210 blessés ; ces chiffres ne sont pas vérifiés de façon indépendante.",
   "src": [
-   "ajaden"
+   "ajaden",
+   "gulf7"
+  ],
+  "tl": [
+   [
+    "20 oct.",
+    "Une frappe houthie sur un quartier résidentiel de Taïz tue deux adolescentes et blesse six personnes, selon des responsables yéménites cités par Gulf News."
+   ]
   ]
  },
  {
@@ -4621,7 +4694,7 @@
   "cat": "frappe",
   "sev": 3,
   "live": false,
-  "date": "2026-10-18",
+  "date": "2026-10-21",
   "t": "2026-10-18T19:00",
   "ta": true,
   "title": "Frappe de drone à Al-Dibab : environ 80 morts",
@@ -4645,7 +4718,8 @@
    "f24soudan19",
    "afrikdibab",
    "tv5dibab",
-   "apsudan19"
+   "apsudan19",
+   "nationsud21"
   ],
   "zoom": 150,
   "tl": [
@@ -4660,6 +4734,10 @@
    [
     "18 oct. soir",
     "Frappe de drone sur la gare routière d'Al-Dibab : environ 80 morts."
+   ],
+   [
+    "21 oct.",
+    "L'Observatoire de la guerre au Soudan, cité par la presse, avance un bilan de 145 morts à Al-Dibab et 5 sous une tente de deuil après les frappes de dimanche, et environ 150 blessés ; il estime que les drones ont été lancés depuis Kadougli, ville tenue par l'armée. L'armée n'a pas réagi à ces accusations ; elle affirme ne pas viser les civils. Bilan non vérifié de façon indépendante."
    ]
   ],
   "spots": [
@@ -4897,6 +4975,10 @@
   "summary": "Le mouvement RPPRAC avait fixé au 19 octobre un ultimatum sur les prix, deux ans après le protocole contre la vie chère. Dans la nuit du 18 au 19, plus d'une vingtaine de barrages, certains incendiés, dans 18 communes ; deux commerces saccagés (Saint-Pierre, Le Robert), cinq braquages au Lamentin et à Fort-de-France, véhicules brûlés et forces de l'ordre visées par des projectiles. Lundi, circulation perturbée ; des établissements scolaires passent à l'enseignement à distance.",
   "figs": [
    [
+    "11",
+    "interpellations et 3 armes saisies (nuit du 20, préfecture)"
+   ],
+   [
     "20+",
     "barrages dans 18 communes (nuit du 18)"
    ],
@@ -4988,7 +5070,9 @@
    "antillacf",
    "la1erecf",
    "etvcf",
-   "zayducos21"
+   "zayducos21",
+   "la1mq21",
+   "zaymq21"
   ],
   "tl": [
    [
@@ -5018,6 +5102,10 @@
    [
     "20-21 oct. nuit",
     "Première nuit de couvre-feu : nouveaux barrages dans plusieurs communes et véhicules incendiés sur le parking d'une concession au Lamentin, selon Zayactu (bilan officiel non publié). À Ducos, trois adolescents blessés par balle vers 21 h 30 près du stade, dont un en urgence absolue ; les circonstances sont indéterminées et aucun lien avec les violences urbaines n'est établi à ce stade."
+   ],
+   [
+    "20-21 oct. nuit",
+    "Selon la préfecture, les troubles ont baissé en intensité et en étendue : incidents dans 14 communes, aucun pillage ni vol à main armée, grands axes rouverts dès 6 h, 11 interpellations et trois armes à feu saisies. À Ducos, des gendarmes de nouveau visés par des tirs ; le GIGN est intervenu et un policier a été légèrement blessé à la tête par un projectile. Au Lamentin, sept véhicules détruits dans une concession et le gymnase d'un collège gravement endommagé par un incendie. Couvre-feu de 22 h à 5 h maintenu mercredi soir dans les six communes."
    ]
   ]
  },
@@ -6005,6 +6093,82 @@
   "spots": [],
   "src": [
    "anua21"
+  ]
+ },
+ {
+  "id": "athenes",
+  "place": "Athènes",
+  "country": "Grèce",
+  "lon": 23.7348,
+  "lat": 37.9785,
+  "cat": "manif",
+  "sev": 2,
+  "live": false,
+  "date": "2026-10-21",
+  "t": "2026-10-21T12:00",
+  "ta": true,
+  "zoom": 9000,
+  "title": "Plus de 10 000 élèves, étudiants et enseignants dans la rue",
+  "summary": "Journée de grève dans l'éducation et la fonction publique. Plus de 10 000 personnes selon la police et la télévision publique ERT ont défilé des Propylées au Parlement (place Syntagma), pour plus de moyens pour l'école publique, des postes d'enseignants pourvus, des loyers plus bas et davantage de logements étudiants ; des manifestants font le parallèle avec la mobilisation en France (AFP). Après la fin du cortège, peu avant 14 h, un groupe a lancé des pierres et, selon des médias grecs, des cocktails Molotov sur la police près de la place Omonia ; la police a utilisé des grenades assourdissantes. Rassemblements aussi à Thessalonique, Patras et Larissa.",
+  "figs": [
+   [
+    "10 000+",
+    "manifestants à Athènes (police, ERT)"
+   ],
+   [
+    "25",
+    "personnes conduites au poste pour vérification, dont 4 liées aux heurts d'Omonia"
+   ],
+   [
+    "3 000+",
+    "policiers déployés dans le centre"
+   ]
+  ],
+  "tl": [
+   [
+    "21 oct. matin",
+    "Rassemblement aux Propylées, rue Panepistimiou bloquée ; station de métro Panepistimio fermée."
+   ],
+   [
+    "21 oct. midi",
+    "Marche vers la place Syntagma puis retour aux Propylées."
+   ],
+   [
+    "21 oct. ~14 h",
+    "Heurts près de la place Omonia après la dispersion du cortège ; trottinettes électriques endommagées. Circulation rétablie dans l'après-midi sur Panepistimiou, Stadiou, Amalias et Vasilissis Sofias, stations de métro rouvertes."
+   ]
+  ],
+  "spots": [
+   {
+    "n": "Propylées · rue Panepistimiou",
+    "lon": 23.7334,
+    "lat": 37.9806,
+    "d": "Point de rassemblement du cortège mercredi matin ; la rue Panepistimiou a été fermée à la circulation jusqu'en début d'après-midi.",
+    "t": "2026-10-21T11:00",
+    "ta": true
+   },
+   {
+    "n": "Place Syntagma",
+    "lon": 23.7348,
+    "lat": 37.9755,
+    "d": "Le cortège de plus de 10 000 personnes est passé devant le Parlement avant de revenir aux Propylées, sans incident signalé à cet endroit.",
+    "t": "2026-10-21T12:30",
+    "ta": true
+   },
+   {
+    "n": "Place Omonia",
+    "lon": 23.7281,
+    "lat": 37.9841,
+    "d": "Après la fin de la manifestation, un groupe a lancé des pierres sur la police, qui a répondu par des grenades assourdissantes ; quatre personnes conduites au poste pour ces faits.",
+    "t": "2026-10-21T14:00",
+    "ta": true
+   }
+  ],
+  "src": [
+   "boursogr21",
+   "ruaath21",
+   "ruaprop21",
+   "tovima21"
   ]
  }
 ]

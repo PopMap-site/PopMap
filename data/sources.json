@@ -1714,5 +1714,113 @@
  "mitoday21": {
   "t": "MilanoToday — deux rassemblements à Milan",
   "u": "https://www.milanotoday.it/attualita/manifestazioni-cgil-futuro-nazionale-vannacci-milano.html"
+ },
+ "e1maires21": {
+  "t": "Europe 1 — direct du 21 oct. : Lecornu recevra les maires",
+  "u": "https://www.europe1.fr/societe/en-direct-violences-urbaines-sebastien-lecornu-recevra-jeudi-apres-midi-les-maires-de-paris-marseille-et-lyon-1169310"
+ },
+ "e1darm21": {
+  "t": "Europe 1 — 174 personnes incarcérées, annonce Darmanin",
+  "u": "https://www.europe1.fr/police-justice/violences-et-pillages-174-personnes-incarcerees-annonce-gerald-darmanin-1170576"
+ },
+ "icidarm21": {
+  "t": "ICI Provence — Darmanin à Marseille",
+  "u": "https://www.ici.fr/provence-alpes-cote-d-azur/bouches-du-rhone-13/marseille/la-justice-est-rendue-avec-fermete-indique-gerald-darmanin-ministre-de-la-justice-en-deplacement-a-marseille-7270325"
+ },
+ "pr174": {
+  "t": "Police & Réalités — 2 500 gardes à vue, 917 déférés",
+  "u": "https://policeetrealites.com/2026/10/21/pillages-et-violences-du-17-octobre-2-500-gardes-a-vue-917-deferes-et-174-incarcerations/"
+ },
+ "psmatignon21": {
+  "t": "Public Sénat — la CGT appelle à la grève le 5 novembre",
+  "u": "https://www.publicsenat.fr/actualites/politique/la-cgt-appelle-a-une-greve-generale-le-5-novembre-a-lissue-de-la-reunion-a-matignon-des-syndicats"
+ },
+ "e1cgt21": {
+  "t": "Europe 1 — la CGT appelle à « franchir un nouveau cap »",
+  "u": "https://www.europe1.fr/societe/mobilisation-du-5-novembre-la-cgt-appelle-a-franchir-un-nouveau-cap-et-a-faire-greve-1170609"
+ },
+ "fisynd21": {
+  "t": "Franceinfo — les syndicats déçus après Matignon",
+  "u": "https://www.franceinfo.fr/societe/mobilisation-du-17-octobre/direct-mobilisation-du-17-octobre-sebastien-lecornu-recoit-les-organisations-syndicales-apres-une-nouvelle-nuit-de-couvre-feux_8246746.html"
+ },
+ "fiinterfac21": {
+  "t": "Franceinfo — manifestation lycéenne et étudiante interdite jeudi",
+  "u": "https://www.franceinfo.fr/societe/mobilisation-du-17-octobre/la-prefecture-de-police-interdit-la-manifestation-des-lyceens-et-etudiants-franciliens-prevue-jeudi-a-paris_8247574.html"
+ },
+ "sortcf21": {
+  "t": "Sortiraparis — troisième nuit de couvre-feu",
+  "u": "https://www.sortiraparis.com/actualites/a-paris/articles/355062-couvre-feu-a-paris-vers-une-troisieme-nuit-de-restrictions-ce-mercredi-21-octobre"
+ },
+ "e1perp21": {
+  "t": "Europe 1 — Perpignan : manifestations interdites dans le centre",
+  "u": "https://www.europe1.fr/societe/a-perpignan-les-manifestations-sont-interdites-dans-le-centre-ville-jusqua-dimanche-les-forces-de-lordre-doublees-samedi-1170906"
+ },
+ "f3perp21": {
+  "t": "France 3 Occitanie — les mesures du préfet des Pyrénées-Orientales",
+  "u": "https://france3-regions.franceinfo.fr/occitanie/pyrenees-orientales/perpignan/ma-fermete-sera-totale-le-prefet-des-pyrenees-orientales-instaure-un-couvre-feu-pour-les-mineurs-et-plebiscite-l-emploi-des-lbd-pour-la-manifestation-du-24-octobre-3436908.html"
+ },
+ "mipperp21": {
+  "t": "Made in Perpignan — couvre-feu des mineurs",
+  "u": "https://madeinperpignan.com/couvre-feu-lbd-perpignan-manifestations/"
+ },
+ "f3limlec21": {
+  "t": "France 3 Limousin — Lecornu attendu à Limoges vendredi",
+  "u": "https://france3-regions.franceinfo.fr/nouvelle-aquitaine/haute-vienne/limoges/le-premier-ministre-sebastien-lecornu-devrait-se-rendre-a-limoges-vendredi-apres-l-incendie-devastateur-de-la-mairie-3436203.html"
+ },
+ "la1mq21": {
+  "t": "La 1ère — Martinique : 11 interpellations, baisse des violences",
+  "u": "https://la1ere.franceinfo.fr/martinique/couvre-feu-en-martinique-11-interpellations-trois-armes-saisies-et-une-baisse-des-violences-selon-la-prefecture-1750317.html"
+ },
+ "zaymq21": {
+  "t": "Zayactu — gymnase incendié au Lamentin",
+  "u": "https://www.zayactu.org/martinique/11-interpellations-trois-armes-saisies-sept-vehicules-detruits-et-un-gymnase-incendie-au-lamentin"
+ },
+ "ruaath21": {
+  "t": "Athens News — 10 000 personnes, heurts à Omonia",
+  "u": "https://fr.rua.gr/2026/10/21/athenes-10-mille-personnes-a-un-rassemblement-affrontements-a-omonia-et-25-emmenees-a-la-police/"
+ },
+ "ruaprop21": {
+  "t": "Athens News — rassemblement aux Propylées",
+  "u": "https://fr.rua.gr/2026/10/21/athenes-21-octobre-le-rassemblement-aux-propylees-a-commence-panepistimiou-est-bloque/"
+ },
+ "boursogr21": {
+  "t": "Boursorama (AFP) — Grèce : plus de 10 000 dans la rue",
+  "u": "https://www.boursorama.com/actualite-economique/actualites/grece-comme-en-france-plus-de-10-000-etudiants-et-enseignants-dans-la-rue-27ca91d0210e812e9e86996272b37b72"
+ },
+ "ajaden21": {
+  "t": "Al Jazeera — explosion à Aden, les Houthis revendiquent",
+  "u": "https://www.aljazeera.com/news/2026/10/21/blast-heard-in-yemens-aden-as-houthis-claim-attack-on-military-camp"
+ },
+ "nbcaden21": {
+  "t": "NBC News — nouvelles attaques houthies revendiquées",
+  "u": "https://www.nbcnews.com/world/middle-east/iran-backed-houthis-claim-new-attacks-saudi-arabia-yemens-aden-airport-rcna602020"
+ },
+ "gulf7": {
+  "t": "Gulf News — 7 développements du 21 oct.",
+  "u": "https://gulfnews.com/world/gulf/saudi/saudi-houthi-conflict-7-major-developments-on-october-21-1.500718833"
+ },
+ "arabtank21": {
+  "t": "Al Arabiya — un pétrolier touché au large de Bukha",
+  "u": "https://english.alarabiya.net/News/gulf/2026/10/21/projectile-strikes-tanker-west-of-oman-s-bukha-overlooking-hormuz-strait-ukmto-says"
+ },
+ "iitank21": {
+  "t": "Iran International — pétrolier touché au large d'Oman",
+  "u": "https://www.iranintl.com/en/202610218014"
+ },
+ "almon21": {
+  "t": "Al-Monitor — Macron à Riyad",
+  "u": "https://www.al-monitor.com/originals/2026/10/frances-macron-first-western-leader-visit-saudi-arabia-houthi-escalation"
+ },
+ "natmac21": {
+  "t": "The National — Macron en visite surprise à Riyad",
+  "u": "https://www.thenationalnews.com/news/gulf/2026/10/21/french-president-macron-arrives-in-riyadh-on-surprise-visit/"
+ },
+ "newarab21": {
+  "t": "The New Arab — gazole saoudien pour la France",
+  "u": "https://www.newarab.com/news/saudi-commits-addition-france-diesel-supplies-macron-visit"
+ },
+ "nationsud21": {
+  "t": "The Nation — frappes de drones au Kordofan et à Abyei",
+  "u": "https://www.nation.com.pk/21-Oct-2026/sudan-army-drones-hit-mourners-fuel-market-killing-300-people-sources-say"
  }
 }

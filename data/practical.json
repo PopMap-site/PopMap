@@ -167,10 +167,12 @@
   "t": "2026-11-05T10:00",
   "ta": true,
   "title": "Grève interprofessionnelle, SNCF en grève",
-  "text": "Jeudi 5 novembre, journée de grève et de manifestations à l'appel de l'intersyndicale (CFDT, CGT, FO, UNSA, FSU). Les syndicats de cheminots appellent à la grève : Transilien, TER, TGV et Intercités peuvent être perturbés ; prévisions SNCF la veille. Manifestation envisagée à Paris.",
+  "text": "Jeudi 5 novembre, journée de grève et de manifestations à l'appel de l'intersyndicale (CFDT, CGT, FO, UNSA, FSU). Les syndicats de cheminots appellent à la grève : Transilien, TER, TGV et Intercités peuvent être perturbés ; prévisions SNCF la veille. Manifestation envisagée à Paris. À la sortie de Matignon le 21 octobre, la CGT appelle à « généraliser la grève » à partir de cette date et la CFDT en fait aussi le rendez-vous de mobilisation.",
   "src": [
    "clep",
-   "greve5"
+   "greve5",
+   "e1cgt21",
+   "psmatignon21"
   ]
  },
  {
@@ -389,7 +391,7 @@
   "t": "2026-10-24T14:00",
   "ta": true,
   "title": "« Acte II » des Gilets jaunes",
-  "text": "Samedi 24 octobre, nouvelle journée d'actions annoncée par la coordination des Gilets jaunes (76 actions recensées sur son site). Le gouvernement a évoqué des manifestations « encadrées voire interdites » ; consultez les arrêtés préfectoraux la veille. Mardi, Sébastien Lecornu a annoncé un dispositif de sécurité « massif » pour ce samedi, avec des militaires de l'opération Sentinelle sur les gardes statiques, selon l'AFP. Dans un télégramme du 19 octobre, Laurent Nuñez demande aux préfets d'interdire les manifestations à risque lorsque le dialogue avec les organisateurs n'a pas permis de garantir la sécurité ; ce n'est pas une interdiction générale. BRI, GIGN, RAID, hélicoptères, blindés Centaure et canons à eau seront mobilisés.",
+  "text": "Samedi 24 octobre, nouvelle journée d'actions annoncée par la coordination des Gilets jaunes (76 actions recensées sur son site). Le gouvernement a évoqué des manifestations « encadrées voire interdites » ; consultez les arrêtés préfectoraux la veille. Mardi, Sébastien Lecornu a annoncé un dispositif de sécurité « massif » pour ce samedi, avec des militaires de l'opération Sentinelle sur les gardes statiques, selon l'AFP. Dans un télégramme du 19 octobre, Laurent Nuñez demande aux préfets d'interdire les manifestations à risque lorsque le dialogue avec les organisateurs n'a pas permis de garantir la sécurité ; ce n'est pas une interdiction générale. BRI, GIGN, RAID, hélicoptères, blindés Centaure et canons à eau seront mobilisés. À Paris, la coordination a déclaré un parcours au départ de la place de la Bastille ; la CGT Paris annonce sa présence.",
   "src": [
    "sudradio24",
    "f24acte2",
@@ -397,7 +399,8 @@
    "euro20sec",
    "jddnunez",
    "finunez24",
-   "expxxl"
+   "expxxl",
+   "psmatignon21"
   ]
  },
  {
@@ -420,13 +423,14 @@
   "lon": 2.355,
   "lat": 48.864,
   "t": "2026-10-19T23:00",
-  "until": "2026-10-21T06:00",
+  "until": "2026-10-22T06:00",
   "title": "Couvre-feu 23 h – 6 h",
-  "text": "Couvre-feu pour tout le public de 23 h à 6 h, reconduit mardi 20 octobre « aussi longtemps que cela sera nécessaire » selon la préfecture de police : terre-plein central de la place de la République et sud des Halles (place Maurice-Quentin, rue Berger, partie du boulevard de Sébastopol, rue Rambuteau jusqu'à l'allée André-Breton, passage des Lingères). Résidents, personnes qui travaillent, commerçants et secours exemptés sur justificatif. Manifestations interdites de 20 h à 6 h dans un périmètre plus large.",
+  "text": "Couvre-feu pour tout le public de 23 h à 6 h, reconduit mercredi 21 octobre pour une troisième nuit « aussi longtemps que cela sera nécessaire » selon la préfecture de police : terre-plein central de la place de la République et sud des Halles (place Maurice-Quentin, rue Berger, partie du boulevard de Sébastopol, rue Rambuteau jusqu'à l'allée André-Breton, passage des Lingères). Résidents, personnes qui travaillent, commerçants et secours exemptés sur justificatif. Manifestations interdites de 20 h à 6 h dans un périmètre plus large.",
   "src": [
    "fi23cf",
    "actu17cf20",
-   "icipcf20"
+   "icipcf20",
+   "sortcf21"
   ]
  },
  {
@@ -451,13 +455,14 @@
   "lon": 4.8335,
   "lat": 45.7605,
   "t": "2026-10-19T21:00",
-  "until": "2026-10-21T06:00",
-  "title": "Couvre-feu 21 h – 6 h",
-  "text": "Arrêté du préfet du Rhône, renouvelé mardi 20 octobre : circulation et présence sur la voie publique interdites de 21 h à 6 h sur une partie de la Presqu'île, de la rue Constantine et de la place des Terreaux au nord jusqu'au cours de Verdun au sud, entre les quais du Rhône et de la Saône (ponts exclus), sauf motifs autorisés (domicile, travail, santé, journalistes…). Manifestations et rassemblements interdits de 16 h à 21 h. Bars, restaurants, cinémas, transports en commun et circulation automobile maintenus.",
+  "until": "2026-10-22T06:00",
+  "title": "Couvre-feu 23 h – 6 h",
+  "text": "Arrêté du préfet du Rhône, renouvelé mercredi 21 octobre pour une troisième nuit, désormais de 23 h à 6 h (deux heures plus tard que les nuits précédentes) : circulation et présence sur la voie publique interdites sur une partie de la Presqu'île, de la rue Constantine et de la place des Terreaux au nord jusqu'au cours de Verdun au sud, entre les quais du Rhône et de la Saône, sauf motifs autorisés. Manifestations interdites de 16 h à 23 h sur la Presqu'île. Bars, restaurants, transports en commun et circulation automobile maintenus.",
   "src": [
    "lyonmagcf",
    "lyoncapcf",
-   "lyoncapcf20"
+   "lyoncapcf20",
+   "e1maires21"
   ]
  },
  {
@@ -631,6 +636,81 @@
    "antillacf",
    "la1erecf",
    "etvcf"
+  ]
+ },
+ {
+  "id": "p-interfac",
+  "kind": "interdiction",
+  "place": "Paris · Bd de l'Hôpital – Bastille",
+  "lon": 2.362,
+  "lat": 48.84,
+  "t": "2026-10-22T10:00",
+  "until": "2026-10-22T23:59",
+  "ta": true,
+  "title": "Manifestation lycéenne et étudiante interdite",
+  "text": "La préfecture de police interdit la manifestation d'Interfac Île-de-France prévue jeudi 22 octobre du boulevard de l'Hôpital à la place de la Bastille, en invoquant « l'incapacité de l'organisateur à éviter les exactions ». L'organisateur peut saisir le tribunal administratif.",
+  "src": [
+   "e1maires21",
+   "fiinterfac21"
+  ]
+ },
+ {
+  "id": "p-perpignan",
+  "kind": "interdiction",
+  "place": "Perpignan · hypercentre",
+  "lon": 2.8948,
+  "lat": 42.6987,
+  "t": "2026-10-22T00:00",
+  "until": "2026-10-25T23:59",
+  "title": "Manifestations interdites, couvre-feu des mineurs samedi",
+  "text": "Arrêté du préfet des Pyrénées-Orientales : manifestations interdites dans l'hypercentre de Perpignan du jeudi 22 au dimanche 25 octobre ; couvre-feu pour les mineurs de samedi 19 h 30 à dimanche 6 h ; port et transport d'objets pouvant servir d'arme interdits samedi. Effectifs de police doublés samedi.",
+  "src": [
+   "e1perp21",
+   "f3perp21",
+   "mipperp21"
+  ]
+ },
+ {
+  "id": "a-maires22",
+  "kind": "agenda",
+  "place": "Paris · Matignon",
+  "lon": 2.3205,
+  "lat": 48.8546,
+  "t": "2026-10-22T15:00",
+  "ta": true,
+  "title": "Les maires de Paris, Marseille et Lyon à Matignon",
+  "text": "Jeudi après-midi, Sébastien Lecornu reçoit Emmanuel Grégoire (Paris), Benoît Payan (Marseille) et Grégory Doucet (Lyon) après les violences du 17 octobre.",
+  "src": [
+   "e1maires21"
+  ]
+ },
+ {
+  "id": "a-limoges23",
+  "kind": "agenda",
+  "place": "Limoges",
+  "lon": 1.2578,
+  "lat": 45.8317,
+  "t": "2026-10-23T11:00",
+  "ta": true,
+  "title": "Sébastien Lecornu à Limoges",
+  "text": "Vendredi 23 octobre, le Premier ministre se rend à Limoges, où l'hôtel de ville a été détruit par un incendie le 17 octobre.",
+  "src": [
+   "e1maires21",
+   "f3limlec21"
+  ]
+ },
+ {
+  "id": "a-lyceens26",
+  "kind": "agenda",
+  "place": "Paris",
+  "lon": 2.33,
+  "lat": 48.85,
+  "t": "2026-10-26T10:00",
+  "ta": true,
+  "title": "Réunion sur les revendications des lycéens et étudiants",
+  "text": "Lundi 26 octobre, réunion annoncée par le gouvernement pour répondre aux revendications des lycéens et des étudiants, sur la base de la plateforme de concertation (AFP).",
+  "src": [
+   "e1cgt21"
   ]
  }
 ]
