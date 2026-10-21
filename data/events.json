@@ -110,6 +110,10 @@
    [
     "21 oct. matin",
     "Sébastien Lecornu reçoit les syndicats à Matignon mercredi matin : sécurisation des cortèges et réponses aux lycéens sont au menu (AFP). Dans un télégramme du 19 octobre révélé par le JDD, Laurent Nuñez demande aux préfets d'interdire les manifestations à risque prévues samedi 24 octobre « lorsque le dialogue avec les organisateurs n'aura pas permis de créer les conditions de sécurité nécessaires », sans interdiction générale ; parcours éloignés des bâtiments publics et des rues commerçantes à privilégier. Aucun bilan national de la nuit de mardi à mercredi n'était publié à 7 h."
+   ],
+   [
+    "21 oct. midi",
+    "Sébastien Lecornu reçoit à Matignon les cinq syndicats représentatifs (CFDT, CGT, FO, CFTC, CFE-CGC), en présence de Laurent Nuñez ; lycéens et étudiants ne sont pas conviés (LCP). Selon Matignon, il s'agit de garantir la liberté de manifester ; les syndicats veulent aussi parler pouvoir d'achat et coût de l'énergie, et la CFDT refuse de recevoir « une leçon de responsabilité ». La nuit de mardi à mercredi a été décrite comme plutôt calme dans les grandes villes ; à Paris, couvre-feu de 23 h à 6 h autour de République et des Halles (Europe 1). Les partis sont reçus jeudi."
    ]
   ],
   "spots": [
@@ -284,7 +288,9 @@
    "euro20sec",
    "boursolec21",
    "jddnunez",
-   "finunez24"
+   "finunez24",
+   "lcp21",
+   "e1live20"
   ],
   "photos": [
    {
@@ -1613,6 +1619,10 @@
    [
     "20 oct. nuit",
     "Le Conseil des ministres adopte le décret-loi : nouveau délit de « participation violente à une manifestation » (2 à 5 ans de prison), 4 à 12 ans pour l'organisation ou la promotion de violences, y compris en ligne ; retenue préventive possible à partir de 16 ans ; amendes de 500 à 1 000 euros pour les parents de mineurs violents ; 500 militaires supplémentaires à Milan jusqu'au 31 décembre, sans pouvoirs de police judiciaire. Giorgia Meloni : « nessuno può minimizzare » ; des syndicats de police parlent de « dérive autoritaire » à propos de la présence militaire (ANSA)."
+   ],
+   [
+    "21 oct.",
+    "Deux rassemblements mercredi soir : la CGIL à 18 h 30 piazza della Scala pour la « cohésion sociale », sans l'UIL, et le parti Futuro Nazionale de Roberto Vannacci via Torino (MilanoToday)."
    ]
   ],
   "spots": [
@@ -1754,7 +1764,9 @@
    "msgdl20",
    "ansacgil",
    "ansadl20",
-   "ilpostdl20"
+   "ilpostdl20",
+   "cgilmi21",
+   "mitoday21"
   ],
   "photos": [
    {
@@ -2373,25 +2385,25 @@
   "cat": "emeute",
   "sev": 3,
   "live": true,
-  "date": "2026-10-20",
-  "title": "Huitième jour : les enseignants rejoignent les étudiants",
+  "date": "2026-10-21",
+  "title": "Neuf jours de mobilisation, 320 blessés",
   "summary": "Parti des étudiants (coût des études) et de la vente d'une partie du littoral à un projet de luxe lié à Jared Kushner, le mouvement réclame de meilleures conditions d'études, des emplois et la démission du Premier ministre. Heurts devant le ministère de l'Éducation et autour du bureau d'Edi Rama ; balles en caoutchouc, canons à eau et gaz lacrymogènes. Rama refuse de démissionner, évoque une « main étrangère » et un risque pour l'adhésion à l'UE.",
   "figs": [
    [
-    "272",
-    "blessés depuis mardi, dont 169 policiers (ministère de la Santé)"
+    "320",
+    "blessés en 9 jours, dont 192 policiers et 92 manifestants (ministère de la Santé)"
    ],
    [
-    "65",
-    "blessés samedi, dont 37 policiers"
+    "36",
+    "passants blessés, dont 6 journalistes"
+   ],
+   [
+    "9",
+    "personnes encore hospitalisées"
    ],
    [
     "167",
     "arrestations en 5 jours"
-   ],
-   [
-    "10",
-    "policiers blessés le 19 (police)"
    ]
   ],
   "spots": [
@@ -2449,7 +2461,10 @@
    "topch19",
    "topch68",
    "eunal20",
-   "reptir20"
+   "reptir20",
+   "eual21",
+   "portalb21",
+   "boldtir21"
   ],
   "photos": [
    {
@@ -2490,6 +2505,10 @@
    [
     "20 oct.",
     "Huitième journée : des enseignants rejoignent le mouvement. Vers 10 h, le cortège gagne la Primature, renverse les chaises disposées par Edi Rama en signe d'invitation au dialogue et affiche des photos des heurts avec la police ; « pas de dialogue sans démission », scandent les manifestants. Rassemblement calme à la mi-journée selon Euronews Albania."
+   ],
+   [
+    "21 oct.",
+    "Neuvième jour : un nouveau groupe d'étudiants rejoint la marche vers la Primature en réclamant la démission d'Edi Rama (BoldNews). Selon le ministère de la Santé, 320 personnes ont été blessées depuis le 13 octobre : 192 policiers, 92 manifestants et 36 passants, dont 6 représentants des médias (Euronews Albania)."
    ]
   ],
   "zoom": 12000
@@ -2503,7 +2522,7 @@
   "cat": "manif",
   "sev": 1,
   "live": true,
-  "date": "2026-10-19",
+  "date": "2026-10-21",
   "t": "2026-10-16T12:00",
   "ta": true,
   "title": "Les étudiants avant les législatives anticipées",
@@ -2516,7 +2535,9 @@
    "intelliser",
    "vremeserb",
    "wpserb19",
-   "ansaserb22"
+   "ansaserb22",
+   "novaslav",
+   "mojns21"
   ],
   "tl": [
    [
@@ -2526,6 +2547,10 @@
    [
     "19 oct.",
     "Le grand rassemblement de clôture de la liste étudiante est prévu jeudi 22 octobre place Slavija."
+   ],
+   [
+    "21 oct.",
+    "Les colonnes de marcheurs venues de Zaječar, de l'ouest de la Serbie et de Novi Sad doivent se rejoindre mercredi soir place des Étudiants (Studentski trg) à Belgrade, avant le rassemblement de clôture de jeudi à 18 h place Slavija."
    ]
   ]
  },
@@ -2620,7 +2645,7 @@
   "cat": "frappe",
   "sev": 2,
   "live": true,
-  "date": "2026-10-19",
+  "date": "2026-10-21",
   "title": "Nouvelle nuit de frappes sur la capitale",
   "summary": "Dans la nuit du 18 au 19 octobre, missiles et drones russes touchent trois arrondissements de Kyiv : 1 mort et 8 blessés selon les autorités locales ; un établissement médical, une station de métro, des écoles et un équipement sportif endommagés. La nuit précédente, une autre attaque avait fait 1 morte et 3 blessés. Moscou dit avoir visé une usine liée à l'industrie militaire dans la région.",
   "src": [
@@ -2631,7 +2656,9 @@
    "pravda18",
    "abckyiv19",
    "kpkyiv19",
-   "pbskyiv19"
+   "pbskyiv19",
+   "printua21",
+   "anua21"
   ],
   "t": "2026-10-14T12:00",
   "ta": true,
@@ -2680,6 +2707,10 @@
    [
     "19 oct.",
     "Selon Volodymyr Zelensky, plus de 10 installations énergétiques touchées dans le pays, plus d'un demi-million de personnes privées d'électricité, de chauffage et d'eau ; 16 missiles balistiques ont visé Kyiv et sa région. Le ministère russe de la Défense dit avoir visé un centre de données, un dépôt logistique de drones et de missiles et une usine de composants. Kyiv dit ne pas avoir reçu d'alerte préalable de ses partenaires."
+   ],
+   [
+    "21 oct. nuit",
+    "Nouvelle vague de frappes russes visant notamment des installations énergétiques dans les régions de Kyiv, de Volhynie, d'Odessa et de Mykolaïv. À Kyiv, un drone touche un immeuble de 24 étages : deux morts selon l'AFP. Le Premier ministre ukrainien fait état de quatre morts dans le pays (Reuters)."
    ]
   ]
  },
@@ -2720,7 +2751,9 @@
    "toi20",
    "aawsat20",
    "marinelink20",
-   "gulf21"
+   "gulf21",
+   "mmhormuz21",
+   "rigzone21"
   ],
   "t": "2026-10-16T12:00",
   "ta": true,
@@ -2744,6 +2777,10 @@
    [
     "21 oct. nuit",
     "Les Gardiens de la révolution affirment qu'un pétrolier transportant plus de 2 millions de barils a heurté une mine au sud du détroit après avoir ignoré leurs avertissements ; pas de confirmation indépendante. Le ministre Abbas Araghchi dit que le détroit restera fermé tant que Washington n'acceptera pas un plan en sept jours ; Téhéran pose sept conditions avant toute négociation, dont un cessez-le-feu régional et la levée des sanctions pétrolières. Selon Fox News, citant deux responsables américains, le porte-avions Theodore Roosevelt et la 13e unité expéditionnaire des Marines doivent arriver d'ici fin novembre (environ 10 000 militaires)."
+   ],
+   [
+    "21 oct.",
+    "Les Gardiens de la révolution affirment désormais que leurs mines ont stoppé trois pétroliers, dont deux « incendiés », sur une route du sud du détroit qu'ils jugent illégale ; aucune vérification indépendante (AFP). Selon des données compilées par Bloomberg, au moins 23 incidents visant des navires ont été recensés dans la zone pendant les deux premières semaines d'octobre ; le secrétaire américain à l'Énergie Chris Wright estime le trafic à environ 80 % de la normale."
    ]
   ]
  },
@@ -2810,7 +2847,8 @@
    "toi18",
    "apshabwa20",
    "toi20",
-   "gulf21"
+   "gulf21",
+   "printmedine21"
   ],
   "t": "2026-10-14T12:00",
   "ta": true,
@@ -2826,6 +2864,10 @@
    [
     "21 oct. nuit",
     "La coalition menée par l'Arabie saoudite dit avoir intercepté et détruit un drone au-dessus de la région de Riyad. La veille, le Future Investment Initiative, grand forum économique de Riyad, a été reporté à 2027 en raison des attaques houthies répétées (AFP)."
+   ],
+   [
+    "21 oct.",
+    "La coalition dit avoir intercepté des drones au-dessus de Médine et de la région orientale ; le porte-parole militaire houthi Yahya Saree dément toute opération contre l'Arabie saoudite mercredi (Reuters)."
    ]
   ]
  },
@@ -4833,7 +4875,7 @@
   "cat": "emeute",
   "sev": 2,
   "live": true,
-  "date": "2026-10-20",
+  "date": "2026-10-21",
   "t": "2026-10-18T22:00",
   "ta": true,
   "zoom": 400,
@@ -4931,7 +4973,8 @@
    "rcimqducos",
    "antillacf",
    "la1erecf",
-   "etvcf"
+   "etvcf",
+   "zayducos21"
   ],
   "tl": [
    [
@@ -4957,6 +5000,10 @@
    [
     "20 oct. soir",
     "Le préfet Étienne Desplanques instaure un couvre-feu de 22 h à 5 h, pour les majeurs comme pour les mineurs, à Fort-de-France, au Lamentin, à Schœlcher, à Ducos, à Saint-Joseph et au Robert, pour deux nuits à partir de mardi soir ; amende de 750 euros en cas d'infraction. Le périmètre pourra être modifié."
+   ],
+   [
+    "20-21 oct. nuit",
+    "Première nuit de couvre-feu : nouveaux barrages dans plusieurs communes et véhicules incendiés sur le parking d'une concession au Lamentin, selon Zayactu (bilan officiel non publié). À Ducos, trois adolescents blessés par balle vers 21 h 30 près du stade, dont un en urgence absolue ; les circonstances sont indéterminées et aucun lien avec les violences urbaines n'est établi à ce stade."
    ]
   ]
  },
@@ -5901,7 +5948,7 @@
   "t": "2026-10-21T02:00",
   "ta": true,
   "title": "Drones sur des maisons : deux morts",
-  "summary": "Dans la nuit du 20 au 21 octobre, une attaque de drones russes a touché des maisons individuelles près de Kharkiv, faisant deux morts selon le gouverneur régional Oleh Synehoubov. Bilan provisoire.",
+  "summary": "Dans la nuit du 20 au 21 octobre, une attaque de drones russes a touché des maisons individuelles près de Kharkiv : un couple de 81 et 83 ans retrouvé mort sous les décombres, selon les autorités régionales citées par l'AFP.",
   "figs": [
    [
     "2",
@@ -5916,7 +5963,34 @@
   ],
   "spots": [],
   "src": [
-   "kharkiv21"
+   "kharkiv21",
+   "anua21"
+  ]
+ },
+ {
+  "id": "krementchouk",
+  "place": "Krementchouk",
+  "country": "Ukraine",
+  "lon": 33.4167,
+  "lat": 49.0659,
+  "cat": "frappe",
+  "sev": 1,
+  "live": false,
+  "date": "2026-10-21",
+  "t": "2026-10-21T03:00",
+  "ta": true,
+  "title": "Un bâtiment universitaire touché",
+  "summary": "Lors de la vague de frappes russes de la nuit du 20 au 21 octobre, un bâtiment universitaire a été touché à Krementchouk, dans le centre de l'Ukraine, selon l'AFP. Pas de bilan humain communiqué.",
+  "figs": [],
+  "tl": [
+   [
+    "21 oct. nuit",
+    "Un bâtiment universitaire touché lors de frappes russes (AFP)."
+   ]
+  ],
+  "spots": [],
+  "src": [
+   "anua21"
   ]
  }
 ]

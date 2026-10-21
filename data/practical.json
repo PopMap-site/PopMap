@@ -217,19 +217,6 @@
   ]
  },
  {
-  "id": "a-strasbourg19",
-  "kind": "agenda",
-  "place": "Strasbourg · place de l'Étoile",
-  "lon": 7.756,
-  "lat": 48.578,
-  "t": "2026-10-19T12:00",
-  "title": "Rassemblement républicain",
-  "text": "Lundi 19 octobre à midi devant le centre administratif, à l'appel de l'Association des maires de France.",
-  "src": [
-   "strasm"
-  ]
- },
- {
   "id": "a-midterms",
   "kind": "agenda",
   "place": "États-Unis",
@@ -542,11 +529,12 @@
   "t": "2026-10-21T09:00",
   "ta": true,
   "title": "Le Premier ministre reçoit les syndicats",
-  "text": "Mercredi 21 octobre au matin, Sébastien Lecornu reçoit les organisations syndicales après les violences du week-end : sécurisation des cortèges et réponses aux lycéens au menu, selon l'AFP.",
+  "text": "Mercredi 21 octobre au matin, Sébastien Lecornu reçoit les cinq syndicats représentatifs (CFDT, CGT, FO, CFTC, CFE-CGC) avec le ministre de l'Intérieur Laurent Nuñez, sans les organisations lycéennes et étudiantes : liberté de manifester, sécurisation des cortèges, pouvoir d'achat. Le ministre du Travail doit poursuivre les échanges dans les prochaines semaines.",
   "src": [
    "lalibre20",
    "boursolec21",
-   "fimatignon21"
+   "fimatignon21",
+   "lcp21"
   ]
  },
  {
@@ -595,7 +583,8 @@
    "tovima21",
    "greekrep21",
    "proto21",
-   "ktg21"
+   "ktg21",
+   "gct21"
   ]
  },
  {
@@ -604,11 +593,12 @@
   "place": "Milan · piazza della Scala",
   "lon": 9.1897,
   "lat": 45.4673,
-  "t": "2026-10-21T18:00",
+  "t": "2026-10-21T18:30",
   "title": "Rassemblement « Milano non vuole la violenza »",
   "text": "Mercredi 21 octobre à 18 h devant l'hôtel de ville, à l'appel de la CGIL, après les violences du week-end ; le maire Giuseppe Sala et le Parti démocrate annoncent leur participation.",
   "src": [
-   "ansacgil"
+   "ansacgil",
+   "cgilmi21"
   ]
  },
  {
