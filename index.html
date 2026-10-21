@@ -223,6 +223,28 @@ h3{font:600 11px/1 var(--f-mono);text-transform:uppercase;letter-spacing:.08em;c
 .real a{display:inline-flex;gap:6px;align-items:center;font-size:13px;color:var(--ink);text-decoration:none;border:1px solid var(--line);border-radius:999px;padding:6px 10px}
 .real a b{font:600 10.5px var(--f-mono);text-transform:uppercase;color:var(--c-guerre)}
 .posts{display:flex;flex-direction:column;gap:8px}
+.tabs{flex:none;display:flex;gap:2px;border-bottom:1px solid var(--line);margin-top:4px;overflow-x:auto;scrollbar-width:none}
+.tabs button{all:unset;cursor:pointer;flex:none;padding:9px 12px;font:600 13.5px var(--f-body);color:var(--muted);border-bottom:2px solid transparent;margin-bottom:-1px}
+.tabs button[aria-selected="true"]{color:var(--ink);border-bottom-color:var(--c-guerre)}
+.tabs button span{font:600 11px var(--f-mono);color:var(--muted);margin-left:4px}
+.tabs button:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+.tabp{flex:none;display:flex;flex-direction:column;gap:8px}
+.tabp[hidden]{display:none}
+.press{display:flex;flex-direction:column;gap:2px}
+.press a{display:flex;flex-direction:column;gap:2px;padding:8px 10px;border-radius:8px;text-decoration:none;color:var(--ink);font-size:13.5px;line-height:1.35}
+.press a:hover{background:var(--bg)}
+.press b{font:600 10.5px var(--f-mono);text-transform:uppercase;letter-spacing:.05em;color:var(--accent)}
+.phgrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px}
+.phgrid button{all:unset;cursor:pointer;aspect-ratio:1;border-radius:8px;overflow:hidden;background:var(--bg)}
+.phgrid img{width:100%;height:100%;object-fit:cover;display:block}
+.phgrid button:focus-visible{outline:2px solid var(--accent)}
+.post .av.av-v{background:var(--ink);color:var(--card);font-size:13px}
+.empty{font-size:13px;color:var(--muted)}
+.jump{flex:none;display:flex;gap:6px;flex-wrap:wrap;margin-top:-4px}
+.jump button{all:unset;cursor:pointer;font:600 12.5px var(--f-body);color:var(--ink);padding:6px 11px;border:1px solid var(--line);border-radius:999px}
+.jump button:hover{border-color:var(--ink)}
+.jump button:focus-visible{outline:2px solid var(--accent)}
+.jump span{font:600 10.5px var(--f-mono);color:var(--muted);margin-left:5px}
 .post{display:grid;grid-template-columns:38px minmax(0,1fr);gap:4px 10px;padding:10px 12px;border:1px solid var(--line);border-radius:10px;background:var(--bg);color:var(--ink);text-decoration:none}
 .post:hover{border-color:var(--ink)}
 .post .av{grid-row:span 2;width:38px;height:38px;border-radius:50%;display:grid;place-items:center;font:700 11px var(--f-mono);color:#fff;background:linear-gradient(135deg,#f58529,#dd2a7b 50%,#8134af)}
@@ -499,6 +521,25 @@ panel.addEventListener("click",ev=>{const h=ev.target.closest("[data-radio]");if
  const srcK=selSpot?(()=>{const s=(e.spots||[])[+selSpot.slice(e.id.length)];return e.place+"|"+s.n+"|"+(s.d||"")})():e.place+"|"+(e.title||"")+"|"+(e.summary||"");
  const a=AUD&&AUD[key];
  if(a&&a.src===srcK)RADIO.playFile(key,"audio/"+a.h+".mp3",btn,()=>RADIO.play(key,txt,btn));else RADIO.play(key,txt,btn)});
+/* ---------- onglets Presse / Photos / Vidéos ---------- */
+const tabSel={};
+const host=u=>{try{return new URL(u).hostname.replace(/^(www|m|fr|en)\./,"")}catch(_){return""}};
+const isVid=m=>/vid|reel|film|docu|reportage|replay|direct/i.test(m[0]),isPho=m=>/photo|image|galerie/i.test(m[0]);
+const postCard=p=>`<a class="post" href="${p.u}" target="_blank" rel="noopener"><span class="av">${p.ini}</span><span class="pb"><b>${p.who}</b><span>${p.txt}</span></span><span class="pv">Voir le post ↗</span></a>`;
+function tabs(e,o={}){const media=e.media||[],posts=e.posts||[],ph=e.photos||[];
+  const press=e.src.filter(k=>S[k]).map(k=>S[k]).concat(media.filter(m=>!isVid(m)&&!isPho(m)).map(m=>({t:m[1]+" · "+m[0],u:m[2]})));
+  const phL=media.filter(isPho),vL=media.filter(isVid),nW=o.nwit||0;
+  const T=[["presse","Presse",press.length],["photos","Photos",ph.length+phL.length],["videos","Vidéos",nW+vL.length+posts.length]].filter(t=>t[2]||(t[0]==="videos"&&o.send));
+  if(!T.length)return"";
+  let cur=tabSel[e.id];if(!T.some(t=>t[0]===cur))cur=T.find(t=>t[0]==="videos"&&t[2])?"videos":T[0][0];
+  const pane={
+   presse:()=>`<div class="press">${press.map(s=>`<a href="${s.u}" target="_blank" rel="noopener"><b>${host(s.u)}</b><span>${s.t} ↗</span></a>`).join("")}</div>`,
+   photos:()=>`${ph.length?`<div class="phgrid">${ph.map((p,i)=>`<button data-ph="${i}" aria-label="Afficher la photo en haut de la fiche"><img src="${p.f}" alt="${p.cap}" loading="lazy"></button>`).join("")}</div><p class="note">Photos sous licence libre, crédit sous chaque photo.</p>`:""}${phL.length?`<div class="real"><span>Chez les médias</span>${phL.map(m=>`<a href="${m[2]}" target="_blank" rel="noopener"><b>${m[0]}</b>${m[1]} ↗</a>`).join("")}</div>`:""}`,
+   videos:()=>`${o.wit||""}${vL.map(m=>`<a class="post" href="${m[2]}" target="_blank" rel="noopener"><span class="av av-v">▶</span><span class="pb"><b>${m[1]}</b><span>${m[0]}</span></span><span class="pv">Voir la vidéo ↗</span></a>`).join("")}${posts.map(postCard).join("")}${!(nW+vL.length+posts.length)?`<p class="empty">Pas encore de vidéo sur cette fiche.</p>`:""}${o.send?`<button class="btn" id="sendv">Tu es sur place ? Envoyer une vidéo →</button>`:""}`};
+  return`<div class="tabs" role="tablist" aria-label="Presse, photos et vidéos">${T.map(t=>`<button role="tab" data-tab="${t[0]}" aria-selected="${t[0]===cur}">${t[1]}${t[2]?`<span>${t[2]}</span>`:""}</button>`).join("")}</div>${T.map(t=>`<div class="tabp" role="tabpanel" data-pane="${t[0]}"${t[0]===cur?"":" hidden"}>${pane[t[0]]()}</div>`).join("")}`}
+function wireTabs(e){panel.querySelectorAll("[data-tab]").forEach(b=>b.onclick=()=>{tabSel[e.id]=b.dataset.tab;panel.querySelectorAll("[data-tab]").forEach(x=>x.setAttribute("aria-selected",x===b));panel.querySelectorAll("[data-pane]").forEach(p=>p.hidden=p.dataset.pane!==b.dataset.tab)});
+  panel.querySelectorAll("[data-ph]").forEach(b=>b.onclick=()=>{phIdx=+b.dataset.ph;tabSel[e.id]="photos";select(e.id,null,false);panel.scrollTop=0})
+  const tb=panel.querySelector(".tabs"),h2=panel.querySelector("h2");if(tb&&h2){const r=document.createElement("div");r.className="jump";r.setAttribute("aria-label","Aller à la presse, aux photos ou aux vidéos");[...tb.children].forEach(t=>{const x=document.createElement("button");x.innerHTML=t.innerHTML;x.onclick=()=>{t.click();tb.scrollIntoView({behavior:reduce?"auto":"smooth",block:"start"})};r.appendChild(x)});h2.after(r)}}
 function select(id,spotKey,move=true){RADIO.stop();
   selected=id;selSpot=spotKey||null;selPrac=null;const e=EVENTS.find(x=>x.id===id),c=col(e.cat);
   if(lastId!==id){phIdx=0;lastId=id}
@@ -520,20 +561,18 @@ function select(id,spotKey,move=true){RADIO.stop();
    <div class="kicker"><span class="pill" style="background:${c}">${CATS[e.cat].label}</span><span class="sev" title="Intensité ${e.sev}/3">${[1,2,3].map(i=>`<b class="${i<=e.sev?"on":""}"></b>`).join("")}</span>${trust(e)}</div>
    <div class="kicker">${e.country} · ${e.t?(()=>{const x=dt(e.t,e.ta);return x.day+(e.ta?"":" · "+x.h)})():fmt(e.date)}${e.live?" · en cours":""}</div>
    <h2 data-radio>${e.place}${1?`<button class="radio-btn" aria-label="Écouter en version radio"><svg viewBox="0 0 16 16" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="1.5" y="5.5" width="13" height="8.5" rx="1.8"/><path d="M4 5.5L11 2"/><circle cx="10.5" cy="9.7" r="2"/><path d="M3.8 8.5h3M3.8 11h3"/></svg>Radio</button>`:""}</h2>
-   ${e.posts?`<div class="posts">${e.posts.map(p=>`<a class="post" href="${p.u}" target="_blank" rel="noopener"><span class="av">${p.ini}</span><span class="pb"><b>${p.who}</b><span>${p.txt}</span></span><span class="pv">Voir le post ↗</span></a>`).join("")}</div>`:""}
-   ${e.media?`<div class="real"><span>Voir en vrai</span>${e.media.map(m=>`<a href="${m[2]}" target="_blank" rel="noopener"><b>${m[0]}</b>${m[1]} ↗</a>`).join("")}</div>`:""}
    <p><strong>${e.title}.</strong> ${e.summary}</p>
    ${e.figs?`<div class="figs">${e.figs.map(f=>`<div class="fig"><b>${f[0]}</b><span>${f[1]}</span></div>`).join("")}</div>`:""}
    ${e.tl?`<h3>Chronologie</h3><ol class="tl">${e.tl.map(t=>`<li><time>${t[0]}</time><span>${t[1]}</span></li>`).join("")}</ol>`:""}
    ${near.length?`<h3>Points chauds · touche pour zoomer</h3><div class="spots">${near.map((s,i)=>`<button data-i="${i}" ${spotKey===id+i?'aria-current="true"':""}><i style="background:${c}"></i><span>${s.n}<small>${s.d}</small></span><em>${s.t?dt(s.t,s.ta).h:""}</em></button>`).join("")}</div>`:""}
    <button class="btn" id="zoomto">${e.zoom?"Voir les rues →":"Centrer sur la carte →"}</button>
-   ${vidsFor(e.id)}<button class="btn" id="sendv">Tu es sur place ? Envoyer une vidéo →</button>
-   ${srcs(e.src)}${rep(e.place)}<p class="note">${META.note}</p>`;
+   ${tabs(e,{wit:vidsFor(e.id),nwit:VIDS.filter(x=>x.ev===e.id).length,send:true})}
+   ${rep(e.place)}<p class="note">${META.note}</p>`;
   panel.querySelector(".close").onclick=closePanel;
   panel.querySelectorAll(".spots button").forEach(b=>b.onclick=()=>select(id,id+b.dataset.i));
   panel.querySelector(".prev")?.addEventListener("click",()=>{phIdx=(phIdx+e.photos.length-1)%e.photos.length;select(id,selSpot,false)});
   panel.querySelector(".next")?.addEventListener("click",()=>{phIdx=(phIdx+1)%e.photos.length;select(id,selSpot,false)});
-  panel.querySelector("#sendv").onclick=()=>openVideo(id);
+  panel.querySelector("#sendv")?.addEventListener("click",()=>openVideo(id));wireTabs(e);
   panel.querySelector("#zoomto").onclick=()=>fly(e.lon,e.lat,e.zoom||Math.max(ppd(),30));
   open("event");render();
   if(move){const sp=spotKey?near[+spotKey.slice(id.length)]:null;requestAnimationFrame(()=>fly(sp?sp.lon:e.lon,sp?sp.lat:e.lat,Math.max(ppd(),sp?(e.zoom||9000)*1.2:(e.zoom?Math.min(e.zoom,40):Math.min(Math.max(ppd(),14),40)))))}
