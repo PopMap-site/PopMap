@@ -8,7 +8,7 @@
   "cat": "emeute",
   "sev": 3,
   "live": true,
-  "date": "2026-10-20",
+  "date": "2026-10-21",
   "zoom": 5000,
   "title": "Paris sous tension depuis le 17-octobre",
   "summary": "Journée nationale contre la vie chère, dans la foulée du mouvement lycéen : 110 000 manifestants à Paris selon l'Intérieur. Le cortège autorisé République–Clichy est resté calme, mais des groupes masqués ont multiplié les heurts autour. Cortèges sauvages vers l'Élysée, barricades sur les Champs-Élysées, voitures brûlées, pillages, stations de métro fermées. Dès 7 h, le siège de CNews et Europe 1 avait été visé par une centaine d'individus cagoulés. Nouveaux affrontements dimanche à République ; allocution d'Emmanuel Macron dimanche soir.",
@@ -106,6 +106,10 @@
    [
     "20 oct. soir",
     "Sébastien Lecornu annonce un dispositif de sécurité « massif » pour samedi 24 octobre. Devant le Parlement, Laurent Nuñez indique que des militaires de l'opération Sentinelle prendront le relais des policiers et gendarmes sur les gardes statiques, et envisage d'interdire les manifestations non déclarées jugées à risque ; les parcours éloignés des bâtiments publics et des grandes artères seraient privilégiés (AFP)."
+   ],
+   [
+    "21 oct. matin",
+    "Sébastien Lecornu reçoit les syndicats à Matignon mercredi matin : sécurisation des cortèges et réponses aux lycéens sont au menu (AFP). Dans un télégramme du 19 octobre révélé par le JDD, Laurent Nuñez demande aux préfets d'interdire les manifestations à risque prévues samedi 24 octobre « lorsque le dialogue avec les organisateurs n'aura pas permis de créer les conditions de sécurité nécessaires », sans interdiction générale ; parcours éloignés des bâtiments publics et des rues commerçantes à privilégier. Aucun bilan national de la nuit de mardi à mercredi n'était publié à 7 h."
    ]
   ],
   "spots": [
@@ -277,7 +281,10 @@
    "lcpcenq20",
    "actu17cf20",
    "icipcf20",
-   "euro20sec"
+   "euro20sec",
+   "boursolec21",
+   "jddnunez",
+   "finunez24"
   ],
   "photos": [
    {
@@ -844,7 +851,7 @@
   "cat": "emeute",
   "sev": 2,
   "live": false,
-  "date": "2026-10-17",
+  "date": "2026-10-20",
   "title": "Jusqu'à 2 000 personnes dans les heurts",
   "summary": "32 000 manifestants selon la préfecture (près de 80 000 selon les syndicats). Le préfet estime que 1 500 à 2 000 personnes ont participé aux affrontements et dégradations.",
   "figs": [
@@ -862,7 +869,9 @@
    "clep",
    "icitls",
    "icitls18",
-   "onemedia"
+   "onemedia",
+   "tlsecf",
+   "f3tlsecf"
   ],
   "t": "2026-10-17T15:00",
   "ta": true,
@@ -892,6 +901,10 @@
    [
     "18 oct.",
     "Nouveaux affrontements en centre-ville au lendemain de la manifestation."
+   ],
+   [
+    "20 oct.",
+    "Le préfet de Haute-Garonne Fabrice Rigoulet-Roze instaure un couvre-feu pour tout le public dans l'hypercentre (place du Capitole, rues Saint-Rome, des Changes, d'Alsace-Lorraine, de Rémusat, place Esquirol), de minuit à 5 h, à partir de la nuit de jeudi 22 octobre et jusqu'au dimanche 25. La préfecture invoque la « forte probabilité » d'une répétition des violences du 17, où une trentaine de commerces avaient été dégradés, dont une dizaine pillés."
    ]
   ]
  },
@@ -1596,6 +1609,10 @@
    [
     "20 oct. soir",
     "Le Conseil des ministres s'ouvre au Palazzo Chigi sur le décret-loi. Selon Il Fatto Quotidiano et Il Messaggero, la retenue préventive des mineurs devrait sortir du texte après des échanges avec la présidence de la République, et la piste de pouvoirs de police judiciaire pour les militaires est écartée. La CGIL appelle à un rassemblement « Milano non vuole la violenza » mercredi à 18 h piazza della Scala, avec le maire Giuseppe Sala (ANSA)."
+   ],
+   [
+    "20 oct. nuit",
+    "Le Conseil des ministres adopte le décret-loi : nouveau délit de « participation violente à une manifestation » (2 à 5 ans de prison), 4 à 12 ans pour l'organisation ou la promotion de violences, y compris en ligne ; retenue préventive possible à partir de 16 ans ; amendes de 500 à 1 000 euros pour les parents de mineurs violents ; 500 militaires supplémentaires à Milan jusqu'au 31 décembre, sans pouvoirs de police judiciaire. Giorgia Meloni : « nessuno può minimizzare » ; des syndicats de police parlent de « dérive autoritaire » à propos de la présence militaire (ANSA)."
    ]
   ],
   "spots": [
@@ -1735,7 +1752,9 @@
    "gdscdm20",
    "fqdl20",
    "msgdl20",
-   "ansacgil"
+   "ansacgil",
+   "ansadl20",
+   "ilpostdl20"
   ],
   "photos": [
    {
@@ -2074,7 +2093,8 @@
    "exdig20",
    "mundolus20",
    "rrlx20",
-   "dnpsp20"
+   "dnpsp20",
+   "dnrossio20"
   ],
   "t": "2026-10-17T14:30",
   "ta": false,
@@ -2098,6 +2118,10 @@
    [
     "20 oct. après-midi",
     "Selon Renascença, l'opération du Rossio a fait deux blessés. Le gouvernement salue l'action de la PSP ; les manifestants annoncent vouloir revenir « tous les jours » à 19 h."
+   ],
+   [
+    "20 oct. soir",
+    "Des milliers de personnes se rassemblent de nouveau au Rossio selon le Diário de Notícias. Les 55 personnes interpellées à l'aube ont été libérées et doivent comparaître mercredi. Le maire Carlos Moedas juge l'intervention de la PSP « proportionnée » et condamne des dégradations sur la statue de Dom Pedro IV ; le collectif Acampada Lisboa dénonce des détentions arbitraires."
    ]
   ],
   "figs": [
@@ -2131,7 +2155,8 @@
    "rrlx19",
    "eco20",
    "nam20",
-   "exdig20"
+   "exdig20",
+   "dnrossio20"
   ],
   "t": "2026-10-17T10:30",
   "ta": false,
@@ -2169,6 +2194,10 @@
    [
     "20 oct.",
     "Nouveau rassemblement annoncé à 19 h place D. João I ; le mouvement a déposé un préavis de manifestation du 21 octobre au 31 décembre."
+   ],
+   [
+    "20 oct. soir",
+    "Plus d'un millier de manifestants portent la protestation devant l'hôtel de ville, selon le Diário de Notícias."
    ]
   ],
   "zoom": 12000
@@ -2663,7 +2692,7 @@
   "cat": "guerre",
   "sev": 3,
   "live": true,
-  "date": "2026-10-20",
+  "date": "2026-10-21",
   "title": "Guerre d'Iran : la bataille du détroit",
   "summary": "Guerre ouverte depuis l'offensive américaine du 28 février. Washington maintient un blocus des ports iraniens ; Washington et Téhéran revendiquent chacun le contrôle du détroit. Au moins 12 navires attaqués la semaine du 16 octobre selon l'agence britannique UKMTO (un coulé, deux immobilisés), un supertanker en feu après une mine selon les Gardiens de la révolution, un remorqueur touché le 18. Le flux pétrolier est tombé à environ 68 % du niveau d'avant-guerre ; le Brent a touché 110 $. L'Iran propose une réouverture du détroit en six jours puis des négociations, contre la levée du blocus.",
   "figs": [
@@ -2690,7 +2719,8 @@
    "foxiran19",
    "toi20",
    "aawsat20",
-   "marinelink20"
+   "marinelink20",
+   "gulf21"
   ],
   "t": "2026-10-16T12:00",
   "ta": true,
@@ -2710,6 +2740,10 @@
    [
     "20 oct.",
     "Selon Reuters, qui cite trois responsables iraniens, Téhéran ferait durer les discussions avec Washington pour peser sur les élections de mi-mandat du 3 novembre ; ni le ministère iranien des Affaires étrangères ni la Maison-Blanche n'ont répondu."
+   ],
+   [
+    "21 oct. nuit",
+    "Les Gardiens de la révolution affirment qu'un pétrolier transportant plus de 2 millions de barils a heurté une mine au sud du détroit après avoir ignoré leurs avertissements ; pas de confirmation indépendante. Le ministre Abbas Araghchi dit que le détroit restera fermé tant que Washington n'acceptera pas un plan en sept jours ; Téhéran pose sept conditions avant toute négociation, dont un cessez-le-feu régional et la levée des sanctions pétrolières. Selon Fox News, citant deux responsables américains, le porte-avions Theodore Roosevelt et la 13e unité expéditionnaire des Marines doivent arriver d'ici fin novembre (environ 10 000 militaires)."
    ]
   ]
  },
@@ -2722,7 +2756,7 @@
   "cat": "guerre",
   "sev": 2,
   "live": false,
-  "date": "2026-10-20",
+  "date": "2026-10-21",
   "title": "Menace de reprise des bombardements",
   "summary": "Le Pentagone a demandé de préparer une reprise des opérations majeures ; Trump a toutefois dit le 8 octobre ne pas frapper avant les midterms du 3 novembre, tout en menaçant un site nucléaire.",
   "src": [
@@ -2731,7 +2765,8 @@
    "fdd",
    "iranintl19",
    "toi20",
-   "apme20"
+   "apme20",
+   "gulf21"
   ],
   "t": "2026-10-16T12:00",
   "ta": true,
@@ -2743,6 +2778,10 @@
    [
     "20 oct.",
     "Benyamin Netanyahou dit avoir évoqué avec Donald Trump la nécessité d'éliminer le « régime terroriste » iranien et laisse entendre de nouvelles frappes ; à Téhéran, le président Massoud Pezeshkian reçoit le chef de l'armée pakistanaise Asim Munir pour parler de médiation (Times of Israel, AP)."
+   ],
+   [
+    "20-21 oct.",
+    "Le ministre américain de la Défense Pete Hegseth aurait rencontré Benyamin Netanyahou lors d'une visite non annoncée en Israël, selon Axios repris par Reuters ; il a confirmé une tournée régionale sans en préciser les étapes. Le secrétaire du Conseil suprême de sécurité nationale, Mohsen Rezaei, exclut tout transfert d'uranium enrichi hors d'Iran."
    ]
   ]
  },
@@ -2755,7 +2794,7 @@
   "cat": "frappe",
   "sev": 3,
   "live": true,
-  "date": "2026-10-20",
+  "date": "2026-10-21",
   "title": "Les Houthis frappent l'aéroport",
   "summary": "Pire attaque sur le sol saoudien depuis 2015 : une frappe sur l'aéroport de la capitale a fait 13 morts.",
   "figs": [
@@ -2770,7 +2809,8 @@
    "cbsiran",
    "toi18",
    "apshabwa20",
-   "toi20"
+   "toi20",
+   "gulf21"
   ],
   "t": "2026-10-14T12:00",
   "ta": true,
@@ -2782,6 +2822,10 @@
    [
     "20 oct.",
     "Nouvelle alerte à Riyad : une explosion est entendue près de l'aéroport international King Khalid, dont les opérations sont suspendues ; l'Arabie saoudite dit avoir intercepté un missile balistique houthi (AP). Le Royaume-Uni annonce que des Typhoon de la RAF mèneront des missions défensives au-dessus du royaume, sans frappes offensives (Reuters)."
+   ],
+   [
+    "21 oct. nuit",
+    "La coalition menée par l'Arabie saoudite dit avoir intercepté et détruit un drone au-dessus de la région de Riyad. La veille, le Future Investment Initiative, grand forum économique de Riyad, a été reporté à 2027 en raison des attaques houthies répétées (AFP)."
    ]
   ]
  },
@@ -3070,7 +3114,7 @@
   "cat": "guerre",
   "sev": 3,
   "live": true,
-  "date": "2026-10-20",
+  "date": "2026-10-21",
   "title": "Un an de cessez-le-feu, des frappes presque quotidiennes",
   "summary": "Le cessez-le-feu du 10 octobre 2025 a un an, mais plus de 100 ONG (Amnesty, NRC, Save the Children, Oxfam) estiment qu'il n'existe « que de nom ». Selon le ministère de la Santé de Gaza, 1 493 Palestiniens ont été tués et 5 299 blessés depuis la trêve (au 12 octobre). Israël, qui contrôle près des deux tiers de la bande, a encore avancé sa « ligne jaune » dans des quartiers de Gaza City. Israël affirme viser des membres de groupes armés ; plusieurs de ces affirmations sont contestées et non vérifiées de façon indépendante. L'aide entre à environ un tiers du rythme prévu.",
   "src": [
@@ -3085,7 +3129,9 @@
    "aa20",
    "anews20",
    "haagaza20",
-   "apme20"
+   "apme20",
+   "malaygaza21",
+   "olj21"
   ],
   "t": "2026-10-12T12:00",
   "ta": true,
@@ -3140,6 +3186,10 @@
    [
     "20 oct. soir",
     "Au moins cinq Palestiniens tués dans la journée selon les autorités sanitaires citées par Haaretz, dont le couple de Gaza City et un adolescent de 17 ans abattu dans le sud. L'armée israélienne dit avoir visé un membre du Hamas dans l'appartement frappé à l'aube (AP) ; avec le Shin Bet, elle annonce avoir tué à Jabalia un membre du commando impliqué dans l'enlèvement de Shani Louk le 7 octobre 2023. Le Qatar, médiateur, estime qu'Israël n'est « pas un partenaire pour la paix »."
+   ],
+   [
+    "21 oct. matin",
+    "Bilan consolidé de mardi selon la Défense civile et les hôpitaux (AFP) : sept Palestiniens tués, dont deux hommes à al-Zawaida et Wadi Gaza (centre), une personne à Jabalia, un couple dans un immeuble d'al-Rimal près de l'hôpital al-Shifa et un adolescent dans le sud de Khan Younès. L'armée israélienne dit avoir tué dans l'immeuble d'al-Rimal un haut responsable de la sécurité générale du Hamas et vérifier les autres informations."
    ]
   ],
   "spots": [
@@ -3979,7 +4029,8 @@
    "rcigua19",
    "la1gua19",
    "mo50",
-   "etvgua20"
+   "etvgua20",
+   "la1rn1"
   ],
   "tl": [
    [
@@ -3989,6 +4040,10 @@
    [
     "19-20 oct. nuit",
     "Nuit relativement calme selon ETV : 13 interpellations, barrages vite levés, un seul point de blocage signalé sur la N2 à Basse-Terre. Un homicide à Sainte-Rose n'est pas lié aux mobilisations, selon les autorités."
+   ],
+   [
+    "20 oct.",
+    "Nouvelle action du collectif Nou Las Palé sur la RN1 mardi, provoquant des kilomètres de bouchons selon La 1ère."
    ]
   ]
  },
@@ -4873,7 +4928,10 @@
    "la1mq20",
    "zaymqtirs",
    "la1mqgign",
-   "rcimqducos"
+   "rcimqducos",
+   "antillacf",
+   "la1erecf",
+   "etvcf"
   ],
   "tl": [
    [
@@ -4895,6 +4953,10 @@
    [
     "20 oct.",
     "Bilan de la nuit du 19 au 20 : des gendarmes visés par des tirs à Ducos, sans blessé selon les autorités ; le GIGN est déployé. Six véhicules volés près des barrages, leurs conducteurs menacés par des armes ; huit commerces ou entreprises visés à Fort-de-France, au Lamentin, à Sainte-Marie et aux Trois-Îlets ; quatre interpellations en flagrant délit. Les grands axes sont rouverts dès 8 h. Le préfet réunit les maires mardi après-midi."
+   ],
+   [
+    "20 oct. soir",
+    "Le préfet Étienne Desplanques instaure un couvre-feu de 22 h à 5 h, pour les majeurs comme pour les mineurs, à Fort-de-France, au Lamentin, à Schœlcher, à Ducos, à Saint-Joseph et au Robert, pour deux nuits à partir de mardi soir ; amende de 750 euros en cas d'infraction. Le périmètre pourra être modifié."
    ]
   ]
  },
@@ -5824,6 +5886,37 @@
    "reuabyei",
    "apabyei",
    "eyeabyei"
+  ]
+ },
+ {
+  "id": "kharkivregion",
+  "place": "Région de Kharkiv",
+  "country": "Ukraine",
+  "lon": 36.2304,
+  "lat": 49.9935,
+  "cat": "frappe",
+  "sev": 2,
+  "live": false,
+  "date": "2026-10-21",
+  "t": "2026-10-21T02:00",
+  "ta": true,
+  "title": "Drones sur des maisons : deux morts",
+  "summary": "Dans la nuit du 20 au 21 octobre, une attaque de drones russes a touché des maisons individuelles près de Kharkiv, faisant deux morts selon le gouverneur régional Oleh Synehoubov. Bilan provisoire.",
+  "figs": [
+   [
+    "2",
+    "morts (gouverneur)"
+   ]
+  ],
+  "tl": [
+   [
+    "21 oct. nuit",
+    "Attaque de drones sur des maisons individuelles près de Kharkiv : deux morts selon le gouverneur Oleh Synehoubov (AFP)."
+   ]
+  ],
+  "spots": [],
+  "src": [
+   "kharkiv21"
   ]
  }
 ]

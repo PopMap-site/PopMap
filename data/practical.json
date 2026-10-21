@@ -356,9 +356,11 @@
   "t": "2026-10-22T10:00",
   "ta": true,
   "title": "Appel à manifester pour une date d'élection",
-  "text": "Jeudi 22 octobre, la plateforme liée à María Corina Machado appelle à manifester dans tout le pays pour obtenir une date d'élection présidentielle.",
+  "text": "Jeudi 22 octobre, Vente Venezuela, le parti de María Corina Machado, appelle à manifester dans tous les États du pays pour son retour, une date d'élection présidentielle (il soutient la proposition du 24 juillet 2027) et la libération des prisonniers politiques.",
   "src": [
-   "riovzla"
+   "riovzla",
+   "infobvz",
+   "eldiariovz"
   ]
  },
  {
@@ -400,12 +402,15 @@
   "t": "2026-10-24T14:00",
   "ta": true,
   "title": "« Acte II » des Gilets jaunes",
-  "text": "Samedi 24 octobre, nouvelle journée d'actions annoncée par la coordination des Gilets jaunes (76 actions recensées sur son site). Le gouvernement a évoqué des manifestations « encadrées voire interdites » ; consultez les arrêtés préfectoraux la veille. Mardi, Sébastien Lecornu a annoncé un dispositif de sécurité « massif » pour ce samedi, avec des militaires de l'opération Sentinelle sur les gardes statiques, selon l'AFP.",
+  "text": "Samedi 24 octobre, nouvelle journée d'actions annoncée par la coordination des Gilets jaunes (76 actions recensées sur son site). Le gouvernement a évoqué des manifestations « encadrées voire interdites » ; consultez les arrêtés préfectoraux la veille. Mardi, Sébastien Lecornu a annoncé un dispositif de sécurité « massif » pour ce samedi, avec des militaires de l'opération Sentinelle sur les gardes statiques, selon l'AFP. Dans un télégramme du 19 octobre, Laurent Nuñez demande aux préfets d'interdire les manifestations à risque lorsque le dialogue avec les organisateurs n'a pas permis de garantir la sécurité ; ce n'est pas une interdiction générale. BRI, GIGN, RAID, hélicoptères, blindés Centaure et canons à eau seront mobilisés.",
   "src": [
    "sudradio24",
    "f24acte2",
    "f3tlse24",
-   "euro20sec"
+   "euro20sec",
+   "jddnunez",
+   "finunez24",
+   "expxxl"
   ]
  },
  {
@@ -475,12 +480,12 @@
   "lon": 12.48,
   "lat": 41.901,
   "t": "2026-10-20T17:30",
-  "title": "Conseil des ministres sur l'ordre public",
-  "text": "Mardi 20 octobre à 17 h 30 : examen d'un décret-loi après les violences de Milan, Bologne et Turin (arrestation différée, interdiction de rassemblement pour les personnes jugées dangereuses, 500 militaires de « Strade sicure » à Milan). Selon la presse italienne, la retenue préventive des mineurs devrait finalement sortir du texte.",
+  "title": "Décret-loi sur l'ordre public adopté",
+  "text": "Mardi 20 octobre, le Conseil des ministres a adopté le décret-loi après les violences de Milan, Bologne et Turin : délit de « participation violente à une manifestation » (2 à 5 ans), retenue préventive dès 16 ans, amendes pour les parents de mineurs, 500 militaires supplémentaires à Milan jusqu'au 31 décembre.",
   "src": [
    "sussicdm",
-   "strettocdm",
-   "fqdl20"
+   "ansadl20",
+   "ilpostdl20"
   ]
  },
  {
@@ -537,9 +542,11 @@
   "t": "2026-10-21T09:00",
   "ta": true,
   "title": "Le Premier ministre reçoit les syndicats",
-  "text": "Mercredi 21 octobre au matin, Sébastien Lecornu reçoit les organisations syndicales après les violences du week-end.",
+  "text": "Mercredi 21 octobre au matin, Sébastien Lecornu reçoit les organisations syndicales après les violences du week-end : sécurisation des cortèges et réponses aux lycéens au menu, selon l'AFP.",
   "src": [
-   "lalibre20"
+   "lalibre20",
+   "boursolec21",
+   "fimatignon21"
   ]
  },
  {
@@ -567,11 +574,12 @@
   "until": "2026-10-24T05:00",
   "ta": true,
   "title": "Couvre-feu des mineurs 22 h – 5 h",
-  "text": "À partir de mardi 20 octobre et jusqu'à vendredi : mineurs interdits sur la voie publique de 22 h à 5 h dans l'hypercentre et autour de grands centres commerciaux, dont La Valentine. Périmètres précis publiés par la préfecture des Bouches-du-Rhône ; mesures similaires dans d'autres communes du département.",
+  "text": "À partir de mardi 20 octobre et jusqu'à vendredi : mineurs interdits sur la voie publique de 22 h à 5 h dans l'hypercentre et autour de grands centres commerciaux, dont La Valentine. Périmètres précis publiés par la préfecture des Bouches-du-Rhône ; mesures similaires dans d'autres communes du département. Aubagne, Cabriès et Les Pennes-Mirabeau sont aussi concernées, selon BFMTV.",
   "src": [
    "maritimacf20",
    "mimcf20",
-   "f3mrscf20"
+   "f3mrscf20",
+   "bfmcf20"
   ]
  },
  {
@@ -582,10 +590,12 @@
   "lat": 37.9803,
   "t": "2026-10-21T12:00",
   "title": "Grève des enseignants et marches d'élèves en Grèce",
-  "text": "Mercredi 21 octobre : grève de 24 h du primaire (DOE), arrêt de travail de 11 h à 14 h dans le secondaire (OLME). Rassemblement à midi devant les Propylées à Athènes, à 11 h 30 près de la statue de Venizélos à Thessalonique, et dans plus de 35 villes selon les organisations d'élèves. Fermetures de stations de métro du centre d'Athènes envisagées.",
+  "text": "Mercredi 21 octobre : grève de 24 h du primaire (DOE), arrêt de travail de 11 h à 14 h dans le secondaire (OLME), grève de la fonction publique (ADEDY) à partir de 11 h, grève des personnels de la Culture et des médecins hospitaliers. Rassemblements à midi aux Propylées puis marche vers le Parlement à Athènes, à 11 h 30 statue de Venizélos à Thessalonique, à 10 h 30 place Georgiou à Patras. Métro : station Panepistimio (Athènes) fermée dès 10 h ; à Thessalonique, cinq stations du centre fermées dès 9 h sur instruction de la police.",
   "src": [
    "tovima21",
-   "greekrep21"
+   "greekrep21",
+   "proto21",
+   "ktg21"
   ]
  },
  {
@@ -599,6 +609,38 @@
   "text": "Mercredi 21 octobre à 18 h devant l'hôtel de ville, à l'appel de la CGIL, après les violences du week-end ; le maire Giuseppe Sala et le Parti démocrate annoncent leur participation.",
   "src": [
    "ansacgil"
+  ]
+ },
+ {
+  "id": "p-toulouse-cf",
+  "kind": "interdiction",
+  "place": "Toulouse · hypercentre",
+  "lon": 1.4437,
+  "lat": 43.6045,
+  "t": "2026-10-22T23:59",
+  "until": "2026-10-26T05:00",
+  "ta": true,
+  "title": "Couvre-feu minuit – 5 h",
+  "text": "Arrêté du préfet de Haute-Garonne : circulation interdite à tout le public de minuit à 5 h à partir de la nuit de jeudi 22 octobre et jusqu'au dimanche 25 (trois ou quatre nuits selon les sources), place du Capitole, place Esquirol et rues de Rémusat, Saint-Rome, des Changes et d'Alsace-Lorraine. Trajets domicile, travail, hébergement et urgences de santé autorisés ; amende de 750 euros.",
+  "src": [
+   "tlsecf",
+   "f3tlsecf"
+  ]
+ },
+ {
+  "id": "p-martinique-cf",
+  "kind": "interdiction",
+  "place": "Martinique · six communes",
+  "lon": -61.03,
+  "lat": 14.62,
+  "t": "2026-10-20T22:00",
+  "until": "2026-10-22T05:00",
+  "title": "Couvre-feu 22 h – 5 h pour tous",
+  "text": "Arrêté du préfet Étienne Desplanques, pour deux nuits à partir du mardi 20 octobre : Fort-de-France, Le Lamentin, Schœlcher, Ducos, Saint-Joseph et Le Robert, pour les majeurs comme pour les mineurs. Amende de 750 euros ; le périmètre peut évoluer.",
+  "src": [
+   "antillacf",
+   "la1erecf",
+   "etvcf"
   ]
  }
 ]
