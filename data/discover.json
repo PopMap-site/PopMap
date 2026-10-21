@@ -122,5 +122,71 @@
   "kind": "decouverte",
   "archive": true,
   "added": "2026-10-21"
+ },
+ {
+  "id": "d3-zazie",
+  "title": "Zazie en Papouasie occidentale",
+  "ch": "Rendez-vous en terre inconnue (France 2)",
+  "u": "https://www.youtube.com/watch?v=mG2wwCz_ELQ",
+  "place": "Papouasie occidentale (Indonésie)",
+  "lon": 138.5,
+  "lat": -4.0,
+  "sum": "La chanteuse Zazie partage, sans caméra cachée ni confort, la vie d'un peuple des hautes terres de Nouvelle-Guinée.",
+  "added": "2026-10-21"
+ },
+ {
+  "id": "d3-jarry",
+  "title": "Avec Jarry chez les Inughuit",
+  "ch": "Rendez-vous en terre inconnue (France 2)",
+  "u": "https://www.youtube.com/watch?v=dMjyxOHDqA4",
+  "place": "Qaanaaq, Groenland",
+  "lon": -69.23,
+  "lat": 77.47,
+  "sum": "Chez les chasseurs inuits du nord du Groenland, parmi les communautés les plus septentrionales du monde, où le climat change tout.",
+  "added": "2026-10-21"
+ },
+ {
+  "id": "d3-oli",
+  "title": "Avec Oli chez les Vézo",
+  "ch": "Rendez-vous en terre inconnue (France 2)",
+  "u": "https://www.youtube.com/watch?v=QNRDwOLqFcA",
+  "place": "Sud-ouest de Madagascar",
+  "lon": 43.3,
+  "lat": -22.0,
+  "sum": "Les Vézo, « ceux qui vivent avec la mer », pêcheurs nomades de la côte malgache, et leurs pirogues à balancier.",
+  "added": "2026-10-21"
+ },
+ {
+  "id": "d3-maximy-jp",
+  "title": "Antoine de Maximy découvre la culture japonaise",
+  "ch": "J'irai dormir chez vous",
+  "u": "https://www.youtube.com/watch?v=kBdY1azQo5I",
+  "place": "Japon",
+  "lon": 138.25,
+  "lat": 36.2,
+  "sum": "Se faire inviter chez des Japonais, dans un pays réputé réservé : le pari d'Antoine de Maximy.",
+  "added": "2026-10-21"
+ },
+ {
+  "id": "d3-suede",
+  "title": "Suède, la force de la nature",
+  "ch": "Échappées belles (France 5)",
+  "u": "https://www.youtube.com/watch?v=IB88Ld1wX5I",
+  "place": "Suède",
+  "lon": 15.0,
+  "lat": 62.0,
+  "sum": "Forêts, lacs et Grand Nord : comment les Suédois vivent au rythme de la nature.",
+  "added": "2026-10-21"
+ },
+ {
+  "id": "d3-islande",
+  "title": "Nus et culottés : objectif Islande",
+  "ch": "Nus et culottés (France 5)",
+  "u": "https://www.youtube.com/watch?v=bjEUaR7YTDg",
+  "place": "Islande",
+  "lon": -18.6,
+  "lat": 64.9,
+  "sum": "Partis sans argent ni vêtements, Nans et Mouts traversent l'Islande grâce à la seule générosité des habitants.",
+  "added": "2026-10-21"
  }
 ]
