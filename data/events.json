@@ -2712,6 +2712,13 @@
     "21 oct. nuit",
     "Nouvelle vague de frappes russes visant notamment des installations énergétiques dans les régions de Kyiv, de Volhynie, d'Odessa et de Mykolaïv. À Kyiv, un drone touche un immeuble de 24 étages : deux morts selon l'AFP. Le Premier ministre ukrainien fait état de quatre morts dans le pays (Reuters)."
    ]
+  ],
+  "media": [
+   [
+    "Vidéo",
+    "ARTE · Le Dessous des cartes — Ukrainiens dans la guerre : quelle résilience ? (févr. 2026)",
+    "https://www.youtube.com/watch?v=uaT1isV5WxY"
+   ]
   ]
  },
  {
@@ -3514,7 +3521,14 @@
     "ta": true
    }
   ],
-  "zoom": 120
+  "zoom": 120,
+  "media": [
+   [
+    "Vidéo",
+    "ARTE · Le Dessous des cartes — RDC-Rwanda : la guerre sans fin ? (mai 2026)",
+    "https://www.youtube.com/watch?v=A96I3x6-6sY"
+   ]
+  ]
  },
  {
   "id": "portauprince",
