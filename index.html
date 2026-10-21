@@ -131,6 +131,19 @@ h2[data-radio]{cursor:pointer;display:flex;align-items:center;gap:10px}
 .vids{display:flex;flex-direction:column;gap:10px}.vid{margin:0}.vid video{width:100%;border-radius:10px;background:#000;max-height:60vh}
 .vid figcaption{font-size:13px;margin-top:4px}.vid figcaption span{display:block;font:500 11.5px var(--f-mono);color:var(--muted);margin-top:2px}
 .vid a,.rep a{color:var(--muted)}.rep{font-size:12px;margin:0}.legal{font-size:13px}
+:root{--disc:#c8961a}
+.dc path.m{fill:var(--disc);stroke:var(--card);stroke-width:1.5}
+.dc.sel path.m,.dc:hover path.m{stroke:var(--ink);stroke-width:2}
+.dc text{font:700 11.5px var(--f-body);fill:var(--ink);paint-order:stroke;stroke:var(--land);stroke-width:3.5px;stroke-linejoin:round;pointer-events:none}
+.chip.discc i{background:var(--disc);border-radius:2px;transform:rotate(45deg)}
+.chip.discc[aria-pressed="true"]{background:var(--disc);color:#fff;border-color:var(--disc)}
+.chip.discc[aria-pressed="true"] i{background:#fff}
+body.disc .chip[data-k],body.disc #allToggle{opacity:.35;pointer-events:none}
+.dplay{border:0;padding:0;font:inherit;color:inherit;cursor:pointer;position:relative;display:block;flex:none;width:calc(100% + 32px);margin:-16px -16px 0;aspect-ratio:16/9;background:#1a1a1a;overflow:hidden;border-radius:14px 14px 0 0}
+.dplay img{width:100%;height:100%;object-fit:cover;display:block;opacity:.85}
+.dplay span{position:absolute;inset:0;margin:auto;width:64px;height:64px;border-radius:50%;background:#000a;color:#fff;display:grid;place-items:center;font-size:26px}
+.dframe{display:block;flex:none;width:calc(100% + 32px);margin:-16px -16px 0;aspect-ratio:16/9;border:0;border-radius:14px 14px 0 0;background:#000}
+@media (max-width:759px){.dplay,.dframe{border-radius:0}}
 @media (prefers-reduced-motion:reduce){.pulse,.dot,.ev.new circle.m,.sp.new circle.m{animation:none}}
 .zoomctl{position:absolute;z-index:4;left:max(12px,env(safe-area-inset-left,0px));bottom:calc(78px + env(safe-area-inset-bottom,0px));display:flex;flex-direction:column;gap:4px}
 .zoomctl button{width:40px;height:40px;border-radius:10px;color:var(--ink);font:500 19px/1 var(--f-mono);cursor:pointer}
@@ -381,6 +394,7 @@ const scopeOv=document.getElementById("scopeOv"),scopeBody=document.getElementBy
 const scopeChip=document.createElement("button");scopeChip.className="chip";scopeChip.id="scopeChip";scopeChip.setAttribute("aria-label","Choisir ma carte");
 function scopeLabel(){scopeChip.innerHTML=`<i style="background:var(--accent)"></i>${SCOPE?SCOPE.n.replace(/^(Le |La |L')/,"").replace(/^monde entier$/,"Monde"):"Monde"} ▾`}
 scopeLabel();fEl.insertBefore(scopeChip,jSel);
+const discChip=document.createElement("button");discChip.className="chip discc";discChip.setAttribute("aria-pressed","false");discChip.hidden=true;discChip.innerHTML=`<i></i>Découverte`;discChip.onclick=()=>setDisc(!discOn);fEl.insertBefore(discChip,jSel);
 function scopeView(s){closePanel();if(s.p<0)fly(s.lon,s.lat,Math.max(1,Math.min(innerWidth,innerHeight*1.6)/400));else fly(s.lon,s.lat,s.p)}
 function setScope(id){SCOPE=SCOPES.find(s=>s.id===id)||null;store.set("pm_scope",id);scopeLabel();scopeOv.hidden=true;render();hint();if(SCOPE)scopeView(SCOPE)}
 function openScope(){const cur=SCOPE?SCOPE.id:"";
@@ -412,10 +426,10 @@ map.touchZoomRotate.disableRotation();
 map.addControl(new maplibregl.AttributionControl({compact:true}),"bottom-left");
 const proj=ll=>{const p=map.project(ll);return[p.x,p.y]};
 const svg=d3.select(box.parentNode).insert("svg",".top").attr("id","ov").attr("aria-label","Événements sur la carte");
-const gMe=svg.append("g").attr("class","me"),gPz=svg.append("g"),gPr=svg.append("g"),gEv=svg.append("g"),gSp=svg.append("g"),gGd=svg.append("g");
+const gMe=svg.append("g").attr("class","me"),gPz=svg.append("g"),gPr=svg.append("g"),gEv=svg.append("g"),gSp=svg.append("g"),gGd=svg.append("g"),gDc=svg.append("g");
 let raf=0,moving=false,lastFull=0;
 function fastMove(){const tr=d=>{const p=proj([d.lon,d.lat]);return`translate(${p[0]},${p[1]})`};
-  gEv.selectAll("g.ev").attr("transform",tr);gSp.selectAll("g.sp").attr("transform",tr);gGd.selectAll("g.gd").attr("transform",tr);gPz.selectAll("g.pz").attr("transform",tr);
+  gEv.selectAll("g.ev").attr("transform",tr);gSp.selectAll("g.sp").attr("transform",tr);gGd.selectAll("g.gd").attr("transform",tr);gDc.selectAll("g.dc").attr("transform",tr);gPz.selectAll("g.pz").attr("transform",tr);
   gPr.selectAll("g.pr").attr("transform",d=>tr(d)+(d.kind==="agenda"?" rotate(45)":""));
   gMe.selectAll("g.mm").each(function(d){const p=proj(d),q=proj([d[0]+radius/(111.32*Math.cos(d[1]*Math.PI/180)),d[1]]);d3.select(this).select(".c").attr("cx",p[0]).attr("cy",p[1]).attr("r",Math.max(4,q[0]-p[0]));d3.select(this).select(".p").attr("cx",p[0]).attr("cy",p[1])})}
 function schedule(){if(!raf)raf=requestAnimationFrame(()=>{raf=0;const n=performance.now();if(moving&&n-lastFull<350)fastMove();else{lastFull=n;render()}})}
@@ -477,6 +491,13 @@ function render(){
   g5.attr("transform",d=>{const p=proj([d.lon,d.lat]);return`translate(${p[0]},${p[1]})`});
   g5.select("circle").attr("r",d=>14+Math.min(18,Math.sqrt(d.n)*4));
   g5.select("text.a").text(d=>d.avg.toFixed(1).replace(".",","));g5.select("text.s").text(d=>d.n+" rép.");
+  [gEv,gSp,gPr,gGd,gPz].forEach(g=>g.style("display",discOn?"none":null));
+  const dd=discOn?DISC:[];
+  const g6=gDc.selectAll("g.dc").data(dd,d=>d.id).join(enter=>{const g=enter.append("g").attr("class","dc").attr("tabindex",0).style("cursor","pointer")
+      .on("click",(e,d)=>{e.stopPropagation();openDisc(d.id)}).on("keydown",(e,d)=>{if(e.key==="Enter")openDisc(d.id)});
+    g.append("circle").attr("r",18).attr("fill","transparent");g.append("path").attr("class","m").attr("d",d3.symbol(d3.symbolStar,260)());g.append("text").attr("x",13).attr("y",4);return g});
+  g6.attr("transform",d=>{const p=proj([d.lon,d.lat]);return`translate(${p[0]},${p[1]})`}).classed("sel",d=>d.id===selDisc);
+  g6.select("text").text(d=>P>=6||d.id===selDisc?d.place:"");
   declutter();
   const kmpp=40075*Math.cos(map.getCenter().lat*Math.PI/180)/(512*Math.pow(2,map.getZoom())),span=kmpp*100;
   document.getElementById("scale").textContent=street?`Vue rue · 100 px ≈ ${span<1?Math.round(span*1000)+" m":span.toFixed(1)+" km"}`:`100 px ≈ ${Math.round(span).toLocaleString("fr-FR")} km`;
@@ -512,6 +533,22 @@ const RADIO=(()=>{let ac=null,noise=null,cur=null;const ok="speechSynthesis" in 
 let VIDS=[];fetch("data/videos.json").then(r=>r.ok?r.json():[]).then(j=>{VIDS=Array.isArray(j)?j:[];if(selected&&!panel.hidden&&panel.dataset.mode==="event")select(selected,selSpot,false)}).catch(()=>{});
 function vidsFor(id,spotName){const v=VIDS.filter(x=>x.ev===id);if(!v.length)return"";
   return`<h3>Vidéos de témoins · ${v.length}</h3><div class="vids">${v.map(x=>`<figure class="vid"><video controls playsinline preload="none" poster="${x.poster}" src="${x.f}"></video><figcaption>${x.cap||""}<span>${x.place||""}${x.t?" · "+(()=>{const d=dt(x.t,x.ta);return d.day+" · "+d.h})():""} · visages floutés · <a href="mailto:popmap@outlook.fr?subject=${encodeURIComponent("Signalement vidéo "+x.id)}">Signaler</a></span></figcaption></figure>`).join("")}</div>`}
+let DISC=[],discOn=false,selDisc=null;fetch("data/discover.json").then(r=>r.ok?r.json():[]).then(j=>{DISC=Array.isArray(j)?j:[];discChip.hidden=!DISC.length;if(discOn)render()}).catch(()=>{});
+const ytId=u=>{const m=String(u).match(/(?:youtu\.be\/|v=|shorts\/|embed\/)([\w-]{11})/);return m?m[1]:null};
+function openDisc(id){const d=DISC.find(x=>x.id===id);if(!d)return;selDisc=id;selected=selSpot=selPrac=null;const y=ytId(d.u);
+  panel.innerHTML=`<button class="close" aria-label="Fermer">×</button>
+   ${y?`<button class="dplay" id="dplay" aria-label="Lire la vidéo"><img src="https://i.ytimg.com/vi/${y}/hqdefault.jpg" alt="" loading="lazy"><span>▶</span></button>`:""}
+   <div class="kicker" style="margin-top:6px"><span class="pill" style="background:var(--disc)">Découverte</span><span>${d.ch}${d.dur?" · "+d.dur:""}</span></div>
+   <h2>${d.title}</h2><div class="kicker">${d.place}</div><p>${d.sum}</p>
+   <a class="btn" href="${d.u}" target="_blank" rel="noopener">${y?"Ouvrir sur YouTube ↗":"Regarder la vidéo ↗"}</a>
+   ${(()=>{const o=DISC.filter(x=>x.id!==id).slice(0,40);return o.length?`<h3>Autres découvertes</h3><div class="spots">${o.map(x=>`<button data-d="${x.id}"><i style="background:var(--disc)"></i><span>${x.title}<small>${x.place} · ${x.ch}</small></span><em></em></button>`).join("")}</div>`:""})()}
+   <p class="note">Sélection POPMAP : des vidéos de fond pour comprendre le monde. Elles sont hébergées par leurs auteurs.</p>`;
+  panel.querySelector(".close").onclick=closePanel;
+  panel.querySelectorAll("[data-d]").forEach(b=>b.onclick=()=>openDisc(b.dataset.d));
+  const pl=panel.querySelector("#dplay");if(pl)pl.onclick=()=>{const f=document.createElement("iframe");f.className="dframe";f.src=`https://www.youtube-nocookie.com/embed/${y}?autoplay=1&rel=0`;f.allow="autoplay; encrypted-media; picture-in-picture; fullscreen";f.allowFullscreen=true;f.title=d.title;pl.replaceWith(f)};
+  open("disc");panel.scrollTop=0;render();requestAnimationFrame(()=>fly(d.lon,d.lat,Math.max(ppd(),5)))}
+function setDisc(on){discOn=on;discChip.setAttribute("aria-pressed",on);document.body.classList.toggle("disc",on);selDisc=null;if(!panel.hidden)closePanel();render();hint();
+  if(on)fly(15,25,Math.max(1,Math.min(innerWidth,innerHeight*1.6)/400))}
 let AUD=null;fetch("audio/index.json").then(r=>r.ok?r.json():null).then(j=>{AUD=j}).catch(()=>{});
 const plain=h=>{const d=document.createElement("div");d.innerHTML=h||"";return d.textContent.replace(/\s+/g," ").trim()};
 panel.addEventListener("click",ev=>{const h=ev.target.closest("[data-radio]");if(!h)return;const e=EVENTS.find(x=>x.id===selected);if(!e)return;
@@ -636,8 +673,8 @@ function pollCount(){const n=document.getElementById("pollN");if(n)n.textContent
   if(uid){const mine=await db.doc("votes/"+uid).get().catch(()=>null);if(mine&&mine.exists)myVote=mine.data()}
   db.collection("votes").where("d","==",Q.date).onSnapshot(s=>{votes=s.docs.map(d=>d.data());pollCount();if(!panel.hidden&&panel.dataset.mode==="poll"&&!pending&&!panel.contains(document.activeElement))openPoll();else render()},()=>{});
 }catch(e){db=null}finally{dbTried=true;if(!panel.hidden&&panel.dataset.mode==="poll")openPoll()}})();
-function closePanel(){RADIO.stop();if(panel.hidden)return;panel.hidden=true;document.body.classList.remove("open");selected=selSpot=selPrac=null;render();hint()}
-function hint(){const h=document.getElementById("hint");const L=EVENTS.filter(e=>active.has(e.cat)&&inScope(e));
+function closePanel(){RADIO.stop();if(panel.hidden)return;panel.hidden=true;document.body.classList.remove("open");selected=selSpot=selPrac=selDisc=null;render();hint()}
+function hint(){const h=document.getElementById("hint");if(discOn){h.textContent=`Mode Découverte · ${DISC.length} vidéos pour comprendre le monde · touche une étoile`;h.style.opacity=panel.hidden?1:0;return}const L=EVENTS.filter(e=>active.has(e.cat)&&inScope(e));
   h.textContent=L.length||showPrac?`${L.length} foyer${L.length>1?"s":""} · ${L.filter(e=>e.live).length} en cours · touche un point`:"Carte vierge · active une catégorie en haut";h.style.opacity=panel.hidden&&!replayOn&&!aroundOn?1:0}
 addEventListener("keydown",e=>{if(e.key==="Escape"){if(!panel.hidden)closePanel();else if(replayOn)stopReplay();else if(aroundOn)stopAround()}});
 map.on("click",e=>{if(aroundOn){me=[+e.lngLat.lng.toFixed(4),+e.lngLat.lat.toFixed(4)];store.set("rc_me",me);updAround();render();return}closePanel()});

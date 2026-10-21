@@ -1,5 +1,5 @@
 // Radar Crises : données toujours fraîches (réseau d'abord), carte et images en cache pour un démarrage rapide.
-const C="popmap-v9";
+const C="popmap-v10";
 self.addEventListener("install",e=>{self.skipWaiting();e.waitUntil(caches.open(C).then(c=>c.addAll(["./","index.html","icons/icon-192.png"])))});
 self.addEventListener("activate",e=>e.waitUntil(self.clients.claim()));
 self.addEventListener("fetch",e=>{const u=new URL(e.request.url);if(e.request.method!=="GET"||/\.(mp3|mp4)$/.test(u.pathname)||u.pathname.startsWith("/api/"))return;
