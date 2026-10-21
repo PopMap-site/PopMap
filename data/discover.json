@@ -36,6 +36,18 @@
   "added": "2026-10-21"
  },
  {
+  "id": "d-the",
+  "title": "La planète à l'heure du thé",
+  "ch": "ARTE · Le Dessous des cartes",
+  "u": "https://www.youtube.com/watch?v=b4iH9XP6aXA",
+  "place": "Darjeeling, Inde",
+  "lon": 88.26,
+  "lat": 27.04,
+  "date": "2026-05-08",
+  "sum": "De la Chine à l'Inde et au Kenya, la géographie et l'histoire de la boisson la plus bue au monde après l'eau.",
+  "added": "2026-10-21"
+ },
+ {
   "id": "d-texas",
   "title": "Texas : quelle Amérique ?",
   "ch": "ARTE · Le Dessous des cartes",
@@ -81,18 +93,6 @@
   "lat": 59.38,
   "date": "2026-09-04",
   "sum": "Cyberattaques, sabotages, drones, désinformation : comment la Russie mène une guerre sans la déclarer contre l'Europe.",
-  "added": "2026-10-21"
- },
- {
-  "id": "d-shanghai",
-  "title": "Shanghai : la vitrine d'une Chine puissante",
-  "ch": "ARTE · Le Dessous des cartes",
-  "u": "https://www.youtube.com/watch?v=lYlxqL3OdSY",
-  "place": "Shanghai, Chine",
-  "lon": 121.47,
-  "lat": 31.23,
-  "date": "2026-09-26",
-  "sum": "Comment Shanghai est devenue la vitrine économique et urbaine de la puissance chinoise.",
   "added": "2026-10-21"
  }
 ]
