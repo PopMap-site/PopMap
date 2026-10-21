@@ -1,1 +1,98 @@
-[]
+[
+ {
+  "id": "d-ukraine",
+  "title": "Ukrainiens dans la guerre : quelle résilience ?",
+  "ch": "ARTE · Le Dessous des cartes",
+  "u": "https://www.youtube.com/watch?v=uaT1isV5WxY",
+  "place": "Kyiv, Ukraine",
+  "lon": 30.52,
+  "lat": 50.45,
+  "date": "2026-02-13",
+  "sum": "Après des années de guerre, comment la société ukrainienne tient : économie, démographie, vie quotidienne et lassitude.",
+  "added": "2026-10-21"
+ },
+ {
+  "id": "d-danemark",
+  "title": "Danemark : le temps des menaces",
+  "ch": "ARTE · Le Dessous des cartes",
+  "u": "https://www.youtube.com/watch?v=vOHJackGxmI",
+  "place": "Copenhague, Danemark",
+  "lon": 12.57,
+  "lat": 55.68,
+  "date": "2026-02-20",
+  "sum": "Pressions américaines sur le Groenland, voisin russe en mer Baltique : un petit pays face à de grandes puissances.",
+  "added": "2026-10-21"
+ },
+ {
+  "id": "d-afsud",
+  "title": "Afrique du Sud : un leadership en devenir",
+  "ch": "ARTE · Le Dessous des cartes",
+  "u": "https://www.youtube.com/watch?v=4UDL7VZUyMQ",
+  "place": "Pretoria, Afrique du Sud",
+  "lon": 28.19,
+  "lat": -25.75,
+  "date": "2026-03-20",
+  "sum": "Première économie industrielle du continent : atouts, fragilités et ambitions diplomatiques de l'Afrique du Sud.",
+  "added": "2026-10-21"
+ },
+ {
+  "id": "d-texas",
+  "title": "Texas : quelle Amérique ?",
+  "ch": "ARTE · Le Dessous des cartes",
+  "u": "https://www.youtube.com/watch?v=yGjEaJnKZBQ",
+  "place": "Austin, Texas (États-Unis)",
+  "lon": -97.74,
+  "lat": 30.27,
+  "date": "2026-05-15",
+  "sum": "Pétrole, frontière, technologie et poids politique : le Texas comme miroir des États-Unis d'aujourd'hui.",
+  "added": "2026-10-21"
+ },
+ {
+  "id": "d-rdc",
+  "title": "RDC-Rwanda : la guerre sans fin ?",
+  "ch": "ARTE · Le Dessous des cartes",
+  "u": "https://www.youtube.com/watch?v=A96I3x6-6sY",
+  "place": "Goma, RD Congo",
+  "lon": 29.22,
+  "lat": -1.68,
+  "date": "2026-05-22",
+  "sum": "Dans l'est du Congo, minerais, groupes armés et rivalités régionales entretiennent un conflit qui dure depuis trente ans.",
+  "added": "2026-10-21"
+ },
+ {
+  "id": "d-bresil",
+  "title": "De Bolsonaro à Lula : quel Brésil ?",
+  "ch": "ARTE · Le Dessous des cartes",
+  "u": "https://www.youtube.com/watch?v=_ltvVt_-tPM",
+  "place": "Brasília, Brésil",
+  "lon": -47.88,
+  "lat": -15.79,
+  "date": "2026-05-29",
+  "sum": "Un pays coupé en deux : ce qui oppose les Brésiliens, et le rôle que le Brésil veut jouer dans le monde.",
+  "added": "2026-10-21"
+ },
+ {
+  "id": "d-russie-ue",
+  "title": "Russie-UE : la guerre hybride est déclarée",
+  "ch": "ARTE · Le Dessous des cartes",
+  "u": "https://www.youtube.com/watch?v=8dTRN2WCJ60",
+  "place": "Narva, frontière Estonie-Russie",
+  "lon": 28.19,
+  "lat": 59.38,
+  "date": "2026-09-04",
+  "sum": "Cyberattaques, sabotages, drones, désinformation : comment la Russie mène une guerre sans la déclarer contre l'Europe.",
+  "added": "2026-10-21"
+ },
+ {
+  "id": "d-shanghai",
+  "title": "Shanghai : la vitrine d'une Chine puissante",
+  "ch": "ARTE · Le Dessous des cartes",
+  "u": "https://www.youtube.com/watch?v=lYlxqL3OdSY",
+  "place": "Shanghai, Chine",
+  "lon": 121.47,
+  "lat": 31.23,
+  "date": "2026-09-26",
+  "sum": "Comment Shanghai est devenue la vitrine économique et urbaine de la puissance chinoise.",
+  "added": "2026-10-21"
+ }
+]
