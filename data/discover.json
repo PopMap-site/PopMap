@@ -70,5 +70,57 @@
   "sum": "Éleveurs de rennes et de chevaux dans une vallée isolée du nord de la Mongolie, au rythme des saisons.",
   "kind": "decouverte",
   "added": "2026-10-21"
+ },
+ {
+  "id": "d2-yakuza",
+  "title": "Yakuza nouvelle génération",
+  "ch": "L'Effet Papillon",
+  "u": "https://www.youtube.com/watch?v=vU4wACDGsxY",
+  "place": "Tokyo, Japon",
+  "lon": 139.69,
+  "lat": 35.69,
+  "sum": "Les héritiers de la mafia japonaise, entre codes d'honneur, tatouages et reconversion.",
+  "kind": "decouverte",
+  "archive": true,
+  "added": "2026-10-21"
+ },
+ {
+  "id": "d2-coree-sud",
+  "title": "Ils travaillent 24/24",
+  "ch": "L'Effet Papillon",
+  "u": "https://www.youtube.com/watch?v=puA13U47Yc0",
+  "place": "Séoul, Corée du Sud",
+  "lon": 126.98,
+  "lat": 37.57,
+  "sum": "Une société où l'on travaille jusqu'à l'épuisement : la face cachée du miracle sud-coréen.",
+  "kind": "decouverte",
+  "archive": true,
+  "added": "2026-10-21"
+ },
+ {
+  "id": "d2-coree-nord",
+  "title": "Corée du Nord : Dictature Tour",
+  "ch": "L'Effet Papillon",
+  "u": "https://www.youtube.com/watch?v=e-mfZtEPsjw",
+  "place": "Pyongyang, Corée du Nord",
+  "lon": 125.75,
+  "lat": 39.03,
+  "sum": "Plongée dans le pays le plus fermé du monde, entre visite encadrée et coulisses d'un régime qui contrôle tout.",
+  "kind": "decouverte",
+  "archive": true,
+  "added": "2026-10-21"
+ },
+ {
+  "id": "d2-tibet",
+  "title": "Tibet : Dictature Tour",
+  "ch": "L'Effet Papillon",
+  "u": "https://www.youtube.com/watch?v=0D3oRTdfG0k",
+  "place": "Lhassa, Tibet (Chine)",
+  "lon": 91.11,
+  "lat": 29.65,
+  "sum": "Le Tibet sous contrôle de Pékin : ce que l'on montre aux visiteurs, et ce que l'on ne montre pas.",
+  "kind": "decouverte",
+  "archive": true,
+  "added": "2026-10-21"
  }
 ]

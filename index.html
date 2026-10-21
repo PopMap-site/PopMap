@@ -538,7 +538,7 @@ const ytId=u=>{const m=String(u).match(/(?:youtu\.be\/|v=|shorts\/|embed\/)([\w-
 function openDisc(id){const d=DISC.find(x=>x.id===id);if(!d)return;selDisc=id;selected=selSpot=selPrac=null;const y=ytId(d.u);
   panel.innerHTML=`<button class="close" aria-label="Fermer">×</button>
    ${y?`<button class="dplay" id="dplay" aria-label="Lire la vidéo"><img src="https://i.ytimg.com/vi/${y}/hqdefault.jpg" alt="" loading="lazy"><span>▶</span></button>`:""}
-   <div class="kicker" style="margin-top:6px"><span class="pill" style="background:var(--disc)">Découverte</span><span>${d.ch}${d.dur?" · "+d.dur:""}</span></div>
+   <div class="kicker" style="margin-top:6px"><span class="pill" style="background:var(--disc)">Découverte</span><span>${d.ch}${d.dur?" · "+d.dur:""}</span>${d.archive?`<span class="status" style="color:var(--muted)">Reportage d'archive</span>`:""}</div>
    <h2>${d.title}</h2><div class="kicker">${d.place}</div><p>${d.sum}</p>
    <a class="btn" href="${d.u}" target="_blank" rel="noopener">${y?"Ouvrir sur YouTube ↗":"Regarder la vidéo ↗"}</a>
    ${(()=>{const o=DISC.filter(x=>x.id!==id).slice(0,40);return o.length?`<h3>Autres découvertes</h3><div class="spots">${o.map(x=>`<button data-d="${x.id}"><i style="background:var(--disc)"></i><span>${x.title}<small>${x.place} · ${x.ch}</small></span><em></em></button>`).join("")}</div>`:""})()}
