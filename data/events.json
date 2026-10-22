@@ -130,6 +130,10 @@
    [
     "22 oct. midi",
     "Emmanuel Macron, qui maintient sa tournée dans le Golfe, réunit jeudi les services de renseignement, Sébastien Lecornu et les ministres concernés pour un « compte rendu détaillé » du 17 octobre (AFP). Le Premier ministre reçoit dans la journée les chefs de partis, puis les maires de Paris, Marseille et Lyon."
+   ],
+   [
+    "22 oct. après-midi",
+    "Peu avant le départ, le juge des référés du tribunal administratif de Paris suspend l'arrêté qui interdisait la manifestation d'Interfac Île-de-France, sans motiver sa décision à l'audience (AFP) ; selon France 3 Paris Île-de-France, la préfecture de police a ensuite limité l'événement à un rassemblement statique. Des centaines d'étudiants se retrouvent près de la Pitié-Salpêtrière. À l'issue de sa réunion avec les services de renseignement, Emmanuel Macron reconnaît des « défauts d'anticipation » le 17 octobre et annonce que, samedi 24, seules les manifestations organisées par les syndicats seront autorisées, avec des tracés protégeant commerces et bâtiments publics ; les autres seront interdites « partout où c'est possible ». Un conseil de défense est convoqué vendredi matin. À Paris, le parcours Bastille–Nation déclaré notamment par la CGT est autorisé samedi, celui de Bastille vers l'Opéra (Interfac, gilets jaunes) sera interdit selon la préfecture de police."
    ]
   ],
   "spots": [
@@ -260,6 +264,14 @@
     "d": "Le 22 octobre, station de métro fermée dès 10 h sur demande de la préfecture, secteur où rassemblements et manifestations sont interdits de 8 h à 20 h.",
     "t": "2026-10-22T10:00",
     "ta": false
+   },
+   {
+    "n": "Pitié-Salpêtrière (13e)",
+    "lon": 2.3626,
+    "lat": 48.8385,
+    "d": "Le 22 octobre après-midi, point de départ du rassemblement étudiant d'Interfac Île-de-France, autorisé par le tribunal administratif après une interdiction de la préfecture de police.",
+    "t": "2026-10-22T14:00",
+    "ta": true
    }
   ],
   "media": [
@@ -330,7 +342,13 @@
    "psnunez21",
    "tpintersynd21",
    "orangemac22",
-   "jddpartis22"
+   "jddpartis22",
+   "libreinterfac22",
+   "tdninterfac22",
+   "f3statique22",
+   "m20macron22",
+   "icimacron22",
+   "e1bastnat22"
   ],
   "photos": [
    {
@@ -429,6 +447,10 @@
    [
     "22 oct.",
     "Le préfet du Rhône interdit le rassemblement de l'après-midi appelé par l'UNEF et le NPA, dont le parcours devait finir place Bellecour (BFM TV). La nuit précédente, couvre-feu de 23 h à 6 h sur une partie de la Presqu'île, rassemblements interdits de 16 h à 23 h ; amende de 135 euros en cas d'infraction (Lyon Capitale)."
+   ],
+   [
+    "22 oct. après-midi",
+    "L'UNEF, avec la Ligue des droits de l'Homme et le Syndicat des avocats de France, conteste en justice l'interdiction de la manifestation étudiante ; les organisateurs maintiennent un rassemblement déplacé place Guichard (Tout Lyon). Le préfet Étienne Guyot interdit par arrêtés toute manifestation dans la ville de Lyon samedi 24 octobre, jour de l'« acte II » contre la vie chère (Lyon Capitale)."
    ]
   ],
   "spots": [
@@ -546,7 +568,10 @@
    "lyoncapcf20",
    "e1maires21",
    "bfm22",
-   "lyoncap21"
+   "lyoncap21",
+   "mesinfoslyon22",
+   "prefrhone22",
+   "lyoncap24"
   ],
   "photos": [
    {
@@ -2586,7 +2611,9 @@
    "portalb21",
    "boldtir21",
    "srptir21",
-   "politisal22"
+   "politisal22",
+   "protirana22",
+   "politistir22"
   ],
   "photos": [
    {
@@ -2639,6 +2666,10 @@
    [
     "22 oct. matin",
     "Dixième jour consécutif de mobilisation. Dans la nuit, après plusieurs heures de calme, de petits groupes masqués lancent des cocktails Molotov près du bureau du Premier ministre, boulevard des Martyrs de la Nation ; la police répond au canon à eau. Les manifestants appellent à se rassembler à 10 h devant le Parlement pour empêcher la séance de jeudi ; Edi Rama renouvelle son appel au dialogue (ANA-MPA, une seule source)."
+   ],
+   [
+    "22 oct. midi",
+    "Dixième jour : les manifestants appellent à se rassembler devant le Parlement pour empêcher la séance ; le Parti démocrate (opposition) dépose une interpellation urgente du ministre de l'Intérieur Ervin Demo. Edi Rama, parti au sommet du Processus de Berlin au Monténégro, réitère son appel au dialogue ; banques et commerces rouvrent peu à peu à Tirana (Proto Thema, Politis)."
    ]
   ],
   "zoom": 12000
@@ -3393,7 +3424,7 @@
   "cat": "guerre",
   "sev": 3,
   "live": true,
-  "date": "2026-10-21",
+  "date": "2026-10-22",
   "title": "Un an de cessez-le-feu, des frappes presque quotidiennes",
   "summary": "Le cessez-le-feu du 10 octobre 2025 a un an, mais plus de 100 ONG (Amnesty, NRC, Save the Children, Oxfam) estiment qu'il n'existe « que de nom ». Selon le ministère de la Santé de Gaza, 1 493 Palestiniens ont été tués et 5 299 blessés depuis la trêve (au 12 octobre). Israël, qui contrôle près des deux tiers de la bande, a encore avancé sa « ligne jaune » dans des quartiers de Gaza City. Israël affirme viser des membres de groupes armés ; plusieurs de ces affirmations sont contestées et non vérifiées de façon indépendante. L'aide entre à environ un tiers du rythme prévu.",
   "src": [
@@ -3410,18 +3441,21 @@
    "haagaza20",
    "apme20",
    "malaygaza21",
-   "olj21"
+   "olj21",
+   "ajgaza22",
+   "haagaza22",
+   "almongaza22"
   ],
   "t": "2026-10-12T12:00",
   "ta": true,
   "zoom": 900,
   "figs": [
    [
-    "1 522",
-    "tués depuis la trêve (ministère de la Santé de Gaza, 19 oct.)"
+    "1 538",
+    "tués depuis la trêve (ministère de la Santé de Gaza, 22 oct.)"
    ],
    [
-    "5 421",
+    "5 498",
     "blessés depuis la trêve (même source)"
    ],
    [
@@ -3469,6 +3503,10 @@
    [
     "21 oct. matin",
     "Bilan consolidé de mardi selon la Défense civile et les hôpitaux (AFP) : sept Palestiniens tués, dont deux hommes à al-Zawaida et Wadi Gaza (centre), une personne à Jabalia, un couple dans un immeuble d'al-Rimal près de l'hôpital al-Shifa et un adolescent dans le sud de Khan Younès. L'armée israélienne dit avoir tué dans l'immeuble d'al-Rimal un haut responsable de la sécurité générale du Hamas et vérifier les autres informations."
+   ],
+   [
+    "22 oct.",
+    "Quatre Palestiniens tués en 24 heures selon les secours et le ministère de la Santé de Gaza : une fillette près du camp de Jabalia, une personne dans une frappe sur un véhicule à Tal al-Hawa (Gaza-Ville), un homme à vélo à Khan Younès, et un blessé mort de ses blessures (Al Jazeera, Haaretz). L'armée israélienne ne s'est pas exprimée sur ces cas dans les articles consultés."
    ]
   ],
   "spots": [
@@ -4249,7 +4287,7 @@
   "cat": "emeute",
   "sev": 2,
   "live": true,
-  "date": "2026-10-20",
+  "date": "2026-10-22",
   "t": "2026-10-18T21:00",
   "ta": true,
   "zoom": 300,
@@ -4313,6 +4351,22 @@
     "d": "19 oct. au matin : un barrage en feu à la cité Crane et une voiture incendiée devant la mairie.",
     "t": "2026-10-19T05:00",
     "ta": true
+   },
+   {
+    "n": "Vieux-Habitants",
+    "lon": -61.765,
+    "lat": 16.059,
+    "d": "Le 22 octobre au matin, route barrée par des branches au pont de Vieux-Habitants et à Rocroy, selon RCI.",
+    "t": "2026-10-22T08:00",
+    "ta": true
+   },
+   {
+    "n": "Morne Bernard (Baie-Mahault)",
+    "lon": -61.585,
+    "lat": 16.25,
+    "d": "Le 22 octobre vers 10 h 20, RN1 bloquée dans les deux sens au niveau de Morne Bernard, selon RCI.",
+    "t": "2026-10-22T08:00",
+    "ta": true
    }
   ],
   "src": [
@@ -4324,7 +4378,9 @@
    "mo50",
    "etvgua20",
    "la1rn1",
-   "karib21"
+   "karib21",
+   "rcigua22",
+   "la1gua22"
   ],
   "tl": [
    [
@@ -4342,6 +4398,10 @@
    [
     "20-21 oct. nuit",
     "Nuit calme sur l'ensemble du département selon la préfecture : un véhicule incendié rue Nozière à Pointe-à-Pitre et des feux de détritus ; le matin, pneus sur la N1 à l'entrée de Jarry, vite dégagés (Karibinfo)."
+   ],
+   [
+    "22 oct.",
+    "Nuit du 21 au 22 calme selon RCI. Jeudi matin, nouveaux blocages : branches au pont de Vieux-Habitants, détritus et pneus à Sainte-Marie (Capesterre-Belle-Eau), pneus à Mare-Gaillard (Le Gosier), RN1 bloquée dans les deux sens à Morne Bernard (Baie-Mahault) vers 10 h 20 ; circulation perturbée à Jarry, au Moule et à Sainte-Anne."
    ]
   ]
  },
@@ -5143,7 +5203,7 @@
   "cat": "emeute",
   "sev": 2,
   "live": true,
-  "date": "2026-10-21",
+  "date": "2026-10-22",
   "t": "2026-10-18T22:00",
   "ta": true,
   "zoom": 400,
@@ -5248,7 +5308,9 @@
    "etvcf",
    "zayducos21",
    "la1mq21",
-   "zaymq21"
+   "zaymq21",
+   "rcimqcf22",
+   "la1mqcf22"
   ],
   "tl": [
    [
@@ -5282,6 +5344,10 @@
    [
     "20-21 oct. nuit",
     "Selon la préfecture, les troubles ont baissé en intensité et en étendue : incidents dans 14 communes, aucun pillage ni vol à main armée, grands axes rouverts dès 6 h, 11 interpellations et trois armes à feu saisies. À Ducos, des gendarmes de nouveau visés par des tirs ; le GIGN est intervenu et un policier a été légèrement blessé à la tête par un projectile. Au Lamentin, sept véhicules détruits dans une concession et le gymnase d'un collège gravement endommagé par un incendie. Couvre-feu de 22 h à 5 h maintenu mercredi soir dans les six communes."
+   ],
+   [
+    "22 oct.",
+    "Le préfet ne reconduit pas le couvre-feu de 22 h à 5 h dans les six communes, invoquant « la décrue des troubles à l'ordre public » ; il pourra être rétabli si la situation se dégrade. Nuit du 21 au 22 bien plus calme selon les services de l'État : barrages ponctuels dans une dizaine de communes, pas de tirs contre les forces de l'ordre ni de vol à main armée (RCI, La 1ère)."
    ]
   ]
  },

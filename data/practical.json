@@ -633,11 +633,13 @@
   "t": "2026-10-20T22:00",
   "until": "2026-10-22T05:00",
   "title": "Couvre-feu 22 h – 5 h pour tous",
-  "text": "Arrêté du préfet Étienne Desplanques, pour deux nuits à partir du mardi 20 octobre : Fort-de-France, Le Lamentin, Schœlcher, Ducos, Saint-Joseph et Le Robert, pour les majeurs comme pour les mineurs. Amende de 750 euros ; le périmètre peut évoluer.",
+  "text": "Arrêté du préfet Étienne Desplanques, pour deux nuits à partir du mardi 20 octobre : Fort-de-France, Le Lamentin, Schœlcher, Ducos, Saint-Joseph et Le Robert, pour les majeurs comme pour les mineurs. Amende de 750 euros ; le périmètre peut évoluer. Non reconduit au-delà du jeudi 22 octobre à 5 h, selon la préfecture (décrue des troubles).",
   "src": [
    "antillacf",
    "la1erecf",
-   "etvcf"
+   "etvcf",
+   "rcimqcf22",
+   "la1mqcf22"
   ]
  },
  {
@@ -649,11 +651,12 @@
   "t": "2026-10-22T10:00",
   "until": "2026-10-22T23:59",
   "ta": true,
-  "title": "Manifestation lycéenne et étudiante interdite",
-  "text": "La préfecture de police interdit la manifestation d'Interfac Île-de-France prévue jeudi 22 octobre du boulevard de l'Hôpital à la place de la Bastille, en invoquant « l'incapacité de l'organisateur à éviter les exactions ». L'organisateur peut saisir le tribunal administratif.",
+  "title": "Manifestation étudiante : interdiction suspendue",
+  "text": "La préfecture de police avait interdit la manifestation d'Interfac Île-de-France prévue jeudi 22 octobre de la Pitié-Salpêtrière à la Bastille. Le juge des référés du tribunal administratif de Paris a suspendu l'arrêté peu avant le départ (AFP) ; selon France 3, la préfecture a ensuite limité l'événement à un rassemblement statique.",
   "src": [
-   "e1maires21",
-   "fiinterfac21"
+   "fiinterfac21",
+   "libreinterfac22",
+   "f3statique22"
   ]
  },
  {
@@ -803,10 +806,11 @@
   "until": "2026-10-22T23:00",
   "ta": true,
   "title": "Rassemblement étudiant interdit",
-  "text": "Le préfet du Rhône interdit le rassemblement de l'après-midi appelé par l'UNEF et le NPA, qui devait finir place Bellecour. Couvre-feu de la Presqu'île reconduit les nuits précédentes de 23 h à 6 h.",
+  "text": "Le préfet du Rhône interdit le rassemblement de l'après-midi appelé par l'UNEF et le NPA, qui devait finir place Bellecour. Couvre-feu de la Presqu'île reconduit les nuits précédentes de 23 h à 6 h. L'UNEF, la LDH et le Syndicat des avocats de France ont déposé un recours ; les organisateurs maintiennent un rassemblement place Guichard.",
   "src": [
    "bfm22",
-   "lyoncap21"
+   "lyoncap21",
+   "mesinfoslyon22"
   ]
  },
  {
@@ -885,6 +889,68 @@
   "src": [
    "skymil22",
    "adnmil22"
+  ]
+ },
+ {
+  "id": "a-conseildef23",
+  "kind": "agenda",
+  "place": "Paris · Élysée",
+  "lon": 2.3165,
+  "lat": 48.8704,
+  "t": "2026-10-23T09:00",
+  "until": null,
+  "ta": true,
+  "title": "Conseil de défense avant samedi",
+  "text": "Emmanuel Macron convoque un conseil de défense vendredi matin pour préparer la journée du samedi 24 octobre et prendre des « décisions supplémentaires ».",
+  "src": [
+   "m20macron22",
+   "icimacron22"
+  ]
+ },
+ {
+  "id": "a-paris24",
+  "kind": "agenda",
+  "place": "Paris · Bastille – Nation",
+  "lon": 2.3825,
+  "lat": 48.85,
+  "t": "2026-10-24T12:00",
+  "until": null,
+  "ta": true,
+  "title": "Manifestation syndicale autorisée Bastille–Nation",
+  "text": "La préfecture de police autorise samedi 24 octobre le parcours Bastille–Nation déclaré notamment par la CGT. Le parcours Bastille–Opéra déclaré par Interfac et des gilets jaunes doit être interdit. Selon Emmanuel Macron, seules les manifestations organisées par les syndicats seront autorisées ce jour-là.",
+  "src": [
+   "e1bastnat22",
+   "m20macron22"
+  ]
+ },
+ {
+  "id": "p-paris24",
+  "kind": "interdiction",
+  "place": "Paris · Bastille – Opéra",
+  "lon": 2.355,
+  "lat": 48.862,
+  "t": "2026-10-24T08:00",
+  "until": "2026-10-24T23:59",
+  "ta": true,
+  "title": "Cortège vers l'Opéra interdit samedi",
+  "text": "La préfecture de police annonce un arrêté d'interdiction pour le parcours de la Bastille à l'Opéra déclaré par Interfac et des gilets jaunes samedi 24 octobre, en invoquant les violences des précédentes manifestations ; une coordination de gilets jaunes refuse le tracé alternatif.",
+  "src": [
+   "e1bastnat22"
+  ]
+ },
+ {
+  "id": "p-lyon24",
+  "kind": "interdiction",
+  "place": "Lyon · toute la ville",
+  "lon": 4.835,
+  "lat": 45.76,
+  "t": "2026-10-24T00:00",
+  "until": "2026-10-24T23:59",
+  "ta": true,
+  "title": "Toutes les manifestations interdites samedi",
+  "text": "Le préfet du Rhône Étienne Guyot interdit par arrêtés toute manifestation dans la ville de Lyon samedi 24 octobre, jour de l'« acte II » contre la vie chère, après les violences du 17 octobre sur la Presqu'île.",
+  "src": [
+   "lyoncap24"
   ]
  }
 ]
