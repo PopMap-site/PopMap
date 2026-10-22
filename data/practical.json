@@ -345,11 +345,13 @@
   "t": "2026-10-22T10:00",
   "ta": true,
   "title": "Appel à manifester pour une date d'élection",
-  "text": "Jeudi 22 octobre, Vente Venezuela, le parti de María Corina Machado, appelle à manifester dans tous les États du pays pour son retour, une date d'élection présidentielle (il soutient la proposition du 24 juillet 2027) et la libération des prisonniers politiques.",
+  "text": "Jeudi 22 octobre, Vente Venezuela, le parti de María Corina Machado, appelle à manifester dans tous les États du pays pour son retour, une date d'élection présidentielle (il soutient la proposition du 24 juillet 2027) et la libération des prisonniers politiques. Le chavisme a aussi convoqué une marche à Caracas le même jour (El Nacional). Edmundo González, en exil, soutient les manifestations (Infobae).",
   "src": [
    "riovzla",
    "infobvz",
-   "eldiariovz"
+   "eldiariovz",
+   "elnacvz22",
+   "infobvz22"
   ]
  },
  {
@@ -867,6 +869,22 @@
    "f3orleans",
    "iciorleans",
    "tpnunez21"
+  ]
+ },
+ {
+  "id": "a-italie24",
+  "kind": "agenda",
+  "place": "Milan · piazza del Duomo",
+  "lon": 9.1919,
+  "lat": 45.4642,
+  "t": "2026-10-24T15:00",
+  "until": null,
+  "ta": false,
+  "title": "Rassemblements du « Movimento 17 ottobre »",
+  "text": "Samedi 24 octobre à 15 h, le « Movimento 17 ottobre » appelle à se rassembler place du Duomo à Milan, au Circo Massimo à Rome et à Santa Maria Novella à Florence ; des rassemblements sont aussi annoncés à Turin, Bologne et Bari. 500 militaires renforcent la sécurité à Milan.",
+  "src": [
+   "skymil22",
+   "adnmil22"
   ]
  }
 ]

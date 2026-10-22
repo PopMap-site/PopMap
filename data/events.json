@@ -126,6 +126,10 @@
    [
     "22 oct. matin",
     "Jeudi, la préfecture de police interdit rassemblements et manifestations de 8 h à 20 h dans plusieurs secteurs du centre (Élysée, Matignon, Assemblée, Sénat, Champs-Élysées, Louvre, grands magasins, place d'Italie, Bastille, République, Châtelet-Les Halles, île de la Cité, gares), en plus de la manifestation d'Interfac interdite ; l'Interfac IDF conteste l'interdiction. Neuf stations de métro fermées dès 10 h et ligne 10 coupée entre Gare d'Austerlitz et Jussieu (RATP). La veille au Sénat, Laurent Nuñez a écarté l'état d'urgence réclamé par Bruno Retailleau (LR), en promettant davantage de forces samedi ; Sébastien Lecornu a annoncé à l'Assemblée « cinq chantiers » pour répondre aux lycéens. Les partis sont reçus à Matignon jeudi, puis les maires de Paris, Marseille et Lyon."
+   ],
+   [
+    "22 oct. midi",
+    "Emmanuel Macron, qui maintient sa tournée dans le Golfe, réunit jeudi les services de renseignement, Sébastien Lecornu et les ministres concernés pour un « compte rendu détaillé » du 17 octobre (AFP). Le Premier ministre reçoit dans la journée les chefs de partis, puis les maires de Paris, Marseille et Lyon."
    ]
   ],
   "spots": [
@@ -324,7 +328,9 @@
    "sortmetro22",
    "f3interfac22",
    "psnunez21",
-   "tpintersynd21"
+   "tpintersynd21",
+   "orangemac22",
+   "jddpartis22"
   ],
   "photos": [
    {
@@ -1654,7 +1660,7 @@
   "cat": "emeute",
   "sev": 3,
   "live": false,
-  "date": "2026-10-20",
+  "date": "2026-10-22",
   "zoom": 18000,
   "title": "Guérilla urbaine autour du Duomo",
   "summary": "La manifestation « Italia in piazza » contre la vie chère, le prix de l'essence et la pression fiscale (environ 5 000 personnes, très jeunes, mobilisées via TikTok et Instagram) a dégénéré samedi. Des groupes vêtus de noir ont repoussé la police et occupé la piazza del Duomo à coups de pierres, pétards et barrières. Nouvelles tensions et commerces attaqués dimanche après-midi.",
@@ -1728,6 +1734,10 @@
    [
     "21 oct. soir",
     "Sous la pluie, rassemblement de la CGIL « contre la violence » piazza della Scala, devant la mairie, avec le PD, l'ANPI, l'ARCI et des drapeaux du M5S ; Azione n'y participe pas, réclamant une manifestation civique sans symboles de partis. Selon la CGIL, il manque 350 policiers à Milan alors que 500 militaires sont arrivés (ANSA)."
+   ],
+   [
+    "22 oct.",
+    "Le comité pour l'ordre et la sécurité publique, réuni avec Matteo Salvini et le ministre de l'Intérieur Matteo Piantedosi, déploie 500 parachutistes de la brigade Folgore dans le cadre de « Strade Sicure », en renfort des quelque 5 000 membres des forces de l'ordre, avec des contrôles dans les gares et des drones pour samedi. Le juge a ordonné la détention de quatre jeunes et l'assignation à résidence d'un cinquième. Le « Movimento 17 ottobre » appelle à une mobilisation chaque samedi à 15 h, notamment place du Duomo ; le mouvement rejette toute responsabilité dans les violences. Le maire Beppe Sala se dit préoccupé ; selon Piantedosi, rien ne prouve une manipulation extérieure. Des fausses alertes, en partie générées par IA, ont circulé dans les messageries étudiantes (Sky TG24, Adnkronos)."
    ]
   ],
   "spots": [
@@ -1873,7 +1883,10 @@
    "cgilmi21",
    "mitoday21",
    "ansamil21",
-   "gazzpr21"
+   "gazzpr21",
+   "skymil22",
+   "adnmil22",
+   "mitomil22"
   ],
   "photos": [
    {
@@ -2492,7 +2505,7 @@
   "cat": "emeute",
   "sev": 3,
   "live": true,
-  "date": "2026-10-21",
+  "date": "2026-10-22",
   "title": "Neuf jours de mobilisation, 320 blessés",
   "summary": "Parti des étudiants (coût des études) et de la vente d'une partie du littoral à un projet de luxe lié à Jared Kushner, le mouvement réclame de meilleures conditions d'études, des emplois et la démission du Premier ministre. Heurts devant le ministère de l'Éducation et autour du bureau d'Edi Rama ; balles en caoutchouc, canons à eau et gaz lacrymogènes. Rama refuse de démissionner, évoque une « main étrangère » et un risque pour l'adhésion à l'UE.",
   "figs": [
@@ -2572,7 +2585,8 @@
    "eual21",
    "portalb21",
    "boldtir21",
-   "srptir21"
+   "srptir21",
+   "politisal22"
   ],
   "photos": [
    {
@@ -2621,6 +2635,10 @@
    [
     "21 oct. après-midi",
     "Des enseignants d'université défilent avec les étudiants de l'Université polytechnique à la place Skanderbeg ; les chaises « dialogue » installées par Edi Rama devant le gouvernement sont de nouveau brisées. Selon la police, 33 personnes ont été arrêtées lors de la dernière vague de violences, dont six mineurs, et 271 en sept jours ; sept policiers blessés par des objets lancés par des individus masqués (Srpske)."
+   ],
+   [
+    "22 oct. matin",
+    "Dixième jour consécutif de mobilisation. Dans la nuit, après plusieurs heures de calme, de petits groupes masqués lancent des cocktails Molotov près du bureau du Premier ministre, boulevard des Martyrs de la Nation ; la police répond au canon à eau. Les manifestants appellent à se rassembler à 10 h devant le Parlement pour empêcher la séance de jeudi ; Edi Rama renouvelle son appel au dialogue (ANA-MPA, une seule source)."
    ]
   ],
   "zoom": 12000
@@ -2634,7 +2652,7 @@
   "cat": "manif",
   "sev": 1,
   "live": true,
-  "date": "2026-10-21",
+  "date": "2026-10-22",
   "t": "2026-10-16T12:00",
   "ta": true,
   "title": "Les étudiants avant les législatives anticipées",
@@ -2651,7 +2669,9 @@
    "novaslav",
    "mojns21",
    "srpbg21",
-   "vremebg21"
+   "vremebg21",
+   "eunbg22",
+   "intellibg22"
   ],
   "tl": [
    [
@@ -2669,6 +2689,10 @@
    [
     "21 oct. soir",
     "Les colonnes de marcheurs venues de Valjevo, Šabac, Gornji Milanovac et Novi Sad (environ 75 km à pied) arrivent place des Étudiants, accueillies devant le Rectorat ; la colonne partie de Zaječar arrive plus tard. Jeudi : marches à partir de 16 h depuis Zemun, Novi Beograd et Čukarica, puis rassemblement de clôture à 18 h place Slavija. Législatives anticipées dimanche 25 octobre."
+   ],
+   [
+    "22 oct.",
+    "Mercredi soir, des milliers de personnes ont accueilli à Belgrade, dans une ambiance festive, les étudiants venus à pied de toute la Serbie avec drapeaux et torches (Euronews). Rassemblement de clôture de la liste étudiante jeudi à 18 h place Slavija, avant les législatives anticipées de dimanche."
    ]
   ]
  },
@@ -2750,7 +2774,8 @@
    "aj",
    "eunw",
    "ajspb19",
-   "unnua22"
+   "unnua22",
+   "mtmsk22"
   ],
   "t": "2026-10-17T12:00",
   "ta": true,
@@ -2758,6 +2783,10 @@
    [
     "22 oct. nuit",
     "Trois morts et trois blessés dans la région de Zaporijia lors des attaques nocturnes, selon le bilan régional relayé par UNN."
+   ],
+   [
+    "22 oct. matin",
+    "Selon le décompte du Moscow Times à partir des bilans régionaux, les frappes russes de la nuit ont fait au moins sept morts en Ukraine : trois dans la région de Zaporijia, deux dans celle de Donetsk, un dans celle de Soumy et un dans celle de Kharkiv."
    ]
   ]
  },
@@ -2785,14 +2814,17 @@
    "printua21",
    "anua21",
    "glavkyiv22",
-   "unnua22"
+   "unnua22",
+   "apkyiv22",
+   "upkyiv22",
+   "ukrkyiv22"
   ],
   "t": "2026-10-14T12:00",
   "ta": true,
   "figs": [
    [
-    "15",
-    "blessés dans la nuit du 22 oct. (Klitschko)"
+    "1 mort, 22 blessés",
+    "dont 4 enfants, nuit du 22 oct. (autorités ukrainiennes)"
    ],
    [
     "1",
@@ -2870,6 +2902,10 @@
    [
     "22 oct. nuit",
     "Plusieurs vagues de drones et de missiles balistiques : 15 blessés dont deux adolescents de 15 ans, huit hospitalisés, selon le maire Vitali Klitschko. Une installation de transport touchée à Darnytskyï, une station d'ambulances et six véhicules endommagés à Petchersk, une partie de l'infrastructure du métro abîmée près du pont Sud."
+   ],
+   [
+    "22 oct. matin",
+    "Bilan revu à la hausse : un mort et 22 blessés, dont quatre enfants, selon les autorités ukrainiennes ; dégâts dans six districts. Dans le district de Dniprovskyï, sur la rive est, une personne tuée et six blessées, des incendies. Les frappes surviennent quelques heures après l'annonce par le conseiller du Kremlin Iouri Ouchakov d'un accord « de principe » de Vladimir Poutine pour reprendre les pourparlers trilatéraux avec les États-Unis et l'Ukraine après le 10 novembre, à l'issue d'une rencontre avec l'émissaire américain Steve Witkoff. Volodymyr Zelensky soutient la reprise des discussions tout en restant prudent (AP)."
    ]
   ],
   "media": [
@@ -2889,7 +2925,7 @@
   "cat": "guerre",
   "sev": 3,
   "live": true,
-  "date": "2026-10-21",
+  "date": "2026-10-22",
   "title": "Guerre d'Iran : la bataille du détroit",
   "summary": "Guerre ouverte depuis l'offensive américaine du 28 février. Washington maintient un blocus des ports iraniens ; Washington et Téhéran revendiquent chacun le contrôle du détroit. Au moins 12 navires attaqués la semaine du 16 octobre selon l'agence britannique UKMTO (un coulé, deux immobilisés), un supertanker en feu après une mine selon les Gardiens de la révolution, un remorqueur touché le 18. Le flux pétrolier est tombé à environ 68 % du niveau d'avant-guerre ; le Brent a touché 110 $. L'Iran propose une réouverture du détroit en six jours puis des négociations, contre la levée du blocus.",
   "figs": [
@@ -2921,7 +2957,9 @@
    "mmhormuz21",
    "rigzone21",
    "arabtank21",
-   "iitank21"
+   "iitank21",
+   "apormuz22",
+   "trendormuz22"
   ],
   "t": "2026-10-16T12:00",
   "ta": true,
@@ -2953,6 +2991,10 @@
    [
     "21 oct. midi",
     "Un pétrolier au mouillage est touché par un projectile non identifié à environ 11 milles nautiques à l'ouest de Bukha (Musandam, Oman) ; l'incendie a été éteint et tout l'équipage est sain et sauf, selon l'agence britannique UKMTO. Aucun auteur n'est désigné."
+   ],
+   [
+    "22 oct. matin",
+    "Selon la télévision d'État iranienne, citant la marine des Gardiens de la révolution, sept pétroliers ont pris feu ou ont été endommagés dans la nuit, frappés par l'Iran ou par des mines ; aucune victime signalée. L'agence britannique UKMTO n'a pas signalé ces attaques, notant que certains armateurs hésitent à déclarer les incidents (AP). Les Gardiens menacent de frapper des bases américaines si Washington continue d'escorter des navires ; les États-Unis envoient un troisième porte-avions, et Donald Trump a rejeté la dernière proposition iranienne de rouvrir le détroit sous sept jours contre la levée du blocus des ports iraniens."
    ]
   ]
  },
@@ -6326,6 +6368,10 @@
     "drones vers la région de Moscou (maire)"
    ],
    [
+    "808",
+    "drones abattus au-dessus de la Russie et de la Crimée en une nuit (ministère russe de la Défense)"
+   ],
+   [
     "163",
     "abattus aux abords de la capitale (maire)"
    ],
@@ -6342,6 +6388,10 @@
    [
     "22 oct. matin",
     "Sergueï Sobianine fait état de 630 drones depuis la veille au soir, 163 abattus près de Moscou, deux blessés ; restrictions aériennes levées (Vedomosti, TASS)."
+   ],
+   [
+    "22 oct. midi",
+    "Le ministère russe de la Défense dit avoir abattu 808 drones ukrainiens au-dessus de la Russie et de la Crimée annexée entre mercredi soir et jeudi matin (AP). Selon le média en exil Astra, un entrepôt de munitions du ministère de la Défense aurait été touché à Serpoukhov, au sud de Moscou ; information non vérifiée (The Moscow Times). Au moins six civils blessés en Russie selon ce journal."
    ]
   ],
   "spots": [
@@ -6360,12 +6410,22 @@
     "d": "Nuit du 21 au 22 octobre : trafic restreint dans les aéroports moscovites par l'agence Rosaviatsia, puis rétabli.",
     "t": "2026-10-22T02:00",
     "ta": true
+   },
+   {
+    "n": "Serpoukhov",
+    "lon": 37.41,
+    "lat": 54.92,
+    "d": "Nuit du 21 au 22 octobre : explosions et incendie signalés près d'un site logistique militaire russe, selon le média Astra cité par The Moscow Times, qui n'a pas pu le vérifier.",
+    "t": "2026-10-22T04:00",
+    "ta": true
    }
   ],
   "src": [
    "tassmsk22",
    "vedmsk22",
-   "m24msk22"
+   "m24msk22",
+   "mtmsk22",
+   "aphou22"
   ]
  },
  {
