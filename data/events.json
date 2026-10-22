@@ -8,7 +8,7 @@
   "cat": "emeute",
   "sev": 3,
   "live": true,
-  "date": "2026-10-21",
+  "date": "2026-10-22",
   "zoom": 5000,
   "title": "Paris sous tension depuis le 17-octobre",
   "summary": "Journée nationale contre la vie chère, dans la foulée du mouvement lycéen : 110 000 manifestants à Paris selon l'Intérieur. Le cortège autorisé République–Clichy est resté calme, mais des groupes masqués ont multiplié les heurts autour. Cortèges sauvages vers l'Élysée, barricades sur les Champs-Élysées, voitures brûlées, pillages, stations de métro fermées. Dès 7 h, le siège de CNews et Europe 1 avait été visé par une centaine d'individus cagoulés. Nouveaux affrontements dimanche à République ; allocution d'Emmanuel Macron dimanche soir.",
@@ -122,6 +122,10 @@
    [
     "21 oct. après-midi",
     "À la sortie de Matignon (environ 2 h 30 de réunion), les syndicats se disent déçus, avec des nuances. Sophie Binet (CGT) déplore « aucune mesure » et appelle à généraliser la grève à partir du 5 novembre ; Marylise Léon (CFDT) juge « impératif » d'obtenir des réponses sur les salaires d'ici là ; Cyril Chabanier (CFTC) parle d'une réunion « très décevante » mais note une ouverture sur le Smic ; Frédéric Souillot (FO) laisse « une chance à la discussion ». Le ministre du Travail Jean-Pierre Farandou doit recevoir syndicats et patronat sur les salaires ; une réunion sur les revendications des lycéens est prévue lundi (AFP). La préfecture de police reconduit le couvre-feu de 23 h à 6 h autour de République et des Halles pour une troisième nuit et interdit la manifestation lycéenne et étudiante d'Interfac prévue jeudi entre l'Hôpital et Bastille, invoquant « l'incapacité de l'organisateur à éviter les exactions » ; l'organisateur peut saisir le tribunal administratif. Sébastien Lecornu recevra jeudi après-midi les maires de Paris, Marseille et Lyon."
+   ],
+   [
+    "22 oct. matin",
+    "Jeudi, la préfecture de police interdit rassemblements et manifestations de 8 h à 20 h dans plusieurs secteurs du centre (Élysée, Matignon, Assemblée, Sénat, Champs-Élysées, Louvre, grands magasins, place d'Italie, Bastille, République, Châtelet-Les Halles, île de la Cité, gares), en plus de la manifestation d'Interfac interdite ; l'Interfac IDF conteste l'interdiction. Neuf stations de métro fermées dès 10 h et ligne 10 coupée entre Gare d'Austerlitz et Jussieu (RATP). La veille au Sénat, Laurent Nuñez a écarté l'état d'urgence réclamé par Bruno Retailleau (LR), en promettant davantage de forces samedi ; Sébastien Lecornu a annoncé à l'Assemblée « cinq chantiers » pour répondre aux lycéens. Les partis sont reçus à Matignon jeudi, puis les maires de Paris, Marseille et Lyon."
    ]
   ],
   "spots": [
@@ -244,6 +248,14 @@
     "d": "Dimanche 18 en soirée : nouvelles dégradations.",
     "t": "2026-10-18T22:00",
     "ta": true
+   },
+   {
+    "n": "Bastille",
+    "lon": 2.3691,
+    "lat": 48.8532,
+    "d": "Le 22 octobre, station de métro fermée dès 10 h sur demande de la préfecture, secteur où rassemblements et manifestations sont interdits de 8 h à 20 h.",
+    "t": "2026-10-22T10:00",
+    "ta": false
    }
   ],
   "media": [
@@ -305,7 +317,14 @@
    "fiinterfac21",
    "sortcf21",
    "e1darm21",
-   "pr174"
+   "pr174",
+   "bfm22",
+   "shangobfm22",
+   "ratp22",
+   "sortmetro22",
+   "f3interfac22",
+   "psnunez21",
+   "tpintersynd21"
   ],
   "photos": [
    {
@@ -342,7 +361,7 @@
   "cat": "emeute",
   "sev": 3,
   "live": true,
-  "date": "2026-10-21",
+  "date": "2026-10-22",
   "zoom": 9000,
   "title": "L'office de tourisme de Bellecour incendié",
   "summary": "Environ 20 000 manifestants. Le pavillon historique de l'office de tourisme, place Bellecour, a été saccagé puis incendié vers 14 h 30 ; des groupes hostiles ont empêché les pompiers d'approcher. Magasins attaqués, canons à eau sur les ponts en fin d'après-midi. Dimanche, une cinquantaine de jeunes ont tenté de forcer la vitrine d'un magasin Lacoste.",
@@ -400,6 +419,10 @@
    [
     "21 oct. après-midi",
     "La préfecture du Rhône renouvelle le couvre-feu de l'hypercentre pour une troisième nuit, de 23 h à 6 h, soit deux heures plus tard que les précédentes ; manifestations interdites de 16 h à 23 h sur la Presqu'île. Selon elle, aucun trouble n'a été constaté les deux nuits précédentes. Le maire Grégory Doucet sera reçu jeudi à Matignon."
+   ],
+   [
+    "22 oct.",
+    "Le préfet du Rhône interdit le rassemblement de l'après-midi appelé par l'UNEF et le NPA, dont le parcours devait finir place Bellecour (BFM TV). La nuit précédente, couvre-feu de 23 h à 6 h sur une partie de la Presqu'île, rassemblements interdits de 16 h à 23 h ; amende de 135 euros en cas d'infraction (Lyon Capitale)."
    ]
   ],
   "spots": [
@@ -515,7 +538,9 @@
    "lyonmag20",
    "f3lyon20",
    "lyoncapcf20",
-   "e1maires21"
+   "e1maires21",
+   "bfm22",
+   "lyoncap21"
   ],
   "photos": [
    {
@@ -736,6 +761,10 @@
    [
     "21 oct.",
     "Matignon annonce que Sébastien Lecornu se rendra à Limoges vendredi 23 octobre, après l'incendie de l'hôtel de ville."
+   ],
+   [
+    "21 oct. après-midi",
+    "Au Sénat, Laurent Nuñez répond aux critiques sur la gestion du 17 octobre à Limoges : « Ne dites pas que nous avons laissé faire, ce n'est pas acceptable » ; il annonce un dispositif renforcé en cas de nouveaux rassemblements samedi (BFM TV)."
    ]
   ],
   "posts": [
@@ -773,7 +802,8 @@
    "f3lim20",
    "jddlim20",
    "e1maires21",
-   "f3limlec21"
+   "f3limlec21",
+   "tpnunez21"
   ],
   "photos": [
    {
@@ -957,7 +987,7 @@
   "cat": "emeute",
   "sev": 3,
   "live": false,
-  "date": "2026-10-17",
+  "date": "2026-10-22",
   "title": "Immeuble incendié, plus de 30 commerces pillés",
   "summary": "Jusqu'à 13 000 manifestants dans quatre cortèges selon la préfecture. Vers 11 h 30, environ 300 personnes cagoulées se détachent et attaquent les forces de l'ordre. Vers 13 h, l'hôtel de ville puis le rectorat sont visés ; l'église Saint-Louis est dégradée. Plus de 30 commerces et agences bancaires pillés, un immeuble ravagé par les flammes près de l'arrêt Alsace-Lorraine. Le soir, nouvelles violences à Échirolles. Trams perturbés plusieurs jours.",
   "figs": [
@@ -976,12 +1006,22 @@
    [
     "3",
     "blessés : 2 policiers, 1 pompier"
+   ],
+   [
+    "66",
+    "interpellations le 17 (Grenoble Mag)"
+   ],
+   [
+    "31",
+    "policiers blessés le 17, et 2 pompiers"
    ]
   ],
   "src": [
    "pandore",
    "gremag",
-   "f3gre"
+   "f3gre",
+   "gremag22",
+   "bfm22"
   ],
   "t": "2026-10-17T11:30",
   "ta": false,
@@ -1018,6 +1058,12 @@
     "t": "2026-10-17T21:00",
     "ta": true
    }
+  ],
+  "tl": [
+   [
+    "22 oct.",
+    "La préfète de l'Isère Catherine Séguin interdit tout rassemblement, cortège et manifestation dans une large partie du centre (entre l'Isère, le boulevard Gambetta, le boulevard Maréchal-Leclerc et le boulevard Jean-Pain) de jeudi 6 h à dimanche 25 octobre 6 h. Elle n'exclut pas un couvre-feu dans certains quartiers et dans les zones commerciales d'Échirolles et de Saint-Martin-d'Hères. Bilan du 17 rappelé : 66 interpellations, 31 policiers et 2 pompiers blessés."
+   ]
   ]
  },
  {
@@ -1049,7 +1095,7 @@
   "cat": "emeute",
   "sev": 1,
   "live": true,
-  "date": "2026-10-20",
+  "date": "2026-10-22",
   "title": "Intrusion à l'hôtel de ville",
   "summary": "Affrontements dès 14 h ; le cortège pacifique part vers 15 h. Les portes vitrées de la mairie sont forcées et une partie des locaux saccagée, avant que les CRS n'entrent vérifier que le bâtiment est vide. Magasins pillés en centre-ville ; nouveaux commerces visés dimanche. Lundi 19 octobre, la préfecture du Nord instaure un couvre-feu de 20 h à 6 h pour les nuits de lundi et mardi sur certaines portions de Lille, Douai, Wattignies et Denain, avec l'accord des maires.",
   "src": [
@@ -1061,7 +1107,8 @@
    "actu17cf",
    "fi19",
    "e1direct20",
-   "entrevuecf"
+   "entrevuecf",
+   "bfm22"
   ],
   "t": "2026-10-17T15:00",
   "ta": true,
@@ -1083,6 +1130,10 @@
    [
     "19-20 oct. nuit",
     "Première nuit de couvre-feu pour les mineurs : patrouilles et contrôles dans les secteurs concernés, sans incident majeur signalé selon Europe 1. Restrictions prévues jusqu'à mercredi matin, sauf prolongation."
+   ],
+   [
+    "22 oct.",
+    "Rassemblements et manifestations interdits de 7 h à 22 h sur de larges secteurs de Lille et de Wattignies, selon BFM TV."
    ]
   ]
  },
@@ -1409,14 +1460,15 @@
   "cat": "emeute",
   "sev": 2,
   "live": false,
-  "date": "2026-10-17",
+  "date": "2026-10-22",
   "title": "27 manifestants blessés, dont un grave",
   "summary": "12 000 manifestants selon la préfecture, pour une manifestation non déclarée partie à 14 h. Dès 14 h 30, des centaines de personnes masquées s'en prennent aux forces de l'ordre. Place de la République, principal point de tension jusqu'à 20 h ; une boutique incendiée rue de Nemours, vitrines attaquées vers 18 h, commerces pillés. Plus de 20 feux de poubelles et de barricades.",
   "src": [
    "icirennes",
    "tn",
    "ria",
-   "onemedia"
+   "onemedia",
+   "bfm22"
   ],
   "t": "2026-10-17T14:00",
   "ta": true,
@@ -1467,6 +1519,12 @@
     "t": "2026-10-17T16:30",
     "ta": true
    }
+  ],
+  "tl": [
+   [
+    "22 oct.",
+    "Arrêté préfectoral interdisant les manifestations place de la République de 9 h à minuit, selon BFM TV."
+   ]
   ]
  },
  {
@@ -1595,7 +1653,7 @@
   "lat": 45.4642,
   "cat": "emeute",
   "sev": 3,
-  "live": true,
+  "live": false,
   "date": "2026-10-20",
   "zoom": 18000,
   "title": "Guérilla urbaine autour du Duomo",
@@ -1666,6 +1724,10 @@
    [
     "21 oct.",
     "Deux rassemblements mercredi soir : la CGIL à 18 h 30 piazza della Scala pour la « cohésion sociale », sans l'UIL, et le parti Futuro Nazionale de Roberto Vannacci via Torino (MilanoToday)."
+   ],
+   [
+    "21 oct. soir",
+    "Sous la pluie, rassemblement de la CGIL « contre la violence » piazza della Scala, devant la mairie, avec le PD, l'ANPI, l'ARCI et des drapeaux du M5S ; Azione n'y participe pas, réclamant une manifestation civique sans symboles de partis. Selon la CGIL, il manque 350 policiers à Milan alors que 500 militaires sont arrivés (ANSA)."
    ]
   ],
   "spots": [
@@ -1809,7 +1871,9 @@
    "ansadl20",
    "ilpostdl20",
    "cgilmi21",
-   "mitoday21"
+   "mitoday21",
+   "ansamil21",
+   "gazzpr21"
   ],
   "photos": [
    {
@@ -2507,7 +2571,8 @@
    "reptir20",
    "eual21",
    "portalb21",
-   "boldtir21"
+   "boldtir21",
+   "srptir21"
   ],
   "photos": [
    {
@@ -2552,6 +2617,10 @@
    [
     "21 oct.",
     "Neuvième jour : un nouveau groupe d'étudiants rejoint la marche vers la Primature en réclamant la démission d'Edi Rama (BoldNews). Selon le ministère de la Santé, 320 personnes ont été blessées depuis le 13 octobre : 192 policiers, 92 manifestants et 36 passants, dont 6 représentants des médias (Euronews Albania)."
+   ],
+   [
+    "21 oct. après-midi",
+    "Des enseignants d'université défilent avec les étudiants de l'Université polytechnique à la place Skanderbeg ; les chaises « dialogue » installées par Edi Rama devant le gouvernement sont de nouveau brisées. Selon la police, 33 personnes ont été arrêtées lors de la dernière vague de violences, dont six mineurs, et 271 en sept jours ; sept policiers blessés par des objets lancés par des individus masqués (Srpske)."
    ]
   ],
   "zoom": 12000
@@ -2580,7 +2649,9 @@
    "wpserb19",
    "ansaserb22",
    "novaslav",
-   "mojns21"
+   "mojns21",
+   "srpbg21",
+   "vremebg21"
   ],
   "tl": [
    [
@@ -2594,6 +2665,10 @@
    [
     "21 oct.",
     "Les colonnes de marcheurs venues de Zaječar, de l'ouest de la Serbie et de Novi Sad doivent se rejoindre mercredi soir place des Étudiants (Studentski trg) à Belgrade, avant le rassemblement de clôture de jeudi à 18 h place Slavija."
+   ],
+   [
+    "21 oct. soir",
+    "Les colonnes de marcheurs venues de Valjevo, Šabac, Gornji Milanovac et Novi Sad (environ 75 km à pied) arrivent place des Étudiants, accueillies devant le Rectorat ; la colonne partie de Zaječar arrive plus tard. Jeudi : marches à partir de 16 h depuis Zemun, Novi Beograd et Čukarica, puis rassemblement de clôture à 18 h place Slavija. Législatives anticipées dimanche 25 octobre."
    ]
   ]
  },
@@ -2662,7 +2737,7 @@
   "cat": "frappe",
   "sev": 3,
   "live": true,
-  "date": "2026-10-18",
+  "date": "2026-10-22",
   "title": "Frappes russes sur des immeubles",
   "summary": "Le 18 octobre, deux attaques russes tuent une femme et blessent au moins deux personnes, dont une fillette de 6 ans, selon les autorités locales. Un immeuble d'habitation avait été touché le 17 ; le 10, des frappes avaient tué au moins 17 personnes, dont trois enfants.",
   "figs": [
@@ -2674,10 +2749,17 @@
   "src": [
    "aj",
    "eunw",
-   "ajspb19"
+   "ajspb19",
+   "unnua22"
   ],
   "t": "2026-10-17T12:00",
-  "ta": true
+  "ta": true,
+  "tl": [
+   [
+    "22 oct. nuit",
+    "Trois morts et trois blessés dans la région de Zaporijia lors des attaques nocturnes, selon le bilan régional relayé par UNN."
+   ]
+  ]
  },
  {
   "id": "kyiv",
@@ -2688,7 +2770,7 @@
   "cat": "frappe",
   "sev": 2,
   "live": true,
-  "date": "2026-10-21",
+  "date": "2026-10-22",
   "title": "Nouvelle nuit de frappes sur la capitale",
   "summary": "Dans la nuit du 18 au 19 octobre, missiles et drones russes touchent trois arrondissements de Kyiv : 1 mort et 8 blessés selon les autorités locales ; un établissement médical, une station de métro, des écoles et un équipement sportif endommagés. La nuit précédente, une autre attaque avait fait 1 morte et 3 blessés. Moscou dit avoir visé une usine liée à l'industrie militaire dans la région.",
   "src": [
@@ -2701,11 +2783,17 @@
    "kpkyiv19",
    "pbskyiv19",
    "printua21",
-   "anua21"
+   "anua21",
+   "glavkyiv22",
+   "unnua22"
   ],
   "t": "2026-10-14T12:00",
   "ta": true,
   "figs": [
+   [
+    "15",
+    "blessés dans la nuit du 22 oct. (Klitschko)"
+   ],
    [
     "1",
     "mort le 19 oct."
@@ -2743,6 +2831,30 @@
     "d": "Écoles et équipement sportif touchés par des débris.",
     "t": "2026-10-19T03:00",
     "ta": true
+   },
+   {
+    "n": "Darnytskyï",
+    "lon": 30.64,
+    "lat": 50.43,
+    "d": "Nuit du 21 au 22 octobre : une installation d'infrastructure de transport touchée, selon les autorités de Kyiv.",
+    "t": "2026-10-22T02:00",
+    "ta": true
+   },
+   {
+    "n": "Petchersk",
+    "lon": 30.545,
+    "lat": 50.43,
+    "d": "Nuit du 21 au 22 octobre : bâtiment d'une station d'ambulances et six véhicules médicaux endommagés, sans blessé parmi le personnel.",
+    "t": "2026-10-22T02:00",
+    "ta": true
+   },
+   {
+    "n": "Pont Sud (métro)",
+    "lon": 30.565,
+    "lat": 50.405,
+    "d": "Nuit du 21 au 22 octobre : une partie de l'infrastructure du métro endommagée.",
+    "t": "2026-10-22T02:00",
+    "ta": true
    }
   ],
   "zoom": 1200,
@@ -2754,6 +2866,10 @@
    [
     "21 oct. nuit",
     "Nouvelle vague de frappes russes visant notamment des installations énergétiques dans les régions de Kyiv, de Volhynie, d'Odessa et de Mykolaïv. À Kyiv, un drone touche un immeuble de 24 étages : deux morts selon l'AFP. Le Premier ministre ukrainien fait état de quatre morts dans le pays (Reuters)."
+   ],
+   [
+    "22 oct. nuit",
+    "Plusieurs vagues de drones et de missiles balistiques : 15 blessés dont deux adolescents de 15 ans, huit hospitalisés, selon le maire Vitali Klitschko. Une installation de transport touchée à Darnytskyï, une station d'ambulances et six véhicules endommagés à Petchersk, une partie de l'infrastructure du métro abîmée près du pont Sud."
    ]
   ],
   "media": [
@@ -2859,7 +2975,9 @@
    "iranintl19",
    "toi20",
    "apme20",
-   "gulf21"
+   "gulf21",
+   "nathormuz21",
+   "rferl21"
   ],
   "t": "2026-10-16T12:00",
   "ta": true,
@@ -2875,6 +2993,10 @@
    [
     "20-21 oct.",
     "Le ministre américain de la Défense Pete Hegseth aurait rencontré Benyamin Netanyahou lors d'une visite non annoncée en Israël, selon Axios repris par Reuters ; il a confirmé une tournée régionale sans en préciser les étapes. Le secrétaire du Conseil suprême de sécurité nationale, Mohsen Rezaei, exclut tout transfert d'uranium enrichi hors d'Iran."
+   ],
+   [
+    "21 oct.",
+    "Le ministre des Affaires étrangères Abbas Araghchi affirme que le détroit d'Ormuz ne sera pas ouvert à tous sans accord avec Washington et que l'Iran se prépare à une éventuelle reprise des combats, tout en préférant la diplomatie ; les échanges indirects se poursuivent via le Pakistan et le Qatar (The National). L'Irak ferme le poste-frontière d'al-Sheeb pour raisons de sécurité, selon un responsable irakien cité par Reuters ; l'Iran recommande celui de Shalamcheh."
    ]
   ]
  },
@@ -3373,7 +3495,7 @@
   "cat": "guerre",
   "sev": 2,
   "live": true,
-  "date": "2026-10-19",
+  "date": "2026-10-21",
   "t": "2026-10-13T12:00",
   "ta": true,
   "zoom": 500,
@@ -3434,12 +3556,19 @@
    "wpwb",
    "toi18",
    "wpwb19",
-   "cnnwb10"
+   "cnnwb10",
+   "ihlander21",
+   "abclander21",
+   "haalander21"
   ],
   "tl": [
    [
     "19 oct.",
     "La police israélienne annonce l'arrestation d'au moins 10 suspects après les attaques visant la photographe du Washington Post et les diplomates européens, sur fond de pression américaine selon CNN."
+   ],
+   [
+    "21 oct.",
+    "Brad Lander, candidat démocrate au Congrès américain, est détenu avec environ 90 personnes, dont des rabbins et des bénévoles venus aider des agriculteurs palestiniens à la récolte, dans une oliveraie près de Nehalim, selon son récit et Reuters ; ils sont ensuite relâchés. La police israélienne n'avait pas réagi dans l'immédiat."
    ]
   ]
  },
@@ -4152,7 +4281,8 @@
    "la1gua19",
    "mo50",
    "etvgua20",
-   "la1rn1"
+   "la1rn1",
+   "karib21"
   ],
   "tl": [
    [
@@ -4166,6 +4296,10 @@
    [
     "20 oct.",
     "Nouvelle action du collectif Nou Las Palé sur la RN1 mardi, provoquant des kilomètres de bouchons selon La 1ère."
+   ],
+   [
+    "20-21 oct. nuit",
+    "Nuit calme sur l'ensemble du département selon la préfecture : un véhicule incendié rue Nozière à Pointe-à-Pitre et des feux de détritus ; le matin, pneus sur la N1 à l'entrée de Jarry, vite dégagés (Karibinfo)."
    ]
   ]
  },
@@ -6169,6 +6303,93 @@
    "ruaath21",
    "ruaprop21",
    "tovima21"
+  ]
+ },
+ {
+  "id": "moscou",
+  "place": "Moscou",
+  "country": "Russie",
+  "lon": 37.6173,
+  "lat": 55.7558,
+  "cat": "frappe",
+  "sev": 2,
+  "live": true,
+  "date": "2026-10-22",
+  "t": "2026-10-22T01:22",
+  "ta": false,
+  "zoom": 300,
+  "title": "630 drones lancés vers Moscou selon le maire",
+  "summary": "Selon le maire Sergueï Sobianine, 630 drones ont été dirigés vers la région de Moscou entre 20 h 30 le 21 octobre et 4 h le 22 (heure de Moscou), la plupart abattus loin de la capitale, dont 163 à son approche. Deux personnes ont été blessées dans le secteur de Voronovo (Nouvelle Moscou). L'agence Rosaviatsia a restreint le trafic des aéroports moscovites, restrictions levées dans la matinée. Ces chiffres sont ceux des autorités russes, non vérifiés de façon indépendante.",
+  "figs": [
+   [
+    "630",
+    "drones vers la région de Moscou (maire)"
+   ],
+   [
+    "163",
+    "abattus aux abords de la capitale (maire)"
+   ],
+   [
+    "2",
+    "blessés (maire)"
+   ]
+  ],
+  "tl": [
+   [
+    "22 oct. 1 h 22",
+    "Premiers drones abattus signalés (2 h 22 heure de Moscou)."
+   ],
+   [
+    "22 oct. matin",
+    "Sergueï Sobianine fait état de 630 drones depuis la veille au soir, 163 abattus près de Moscou, deux blessés ; restrictions aériennes levées (Vedomosti, TASS)."
+   ]
+  ],
+  "spots": [
+   {
+    "n": "Voronovo (Nouvelle Moscou)",
+    "lon": 37.19,
+    "lat": 55.32,
+    "d": "Nuit du 21 au 22 octobre : deux personnes blessées par la chute de débris de drones, selon le maire de Moscou.",
+    "t": "2026-10-22T03:00",
+    "ta": true
+   },
+   {
+    "n": "Aéroport de Vnoukovo",
+    "lon": 37.29,
+    "lat": 55.596,
+    "d": "Nuit du 21 au 22 octobre : trafic restreint dans les aéroports moscovites par l'agence Rosaviatsia, puis rétabli.",
+    "t": "2026-10-22T02:00",
+    "ta": true
+   }
+  ],
+  "src": [
+   "tassmsk22",
+   "vedmsk22",
+   "m24msk22"
+  ]
+ },
+ {
+  "id": "bamna",
+  "place": "Bamna (près de Tiné)",
+  "country": "Tchad",
+  "lon": 22.8,
+  "lat": 15.03,
+  "cat": "frappe",
+  "sev": 2,
+  "live": false,
+  "date": "2026-10-20",
+  "t": "2026-10-20T20:00",
+  "ta": true,
+  "title": "Frappe de drone sur des réfugiés soudanais : 5 morts",
+  "summary": "Mardi soir, une frappe de drone a tué cinq personnes dans la zone de Bamna, en territoire tchadien près de Tiné, à la frontière du Darfour-Nord, selon le Conseil des salles d'urgence de Tiné : deux bénévoles humanitaires et trois déplacés. Plusieurs civils grièvement blessés. Le Conseil ne désigne pas d'auteur ; des bénévoles accusent les Forces de soutien rapide, accusation non confirmée. Une coupure des communications complique la vérification.",
+  "figs": [
+   [
+    "5",
+    "morts dont 2 bénévoles humanitaires (salles d'urgence de Tiné)"
+   ]
+  ],
+  "src": [
+   "sudtrib21"
   ]
  }
 ]

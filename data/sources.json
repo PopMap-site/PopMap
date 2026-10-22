@@ -1822,5 +1822,121 @@
  "nationsud21": {
   "t": "The Nation — frappes de drones au Kordofan et à Abyei",
   "u": "https://www.nation.com.pk/21-Oct-2026/sudan-army-drones-hit-mourners-fuel-market-killing-300-people-sources-say"
+ },
+ "bfm22": {
+  "t": "BFM TV — interdictions de manifester jeudi et samedi",
+  "u": "https://www.bfmtv.com/societe/manifestations/paris-lille-grenoble-lyon-des-interdictions-de-manifester-dans-plusieurs-villes-de-france-jeudi-et-samedi_AD-202610210954.html"
+ },
+ "shangobfm22": {
+  "t": "Shango (reprise BFM) — interdictions jeudi et samedi",
+  "u": "https://www.shango.media/bfm-tv-paris-lille-grenoble-lyon-des-interdictions-de-manifester-dans-plusieurs-villes-de-france-jeudi-et-samedi-11971998"
+ },
+ "ratp22": {
+  "t": "Bonjour RATP — manifestation du 22 octobre, stations fermées",
+  "u": "https://www.bonjour-ratp.fr/actualites/articles/manifestation-22-octobre-2026/"
+ },
+ "sortmetro22": {
+  "t": "Sortiraparis — stations fermées le 22 octobre",
+  "u": "https://www.sortiraparis.com/actualites/a-paris/articles/355456-manifestation-du-22-octobre-a-paris-les-stations-de-metro-fermees"
+ },
+ "f3interfac22": {
+  "t": "France 3 Paris IDF — l'Interfac réplique à l'interdiction",
+  "u": "https://france3-regions.franceinfo.fr/paris-ile-de-france/paris/nous-n-allons-pas-nous-laisser-faire-l-intefac-idf-replique-apres-l-interdiction-de-la-manifestation-du-22-octobre-a-paris-3437031.html"
+ },
+ "psnunez21": {
+  "t": "Public Sénat — Nuñez écarte l'état d'urgence",
+  "u": "https://www.publicsenat.fr/actualites/politique/violences-urbaines-nous-ne-sommes-pas-a-un-stade-ou-il-y-aura-declaration-de-letat-durgence-affirme-le-ministre-de-linterieur"
+ },
+ "tpintersynd21": {
+  "t": "Titres Presse — l'intersyndicale après Matignon",
+  "u": "https://www.titrespresse.com/25998222603/sebastien-lecornu-intersyndicale"
+ },
+ "tpnunez21": {
+  "t": "Titres Presse (BFM TV) — Nuñez sur Limoges au Sénat",
+  "u": "https://www.titrespresse.com/26002422603/laurent-nunez-interieur"
+ },
+ "gremag22": {
+  "t": "Grenoble Mag — manifestations interdites jusqu'à dimanche",
+  "u": "https://www.grenoblemag.com/article/3500/grenoble-manifestations-interdites-dans-le-centre-ville-jusqu-a-dimanche-la-prefete-menace-d-instaurer-un-couvre-feu"
+ },
+ "lyoncap21": {
+  "t": "Lyon Capitale — couvre-feu renouvelé mercredi soir",
+  "u": "https://www.lyoncapitale.fr/actualite/emeutes-du-17-octobre-le-couvre-feu-et-linterdiction-de-rassemblement-renouveles-ce-mercredi-soir-a-lyon"
+ },
+ "f3orleans": {
+  "t": "France 3 Centre-Val de Loire — milliers de manifestants attendus à Orléans",
+  "u": "https://france3-regions.franceinfo.fr/centre-val-de-loire/loiret/orleans/nous-refusons-la-haine-le-racisme-face-au-congres-du-rn-des-milliers-de-manifestants-attendus-ce-week-end-a-orleans-3436548.html"
+ },
+ "iciorleans": {
+  "t": "ICI Orléans — restrictions pour le congrès du RN",
+  "u": "https://www.ici.fr/centre-val-de-loire/loiret-45/orleans/congres-du-rn-et-manifestations-a-orleans-stationnement-commerces-de-premieres-restrictions-annoncees-par-la-mairie-1157435"
+ },
+ "karib21": {
+  "t": "Karibinfo — une nuit calme en Guadeloupe",
+  "u": "https://www.karibinfo.com/news/guadeloupe-une-nuit-calme-sur-lensemble-du-departement/"
+ },
+ "tassmsk22": {
+  "t": "TASS — 630 drones vers Moscou selon le maire",
+  "u": "https://tass.com/emergencies/2205911"
+ },
+ "vedmsk22": {
+  "t": "Vedomosti — deux blessés lors de l'attaque de drones sur Moscou",
+  "u": "https://www.vedomosti.ru/politics/news/2026/10/22/1239106-sobyanin-dva-cheloveka"
+ },
+ "m24msk22": {
+  "t": "M24 — 630 drones vers la région de Moscou",
+  "u": "https://www.m24.ru/news/22102026/955454"
+ },
+ "glavkyiv22": {
+  "t": "Glavnoe — 15 blessés à Kyiv, métro et station d'ambulances touchés",
+  "u": "https://glavnoe.in.ua/en/news-en/overnight-attack-on-kyiv-leaves-15-injured-damages-metro-infrastructure-and-ambulance-station"
+ },
+ "unnua22": {
+  "t": "UNN — bilan de la nuit dans les régions",
+  "u": "https://unn.ua/en/news/nighttime-shelling-of-ukraine-claimed-the-lives-of-at-least-6-people-with-dozens-injured-the-aftermath-of-attacks-across-the-regions"
+ },
+ "srptir21": {
+  "t": "Srpske — 9e jour de manifestations à Tirana",
+  "u": "https://srpske.rs/vesti/svet/2026/10/21/tirana-deveti-dan-protesta-profesori-uz-studente-320-povredjenih"
+ },
+ "srpbg21": {
+  "t": "Srpske — les colonnes arrivées place des Étudiants",
+  "u": "https://srpske.rs/vesti/politika/2026/10/21/pesacke-kolone-stigle-do-rektorata-sutra-setnje-ka-slaviji-od-16"
+ },
+ "vremebg21": {
+  "t": "Vreme — accueil des marcheurs place des Étudiants",
+  "u": "https://vreme.com/vesti/docek-setaca-iz-vise-krajeva-srbije-na-studentskom-trgu-u-beogradu/"
+ },
+ "ansamil21": {
+  "t": "ANSA — à Milan, la pluie n'arrête pas le rassemblement contre la violence",
+  "u": "https://www.ansa.it/sito/notizie/politica/2026/10/21/a-milano-la-pioggia-non-ferma-il-presidio-contro-la-violenza_43dd957c-cb20-453a-a7da-6bfc625b4569.html"
+ },
+ "gazzpr21": {
+  "t": "Gazzetta di Parma — rassemblement contre la violence à Milan",
+  "u": "https://www.gazzettadiparma.it/italia-mondo/2026/10/21/news/a-milano-la-pioggia-non-ferma-il-presidio-contro-la-violenza-976046/"
+ },
+ "ihlander21": {
+  "t": "Israel Hayom — Brad Lander détenu en Cisjordanie",
+  "u": "https://www.israelhayom.com/2026/10/21/brad-lander-detained-west-bank/"
+ },
+ "abclander21": {
+  "t": "ABC News — Brad Lander détenu par l'armée israélienne",
+  "u": "https://abcnews.com/International/congressional-candidate-brad-lander-detained-idf-west-bank/story?id=137447702"
+ },
+ "haalander21": {
+  "t": "Haaretz — Israël détient brièvement Brad Lander",
+  "u": "https://www.haaretz.com/west-bank/2026-10-21/ty-article/.premium/democratic-congressional-candidate-brad-lander-detained-in-west-bank-group-says/000001a1-5de3-da49-abe9-5ffb7b750000"
+ },
+ "sudtrib21": {
+  "t": "Sudan Tribune — frappe de drone sur des réfugiés au Tchad",
+  "u": "https://sudantribune.com/article/320265"
+ },
+ "nathormuz21": {
+  "t": "The National — Araghchi : Ormuz restera fermé sans accord",
+  "u": "https://www.thenationalnews.com/news/gulf/2026/10/21/araghchi-says-strait-of-hormuz-will-stay-closed-until-us-agrees-to-irans-terms/"
+ },
+ "rferl21": {
+  "t": "RFE/RL — direct Iran du 21 octobre",
+  "u": "https://www.rferl.org/a/iran-live-blog-trump-middle-east/33803414.html"
  }
 }

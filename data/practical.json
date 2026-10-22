@@ -712,5 +712,161 @@
   "src": [
    "e1cgt21"
   ]
+ },
+ {
+  "id": "p-paris22",
+  "kind": "transport",
+  "place": "Paris · Bastille – Place d'Italie",
+  "lon": 2.362,
+  "lat": 48.843,
+  "t": "2026-10-22T10:00",
+  "until": "2026-10-22T20:00",
+  "ta": true,
+  "title": "9 stations de métro fermées, ligne 10 coupée",
+  "text": "Dès 10 h, sur demande de la préfecture de police : Bastille, Saint-Paul, Place d'Italie, Campo Formio, Saint-Marcel, Quai de la Rapée, Gare d'Austerlitz, Bréguet-Sabin, Chemin-Vert. Ligne 10 interrompue entre Gare d'Austerlitz et Jussieu. Heure de réouverture non précisée.",
+  "src": [
+   "ratp22",
+   "sortmetro22"
+  ]
+ },
+ {
+  "id": "p-paris22i",
+  "kind": "interdiction",
+  "place": "Paris · centre",
+  "lon": 2.335,
+  "lat": 48.862,
+  "t": "2026-10-22T08:00",
+  "until": "2026-10-22T20:00",
+  "ta": false,
+  "title": "Manifestations interdites dans le centre",
+  "text": "Rassemblements et manifestations interdits de 8 h à 20 h autour de l'Élysée, Matignon, l'Assemblée, le Sénat, les Champs-Élysées, le Louvre, les grands magasins, la place d'Italie, Bastille, République, Châtelet-Les Halles, l'île de la Cité et les gares (préfecture de police, selon BFM TV).",
+  "src": [
+   "bfm22",
+   "shangobfm22"
+  ]
+ },
+ {
+  "id": "p-lille22",
+  "kind": "interdiction",
+  "place": "Lille et Wattignies",
+  "lon": 3.063,
+  "lat": 50.633,
+  "t": "2026-10-22T07:00",
+  "until": "2026-10-22T22:00",
+  "ta": false,
+  "title": "Rassemblements interdits",
+  "text": "Rassemblements et manifestations interdits de 7 h à 22 h sur de larges secteurs de Lille et de Wattignies, selon BFM TV.",
+  "src": [
+   "bfm22"
+  ]
+ },
+ {
+  "id": "p-grenoble22",
+  "kind": "interdiction",
+  "place": "Grenoble · centre",
+  "lon": 5.725,
+  "lat": 45.188,
+  "t": "2026-10-22T06:00",
+  "until": "2026-10-25T06:00",
+  "ta": false,
+  "title": "Manifestations interdites jusqu'à dimanche",
+  "text": "Tout rassemblement, cortège ou manifestation interdit dans l'hypercentre (entre l'Isère, le boulevard Gambetta, le boulevard Maréchal-Leclerc et le boulevard Jean-Pain). La préfète n'exclut pas un couvre-feu ciblé.",
+  "src": [
+   "gremag22",
+   "bfm22"
+  ]
+ },
+ {
+  "id": "p-rennes22",
+  "kind": "interdiction",
+  "place": "Rennes · place de la République",
+  "lon": 1.6788,
+  "lat": 48.1096,
+  "t": "2026-10-22T09:00",
+  "until": "2026-10-22T23:59",
+  "ta": false,
+  "title": "Manifestations interdites place de la République",
+  "text": "Arrêté préfectoral interdisant les manifestations sur la place de 9 h à minuit, selon BFM TV.",
+  "src": [
+   "bfm22"
+  ]
+ },
+ {
+  "id": "p-lyon22",
+  "kind": "interdiction",
+  "place": "Lyon · Bellecour",
+  "lon": 4.832,
+  "lat": 45.7578,
+  "t": "2026-10-22T12:00",
+  "until": "2026-10-22T23:00",
+  "ta": true,
+  "title": "Rassemblement étudiant interdit",
+  "text": "Le préfet du Rhône interdit le rassemblement de l'après-midi appelé par l'UNEF et le NPA, qui devait finir place Bellecour. Couvre-feu de la Presqu'île reconduit les nuits précédentes de 23 h à 6 h.",
+  "src": [
+   "bfm22",
+   "lyoncap21"
+  ]
+ },
+ {
+  "id": "p-rouen24",
+  "kind": "interdiction",
+  "place": "Rouen",
+  "lon": 1.0993,
+  "lat": 49.4431,
+  "t": "2026-10-24T09:00",
+  "until": "2026-10-24T20:00",
+  "ta": false,
+  "title": "Manifestations interdites dans le centre samedi",
+  "text": "Manifestations interdites de 9 h à 20 h dans le centre-ville de Rouen, ainsi qu'au Havre, selon BFM TV.",
+  "src": [
+   "bfm22"
+  ]
+ },
+ {
+  "id": "p-lehavre24",
+  "kind": "interdiction",
+  "place": "Le Havre",
+  "lon": 0.1079,
+  "lat": 49.4944,
+  "t": "2026-10-24T09:00",
+  "until": "2026-10-24T20:00",
+  "ta": false,
+  "title": "Manifestations interdites dans le centre samedi",
+  "text": "Manifestations interdites de 9 h à 20 h dans le centre-ville, selon BFM TV.",
+  "src": [
+   "bfm22"
+  ]
+ },
+ {
+  "id": "p-toulon24",
+  "kind": "interdiction",
+  "place": "Toulon",
+  "lon": 5.93,
+  "lat": 43.125,
+  "t": "2026-10-24T11:00",
+  "until": "2026-10-24T23:59",
+  "ta": false,
+  "title": "Manifestations interdites dans le centre samedi",
+  "text": "Manifestations, cortèges, défilés et rassemblements revendicatifs interdits dans le centre-ville de 11 h à minuit, selon BFM TV.",
+  "src": [
+   "bfm22"
+  ]
+ },
+ {
+  "id": "a-orleans24",
+  "kind": "agenda",
+  "place": "Orléans",
+  "lon": 1.909,
+  "lat": 47.902,
+  "t": "2026-10-24T10:00",
+  "until": null,
+  "ta": true,
+  "title": "Congrès du RN et contre-manifestations",
+  "text": "Le Rassemblement national tient son congrès à Orléans ce week-end. Laurent Nuñez attend « plusieurs dizaines de milliers » de contre-manifestants samedi et annonce un dispositif de sécurité « extrêmement conséquent » ; la mairie annonce des restrictions de stationnement et pour les commerces.",
+  "src": [
+   "f3orleans",
+   "iciorleans",
+   "tpnunez21"
+  ]
  }
 ]
