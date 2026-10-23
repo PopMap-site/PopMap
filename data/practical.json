@@ -143,22 +143,6 @@
   ]
  },
  {
-  "id": "a-strasbourg",
-  "kind": "agenda",
-  "place": "Strasbourg",
-  "lon": 7.769,
-  "lat": 48.597,
-  "t": "2026-10-20T12:00",
-  "ta": true,
-  "title": "Rassemblement syndical européen contre le « 28e régime »",
-  "text": "Mardi 20 octobre devant le Parlement européen, à l'appel de la Confédération européenne des syndicats et de syndicats français dont la CGT, contre le projet de « 28e régime » (statut européen optionnel pour les entreprises), qu'ils jugent porteur de dumping social. Mobilisation distincte du 17 octobre.",
-  "src": [
-   "clep",
-   "nvo28",
-   "cgt28"
-  ]
- },
- {
   "id": "a-greve5",
   "kind": "agenda",
   "place": "France entière",
@@ -425,14 +409,16 @@
   "lon": 2.355,
   "lat": 48.864,
   "t": "2026-10-19T23:00",
-  "until": "2026-10-22T06:00",
+  "until": "2026-10-26T06:00",
   "title": "Couvre-feu 23 h – 6 h",
-  "text": "Couvre-feu pour tout le public de 23 h à 6 h, reconduit mercredi 21 octobre pour une troisième nuit « aussi longtemps que cela sera nécessaire » selon la préfecture de police : terre-plein central de la place de la République et sud des Halles (place Maurice-Quentin, rue Berger, partie du boulevard de Sébastopol, rue Rambuteau jusqu'à l'allée André-Breton, passage des Lingères). Résidents, personnes qui travaillent, commerçants et secours exemptés sur justificatif. Manifestations interdites de 20 h à 6 h dans un périmètre plus large.",
+  "text": "Couvre-feu pour tout le public de 23 h à 6 h, reconduit par la préfecture de police toutes les nuits jusqu'au lundi 26 octobre au matin : terre-plein central de la place de la République et sud des Halles (place Maurice-Quentin, rue Berger, partie du boulevard de Sébastopol, rue Rambuteau jusqu'à l'allée André-Breton, passage des Lingères). Résidents, personnes qui travaillent, commerçants et secours exemptés sur justificatif. Manifestations interdites de 20 h à 6 h dans un périmètre plus large.",
   "src": [
    "fi23cf",
    "actu17cf20",
    "icipcf20",
-   "sortcf21"
+   "sortcf21",
+   "fipcf22",
+   "noovocf22"
   ]
  },
  {
@@ -468,21 +454,6 @@
   ]
  },
  {
-  "id": "a-romecdm",
-  "kind": "agenda",
-  "place": "Rome · Palazzo Chigi",
-  "lon": 12.48,
-  "lat": 41.901,
-  "t": "2026-10-20T17:30",
-  "title": "Décret-loi sur l'ordre public adopté",
-  "text": "Mardi 20 octobre, le Conseil des ministres a adopté le décret-loi après les violences de Milan, Bologne et Turin : délit de « participation violente à une manifestation » (2 à 5 ans), retenue préventive dès 16 ans, amendes pour les parents de mineurs, 500 militaires supplémentaires à Milan jusqu'au 31 décembre.",
-  "src": [
-   "sussicdm",
-   "ansadl20",
-   "ilpostdl20"
-  ]
- },
- {
   "id": "a-belgrade22",
   "kind": "agenda",
   "place": "Belgrade · place Slavija",
@@ -495,21 +466,6 @@
   "src": [
    "ansaserb22",
    "vremeserb"
-  ]
- },
- {
-  "id": "a-psgbarca",
-  "kind": "agenda",
-  "place": "Paris · Parc des Princes",
-  "lon": 2.253,
-  "lat": 48.8414,
-  "t": "2026-10-20T21:00",
-  "ta": true,
-  "title": "PSG–Barcelone maintenu, sécurité renforcée",
-  "text": "Le match de Ligue des champions de mardi soir est maintenu, a indiqué le ministre de l'Intérieur Laurent Nuñez, qui a exclu de le reporter. Présence policière renforcée et points de filtrage autour du stade ; prévoyez d'arriver tôt.",
-  "src": [
-   "e1direct19",
-   "psgfz"
   ]
  },
  {
@@ -695,13 +651,15 @@
   "place": "Limoges",
   "lon": 1.2578,
   "lat": 45.8317,
-  "t": "2026-10-23T11:00",
+  "t": "2026-10-23T18:00",
   "ta": true,
   "title": "Sébastien Lecornu à Limoges",
-  "text": "Vendredi 23 octobre, le Premier ministre se rend à Limoges, où l'hôtel de ville a été détruit par un incendie le 17 octobre.",
+  "text": "Vendredi 23 octobre en fin de journée, le Premier ministre se rend à l'hôtel de ville de Limoges, détruit par un incendie le 17 octobre.",
   "src": [
    "e1maires21",
-   "f3limlec21"
+   "f3limlec21",
+   "icilim23",
+   "milim23"
   ]
  },
  {
@@ -951,6 +909,84 @@
   "text": "Le préfet du Rhône Étienne Guyot interdit par arrêtés toute manifestation dans la ville de Lyon samedi 24 octobre, jour de l'« acte II » contre la vie chère, après les violences du 17 octobre sur la Presqu'île.",
   "src": [
    "lyoncap24"
+  ]
+ },
+ {
+  "id": "p-marseille24",
+  "kind": "interdiction",
+  "place": "Bouches-du-Rhône · Marseille",
+  "lon": 5.3755,
+  "lat": 43.2955,
+  "t": "2026-10-24T00:00",
+  "until": "2026-10-26T05:00",
+  "ta": false,
+  "title": "Manifestations interdites, couvre-feu pour tous",
+  "text": "Samedi 24 octobre, toutes les manifestations, déclarées ou non, sont interdites dans tout le département. Couvre-feu pour tous, mineurs et majeurs, de 23 h à 5 h dans le centre de Marseille et autour des bâtiments publics les nuits de samedi à dimanche et de dimanche à lundi. Port d'équipements de protection, transport de carburant et armes par destination interdits. Selon France 3, pas de transports en commun samedi.",
+  "src": [
+   "mim24",
+   "marsactu24",
+   "f3mrs24"
+  ]
+ },
+ {
+  "id": "a-lisbonne24",
+  "kind": "agenda",
+  "place": "Lisbonne · Marquês de Pombal",
+  "lon": -9.1497,
+  "lat": 38.7253,
+  "t": "2026-10-24T15:00",
+  "until": null,
+  "ta": false,
+  "title": "Manifestation pour le logement",
+  "text": "Samedi 24 octobre à 15 h, marche « Não temos casa, montamos tendas! » du rond-point du Marquês de Pombal à la place du Rossio, à l'appel de l'Acampada de Lisbonne. Manifestation aussi annoncée à Porto.",
+  "src": [
+   "obslx22",
+   "eunlx22"
+  ]
+ },
+ {
+  "id": "a-bruxelles0311",
+  "kind": "agenda",
+  "place": "Bruxelles",
+  "lon": 4.35,
+  "lat": 50.845,
+  "t": "2026-11-03T10:00",
+  "until": null,
+  "ta": true,
+  "title": "Manifestation européenne des travailleurs agricoles",
+  "text": "Mardi 3 novembre, manifestation européenne à Bruxelles pour défendre les travailleurs agricoles (Belga, via La Libre).",
+  "src": [
+   "libre0311"
+  ]
+ },
+ {
+  "id": "a-bruxelles2311",
+  "kind": "agenda",
+  "place": "Bruxelles",
+  "lon": 4.355,
+  "lat": 50.848,
+  "t": "2026-11-23T10:00",
+  "until": null,
+  "ta": true,
+  "title": "Manifestation nationale en front commun",
+  "text": "Lundi 23 novembre, les syndicats CSC, FGTB et Synova appellent à une manifestation nationale à Bruxelles contre l'assainissement budgétaire « sur le dos des travailleurs ».",
+  "src": [
+   "libre2311"
+  ]
+ },
+ {
+  "id": "a-elysee23",
+  "kind": "agenda",
+  "place": "Paris · Élysée",
+  "lon": 2.3168,
+  "lat": 48.8706,
+  "t": "2026-10-23T15:00",
+  "until": null,
+  "ta": true,
+  "title": "Les organisations lycéennes reçues à l'Élysée",
+  "text": "Vendredi 23 octobre à 15 h, Emmanuel Macron doit recevoir des représentants d'organisations lycéennes, à la veille de la journée du 24.",
+  "src": [
+   "tpelysee23"
   ]
  }
 ]

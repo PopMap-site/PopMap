@@ -134,6 +134,10 @@
    [
     "22 oct. après-midi",
     "Peu avant le départ, le juge des référés du tribunal administratif de Paris suspend l'arrêté qui interdisait la manifestation d'Interfac Île-de-France, sans motiver sa décision à l'audience (AFP) ; selon France 3 Paris Île-de-France, la préfecture de police a ensuite limité l'événement à un rassemblement statique. Des centaines d'étudiants se retrouvent près de la Pitié-Salpêtrière. À l'issue de sa réunion avec les services de renseignement, Emmanuel Macron reconnaît des « défauts d'anticipation » le 17 octobre et annonce que, samedi 24, seules les manifestations organisées par les syndicats seront autorisées, avec des tracés protégeant commerces et bâtiments publics ; les autres seront interdites « partout où c'est possible ». Un conseil de défense est convoqué vendredi matin. À Paris, le parcours Bastille–Nation déclaré notamment par la CGT est autorisé samedi, celui de Bastille vers l'Opéra (Interfac, gilets jaunes) sera interdit selon la préfecture de police."
+   ],
+   [
+    "22 oct. soir",
+    "La préfecture de police reconduit chaque nuit jusqu'à lundi matin le couvre-feu de 23 h à 6 h sur la place de la République et au sud des Halles (Franceinfo). Selon Brut, Emmanuel Macron a déclaré après le conseil de sécurité que « la recommandation générale, c'est qu'il n'y ait pas de manifestations dans les jours à venir » et jugé que des « actes politiques » du 17 visaient à « faire tomber la République ». Une assemblée générale étudiante était prévue à 18 h place de la République (Sortiraparis)."
    ]
   ],
   "spots": [
@@ -348,7 +352,11 @@
    "f3statique22",
    "m20macron22",
    "icimacron22",
-   "e1bastnat22"
+   "e1bastnat22",
+   "fipcf22",
+   "noovocf22",
+   "brutmacron22",
+   "sortiraparis22"
   ],
   "photos": [
    {
@@ -451,6 +459,10 @@
    [
     "22 oct. après-midi",
     "L'UNEF, avec la Ligue des droits de l'Homme et le Syndicat des avocats de France, conteste en justice l'interdiction de la manifestation étudiante ; les organisateurs maintiennent un rassemblement déplacé place Guichard (Tout Lyon). Le préfet Étienne Guyot interdit par arrêtés toute manifestation dans la ville de Lyon samedi 24 octobre, jour de l'« acte II » contre la vie chère (Lyon Capitale)."
+   ],
+   [
+    "22 oct.",
+    "Pendant l'interdiction du rassemblement étudiant, une quinzaine de CRS sont postés place Guichard (3e) ; des étudiants restent dans la Bourse du travail et lancent des slogans depuis les fenêtres (Rue89Lyon, Tribune de Lyon). Après sa réunion à Matignon, le maire Grégory Doucet dit penser « qu'on pourra manifester samedi », alors que la préfecture a interdit toute manifestation dans la ville ce jour-là."
    ]
   ],
   "spots": [
@@ -571,7 +583,10 @@
    "lyoncap21",
    "mesinfoslyon22",
    "prefrhone22",
-   "lyoncap24"
+   "lyoncap24",
+   "r89lyon22",
+   "tdlbourse22",
+   "tpmaires22"
   ],
   "photos": [
    {
@@ -594,7 +609,7 @@
   "cat": "emeute",
   "sev": 3,
   "live": true,
-  "date": "2026-10-21",
+  "date": "2026-10-22",
   "zoom": 9000,
   "title": "Mairie forcée, 118 policiers blessés",
   "summary": "Des individus sont entrés dans le hall de l'hôtel de ville et ont attaqué le poste de police municipale de la Canebière (tentative d'incendie avortée). La préfecture a compté jusqu'à 30 000 pilleurs au plus fort des émeutes, dont 8 000 émeutiers. Tous les transports publics ont été arrêtés à 15 h 25 ; blindés Centaure de la gendarmerie déployés en soirée.",
@@ -656,6 +671,10 @@
    [
     "21 oct.",
     "En déplacement à Marseille, le garde des Sceaux Gérald Darmanin dresse le bilan judiciaire national du 17 octobre : environ 2 500 gardes à vue, 917 personnes déférées et 174 incarcérées, dont des personnes sans casier judiciaire selon lui. Il annonce un circuit d'exécution rapide des peines et de nouvelles convocations pour permettre aux commerçants de chiffrer leur préjudice ; d'autres interpellations sont attendues grâce à la vidéosurveillance. Le maire Benoît Payan sera reçu jeudi à Matignon."
+   ],
+   [
+    "22 oct.",
+    "Le préfet des Bouches-du-Rhône interdit toutes les manifestations, déclarées ou non, dans tout le département samedi 24 octobre. Couvre-feu étendu aux majeurs de 23 h à 5 h dans le centre de Marseille et autour des bâtiments publics (mairie, préfecture, palais de justice) les nuits de samedi à dimanche et de dimanche à lundi ; port d'équipements de protection et transport de carburant interdits (Made in Marseille, Marsactu). Selon France 3, pas de transports en commun samedi."
    ]
   ],
   "spots": [
@@ -728,7 +747,10 @@
    "e1darm21",
    "icidarm21",
    "pr174",
-   "e1maires21"
+   "e1maires21",
+   "mim24",
+   "marsactu24",
+   "f3mrs24"
   ],
   "t": "2026-10-17T05:30",
   "ta": false
@@ -796,6 +818,10 @@
    [
     "21 oct. après-midi",
     "Au Sénat, Laurent Nuñez répond aux critiques sur la gestion du 17 octobre à Limoges : « Ne dites pas que nous avons laissé faire, ce n'est pas acceptable » ; il annonce un dispositif renforcé en cas de nouveaux rassemblements samedi (BFM TV)."
+   ],
+   [
+    "23 oct.",
+    "Le Premier ministre Sébastien Lecornu est attendu vendredi en fin de journée à l'hôtel de ville (ICI Limousin, Mes Infos)."
    ]
   ],
   "posts": [
@@ -834,7 +860,9 @@
    "jddlim20",
    "e1maires21",
    "f3limlec21",
-   "tpnunez21"
+   "tpnunez21",
+   "icilim23",
+   "milim23"
   ],
   "photos": [
    {
@@ -2211,8 +2239,8 @@
   "lat": 38.7223,
   "cat": "manif",
   "sev": 2,
-  "live": false,
-  "date": "2026-10-20",
+  "live": true,
+  "date": "2026-10-22",
   "zoom": 12000,
   "title": "Le campement du Rossio évacué par la police",
   "summary": "Des dizaines de milliers de personnes ont marché le 17 octobre à l'appel du syndicat CGTP contre la vie chère, les bas salaires et le logement (prix doublés depuis 2017, inflation 3,6 % en septembre). Le cortège est parti de Cais do Sodré pour finir sur la place du Rossio, où des dizaines de tentes ont été montées ; elles y étaient encore dimanche matin. Le gouvernement dit qu'il « ne cédera pas aux cris de la rue ».",
@@ -2251,7 +2279,9 @@
    "mundolus20",
    "rrlx20",
    "dnpsp20",
-   "dnrossio20"
+   "dnrossio20",
+   "obslx22",
+   "eunlx22"
   ],
   "t": "2026-10-17T14:30",
   "ta": false,
@@ -2279,6 +2309,10 @@
    [
     "20 oct. soir",
     "Des milliers de personnes se rassemblent de nouveau au Rossio selon le Diário de Notícias. Les 55 personnes interpellées à l'aube ont été libérées et doivent comparaître mercredi. Le maire Carlos Moedas juge l'intervention de la PSP « proportionnée » et condamne des dégradations sur la statue de Dom Pedro IV ; le collectif Acampada Lisboa dénonce des détentions arbitraires."
+   ],
+   [
+    "22 oct.",
+    "L'assemblée populaire du Rossio vote le démontage des tentes et choisit de dormir à la belle étoile ; vers 6 h 30, une cinquantaine de manifestants remontent quelques tentes, retirées à la demande de la PSP (Observador, Euronews). Les 55 personnes interpellées le 20 doivent comparaître le 27 octobre. Manifestation pour le logement samedi à 15 h du Marquês de Pombal au Rossio."
    ]
   ],
   "figs": [
@@ -2613,7 +2647,9 @@
    "srptir21",
    "politisal22",
    "protirana22",
-   "politistir22"
+   "politistir22",
+   "k1tirana22",
+   "balk22"
   ],
   "photos": [
    {
@@ -2670,6 +2706,10 @@
    [
     "22 oct. midi",
     "Dixième jour : les manifestants appellent à se rassembler devant le Parlement pour empêcher la séance ; le Parti démocrate (opposition) dépose une interpellation urgente du ministre de l'Intérieur Ervin Demo. Edi Rama, parti au sommet du Processus de Berlin au Monténégro, réitère son appel au dialogue ; banques et commerces rouvrent peu à peu à Tirana (Proto Thema, Politis)."
+   ],
+   [
+    "22 oct. soir",
+    "Première séance plénière du Parlement après deux semaines de pause, marquée par des heurts physiques entre députés ; des lois sont adoptées pendant que l'opposition proteste. Vers 19 h, de jeunes manifestants masqués déplacent des bancs de pierre près du bureau d'Edi Rama et bloquent un camion à eau ; la police les disperse au canon à eau, puis le rassemblement se reforme. Les étudiants appellent à un nouveau rassemblement samedi devant le bureau du Premier ministre (K1 Info, Balkanismo)."
    ]
   ],
   "zoom": 12000
@@ -2702,7 +2742,9 @@
    "srpbg21",
    "vremebg21",
    "eunbg22",
-   "intellibg22"
+   "intellibg22",
+   "sabahbg22",
+   "wtbg22"
   ],
   "tl": [
    [
@@ -2724,6 +2766,10 @@
    [
     "22 oct.",
     "Mercredi soir, des milliers de personnes ont accueilli à Belgrade, dans une ambiance festive, les étudiants venus à pied de toute la Serbie avec drapeaux et torches (Euronews). Rassemblement de clôture de la liste étudiante jeudi à 18 h place Slavija, avant les législatives anticipées de dimanche."
+   ],
+   [
+    "22 oct. soir",
+    "« Des dizaines de milliers » de personnes au rassemblement de clôture de la liste étudiante dans le centre de Belgrade selon l'AFP, dans le calme. La veille, le parquet de Belgrade a interrogé six personnes arrêtées, soupçonnées de préparer des violences le jour du scrutin ; 24 organisations de la société civile estiment que les conditions d'un vote « libre et équitable » ne sont pas réunies. Législatives dimanche 25 octobre."
    ]
   ]
  },
@@ -2990,7 +3036,10 @@
    "arabtank21",
    "iitank21",
    "apormuz22",
-   "trendormuz22"
+   "trendormuz22",
+   "toi22",
+   "apormuz22b",
+   "hillormuz22"
   ],
   "t": "2026-10-16T12:00",
   "ta": true,
@@ -3026,6 +3075,10 @@
    [
     "22 oct. matin",
     "Selon la télévision d'État iranienne, citant la marine des Gardiens de la révolution, sept pétroliers ont pris feu ou ont été endommagés dans la nuit, frappés par l'Iran ou par des mines ; aucune victime signalée. L'agence britannique UKMTO n'a pas signalé ces attaques, notant que certains armateurs hésitent à déclarer les incidents (AP). Les Gardiens menacent de frapper des bases américaines si Washington continue d'escorter des navires ; les États-Unis envoient un troisième porte-avions, et Donald Trump a rejeté la dernière proposition iranienne de rouvrir le détroit sous sept jours contre la levée du blocus des ports iraniens."
+   ],
+   [
+    "22 oct. soir",
+    "Donald Trump accuse l'Iran d'inventer de « fausses frappes » pour faire monter le prix du pétrole avant les élections de mi-mandat, et dit que Washington ne négocie pas avec Téhéran (Times of Israel). Selon le New York Times, cité par le même journal, les États-Unis et Israël ont préparé des plans de nouvelles frappes sur l'Iran après le scrutin du 3 novembre ; Washington envoie un troisième porte-avions dans la région (AP)."
    ]
   ]
  },
@@ -3082,7 +3135,7 @@
   "cat": "frappe",
   "sev": 3,
   "live": true,
-  "date": "2026-10-21",
+  "date": "2026-10-22",
   "title": "Les Houthis frappent l'aéroport",
   "summary": "Pire attaque sur le sol saoudien depuis 2015 : une frappe sur l'aéroport de la capitale a fait 13 morts.",
   "figs": [
@@ -3103,7 +3156,9 @@
    "almon21",
    "natmac21",
    "newarab21",
-   "gulf7"
+   "gulf7",
+   "alhurra22",
+   "rbchouthi22"
   ],
   "t": "2026-10-14T12:00",
   "ta": true,
@@ -3127,6 +3182,10 @@
    [
     "21 oct.",
     "Emmanuel Macron, en visite surprise, rencontre le prince héritier Mohammed ben Salmane : premier dirigeant occidental à se rendre en Arabie saoudite depuis l'intensification des attaques houthies. Il confirme que des militaires français protègent depuis huit jours le terminal pétrolier de Yanbu, une mission qu'il dit « purement défensive », et plaide pour une reprise des discussions avec les Houthis ; l'Élysée annonce des livraisons supplémentaires de gazole saoudien à la France. L'aéroport de Riyad a rouvert à des vols intérieurs limités ; plusieurs compagnies européennes annulent leurs vols jusqu'à mi-novembre (AP)."
+   ],
+   [
+    "22 oct.",
+    "Le porte-parole militaire houthi Yahya Saree revendique des attaques contre le siège du ministère saoudien de la Défense à Riyad, des installations d'Aramco à Yanbu, l'aéroport d'Abha et celui de Dammam ; Riyad n'a pas confirmé ces attaques dans l'immédiat. La coalition dit avoir intercepté quatre drones au-dessus des régions de Riyad et de Médine (Alhurra, RBC-Ukraine)."
    ]
   ]
  },
@@ -3138,16 +3197,23 @@
   "lat": 26.2361,
   "cat": "frappe",
   "sev": 2,
-  "live": false,
-  "date": "2026-10-14",
+  "live": true,
+  "date": "2026-10-22",
   "title": "Un bâtiment d'Aramco en feu",
   "summary": "Attaque houthie sur les installations du géant pétrolier saoudien.",
   "src": [
    "eunw",
-   "fdd"
+   "fdd",
+   "alhurra22"
   ],
   "t": "2026-10-14T12:00",
-  "ta": true
+  "ta": true,
+  "tl": [
+   [
+    "22 oct.",
+    "Selon des sources citées par Reuters, Aramco a demandé à ses employés d'évacuer son siège de Dhahran, une première depuis le début de la guerre avec l'Iran en février (Alhurra). À une quinzaine de kilomètres, l'aéroport de Dammam a été frappé."
+   ]
+  ]
  },
  {
   "id": "aden",
@@ -3575,7 +3641,7 @@
   "cat": "guerre",
   "sev": 2,
   "live": true,
-  "date": "2026-10-21",
+  "date": "2026-10-22",
   "t": "2026-10-13T12:00",
   "ta": true,
   "zoom": 500,
@@ -3639,7 +3705,9 @@
    "cnnwb10",
    "ihlander21",
    "abclander21",
-   "haalander21"
+   "haalander21",
+   "toi22",
+   "usnolive22"
   ],
   "tl": [
    [
@@ -3649,6 +3717,10 @@
    [
     "21 oct.",
     "Brad Lander, candidat démocrate au Congrès américain, est détenu avec environ 90 personnes, dont des rabbins et des bénévoles venus aider des agriculteurs palestiniens à la récolte, dans une oliveraie près de Nehalim, selon son récit et Reuters ; ils sont ensuite relâchés. La police israélienne n'avait pas réagi dans l'immédiat."
+   ],
+   [
+    "22 oct.",
+    "Près de Jamma'in, des colons chassent des Palestiniens et des militants israéliens venus participer à la récolte, selon des images relayées par le Times of Israel. Plus de 70 militants ont été détenus mercredi ; quatre Américains sont relâchés avec une interdiction de séjour de 15 jours en Cisjordanie. Reuters fait état de vols d'olives par des colons et d'attaques de plus en plus violentes contre la récolte."
    ]
   ]
  },
@@ -3661,7 +3733,7 @@
   "cat": "guerre",
   "sev": 2,
   "live": true,
-  "date": "2026-10-19",
+  "date": "2026-10-22",
   "title": "La « ligne jaune » israélienne au Sud-Liban",
   "summary": "Israël occupe une bande allant jusqu'à 10 km au Sud-Liban, délimitée par une « ligne jaune » traitée comme une frontière de fait. Frappes aériennes et tirs d'artillerie quasi quotidiens sur les villages frontaliers ; le 16 octobre, des chars avancent vers Kfarchouba. Plus de 1,2 million de personnes ont été déplacées. Des pourparlers Liban-Israël sous égide américaine sont prévus le 20 octobre à Tampa.",
   "src": [
@@ -3670,7 +3742,9 @@
    "fdd",
    "ttleb",
    "profleb",
-   "meewadi"
+   "meewadi",
+   "awliban22",
+   "meeliban22"
   ],
   "t": "2026-10-14T12:00",
   "ta": true,
@@ -3739,6 +3813,10 @@
    [
     "19 oct. soir",
     "Frappe aérienne israélienne sur Wadi al-Hujair selon des sources locales ; tirs de mitrailleuse et démolitions de bâtiments signalés dans plusieurs villages frontaliers. Pas de bilan connu."
+   ],
+   [
+    "22 oct.",
+    "Deux jours de pourparlers israélo-libanais en Floride s'achèvent sans accord ni date de reprise, selon The New Arab cité par Antiwar.com. Frappes aériennes et démolitions signalées à Kfar Tebnit et Haddatha, explosions près d'Ain al-Samahiyah et de Zawtar ash-Sharqiyah, tirs d'artillerie vers Habbariyeh, selon des sources locales et l'agence Anadolu (Middle East Eye). Pas de bilan connu. L'armée israélienne n'a pas commenté dans les articles consultés."
    ]
   ]
  },
@@ -3814,7 +3892,7 @@
   "cat": "guerre",
   "sev": 2,
   "live": true,
-  "date": "2026-10-19",
+  "date": "2026-10-22",
   "t": "2026-10-15T12:00",
   "ta": true,
   "title": "Une capitale sous contrôle des gangs",
@@ -3824,7 +3902,10 @@
    "swj",
    "latinpost",
    "aphaiti19",
-   "wphaiti19"
+   "wphaiti19",
+   "ajhaiti22",
+   "cbchaiti22",
+   "unhaiti22"
   ],
   "spots": [
    {
@@ -3849,6 +3930,10 @@
    [
     "18-19 oct.",
     "Plus grande attaque contre la nouvelle force internationale anti-gangs : à Croix-des-Bouquets, un véhicule blindé est incendié et des hélicoptères salvadoriens essuient des tirs. Quatre militaires salvadoriens sont portés disparus ; aucun groupe n'a revendiqué."
+   ],
+   [
+    "22 oct.",
+    "Le président salvadorien Nayib Bukele annonce une opération militaire pour retrouver les quatre techniciens d'aviation salvadoriens de la Force de répression des gangs, disparus depuis l'embuscade de Croix-des-Bouquets ; il menace les gangs d'une réponse plus forte s'ils ne sont pas libérés vivants. Le gouvernement haïtien parle de « priorité absolue » ; aucun groupe n'a revendiqué (Al Jazeera, CBC). Devant le Conseil de sécurité, l'ONU indique que les élections restent suspendues."
    ]
   ]
  },
@@ -6515,7 +6600,56 @@
    ]
   ],
   "src": [
-   "sudtrib21"
+   "sudtrib21",
+   "anchad22",
+   "ubcchad22"
+  ],
+  "tl": [
+   [
+    "22 oct.",
+    "Selon l'AFP, une frappe de drone survenue en début de semaine à Bamina, ville frontalière de la province du Wadi-Fira, a fait quatre morts et 14 blessés ; le représentant du gouvernement dans la province annonce une enquête sur l'origine du drone, non identifiée. Il pourrait s'agir de la même frappe que celle signalée mardi, avec un bilan différent."
+   ]
+  ]
+ },
+ {
+  "id": "dammam",
+  "place": "Dammam",
+  "country": "Arabie saoudite",
+  "lon": 49.7979,
+  "lat": 26.4712,
+  "cat": "frappe",
+  "sev": 2,
+  "live": true,
+  "date": "2026-10-22",
+  "t": "2026-10-21T12:00",
+  "ta": true,
+  "title": "L'aéroport King Fahd frappé : deux morts",
+  "summary": "Selon l'autorité saoudienne de l'aviation civile, une attaque contre l'aéroport international King Fahd de Dammam, annoncée le 22 octobre, a fait deux morts et huit blessés ; selon l'ambassade d'Inde à Riyad, au moins un mort et deux blessés sont des ressortissants indiens. Les vols ont repris jeudi matin. Les Houthis, qui multiplient les frappes sur l'Arabie saoudite, ont revendiqué une attaque contre cet aéroport.",
+  "figs": [
+   [
+    "2",
+    "morts (aviation civile saoudienne)"
+   ],
+   [
+    "8",
+    "blessés (même source)"
+   ]
+  ],
+  "tl": [
+   [
+    "21-22 oct.",
+    "Attaque contre l'aéroport King Fahd ; l'autorité de l'aviation civile évalue les dégâts (Jerusalem Post)."
+   ],
+   [
+    "22 oct. matin",
+    "Reprise des vols (Arab News Japan). Le porte-parole houthi Yahya Saree revendique une frappe sur l'aéroport de Dammam (RBC-Ukraine)."
+   ]
+  ],
+  "src": [
+   "jpdammam22",
+   "anjdammam22",
+   "alhurra22",
+   "rbchouthi22"
   ]
  }
 ]

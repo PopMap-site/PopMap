@@ -2078,5 +2078,153 @@
  "politistir22": {
   "t": "Politis (Chypre) — blocage du Parlement prévu",
   "u": "https://en.politis.com.cy/news/world/1056111/albanian-protesters-plan-parliament-blockade-as-tensions-persist-in-tirana"
+ },
+ "fipcf22": {
+  "t": "Franceinfo — Couvre-feu reconduit jusqu'à lundi à Paris",
+  "u": "https://www.franceinfo.fr/societe/mobilisation-du-17-octobre/a-paris-le-couvre-feu-nocturne-est-reconduit-toutes-les-nuits-jusqu-a-lundi-matin-aux-halles-et-sur-la-place-de-la-republique_8249593.html"
+ },
+ "noovocf22": {
+  "t": "Noovo — Couvre-feu à Paris jusqu'à lundi",
+  "u": "https://www.noovo.info/nouvelles/international/article/france-couvre-feu-dans-certains-secteurs-de-paris-toutes-les-nuits-jusqua-lundi-matin/"
+ },
+ "brutmacron22": {
+  "t": "Brut — Macron veut interdire les manifestations",
+  "u": "https://www.brut.media/fr/articles/france/societe/emmanuel-macron-veut-interdire-les-manifestations-partout-ou-cela-sera-necessaire"
+ },
+ "f24macron22": {
+  "t": "France 24 — Macron serre la vis sur les manifestations",
+  "u": "https://www.france24.com/fr/france/20261022-24-octobre-macron-serre-la-vis-sur-les-manifestations-interdites-%C3%A0-marseille-et-%C3%A0-lyon"
+ },
+ "tpelysee23": {
+  "t": "Titres Presse — Macron recevra les organisations lycéennes",
+  "u": "https://www.titrespresse.com/26178222603/emmanuel-macron-elysee"
+ },
+ "tpmaires22": {
+  "t": "Titres Presse — Les maires à Matignon",
+  "u": "https://www.titrespresse.com/26164582603/marseille-paris-lyon"
+ },
+ "r89lyon22": {
+  "t": "Rue89Lyon — Le tournant sécuritaire à Lyon",
+  "u": "https://www.rue89lyon.fr/2026/10/22/couvre-feu-interdictions-manifester-tournant-securitaire-lyon/"
+ },
+ "tdlbourse22": {
+  "t": "Tribune de Lyon — Manifestation confinée à la Bourse du travail",
+  "u": "https://tribunedelyon.fr/societe/lyon-la-drole-de-manifestation-confinee-des-etudiants-a-la-bourse-du-travail/"
+ },
+ "mim24": {
+  "t": "Made in Marseille — Interdiction de manifester et couvre-feu samedi",
+  "u": "https://madeinmarseille.net/a-la-une-marseille/213309-marseille-interdiction-de-manifester-et-couvre-feu-pour-les-majeurs-samedi-24-octobre/"
+ },
+ "marsactu24": {
+  "t": "Marsactu — Interdiction de manifester et couvre-feu élargi",
+  "u": "https://marsactu.fr/bref/marseille-interdiction-de-manifester-et-couvre-feu-elargi-aux-majeurs-des-ce-23-octobre/"
+ },
+ "f3mrs24": {
+  "t": "France 3 Provence-Alpes — Les mesures du 24 octobre",
+  "u": "https://france3-regions.franceinfo.fr/provence-alpes-cote-d-azur/bouches-du-rhone/24-octobre-toutes-les-manifestations-interdites-pas-de-transports-en-commun-et-couvre-feu-pour-tous-les-mesures-dans-les-bouches-du-rhone-et-a-marseille-3437880.html"
+ },
+ "icilim23": {
+  "t": "ICI Limousin — Lecornu à Limoges en fin de journée",
+  "u": "https://www.ici.fr/nouvelle-aquitaine/haute-vienne-87/limoges/le-premier-ministre-sebastien-lecornu-sera-a-limoges-en-fin-de-journee-5418500"
+ },
+ "milim23": {
+  "t": "Mes Infos Limoges — Visite du Premier ministre",
+  "u": "https://mesinfos.fr/87000-limoges/le-premier-ministre-sebastien-lecornu-en-visite-a-la-mairie-de-limoges-vendredi-en-fin-de-journee-341746.html"
+ },
+ "k1tirana22": {
+  "t": "K1 Info — Dixième jour de protestations à Tirana",
+  "u": "https://www.k1info.rs/vesti/svet/140493/nastavljaju-se-protesti-u-tirani/vest"
+ },
+ "balk22": {
+  "t": "Balkanismo — Élections et heurts",
+  "u": "https://balkanismo.substack.com/p/balkanismo-21102026-elezioni-e-scontri"
+ },
+ "sabahbg22": {
+  "t": "Daily Sabah (AFP) — Rassemblement final des étudiants serbes",
+  "u": "https://www.dailysabah.com/world/europe/thousands-of-student-movement-supporters-rally-as-serbia-heads-to-poll"
+ },
+ "wtbg22": {
+  "t": "Washington Times (AP) — Foule au dernier meeting étudiant",
+  "u": "https://www.washingtontimes.com/news/2026/oct/22/crowds-gather-final-pre-election-rally-serbias-students/"
+ },
+ "obslx22": {
+  "t": "Observador — L'Acampada de Lisbonne appelle à manifester samedi",
+  "u": "https://observador.pt/2026/10/22/habitacao-acampada-de-lisboa-apela-a-participacao-na-manifestacao-de-sabado/"
+ },
+ "eunlx22": {
+  "t": "Euronews PT — Dormir à la belle étoile au Rossio",
+  "u": "https://pt.euronews.com/2026/10/22/protestos-pela-habitacao-manifestantes-decidiram-dormir-ao-relento-no-rossio-apos-desmonta"
+ },
+ "libre2311": {
+  "t": "La Libre — Nouvelle manifestation en front commun",
+  "u": "https://www.lalibre.be/belgique/societe/2026/10/21/les-trois-grands-syndicats-prevoient-une-nouvelle-manifestation-a-bruxelles-P7YLHTZAZRCBBJLSYOCP4JO26I/"
+ },
+ "libre0311": {
+  "t": "La Libre — Manifestation européenne le 3/11",
+  "u": "https://www.lalibre.be/dernieres-depeches/2026/10/22/manifestation-europeenne-a-bruxelles-le-311-pour-defendre-les-travailleurs-agricoles-TKDSMDQNBJARBH76QHGYCQJNLY/"
+ },
+ "toi22": {
+  "t": "Times of Israel — Direct du 22 octobre",
+  "u": "https://www.timesofisrael.com/liveblog-october-22-2026/"
+ },
+ "apormuz22b": {
+  "t": "AP (ClickOnDetroit) — Iran : sept pétroliers touchés",
+  "u": "https://www.clickondetroit.com/news/world/2026/10/22/iran-says-7-oil-tankers-are-on-fire-or-damaged-in-a-key-strait-as-fears-grow-of-a-return-to-war/"
+ },
+ "hillormuz22": {
+  "t": "The Hill — L'Iran dit avoir frappé 7 pétroliers",
+  "u": "https://thehill.com/policy/defense/6164731-iran-navy-hits-oil-tankers/"
+ },
+ "awliban22": {
+  "t": "Antiwar.com — Fin des pourparlers, frappes au Liban",
+  "u": "https://news.antiwar.com/2026/10/22/as-talks-end-israel-again-steps-up-strikes-against-southern-eastern-lebanon/"
+ },
+ "meeliban22": {
+  "t": "Middle East Eye — Frappes au Sud-Liban",
+  "u": "https://www.middleeasteye.net/live-blog/live-blog-update/israel-launches-air-strikes-demolitions-across-southern-lebanon"
+ },
+ "jpdammam22": {
+  "t": "Jerusalem Post — Deux morts à l'aéroport King Fahd",
+  "u": "https://www.jpost.com/middle-east/article-912472"
+ },
+ "anjdammam22": {
+  "t": "Arab News Japan — Reprise des vols à Dammam",
+  "u": "https://www.arabnews.jp/en/saudi-arabia/dammams-king-fahd-airport-resumes-operations-after-attack-kills-2-3000985"
+ },
+ "alhurra22": {
+  "t": "Alhurra — Deux morts à Dammam, revendications houthies",
+  "u": "https://alhurra.com/en/47884"
+ },
+ "rbchouthi22": {
+  "t": "RBC-Ukraine — Les Houthis revendiquent des attaques en Arabie saoudite",
+  "u": "https://newsukraine.rbc.ua/news/yemen-s-houthis-claim-attacks-on-saudi-arabia-1792681443.html"
+ },
+ "usnolive22": {
+  "t": "US News (Reuters) — Des colons volent des olives",
+  "u": "https://www.usnews.com/news/world/articles/2026-10-22/israeli-settlers-steal-palestinians-olives-as-attacks-on-harvest-grow-more-violent"
+ },
+ "anchad22": {
+  "t": "Arab News (AFP) — Drone sur une ville tchadienne",
+  "u": "https://www.arabnews.com/middle-east/drone-strike-kills-four-in-chad-town-near-sudan-3007793"
+ },
+ "ubcchad22": {
+  "t": "UBC — Drone strike kills four in Chad",
+  "u": "https://ubc.go.ug/2026/10/22/drone-strike-kills-four-in-chad-town-near-sudan"
+ },
+ "ajhaiti22": {
+  "t": "Al Jazeera — Bukele menace les gangs haïtiens",
+  "u": "https://www.aljazeera.com/news/2026/10/22/el-salvadors-bukele-threatens-haitian-gangs-over-abducted-soldiers"
+ },
+ "cbchaiti22": {
+  "t": "CBC — Opération militaire au Salvador pour Haïti",
+  "u": "https://www.cbc.ca/news/world/el-salvador-president-military-haiti-un-gang-suppression-force-9.7390568"
+ },
+ "unhaiti22": {
+  "t": "ONU Info — Haïti : élections suspendues",
+  "u": "https://news.un.org/en/story/2026/10/1168626"
+ },
+ "sortiraparis22": {
+  "t": "Sortiraparis — Le cortège du 22 octobre devient un rassemblement",
+  "u": "https://www.sortiraparis.com/en/news/in-paris/articles/355354-october-22-demonstration-march-turns-into-a-stationary-rally-the-latest-updates"
  }
 }
