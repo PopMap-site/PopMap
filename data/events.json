@@ -8,11 +8,23 @@
   "cat": "emeute",
   "sev": 3,
   "live": true,
-  "date": "2026-10-22",
+  "date": "2026-10-24",
   "zoom": 5000,
   "title": "Paris sous tension depuis le 17-octobre",
   "summary": "Journée nationale contre la vie chère, dans la foulée du mouvement lycéen : 110 000 manifestants à Paris selon l'Intérieur. Le cortège autorisé République–Clichy est resté calme, mais des groupes masqués ont multiplié les heurts autour. Cortèges sauvages vers l'Élysée, barricades sur les Champs-Élysées, voitures brûlées, pillages, stations de métro fermées. Dès 7 h, le siège de CNews et Europe 1 avait été visé par une centaine d'individus cagoulés. Nouveaux affrontements dimanche à République ; allocution d'Emmanuel Macron dimanche soir.",
   "figs": [
+   [
+    "410 000 / 800 000",
+    "manifestants en France le 24 oct. (Intérieur / CGT)"
+   ],
+   [
+    "1 300+",
+    "interpellations en France le 24 oct. (bilan officiel)"
+   ],
+   [
+    "142",
+    "interpellations à Paris le 24 oct. (préfecture de police)"
+   ],
    [
     "174",
     "personnes incarcérées en France au 21 oct. (garde des Sceaux)"
@@ -138,6 +150,14 @@
    [
     "22 oct. soir",
     "La préfecture de police reconduit chaque nuit jusqu'à lundi matin le couvre-feu de 23 h à 6 h sur la place de la République et au sud des Halles (Franceinfo). Selon Brut, Emmanuel Macron a déclaré après le conseil de sécurité que « la recommandation générale, c'est qu'il n'y ait pas de manifestations dans les jours à venir » et jugé que des « actes politiques » du 17 visaient à « faire tomber la République ». Une assemblée générale étudiante était prévue à 18 h place de la République (Sortiraparis)."
+   ],
+   [
+    "24 oct.",
+    "Deuxième journée nationale contre la vie chère, sous un dispositif d'environ 70 000 policiers et gendarmes. Au niveau national, 410 000 manifestants selon le ministère de l'Intérieur (550 000 le 17), 800 000 selon la CGT. À Paris, 110 000 selon les autorités, 250 000 selon la CGT. Défilé globalement calme, avec moins d'incidents que la semaine précédente (France 3 Paris). Le ministre Laurent Nuñez estime que « les cortèges se sont bien passés », tout en dénonçant la présence de « casseurs » (Franceinfo)."
+   ],
+   [
+    "25 oct. matin",
+    "La préfecture de police compte 142 interpellations à Paris pour la journée de samedi, dont environ 120 gardes à vue. Bilan national : plus de 1 300 interpellations et une cinquantaine de policiers et gendarmes blessés (France 24, Le JDD). Les autorités restent prudentes sur la suite du mouvement (AFP)."
    ]
   ],
   "spots": [
@@ -356,7 +376,13 @@
    "fipcf22",
    "noovocf22",
    "brutmacron22",
-   "sortiraparis22"
+   "sortiraparis22",
+   "jdd24",
+   "f24bilan25",
+   "ici24",
+   "f24calme25",
+   "f3paris24",
+   "fiparis24"
   ],
   "photos": [
    {
@@ -393,11 +419,19 @@
   "cat": "emeute",
   "sev": 3,
   "live": true,
-  "date": "2026-10-22",
+  "date": "2026-10-24",
   "zoom": 9000,
   "title": "L'office de tourisme de Bellecour incendié",
   "summary": "Environ 20 000 manifestants. Le pavillon historique de l'office de tourisme, place Bellecour, a été saccagé puis incendié vers 14 h 30 ; des groupes hostiles ont empêché les pompiers d'approcher. Magasins attaqués, canons à eau sur les ponts en fin d'après-midi. Dimanche, une cinquantaine de jeunes ont tenté de forcer la vitrine d'un magasin Lacoste.",
   "figs": [
+   [
+    "36",
+    "interpellations le 24 oct. (préfecture)"
+   ],
+   [
+    "22",
+    "blessés le 24 oct., dont 18 policiers ou gendarmes"
+   ],
    [
     "160",
     "gardes à vue, dont 36 mineurs (préfet)"
@@ -463,6 +497,10 @@
    [
     "22 oct.",
     "Pendant l'interdiction du rassemblement étudiant, une quinzaine de CRS sont postés place Guichard (3e) ; des étudiants restent dans la Bourse du travail et lancent des slogans depuis les fenêtres (Rue89Lyon, Tribune de Lyon). Après sa réunion à Matignon, le maire Grégory Doucet dit penser « qu'on pourra manifester samedi », alors que la préfecture a interdit toute manifestation dans la ville ce jour-là."
+   ],
+   [
+    "24 oct.",
+    "Malgré l'interdiction de toute manifestation dans la ville, jusqu'à 10 000 personnes selon la préfecture. Place Jean-Macé (7e), un rassemblement sans déclarant est dispersé au gaz lacrymogène après sommations ; selon la préfecture, de nombreux participants étaient équipés et cagoulés. Bilan provisoire : 22 blessés dont 18 policiers ou gendarmes, 36 interpellations, trois commerces dégradés. Couvre-feu de 23 h à 6 h dans un périmètre restreint de la Presqu'île dans la nuit de samedi à dimanche (LyonMag, France 3)."
    ]
   ],
   "spots": [
@@ -561,6 +599,14 @@
     "d": "Rassemblements dans l'après-midi.",
     "t": "2026-10-17T14:00",
     "ta": true
+   },
+   {
+    "n": "Place Jean-Macé",
+    "lon": 4.8425,
+    "lat": 45.7457,
+    "d": "Le 24 octobre, un rassemblement non déclaré place Jean-Macé est dispersé au gaz lacrymogène après sommations, selon la préfecture du Rhône.",
+    "t": "2026-10-24T15:00",
+    "ta": true
    }
   ],
   "src": [
@@ -586,7 +632,9 @@
    "lyoncap24",
    "r89lyon22",
    "tdlbourse22",
-   "tpmaires22"
+   "tpmaires22",
+   "lyonmagbil24",
+   "f3lyon24"
   ],
   "photos": [
    {
@@ -609,11 +657,19 @@
   "cat": "emeute",
   "sev": 3,
   "live": true,
-  "date": "2026-10-22",
+  "date": "2026-10-24",
   "zoom": 9000,
   "title": "Mairie forcée, 118 policiers blessés",
   "summary": "Des individus sont entrés dans le hall de l'hôtel de ville et ont attaqué le poste de police municipale de la Canebière (tentative d'incendie avortée). La préfecture a compté jusqu'à 30 000 pilleurs au plus fort des émeutes, dont 8 000 émeutiers. Tous les transports publics ont été arrêtés à 15 h 25 ; blindés Centaure de la gendarmerie déployés en soirée.",
   "figs": [
+   [
+    "51",
+    "interpellations le 24 oct. (préfet)"
+   ],
+   [
+    "17 000 / 50 000",
+    "manifestants le 24 oct. (préfecture / syndicats)"
+   ],
    [
     "118",
     "policiers blessés"
@@ -675,6 +731,10 @@
    [
     "22 oct.",
     "Le préfet des Bouches-du-Rhône interdit toutes les manifestations, déclarées ou non, dans tout le département samedi 24 octobre. Couvre-feu étendu aux majeurs de 23 h à 5 h dans le centre de Marseille et autour des bâtiments publics (mairie, préfecture, palais de justice) les nuits de samedi à dimanche et de dimanche à lundi ; port d'équipements de protection et transport de carburant interdits (Made in Marseille, Marsactu). Selon France 3, pas de transports en commun samedi."
+   ],
+   [
+    "24 oct.",
+    "Environ 17 000 manifestants selon la préfecture, 50 000 selon les syndicats, dans un cortège calme sous dispositif renforcé (manifestations interdites ailleurs, couvre-feu élargi aux majeurs). En fin d'après-midi, à la porte d'Aix, des dizaines de personnes tentent de franchir un cordon de CRS sur le boulevard des Dames ; débordements ensuite dans le 5e arrondissement (Cinq-Avenues). Cinq commerces pillés. Bilan provisoire du préfet Jacques Witkowski : 51 interpellations, 20 gardes à vue (L'Express, France 3)."
    ]
   ],
   "spots": [
@@ -725,6 +785,14 @@
     "d": "Dès 5 h 30, rassemblement devant un site industriel de l'armement.",
     "t": "2026-10-17T05:30",
     "ta": false
+   },
+   {
+    "n": "Porte d'Aix",
+    "lon": 5.3735,
+    "lat": 43.3048,
+    "d": "Le 24 octobre en fin d'après-midi, au point d'arrivée du cortège, des dizaines de personnes tentent de franchir un cordon de CRS qui bloque le boulevard des Dames.",
+    "t": "2026-10-24T17:30",
+    "ta": true
    }
   ],
   "src": [
@@ -750,7 +818,9 @@
    "e1maires21",
    "mim24",
    "marsactu24",
-   "f3mrs24"
+   "f3mrs24",
+   "exmars24",
+   "f3mars24"
   ],
   "t": "2026-10-17T05:30",
   "ta": false
@@ -822,6 +892,10 @@
    [
     "23 oct.",
     "Le Premier ministre Sébastien Lecornu est attendu vendredi en fin de journée à l'hôtel de ville (ICI Limousin, Mes Infos)."
+   ],
+   [
+    "23 oct. soir",
+    "Sébastien Lecornu visite l'hôtel de ville incendié, rencontre le maire Guillaume Guérin (LR), qui réclamait un « plan Marshall », puis les forces de l'ordre. Il promet une reconstruction « à l'identique » financée par l'État : « le contribuable communal ne mettra pas un euro ». Le bâtiment doit être entièrement classé monument historique et un article dédié est prévu dans le projet de loi Logement pour accélérer les travaux (Franceinfo, Presse Agence)."
    ]
   ],
   "posts": [
@@ -862,7 +936,9 @@
    "f3limlec21",
    "tpnunez21",
    "icilim23",
-   "milim23"
+   "milim23",
+   "palim23",
+   "filim23"
   ],
   "photos": [
    {
@@ -885,7 +961,7 @@
   "cat": "emeute",
   "sev": 3,
   "live": false,
-  "date": "2026-10-20",
+  "date": "2026-10-24",
   "title": "La résidence de la préfète saccagée",
   "summary": "Environ 30 000 manifestants selon Rue89 Bordeaux. Premiers gaz lacrymogènes place du Parlement, puis tirs place Pey-Berland vers 16 h et canons à eau vers 17 h. Rue Sainte-Catherine, des commerces sont pillés par des groupes cagoulés ; vers 18 h, la résidence de la préfète Sophie Brocas est envahie et saccagée, le RAID est mobilisé. Barricades incendiées quai Richelieu, gros incendie cours Alsace-Lorraine. Opérations encore en cours à 20 h 30.",
   "src": [
@@ -896,7 +972,8 @@
    "f3bdx",
    "ecomatin",
    "rue89cf",
-   "f3bdxcf"
+   "f3bdxcf",
+   "f3bdx24"
   ],
   "t": "2026-10-17T15:00",
   "ta": true,
@@ -968,6 +1045,10 @@
    [
     "19 oct.",
     "La préfète de la Gironde Sophie Brocas instaure, après consultation du maire, un couvre-feu pour les mineurs non accompagnés de 22 h à 7 h, du 20 au 26 octobre, dans les rues les plus touchées par les pillages du 17 (rue Sainte-Catherine, cours de l'Intendance, place Saint-Projet…)."
+   ],
+   [
+    "24 oct.",
+    "Tensions en fin de parcours à Bordeaux, ainsi qu'à Bayonne et à Pau ; mobilisation pacifique à Périgueux, selon France 3 Nouvelle-Aquitaine."
    ]
   ]
  },
@@ -980,10 +1061,14 @@
   "cat": "emeute",
   "sev": 2,
   "live": false,
-  "date": "2026-10-20",
+  "date": "2026-10-24",
   "title": "Jusqu'à 2 000 personnes dans les heurts",
   "summary": "32 000 manifestants selon la préfecture (près de 80 000 selon les syndicats). Le préfet estime que 1 500 à 2 000 personnes ont participé aux affrontements et dégradations.",
   "figs": [
+   [
+    "26 500 / 80 000",
+    "manifestants le 24 oct. (préfecture / syndicats)"
+   ],
    [
     "94",
     "interpellations"
@@ -1000,7 +1085,9 @@
    "icitls18",
    "onemedia",
    "tlsecf",
-   "f3tlsecf"
+   "f3tlsecf",
+   "f3tls24",
+   "exbless24"
   ],
   "t": "2026-10-17T15:00",
   "ta": true,
@@ -1020,6 +1107,14 @@
     "d": "Tensions en fin d'après-midi ; quatre responsables syndicales blessées et évacuées selon la CGT.",
     "t": "2026-10-17T16:30",
     "ta": true
+   },
+   {
+    "n": "Quartier des Arènes",
+    "lon": 1.4185,
+    "lat": 43.5925,
+    "d": "Le 24 octobre en fin de manifestation, un jeune homme de 20 ans y est grièvement blessé à la main pendant une dispersion ; circonstances non établies selon la préfecture.",
+    "t": "2026-10-24T18:00",
+    "ta": true
    }
   ],
   "tl": [
@@ -1034,6 +1129,10 @@
    [
     "20 oct.",
     "Le préfet de Haute-Garonne Fabrice Rigoulet-Roze instaure un couvre-feu pour tout le public dans l'hypercentre (place du Capitole, rues Saint-Rome, des Changes, d'Alsace-Lorraine, de Rémusat, place Esquirol), de minuit à 5 h, à partir de la nuit de jeudi 22 octobre et jusqu'au dimanche 25. La préfecture invoque la « forte probabilité » d'une répétition des violences du 17, où une trentaine de commerces avaient été dégradés, dont une dizaine pillés."
+   ],
+   [
+    "24 oct.",
+    "Entre 26 500 (préfecture) et 80 000 personnes (syndicats). La manifestation se termine par des affrontements. Dans le quartier des Arènes, un jeune homme de 20 ans est grièvement blessé à la main lors de la dispersion d'un attroupement ; la préfecture indique que les circonstances ne sont pas connues et que des investigations sont menées sous l'autorité judiciaire (France 3, L'Express)."
    ]
   ]
  },
@@ -1348,7 +1447,7 @@
   "cat": "emeute",
   "sev": 2,
   "live": false,
-  "date": "2026-10-17",
+  "date": "2026-10-24",
   "t": "2026-10-17T14:00",
   "ta": true,
   "title": "Débordements jusqu'en fin d'après-midi",
@@ -1357,7 +1456,9 @@
    "f3clermont",
    "iciclermont",
    "iciclf",
-   "f3clf"
+   "f3clf",
+   "f3clf24",
+   "exbless24"
   ],
   "figs": [
    [
@@ -1378,6 +1479,12 @@
     "t": "2026-10-17T14:00",
     "ta": true
    }
+  ],
+  "tl": [
+   [
+    "24 oct.",
+    "Environ 1 600 personnes en fin d'après-midi, tensions place de Jaude. Selon un premier bilan préfectoral, trois civils blessés, dont un à la main (sans perte de doigt), et un CRS transporté au CHU (France 3, L'Express)."
+   ]
   ]
  },
  {
@@ -1519,7 +1626,7 @@
   "cat": "emeute",
   "sev": 2,
   "live": false,
-  "date": "2026-10-22",
+  "date": "2026-10-24",
   "title": "27 manifestants blessés, dont un grave",
   "summary": "12 000 manifestants selon la préfecture, pour une manifestation non déclarée partie à 14 h. Dès 14 h 30, des centaines de personnes masquées s'en prennent aux forces de l'ordre. Place de la République, principal point de tension jusqu'à 20 h ; une boutique incendiée rue de Nemours, vitrines attaquées vers 18 h, commerces pillés. Plus de 20 feux de poubelles et de barricades.",
   "src": [
@@ -1527,7 +1634,8 @@
    "tn",
    "ria",
    "onemedia",
-   "bfm22"
+   "bfm22",
+   "f3bzh24"
   ],
   "t": "2026-10-17T14:00",
   "ta": true,
@@ -1583,6 +1691,10 @@
    [
     "22 oct.",
     "Arrêté préfectoral interdisant les manifestations place de la République de 9 h à minuit, selon BFM TV."
+   ],
+   [
+    "24 oct.",
+    "Forte mobilisation malgré les interdictions à Rennes, Brest et Lorient ; heurts en fin de manifestation à Rennes, selon France 3 Bretagne."
    ]
   ]
  },
@@ -1713,11 +1825,19 @@
   "cat": "emeute",
   "sev": 3,
   "live": false,
-  "date": "2026-10-22",
+  "date": "2026-10-24",
   "zoom": 18000,
   "title": "Guérilla urbaine autour du Duomo",
   "summary": "La manifestation « Italia in piazza » contre la vie chère, le prix de l'essence et la pression fiscale (environ 5 000 personnes, très jeunes, mobilisées via TikTok et Instagram) a dégénéré samedi. Des groupes vêtus de noir ont repoussé la police et occupé la piazza del Duomo à coups de pierres, pétards et barrières. Nouvelles tensions et commerces attaqués dimanche après-midi.",
   "figs": [
+   [
+    "~10 000",
+    "manifestants le 24 oct."
+   ],
+   [
+    "3",
+    "arrestations le 24 oct."
+   ],
    [
     "32",
     "arrestations le 18, dont 23 mineurs"
@@ -1791,6 +1911,10 @@
    [
     "22 oct.",
     "Le comité pour l'ordre et la sécurité publique, réuni avec Matteo Salvini et le ministre de l'Intérieur Matteo Piantedosi, déploie 500 parachutistes de la brigade Folgore dans le cadre de « Strade Sicure », en renfort des quelque 5 000 membres des forces de l'ordre, avec des contrôles dans les gares et des drones pour samedi. Le juge a ordonné la détention de quatre jeunes et l'assignation à résidence d'un cinquième. Le « Movimento 17 ottobre » appelle à une mobilisation chaque samedi à 15 h, notamment place du Duomo ; le mouvement rejette toute responsabilité dans les violences. Le maire Beppe Sala se dit préoccupé ; selon Piantedosi, rien ne prouve une manipulation extérieure. Des fausses alertes, en partie générées par IA, ont circulé dans les messageries étudiantes (Sky TG24, Adnkronos)."
+   ],
+   [
+    "24 oct.",
+    "Le « Movimento 17 ottobre » renonce au Duomo, bouclé. Deux cortèges partis du centre se rejoignent à Porta Venezia puis finissent au Politecnico, piazza Leonardo da Vinci : environ 10 000 personnes selon Il Giorno et Notizie.it. Brefs moments de tension à Porta Venezia, sans affrontement violent. 1 400 agents mobilisés, dont 500 parachutistes ; 3 arrestations, 41 dénonciations, 167 personnes conduites à la questura et 2 885 identifiées. L'auteur présumé de la page Instagram liée au mouvement fait l'objet d'une garde à vue préventive de 12 heures et d'une enquête pour incitation à commettre des délits."
    ]
   ],
   "spots": [
@@ -1939,7 +2063,9 @@
    "gazzpr21",
    "skymil22",
    "adnmil22",
-   "mitomil22"
+   "mitomil22",
+   "notmil25",
+   "giornomil24"
   ],
   "photos": [
    {
@@ -2564,7 +2690,7 @@
   "cat": "emeute",
   "sev": 3,
   "live": true,
-  "date": "2026-10-22",
+  "date": "2026-10-25",
   "title": "Neuf jours de mobilisation, 320 blessés",
   "summary": "Parti des étudiants (coût des études) et de la vente d'une partie du littoral à un projet de luxe lié à Jared Kushner, le mouvement réclame de meilleures conditions d'études, des emplois et la démission du Premier ministre. Heurts devant le ministère de l'Éducation et autour du bureau d'Edi Rama ; balles en caoutchouc, canons à eau et gaz lacrymogènes. Rama refuse de démissionner, évoque une « main étrangère » et un risque pour l'adhésion à l'UE.",
   "figs": [
@@ -2649,7 +2775,10 @@
    "protirana22",
    "politistir22",
    "k1tirana22",
-   "balk22"
+   "balk22",
+   "ajtir24",
+   "euntir24",
+   "usntir25"
   ],
   "photos": [
    {
@@ -2710,6 +2839,14 @@
    [
     "22 oct. soir",
     "Première séance plénière du Parlement après deux semaines de pause, marquée par des heurts physiques entre députés ; des lois sont adoptées pendant que l'opposition proteste. Vers 19 h, de jeunes manifestants masqués déplacent des bancs de pierre près du bureau d'Edi Rama et bloquent un camion à eau ; la police les disperse au canon à eau, puis le rassemblement se reforme. Les étudiants appellent à un nouveau rassemblement samedi devant le bureau du Premier ministre (K1 Info, Balkanismo)."
+   ],
+   [
+    "24 oct.",
+    "Des milliers de manifestants, surtout des étudiants, soutenus par des enseignants, des artistes et des partis d'opposition. 2 500 policiers déployés, contrôles des voitures entrant dans la capitale. Gaz lacrymogène, canons à eau et balles en caoutchouc ; bâtiments gouvernementaux visés, poubelles en feu poussées vers le ministère de l'Éducation. Des partisans du Parti démocrate brûlent les coussins rouges qu'Edi Rama avait fait déposer devant son bureau en signe de dialogue. Des dizaines d'interpellations (Al Jazeera, Euronews)."
+   ],
+   [
+    "24-25 oct.",
+    "Edi Rama promet une réponse de l'État « prolongée et persistante », publie les photos d'une quarantaine de personnes qu'il accuse de violences et accuse la Russie et l'Iran d'alimenter la désinformation en ligne. Les étudiants réclament des frais de scolarité réduits, plus de financement et la fin de la corruption ; certains visent aussi le chef de l'opposition Sali Berisha. Nouvelles manifestations dimanche malgré les mesures (Reuters)."
    ]
   ],
   "zoom": 12000
@@ -2723,7 +2860,7 @@
   "cat": "manif",
   "sev": 1,
   "live": true,
-  "date": "2026-10-22",
+  "date": "2026-10-25",
   "t": "2026-10-16T12:00",
   "ta": true,
   "title": "Les étudiants avant les législatives anticipées",
@@ -2744,7 +2881,9 @@
    "eunbg22",
    "intellibg22",
    "sabahbg22",
-   "wtbg22"
+   "wtbg22",
+   "riosrb25",
+   "f24srb25"
   ],
   "tl": [
    [
@@ -2770,6 +2909,16 @@
    [
     "22 oct. soir",
     "« Des dizaines de milliers » de personnes au rassemblement de clôture de la liste étudiante dans le centre de Belgrade selon l'AFP, dans le calme. La veille, le parquet de Belgrade a interrogé six personnes arrêtées, soupçonnées de préparer des violences le jour du scrutin ; 24 organisations de la société civile estiment que les conditions d'un vote « libre et équitable » ne sont pas réunies. Législatives dimanche 25 octobre."
+   ],
+   [
+    "25 oct.",
+    "Législatives anticipées : 250 sièges, 18 listes, duel entre la liste du pouvoir liée à Aleksandar Vučić et la liste étudiante. Participation de 41,1 % à 13 h selon l'observatoire CRTA (26,6 % à la même heure en 2023) ; 34,55 % à midi selon la commission électorale. Files d'attente en Serbie et à l'étranger ; la chaîne N1 signale une tentative de fraude à Bujanovac, non vérifiée de façon indépendante. Bureaux fermés à 20 h, résultats officiels attendus de la commission électorale (Rio Times, France 24)."
+   ]
+  ],
+  "figs": [
+   [
+    "41,1 %",
+    "participation à 13 h (CRTA)"
    ]
   ]
  },
@@ -3002,10 +3151,14 @@
   "cat": "guerre",
   "sev": 3,
   "live": true,
-  "date": "2026-10-22",
+  "date": "2026-10-25",
   "title": "Guerre d'Iran : la bataille du détroit",
   "summary": "Guerre ouverte depuis l'offensive américaine du 28 février. Washington maintient un blocus des ports iraniens ; Washington et Téhéran revendiquent chacun le contrôle du détroit. Au moins 12 navires attaqués la semaine du 16 octobre selon l'agence britannique UKMTO (un coulé, deux immobilisés), un supertanker en feu après une mine selon les Gardiens de la révolution, un remorqueur touché le 18. Le flux pétrolier est tombé à environ 68 % du niveau d'avant-guerre ; le Brent a touché 110 $. L'Iran propose une réouverture du détroit en six jours puis des négociations, contre la levée du blocus.",
   "figs": [
+   [
+    "~492",
+    "navires en attente autour du détroit (JMIC, 25 oct.)"
+   ],
    [
     "12+",
     "navires attaqués en une semaine (UKMTO)"
@@ -3039,7 +3192,9 @@
    "trendormuz22",
    "toi22",
    "apormuz22b",
-   "hillormuz22"
+   "hillormuz22",
+   "gulfhormuz25",
+   "toi24"
   ],
   "t": "2026-10-16T12:00",
   "ta": true,
@@ -3079,6 +3234,10 @@
    [
     "22 oct. soir",
     "Donald Trump accuse l'Iran d'inventer de « fausses frappes » pour faire monter le prix du pétrole avant les élections de mi-mandat, et dit que Washington ne négocie pas avec Téhéran (Times of Israel). Selon le New York Times, cité par le même journal, les États-Unis et Israël ont préparé des plans de nouvelles frappes sur l'Iran après le scrutin du 3 novembre ; Washington envoie un troisième porte-avions dans la région (AP)."
+   ],
+   [
+    "25 oct.",
+    "Selon le centre d'information maritime JMIC, environ 492 navires attendent à l'extérieur du détroit, dont 194 près de Fujaïrah et Khor Fakkan ; seulement 101 transits facilités par les États-Unis entre le 22 et le 24 octobre, contre environ 138 par jour avant la guerre. Le 22, un méthanier GPL a été touché par un « projectile inconnu » à 7 milles nautiques au nord-est de Limah (Oman), sans victime selon l'UKMTO. Niveau de menace jugé « sévère » (Gulf News). Le président iranien doit rencontrer Vladimir Poutine le 27 octobre à Moscou, selon l'agence Tasnim citée par le Times of Israel."
    ]
   ]
  },
@@ -3135,7 +3294,7 @@
   "cat": "frappe",
   "sev": 3,
   "live": true,
-  "date": "2026-10-22",
+  "date": "2026-10-25",
   "title": "Les Houthis frappent l'aéroport",
   "summary": "Pire attaque sur le sol saoudien depuis 2015 : une frappe sur l'aéroport de la capitale a fait 13 morts.",
   "figs": [
@@ -3158,7 +3317,9 @@
    "newarab21",
    "gulf7",
    "alhurra22",
-   "rbchouthi22"
+   "rbchouthi22",
+   "ajhouthi24",
+   "toi24"
   ],
   "t": "2026-10-14T12:00",
   "ta": true,
@@ -3186,6 +3347,10 @@
    [
     "22 oct.",
     "Le porte-parole militaire houthi Yahya Saree revendique des attaques contre le siège du ministère saoudien de la Défense à Riyad, des installations d'Aramco à Yanbu, l'aéroport d'Abha et celui de Dammam ; Riyad n'a pas confirmé ces attaques dans l'immédiat. La coalition dit avoir intercepté quatre drones au-dessus des régions de Riyad et de Médine (Alhurra, RBC-Ukraine)."
+   ],
+   [
+    "24-25 oct.",
+    "La coalition dit avoir détruit samedi un missile balistique houthi visant Riyad, puis deux visant Taëf et Yanbu ; la Défense civile saoudienne parle de deux missiles visant La Mecque et Médine interceptés, ce que les Houthis démentent. Des alertes brièvement émises pour La Mecque, Djeddah, Taëf et Yanbu sont levées en une dizaine de minutes. Dimanche, la coalition dit avoir abattu un nouveau missile visant Riyad ; l'aéroport international rouvre après deux semaines de fermeture, les Houthis le qualifiant toujours de « cible militaire » (Al Jazeera, Times of Israel)."
    ]
   ]
  },
@@ -3224,7 +3389,7 @@
   "cat": "guerre",
   "sev": 3,
   "live": true,
-  "date": "2026-10-21",
+  "date": "2026-10-24",
   "title": "Le palais présidentiel visé",
   "summary": "Le 15 octobre, cinq missiles houthis frappent le palais présidentiel d'Al-Maashiq, siège du gouvernement reconnu : 5 morts et 16 blessés, le Premier ministre indemne. Le 16, deux missiles tombent dans l'enceinte de l'aéroport à 500 m d'un avion en partance, sans victime. Les Houthis disent viser des quartiers militaires. Une contre-offensive gouvernementale appuyée par l'aviation saoudienne (« Aube du Yémen ») est en cours depuis le 4 octobre.",
   "src": [
@@ -3235,7 +3400,8 @@
    "ajadenair",
    "ajaden21",
    "gulf7",
-   "nbcaden21"
+   "nbcaden21",
+   "ajhouthi24"
   ],
   "t": "2026-10-17T12:00",
   "ta": true,
@@ -3272,6 +3438,10 @@
    [
     "21 oct.",
     "Une explosion est entendue à Aden et de la fumée s'élève près de l'aéroport international (police, Al Jazeera). Le porte-parole houthi Yahya Saree revendique un tir de missile balistique sur la salle d'opérations de la coalition au camp Badr, voisin de l'aéroport. Selon un responsable yéménite des transports, un avion civil avait décollé peu avant, le hall a été évacué et les opérations suspendues temporairement, sans dégât sur la piste. Aucun bilan humain rapporté ; ni le gouvernement ni la coalition n'ont commenté dans l'immédiat."
+   ],
+   [
+    "24 oct.",
+    "Selon le gouvernement yéménite, des missiles balistiques houthis frappent l'aéroport international d'Aden, « quatrième attaque de ce type ce mois-ci », ainsi que le siège des garde-côtes ; les Houthis revendiquent des tirs sur le camp al-Nasr et la base navale. Aucun bilan communiqué. Le Conseil de coopération du Golfe condamne (Al Jazeera)."
    ]
   ]
  },
@@ -3490,7 +3660,7 @@
   "cat": "guerre",
   "sev": 3,
   "live": true,
-  "date": "2026-10-22",
+  "date": "2026-10-25",
   "title": "Un an de cessez-le-feu, des frappes presque quotidiennes",
   "summary": "Le cessez-le-feu du 10 octobre 2025 a un an, mais plus de 100 ONG (Amnesty, NRC, Save the Children, Oxfam) estiment qu'il n'existe « que de nom ». Selon le ministère de la Santé de Gaza, 1 493 Palestiniens ont été tués et 5 299 blessés depuis la trêve (au 12 octobre). Israël, qui contrôle près des deux tiers de la bande, a encore avancé sa « ligne jaune » dans des quartiers de Gaza City. Israël affirme viser des membres de groupes armés ; plusieurs de ces affirmations sont contestées et non vérifiées de façon indépendante. L'aide entre à environ un tiers du rythme prévu.",
   "src": [
@@ -3510,23 +3680,21 @@
    "olj21",
    "ajgaza22",
    "haagaza22",
-   "almongaza22"
+   "almongaza22",
+   "toiuniv25",
+   "ajgaza25"
   ],
   "t": "2026-10-12T12:00",
   "ta": true,
   "zoom": 900,
   "figs": [
    [
-    "1 538",
-    "tués depuis la trêve (ministère de la Santé de Gaza, 22 oct.)"
+    "1 551",
+    "tués depuis la trêve (ministère de la Santé de Gaza, 25 oct.)"
    ],
    [
-    "5 498",
+    "5 573",
     "blessés depuis la trêve (même source)"
-   ],
-   [
-    "~840",
-    "corps retirés des décombres depuis la trêve"
    ]
   ],
   "tl": [
@@ -3573,6 +3741,10 @@
    [
     "22 oct.",
     "Quatre Palestiniens tués en 24 heures selon les secours et le ministère de la Santé de Gaza : une fillette près du camp de Jabalia, une personne dans une frappe sur un véhicule à Tal al-Hawa (Gaza-Ville), un homme à vélo à Khan Younès, et un blessé mort de ses blessures (Al Jazeera, Haaretz). L'armée israélienne ne s'est pas exprimée sur ces cas dans les articles consultés."
+   ],
+   [
+    "25 oct.",
+    "Deux frappes en quelques heures sur le campus de l'Université islamique, à Gaza City : la première, par drone, blesse sept étudiantes selon Al Jazeera ; la seconde tue trois membres du personnel administratif selon des sources médicales, l'hôpital al-Shifa disant avoir reçu trois corps et soigné huit blessés. L'armée israélienne dit avoir visé « des terroristes ». Au moins sept Palestiniens tués dans la journée selon Al Jazeera, dont deux à al-Mawasi (Khan Younès) et un à l'est de Deir el-Balah (Times of Israel, Al Jazeera)."
    ]
   ],
   "spots": [
@@ -3639,15 +3811,23 @@
   "lon": 35.2544,
   "lat": 32.2211,
   "cat": "guerre",
-  "sev": 2,
+  "sev": 3,
   "live": true,
-  "date": "2026-10-22",
+  "date": "2026-10-24",
   "t": "2026-10-13T12:00",
   "ta": true,
   "zoom": 500,
-  "title": "Récolte des olives : attaques de colons, des diplomates européens visés",
-  "summary": "La saison des olives est marquée par une forte hausse des attaques de colons : au moins 170 depuis le 27 septembre selon l'ONG israélienne Yesh Din. Le 16 octobre, près d'Abu Falah, une photographe du Washington Post est grièvement blessée par des colons ; le 17, des diplomates européens (consul général de Belgique, diplomates français et polonais) sont agressés près de Taybeh. L'armée israélienne dit examiner pourquoi ses troupes ont été prévenues après l'attaque. Les États-Unis demandent à Israël de sévir.",
+  "title": "Hébron bouclée après une attaque meurtrière",
+  "summary": "Le 23 octobre, deux Palestiniens armés attaquent un checkpoint militaire près d'Hébron : deux soldats israéliens tués et trois blessés, les deux assaillants abattus selon l'armée israélienne. Israël lance une opération « antiterroriste » de plusieurs jours, boucle Hébron et Halhoul et prépare une fermeture de toute la Cisjordanie. Benyamin Netanyahou dit vouloir « détruire cet endroit » ; l'ONU et l'ONG israélienne B'Tselem s'inquiètent d'une punition collective. La saison des olives reste marquée par une forte hausse des attaques de colons (au moins 170 depuis le 27 septembre selon Yesh Din).",
   "figs": [
+   [
+    "2",
+    "soldats israéliens tués le 23 oct. (armée israélienne)"
+   ],
+   [
+    "~70",
+    "arrestations dans la région d'Hébron (Club des prisonniers palestiniens)"
+   ],
    [
     "170+",
     "attaques de colons depuis le 27 sept. (Yesh Din)"
@@ -3691,6 +3871,14 @@
     "d": "16 oct. : cueilleurs et photographe du Washington Post attaqués ; un Palestinien blessé par balle à la jambe.",
     "t": "2026-10-16T12:00",
     "ta": true
+   },
+   {
+    "n": "Hébron — jonction Yehuda",
+    "lon": 35.099,
+    "lat": 31.532,
+    "d": "Le 23 octobre, deux soldats israéliens y sont tués et trois blessés dans une attaque armée ; les deux assaillants sont abattus. Hébron est ensuite bouclée pour une opération militaire de plusieurs jours.",
+    "t": "2026-10-23T12:00",
+    "ta": true
    }
   ],
   "src": [
@@ -3707,7 +3895,10 @@
    "abclander21",
    "haalander21",
    "toi22",
-   "usnolive22"
+   "usnolive22",
+   "ajheb24",
+   "abcheb24",
+   "toi24"
   ],
   "tl": [
    [
@@ -3721,6 +3912,14 @@
    [
     "22 oct.",
     "Près de Jamma'in, des colons chassent des Palestiniens et des militants israéliens venus participer à la récolte, selon des images relayées par le Times of Israel. Plus de 70 militants ont été détenus mercredi ; quatre Américains sont relâchés avec une interdiction de séjour de 15 jours en Cisjordanie. Reuters fait état de vols d'olives par des colons et d'attaques de plus en plus violentes contre la récolte."
+   ],
+   [
+    "23 oct.",
+    "Attaque armée au checkpoint de la jonction Yehuda, près d'Hébron : deux soldats israéliens tués et trois blessés ; les deux assaillants, originaires d'Hébron, sont tués après une vingtaine de minutes d'échanges de tirs. L'armée affirme qu'ils préparaient une attaque de masse. Le Hamas salue l'attaque (ABC, Times of Israel)."
+   ],
+   [
+    "23-24 oct.",
+    "L'armée annonce une opération « ciblée » de plusieurs jours avec le Shin Bet et la police aux frontières. Netanyahou, qui annule des événements de campagne pour se rendre à Hébron, dit que les forces iront « maison par maison » et vont « détruire cet endroit, le changer complètement » ; Bezalel Smotrich demande d'agir « comme à Gaza ». Entrées d'Hébron fermées, environ 70 arrestations et des centaines de maisons fouillées selon le Club des prisonniers palestiniens ; environ 300 familles déplacées à al-Jalda selon des sources palestiniennes, quelque 2 000 Palestiniens déplacés selon le ministre Israël Katz. L'Autorité palestinienne demande une pression internationale ; B'Tselem évoque une punition collective, l'ONU s'inquiète des bouclages (Al Jazeera, Times of Israel)."
    ]
   ]
  },
@@ -4372,7 +4571,7 @@
   "cat": "emeute",
   "sev": 2,
   "live": true,
-  "date": "2026-10-22",
+  "date": "2026-10-24",
   "t": "2026-10-18T21:00",
   "ta": true,
   "zoom": 300,
@@ -4452,6 +4651,14 @@
     "d": "Le 22 octobre vers 10 h 20, RN1 bloquée dans les deux sens au niveau de Morne Bernard, selon RCI.",
     "t": "2026-10-22T08:00",
     "ta": true
+   },
+   {
+    "n": "Moudong Nord (RN1)",
+    "lon": -61.592,
+    "lat": 16.248,
+    "d": "Le 24 octobre au matin, la RN1 reste réduite à une voie par sens, la chaussée encombrée de pneus, selon RCI.",
+    "t": "2026-10-24T07:00",
+    "ta": true
    }
   ],
   "src": [
@@ -4465,7 +4672,9 @@
    "la1rn1",
    "karib21",
    "rcigua22",
-   "la1gua22"
+   "la1gua22",
+   "rcigua24",
+   "la1gua24"
   ],
   "tl": [
    [
@@ -4487,6 +4696,10 @@
    [
     "22 oct.",
     "Nuit du 21 au 22 calme selon RCI. Jeudi matin, nouveaux blocages : branches au pont de Vieux-Habitants, détritus et pneus à Sainte-Marie (Capesterre-Belle-Eau), pneus à Mare-Gaillard (Le Gosier), RN1 bloquée dans les deux sens à Morne Bernard (Baie-Mahault) vers 10 h 20 ; circulation perturbée à Jarry, au Moule et à Sainte-Anne."
+   ],
+   [
+    "24 oct. matin",
+    "Circulation globalement fluide sur l'archipel ; la RN1 reste réduite à une voie par sens à Moudong Nord, encombrée de pneus, et l'accès de Morne Bernard reste fermé. Le collectif Nou Las Palé, rassemblé vendredi à Destreland, donne rendez-vous samedi à 16 h aux Abymes (RCI, Guadeloupe La 1ère)."
    ]
   ]
  },
@@ -4708,19 +4921,25 @@
   "cat": "guerre",
   "sev": 2,
   "live": true,
-  "date": "2026-10-20",
+  "date": "2026-10-24",
   "t": "2026-10-17T12:00",
   "ta": true,
   "title": "Combats intensifiés autour de la ville assiégée",
   "summary": "Les combats s'intensifient dans le gouvernorat de Taïz, ville assiégée par les Houthis. L'agence gouvernementale Saba affirme que 168 combattants houthis ont été tués et 210 blessés ; ces chiffres ne sont pas vérifiés de façon indépendante.",
   "src": [
    "ajaden",
-   "gulf7"
+   "gulf7",
+   "toi24",
+   "ajhouthi24"
   ],
   "tl": [
    [
     "20 oct.",
     "Une frappe houthie sur un quartier résidentiel de Taïz tue deux adolescentes et blesse six personnes, selon des responsables yéménites cités par Gulf News."
+   ],
+   [
+    "24 oct.",
+    "Selon les autorités sanitaires houthies, une frappe aérienne saoudienne près de Taïz tue quatre membres d'une même famille, dont des femmes et des enfants. Les combats continuent sur les fronts ouest, est et sud ; l'armée yéménite revendique des centaines de combattants houthis « neutralisés », chiffres invérifiables (Times of Israel, Al Jazeera)."
    ]
   ]
  },
@@ -4965,15 +5184,32 @@
   "lon": 35.0462,
   "lat": 48.4647,
   "cat": "frappe",
-  "sev": 1,
-  "live": false,
-  "date": "2026-10-16",
+  "sev": 2,
+  "live": true,
+  "date": "2026-10-25",
   "t": "2026-10-16T12:00",
   "ta": true,
-  "title": "Quatre blessés dans des frappes russes",
-  "summary": "Quatre personnes blessées dans des frappes russes sur Dnipro, selon les autorités régionales citées par Ukrainska Pravda.",
+  "title": "Quatre morts dans la région",
+  "summary": "Dans la nuit du 24 au 25 octobre, la région de Dnipropetrovsk est frappée plus de 20 fois par des drones et des bombes aériennes dans trois districts : quatre morts et 22 blessés selon le chef de l'administration régionale Oleksandr Hanzha. Maisons, immeubles, commerces et voitures détruits dans le district de Synelnykove ; infrastructures endommagées à Dnipro.",
   "src": [
-   "pravdadnipro"
+   "pravdadnipro",
+   "eunua25"
+  ],
+  "tl": [
+   [
+    "25 oct. nuit",
+    "Quatre morts et 22 blessés dans la région selon Oleksandr Hanzha (Euronews)."
+   ]
+  ],
+  "figs": [
+   [
+    "4",
+    "morts (administration régionale, 25 oct.)"
+   ],
+   [
+    "22",
+    "blessés"
+   ]
   ]
  },
  {
@@ -5022,6 +5258,10 @@
   "summary": "Dimanche soir 18 octobre, une frappe de drone en deux vagues touche une gare routière près d'un marché à Al-Dibab, où des habitants attendaient un camion : au moins 80 morts selon l'alliance Tasis (bras politique des FSR) et l'AFP, qui cite une source médicale et un témoin. Tasis accuse l'armée soudanaise ; l'attribution n'est pas vérifiée de façon indépendante. Le groupe Emergency Lawyers impute aussi à l'armée une frappe sur le marché d'al-Muglad samedi. Plus tôt, près d'Ankoush, 4 civils avaient été tués dans un véhicule (frappe attribuée à l'armée par l'Observatoire du Kordofan, non confirmée).",
   "figs": [
    [
+    "139",
+    "morts à Al-Dibab selon le Haut-Commissariat de l'ONU"
+   ],
+   [
     "~80",
     "morts à Al-Dibab (Tasis, AFP)"
    ],
@@ -5040,7 +5280,8 @@
    "afrikdibab",
    "tv5dibab",
    "apsudan19",
-   "nationsud21"
+   "nationsud21",
+   "stturk25"
   ],
   "zoom": 150,
   "tl": [
@@ -5059,6 +5300,10 @@
    [
     "21 oct.",
     "L'Observatoire de la guerre au Soudan, cité par la presse, avance un bilan de 145 morts à Al-Dibab et 5 sous une tente de deuil après les frappes de dimanche, et environ 150 blessés ; il estime que les drones ont été lancés depuis Kadougli, ville tenue par l'armée. L'armée n'a pas réagi à ces accusations ; elle affirme ne pas viser les civils. Bilan non vérifié de façon indépendante."
+   ],
+   [
+    "23 oct.",
+    "Le Haut-Commissaire de l'ONU aux droits de l'homme, Volker Türk, chiffre à 139 morts la double frappe du 18 octobre à Al-Dibab, en zone tenue par les FSR, et à au moins 306 le nombre de civils tués par des drones au Soudan pendant les trois premières semaines d'octobre, frappes attribuées à l'armée comme aux FSR (Sudan Tribune)."
    ]
   ],
   "spots": [
@@ -5517,7 +5762,7 @@
   "cat": "emeute",
   "sev": 1,
   "live": false,
-  "date": "2026-10-17",
+  "date": "2026-10-24",
   "t": "2026-10-17T17:00",
   "ta": true,
   "title": "Une vaste manifestation, des débordements en fin de journée",
@@ -5534,7 +5779,15 @@
   ],
   "src": [
    "icipoit",
-   "f3poit"
+   "f3poit",
+   "exbless24",
+   "jdd24"
+  ],
+  "tl": [
+   [
+    "24 oct. vers 18 h",
+    "Un manifestant de 19 ans est touché à l'œil gauche après une charge de CRS suivie de grenades de désencerclement et de lacrymogènes, selon La Nouvelle République citée par L'Express ; la préfecture n'avait pas d'information à communiquer dans l'immédiat."
+   ]
   ]
  },
  {
@@ -5774,7 +6027,7 @@
   "cat": "frappe",
   "sev": 1,
   "live": false,
-  "date": "2026-10-08",
+  "date": "2026-10-25",
   "t": "2026-10-08T12:00",
   "ta": true,
   "title": "Deux morts dans des frappes de drones",
@@ -5790,7 +6043,14 @@
    ]
   ],
   "src": [
-   "starbelg"
+   "starbelg",
+   "anewsua25"
+  ],
+  "tl": [
+   [
+    "25 oct. nuit",
+    "Selon les autorités russes, une attaque de drones ukrainiens fait un mort et 14 blessés dans la région de Belgorod ; dans la région voisine de Briansk, deux morts dans un minibus d'une exploitation agricole à Borchtchovo. Moscou dit avoir abattu 532 drones au-dessus de 25 régions ; bilans non vérifiés de façon indépendante (A News)."
+   ]
   ]
  },
  {
@@ -6373,7 +6633,7 @@
   "cat": "frappe",
   "sev": 2,
   "live": false,
-  "date": "2026-10-21",
+  "date": "2026-10-25",
   "t": "2026-10-21T02:00",
   "ta": true,
   "title": "Drones sur des maisons : deux morts",
@@ -6388,12 +6648,18 @@
    [
     "21 oct. nuit",
     "Attaque de drones sur des maisons individuelles près de Kharkiv : deux morts selon le gouverneur Oleh Synehoubov (AFP)."
+   ],
+   [
+    "25 oct. nuit",
+    "À Kharkiv, un hypermarché de bricolage est frappé, puis une seconde frappe touche les secours arrivés sur place — une « double frappe cynique » selon Volodymyr Zelensky ; des secouristes blessés, un camion-citerne de pompiers détruit. Le ministère russe de la Défense affirme avoir visé des centres logistiques (Euronews, A News)."
    ]
   ],
   "spots": [],
   "src": [
    "kharkiv21",
-   "anua21"
+   "anua21",
+   "eunua25",
+   "anewsua25"
   ]
  },
  {
@@ -6650,6 +6916,107 @@
    "anjdammam22",
    "alhurra22",
    "rbchouthi22"
+  ]
+ },
+ {
+  "id": "karak",
+  "place": "Karak",
+  "country": "Jordanie",
+  "lon": 35.7048,
+  "lat": 31.1853,
+  "cat": "frappe",
+  "sev": 3,
+  "live": false,
+  "date": "2026-10-23",
+  "t": "2026-10-23T12:00",
+  "ta": true,
+  "title": "Fusillade dans une église pendant des funérailles",
+  "summary": "Le 23 octobre, des hommes armés ouvrent le feu dans une église grecque-orthodoxe de Karak, à environ 90 km au sud d'Amman, un quart d'heure après le début d'une cérémonie funéraire. Bilan initial de 7 morts et 40 blessés selon les autorités, porté à 9 morts selon le ministre de la Santé. Le porte-parole du gouvernement attribue l'attaque à une « idéologie takfiriste extrémiste » ; le roi Abdallah II dénonce un acte terroriste et promet « les peines les plus sévères ». Trois jours de deuil national. Le nombre d'assaillants et d'éventuelles arrestations n'étaient pas confirmés samedi.",
+  "figs": [
+   [
+    "9",
+    "morts (ministre de la Santé)"
+   ],
+   [
+    "~40",
+    "blessés au premier bilan"
+   ]
+  ],
+  "tl": [
+   [
+    "23 oct.",
+    "Attaque pendant des funérailles : 7 morts et 40 blessés au premier bilan des autorités (CBS)."
+   ],
+   [
+    "24 oct.",
+    "Bilan porté à 9 morts ; un blessé toujours dans un état critique. Trois jours de deuil national (Fox News, agence Petra)."
+   ]
+  ],
+  "src": [
+   "cbskarak",
+   "foxkarak",
+   "toi24"
+  ]
+ },
+ {
+  "id": "telaviv",
+  "place": "Tel-Aviv",
+  "country": "Israël",
+  "lon": 34.7865,
+  "lat": 32.0779,
+  "cat": "manif",
+  "sev": 1,
+  "live": false,
+  "date": "2026-10-24",
+  "t": "2026-10-24T20:00",
+  "ta": true,
+  "title": "Rassemblement pour une commission d'enquête sur le 7-Octobre",
+  "summary": "Samedi soir, place des Otages à Tel-Aviv, des manifestants réclament une commission d'enquête d'État sur les défaillances du 7 octobre 2023, trois jours avant les législatives du 27 octobre. Les organisateurs revendiquent 100 000 participants ; pas de chiffre officiel. Des proches d'otages accusent le gouvernement de bloquer l'enquête ; Benyamin Netanyahou refuse une commission d'État.",
+  "figs": [
+   [
+    "100 000",
+    "participants selon les organisateurs"
+   ]
+  ],
+  "tl": [
+   [
+    "24 oct.",
+    "Rassemblement place des Otages (Times of Israel)."
+   ]
+  ],
+  "src": [
+   "toi24"
+  ]
+ },
+ {
+  "id": "vinnytsia",
+  "place": "Vinnytsia",
+  "country": "Ukraine",
+  "lon": 28.4682,
+  "lat": 49.2331,
+  "cat": "frappe",
+  "sev": 1,
+  "live": false,
+  "date": "2026-10-25",
+  "t": "2026-10-25T03:00",
+  "ta": true,
+  "title": "Un drone frappe un immeuble : six blessés",
+  "summary": "Dans la nuit du 24 au 25 octobre, un drone russe touche un immeuble d'habitation de cinq étages à Vinnytsia : six blessés selon Volodymyr Zelensky et le Service d'urgence ukrainien.",
+  "figs": [
+   [
+    "6",
+    "blessés"
+   ]
+  ],
+  "tl": [
+   [
+    "25 oct. nuit",
+    "Immeuble touché par un drone (Euronews, A News)."
+   ]
+  ],
+  "src": [
+   "eunua25",
+   "anewsua25"
   ]
  }
 ]

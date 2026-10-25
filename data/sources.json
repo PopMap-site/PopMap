@@ -2226,5 +2226,161 @@
  "sortiraparis22": {
   "t": "Sortiraparis — Le cortège du 22 octobre devient un rassemblement",
   "u": "https://www.sortiraparis.com/en/news/in-paris/articles/355354-october-22-demonstration-march-turns-into-a-stationary-rally-the-latest-updates"
+ },
+ "jdd24": {
+  "t": "Le JDD — Manifestations du 24 octobre : le bilan des autorités",
+  "u": "https://www.lejdd.fr/Societe/manifestations-du-24-octobre-interpellations-nombre-de-manifestants-le-bilan-des-autorites-186957"
+ },
+ "f24bilan25": {
+  "t": "France 24 — Mobilisation du 24 octobre : plus de 1 300 interpellations",
+  "u": "https://www.france24.com/fr/france/20261025-mobilisation-du-24-octobre-plus-de-1-300-interpellations-une-cinquantaine-de-policiers-bless%C3%A9s"
+ },
+ "ici24": {
+  "t": "ICI — 410 000 manifestants selon le gouvernement, 800 000 selon la CGT",
+  "u": "https://www.ici.fr/infos/societe/direct-mobilisation-du-24-octobre-des-manifestations-partout-en-france-70-000-policiers-et-gendarmes-deployes-8725021"
+ },
+ "f24calme25": {
+  "t": "France 24 / AFP — Après un samedi plus calme qu'attendu, les autorités prudentes",
+  "u": "https://www.france24.com/fr/info-en-continu/20261025-apr%C3%A8s-un-samedi-plus-calme-qu-attendu-les-autorit%C3%A9s-prudentes-sur-les-suites-de-la-col%C3%A8re-sociale"
+ },
+ "f3paris24": {
+  "t": "France 3 Paris IdF — Manifestation du 24 octobre à Paris : moins d'interpellations",
+  "u": "https://france3-regions.franceinfo.fr/paris-ile-de-france/manifestation-du-24-octobre-a-paris-moins-d-interpellations-que-la-semaine-passee-un-defile-dans-le-calme-avec-peu-d-incidents-majeurs-3438816.html"
+ },
+ "fiparis24": {
+  "t": "Franceinfo — Manifestations du 24 octobre : « Les cortèges se sont bien passés »",
+  "u": "https://www.franceinfo.fr/societe/manifestations/manifestations-du-24-octobre-suivez-en-direct-cette-nouvelle-journee-de-mobilisation-sous-tres-haute-securite_8251987.html"
+ },
+ "lyonmagbil24": {
+  "t": "LyonMag — Manifestation du 24 octobre à Lyon : 36 interpellations, 22 blessés",
+  "u": "https://www.lyonmag.com/article/154565/manifestation-du-24-octobre-a-lyon-10-000-participants-36-interpellations-et-22-blesses"
+ },
+ "f3lyon24": {
+  "t": "France 3 Auvergne-Rhône-Alpes — 24 octobre à Lyon : 10 000 manifestants, 22 blessés",
+  "u": "https://france3-regions.franceinfo.fr/auvergne-rhone-alpes/rhone/lyon/direct-manifestation-du-24-octobre-a-lyon-un-risque-eleve-plus-de-20-000-personnes-attendues-malgre-l-interdiction-des-rassemblements-3438147.html"
+ },
+ "exmars24": {
+  "t": "L'Express (via Orange) — À Marseille, des incidents en fin de cortège",
+  "u": "https://actu.orange.fr/france/a-marseille-des-incidents-en-fin-de-cortege-viennent-contraster-une-journee-de-mobilisation-pacifique-l-express-via-6medias-CNT000002tnc1S.html"
+ },
+ "f3mars24": {
+  "t": "France 3 Provence-Alpes — 17 000 personnes ont défilé à Marseille",
+  "u": "https://france3-regions.franceinfo.fr/provence-alpes-cote-d-azur/bouches-du-rhone/marseille/direct-manifestation-du-24-octobre-a-marseille-suivez-la-mobilisation-dans-la-ville-apres-les-violences-de-la-semaine-derniere-3438576.html"
+ },
+ "f3tls24": {
+  "t": "France 3 Occitanie — 24 octobre à Toulouse : affrontements et un blessé grave",
+  "u": "https://france3-regions.franceinfo.fr/occitanie/haute-garonne/toulouse/direct-manifestation-du-24-octobre-a-toulouse-parcours-modifie-commerces-barricades-blindes-dans-les-rues-et-metros-fermes-pour-la-deuxieme-manifestation-contre-la-vie-chere-3438627.html"
+ },
+ "exbless24": {
+  "t": "L'Express (via Orange) — Deux manifestants blessés à la main, un troisième à l'œil",
+  "u": "https://actu.orange.fr/france/mobilisation-du-24-octobre-deux-manifestants-blesses-a-la-main-a-toulouse-et-a-clermont-ferrand-un-troisieme-touche-a-l-oeil-a-poitiers-l-express-via-6medias-CNT000002tnjAB.html"
+ },
+ "f3clf24": {
+  "t": "France 3 Auvergne — 24 octobre à Clermont-Ferrand : tensions place de Jaude",
+  "u": "https://france3-regions.franceinfo.fr/auvergne-rhone-alpes/puy-de-dome/clermont-ferrand/direct-manifestation-du-24-octobre-un-dispositif-important-au-centre-ville-de-clermont-ferrand-des-crs-devant-la-prefecture-3438591.html"
+ },
+ "f3bzh24": {
+  "t": "France 3 Bretagne — Mobilisation du 24 octobre en Bretagne",
+  "u": "https://france3-regions.franceinfo.fr/bretagne/ille-et-vilaine/rennes/direct-mobilisation-du-24-octobre-rennes-brest-quimper-lorient-suivez-l-evolution-des-blocages-et-des-manifestations-en-bretagne-3438339.html"
+ },
+ "f3bdx24": {
+  "t": "France 3 Nouvelle-Aquitaine — 24 octobre : tensions en fin de parcours à Bordeaux",
+  "u": "https://france3-regions.franceinfo.fr/nouvelle-aquitaine/gironde/bordeaux/direct-manifestation-a-bordeaux-le-24-octobre-2026-parcours-horaires-et-dernieres-informations-3438351.html"
+ },
+ "palim23": {
+  "t": "Presse Agence — Sébastien Lecornu attendu à Limoges",
+  "u": "https://presseagence.fr/limoges-securite-le-premier-ministre-attendu-ce-vendredi-apres-les-violences/"
+ },
+ "filim23": {
+  "t": "Franceinfo (relayé) — « L'État sera là » pour reconstruire la mairie de Limoges",
+  "u": "https://www.shango.media/france-info-letat-sera-la-pour-reconstruire-la-mairie-de-limoges-a-lidentique-promet-sebastien-lecornu-11978529"
+ },
+ "rcigua24": {
+  "t": "RCI — Barrages en Guadeloupe : circulation calme, perturbée à Moudong Nord",
+  "u": "https://rci.fm/guadeloupe/infos/Societe/Barrages-en-Guadeloupe-circulation-calme-sur-larchipel-toujours-perturbee-Moudong"
+ },
+ "la1gua24": {
+  "t": "Guadeloupe La 1ère — Circulation globalement fluide ce samedi matin",
+  "u": "https://la1ere.franceinfo.fr/guadeloupe/mobilisation-en-guadeloupe-une-circulation-globalement-fluide-ce-samedi-matin-des-obstacles-encore-presents-sur-la-rn1-a-moudong-nord-1751331.html"
+ },
+ "notmil25": {
+  "t": "Notizie.it — Milano, corteo di 10mila: arresti e denunce",
+  "u": "https://milano.notizie.it/cronaca-milano/2026/10/25/milano-24-ottobre-3-arresti-41-denunce-e-negozi-chiusi/"
+ },
+ "giornomil24": {
+  "t": "Il Giorno — Milano, manifestazioni del 24 ottobre in diretta",
+  "u": "https://www.ilgiorno.it/milano/cronaca/sabato-24-ottobre-diretta-manifestazioni-irqvhhl7"
+ },
+ "ajtir24": {
+  "t": "Al Jazeera — Thousands gather at new Albanian antigovernment rally",
+  "u": "https://www.aljazeera.com/news/2026/10/24/thousands-gather-at-new-albanian-antigovernment-rally"
+ },
+ "euntir24": {
+  "t": "Euronews — Violent protests shake Tirana",
+  "u": "https://www.euronews.com/2026/10/24/tensions-rise-in-albania-as-protesters-burn-symbolic-pillows-outside-prime-ministers-offic"
+ },
+ "usntir25": {
+  "t": "US News / Reuters — Fresh protests in Tirana despite new measures",
+  "u": "https://www.usnews.com/news/world/articles/2026-10-25/fresh-protests-in-tirana-despite-new-measures-to-curb-unrest"
+ },
+ "riosrb25": {
+  "t": "Rio Times — Serbia turnout hits 41 % by 1 pm (CRTA)",
+  "u": "https://www.riotimesonline.com/serbia-turnout-41-percent-by-1-pm-crta"
+ },
+ "f24srb25": {
+  "t": "France 24 — Serbia holds parliamentary election",
+  "u": "https://www.france24.com/en/europe/20261025-serbia-holds-parliamentary-election-as-populist-leader-vucic-faces-student-movement"
+ },
+ "ajheb24": {
+  "t": "Al Jazeera — Why is Israel launching a new military operation in the West Bank?",
+  "u": "https://www.aljazeera.com/news/2026/10/24/why-is-israel-launching-a-new-military-operation-in-the-occupied-west-bank"
+ },
+ "abcheb24": {
+  "t": "ABC (Australie) — Netanyahu seizes on Hebron attack",
+  "u": "https://abc.net.au/news/2026-10-24/netanyahu-orders-major-attack-to-destroy-hebron/107303868"
+ },
+ "toi24": {
+  "t": "Times of Israel — Liveblog du 24 octobre",
+  "u": "https://www.timesofisrael.com/liveblog-october-24-2026/"
+ },
+ "toiuniv25": {
+  "t": "Times of Israel — IDF strike on Gaza university reportedly kills three",
+  "u": "https://www.timesofisrael.com/liveblog_entry/idf-strike-on-gaza-university-reportedly-kills-three/"
+ },
+ "ajgaza25": {
+  "t": "Al Jazeera (via Dominica Gazette) — Seven killed in Gaza as Israel targets university campus",
+  "u": "https://dominicagazette.com/seven-killed-in-gaza-as-israel-targets-university-campus-and-other-sites/"
+ },
+ "foxkarak": {
+  "t": "Fox News — Jordan church attack in Karak kills 9",
+  "u": "https://www.foxnews.com/world/death-toll-rises-9-church-attack-officials-blame-extremist-islamist-ideology"
+ },
+ "cbskarak": {
+  "t": "CBS News — At least 7 killed in attack on Jordan church during funeral",
+  "u": "https://www.cbsnews.com/news/jordan-shooting-greek-orthodox-church-karak/"
+ },
+ "gulfhormuz25": {
+  "t": "Gulf News — Strait of Hormuz: nearly 500 vessels delayed",
+  "u": "https://gulfnews.com/world/mena/strait-of-hormuz-crisis-nearly-500-vessels-face-disruption-amid-new-tanker-attack-1.500723273"
+ },
+ "ajhouthi24": {
+  "t": "Al Jazeera — Houthis launch attacks on Saudi Arabia and Yemen's Aden",
+  "u": "https://www.aljazeera.com/news/2026/10/24/houthis-launch-attacks-on-saudi-arabia-and-yemens-aden"
+ },
+ "eunua25": {
+  "t": "Euronews — Russian strikes on Ukraine kill four and injure 28",
+  "u": "https://www.euronews.com/2026/10/25/russian-strikes-on-ukraine-kill-four-and-injure-28-authorities-say"
+ },
+ "anewsua25": {
+  "t": "A News — Russia, Ukraine report casualties in overnight strikes",
+  "u": "https://www.anews.com.tr/world/2026/10/25/russia-ukraine-report-casualties-in-overnight-strikes"
+ },
+ "stturk25": {
+  "t": "Sudan Tribune — UN rights chief says drone strikes killed 306 Sudanese in October",
+  "u": "https://sudantribune.com/article/320387"
+ },
+ "e1lyc": {
+  "t": "Europe 1 — Le gouvernement présentera lundi ses premières décisions (lycéens)",
+  "u": "https://www.europe1.fr/politique/mouvement-lyceen-et-etudiant-le-gouvernement-presentera-lundi-ses-premieres-decisions-face-aux-revendications-1170459"
  }
 }

@@ -321,37 +321,6 @@
   ]
  },
  {
-  "id": "a-venezuela",
-  "kind": "agenda",
-  "place": "Venezuela",
-  "lon": -66.9036,
-  "lat": 10.4806,
-  "t": "2026-10-22T10:00",
-  "ta": true,
-  "title": "Appel à manifester pour une date d'élection",
-  "text": "Jeudi 22 octobre, Vente Venezuela, le parti de María Corina Machado, appelle à manifester dans tous les États du pays pour son retour, une date d'élection présidentielle (il soutient la proposition du 24 juillet 2027) et la libération des prisonniers politiques. Le chavisme a aussi convoqué une marche à Caracas le même jour (El Nacional). Edmundo González, en exil, soutient les manifestations (Infobae).",
-  "src": [
-   "riovzla",
-   "infobvz",
-   "eldiariovz",
-   "elnacvz22",
-   "infobvz22"
-  ]
- },
- {
-  "id": "a-mexico",
-  "kind": "agenda",
-  "place": "Mexico",
-  "lon": -99.155,
-  "lat": 19.407,
-  "t": "2026-10-21T15:00",
-  "title": "Mégamarche des salariés de l'IMSS",
-  "text": "Mercredi 21 octobre à 15 h, départ du Centro Médico Nacional Siglo XXI : salaires, médicaments, personnel. Perturbations possibles sur l'avenue Cuauhtémoc et le Paseo de la Reforma.",
-  "src": [
-   "ejeimss"
-  ]
- },
- {
   "id": "p-nord",
   "kind": "interdiction",
   "place": "Lille · Douai · Wattignies · Denain",
@@ -454,21 +423,6 @@
   ]
  },
  {
-  "id": "a-belgrade22",
-  "kind": "agenda",
-  "place": "Belgrade · place Slavija",
-  "lon": 20.4683,
-  "lat": 44.8025,
-  "t": "2026-10-22T18:00",
-  "ta": true,
-  "title": "Rassemblement de clôture des étudiants",
-  "text": "Jeudi 22 octobre, dernier grand rassemblement de campagne de la liste étudiante avant les législatives du 25 octobre ; des colonnes de marcheurs convergent depuis plusieurs villes.",
-  "src": [
-   "ansaserb22",
-   "vremeserb"
-  ]
- },
- {
   "id": "p-bordeaux-cf",
   "kind": "interdiction",
   "place": "Bordeaux · rue Sainte-Catherine",
@@ -481,38 +435,6 @@
   "src": [
    "rue89cf",
    "f3bdxcf"
-  ]
- },
- {
-  "id": "a-matignon-synd",
-  "kind": "agenda",
-  "place": "Paris · Matignon",
-  "lon": 2.3205,
-  "lat": 48.8547,
-  "t": "2026-10-21T09:00",
-  "ta": true,
-  "title": "Le Premier ministre reçoit les syndicats",
-  "text": "Mercredi 21 octobre au matin, Sébastien Lecornu reçoit les cinq syndicats représentatifs (CFDT, CGT, FO, CFTC, CFE-CGC) avec le ministre de l'Intérieur Laurent Nuñez, sans les organisations lycéennes et étudiantes : liberté de manifester, sécurisation des cortèges, pouvoir d'achat. Le ministre du Travail doit poursuivre les échanges dans les prochaines semaines.",
-  "src": [
-   "lalibre20",
-   "boursolec21",
-   "fimatignon21",
-   "lcp21"
-  ]
- },
- {
-  "id": "a-matignon-partis",
-  "kind": "agenda",
-  "place": "Paris · Matignon",
-  "lon": 2.321,
-  "lat": 48.855,
-  "t": "2026-10-22T10:00",
-  "ta": true,
-  "title": "Réunion des partis à Matignon",
-  "text": "Jeudi 22 octobre, réunion des partis politiques, notamment sur la sécurité de la campagne présidentielle. Le RN annonce qu'il sera représenté, sans Marine Le Pen ni Jordan Bardella.",
-  "src": [
-   "lalibre20",
-   "e1direct20"
   ]
  },
  {
@@ -531,37 +453,6 @@
    "mimcf20",
    "f3mrscf20",
    "bfmcf20"
-  ]
- },
- {
-  "id": "a-athenes21",
-  "kind": "agenda",
-  "place": "Athènes · Propylées",
-  "lon": 23.7333,
-  "lat": 37.9803,
-  "t": "2026-10-21T12:00",
-  "title": "Grève des enseignants et marches d'élèves en Grèce",
-  "text": "Mercredi 21 octobre : grève de 24 h du primaire (DOE), arrêt de travail de 11 h à 14 h dans le secondaire (OLME), grève de la fonction publique (ADEDY) à partir de 11 h, grève des personnels de la Culture et des médecins hospitaliers. Rassemblements à midi aux Propylées puis marche vers le Parlement à Athènes, à 11 h 30 statue de Venizélos à Thessalonique, à 10 h 30 place Georgiou à Patras. Métro : station Panepistimio (Athènes) fermée dès 10 h ; à Thessalonique, cinq stations du centre fermées dès 9 h sur instruction de la police.",
-  "src": [
-   "tovima21",
-   "greekrep21",
-   "proto21",
-   "ktg21",
-   "gct21"
-  ]
- },
- {
-  "id": "a-milan21",
-  "kind": "agenda",
-  "place": "Milan · piazza della Scala",
-  "lon": 9.1897,
-  "lat": 45.4673,
-  "t": "2026-10-21T18:30",
-  "title": "Rassemblement « Milano non vuole la violenza »",
-  "text": "Mercredi 21 octobre à 18 h devant l'hôtel de ville, à l'appel de la CGIL, après les violences du week-end ; le maire Giuseppe Sala et le Parti démocrate annoncent leur participation.",
-  "src": [
-   "ansacgil",
-   "cgilmi21"
   ]
  },
  {
@@ -632,37 +523,6 @@
   ]
  },
  {
-  "id": "a-maires22",
-  "kind": "agenda",
-  "place": "Paris · Matignon",
-  "lon": 2.3205,
-  "lat": 48.8546,
-  "t": "2026-10-22T15:00",
-  "ta": true,
-  "title": "Les maires de Paris, Marseille et Lyon à Matignon",
-  "text": "Jeudi après-midi, Sébastien Lecornu reçoit Emmanuel Grégoire (Paris), Benoît Payan (Marseille) et Grégory Doucet (Lyon) après les violences du 17 octobre.",
-  "src": [
-   "e1maires21"
-  ]
- },
- {
-  "id": "a-limoges23",
-  "kind": "agenda",
-  "place": "Limoges",
-  "lon": 1.2578,
-  "lat": 45.8317,
-  "t": "2026-10-23T18:00",
-  "ta": true,
-  "title": "Sébastien Lecornu à Limoges",
-  "text": "Vendredi 23 octobre en fin de journée, le Premier ministre se rend à l'hôtel de ville de Limoges, détruit par un incendie le 17 octobre.",
-  "src": [
-   "e1maires21",
-   "f3limlec21",
-   "icilim23",
-   "milim23"
-  ]
- },
- {
   "id": "a-lyceens26",
   "kind": "agenda",
   "place": "Paris",
@@ -670,10 +530,11 @@
   "lat": 48.85,
   "t": "2026-10-26T10:00",
   "ta": true,
-  "title": "Réunion sur les revendications des lycéens et étudiants",
-  "text": "Lundi 26 octobre, réunion annoncée par le gouvernement pour répondre aux revendications des lycéens et des étudiants, sur la base de la plateforme de concertation (AFP).",
+  "title": "Le gouvernement répond aux lycéens et étudiants",
+  "text": "Lundi matin, le ministre de l'Éducation nationale Édouard Geffray réunit la communauté éducative, les régions et les lycéens pour présenter de premières décisions sur les effectifs des classes, les remplacements et Parcoursup, à traduire dans le budget 2027 (Europe 1).",
   "src": [
-   "e1cgt21"
+   "e1cgt21",
+   "e1lyc"
   ]
  },
  {
@@ -850,22 +711,6 @@
   ]
  },
  {
-  "id": "a-conseildef23",
-  "kind": "agenda",
-  "place": "Paris · Élysée",
-  "lon": 2.3165,
-  "lat": 48.8704,
-  "t": "2026-10-23T09:00",
-  "until": null,
-  "ta": true,
-  "title": "Conseil de défense avant samedi",
-  "text": "Emmanuel Macron convoque un conseil de défense vendredi matin pour préparer la journée du samedi 24 octobre et prendre des « décisions supplémentaires ».",
-  "src": [
-   "m20macron22",
-   "icimacron22"
-  ]
- },
- {
   "id": "a-paris24",
   "kind": "agenda",
   "place": "Paris · Bastille – Nation",
@@ -975,18 +820,18 @@
   ]
  },
  {
-  "id": "a-elysee23",
-  "kind": "agenda",
-  "place": "Paris · Élysée",
-  "lon": 2.3168,
-  "lat": 48.8706,
-  "t": "2026-10-23T15:00",
-  "until": null,
-  "ta": true,
-  "title": "Les organisations lycéennes reçues à l'Élysée",
-  "text": "Vendredi 23 octobre à 15 h, Emmanuel Macron doit recevoir des représentants d'organisations lycéennes, à la veille de la journée du 24.",
+  "id": "p-lyon-cf25",
+  "kind": "interdiction",
+  "place": "Lyon · Presqu'île",
+  "lon": 4.8345,
+  "lat": 45.7597,
+  "t": "2026-10-24T23:00",
+  "until": "2026-10-25T06:00",
+  "ta": false,
+  "title": "Couvre-feu 23 h – 6 h",
+  "text": "Couvre-feu dans un périmètre restreint de la Presqu'île dans la nuit du samedi 24 au dimanche 25 octobre, selon la préfecture du Rhône (LyonMag).",
   "src": [
-   "tpelysee23"
+   "lyonmag24"
   ]
  }
 ]
