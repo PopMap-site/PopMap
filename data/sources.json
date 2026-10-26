@@ -2382,5 +2382,97 @@
  "e1lyc": {
   "t": "Europe 1 — Le gouvernement présentera lundi ses premières décisions (lycéens)",
   "u": "https://www.europe1.fr/politique/mouvement-lyceen-et-etudiant-le-gouvernement-presentera-lundi-ses-premieres-decisions-face-aux-revendications-1170459"
+ },
+ "e1matignon26": {
+  "t": "Europe 1 — Organisations lycéennes et étudiantes reçues à Matignon",
+  "u": "https://www.europe1.fr/politique/des-organisations-lyceennes-et-etudiantes-recues-lundi-a-matignon-les-ministres-de-leducation-et-de-lenseignement-prendront-ensuite-la-parole-1181604"
+ },
+ "dijonact26": {
+  "t": "Dijon Actualités — Les annonces attendues ce lundi",
+  "u": "https://dijon-actualites.fr/2026/10/26/colere-des-lyceens-et-des-etudiants-les-annonces-attendues-ce-lundi-suffiront-elles-a-eteindre-le-mouvement-social/"
+ },
+ "fi31oct": {
+  "t": "Franceinfo — Les gilets jaunes appellent à manifester le 31 octobre",
+  "u": "https://www.franceinfo.fr/societe/manifestations/les-gilets-jaunes-appellent-a-une-nouvelle-mobilisation-le-31-octobre-et-denoncent-une-derive-autoritaire_8252203.html"
+ },
+ "eunsrb25": {
+  "t": "Euronews — Vučić reconnaît sa défaite",
+  "u": "https://www.euronews.com/2026/10/25/vucic-concedes-defeat-in-pivotal-serbian-elections-says-student-movement-has-won"
+ },
+ "n021srb25": {
+  "t": "021.rs — Élections en Serbie, en direct",
+  "u": "https://021.rs/info/srbija/458965/uzivo-izbori-u-srbiji-vucic-priznao-poraz-studentska-lista-pobedila"
+ },
+ "bdtir25": {
+  "t": "Business Day (Reuters) — Nouvelles manifestations à Tirana",
+  "u": "https://www.businessday.co.za/world/europe/2026-10-25-protests-flare-in-tirana-despite-new-government-crackdown/"
+ },
+ "lapit24": {
+  "t": "LaPresse — Cortèges du 24 octobre en Italie",
+  "u": "https://www.lapresse.it/cronaca/2026/10/24/scontri-in-piazza-milano-e-roma-blindate-per-le-nuove-manifestazioni/"
+ },
+ "msgit24": {
+  "t": "Il Messaggero — Heurts à Rome et Milan, pas de pillages",
+  "u": "https://www.ilmessaggero.it/italia/scontri_roma_milano_cosa_e_successo_niente_saccheggi_movimento_17_ottobre-9846539.html"
+ },
+ "eupt24": {
+  "t": "Euronews PT — Manifestations pour le logement au Portugal",
+  "u": "https://pt.euronews.com/2026/10/24/portugal-manifestacoes-pela-habitacao-em-varias-cidades"
+ },
+ "jnlx24": {
+  "t": "Jornal de Negócios — 25 000 personnes selon les organisateurs",
+  "u": "https://www.jornaldenegocios.pt/economia/detalhe/organizacao-da-manifestacao-pela-habitacao-em-lisboa-estima-25-mil-pessoas"
+ },
+ "mtbelg25": {
+  "t": "The Moscow Times — Attaques ukrainiennes sur Belgorod et Lipetsk",
+  "u": "https://themoscowtimes.com/2026/10/25/ukrainian-attacks-kill-3-in-belgorod-hit-perm-industrial-plant-a94077"
+ },
+ "usnbelg25": {
+  "t": "US News (Reuters) — Trois morts dans la région de Belgorod",
+  "u": "https://www.usnews.com/news/world/articles/2026-10-25/three-people-killed-and-14-injured-in-ukrainian-attacks-on-russias-belgorod-region-governor-says"
+ },
+ "imazreu25": {
+  "t": "Imaz Press — Bilan de la nuit de violences urbaines",
+  "u": "https://imazpress.com/mobilisation-citoyenne/bilan-violences-urbaines-prefecture"
+ },
+ "toilive25": {
+  "t": "Times of Israel — Fil du 25 octobre",
+  "u": "https://www.timesofisrael.com/liveblog-october-25-2026/"
+ },
+ "ajgaza25b": {
+  "t": "Al Jazeera — Huit tués à Gaza",
+  "u": "https://www.aljazeera.com/news/2026/10/25/seven-killed-in-gaza-as-israel-targets-university-campus-and-other-sites"
+ },
+ "xinhuagaza26": {
+  "t": "Xinhua — Sept tués dans des frappes à Gaza",
+  "u": "https://english.news.cn/20261026/876cddc601b2429991aca0f4f9870499/c.html"
+ },
+ "nationriy26": {
+  "t": "The Nation — Barrage de missiles houthis, réouverture de l'aéroport de Riyad",
+  "u": "https://www.nation.com.pk/26-Oct-2026/houthis-launch-missile-barrage-saudi-arabia-riyadh-airport-reopens"
+ },
+ "ajmecca25": {
+  "t": "Al Jazeera — Interceptions près de La Mecque",
+  "u": "https://www.aljazeera.com/news/2026/10/25/saudi-air-defences-intercept-houthi-barrage-near-mecca"
+ },
+ "natiran25": {
+  "t": "The National — Trump a « une décision à prendre » sur l'Iran",
+  "u": "https://www.thenationalnews.com/news/us/2026/10/25/trump-iran-strike/"
+ },
+ "meeiran25": {
+  "t": "Middle East Eye — Trump : frapper ou conclure un accord",
+  "u": "https://www.middleeasteye.net/live-blog/live-blog-update/trump-says-could-strike-iran-tomorrow-or-strike-beautiful-deal"
+ },
+ "hosirik26": {
+  "t": "House of Saud — Missile iranien tiré depuis Sirik",
+  "u": "https://houseofsaud.com/iran-hormuz-cruise-missile-sirik-oct26/"
+ },
+ "rbcepic25": {
+  "t": "RBC-Ukraine — Quatre centres Epicentr frappés",
+  "u": "https://newsukraine.rbc.ua/news/-total-destruction-of-the-chain-epicentr-1792931089.html"
+ },
+ "ligaepic25": {
+  "t": "LIGA.net — Attaques contre des magasins Epicentr",
+  "u": "https://news.liga.net/en/war/news/russia-has-once-again-attacked-several-epicenters-across-ukraine"
  }
 }

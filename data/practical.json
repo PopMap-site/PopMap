@@ -196,10 +196,11 @@
   "t": "2026-10-25T09:00",
   "ta": true,
   "title": "Législatives anticipées",
-  "text": "Scrutin du 25 octobre, avec une liste issue du mouvement étudiant.",
+  "text": "Scrutin du 25 octobre. Selon les estimations de CRTA et d'Ipsos/CeSID, la Liste étudiante l'emporte avec environ 52 % ; Aleksandar Vučić a reconnu sa défaite. Résultats officiels attendus.",
   "src": [
    "reuserb",
-   "intelli"
+   "eunsrb25",
+   "n021srb25"
   ]
  },
  {
@@ -244,9 +245,10 @@
   "t": "2026-10-27T09:00",
   "ta": true,
   "title": "Élections législatives en Israël",
-  "text": "Mardi 27 octobre. La Liste unifiée arabe dit pouvoir soutenir de l'extérieur une coalition opposée à Benyamin Netanyahou.",
+  "text": "Mardi 27 octobre. La Liste unifiée arabe dit pouvoir soutenir de l'extérieur une coalition opposée à Benyamin Netanyahou. L'armée israélienne annonce un bouclage de la Cisjordanie le jour du vote et la fermeture des points de passage terrestres (Times of Israel).",
   "src": [
-   "ajpw"
+   "ajpw",
+   "toilive25"
   ]
  },
  {
@@ -528,13 +530,13 @@
   "place": "Paris",
   "lon": 2.33,
   "lat": 48.85,
-  "t": "2026-10-26T10:00",
+  "t": "2026-10-26T14:30",
   "ta": true,
-  "title": "Le gouvernement répond aux lycéens et étudiants",
-  "text": "Lundi matin, le ministre de l'Éducation nationale Édouard Geffray réunit la communauté éducative, les régions et les lycéens pour présenter de premières décisions sur les effectifs des classes, les remplacements et Parcoursup, à traduire dans le budget 2027 (Europe 1).",
+  "title": "Lycéens et étudiants reçus à Matignon",
+  "text": "Lundi 26 octobre à partir de 14 h 30, le Premier ministre Sébastien Lecornu reçoit des organisations lycéennes et étudiantes ; conférence de presse des ministres Édouard Geffray et Philippe Baptiste en fin d'après-midi (vers 17 h selon Dijon Actualités) sur les remplacements, les effectifs, le bâti scolaire et Parcoursup.",
   "src": [
-   "e1cgt21",
-   "e1lyc"
+   "e1matignon26",
+   "dijonact26"
   ]
  },
  {
@@ -832,6 +834,21 @@
   "text": "Couvre-feu dans un périmètre restreint de la Presqu'île dans la nuit du samedi 24 au dimanche 25 octobre, selon la préfecture du Rhône (LyonMag).",
   "src": [
    "lyonmag24"
+  ]
+ },
+ {
+  "id": "a-gj31",
+  "kind": "agenda",
+  "place": "France entière",
+  "lon": 2.2,
+  "lat": 46.9,
+  "t": "2026-10-31T14:00",
+  "ta": true,
+  "title": "Nouvelle journée d'action contre la vie chère",
+  "text": "Samedi 31 octobre, la coordination des gilets jaunes appelle à une nouvelle journée de mobilisation, en dénonçant une « dérive autoritaire » de l'exécutif ; rassemblements annoncés dans plusieurs villes, dont Dijon. Lieux et autorisations préfectorales à confirmer.",
+  "src": [
+   "fi31oct",
+   "dijonact26"
   ]
  }
 ]

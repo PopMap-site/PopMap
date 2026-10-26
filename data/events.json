@@ -11,7 +11,7 @@
   "date": "2026-10-24",
   "zoom": 5000,
   "title": "Paris sous tension depuis le 17-octobre",
-  "summary": "Journée nationale contre la vie chère, dans la foulée du mouvement lycéen : 110 000 manifestants à Paris selon l'Intérieur. Le cortège autorisé République–Clichy est resté calme, mais des groupes masqués ont multiplié les heurts autour. Cortèges sauvages vers l'Élysée, barricades sur les Champs-Élysées, voitures brûlées, pillages, stations de métro fermées. Dès 7 h, le siège de CNews et Europe 1 avait été visé par une centaine d'individus cagoulés. Nouveaux affrontements dimanche à République ; allocution d'Emmanuel Macron dimanche soir.",
+  "summary": "Mobilisation contre la vie chère, dans la foulée du mouvement lycéen et étudiant. Le 24 octobre, 110 000 manifestants à Paris selon l'Intérieur (250 000 selon la CGT) : cortège autorisé globalement calme, heurts en marge, 142 interpellations selon la préfecture de police. Le 17, cortèges sauvages, barricades sur les Champs-Élysées, pillages et stations de métro fermées. Lundi 26, le Premier ministre reçoit les organisations lycéennes et étudiantes à Matignon ; les gilets jaunes appellent à une nouvelle journée le 31 octobre, l'intersyndicale à la grève le 5 novembre.",
   "figs": [
    [
     "410 000 / 800 000",
@@ -158,6 +158,10 @@
    [
     "25 oct. matin",
     "La préfecture de police compte 142 interpellations à Paris pour la journée de samedi, dont environ 120 gardes à vue. Bilan national : plus de 1 300 interpellations et une cinquantaine de policiers et gendarmes blessés (France 24, Le JDD). Les autorités restent prudentes sur la suite du mouvement (AFP)."
+   ],
+   [
+    "26 oct.",
+    "Le Premier ministre Sébastien Lecornu reçoit à partir de 14 h 30 des organisations lycéennes et étudiantes à Matignon, puis les ministres Édouard Geffray (Éducation) et Philippe Baptiste (Enseignement supérieur) doivent présenter des mesures en fin d'après-midi : remplacements, bâti scolaire, effectifs, Parcoursup, à traduire dans le budget 2027 (Europe 1, Dijon Actualités). L'Union étudiante critique le fait que lycéens et étudiants soient reçus séparément. La concertation en ligne a recueilli plus de 100 000 contributions ; rentrée scolaire le 2 novembre."
    ]
   ],
   "spots": [
@@ -382,7 +386,9 @@
    "ici24",
    "f24calme25",
    "f3paris24",
-   "fiparis24"
+   "fiparis24",
+   "e1matignon26",
+   "dijonact26"
   ],
   "photos": [
    {
@@ -1797,7 +1803,7 @@
   "cat": "emeute",
   "sev": 1,
   "live": false,
-  "date": "2026-10-17",
+  "date": "2026-10-25",
   "title": "Gendarmerie de Bras-Fusil visée",
   "summary": "Façade de la brigade de Bras-Fusil endommagée par le feu. 219 policiers et gendarmes engagés.",
   "figs": [
@@ -1811,10 +1817,28 @@
    ]
   ],
   "src": [
-   "pandore"
+   "pandore",
+   "imazreu25"
   ],
   "t": "2026-10-17T12:00",
-  "ta": true
+  "ta": true,
+  "tl": [
+   [
+    "nuit du 24 au 25 oct.",
+    "Selon la préfecture, plus de 530 policiers et gendarmes déployés ; feux de poubelles et de véhicules à Saint-Denis, Saint-André, Saint-Pierre, Saint-Louis, Le Port et Saint-Paul. À La Possession (quartier de Moulin Joli), une quinzaine de jeunes cagoulés lancent des projectiles sur les gendarmes après des feux qui semblaient destinés à les attirer ; aucun gendarme blessé, aucune interpellation, aucun commerce dégradé selon la préfecture (Imaz Press)."
+   ]
+  ],
+  "spots": [
+   {
+    "n": "La Possession · Moulin Joli",
+    "lon": 55.336,
+    "lat": -20.928,
+    "d": "Nuit du 24 au 25 octobre : feux de poubelles et de voitures, puis jets de projectiles d'une quinzaine de jeunes cagoulés sur les gendarmes ; aucun blessé selon la préfecture.",
+    "t": "2026-10-25T00:00",
+    "ta": true
+   }
+  ],
+  "zoom": 300
  },
  {
   "id": "milan",
@@ -1835,16 +1859,16 @@
     "manifestants le 24 oct."
    ],
    [
-    "3",
-    "arrestations le 24 oct."
+    "371",
+    "personnes conduites au commissariat en Italie le 24 oct. (Intérieur)"
+   ],
+   [
+    "9",
+    "arrestations en Italie le 24 oct., dont 3 à Milan"
    ],
    [
     "32",
     "arrestations le 18, dont 23 mineurs"
-   ],
-   [
-    "271",
-    "personnes conduites à la questura le 18"
    ],
    [
     "~1 M€",
@@ -1915,6 +1939,10 @@
    [
     "24 oct.",
     "Le « Movimento 17 ottobre » renonce au Duomo, bouclé. Deux cortèges partis du centre se rejoignent à Porta Venezia puis finissent au Politecnico, piazza Leonardo da Vinci : environ 10 000 personnes selon Il Giorno et Notizie.it. Brefs moments de tension à Porta Venezia, sans affrontement violent. 1 400 agents mobilisés, dont 500 parachutistes ; 3 arrestations, 41 dénonciations, 167 personnes conduites à la questura et 2 885 identifiées. L'auteur présumé de la page Instagram liée au mouvement fait l'objet d'une garde à vue préventive de 12 heures et d'une enquête pour incitation à commettre des délits."
+   ],
+   [
+    "24 oct. soir",
+    "La police arrête (fermo) à Milan le promoteur présumé du « Movimento 17 ottobre », 30 ans, visé par une enquête du parquet pour incitation aggravée à commettre des délits ; perquisitions dans la province de Brescia. Bilan national provisoire du ministère de l'Intérieur pour la journée : 9 arrestations, 87 dénonciations, 371 personnes conduites au commissariat (dont 110 mineurs) et 4 292 identifiées. Giorgia Meloni remercie les forces de l'ordre et rappelle que « le droit de manifester doit toujours être garanti » (LaPresse, Il Messaggero)."
    ]
   ],
   "spots": [
@@ -2065,7 +2093,9 @@
    "adnmil22",
    "mitomil22",
    "notmil25",
-   "giornomil24"
+   "giornomil24",
+   "lapit24",
+   "msgit24"
   ],
   "photos": [
    {
@@ -2088,7 +2118,7 @@
   "cat": "emeute",
   "sev": 2,
   "live": false,
-  "date": "2026-10-17",
+  "date": "2026-10-24",
   "zoom": 9000,
   "title": "Gare dévastée, San Petronio tagguée",
   "summary": "Heurts et dégradations autour de la gare : environ 300 émeutiers face à la police dans la zone du dépôt ferroviaire, canon à eau. La basilique San Petronio a été tagguée. Le maire Matteo Lepore condamne une manifestation non autorisée ; le gouvernement annonce des amendes de 10 000 à 60 000 €.",
@@ -2137,10 +2167,17 @@
    "fa",
    "reu",
    "sky18",
-   "rsiit"
+   "rsiit",
+   "lapit24"
   ],
   "t": "2026-10-17T16:00",
-  "ta": true
+  "ta": true,
+  "tl": [
+   [
+    "24 oct.",
+    "Nouvelles tensions : la police utilise canons à eau et gaz lacrymogène contre des manifestants (LaPresse). Pas de bilan local détaillé publié."
+   ]
+  ]
  },
  {
   "id": "turin",
@@ -2151,7 +2188,7 @@
   "cat": "emeute",
   "sev": 2,
   "live": false,
-  "date": "2026-10-17",
+  "date": "2026-10-24",
   "zoom": 9000,
   "title": "Heurts devant Porta Nuova",
   "summary": "Environ 3 000 manifestants contre la vie chère. Devant la gare de Porta Nuova, des jeunes lancent pierres, pétards et fumigènes sur la police, qui répond aux lacrymogènes ; un groupe saccage la librairie de la gare. Heurts aussi piazza Castello et via Po. 60 personnes identifiées ; trois mineurs trouvés avec des bouteilles incendiaires.",
@@ -2193,7 +2230,9 @@
    "agi",
    "sky18",
    "ansa",
-   "rsiit"
+   "rsiit",
+   "lapit24",
+   "msgit24"
   ],
   "t": "2026-10-17T16:00",
   "ta": true,
@@ -2205,6 +2244,12 @@
    [
     "~3 000",
     "manifestants"
+   ]
+  ],
+  "tl": [
+   [
+    "24 oct.",
+    "Tensions et charges de police ; 421 personnes identifiées et une arrestation selon le bilan provisoire (LaPresse, Il Messaggero)."
    ]
   ]
  },
@@ -2366,9 +2411,9 @@
   "cat": "manif",
   "sev": 2,
   "live": true,
-  "date": "2026-10-22",
+  "date": "2026-10-24",
   "zoom": 12000,
-  "title": "Le campement du Rossio évacué par la police",
+  "title": "25 000 manifestants pour le logement selon les organisateurs",
   "summary": "Des dizaines de milliers de personnes ont marché le 17 octobre à l'appel du syndicat CGTP contre la vie chère, les bas salaires et le logement (prix doublés depuis 2017, inflation 3,6 % en septembre). Le cortège est parti de Cais do Sodré pour finir sur la place du Rossio, où des dizaines de tentes ont été montées ; elles y étaient encore dimanche matin. Le gouvernement dit qu'il « ne cédera pas aux cris de la rue ».",
   "spots": [
    {
@@ -2407,7 +2452,9 @@
    "dnpsp20",
    "dnrossio20",
    "obslx22",
-   "eunlx22"
+   "eunlx22",
+   "eupt24",
+   "jnlx24"
   ],
   "t": "2026-10-17T14:30",
   "ta": false,
@@ -2439,6 +2486,10 @@
    [
     "22 oct.",
     "L'assemblée populaire du Rossio vote le démontage des tentes et choisit de dormir à la belle étoile ; vers 6 h 30, une cinquantaine de manifestants remontent quelques tentes, retirées à la demande de la PSP (Observador, Euronews). Les 55 personnes interpellées le 20 doivent comparaître le 27 octobre. Manifestation pour le logement samedi à 15 h du Marquês de Pombal au Rossio."
+   ],
+   [
+    "24 oct.",
+    "Manifestation pour le logement du Marquês de Pombal au Rossio par l'avenue de la Liberté : environ 25 000 personnes selon l'organisation, sans estimation policière publiée. Des manifestants grimpent sur la statue de Pierre IV ; la PSP prévient qu'elle ne laissera pas de tentes au Rossio pour la nuit. Rassemblements aussi à Coimbra (environ 200 personnes), Faro et Aveiro selon l'agence Lusa (Euronews, Jornal de Negócios)."
    ]
   ],
   "figs": [
@@ -2460,8 +2511,8 @@
   "lat": 41.1496,
   "cat": "emeute",
   "sev": 2,
-  "live": false,
-  "date": "2026-10-20",
+  "live": true,
+  "date": "2026-10-24",
   "title": "Le campement démonté après un ultimatum",
   "summary": "La police a chargé le campement pour le logement (des dizaines de blessés) puis retiré les tentes le 15 octobre. Samedi, la marche partie de la Praça da Batalha a subi une nouvelle charge jugée « disproportionnée » ; les tentes sont revenues Praça D. João I. Des conteneurs ont été incendiés en fin de journée.",
   "src": [
@@ -2473,7 +2524,8 @@
    "eco20",
    "nam20",
    "exdig20",
-   "dnrossio20"
+   "dnrossio20",
+   "eupt24"
   ],
   "t": "2026-10-17T10:30",
   "ta": false,
@@ -2515,6 +2567,10 @@
    [
     "20 oct. soir",
     "Plus d'un millier de manifestants portent la protestation devant l'hôtel de ville, selon le Diário de Notícias."
+   ],
+   [
+    "24 oct.",
+    "« Des milliers de personnes » défilent de la praça da Batalha à la praça D. João I pour le logement ; en début de soirée, les manifestants votent pour remonter des tentes (Euronews, Lusa)."
    ]
   ],
   "zoom": 12000
@@ -2778,7 +2834,8 @@
    "balk22",
    "ajtir24",
    "euntir24",
-   "usntir25"
+   "usntir25",
+   "bdtir25"
   ],
   "photos": [
    {
@@ -2847,6 +2904,10 @@
    [
     "24-25 oct.",
     "Edi Rama promet une réponse de l'État « prolongée et persistante », publie les photos d'une quarantaine de personnes qu'il accuse de violences et accuse la Russie et l'Iran d'alimenter la désinformation en ligne. Les étudiants réclament des frais de scolarité réduits, plus de financement et la fin de la corruption ; certains visent aussi le chef de l'opposition Sali Berisha. Nouvelles manifestations dimanche malgré les mesures (Reuters)."
+   ],
+   [
+    "25 oct.",
+    "Quelques heures après l'annonce par Edi Rama d'amendes de 500 000 leks (environ 5 300 €) pour toute participation à une manifestation qui tourne à la violence, même sans acte violent, des manifestants se rassemblent devant le ministère de l'Éducation puis marchent vers le bureau du Premier ministre, où ils brûlent les chaises qu'il avait fait installer en signe d'invitation au dialogue. Dans une vidéo, Edi Rama dit que tout ce que réclament les manifestants n'est « pas faux », mais refuse une démission obtenue par la violence (Reuters via Business Day). Pas de bilan de blessés ou d'interpellations publié pour dimanche."
    ]
   ],
   "zoom": 12000
@@ -2863,8 +2924,8 @@
   "date": "2026-10-25",
   "t": "2026-10-16T12:00",
   "ta": true,
-  "title": "Les étudiants avant les législatives anticipées",
-  "summary": "Après près de deux ans de mobilisation étudiante anticorruption, le président Aleksandar Vučić a convoqué des législatives anticipées le 25 octobre. Une liste étudiante se présente. Le 19 octobre, des étudiants et leurs soutiens marchent depuis plusieurs villes du pays vers Belgrade pour un dernier grand rassemblement de campagne ; l'ambassade américaine a émis une alerte manifestation.",
+  "title": "La liste étudiante remporte les législatives",
+  "summary": "Après près de deux ans de mobilisation étudiante anticorruption, des législatives anticipées se sont tenues le 25 octobre. Selon les estimations de l'observatoire CRTA et d'Ipsos/CeSID, la Liste étudiante obtient environ 52 % des voix contre 39 à 40 % pour la liste d'Aleksandar Vučić ; le président a reconnu la défaite dès 21 h 35. Scènes de liesse à Belgrade et à Niš ; plusieurs incidents violents signalés autour de bureaux de vote. Résultats officiels attendus de la commission électorale (RIK).",
   "src": [
    "usbel",
    "reuserb",
@@ -2883,7 +2944,9 @@
    "sabahbg22",
    "wtbg22",
    "riosrb25",
-   "f24srb25"
+   "f24srb25",
+   "eunsrb25",
+   "n021srb25"
   ],
   "tl": [
    [
@@ -2913,14 +2976,49 @@
    [
     "25 oct.",
     "Législatives anticipées : 250 sièges, 18 listes, duel entre la liste du pouvoir liée à Aleksandar Vučić et la liste étudiante. Participation de 41,1 % à 13 h selon l'observatoire CRTA (26,6 % à la même heure en 2023) ; 34,55 % à midi selon la commission électorale. Files d'attente en Serbie et à l'étranger ; la chaîne N1 signale une tentative de fraude à Bujanovac, non vérifiée de façon indépendante. Bureaux fermés à 20 h, résultats officiels attendus de la commission électorale (Rio Times, France 24)."
+   ],
+   [
+    "25 oct. soir",
+    "À 21 h 35, Aleksandar Vučić déclare, sur la base d'un échantillon, qu'« il est clair que nous avons perdu les élections » et estime la Liste étudiante à 135-140 sièges, la sienne à environ 105. CRTA donne 51,5 % à la Liste étudiante et 40,4 % à « Aleksandar Vučić – Serbie unie » ; Ipsos/CeSID 52 % contre 39 %. Participation de 64,9 % à 18 h selon la commission électorale. Rassemblements festifs au carrefour Kneza Miloša – Kralja Milana à Belgrade et à Niš ; peu après 22 h, des centaines de personnes entrent dans le campement pro-gouvernemental du parc Pionirski. Incidents à Lazarevac, Leskovac (urne brisée, deux interpellations) et Hrtkovci (motards attaqués, blessés graves) ; l'UE se dit « profondément préoccupée » par ces violences (021.rs, Euronews)."
    ]
   ],
   "figs": [
    [
-    "41,1 %",
-    "participation à 13 h (CRTA)"
+    "~52 %",
+    "Liste étudiante (CRTA, Ipsos/CeSID, estimations)"
+   ],
+   [
+    "39-40 %",
+    "liste d'Aleksandar Vučić (mêmes sources)"
+   ],
+   [
+    "135-140",
+    "sièges sur 250 pour la Liste étudiante (projection citée par Vučić)"
+   ],
+   [
+    "~69 %",
+    "participation à 20 h (Liste étudiante) ; 67,8 % à 19 h (CRTA)"
    ]
-  ]
+  ],
+  "spots": [
+   {
+    "n": "Kneza Miloša – Kralja Milana",
+    "lon": 20.4625,
+    "lat": 44.8085,
+    "d": "Soir du 25 octobre : rassemblement festif des partisans de la Liste étudiante après la reconnaissance de la défaite par Aleksandar Vučić.",
+    "t": "2026-10-25T21:30",
+    "ta": true
+   },
+   {
+    "n": "Parc Pionirski",
+    "lon": 20.4655,
+    "lat": 44.8105,
+    "d": "Peu après 22 h le 25 octobre, des centaines de personnes entrent dans le campement de tentes du parti au pouvoir installé dans le parc.",
+    "t": "2026-10-25T22:05",
+    "ta": true
+   }
+  ],
+  "zoom": 12000
  },
  {
   "id": "delhi",
@@ -3151,7 +3249,7 @@
   "cat": "guerre",
   "sev": 3,
   "live": true,
-  "date": "2026-10-25",
+  "date": "2026-10-26",
   "title": "Guerre d'Iran : la bataille du détroit",
   "summary": "Guerre ouverte depuis l'offensive américaine du 28 février. Washington maintient un blocus des ports iraniens ; Washington et Téhéran revendiquent chacun le contrôle du détroit. Au moins 12 navires attaqués la semaine du 16 octobre selon l'agence britannique UKMTO (un coulé, deux immobilisés), un supertanker en feu après une mine selon les Gardiens de la révolution, un remorqueur touché le 18. Le flux pétrolier est tombé à environ 68 % du niveau d'avant-guerre ; le Brent a touché 110 $. L'Iran propose une réouverture du détroit en six jours puis des négociations, contre la levée du blocus.",
   "figs": [
@@ -3194,7 +3292,9 @@
    "apormuz22b",
    "hillormuz22",
    "gulfhormuz25",
-   "toi24"
+   "toi24",
+   "natiran25",
+   "hosirik26"
   ],
   "t": "2026-10-16T12:00",
   "ta": true,
@@ -3238,6 +3338,10 @@
    [
     "25 oct.",
     "Selon le centre d'information maritime JMIC, environ 492 navires attendent à l'extérieur du détroit, dont 194 près de Fujaïrah et Khor Fakkan ; seulement 101 transits facilités par les États-Unis entre le 22 et le 24 octobre, contre environ 138 par jour avant la guerre. Le 22, un méthanier GPL a été touché par un « projectile inconnu » à 7 milles nautiques au nord-est de Limah (Oman), sans victime selon l'UKMTO. Niveau de menace jugé « sévère » (Gulf News). Le président iranien doit rencontrer Vladimir Poutine le 27 octobre à Moscou, selon l'agence Tasnim citée par le Times of Israel."
+   ],
+   [
+    "25-26 oct.",
+    "Le chef du commandement central américain, l'amiral Brad Cooper, se rend dans le détroit ; le Centcom dit avoir dégagé des mines posées par les Gardiens de la révolution dans les couloirs de navigation (The National). L'armée iranienne dit avoir abattu un drone américain près de Bandar Abbas (Tasnim). Des médias iraniens affirment qu'un missile de croisière tiré depuis l'île de Sirik a touché un navire marchand, et des comptes en ligne rapportent une frappe sur le lanceur ; aucune confirmation de l'UKMTO ni du Centcom à ce stade, informations non vérifiées."
    ]
   ]
  },
@@ -3249,8 +3353,8 @@
   "lat": 35.6892,
   "cat": "guerre",
   "sev": 2,
-  "live": false,
-  "date": "2026-10-21",
+  "live": true,
+  "date": "2026-10-25",
   "title": "Menace de reprise des bombardements",
   "summary": "Le Pentagone a demandé de préparer une reprise des opérations majeures ; Trump a toutefois dit le 8 octobre ne pas frapper avant les midterms du 3 novembre, tout en menaçant un site nucléaire.",
   "src": [
@@ -3262,7 +3366,10 @@
    "apme20",
    "gulf21",
    "nathormuz21",
-   "rferl21"
+   "rferl21",
+   "natiran25",
+   "toilive25",
+   "meeiran25"
   ],
   "t": "2026-10-16T12:00",
   "ta": true,
@@ -3282,6 +3389,10 @@
    [
     "21 oct.",
     "Le ministre des Affaires étrangères Abbas Araghchi affirme que le détroit d'Ormuz ne sera pas ouvert à tous sans accord avec Washington et que l'Iran se prépare à une éventuelle reprise des combats, tout en préférant la diplomatie ; les échanges indirects se poursuivent via le Pakistan et le Qatar (The National). L'Irak ferme le poste-frontière d'al-Sheeb pour raisons de sécurité, selon un responsable irakien cité par Reuters ; l'Iran recommande celui de Shalamcheh."
+   ],
+   [
+    "25 oct.",
+    "Donald Trump déclare sur Fox News avoir « une décision à prendre » : « en finir », ce qui serait « très facile », ou « conclure un accord » ; il précise plus tard qu'il n'y aura « pas de frappe aujourd'hui » et a dit ne pas vouloir frapper avant les élections du 3 novembre. Les pourparlers restent bloqués ; le président iranien accuse Washington de perturber les discussions. Washington réduit son personnel diplomatique en Jordanie, au Liban, au Qatar et aux Émirats (The National, Times of Israel)."
    ]
   ]
  },
@@ -3319,7 +3430,9 @@
    "alhurra22",
    "rbchouthi22",
    "ajhouthi24",
-   "toi24"
+   "toi24",
+   "ajmecca25",
+   "nationriy26"
   ],
   "t": "2026-10-14T12:00",
   "ta": true,
@@ -3351,6 +3464,10 @@
    [
     "24-25 oct.",
     "La coalition dit avoir détruit samedi un missile balistique houthi visant Riyad, puis deux visant Taëf et Yanbu ; la Défense civile saoudienne parle de deux missiles visant La Mecque et Médine interceptés, ce que les Houthis démentent. Des alertes brièvement émises pour La Mecque, Djeddah, Taëf et Yanbu sont levées en une dizaine de minutes. Dimanche, la coalition dit avoir abattu un nouveau missile visant Riyad ; l'aéroport international rouvre après deux semaines de fermeture, les Houthis le qualifiant toujours de « cible militaire » (Al Jazeera, Times of Israel)."
+   ],
+   [
+    "25 oct.",
+    "La coalition dit avoir intercepté dix missiles balistiques visant le sud du royaume, un missile de croisière visant Khamis Mushait, ainsi qu'un missile balistique et deux drones visant Riyad, où trois explosions ont été entendues. Selon la Défense civile, deux personnes blessées par des débris à Khamis Mushait et Ahad Rafidah ; alertes levées à Taëf et Jazan vers 12 h 53 heure locale. L'aéroport King Khalid reprend partiellement ses vols (terminal 2 pour l'international, terminal 1 pour le national) ; le porte-parole houthi Yahya Saree maintient qu'il est une « cible militaire ». Le secrétaire général du CCG dénonce une atteinte à la sacralité des lieux saints ; les Houthis démentent les avoir visés (Al Jazeera, The Nation)."
    ]
   ]
  },
@@ -3682,7 +3799,9 @@
    "haagaza22",
    "almongaza22",
    "toiuniv25",
-   "ajgaza25"
+   "ajgaza25",
+   "ajgaza25b",
+   "xinhuagaza26"
   ],
   "t": "2026-10-12T12:00",
   "ta": true,
@@ -3695,6 +3814,10 @@
    [
     "5 573",
     "blessés depuis la trêve (même source)"
+   ],
+   [
+    "8",
+    "tués le 25 oct. (Al Jazeera ; 7 selon Xinhua)"
    ]
   ],
   "tl": [
@@ -3745,6 +3868,10 @@
    [
     "25 oct.",
     "Deux frappes en quelques heures sur le campus de l'Université islamique, à Gaza City : la première, par drone, blesse sept étudiantes selon Al Jazeera ; la seconde tue trois membres du personnel administratif selon des sources médicales, l'hôpital al-Shifa disant avoir reçu trois corps et soigné huit blessés. L'armée israélienne dit avoir visé « des terroristes ». Au moins sept Palestiniens tués dans la journée selon Al Jazeera, dont deux à al-Mawasi (Khan Younès) et un à l'est de Deir el-Balah (Times of Israel, Al Jazeera)."
+   ],
+   [
+    "25 oct. soir",
+    "Bilan de la journée porté à au moins huit morts selon Al Jazeera, dont un homme dans le quartier Cheikh Nasser, à l'est de Khan Younès, et une personne rue al-Rachid près de l'hôpital Hamad selon l'agence Wafa ; Xinhua, citant des sources locales, compte sept morts. Selon le ministère de la Santé de Gaza, au moins 1 551 tués et 5 573 blessés depuis le cessez-le-feu. L'armée israélienne n'a pas commenté ces cas dans les articles consultés."
    ]
   ],
   "spots": [
@@ -3813,7 +3940,7 @@
   "cat": "guerre",
   "sev": 3,
   "live": true,
-  "date": "2026-10-24",
+  "date": "2026-10-25",
   "t": "2026-10-13T12:00",
   "ta": true,
   "zoom": 500,
@@ -3898,7 +4025,8 @@
    "usnolive22",
    "ajheb24",
    "abcheb24",
-   "toi24"
+   "toi24",
+   "toilive25"
   ],
   "tl": [
    [
@@ -3920,6 +4048,10 @@
    [
     "23-24 oct.",
     "L'armée annonce une opération « ciblée » de plusieurs jours avec le Shin Bet et la police aux frontières. Netanyahou, qui annule des événements de campagne pour se rendre à Hébron, dit que les forces iront « maison par maison » et vont « détruire cet endroit, le changer complètement » ; Bezalel Smotrich demande d'agir « comme à Gaza ». Entrées d'Hébron fermées, environ 70 arrestations et des centaines de maisons fouillées selon le Club des prisonniers palestiniens ; environ 300 familles déplacées à al-Jalda selon des sources palestiniennes, quelque 2 000 Palestiniens déplacés selon le ministre Israël Katz. L'Autorité palestinienne demande une pression internationale ; B'Tselem évoque une punition collective, l'ONU s'inquiète des bouclages (Al Jazeera, Times of Israel)."
+   ],
+   [
+    "25 oct.",
+    "L'Autorité palestinienne dit que 2 670 personnes ont été déplacées par l'opération israélienne à Hébron (Times of Israel). L'armée israélienne annonce un bouclage de la Cisjordanie pour les législatives de mardi : les quelque 9 000 Palestiniens titulaires de permis ne peuvent pas entrer dans les colonies dimanche et lundi, toute entrée est interdite le jour du vote et les points de passage terrestres sont fermés. Voitures palestiniennes vandalisées par des colons à Sinjil, près de Ramallah, sans blessé ; à Jalud, heurts entre colons et soldats autour d'une maison palestinienne qui a pris feu, l'armée dit enquêter."
    ]
   ]
  },
@@ -4822,7 +4954,7 @@
   "cat": "manif",
   "sev": 1,
   "live": false,
-  "date": "2026-10-17",
+  "date": "2026-10-24",
   "t": "2026-10-17T15:00",
   "ta": true,
   "title": "Trois cortèges sans incident majeur",
@@ -4849,7 +4981,15 @@
   ],
   "src": [
    "ansaroma",
-   "sky18"
+   "sky18",
+   "lapit24",
+   "msgit24"
+  ],
+  "tl": [
+   [
+    "24 oct.",
+    "Nouveaux cortèges sous dispositif renforcé ; charges et tensions, des manifestants forcent des entrées du Colisée. 96 personnes conduites au commissariat, 28 interpellations préventives (dont 3 mineurs) et 11 dénonciations selon le bilan provisoire ; pas de pillages signalés (LaPresse, Il Messaggero)."
+   ]
   ]
  },
  {
@@ -4921,7 +5061,7 @@
   "cat": "guerre",
   "sev": 2,
   "live": true,
-  "date": "2026-10-24",
+  "date": "2026-10-25",
   "t": "2026-10-17T12:00",
   "ta": true,
   "title": "Combats intensifiés autour de la ville assiégée",
@@ -4930,7 +5070,9 @@
    "ajaden",
    "gulf7",
    "toi24",
-   "ajhouthi24"
+   "ajhouthi24",
+   "ajmecca25",
+   "nationriy26"
   ],
   "tl": [
    [
@@ -4940,6 +5082,10 @@
    [
     "24 oct.",
     "Selon les autorités sanitaires houthies, une frappe aérienne saoudienne près de Taïz tue quatre membres d'une même famille, dont des femmes et des enfants. Les combats continuent sur les fronts ouest, est et sud ; l'armée yéménite revendique des centaines de combattants houthis « neutralisés », chiffres invérifiables (Times of Israel, Al Jazeera)."
+   ],
+   [
+    "25 oct.",
+    "Selon l'organisation de défense des droits Rasd, le siège imposé par les Houthis depuis le 4 octobre met en danger environ 1 110 patients dialysés, 192 patients en soins intensifs et 154 nouveau-nés en couveuse. L'ONU estime à environ 800 000 le nombre de personnes piégées ; le pape Léon XIV appelle à la fin des violences. Les forces gouvernementales disent avoir frappé un centre de commandement houthi dans la province (Al Jazeera, The Nation)."
    ]
   ]
  },
@@ -6030,26 +6176,32 @@
   "date": "2026-10-25",
   "t": "2026-10-08T12:00",
   "ta": true,
-  "title": "Deux morts dans des frappes de drones",
+  "title": "Quatre morts dans la région",
   "summary": "Le 8 octobre, deux personnes tuées dans la région frontalière de Belgorod par des drones ukrainiens selon les autorités régionales (une voiture touchée, puis une frappe en soirée faisant aussi trois blessés). Reuters n'a pas pu vérifier.",
   "figs": [
    [
-    "2",
-    "morts"
+    "4",
+    "morts dans la région le 25 oct. (gouverneur)"
    ],
    [
-    "3",
-    "blessés"
+    "14",
+    "blessés (même source)"
    ]
   ],
   "src": [
    "starbelg",
-   "anewsua25"
+   "anewsua25",
+   "mtbelg25",
+   "usnbelg25"
   ],
   "tl": [
    [
     "25 oct. nuit",
     "Selon les autorités russes, une attaque de drones ukrainiens fait un mort et 14 blessés dans la région de Belgorod ; dans la région voisine de Briansk, deux morts dans un minibus d'une exploitation agricole à Borchtchovo. Moscou dit avoir abattu 532 drones au-dessus de 25 régions ; bilans non vérifiés de façon indépendante (A News)."
+   ],
+   [
+    "25 oct.",
+    "Selon le gouverneur Alexandre Chouvaïev, une attaque nocturne sur la ville de Belgorod fait trois morts et 13 blessés et endommage 30 immeubles ; un drone frappe une voiture à Voznessenovka, près de Chebekino : un mort, un blessé. Dans la région de Lipetsk, une frappe sur une zone industrielle de Ielets tue un gardien selon le gouverneur ; dans celle de Perm, cinq ouvriers blessés sur un site industriel. Bilans non vérifiés de façon indépendante, pas de commentaire ukrainien (Moscow Times, Reuters)."
    ]
   ]
  },
@@ -6652,6 +6804,10 @@
    [
     "25 oct. nuit",
     "À Kharkiv, un hypermarché de bricolage est frappé, puis une seconde frappe touche les secours arrivés sur place — une « double frappe cynique » selon Volodymyr Zelensky ; des secouristes blessés, un camion-citerne de pompiers détruit. Le ministère russe de la Défense affirme avoir visé des centres logistiques (Euronews, A News)."
+   ],
+   [
+    "24-25 oct.",
+    "Quatre centres commerciaux de l'enseigne de bricolage visée par des frappes répétées touchés en moins d'une journée, à Kharkiv, Zaporijia, Vinnytsia et Poltava ; à Kharkiv, quatre blessés dont trois secouristes lors d'une seconde frappe sur le site en feu, à Poltava une femme blessée, selon les autorités régionales (RBC-Ukraine, LIGA.net)."
    ]
   ],
   "spots": [],
@@ -6659,7 +6815,9 @@
    "kharkiv21",
    "anua21",
    "eunua25",
-   "anewsua25"
+   "anewsua25",
+   "rbcepic25",
+   "ligaepic25"
   ]
  },
  {
