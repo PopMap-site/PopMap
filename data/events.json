@@ -1849,7 +1849,7 @@
   "cat": "emeute",
   "sev": 3,
   "live": false,
-  "date": "2026-10-24",
+  "date": "2026-10-26",
   "zoom": 18000,
   "title": "Guérilla urbaine autour du Duomo",
   "summary": "La manifestation « Italia in piazza » contre la vie chère, le prix de l'essence et la pression fiscale (environ 5 000 personnes, très jeunes, mobilisées via TikTok et Instagram) a dégénéré samedi. Des groupes vêtus de noir ont repoussé la police et occupé la piazza del Duomo à coups de pierres, pétards et barrières. Nouvelles tensions et commerces attaqués dimanche après-midi.",
@@ -1943,6 +1943,10 @@
    [
     "24 oct. soir",
     "La police arrête (fermo) à Milan le promoteur présumé du « Movimento 17 ottobre », 30 ans, visé par une enquête du parquet pour incitation aggravée à commettre des délits ; perquisitions dans la province de Brescia. Bilan national provisoire du ministère de l'Intérieur pour la journée : 9 arrestations, 87 dénonciations, 371 personnes conduites au commissariat (dont 110 mineurs) et 4 292 identifiées. Giorgia Meloni remercie les forces de l'ordre et rappelle que « le droit de manifester doit toujours être garanti » (LaPresse, Il Messaggero)."
+   ],
+   [
+    "26 oct.",
+    "Le parquet de Milan doit demander la validation du placement en détention du promoteur présumé du « Movimento 17 ottobre », soupçonné d'incitation aggravée par la finalité terroriste ; sa femme est aussi visée par l'enquête. Selon les enquêteurs, aucun lien direct n'est établi à ce stade avec les auteurs des violences des 17 et 18 octobre. Neuf maires de grandes villes, dont Rome, Milan, Naples et Turin, condamnent les violences et demandent une rencontre urgente avec Giorgia Meloni sur la vie chère (Sky TG24, Sarno Notizie)."
    ]
   ],
   "spots": [
@@ -2095,7 +2099,9 @@
    "notmil25",
    "giornomil24",
    "lapit24",
-   "msgit24"
+   "msgit24",
+   "skyit25",
+   "sarno26"
   ],
   "photos": [
    {
@@ -2746,8 +2752,8 @@
   "cat": "emeute",
   "sev": 3,
   "live": true,
-  "date": "2026-10-25",
-  "title": "Neuf jours de mobilisation, 320 blessés",
+  "date": "2026-10-26",
+  "title": "Deux semaines de mobilisation étudiante",
   "summary": "Parti des étudiants (coût des études) et de la vente d'une partie du littoral à un projet de luxe lié à Jared Kushner, le mouvement réclame de meilleures conditions d'études, des emplois et la démission du Premier ministre. Heurts devant le ministère de l'Éducation et autour du bureau d'Edi Rama ; balles en caoutchouc, canons à eau et gaz lacrymogènes. Rama refuse de démissionner, évoque une « main étrangère » et un risque pour l'adhésion à l'UE.",
   "figs": [
    [
@@ -2835,7 +2841,9 @@
    "ajtir24",
    "euntir24",
    "usntir25",
-   "bdtir25"
+   "bdtir25",
+   "birnal26",
+   "trtal26"
   ],
   "photos": [
    {
@@ -2908,6 +2916,10 @@
    [
     "25 oct.",
     "Quelques heures après l'annonce par Edi Rama d'amendes de 500 000 leks (environ 5 300 €) pour toute participation à une manifestation qui tourne à la violence, même sans acte violent, des manifestants se rassemblent devant le ministère de l'Éducation puis marchent vers le bureau du Premier ministre, où ils brûlent les chaises qu'il avait fait installer en signe d'invitation au dialogue. Dans une vidéo, Edi Rama dit que tout ce que réclament les manifestants n'est « pas faux », mais refuse une démission obtenue par la violence (Reuters via Business Day). Pas de bilan de blessés ou d'interpellations publié pour dimanche."
+   ],
+   [
+    "26 oct.",
+    "Edi Rama annonce un projet de loi pour remplacer la loi de 2001 sur les manifestations : amendes pour l'organisation de rassemblements non autorisés, le refus de se disperser, le port de masques et le blocage de la circulation, indemnisation des commerces touchés et retrait des publications appelant à la violence. Les étudiants, mobilisés depuis le 13 octobre, rejettent l'appel au dialogue et disent vouloir continuer (Balkan Insight, TRT World)."
    ]
   ],
   "zoom": 12000
@@ -2921,7 +2933,7 @@
   "cat": "manif",
   "sev": 1,
   "live": true,
-  "date": "2026-10-25",
+  "date": "2026-10-26",
   "t": "2026-10-16T12:00",
   "ta": true,
   "title": "La liste étudiante remporte les législatives",
@@ -2946,7 +2958,9 @@
    "riosrb25",
    "f24srb25",
    "eunsrb25",
-   "n021srb25"
+   "n021srb25",
+   "tasssrb26",
+   "ajsrb26"
   ],
   "tl": [
    [
@@ -2980,9 +2994,21 @@
    [
     "25 oct. soir",
     "À 21 h 35, Aleksandar Vučić déclare, sur la base d'un échantillon, qu'« il est clair que nous avons perdu les élections » et estime la Liste étudiante à 135-140 sièges, la sienne à environ 105. CRTA donne 51,5 % à la Liste étudiante et 40,4 % à « Aleksandar Vučić – Serbie unie » ; Ipsos/CeSID 52 % contre 39 %. Participation de 64,9 % à 18 h selon la commission électorale. Rassemblements festifs au carrefour Kneza Miloša – Kralja Milana à Belgrade et à Niš ; peu après 22 h, des centaines de personnes entrent dans le campement pro-gouvernemental du parc Pionirski. Incidents à Lazarevac, Leskovac (urne brisée, deux interpellations) et Hrtkovci (motards attaqués, blessés graves) ; l'UE se dit « profondément préoccupée » par ces violences (021.rs, Euronews)."
+   ],
+   [
+    "26 oct.",
+    "Après dépouillement de 96,47 % des procès-verbaux, la commission électorale donne 52,57 % à la Liste étudiante et 39,27 % à « Serbie unie », la liste d'Aleksandar Vučić (TASS). Les résultats définitifs ne sont pas encore publiés ; Al Jazeera évoque la participation la plus élevée depuis plus de 30 ans."
    ]
   ],
   "figs": [
+   [
+    "52,57 %",
+    "Liste étudiante (commission électorale, 96,47 % dépouillés)"
+   ],
+   [
+    "39,27 %",
+    "« Serbie unie » de Vučić (même source)"
+   ],
    [
     "~52 %",
     "Liste étudiante (CRTA, Ipsos/CeSID, estimations)"
@@ -3085,7 +3111,7 @@
   "cat": "frappe",
   "sev": 3,
   "live": true,
-  "date": "2026-10-22",
+  "date": "2026-10-26",
   "title": "Frappes russes sur des immeubles",
   "summary": "Le 18 octobre, deux attaques russes tuent une femme et blessent au moins deux personnes, dont une fillette de 6 ans, selon les autorités locales. Un immeuble d'habitation avait été touché le 17 ; le 10, des frappes avaient tué au moins 17 personnes, dont trois enfants.",
   "figs": [
@@ -3099,7 +3125,8 @@
    "eunw",
    "ajspb19",
    "unnua22",
-   "mtmsk22"
+   "mtmsk22",
+   "eunvoro26"
   ],
   "t": "2026-10-17T12:00",
   "ta": true,
@@ -3111,6 +3138,10 @@
    [
     "22 oct. matin",
     "Selon le décompte du Moscow Times à partir des bilans régionaux, les frappes russes de la nuit ont fait au moins sept morts en Ukraine : trois dans la région de Zaporijia, deux dans celle de Donetsk, un dans celle de Soumy et un dans celle de Kharkiv."
+   ],
+   [
+    "26 oct. nuit",
+    "Selon l'armée de l'air ukrainienne, la Russie a lancé 140 drones et 4 missiles sur l'Ukraine dans la nuit (112 drones et 3 missiles abattus). À Zaporijia, quatre blessés, des maisons, des voitures et un hôtel endommagés (Euronews)."
    ]
   ]
  },
@@ -3266,8 +3297,8 @@
     "du flux pétrolier d'avant-guerre"
    ],
    [
-    "111,7 $",
-    "Brent le 20 oct. (AFP)"
+    "117 $+",
+    "Brent le 23 oct., plus haut depuis mars (CBS)"
    ]
   ],
   "src": [
@@ -3294,7 +3325,10 @@
    "gulfhormuz25",
    "toi24",
    "natiran25",
-   "hosirik26"
+   "hosirik26",
+   "cbsiran26",
+   "natyem26",
+   "toilive26"
   ],
   "t": "2026-10-16T12:00",
   "ta": true,
@@ -3342,6 +3376,10 @@
    [
     "25-26 oct.",
     "Le chef du commandement central américain, l'amiral Brad Cooper, se rend dans le détroit ; le Centcom dit avoir dégagé des mines posées par les Gardiens de la révolution dans les couloirs de navigation (The National). L'armée iranienne dit avoir abattu un drone américain près de Bandar Abbas (Tasnim). Des médias iraniens affirment qu'un missile de croisière tiré depuis l'île de Sirik a touché un navire marchand, et des comptes en ligne rapportent une frappe sur le lanceur ; aucune confirmation de l'UKMTO ni du Centcom à ce stade, informations non vérifiées."
+   ],
+   [
+    "26 oct.",
+    "Des responsables saoudiens, turcs et pakistanais — dont le ministre saoudien de la Défense Khalid ben Salmane, le maréchal pakistanais Asim Munir et le chef du renseignement turc Ibrahim Kalin — doivent rencontrer leurs homologues iraniens à Téhéran pour des discussions de désescalade régionale, selon The National et CBS ; le porte-parole iranien Esmaeil Baghaei confirme la réunion (Times of Israel). Dimanche sur Fox News, Donald Trump a dit hésiter entre « faire un accord » avec Téhéran ou « les achever », tout en assurant qu'il n'y aurait « pas de frappe aujourd'hui » (CBS)."
    ]
   ]
  },
@@ -3354,7 +3392,7 @@
   "cat": "guerre",
   "sev": 2,
   "live": true,
-  "date": "2026-10-25",
+  "date": "2026-10-26",
   "title": "Menace de reprise des bombardements",
   "summary": "Le Pentagone a demandé de préparer une reprise des opérations majeures ; Trump a toutefois dit le 8 octobre ne pas frapper avant les midterms du 3 novembre, tout en menaçant un site nucléaire.",
   "src": [
@@ -3369,7 +3407,9 @@
    "rferl21",
    "natiran25",
    "toilive25",
-   "meeiran25"
+   "meeiran25",
+   "toilive26",
+   "cbsiran26"
   ],
   "t": "2026-10-16T12:00",
   "ta": true,
@@ -3393,6 +3433,10 @@
    [
     "25 oct.",
     "Donald Trump déclare sur Fox News avoir « une décision à prendre » : « en finir », ce qui serait « très facile », ou « conclure un accord » ; il précise plus tard qu'il n'y aura « pas de frappe aujourd'hui » et a dit ne pas vouloir frapper avant les élections du 3 novembre. Les pourparlers restent bloqués ; le président iranien accuse Washington de perturber les discussions. Washington réduit son personnel diplomatique en Jordanie, au Liban, au Qatar et aux Émirats (The National, Times of Israel)."
+   ],
+   [
+    "26 oct.",
+    "Selon CNN, citant deux responsables américains et une source sécuritaire israélienne, Benyamin Netanyahou a plaidé pour une frappe conjointe sur l'Iran avant les législatives israéliennes du 27 octobre, et Donald Trump a demandé un report ; le bureau du Premier ministre parle de « fake news », le ministre de la Défense Israel Katz dit qu'il n'y a « aucune intention » d'attaquer l'Iran avant le scrutin. Téhéran juge que le résultat de l'élection israélienne « ne change rien » (Times of Israel, CBS)."
    ]
   ]
  },
@@ -3405,13 +3449,17 @@
   "cat": "frappe",
   "sev": 3,
   "live": true,
-  "date": "2026-10-25",
+  "date": "2026-10-26",
   "title": "Les Houthis frappent l'aéroport",
   "summary": "Pire attaque sur le sol saoudien depuis 2015 : une frappe sur l'aéroport de la capitale a fait 13 morts.",
   "figs": [
    [
     "13",
     "morts"
+   ],
+   [
+    "17",
+    "morts au total dans les attaques d'octobre sur l'aéroport (The National)"
    ]
   ],
   "src": [
@@ -3432,7 +3480,8 @@
    "ajhouthi24",
    "toi24",
    "ajmecca25",
-   "nationriy26"
+   "nationriy26",
+   "natyem26"
   ],
   "t": "2026-10-14T12:00",
   "ta": true,
@@ -3468,6 +3517,10 @@
    [
     "25 oct.",
     "La coalition dit avoir intercepté dix missiles balistiques visant le sud du royaume, un missile de croisière visant Khamis Mushait, ainsi qu'un missile balistique et deux drones visant Riyad, où trois explosions ont été entendues. Selon la Défense civile, deux personnes blessées par des débris à Khamis Mushait et Ahad Rafidah ; alertes levées à Taëf et Jazan vers 12 h 53 heure locale. L'aéroport King Khalid reprend partiellement ses vols (terminal 2 pour l'international, terminal 1 pour le national) ; le porte-parole houthi Yahya Saree maintient qu'il est une « cible militaire ». Le secrétaire général du CCG dénonce une atteinte à la sacralité des lieux saints ; les Houthis démentent les avoir visés (Al Jazeera, The Nation)."
+   ],
+   [
+    "26 oct.",
+    "Les Houthis revendiquent des attaques contre l'aéroport de Riyad et des stations de pompage de l'oléoduc Est-Ouest ; l'Arabie saoudite ne les a pas confirmées. La coalition dit avoir détruit à Sanaa deux lanceurs de missiles balistiques, dont l'un aurait tiré un missile vers Riyad, intercepté. Selon The National, les attaques revendiquées par les Houthis contre l'aéroport King Khalid ont fait 17 morts au total ce mois-ci (The National)."
    ]
   ]
  },
@@ -3777,7 +3830,7 @@
   "cat": "guerre",
   "sev": 3,
   "live": true,
-  "date": "2026-10-25",
+  "date": "2026-10-26",
   "title": "Un an de cessez-le-feu, des frappes presque quotidiennes",
   "summary": "Le cessez-le-feu du 10 octobre 2025 a un an, mais plus de 100 ONG (Amnesty, NRC, Save the Children, Oxfam) estiment qu'il n'existe « que de nom ». Selon le ministère de la Santé de Gaza, 1 493 Palestiniens ont été tués et 5 299 blessés depuis la trêve (au 12 octobre). Israël, qui contrôle près des deux tiers de la bande, a encore avancé sa « ligne jaune » dans des quartiers de Gaza City. Israël affirme viser des membres de groupes armés ; plusieurs de ces affirmations sont contestées et non vérifiées de façon indépendante. L'aide entre à environ un tiers du rythme prévu.",
   "src": [
@@ -3801,7 +3854,10 @@
    "toiuniv25",
    "ajgaza25",
    "ajgaza25b",
-   "xinhuagaza26"
+   "xinhuagaza26",
+   "aawsatgaza26",
+   "24nhdgaza26",
+   "toilive26"
   ],
   "t": "2026-10-12T12:00",
   "ta": true,
@@ -3818,6 +3874,10 @@
    [
     "8",
     "tués le 25 oct. (Al Jazeera ; 7 selon Xinhua)"
+   ],
+   [
+    "5",
+    "tués le 26 oct. à la mi-journée (AFP)"
    ]
   ],
   "tl": [
@@ -3872,6 +3932,10 @@
    [
     "25 oct. soir",
     "Bilan de la journée porté à au moins huit morts selon Al Jazeera, dont un homme dans le quartier Cheikh Nasser, à l'est de Khan Younès, et une personne rue al-Rachid près de l'hôpital Hamad selon l'agence Wafa ; Xinhua, citant des sources locales, compte sept morts. Selon le ministère de la Santé de Gaza, au moins 1 551 tués et 5 573 blessés depuis le cessez-le-feu. L'armée israélienne n'a pas commenté ces cas dans les articles consultés."
+   ],
+   [
+    "26 oct.",
+    "Selon la Défense civile de Gaza et l'hôpital Nasser, une frappe sur un camp de déplacés à al-Mawasi, à l'ouest de Khan Younès, tue trois personnes dont une fillette de 7 ans ; une autre frappe tue une personne sous une tente près de Khan Younès, et une troisième une personne dans le quartier de Rimal (Gaza City), selon l'hôpital al-Shifa. Selon la Défense civile, 11 à 13 morts et 50 à 60 blessés en 24 heures selon les décomptes. Une source de sécurité gazaouie signale une avancée de chars à l'ouest de la « ligne jaune » à l'est de Deir el-Balah. L'armée israélienne dit à l'AFP ne pas avoir connaissance d'une activité militaire à al-Mawasi ce jour-là ; elle annonce par ailleurs avoir tué deux commandants du Hamas, dont un officier du renseignement le 24 à Gaza City, en accusant le Hamas de violer « systématiquement » le cessez-le-feu (AFP via Asharq Al-Awsat et 24NewsHD, Times of Israel)."
    ]
   ],
   "spots": [
@@ -3927,6 +3991,14 @@
     "lat": 31.555,
     "d": "18 oct. : un homme meurt de blessures par balle selon des sources médicales palestiniennes.",
     "t": "2026-10-18T12:00",
+    "ta": true
+   },
+   {
+    "n": "Al-Mawasi (Khan Younès)",
+    "lon": 34.27,
+    "lat": 31.36,
+    "d": "Le 26 octobre, une frappe sur un camp de déplacés à al-Mawasi tue trois personnes dont une fillette de 7 ans, selon la Défense civile de Gaza et l'hôpital Nasser ; l'armée israélienne dit ne pas avoir connaissance d'une activité militaire dans ce secteur ce jour-là.",
+    "t": "2026-10-26T08:00",
     "ta": true
    }
   ]
@@ -4703,7 +4775,7 @@
   "cat": "emeute",
   "sev": 2,
   "live": true,
-  "date": "2026-10-24",
+  "date": "2026-10-26",
   "t": "2026-10-18T21:00",
   "ta": true,
   "zoom": 300,
@@ -4806,7 +4878,9 @@
    "rcigua22",
    "la1gua22",
    "rcigua24",
-   "la1gua24"
+   "la1gua24",
+   "la1gua26",
+   "la1guaref26"
   ],
   "tl": [
    [
@@ -4832,6 +4906,10 @@
    [
     "24 oct. matin",
     "Circulation globalement fluide sur l'archipel ; la RN1 reste réduite à une voie par sens à Moudong Nord, encombrée de pneus, et l'accès de Morne Bernard reste fermé. Le collectif Nou Las Palé, rassemblé vendredi à Destreland, donne rendez-vous samedi à 16 h aux Abymes (RCI, Guadeloupe La 1ère)."
+   ],
+   [
+    "26 oct. matin",
+    "Quelques barrages signalés dans la nuit, mais pas de perturbations majeures lundi matin selon Guadeloupe La 1ère. Une réunion prévue entre le préfet et le collectif Nou Las Palé a été annulée ; l'élue Solanges Nadille dit ne pas comprendre ce refus de l'échange (Guadeloupe La 1ère)."
    ]
   ]
  },
@@ -6619,7 +6697,7 @@
   "cat": "frappe",
   "sev": 2,
   "live": false,
-  "date": "2026-10-20",
+  "date": "2026-10-26",
   "t": "2026-10-19T23:00",
   "ta": true,
   "title": "Deux femmes tuées dans un immeuble",
@@ -6636,7 +6714,14 @@
   ],
   "src": [
    "zaxkhm20",
-   "dsns20"
+   "dsns20",
+   "eunvoro26"
+  ],
+  "tl": [
+   [
+    "26 oct. nuit",
+    "Une installation énergétique touchée dans le district de Kamianets-Podilskyï ; coupures de courant d'urgence, pas de victime signalée (Euronews)."
+   ]
   ]
  },
  {
@@ -6648,7 +6733,7 @@
   "cat": "frappe",
   "sev": 1,
   "live": false,
-  "date": "2026-10-20",
+  "date": "2026-10-26",
   "t": "2026-10-20T02:00",
   "ta": true,
   "title": "Drones sur le secteur résidentiel",
@@ -6660,7 +6745,14 @@
    ]
   ],
   "src": [
-   "zaxkyiv20"
+   "zaxkyiv20",
+   "eunvoro26"
+  ],
+  "tl": [
+   [
+    "26 oct.",
+    "Trois blessés par des bombes aériennes guidées ; des maisons et un établissement d'enseignement endommagés (Euronews)."
+   ]
   ]
  },
  {
@@ -6930,7 +7022,7 @@
   "lat": 55.7558,
   "cat": "frappe",
   "sev": 2,
-  "live": true,
+  "live": false,
   "date": "2026-10-22",
   "t": "2026-10-22T01:22",
   "ta": false,
@@ -7175,6 +7267,107 @@
   "src": [
    "eunua25",
    "anewsua25"
+  ]
+ },
+ {
+  "id": "voronej",
+  "place": "Voronej",
+  "country": "Russie",
+  "lon": 39.2003,
+  "lat": 51.672,
+  "cat": "frappe",
+  "sev": 2,
+  "live": false,
+  "date": "2026-10-26",
+  "t": "2026-10-26T01:00",
+  "ta": true,
+  "title": "Drones ukrainiens sur la ville : deux morts",
+  "summary": "Dans la nuit du 25 au 26 octobre, une attaque de drones ukrainiens vise Voronej : deux morts et 17 blessés selon le gouverneur Alexandre Goussev, qui dit que plus de 70 drones ont été abattus au-dessus de la ville. Des débris sont tombés sur un train de voyageurs ; incendies sur des sites industriels, un centre d'affaires et un immeuble d'habitation.",
+  "figs": [
+   [
+    "2",
+    "morts (gouverneur)"
+   ],
+   [
+    "17",
+    "blessés, dont 2 graves (gouverneur)"
+   ],
+   [
+    "70+",
+    "drones abattus au-dessus de la ville (gouverneur)"
+   ]
+  ],
+  "tl": [
+   [
+    "26 oct. nuit",
+    "Attaque de drones ; un train de voyageurs touché par des débris dans la banlieue rive gauche, cinq passagers blessés selon les autorités régionales (Euronews, News of Bahrain)."
+   ]
+  ],
+  "src": [
+   "eunvoro26",
+   "nobvoro26"
+  ]
+ },
+ {
+  "id": "soudanelec",
+  "place": "Al-Jazira, Sennar, Gedaref, Nil Blanc",
+  "country": "Soudan",
+  "lon": 34.0,
+  "lat": 13.9,
+  "cat": "frappe",
+  "sev": 2,
+  "live": false,
+  "date": "2026-10-26",
+  "t": "2026-10-26T01:00",
+  "ta": true,
+  "zoom": 60,
+  "title": "Des drones frappent cinq centrales électriques",
+  "summary": "Dans la nuit du 25 au 26 octobre, des drones attribués aux Forces de soutien rapide (FSR) frappent des stations électriques dans les États d'Al-Jazira, de Gedaref et du Nil Blanc, ainsi qu'à Sennar, selon un responsable gouvernemental cité par l'AFP et le Sudan Tribune. Coupures de courant sur de larges parties de ces États. Pas de mort signalé ; des gardes blessés à Singa selon le gouvernement de l'État. Les FSR n'ont pas réagi.",
+  "figs": [
+   [
+    "5",
+    "centrales visées (responsable gouvernemental, AFP)"
+   ],
+   [
+    "306",
+    "morts dans des frappes de drones au Soudan sur les trois premières semaines d'octobre (ONU)"
+   ]
+  ],
+  "tl": [
+   [
+    "26 oct. nuit",
+    "Électricité coupée vers 2 h heure locale à Al-Jazira et à Al-Faw (Gedaref) selon un correspondant de l'AFP et des habitants ; la station de Mashkour (sud du Nil Blanc) également touchée selon des sources locales (Asharq Al-Awsat, Sudan Tribune)."
+   ]
+  ],
+  "spots": [
+   {
+    "n": "El-Guneid (Al-Jazira)",
+    "lon": 33.32,
+    "lat": 14.83,
+    "d": "Dans la nuit du 25 au 26 octobre, une frappe de drone met hors service la station de transformation d'El-Guneid, selon des sources de la sucrerie citées par le Sudan Tribune ; pas de victime signalée.",
+    "t": "2026-10-26T01:30",
+    "ta": true
+   },
+   {
+    "n": "Singa (Sennar)",
+    "lon": 33.93,
+    "lat": 13.15,
+    "d": "Le 26 octobre au matin, la station de transformation de Singa est touchée : dégâts matériels et gardes blessés selon le gouvernement de l'État de Sennar (Sudan Tribune).",
+    "t": "2026-10-26T07:00",
+    "ta": true
+   },
+   {
+    "n": "Al-Faw (Gedaref)",
+    "lon": 34.08,
+    "lat": 14.18,
+    "d": "Le 26 octobre, des drones kamikazes frappent les stations d'Al-Faw et d'Al-Hawata, coupant l'électricité dans l'est du Gedaref selon une source sécuritaire citée par le Sudan Tribune.",
+    "t": "2026-10-26T01:00",
+    "ta": true
+   }
+  ],
+  "src": [
+   "stelec26",
+   "aawsatelec26"
   ]
  }
 ]
