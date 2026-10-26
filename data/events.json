@@ -8,10 +8,10 @@
   "cat": "emeute",
   "sev": 3,
   "live": true,
-  "date": "2026-10-24",
+  "date": "2026-10-26",
   "zoom": 5000,
   "title": "Paris sous tension depuis le 17-octobre",
-  "summary": "Mobilisation contre la vie chère, dans la foulée du mouvement lycéen et étudiant. Le 24 octobre, 110 000 manifestants à Paris selon l'Intérieur (250 000 selon la CGT) : cortège autorisé globalement calme, heurts en marge, 142 interpellations selon la préfecture de police. Le 17, cortèges sauvages, barricades sur les Champs-Élysées, pillages et stations de métro fermées. Lundi 26, le Premier ministre reçoit les organisations lycéennes et étudiantes à Matignon ; les gilets jaunes appellent à une nouvelle journée le 31 octobre, l'intersyndicale à la grève le 5 novembre.",
+  "summary": "Mobilisation contre la vie chère, dans la foulée du mouvement lycéen et étudiant. Le 24 octobre, 110 000 manifestants à Paris selon l'Intérieur (250 000 selon la CGT) : cortège autorisé globalement calme, heurts en marge, 142 interpellations selon la préfecture de police. Le 17, cortèges sauvages, barricades sur les Champs-Élysées, pillages et stations de métro fermées. Lundi 26, reçues à Matignon, les organisations lycéennes et étudiantes saluent de « premières mesures » (classes plafonnées à 28 élèves, postes d'enseignants, rénovation des bâtiments, refonte de Parcoursup) mais les jugent insuffisantes et appellent à continuer ; les gilets jaunes appellent à une nouvelle journée le 31 octobre, l'intersyndicale à la grève le 5 novembre.",
   "figs": [
    [
     "410 000 / 800 000",
@@ -162,6 +162,10 @@
    [
     "26 oct.",
     "Le Premier ministre Sébastien Lecornu reçoit à partir de 14 h 30 des organisations lycéennes et étudiantes à Matignon, puis les ministres Édouard Geffray (Éducation) et Philippe Baptiste (Enseignement supérieur) doivent présenter des mesures en fin d'après-midi : remplacements, bâti scolaire, effectifs, Parcoursup, à traduire dans le budget 2027 (Europe 1, Dijon Actualités). L'Union étudiante critique le fait que lycéens et étudiants soient reçus séparément. La concertation en ligne a recueilli plus de 100 000 contributions ; rentrée scolaire le 2 novembre."
+   ],
+   [
+    "26 oct. soir",
+    "Après la réunion à Matignon, le gouvernement annonce notamment : Parcoursup maintenu en 2027 puis remplacé par un nouveau dispositif en 2028 ; 15 000 places supplémentaires dans le supérieur, surtout en BTS et filières courtes ; classes plafonnées à 28 élèves, d'abord en seconde dans les lycées les moins favorisés à la rentrée 2027 ; renoncement aux 800 suppressions de postes prévues (Public Sénat parle de 500 postes en plus au budget 2027, Sud Radio de 1 900) ; un plan de 5 milliards d'euros pour les bâtiments (4 milliards de prêts aux collectivités, 1 milliard pour les universités) ; bourses indexées sur l'inflation ; pause déjeuner d'une heure garantie. Les organisations lycéennes et étudiantes saluent de « premières mesures » mais les jugent insuffisantes, réclament un plan chiffré à 10 milliards et appellent à poursuivre la mobilisation, notamment les 31 octobre et 5 novembre (Reuters via Boursorama, Public Sénat, Sud Radio)."
    ]
   ],
   "spots": [
@@ -388,7 +392,10 @@
    "f3paris24",
    "fiparis24",
    "e1matignon26",
-   "dijonact26"
+   "dijonact26",
+   "boursolyc26",
+   "pslyc26",
+   "sudlyc26"
   ],
   "photos": [
    {
@@ -2937,7 +2944,7 @@
   "t": "2026-10-16T12:00",
   "ta": true,
   "title": "La liste étudiante remporte les législatives",
-  "summary": "Après près de deux ans de mobilisation étudiante anticorruption, des législatives anticipées se sont tenues le 25 octobre. Selon les estimations de l'observatoire CRTA et d'Ipsos/CeSID, la Liste étudiante obtient environ 52 % des voix contre 39 à 40 % pour la liste d'Aleksandar Vučić ; le président a reconnu la défaite dès 21 h 35. Scènes de liesse à Belgrade et à Niš ; plusieurs incidents violents signalés autour de bureaux de vote. Résultats officiels attendus de la commission électorale (RIK).",
+  "summary": "Après près de deux ans de mobilisation étudiante anticorruption, des législatives anticipées se sont tenues le 25 octobre. Selon les estimations de l'observatoire CRTA et d'Ipsos/CeSID, la Liste étudiante obtient environ 52 % des voix contre 39 à 40 % pour la liste d'Aleksandar Vučić ; le président a reconnu la défaite dès 21 h 35. Scènes de liesse à Belgrade et à Niš ; plusieurs incidents violents signalés autour de bureaux de vote. Selon les résultats préliminaires de la commission électorale (RIK), 52,65 % pour la Liste étudiante et 39,22 % pour « Serbie unie » ; résultats définitifs attendus.",
   "src": [
    "usbel",
    "reuserb",
@@ -2960,7 +2967,10 @@
    "eunsrb25",
    "n021srb25",
    "tasssrb26",
-   "ajsrb26"
+   "ajsrb26",
+   "danasrik26",
+   "n1rik26",
+   "mojns26"
   ],
   "tl": [
    [
@@ -2998,6 +3008,10 @@
    [
     "26 oct.",
     "Après dépouillement de 96,47 % des procès-verbaux, la commission électorale donne 52,57 % à la Liste étudiante et 39,27 % à « Serbie unie », la liste d'Aleksandar Vučić (TASS). Les résultats définitifs ne sont pas encore publiés ; Al Jazeera évoque la participation la plus élevée depuis plus de 30 ans."
+   ],
+   [
+    "26 oct. soir",
+    "Selon les résultats préliminaires de la commission électorale (RIK), la Liste étudiante obtient 52,65 % des voix et « Serbie unie » 39,22 % (Danas ; 52,54 % selon N1 à un stade antérieur du décompte). L'institut CeSID projette 140 sièges sur 250 pour la Liste étudiante et 103 pour la liste d'Aleksandar Vučić. Rassemblements festifs prévus lundi soir à Novi Sad, devant le palais de la Banovina à 19 h, et à Belgrade."
    ]
   ],
   "figs": [
@@ -3409,7 +3423,9 @@
    "toilive25",
    "meeiran25",
    "toilive26",
-   "cbsiran26"
+   "cbsiran26",
+   "toiteh26",
+   "abcteh26"
   ],
   "t": "2026-10-16T12:00",
   "ta": true,
@@ -3437,6 +3453,10 @@
    [
     "26 oct.",
     "Selon CNN, citant deux responsables américains et une source sécuritaire israélienne, Benyamin Netanyahou a plaidé pour une frappe conjointe sur l'Iran avant les législatives israéliennes du 27 octobre, et Donald Trump a demandé un report ; le bureau du Premier ministre parle de « fake news », le ministre de la Défense Israel Katz dit qu'il n'y a « aucune intention » d'attaquer l'Iran avant le scrutin. Téhéran juge que le résultat de l'élection israélienne « ne change rien » (Times of Israel, CBS)."
+   ],
+   [
+    "26 oct. soir",
+    "Première rencontre de haut niveau à Téhéran entre l'Iran et les pays du pacte de défense de La Mecque : le ministre saoudien de la Défense Khalid ben Salmane, le maréchal pakistanais Asim Munir et le chef du renseignement turc Ibrahim Kalin y rencontrent le président Massoud Pezeshkian et le ministre des Affaires étrangères Abbas Araghchi. Selon Riyad, l'objectif est d'ouvrir des canaux de négociation pour « empêcher le retour de l'escalade militaire » ; selon un responsable iranien, le nucléaire n'est pas au programme. Les quatre pays conviennent de poursuivre les discussions. Massoud Pezeshkian doit rencontrer Vladimir Poutine mardi à Moscou (Times of Israel, AP)."
    ]
   ]
  },
@@ -3481,7 +3501,10 @@
    "toi24",
    "ajmecca25",
    "nationriy26",
-   "natyem26"
+   "natyem26",
+   "ajcoal26",
+   "toiteh26",
+   "jtcoal26"
   ],
   "t": "2026-10-14T12:00",
   "ta": true,
@@ -3521,6 +3544,10 @@
    [
     "26 oct.",
     "Les Houthis revendiquent des attaques contre l'aéroport de Riyad et des stations de pompage de l'oléoduc Est-Ouest ; l'Arabie saoudite ne les a pas confirmées. La coalition dit avoir détruit à Sanaa deux lanceurs de missiles balistiques, dont l'un aurait tiré un missile vers Riyad, intercepté. Selon The National, les attaques revendiquées par les Houthis contre l'aéroport King Khalid ont fait 17 morts au total ce mois-ci (The National)."
+   ],
+   [
+    "26 oct. soir",
+    "Le porte-parole de la coalition, Turki al-Maliki, dit qu'un missile balistique visant Riyad a été intercepté lundi et que des frappes au Yémen ont détruit quatre lanceurs de missiles balistiques, cinq tunnels de stockage et un dépôt de missiles. Le porte-parole houthi Yahya Saree revendique un missile sur l'aéroport King Khalid et des drones sur des stations de pompage pétrolières ; l'Arabie saoudite ne les a pas confirmés (Al Jazeera, Times of Israel). L'aéroport fonctionne sur deux terminaux depuis dimanche."
    ]
   ]
  },
@@ -3857,7 +3884,9 @@
    "xinhuagaza26",
    "aawsatgaza26",
    "24nhdgaza26",
-   "toilive26"
+   "toilive26",
+   "ajgaza26b",
+   "toigaza26"
   ],
   "t": "2026-10-12T12:00",
   "ta": true,
@@ -3936,6 +3965,10 @@
    [
     "26 oct.",
     "Selon la Défense civile de Gaza et l'hôpital Nasser, une frappe sur un camp de déplacés à al-Mawasi, à l'ouest de Khan Younès, tue trois personnes dont une fillette de 7 ans ; une autre frappe tue une personne sous une tente près de Khan Younès, et une troisième une personne dans le quartier de Rimal (Gaza City), selon l'hôpital al-Shifa. Selon la Défense civile, 11 à 13 morts et 50 à 60 blessés en 24 heures selon les décomptes. Une source de sécurité gazaouie signale une avancée de chars à l'ouest de la « ligne jaune » à l'est de Deir el-Balah. L'armée israélienne dit à l'AFP ne pas avoir connaissance d'une activité militaire à al-Mawasi ce jour-là ; elle annonce par ailleurs avoir tué deux commandants du Hamas, dont un officier du renseignement le 24 à Gaza City, en accusant le Hamas de violer « systématiquement » le cessez-le-feu (AFP via Asharq Al-Awsat et 24NewsHD, Times of Israel)."
+   ],
+   [
+    "26 oct. soir",
+    "Au moins cinq Palestiniens tués dans la journée selon les secours, dont une fillette de 7 ans à al-Mawasi (Al Jazeera). L'armée israélienne dit avoir frappé trois membres de groupes armés sortis d'un puits de tunnel à Khan Younès, du côté de la « ligne jaune » contrôlé par le Hamas, et avoir visé deux commandants du Hamas (Times of Israel)."
    ]
   ],
   "spots": [
@@ -7368,6 +7401,178 @@
   "src": [
    "stelec26",
    "aawsatelec26"
+  ]
+ },
+ {
+  "id": "kramatorsk",
+  "place": "Kramatorsk – Sloviansk",
+  "country": "Ukraine",
+  "lon": 37.58,
+  "lat": 48.78,
+  "cat": "frappe",
+  "sev": 2,
+  "live": false,
+  "date": "2026-10-26",
+  "t": "2026-10-26T12:00",
+  "ta": true,
+  "zoom": 250,
+  "title": "Bombes guidées sur Yasnohirka : un mort, dix blessés",
+  "summary": "Le 26 octobre, quatre bombes aériennes guidées russes frappent des maisons et des commerces à Yasnohirka, en périphérie de Kramatorsk : un mort et dix blessés, dont une adolescente de 13 ans, selon les secours ukrainiens (DSNS) et le chef de l'administration régionale de Donetsk, Vadym Filashkin. À Sloviansk, une frappe aérienne détruit une maison et tue son propriétaire selon les secours.",
+  "figs": [
+   [
+    "2",
+    "morts dans le secteur (DSNS, 26 oct.)"
+   ],
+   [
+    "10",
+    "blessés à Yasnohirka"
+   ]
+  ],
+  "tl": [
+   [
+    "26 oct.",
+    "Quatre bombes guidées sur Yasnohirka (1 mort, 10 blessés) ; une maison détruite à Sloviansk (1 mort), selon les secours ukrainiens (Euromaidan Press, 112.ua, Glavnoe)."
+   ]
+  ],
+  "spots": [
+   {
+    "n": "Yasnohirka",
+    "lon": 37.585,
+    "lat": 48.765,
+    "d": "26 oct. : quatre bombes guidées russes sur des maisons et des commerces, un mort et dix blessés dont une adolescente de 13 ans, selon les secours ukrainiens.",
+    "t": "2026-10-26T12:00",
+    "ta": true
+   },
+   {
+    "n": "Sloviansk",
+    "lon": 37.6167,
+    "lat": 48.85,
+    "d": "26 oct. : une frappe aérienne russe détruit une maison et tue son propriétaire, selon les secours ukrainiens.",
+    "t": "2026-10-26T12:00",
+    "ta": true
+   }
+  ],
+  "src": [
+   "empua26",
+   "112yas26",
+   "glavyas26"
+  ]
+ },
+ {
+  "id": "pavlohrad",
+  "place": "Pavlohrad",
+  "country": "Ukraine",
+  "lon": 35.87,
+  "lat": 48.52,
+  "cat": "frappe",
+  "sev": 1,
+  "live": false,
+  "date": "2026-10-26",
+  "t": "2026-10-26T12:00",
+  "ta": true,
+  "title": "Un drone frappe la ville : un mort, sept blessés",
+  "summary": "Le 26 octobre, une frappe de drone russe sur Pavlohrad (région de Dnipropetrovsk) fait un mort et sept blessés, dont deux fillettes de 10 ans, selon les secours ukrainiens et l'administration régionale.",
+  "figs": [
+   [
+    "1",
+    "mort"
+   ],
+   [
+    "7",
+    "blessés (administration régionale)"
+   ]
+  ],
+  "tl": [
+   [
+    "26 oct.",
+    "Frappe de drone : un mort et sept blessés selon les secours et l'administration régionale (Euromaidan Press)."
+   ]
+  ],
+  "src": [
+   "empua26"
+  ]
+ },
+ {
+  "id": "mexico",
+  "place": "Mexico",
+  "country": "Mexique",
+  "lon": -99.13,
+  "lat": 19.43,
+  "cat": "manif",
+  "sev": 1,
+  "live": true,
+  "date": "2026-10-26",
+  "t": "2026-10-26T08:00",
+  "ta": true,
+  "zoom": 40,
+  "title": "Grève nationale des transporteurs routiers",
+  "summary": "Le 26 octobre, des organisations de transporteurs (dont la Canacar, Fematrac, Hamotac et Indeco) lancent une grève nationale illimitée pour réclamer plus de sécurité sur les routes face aux vols et à l'extorsion, la régulation des fourrières et des changements à la loi de recettes 2027. Selon le ministère de l'Intérieur (Segob), à 9 h 30 heure locale, 858 personnes et 691 véhicules mobilisés sur 38 points dans 19 États. La présidente Claudia Sheinbaum évoque un avantage fiscal jugé « excessif » par les Finances ; le gouvernement dit garder le dialogue ouvert. Une partie des organisations a accepté de négocier.",
+  "figs": [
+   [
+    "19",
+    "États touchés (Segob, 9 h 30)"
+   ],
+   [
+    "38",
+    "points de mobilisation"
+   ],
+   [
+    "858",
+    "personnes, avec 691 véhicules"
+   ]
+  ],
+  "tl": [
+   [
+    "26 oct. matin",
+    "Blocages partiels autour de Mexico : autoroutes Mexico-Querétaro (péage de Tepotzotlán), Mexico-Puebla (San Martín), Mexico-Pachuca et Texcoco. Fermeture totale signalée à Tlaxco (Tlaxcala) et sur l'autoroute Puebla-Oaxaca près de Tehuacán (Capufe). Le Veracruz compte le plus de points de protestation (8) selon la Segob (El Informador, La Razón, El Financiero)."
+   ]
+  ],
+  "spots": [
+   {
+    "n": "Péage de Tepotzotlán",
+    "lon": -99.22,
+    "lat": 19.72,
+    "d": "26 oct. : des poids lourds stationnés des deux côtés de l'autoroute Mexico-Querétaro, circulation perturbée.",
+    "t": "2026-10-26T08:00",
+    "ta": true
+   },
+   {
+    "n": "Péage de San Martín (Mexico-Puebla)",
+    "lon": -98.43,
+    "lat": 19.28,
+    "d": "26 oct. : blocage partiel de l'autoroute Mexico-Puebla par des transporteurs.",
+    "t": "2026-10-26T10:00",
+    "ta": true
+   },
+   {
+    "n": "Autoroute Mexico-Pachuca",
+    "lon": -99.03,
+    "lat": 19.6,
+    "d": "26 oct. : rassemblement de transporteurs à San Cristóbal, circulation ralentie.",
+    "t": "2026-10-26T10:00",
+    "ta": true
+   },
+   {
+    "n": "Tlaxco (Tlaxcala)",
+    "lon": -98.12,
+    "lat": 19.61,
+    "d": "26 oct. : fermeture totale de la route signalée par le ministère de l'Intérieur.",
+    "t": "2026-10-26T09:30",
+    "ta": true
+   },
+   {
+    "n": "Tehuacán (Puebla-Oaxaca)",
+    "lon": -97.39,
+    "lat": 18.46,
+    "d": "26 oct. : autoroute Puebla-Oaxaca fermée dans les deux sens au niveau du péage, selon l'opérateur Capufe.",
+    "t": "2026-10-26T10:00",
+    "ta": true
+   }
+  ],
+  "src": [
+   "infmx26",
+   "razonmx26",
+   "efmx26"
   ]
  }
 ]

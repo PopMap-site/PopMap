@@ -245,7 +245,7 @@
   "t": "2026-10-27T09:00",
   "ta": true,
   "title": "Élections législatives en Israël",
-  "text": "Mardi 27 octobre. La Liste unifiée arabe dit pouvoir soutenir de l'extérieur une coalition opposée à Benyamin Netanyahou. L'armée israélienne annonce un bouclage de la Cisjordanie le jour du vote et la fermeture des points de passage terrestres (Times of Israel).",
+  "text": "Mardi 27 octobre. La Liste unifiée arabe dit pouvoir soutenir de l'extérieur une coalition opposée à Benyamin Netanyahou. L'armée israélienne annonce un bouclage de la Cisjordanie le jour du vote et la fermeture des points de passage terrestres (Times of Israel). La veille du scrutin, des milliers d'Israéliens rentrés de l'étranger pour voter affluent à l'aéroport Ben Gourion.",
   "src": [
    "ajpw",
    "toilive25"
@@ -337,40 +337,6 @@
    "e1live",
    "actu17cf",
    "fi19"
-  ]
- },
- {
-  "id": "a-acte2",
-  "kind": "agenda",
-  "place": "France entière",
-  "lon": 2.35,
-  "lat": 48.85,
-  "t": "2026-10-24T14:00",
-  "ta": true,
-  "title": "« Acte II » des Gilets jaunes",
-  "text": "Samedi 24 octobre, nouvelle journée d'actions annoncée par la coordination des Gilets jaunes (76 actions recensées sur son site). Le gouvernement a évoqué des manifestations « encadrées voire interdites » ; consultez les arrêtés préfectoraux la veille. Mardi, Sébastien Lecornu a annoncé un dispositif de sécurité « massif » pour ce samedi, avec des militaires de l'opération Sentinelle sur les gardes statiques, selon l'AFP. Dans un télégramme du 19 octobre, Laurent Nuñez demande aux préfets d'interdire les manifestations à risque lorsque le dialogue avec les organisateurs n'a pas permis de garantir la sécurité ; ce n'est pas une interdiction générale. BRI, GIGN, RAID, hélicoptères, blindés Centaure et canons à eau seront mobilisés. À Paris, la coordination a déclaré un parcours au départ de la place de la Bastille ; la CGT Paris annonce sa présence.",
-  "src": [
-   "sudradio24",
-   "f24acte2",
-   "f3tlse24",
-   "euro20sec",
-   "jddnunez",
-   "finunez24",
-   "expxxl",
-   "psmatignon21"
-  ]
- },
- {
-  "id": "a-lyon24",
-  "kind": "agenda",
-  "place": "Lyon · place Bellecour",
-  "lon": 4.832,
-  "lat": 45.7578,
-  "t": "2026-10-24T14:00",
-  "title": "Appel à manifester place Bellecour",
-  "text": "Samedi 24 octobre à 14 h, appel des Gilets jaunes place Bellecour, ainsi qu'à Vénissieux (place Jean-Macé) ; aucune réaction de la préfecture à ce stade.",
-  "src": [
-   "lyonmag24"
   ]
  },
  {
@@ -533,10 +499,11 @@
   "t": "2026-10-26T14:30",
   "ta": true,
   "title": "Lycéens et étudiants reçus à Matignon",
-  "text": "Lundi 26 octobre à partir de 14 h 30, le Premier ministre Sébastien Lecornu reçoit des organisations lycéennes et étudiantes ; conférence de presse des ministres Édouard Geffray et Philippe Baptiste en fin d'après-midi (vers 17 h selon Dijon Actualités) sur les remplacements, les effectifs, le bâti scolaire et Parcoursup.",
+  "text": "Lundi 26 octobre, le Premier ministre Sébastien Lecornu a reçu des organisations lycéennes et étudiantes à Matignon, puis les ministres Édouard Geffray et Philippe Baptiste ont présenté des mesures (classes à 28 élèves, postes, bâtiments, Parcoursup, bourses). Les organisations jugent ces « premières mesures » insuffisantes et appellent à continuer la mobilisation.",
   "src": [
-   "e1matignon26",
-   "dijonact26"
+   "boursolyc26",
+   "pslyc26",
+   "sudlyc26"
   ]
  },
  {
@@ -680,55 +647,6 @@
   ]
  },
  {
-  "id": "a-orleans24",
-  "kind": "agenda",
-  "place": "Orléans",
-  "lon": 1.909,
-  "lat": 47.902,
-  "t": "2026-10-24T10:00",
-  "until": null,
-  "ta": true,
-  "title": "Congrès du RN et contre-manifestations",
-  "text": "Le Rassemblement national tient son congrès à Orléans ce week-end. Laurent Nuñez attend « plusieurs dizaines de milliers » de contre-manifestants samedi et annonce un dispositif de sécurité « extrêmement conséquent » ; la mairie annonce des restrictions de stationnement et pour les commerces.",
-  "src": [
-   "f3orleans",
-   "iciorleans",
-   "tpnunez21"
-  ]
- },
- {
-  "id": "a-italie24",
-  "kind": "agenda",
-  "place": "Milan · piazza del Duomo",
-  "lon": 9.1919,
-  "lat": 45.4642,
-  "t": "2026-10-24T15:00",
-  "until": null,
-  "ta": false,
-  "title": "Rassemblements du « Movimento 17 ottobre »",
-  "text": "Samedi 24 octobre à 15 h, le « Movimento 17 ottobre » appelle à se rassembler place du Duomo à Milan, au Circo Massimo à Rome et à Santa Maria Novella à Florence ; des rassemblements sont aussi annoncés à Turin, Bologne et Bari. 500 militaires renforcent la sécurité à Milan.",
-  "src": [
-   "skymil22",
-   "adnmil22"
-  ]
- },
- {
-  "id": "a-paris24",
-  "kind": "agenda",
-  "place": "Paris · Bastille – Nation",
-  "lon": 2.3825,
-  "lat": 48.85,
-  "t": "2026-10-24T12:00",
-  "until": null,
-  "ta": true,
-  "title": "Manifestation syndicale autorisée Bastille–Nation",
-  "text": "La préfecture de police autorise samedi 24 octobre le parcours Bastille–Nation déclaré notamment par la CGT. Le parcours Bastille–Opéra déclaré par Interfac et des gilets jaunes doit être interdit. Selon Emmanuel Macron, seules les manifestations organisées par les syndicats seront autorisées ce jour-là.",
-  "src": [
-   "e1bastnat22",
-   "m20macron22"
-  ]
- },
- {
   "id": "p-paris24",
   "kind": "interdiction",
   "place": "Paris · Bastille – Opéra",
@@ -773,22 +691,6 @@
    "mim24",
    "marsactu24",
    "f3mrs24"
-  ]
- },
- {
-  "id": "a-lisbonne24",
-  "kind": "agenda",
-  "place": "Lisbonne · Marquês de Pombal",
-  "lon": -9.1497,
-  "lat": 38.7253,
-  "t": "2026-10-24T15:00",
-  "until": null,
-  "ta": false,
-  "title": "Manifestation pour le logement",
-  "text": "Samedi 24 octobre à 15 h, marche « Não temos casa, montamos tendas! » du rond-point du Marquês de Pombal à la place du Rossio, à l'appel de l'Acampada de Lisbonne. Manifestation aussi annoncée à Porto.",
-  "src": [
-   "obslx22",
-   "eunlx22"
   ]
  },
  {
@@ -845,10 +747,27 @@
   "t": "2026-10-31T14:00",
   "ta": true,
   "title": "Nouvelle journée d'action contre la vie chère",
-  "text": "Samedi 31 octobre, la coordination des gilets jaunes appelle à une nouvelle journée de mobilisation, en dénonçant une « dérive autoritaire » de l'exécutif ; rassemblements annoncés dans plusieurs villes, dont Dijon. Lieux et autorisations préfectorales à confirmer.",
+  "text": "Samedi 31 octobre, la coordination des gilets jaunes appelle à une nouvelle journée de mobilisation, en dénonçant une « dérive autoritaire » de l'exécutif ; rassemblements annoncés dans plusieurs villes, dont Dijon. Lieux et autorisations préfectorales à confirmer. Les organisations lycéennes et étudiantes appellent aussi à se mobiliser le 31 octobre et le 5 novembre (Sud Radio).",
   "src": [
    "fi31oct",
-   "dijonact26"
+   "dijonact26",
+   "sudlyc26"
+  ]
+ },
+ {
+  "id": "p-mexico26",
+  "kind": "transport",
+  "place": "Mexique",
+  "lon": -99.0,
+  "lat": 19.5,
+  "t": "2026-10-26T06:30",
+  "until": "2026-10-27T23:59",
+  "ta": true,
+  "title": "Grève des transporteurs : routes bloquées",
+  "text": "Grève nationale illimitée des transporteurs routiers depuis lundi 26 octobre : blocages partiels de péages et d'autoroutes dans 19 États selon le ministère de l'Intérieur, notamment autour de Mexico (Mexico-Querétaro, Mexico-Puebla, Mexico-Pachuca) et sur l'autoroute Puebla-Oaxaca. Consulter la Garde nationale et Capufe avant de prendre la route.",
+  "src": [
+   "infmx26",
+   "razonmx26"
   ]
  }
 ]
