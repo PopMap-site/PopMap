@@ -2742,5 +2742,77 @@
  "icimanche26": {
   "t": "ICI Normandie — Des lycéens de la Manche réagissent",
   "u": "https://www.ici.fr/normandie/manche-50/saint-lo/c-est-une-petite-victoire-des-lyceens-de-la-manche-reagissent-aux-annonces-du-gouvernement-apres-leur-mobilisation-7175277"
+ },
+ "hromkyiv27": {
+  "t": "Hromadske — attaque sur Kyiv, 1 mort, 14 blessés",
+  "u": "https://hromadske.ua/en/war/273236-russian-attack-on-kyiv-kills-one-injures-14-damages-metro-bridge"
+ },
+ "meduzakyiv27": {
+  "t": "Meduza — frappes sur Kyiv, pont et métro",
+  "u": "https://meduza.io/en/news/2026/10/27/russian-strikes-hit-kyiv-bridge-and-subway-infrastructure-killing-one-person-and-injuring-at-least-10"
+ },
+ "ajnyala27": {
+  "t": "Al Jazeera — drone sur Nyala, 21 morts",
+  "u": "https://www.aljazeera.com/news/2026/10/27/drone-strike-kills-at-least-21-and-injures-40-in-sudans-nyala"
+ },
+ "arabnyala27": {
+  "t": "Arab News (AFP) — frappe sur Nyala",
+  "u": "https://www.arabnews.com/middle-east/drone-strike-on-sudans-nyala-kills-21-injures-40-medical-source-3008473"
+ },
+ "toilb27": {
+  "t": "Times of Israel — direct du 27 octobre",
+  "u": "https://www.timesofisrael.com/liveblog-october-27-2026/"
+ },
+ "jpgolan27": {
+  "t": "Jerusalem Post — Yair Golan, suspect interpellé",
+  "u": "https://www.jpost.com/israel-election-2026/article-913026"
+ },
+ "ynetgolan27": {
+  "t": "Ynet — tentative d'agression contre Yair Golan",
+  "u": "https://www.ynetnews.com/article/r1tiuwrhfx"
+ },
+ "lalibreisr27": {
+  "t": "La Libre (Belga) — participation record en Israël",
+  "u": "https://www.lalibre.be/dernieres-depeches/2026/10/27/elections-legislatives-en-israel-israel-le-debut-des-legislatives-marque-par-la-plus-forte-participation-depuis-1981-ZPGK4A5YV5D3HGSZYUY7QPNIBM/"
+ },
+ "haaretzvote27": {
+  "t": "Haaretz — 2,3 millions de votants à midi",
+  "u": "https://www.haaretz.com/israel-news/elections/2026-10-27/ty-article-live/israelis-ready-to-cast-their-vote-in-an-election-that-could-end-netanyahus-rule/000001a1-7afd-d5cb-a9ab-7ffd495d0000"
+ },
+ "elfinmx27": {
+  "t": "El Financiero — paro de transportistas, martes",
+  "u": "https://www.elfinanciero.com.mx/nacional/2026/10/27/paro-de-transportistas-esto-sabemos-sobre-los-bloqueos-y-reuniones-con-gobierno-para-este-martes/"
+ },
+ "infmx27": {
+  "t": "El Informador — les transporteurs maintiennent les protestations",
+  "u": "https://www.informador.mx/mexico/manifestaciones-pese-al-dialogo-con-segob-transportistas-mantendran-hoy-las-protestas-en-carreteras-20261027-0019.html"
+ },
+ "iwtehran27": {
+  "t": "IranWire — fin de la réunion de Téhéran",
+  "u": "https://iranwire.com/en/news/159398-iran-saudi-arabia-turkey-and-pakistan-conclude-joint-tehran-summit/"
+ },
+ "anewstehran27": {
+  "t": "A News — le chef du renseignement turc à Téhéran",
+  "u": "https://www.anews.com.tr/world/2026/10/27/turkish-intelligence-chief-holds-talks-in-iran-with-saudi-pakistani-officials"
+ },
+ "sortcf27": {
+  "t": "Sortiraparis — couvre-feu non reconduit à République",
+  "u": "https://www.sortiraparis.com/actualites/a-paris/articles/355062-couvre-feu-a-paris-va-t-il-encore-etre-reconduit-ce-mardi-27-octobre"
+ },
+ "horizonnord27": {
+  "t": "Horizon Actu — couvre-feu prolongé dans six villes du Nord",
+  "u": "https://www.horizonactu.fr/actualite-50222-manifestations-couvre-feu-prolonge-jusqu-au-29-octobre-dans-six-villes-du-nord"
+ },
+ "f3nord27": {
+  "t": "France 3 Hauts-de-France — couvre-feu des mineurs prolongé",
+  "u": "https://france3-regions.franceinfo.fr/hauts-de-france/nord-0/lille/violences-urbaines-le-couvre-feu-pour-les-mineurs-non-accompagnes-prolonge-pour-trois-nuits-3439656.html"
+ },
+ "zaymq26": {
+  "t": "Zayactu — barrage filtrant à Sainte-Thérèse",
+  "u": "https://www.zayactu.org/martinique/martinique-un-barrage-filtrant-installe-par-le-rpprac-a-sainte-therese-la-circulation-fortement-perturbee"
+ },
+ "rcimq26": {
+  "t": "RCI — barrage à Sainte-Thérèse lundi matin",
+  "u": "https://rci.fm/martinique/infos/Informations-pratiques/Un-barrage-installe-Sainte-Therese-tot-ce-lundi-matin"
  }
 }
