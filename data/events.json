@@ -8,7 +8,7 @@
   "cat": "emeute",
   "sev": 3,
   "live": true,
-  "date": "2026-10-26",
+  "date": "2026-10-27",
   "zoom": 5000,
   "title": "Paris sous tension depuis le 17-octobre",
   "summary": "Mobilisation contre la vie chère, dans la foulée du mouvement lycéen et étudiant. Le 24 octobre, 110 000 manifestants à Paris selon l'Intérieur (250 000 selon la CGT) : cortège autorisé globalement calme, heurts en marge, 142 interpellations selon la préfecture de police. Le 17, cortèges sauvages, barricades sur les Champs-Élysées, pillages et stations de métro fermées. Lundi 26, reçues à Matignon, les organisations lycéennes et étudiantes saluent de « premières mesures » (classes plafonnées à 28 élèves, postes d'enseignants, rénovation des bâtiments, refonte de Parcoursup) mais les jugent insuffisantes et appellent à continuer ; les gilets jaunes appellent à une nouvelle journée le 31 octobre, l'intersyndicale à la grève le 5 novembre.",
@@ -166,6 +166,10 @@
    [
     "26 oct. soir",
     "Après la réunion à Matignon, le gouvernement annonce notamment : Parcoursup maintenu en 2027 puis remplacé par un nouveau dispositif en 2028 ; 15 000 places supplémentaires dans le supérieur, surtout en BTS et filières courtes ; classes plafonnées à 28 élèves, d'abord en seconde dans les lycées les moins favorisés à la rentrée 2027 ; renoncement aux 800 suppressions de postes prévues (Public Sénat parle de 500 postes en plus au budget 2027, Sud Radio de 1 900) ; un plan de 5 milliards d'euros pour les bâtiments (4 milliards de prêts aux collectivités, 1 milliard pour les universités) ; bourses indexées sur l'inflation ; pause déjeuner d'une heure garantie. Les organisations lycéennes et étudiantes saluent de « premières mesures » mais les jugent insuffisantes, réclament un plan chiffré à 10 milliards et appellent à poursuivre la mobilisation, notamment les 31 octobre et 5 novembre (Reuters via Boursorama, Public Sénat, Sud Radio)."
+   ],
+   [
+    "26-27 oct. nuit",
+    "La préfecture de police prolonge le couvre-feu de 23 h à 6 h une nuit de plus, limité au secteur de la place de la République (Sortiraparis). Les organisations lycéennes, reçues à Matignon, saluent de premières mesures mais appellent à poursuivre la mobilisation : « On peut voir le verre à moitié plein » (AFP via Boursorama). Dans la Manche, des lycéens parlent d'une « petite victoire » (ICI)."
    ]
   ],
   "spots": [
@@ -395,7 +399,11 @@
    "dijonact26",
    "boursolyc26",
    "pslyc26",
-   "sudlyc26"
+   "sudlyc26",
+   "sortcf26",
+   "tpcf26",
+   "boursomat26",
+   "icimanche26"
   ],
   "photos": [
    {
@@ -2423,8 +2431,8 @@
   "lat": 38.7223,
   "cat": "manif",
   "sev": 2,
-  "live": true,
-  "date": "2026-10-24",
+  "live": false,
+  "date": "2026-10-26",
   "zoom": 12000,
   "title": "25 000 manifestants pour le logement selon les organisateurs",
   "summary": "Des dizaines de milliers de personnes ont marché le 17 octobre à l'appel du syndicat CGTP contre la vie chère, les bas salaires et le logement (prix doublés depuis 2017, inflation 3,6 % en septembre). Le cortège est parti de Cais do Sodré pour finir sur la place du Rossio, où des dizaines de tentes ont été montées ; elles y étaient encore dimanche matin. Le gouvernement dit qu'il « ne cédera pas aux cris de la rue ».",
@@ -2467,7 +2475,10 @@
    "obslx22",
    "eunlx22",
    "eupt24",
-   "jnlx24"
+   "jnlx24",
+   "rrpt25",
+   "sapo24pt25",
+   "obs26pt"
   ],
   "t": "2026-10-17T14:30",
   "ta": false,
@@ -2503,6 +2514,14 @@
    [
     "24 oct.",
     "Manifestation pour le logement du Marquês de Pombal au Rossio par l'avenue de la Liberté : environ 25 000 personnes selon l'organisation, sans estimation policière publiée. Des manifestants grimpent sur la statue de Pierre IV ; la PSP prévient qu'elle ne laissera pas de tentes au Rossio pour la nuit. Rassemblements aussi à Coimbra (environ 200 personnes), Faro et Aveiro selon l'agence Lusa (Euronews, Jornal de Negócios)."
+   ],
+   [
+    "25 oct. nuit",
+    "Après plus de deux heures de tension, la police (PSP) disperse à coups de matraque le campement du Rossio, les manifestants ayant refusé de retirer leurs tentes : 31 interpellations au total à Lisbonne et Porto ; bilans divergents des blessés (11 selon Renascença, 33 selon Observador). La PSP dit avoir « épuisé tous les efforts de dialogue » ; les partis de gauche demandent des explications au gouvernement, Chega et le PSD défendent l'intervention."
+   ],
+   [
+    "26 oct.",
+    "Audiences des personnes interpellées au Campus de la Justice lundi et mardi ; vigile des soutiens, puis assemblée populaire au Rossio. Le mouvement décide de ne pas tenter de nouveau campement pour l'instant (Observador)."
    ]
   ],
   "figs": [
@@ -2524,8 +2543,8 @@
   "lat": 41.1496,
   "cat": "emeute",
   "sev": 2,
-  "live": true,
-  "date": "2026-10-24",
+  "live": false,
+  "date": "2026-10-25",
   "title": "Le campement démonté après un ultimatum",
   "summary": "La police a chargé le campement pour le logement (des dizaines de blessés) puis retiré les tentes le 15 octobre. Samedi, la marche partie de la Praça da Batalha a subi une nouvelle charge jugée « disproportionnée » ; les tentes sont revenues Praça D. João I. Des conteneurs ont été incendiés en fin de journée.",
   "src": [
@@ -2538,7 +2557,9 @@
    "nam20",
    "exdig20",
    "dnrossio20",
-   "eupt24"
+   "eupt24",
+   "rrpt25",
+   "sapo24pt25"
   ],
   "t": "2026-10-17T10:30",
   "ta": false,
@@ -2584,6 +2605,10 @@
    [
     "24 oct.",
     "« Des milliers de personnes » défilent de la praça da Batalha à la praça D. João I pour le logement ; en début de soirée, les manifestants votent pour remonter des tentes (Euronews, Lusa)."
+   ],
+   [
+    "25 oct. nuit",
+    "La police retire aussi les tentes de la praça D. João I lors d'une opération coordonnée avec Lisbonne ; 31 interpellations au total dans les deux villes (Renascença, 24 Notícias)."
    ]
   ],
   "zoom": 12000
@@ -3125,7 +3150,7 @@
   "cat": "frappe",
   "sev": 3,
   "live": true,
-  "date": "2026-10-26",
+  "date": "2026-10-27",
   "title": "Frappes russes sur des immeubles",
   "summary": "Le 18 octobre, deux attaques russes tuent une femme et blessent au moins deux personnes, dont une fillette de 6 ans, selon les autorités locales. Un immeuble d'habitation avait été touché le 17 ; le 10, des frappes avaient tué au moins 17 personnes, dont trois enfants.",
   "figs": [
@@ -3140,7 +3165,8 @@
    "ajspb19",
    "unnua22",
    "mtmsk22",
-   "eunvoro26"
+   "eunvoro26",
+   "unn27"
   ],
   "t": "2026-10-17T12:00",
   "ta": true,
@@ -3156,6 +3182,10 @@
    [
     "26 oct. nuit",
     "Selon l'armée de l'air ukrainienne, la Russie a lancé 140 drones et 4 missiles sur l'Ukraine dans la nuit (112 drones et 3 missiles abattus). À Zaporijia, quatre blessés, des maisons, des voitures et un hôtel endommagés (Euronews)."
+   ],
+   [
+    "26-27 oct.",
+    "Dans la région, cinq blessés dont un garçon de 17 ans et 181 signalements de dégâts en une journée, selon les autorités régionales citées par UNN."
    ]
   ]
  },
@@ -3168,9 +3198,9 @@
   "cat": "frappe",
   "sev": 2,
   "live": true,
-  "date": "2026-10-22",
+  "date": "2026-10-27",
   "title": "Nouvelle nuit de frappes sur la capitale",
-  "summary": "Dans la nuit du 18 au 19 octobre, missiles et drones russes touchent trois arrondissements de Kyiv : 1 mort et 8 blessés selon les autorités locales ; un établissement médical, une station de métro, des écoles et un équipement sportif endommagés. La nuit précédente, une autre attaque avait fait 1 morte et 3 blessés. Moscou dit avoir visé une usine liée à l'industrie militaire dans la région.",
+  "summary": "Lundi 26 octobre en soirée, des missiles balistiques russes touchent le campus d'une université et des quartiers résidentiels : un mort et dix blessés, surtout des étudiants, selon les autorités de la ville. Dans la nuit du 26 au 27, nouvelle salve de missiles balistiques peu après 3 h : le Pont Sud, qui porte une partie de la ligne verte du métro, est endommagé et le trafic restreint. Auparavant, la nuit du 22 octobre avait fait un mort et 22 blessés selon les autorités ukrainiennes.",
   "src": [
    "hl",
    "cg",
@@ -3186,11 +3216,18 @@
    "unnua22",
    "apkyiv22",
    "upkyiv22",
-   "ukrkyiv22"
+   "ukrkyiv22",
+   "euolesh27",
+   "kpkyiv27",
+   "unn27"
   ],
   "t": "2026-10-14T12:00",
   "ta": true,
   "figs": [
+   [
+    "1 mort, 10 blessés",
+    "campus universitaire, 26 oct. au soir (autorités de Kyiv)"
+   ],
    [
     "1 mort, 22 blessés",
     "dont 4 enfants, nuit du 22 oct. (autorités ukrainiennes)"
@@ -3253,8 +3290,16 @@
     "n": "Pont Sud (métro)",
     "lon": 30.565,
     "lat": 50.405,
-    "d": "Nuit du 21 au 22 octobre : une partie de l'infrastructure du métro endommagée.",
-    "t": "2026-10-22T02:00",
+    "d": "Nuit du 26 au 27 oct. : un missile endommage le Pont Sud ; la ligne verte du métro est coupée en deux tronçons et la circulation restreinte, selon l'administration militaire de Kyiv.",
+    "t": "2026-10-27T03:00",
+    "ta": true
+   },
+   {
+    "n": "Podilskyï",
+    "lon": 30.48,
+    "lat": 50.475,
+    "d": "Nuit du 26 au 27 oct. : un bâtiment administratif touché par une frappe balistique, selon le maire Vitali Klitschko.",
+    "t": "2026-10-27T03:00",
     "ta": true
    }
   ],
@@ -3275,6 +3320,14 @@
    [
     "22 oct. matin",
     "Bilan revu à la hausse : un mort et 22 blessés, dont quatre enfants, selon les autorités ukrainiennes ; dégâts dans six districts. Dans le district de Dniprovskyï, sur la rive est, une personne tuée et six blessées, des incendies. Les frappes surviennent quelques heures après l'annonce par le conseiller du Kremlin Iouri Ouchakov d'un accord « de principe » de Vladimir Poutine pour reprendre les pourparlers trilatéraux avec les États-Unis et l'Ukraine après le 10 novembre, à l'issue d'une rencontre avec l'émissaire américain Steve Witkoff. Volodymyr Zelensky soutient la reprise des discussions tout en restant prudent (AP)."
+   ],
+   [
+    "26 oct. soir",
+    "Des missiles balistiques touchent le campus d'une université et des zones résidentielles : un mort et dix blessés, pour la plupart des étudiants, selon les autorités de la ville (Euronews, Kyiv Post). Volodymyr Zelensky dit qu'aucune installation militaire ne se trouvait à proximité."
+   ],
+   [
+    "27 oct. nuit",
+    "Explosions de missiles balistiques peu après 3 h. Le Pont Sud sur le Dniepr est endommagé : la ligne verte du métro circule en deux tronçons séparés (Syrets–Vydubychi et Osokorky–Tchervonyï Khoutir) et des lignes de bus sont déviées, selon l'administration militaire de Kyiv. Le maire Vitali Klitschko signale un bâtiment administratif touché dans le district de Podilskyï ; pas de victime signalée pour la nuit à ce stade (Kyiv Post, UNN)."
    ]
   ],
   "media": [
@@ -3294,7 +3347,7 @@
   "cat": "guerre",
   "sev": 3,
   "live": true,
-  "date": "2026-10-26",
+  "date": "2026-10-27",
   "title": "Guerre d'Iran : la bataille du détroit",
   "summary": "Guerre ouverte depuis l'offensive américaine du 28 février. Washington maintient un blocus des ports iraniens ; Washington et Téhéran revendiquent chacun le contrôle du détroit. Au moins 12 navires attaqués la semaine du 16 octobre selon l'agence britannique UKMTO (un coulé, deux immobilisés), un supertanker en feu après une mine selon les Gardiens de la révolution, un remorqueur touché le 18. Le flux pétrolier est tombé à environ 68 % du niveau d'avant-guerre ; le Brent a touché 110 $. L'Iran propose une réouverture du détroit en six jours puis des négociations, contre la levée du blocus.",
   "figs": [
@@ -3342,7 +3395,9 @@
    "hosirik26",
    "cbsiran26",
    "natyem26",
-   "toilive26"
+   "toilive26",
+   "azhormuz26",
+   "ncordhormuz"
   ],
   "t": "2026-10-16T12:00",
   "ta": true,
@@ -3394,6 +3449,10 @@
    [
     "26 oct.",
     "Des responsables saoudiens, turcs et pakistanais — dont le ministre saoudien de la Défense Khalid ben Salmane, le maréchal pakistanais Asim Munir et le chef du renseignement turc Ibrahim Kalin — doivent rencontrer leurs homologues iraniens à Téhéran pour des discussions de désescalade régionale, selon The National et CBS ; le porte-parole iranien Esmaeil Baghaei confirme la réunion (Times of Israel). Dimanche sur Fox News, Donald Trump a dit hésiter entre « faire un accord » avec Téhéran ou « les achever », tout en assurant qu'il n'y aurait « pas de frappe aujourd'hui » (CBS)."
+   ],
+   [
+    "26 oct. soir",
+    "Les Gardiens de la révolution déclarent le détroit « fermé » et avertissent que les navires ne respectant pas leurs règles de transit risquent d'être « engloutis par les flammes », selon l'agence Tasnim ; le général Ali Abdollahi rejette les affirmations américaines selon lesquelles la voie est ouverte. Ces déclarations suivent des frappes iraniennes sur quatre pétroliers les 22 et 23 octobre, que Téhéran présente comme de la lutte contre la contrebande (AzerNews, Newscord). Washington n'a pas réagi dans ces sources."
    ]
   ]
  },
@@ -3406,9 +3465,9 @@
   "cat": "guerre",
   "sev": 2,
   "live": true,
-  "date": "2026-10-26",
+  "date": "2026-10-27",
   "title": "Menace de reprise des bombardements",
-  "summary": "Le Pentagone a demandé de préparer une reprise des opérations majeures ; Trump a toutefois dit le 8 octobre ne pas frapper avant les midterms du 3 novembre, tout en menaçant un site nucléaire.",
+  "summary": "Le Pentagone a demandé de préparer une reprise des opérations majeures ; Trump a toutefois dit le 8 octobre ne pas frapper avant les midterms du 3 novembre, tout en menaçant un site nucléaire. Le 26 octobre, l'Iran reçoit l'Arabie saoudite, la Turquie et le Pakistan ; les quatre pays conviennent de poursuivre le dialogue.",
   "src": [
    "js",
    "iran",
@@ -3425,7 +3484,10 @@
    "toilive26",
    "cbsiran26",
    "toiteh26",
-   "abcteh26"
+   "abcteh26",
+   "trib96",
+   "jpost96",
+   "ajteh27"
   ],
   "t": "2026-10-16T12:00",
   "ta": true,
@@ -3457,6 +3519,14 @@
    [
     "26 oct. soir",
     "Première rencontre de haut niveau à Téhéran entre l'Iran et les pays du pacte de défense de La Mecque : le ministre saoudien de la Défense Khalid ben Salmane, le maréchal pakistanais Asim Munir et le chef du renseignement turc Ibrahim Kalin y rencontrent le président Massoud Pezeshkian et le ministre des Affaires étrangères Abbas Araghchi. Selon Riyad, l'objectif est d'ouvrir des canaux de négociation pour « empêcher le retour de l'escalade militaire » ; selon un responsable iranien, le nucléaire n'est pas au programme. Les quatre pays conviennent de poursuivre les discussions. Massoud Pezeshkian doit rencontrer Vladimir Poutine mardi à Moscou (Times of Israel, AP)."
+   ],
+   [
+    "26 oct. soir",
+    "Selon CNN, les forces américaines seraient prêtes à lancer des opérations majeures contre l'Iran dans les 96 heures suivant un éventuel ordre de Donald Trump, qui n'a pas pris de décision (The Tribune, Jerusalem Post)."
+   ],
+   [
+    "27 oct.",
+    "À l'issue des pourparlers de Téhéran, l'Iran, l'Arabie saoudite, la Turquie et le Pakistan disent dans un communiqué commun, rapporté par les médias d'État iraniens, vouloir « poursuivre le dialogue ». Selon un responsable pakistanais cité par Reuters, le maréchal Asim Munir a présenté une proposition, avec l'aval de Donald Trump selon lui ; son contenu n'est pas connu (Al Jazeera)."
    ]
   ]
  },
@@ -3504,7 +3574,8 @@
    "natyem26",
    "ajcoal26",
    "toiteh26",
-   "jtcoal26"
+   "jtcoal26",
+   "ajteh27"
   ],
   "t": "2026-10-14T12:00",
   "ta": true,
@@ -3548,6 +3619,10 @@
    [
     "26 oct. soir",
     "Le porte-parole de la coalition, Turki al-Maliki, dit qu'un missile balistique visant Riyad a été intercepté lundi et que des frappes au Yémen ont détruit quatre lanceurs de missiles balistiques, cinq tunnels de stockage et un dépôt de missiles. Le porte-parole houthi Yahya Saree revendique un missile sur l'aéroport King Khalid et des drones sur des stations de pompage pétrolières ; l'Arabie saoudite ne les a pas confirmés (Al Jazeera, Times of Israel). L'aéroport fonctionne sur deux terminaux depuis dimanche."
+   ],
+   [
+    "26 oct. soir",
+    "La coalition dit avoir abattu trois drones supplémentaires au-dessus de Riyad et du sud du pays ; le Parlement égyptien autorise l'armée à aider à la défense de l'Arabie saoudite (Al Jazeera)."
    ]
   ]
  },
@@ -3560,13 +3635,15 @@
   "cat": "frappe",
   "sev": 2,
   "live": true,
-  "date": "2026-10-22",
+  "date": "2026-10-27",
   "title": "Un bâtiment d'Aramco en feu",
   "summary": "Attaque houthie sur les installations du géant pétrolier saoudien.",
   "src": [
    "eunw",
    "fdd",
-   "alhurra22"
+   "alhurra22",
+   "ktsaudi27",
+   "toilive27"
   ],
   "t": "2026-10-14T12:00",
   "ta": true,
@@ -3574,6 +3651,10 @@
    [
     "22 oct.",
     "Selon des sources citées par Reuters, Aramco a demandé à ses employés d'évacuer son siège de Dhahran, une première depuis le début de la guerre avec l'Iran en février (Alhurra). À une quinzaine de kilomètres, l'aéroport de Dammam a été frappé."
+   ],
+   [
+    "27 oct. nuit",
+    "La coalition menée par l'Arabie saoudite dit avoir intercepté trois missiles balistiques houthis visant la province orientale, sans victime, et abattu quatre drones en direction du sud du royaume ; la Défense civile saoudienne a émis des alertes pour la province orientale et le gouvernorat d'Al-Kharj, levées ensuite (KUNA, Times of Israel). Les Houthis n'ont pas commenté dans l'immédiat."
    ]
   ]
  },
@@ -4045,13 +4126,17 @@
   "cat": "guerre",
   "sev": 3,
   "live": true,
-  "date": "2026-10-25",
+  "date": "2026-10-27",
   "t": "2026-10-13T12:00",
   "ta": true,
   "zoom": 500,
   "title": "Hébron bouclée après une attaque meurtrière",
   "summary": "Le 23 octobre, deux Palestiniens armés attaquent un checkpoint militaire près d'Hébron : deux soldats israéliens tués et trois blessés, les deux assaillants abattus selon l'armée israélienne. Israël lance une opération « antiterroriste » de plusieurs jours, boucle Hébron et Halhoul et prépare une fermeture de toute la Cisjordanie. Benyamin Netanyahou dit vouloir « détruire cet endroit » ; l'ONU et l'ONG israélienne B'Tselem s'inquiètent d'une punition collective. La saison des olives reste marquée par une forte hausse des attaques de colons (au moins 170 depuis le 27 septembre selon Yesh Din).",
   "figs": [
+   [
+    "3 171",
+    "déplacés dans le gouvernorat d'Hébron (gouverneur, 26 oct.)"
+   ],
    [
     "2",
     "soldats israéliens tués le 23 oct. (armée israélienne)"
@@ -4131,7 +4216,9 @@
    "ajheb24",
    "abcheb24",
    "toi24",
-   "toilive25"
+   "toilive25",
+   "ajhebron26",
+   "unhebron26"
   ],
   "tl": [
    [
@@ -4157,6 +4244,14 @@
    [
     "25 oct.",
     "L'Autorité palestinienne dit que 2 670 personnes ont été déplacées par l'opération israélienne à Hébron (Times of Israel). L'armée israélienne annonce un bouclage de la Cisjordanie pour les législatives de mardi : les quelque 9 000 Palestiniens titulaires de permis ne peuvent pas entrer dans les colonies dimanche et lundi, toute entrée est interdite le jour du vote et les points de passage terrestres sont fermés. Voitures palestiniennes vandalisées par des colons à Sinjil, près de Ramallah, sans blessé ; à Jalud, heurts entre colons et soldats autour d'une maison palestinienne qui a pris feu, l'armée dit enquêter."
+   ],
+   [
+    "26 oct.",
+    "Selon le gouverneur d'Hébron, 488 familles, soit 3 171 personnes, ont été déplacées dans le gouvernorat ; au moins 71 personnes arrêtées en quatre jours selon le Club des prisonniers palestiniens (Al Jazeera). Le haut-commissaire de l'ONU aux droits de l'homme, Volker Türk, parle d'une opération « agressive » qui soulève de « graves inquiétudes de nettoyage ethnique » (ONU Info). Selon Haaretz cité par le Times of Israel, le chef d'état-major a estimé qu'il n'y avait pas de justification à empêcher les habitants de rentrer chez eux, mais Benyamin Netanyahou a ordonné la poursuite de l'opération."
+   ],
+   [
+    "27 oct.",
+    "Points de passage entre la Cisjordanie et Israël entièrement fermés pour le jour des législatives, selon l'armée israélienne (Al Jazeera)."
    ]
   ]
  },
@@ -6909,8 +7004,8 @@
   "lat": 49.9935,
   "cat": "frappe",
   "sev": 2,
-  "live": false,
-  "date": "2026-10-25",
+  "live": true,
+  "date": "2026-10-27",
   "t": "2026-10-21T02:00",
   "ta": true,
   "title": "Drones sur des maisons : deux morts",
@@ -6933,6 +7028,10 @@
    [
     "24-25 oct.",
     "Quatre centres commerciaux de l'enseigne de bricolage visée par des frappes répétées touchés en moins d'une journée, à Kharkiv, Zaporijia, Vinnytsia et Poltava ; à Kharkiv, quatre blessés dont trois secouristes lors d'une seconde frappe sur le site en feu, à Poltava une femme blessée, selon les autorités régionales (RBC-Ukraine, LIGA.net)."
+   ],
+   [
+    "26 oct. soir",
+    "Frappes répétées sur le district de Novobavarskyï à Kharkiv : deux morts et quatre blessés selon les autorités ; immeubles, maisons et voitures endommagés, un important incendie (UNN, Euronews)."
    ]
   ],
   "spots": [],
@@ -6942,7 +7041,9 @@
    "eunua25",
    "anewsua25",
    "rbcepic25",
-   "ligaepic25"
+   "ligaepic25",
+   "unn27",
+   "euolesh27"
   ]
  },
  {
@@ -7210,7 +7311,7 @@
   "cat": "frappe",
   "sev": 3,
   "live": false,
-  "date": "2026-10-23",
+  "date": "2026-10-26",
   "t": "2026-10-23T12:00",
   "ta": true,
   "title": "Fusillade dans une église pendant des funérailles",
@@ -7233,12 +7334,17 @@
    [
     "24 oct.",
     "Bilan porté à 9 morts ; un blessé toujours dans un état critique. Trois jours de deuil national (Fox News, agence Petra)."
+   ],
+   [
+    "26 oct.",
+    "Trois suspects arrêtés après un échange de tirs selon les autorités ; en représailles, l'armée jordanienne frappe le sud de la Syrie (voir fiche Deraa et Soueïda) (Al Jazeera)."
    ]
   ],
   "src": [
    "cbskarak",
    "foxkarak",
-   "toi24"
+   "toi24",
+   "ajjord26"
   ]
  },
  {
@@ -7501,13 +7607,21 @@
   "cat": "manif",
   "sev": 1,
   "live": true,
-  "date": "2026-10-26",
+  "date": "2026-10-27",
   "t": "2026-10-26T08:00",
   "ta": true,
   "zoom": 40,
   "title": "Grève nationale des transporteurs routiers",
   "summary": "Le 26 octobre, des organisations de transporteurs (dont la Canacar, Fematrac, Hamotac et Indeco) lancent une grève nationale illimitée pour réclamer plus de sécurité sur les routes face aux vols et à l'extorsion, la régulation des fourrières et des changements à la loi de recettes 2027. Selon le ministère de l'Intérieur (Segob), à 9 h 30 heure locale, 858 personnes et 691 véhicules mobilisés sur 38 points dans 19 États. La présidente Claudia Sheinbaum évoque un avantage fiscal jugé « excessif » par les Finances ; le gouvernement dit garder le dialogue ouvert. Une partie des organisations a accepté de négocier.",
   "figs": [
+   [
+    "19",
+    "États touchés (Segob, 26 oct.)"
+   ],
+   [
+    "38",
+    "points de mobilisation (Segob)"
+   ],
    [
     "19",
     "États touchés (Segob, 9 h 30)"
@@ -7525,6 +7639,10 @@
    [
     "26 oct. matin",
     "Blocages partiels autour de Mexico : autoroutes Mexico-Querétaro (péage de Tepotzotlán), Mexico-Puebla (San Martín), Mexico-Pachuca et Texcoco. Fermeture totale signalée à Tlaxco (Tlaxcala) et sur l'autoroute Puebla-Oaxaca près de Tehuacán (Capufe). Le Veracruz compte le plus de points de protestation (8) selon la Segob (El Informador, La Razón, El Financiero)."
+   ],
+   [
+    "26 oct. soir",
+    "Selon le ministère de l'Intérieur (Segob), 38 points de mobilisation dans 19 États dans la matinée, surtout dans l'État de Veracruz (8) et l'État de Mexico (6) ; le gouvernement appelle au dialogue. En soirée, une partie des blocages est levée mais cinq autoroutes restent fermées selon Capufe, dont Tehuacán-Oaxaca, Mexico-Cuernavaca et Puebla-Acatzingo (La Jornada, UnoTV). Aucun accord annoncé ; la grève, illimitée, n'est pas suspendue (N+)."
    ]
   ],
   "spots": [
@@ -7572,7 +7690,174 @@
   "src": [
    "infmx26",
    "razonmx26",
-   "efmx26"
+   "efmx26",
+   "jornada26",
+   "unotv26",
+   "nmas27"
+  ]
+ },
+ {
+  "id": "oleshky",
+  "place": "Oleshky",
+  "country": "Ukraine (zone occupée par la Russie)",
+  "lon": 32.7,
+  "lat": 46.62,
+  "cat": "guerre",
+  "sev": 1,
+  "live": true,
+  "date": "2026-10-27",
+  "t": "2026-10-27T02:00",
+  "ta": false,
+  "title": "Un cessez-le-feu local pour secourir les habitants",
+  "summary": "Un cessez-le-feu localisé est entré en vigueur à 3 h (heure locale) le mardi 27 octobre à Oleshky, ville de la région de Kherson occupée par la Russie, sur la rive gauche du Dniepr face à Kherson. Négocié sous l'égide de Melania Trump avec des négociateurs civils russes et ukrainiens, il doit durer au moins jusqu'à samedi pour permettre une mission d'aide (médecins, médicaments, nourriture, eau) puis l'ouverture de couloirs d'évacuation. Selon l'ONU, jusqu'à 2 000 personnes y sont bloquées par les mines et les drones. Les négociateurs et les armées des deux pays ont confirmé le début de la trêve.",
+  "figs": [
+   [
+    "2 000",
+    "habitants bloqués au maximum (ONU)"
+   ],
+   [
+    "3 h",
+    "entrée en vigueur, 27 oct. (heure locale)"
+   ]
+  ],
+  "tl": [
+   [
+    "27 oct. nuit",
+    "Début du cessez-le-feu local à 3 h ; une mission d'aide est prévue plus tard dans la semaine, avant de nouveaux pourparlers russo-ukrainiens sous médiation américaine attendus le mois prochain (NPR, Euronews)."
+   ]
+  ],
+  "src": [
+   "nprolesh27",
+   "euolesh27"
+  ]
+ },
+ {
+  "id": "deraa",
+  "place": "Deraa et Soueïda",
+  "country": "Syrie",
+  "lon": 36.25,
+  "lat": 32.7,
+  "zoom": 150,
+  "cat": "frappe",
+  "sev": 2,
+  "live": false,
+  "date": "2026-10-27",
+  "t": "2026-10-26T19:00",
+  "ta": true,
+  "title": "Frappes jordaniennes dans le sud syrien : au moins 7 morts",
+  "summary": "Lundi 26 octobre au soir, l'armée jordanienne frappe ce qu'elle présente comme des repaires de groupes armés dans le sud de la Syrie, en représailles à l'attaque de l'église de Karak (9 morts le 23 octobre). Selon la Défense civile syrienne, au moins sept personnes sont tuées, dont trois enfants, cinq d'une même famille sous une tente. Amman affirme avoir agi en coordination avec Damas ; le gouvernement syrien dément toute coordination, dénonce une atteinte à sa souveraineté et ferme mardi le poste-frontière de Nassib, seul passage entre les deux pays.",
+  "figs": [
+   [
+    "7+",
+    "morts dont 3 enfants (Défense civile syrienne)"
+   ],
+   [
+    "3",
+    "blessés"
+   ]
+  ],
+  "tl": [
+   [
+    "26 oct. soir",
+    "Frappes jordaniennes sur la province de Deraa (dont Muzayrib) et Chahba dans la province de Soueïda : au moins sept morts selon la Défense civile syrienne (Al Jazeera, Xinhua)."
+   ],
+   [
+    "27 oct.",
+    "Damas dit n'avoir été ni consulté ni prévenu et ouvre une enquête ; le poste-frontière de Nassib est fermé aux voyageurs et aux marchandises (Xinhua, TASS)."
+   ]
+  ],
+  "spots": [
+   {
+    "n": "Muzayrib",
+    "lon": 35.98,
+    "lat": 32.71,
+    "d": "26 oct. au soir : zone visée par les frappes jordaniennes dans la province de Deraa, selon Al Jazeera et l'Observatoire syrien des droits de l'homme.",
+    "t": "2026-10-26T19:00",
+    "ta": true
+   },
+   {
+    "n": "Chahba",
+    "lon": 36.63,
+    "lat": 32.85,
+    "d": "26 oct. au soir : la ville de Chahba, province de Soueïda, figure parmi les sites frappés par l'armée jordanienne selon Al Jazeera.",
+    "t": "2026-10-26T19:00",
+    "ta": true
+   },
+   {
+    "n": "Poste-frontière de Nassib",
+    "lon": 36.21,
+    "lat": 32.55,
+    "d": "27 oct. : la Syrie ferme le seul passage avec la Jordanie, aux voyageurs comme aux marchandises, en invoquant la situation sécuritaire à Deraa.",
+    "t": "2026-10-27T08:00",
+    "ta": true
+   }
+  ],
+  "src": [
+   "ajjord26",
+   "xhjord27",
+   "tassnasib"
+  ]
+ },
+ {
+  "id": "trappes",
+  "place": "Trappes – La Verrière",
+  "country": "France",
+  "lon": 1.985,
+  "lat": 48.768,
+  "zoom": 9000,
+  "cat": "frappe",
+  "sev": 2,
+  "live": false,
+  "date": "2026-10-26",
+  "t": "2026-10-23T10:00",
+  "ta": true,
+  "title": "Attentat à Trappes et La Verrière : un mort, cinq blessés",
+  "summary": "Le vendredi 23 octobre vers 10 h, un homme armé tire à plusieurs endroits de Trappes et de La Verrière (Yvelines) : un jeune homme est tué et cinq personnes blessées, dont une fillette de 12 ans. Le suspect, né en 1987, est interpellé vers 10 h 20 à Coignières. Le parquet national antiterroriste a ouvert une enquête pour assassinat et tentatives d'assassinat en relation avec une entreprise terroriste, avec la circonstance que les faits ont été commis en raison de l'appartenance réelle ou supposée des victimes à une race, une ethnie, une nation ou une religion. Emmanuel Macron, venu sur place, a parlé d'un attentat « sur la base d'une idéologie raciste ». Des rassemblements d'hommage sont organisés en Île-de-France et ailleurs.",
+  "figs": [
+   [
+    "1",
+    "mort"
+   ],
+   [
+    "5",
+    "blessés, dont une fillette de 12 ans"
+   ],
+   [
+    "PNAT",
+    "saisi"
+   ]
+  ],
+  "tl": [
+   [
+    "23 oct.",
+    "Tirs à Trappes puis à La Verrière ; suspect interpellé à Coignières, une arme de catégorie A retrouvée dans sa voiture selon le parquet (Europe 1)."
+   ],
+   [
+    "26 oct.",
+    "Rassemblements d'hommage à Paris, en Essonne (Vigneux-sur-Seine, Montgeron, Brunoy, Crosne) et à Rennes ; d'autres sont annoncés à Évry-Courcouronnes, Bondy et, le vendredi 30 octobre à 18 h, place des Merisiers à Trappes (BFMTV)."
+   ]
+  ],
+  "spots": [
+   {
+    "n": "Trappes",
+    "lon": 1.993,
+    "lat": 48.776,
+    "d": "23 oct. vers 10 h : plusieurs tirs dans la commune, un homme tué et deux personnes blessées près d'une station-service, selon le parquet cité par Europe 1.",
+    "t": "2026-10-23T10:00",
+    "ta": true
+   },
+   {
+    "n": "La Verrière",
+    "lon": 1.955,
+    "lat": 48.754,
+    "d": "23 oct. au matin : trois personnes blessées par balles dans la commune, selon le parquet cité par Europe 1.",
+    "t": "2026-10-23T10:10",
+    "ta": true
+   }
+  ],
+  "src": [
+   "e1trappes",
+   "bfmtrappes"
   ]
  }
 ]

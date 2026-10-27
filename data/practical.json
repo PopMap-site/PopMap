@@ -242,13 +242,16 @@
   "place": "Israël",
   "lon": 34.7818,
   "lat": 32.0853,
-  "t": "2026-10-27T09:00",
-  "ta": true,
-  "title": "Élections législatives en Israël",
-  "text": "Mardi 27 octobre. La Liste unifiée arabe dit pouvoir soutenir de l'extérieur une coalition opposée à Benyamin Netanyahou. L'armée israélienne annonce un bouclage de la Cisjordanie le jour du vote et la fermeture des points de passage terrestres (Times of Israel). La veille du scrutin, des milliers d'Israéliens rentrés de l'étranger pour voter affluent à l'aéroport Ben Gourion.",
+  "t": "2026-10-27T06:00",
+  "ta": false,
+  "title": "Législatives en Israël : vote en cours",
+  "text": "Mardi 27 octobre, les bureaux de vote ont ouvert à 7 h (6 h à Paris) pour élire la 26e Knesset ; environ 7,3 millions d'électeurs. Les derniers sondages donnaient une course serrée entre le bloc de Benyamin Netanyahou et l'opposition menée par Gadi Eisenkot, aucun des deux n'atteignant la majorité selon le Times of Israel. Points de passage avec la Cisjordanie fermés pour la journée selon l'armée israélienne. Fermeture des bureaux prévue à 22 h (21 h à Paris).",
   "src": [
    "ajpw",
-   "toilive25"
+   "toilive25",
+   "toilive27",
+   "lapresse27",
+   "i24vote27"
   ]
  },
  {
@@ -768,6 +771,51 @@
   "src": [
    "infmx26",
    "razonmx26"
+  ]
+ },
+ {
+  "id": "p-paris-cf26",
+  "kind": "interdiction",
+  "place": "Paris · place de la République",
+  "lon": 2.3635,
+  "lat": 48.8676,
+  "t": "2026-10-26T23:00",
+  "until": "2026-10-27T06:00",
+  "ta": false,
+  "title": "Couvre-feu 23 h – 6 h, République seulement",
+  "text": "Le couvre-feu est prolongé une nuit de plus, de lundi 23 h à mardi 6 h, mais limité au secteur de la place de la République ; le secteur des Halles n'est plus concerné (Sortiraparis).",
+  "src": [
+   "sortcf26",
+   "tpcf26"
+  ]
+ },
+ {
+  "id": "a-italie30",
+  "kind": "agenda",
+  "place": "Italie",
+  "lon": 12.4964,
+  "lat": 41.9028,
+  "t": "2026-10-30T00:00",
+  "ta": true,
+  "title": "Grève générale des syndicats de base",
+  "text": "Vendredi 30 octobre, grève générale toutes catégories à l'appel de l'USB et de syndicats Cobas et CUB ; les trains sont concernés dès le jeudi 29 à 21 h (jusqu'au 30 à 20 h 59), aéroports de Florence et Pise, ports et écoles dans plusieurs régions. Vérifier les éventuelles révocations auprès de la Commission de garantie des grèves (Virgilio, TuttoLavoro24).",
+  "src": [
+   "virgsciop",
+   "tl24sciop"
+  ]
+ },
+ {
+  "id": "a-trappes30",
+  "kind": "agenda",
+  "place": "Trappes · place des Merisiers",
+  "lon": 1.993,
+  "lat": 48.776,
+  "t": "2026-10-30T18:00",
+  "ta": false,
+  "title": "Rassemblement d'hommage aux victimes",
+  "text": "Vendredi 30 octobre à 18 h, rassemblement en hommage aux victimes de l'attentat du 23 octobre ; d'autres sont annoncés à Évry-Courcouronnes et à Bondy dans la semaine (BFMTV).",
+  "src": [
+   "bfmtrappes"
   ]
  }
 ]

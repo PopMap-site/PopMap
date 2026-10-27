@@ -2614,5 +2614,133 @@
  "toigaza26": {
   "t": "Times of Israel — Cinq Palestiniens tués, l'armée vise deux commandants du Hamas",
   "u": "https://www.timesofisrael.com/5-palestinians-said-killed-in-gaza-strikes-idf-targets-two-hamas-commanders/"
+ },
+ "unn27": {
+  "t": "UNN — Nuit d'attaques russes (27 oct.)",
+  "u": "https://unn.ua/en/news/overnight-russia-attacked-kyiv-kharkiv-zaporizhzhia-and-dnipropetrovsk-region-there-are-fatalities-injuries-and-extensive-destruction"
+ },
+ "euolesh27": {
+  "t": "Euronews — Oleshky et Kyiv (27 oct.)",
+  "u": "https://www.euronews.com/2026/10/27/us-brokered-ceasefire-begins-in-russian-occupied-oleshky-as-strikes-hit-kyiv"
+ },
+ "nprolesh27": {
+  "t": "NPR (WUSF) — Cessez-le-feu à Oleshky",
+  "u": "https://www.wusf.org/2026-10-27/local-ceasefire-brokered-by-melania-trump-starts-in-southern-ukraine"
+ },
+ "kpkyiv27": {
+  "t": "Kyiv Post — Pont Sud et métro",
+  "u": "https://www.kyivpost.com/post/88247"
+ },
+ "ajjord26": {
+  "t": "Al Jazeera — Frappes jordaniennes en Syrie",
+  "u": "https://www.aljazeera.com/news/2026/10/26/jordan-launches-air-strikes-in-syria-in-response-to-a-fatal-church-shooting"
+ },
+ "xhjord27": {
+  "t": "Xinhua — Frappes jordaniennes dans le sud syrien",
+  "u": "https://english.news.cn/20261027/12e7f9a8f44246cc8637735deabdfacc/c.html"
+ },
+ "tassnasib": {
+  "t": "TASS — Fermeture du poste de Nassib",
+  "u": "https://tass.com/world/2208281"
+ },
+ "ajteh27": {
+  "t": "Al Jazeera — Pourparlers de Téhéran (27 oct.)",
+  "u": "https://www.aljazeera.com/news/2026/10/27/iran-saudi-turkiye-and-pakistan-agree-to-more-talks-amid-houthi-attacks"
+ },
+ "ktsaudi27": {
+  "t": "Kuwait Times (KUNA) — Missiles houthis interceptés",
+  "u": "https://kuwaittimes.com/article/52459/world/coalition-intercepts-3-houthi-missiles-toward-eastern-province-4-drones/"
+ },
+ "toilive27": {
+  "t": "Times of Israel — direct du 27 oct.",
+  "u": "https://www.timesofisrael.com/liveblog-october-27-2026"
+ },
+ "lapresse27": {
+  "t": "LaPresse — Ouverture des bureaux de vote en Israël",
+  "u": "https://fr.lapresse.it/etranger-fr/2026/10/27/israel-ouverture-des-bureaux-de-vote-pour-le-renouvellement-de-la-knesset/"
+ },
+ "i24vote27": {
+  "t": "i24NEWS — Les législatives ont commencé",
+  "u": "https://www.i24news.tv/fr/actu/elections-legislatives-2026/artc-les-legislatives-israeliennes-ont-commence"
+ },
+ "azhormuz26": {
+  "t": "AzerNews — Téhéran et le détroit d'Ormuz",
+  "u": "https://www.azernews.az/region/266256.html"
+ },
+ "ncordhormuz": {
+  "t": "Newscord — Les Gardiens déclarent Ormuz fermé",
+  "u": "https://newscord.org/article/irgc-declares-strait-of-hormuz-closed-after-strikes-on-four-tankers--Story_20261027_Noviolatingvesselsaf100b087e"
+ },
+ "trib96": {
+  "t": "The Tribune — Plans de frappes sur l'Iran (CNN)",
+  "u": "https://www.tribuneindia.com/news/cnn-report/us-forces-ready-for-major-strikes-on-iran-within-96-hours-of-trumps-order-report"
+ },
+ "jpost96": {
+  "t": "Jerusalem Post — Frappes possibles sous 96 heures",
+  "u": "https://jpost.com/middle-east/iran-news/article-912872"
+ },
+ "unhebron26": {
+  "t": "ONU Info — Hébron, plus de 3 000 déplacés",
+  "u": "https://www.un.org/en/west-bank-hebron-crackdown-displaces-thousands-t%C3%BCrk-warns-ethnic-cleansing"
+ },
+ "ajhebron26": {
+  "t": "Al Jazeera — Déplacements à Hébron",
+  "u": "https://www.aljazeera.com/news/2026/10/26/israel-expands-occupied-west-bank-expulsions-to-cement-control"
+ },
+ "rrpt25": {
+  "t": "Renascença — 31 interpellations aux campements",
+  "u": "https://rr.pt/noticia/pais/2026/10/25/onze-feridos-e-31-detidos-apos-intervencao-musculada-da-psp-nas-acampadas/490617/"
+ },
+ "sapo24pt25": {
+  "t": "24 Notícias — Campements retirés à Lisbonne et Porto",
+  "u": "https://24noticias.sapo.pt/atualidade/artigos/psp-retira-acampamentos-em-lisboa-e-no-porto-31-detidos-e-balancos-divergentes-de-feridos"
+ },
+ "obs26pt": {
+  "t": "Observador — direct du 26 oct.",
+  "u": "https://observador.pt/liveblogs/acampada-de-lisboa-em-vigilia-no-campus-da-justica-e-depois-regressa-ao-rossio/"
+ },
+ "jornada26": {
+  "t": "La Jornada — Blocages dans 19 États",
+  "u": "https://www.jornada.com.mx/noticia/2026/10/26/politica/transportistas-en-toluca-inician-paro-nacional-por-inseguridad-en-carreteras-y-extorsiones"
+ },
+ "unotv26": {
+  "t": "UnoTV — Grève des transporteurs en direct",
+  "u": "https://www.unotv.com/nacional/paro-nacional-de-transportistas-que-carreteras-tendran-bloqueos-hoy-sigue-el-minuto-a-minuto-en-vivo/"
+ },
+ "nmas27": {
+  "t": "N+ — Blocages prévus le 27 octobre",
+  "u": "https://www.nmas.com.mx/movilidad/hay-bloqueos-manana-27-de-octubre-2026-cierres-transportistas-paro/"
+ },
+ "e1trappes": {
+  "t": "Europe 1 — Attentat de Trappes et La Verrière",
+  "u": "https://www.europe1.fr/police-justice/un-mort-cinq-blesses-le-parquet-national-antiterroriste-saisi-ce-quil-faut-savoir-sur-lattentat-a-trappes-et-la-verriere-1176840"
+ },
+ "bfmtrappes": {
+  "t": "BFMTV (Yahoo) — Rassemblements après l'attentat de Trappes",
+  "u": "https://fr.news.yahoo.com/attentat-raciste-%C3%A0-trappes-plusieurs-124957299.html"
+ },
+ "sortcf26": {
+  "t": "Sortiraparis — Couvre-feu prolongé à République",
+  "u": "https://www.sortiraparis.com/actualites/a-paris/articles/355062-couvre-feu-a-paris-faut-il-encore-s-attendre-a-une-prolongation"
+ },
+ "tpcf26": {
+  "t": "Titres Presse — Couvre-feu le 26 octobre",
+  "u": "https://www.titrespresse.com/26647162603/paris-ile-couvre"
+ },
+ "virgsciop": {
+  "t": "Virgilio — Grèves du 26 octobre au 1er novembre",
+  "u": "https://www.virgilio.it/notizie/scioperi-settimana-dal-26-ottobre-all-1-novembre-2026-stop-aerei-treni-scuola-e-sanita-le-citta-coinvolte-1791230"
+ },
+ "tl24sciop": {
+  "t": "TuttoLavoro24 — Grèves du 27 au 30 octobre",
+  "u": "https://tuttolavoro24.it/2026/10/25/27-30-ottobre-scioperi-in-tutta-italia-si-fermano-trasporti-treni-scuola/"
+ },
+ "boursomat26": {
+  "t": "Boursorama (AFP) — Les lycéens appellent à continuer",
+  "u": "https://www.boursorama.com/actualite-economique/actualites/france-recus-a-matignon-les-syndicats-lyceens-appellent-a-continuer-la-mobilisation-fbad98bad357fd69602ea80ef57856b5"
+ },
+ "icimanche26": {
+  "t": "ICI Normandie — Des lycéens de la Manche réagissent",
+  "u": "https://www.ici.fr/normandie/manche-50/saint-lo/c-est-une-petite-victoire-des-lyceens-de-la-manche-reagissent-aux-annonces-du-gouvernement-apres-leur-mobilisation-7175277"
  }
 }
