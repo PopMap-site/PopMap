@@ -229,7 +229,7 @@
   "t": "2026-10-27T06:00",
   "ta": false,
   "title": "Législatives en Israël : vote en cours",
-  "text": "Mardi 27 octobre, vote pour la 26e Knesset (environ 7,3 millions d'électeurs), bureaux ouverts de 7 h à 22 h (21 h à Paris) et au-delà pour les électeurs déjà dans la file, selon la commission électorale. Participation de 31,5 % à midi, contre 28,4 % en 2022 à la même heure, la plus forte à cette heure depuis 1973 selon la commission (Times of Israel ; Haaretz parle de plus de 2,3 millions de votants). Benyamin Netanyahou accuse des militants du parti arabe Ra'am, arrêtés pour soupçons d'achat de voix, de vouloir « voler l'élection » ; la commission dit n'avoir aucun indice de fraude systématique. À Tel-Aviv, un homme porteur d'un couteau est interpellé près du chef des Démocrates Yair Golan, qui accuse le camp de Netanyahou d'« incitation » (Jerusalem Post, Ynet). Les derniers sondages donnaient une course serrée entre le bloc de Netanyahou et l'opposition menée par Gadi Eisenkot.",
+  "text": "Mardi 27 octobre, vote pour la 26e Knesset (environ 7,3 millions d'électeurs), bureaux ouverts de 7 h à 22 h (21 h à Paris) ; les électeurs déjà dans la file à 22 h pourront voter, selon la commission électorale. Participation de 55,7 % à 16 h, la plus forte à cette heure depuis 1973 selon la commission (44,9 % à 14 h). Le Likoud, soutenu par le Shas et Otzma Yehudit, a demandé une heure de vote supplémentaire en invoquant l'affluence ; le président de la commission, le juge Noam Solberg, a refusé à ce stade, en se réservant de réexaminer la question. Le parti Yashar de Gadi Eisenkot s'y opposait, y voyant une manière de préparer une contestation du scrutin. Benyamin Netanyahou accuse des militants du parti arabe Ra'am de vouloir « voler l'élection » ; la commission dit n'avoir aucun indice de fraude systématique. À Tel-Aviv, un homme porteur d'un couteau est interpellé près du chef des Démocrates Yair Golan. Premiers sondages de sortie des urnes attendus après 21 h (heure de Paris), résultats officiels le 4 novembre. Les derniers sondages donnaient une course serrée entre le bloc de Netanyahou (environ 50 sièges) et l'opposition menée par Gadi Eisenkot (environ 54), la majorité étant à 61 (Al Jazeera).",
   "src": [
    "ajpw",
    "toilive25",
@@ -240,7 +240,12 @@
    "haaretzvote27",
    "lalibreisr27",
    "jpgolan27",
-   "ynetgolan27"
+   "ynetgolan27",
+   "toiturn27",
+   "ncordlik27",
+   "dbeirutlik27",
+   "rtbflik27",
+   "ajisrres27"
   ]
  },
  {
@@ -741,11 +746,13 @@
   "t": "2026-10-31T14:00",
   "ta": true,
   "title": "Nouvelle journée d'action contre la vie chère",
-  "text": "Samedi 31 octobre, la coordination des gilets jaunes appelle à une nouvelle journée de mobilisation, en dénonçant une « dérive autoritaire » de l'exécutif ; rassemblements annoncés dans plusieurs villes, dont Dijon. Lieux et autorisations préfectorales à confirmer. Les organisations lycéennes et étudiantes appellent aussi à se mobiliser le 31 octobre et le 5 novembre (Sud Radio).",
+  "text": "Samedi 31 octobre, la coordination des gilets jaunes appelle à une nouvelle journée de mobilisation, en dénonçant une « dérive autoritaire » de l'exécutif ; rassemblements annoncés dans plusieurs villes, dont Dijon. Lieux et autorisations préfectorales à confirmer. Les organisations lycéennes et étudiantes appellent aussi à se mobiliser le 31 octobre et le 5 novembre (Sud Radio). Selon Laurent Nuñez, le dispositif de sécurité sera comparable à celui du 24 octobre ; Emmanuel Macron demande des parcours hors des centres-villes (LCP, Armees.com).",
   "src": [
    "fi31oct",
    "dijonact26",
-   "sudlyc26"
+   "sudlyc26",
+   "lcpmacron26",
+   "armeesnunez27"
   ]
  },
  {
@@ -823,6 +830,22 @@
   "text": "Le couvre-feu général du secteur République n'est pas reconduit après la nuit du 26 au 27 octobre (situation à 9 h 15 mardi). Un couvre-feu des mineurs non accompagnés, de 21 h à 6 h, reste en vigueur dans plusieurs secteurs parisiens jusqu'au jeudi 29 octobre à 6 h, de même que l'interdiction des rassemblements non déclarés. Vérifier les communiqués de la préfecture de police (Sortiraparis).",
   "src": [
    "sortcf27"
+  ]
+ },
+ {
+  "id": "p-lyon27",
+  "kind": "interdiction",
+  "place": "Lyon · Confluence – Jean-Macé",
+  "lon": 4.8185,
+  "lat": 45.7425,
+  "t": "2026-10-27T12:00",
+  "until": "2026-10-27T23:59",
+  "ta": true,
+  "title": "Manifestation non déclarée interdite mardi",
+  "text": "La préfecture du Rhône interdit le rassemblement appelé sur les réseaux sociaux mardi 27 octobre à 14 h devant l'Hôtel de Région (Confluence), avec un cortège annoncé vers la place Jean-Macé : aucun organisateur identifié ni déclaration, selon l'arrêté. L'interdiction vaut aussi si le rassemblement est déplacé ailleurs à Lyon ce mardi. Participer expose à une amende de 135 € (LyonMag, Lyon Capitale).",
+  "src": [
+   "lyonmag27",
+   "lyoncap27"
   ]
  }
 ]

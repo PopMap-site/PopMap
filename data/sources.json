@@ -2814,5 +2814,113 @@
  "rcimq26": {
   "t": "RCI — barrage à Sainte-Thérèse lundi matin",
   "u": "https://rci.fm/martinique/infos/Informations-pratiques/Un-barrage-installe-Sainte-Therese-tot-ce-lundi-matin"
+ },
+ "toiturn27": {
+  "t": "Times of Israel — participation à 14 h, record",
+  "u": "https://www.timesofisrael.com/liveblog_entry/voter-turnout-at-44-9-as-of-2-p-m-highest-at-this-hour-since-1973-election/"
+ },
+ "ncordlik27": {
+  "t": "Newscord — le Likoud demande une prolongation, 55,7 % à 16 h",
+  "u": "https://newscord.org/article/likud-seeks-voting-hours-extension-as-solberg-weighs-request-after-557-turnout--Story_20261027_PartidodeNetanyahupecc8511f6"
+ },
+ "dbeirutlik27": {
+  "t": "Daily Beirut — prolongation refusée par la commission",
+  "u": "https://dailybeirut.com/en/world/likud-requests-poll-extension-election-committee-rejects-current-bid/"
+ },
+ "rtbflik27": {
+  "t": "RTBF — le Likoud veut retarder la fermeture des bureaux",
+  "u": "https://www.rtbf.be/article/elections-legislatives-en-israel-arrestation-d-un-homme-arme-d-un-couteau-qui-menacait-un-opposant-de-gauche-11806658"
+ },
+ "ajisrres27": {
+  "t": "Al Jazeera — quand connaîtra-t-on les résultats ?",
+  "u": "https://www.aljazeera.com/news/2026/10/27/israel-election-results-2026-when-will-we-know-who-won-and-whats-next"
+ },
+ "toiholon27": {
+  "t": "Times of Israel — liveblog du 27 octobre",
+  "u": "https://www.timesofisrael.com/liveblog-october-27-2026/"
+ },
+ "kiind27": {
+  "t": "Kyiv Independent — 4 morts, 55 blessés en 24 h",
+  "u": "https://kyivindependent.com/russian-attacks-across-ukraine-kill-four-injure-55-over-past-day-as-kyiv-comes-under-ballistic-missile-assault/"
+ },
+ "censor27": {
+  "t": "Censor.net — bilan des frappes du 26-27 octobre",
+  "u": "https://censor.net/en/news/4030545/russia-has-shelled-a-number-of-regions-in-ukraine-what-is-known-about-the-consequences"
+ },
+ "gnriyad27": {
+  "t": "Gulf News — débris de missiles interceptés à Riyad",
+  "u": "https://gulfnews.com/world/gulf/saudi/saudi-arabia-debris-from-intercepted-houthi-missiles-damages-building-vehicle-in-riyadh-1.500726001"
+ },
+ "fox27iran": {
+  "t": "Fox News — direct guerre d’Iran, 27 octobre",
+  "u": "https://www.foxnews.com/live-news/us-iran-war-peace-talks-donald-trump-strait-hormuz-october-27"
+ },
+ "aaras27": {
+  "t": "Anadolu — les Houthis revendiquent une attaque sur Ras Tanura",
+  "u": "https://www.aa.com.tr/en/middle-east/yemen-s-houthis-claim-missile-attack-on-saudi-arabia-s-ras-tanura-oil-refinery/4102578"
+ },
+ "ajcoal27": {
+  "t": "Al Jazeera — la coalition dit avoir abattu missiles et drones",
+  "u": "https://www.aljazeera.com/news/2026/10/27/saudi-led-coalition-destroys-four-houthi-drones"
+ },
+ "anewskrt27": {
+  "t": "Anadolu (A News) — coupure de courant à Khartoum",
+  "u": "https://www.anews.com.tr/africa/2026/10/27/drone-attack-cuts-power-to-large-parts-of-sudanese-capital"
+ },
+ "stkrt27": {
+  "t": "Sudan Tribune — panne générale à Khartoum",
+  "u": "https://sudantribune.com/article/320503"
+ },
+ "ankrt27": {
+  "t": "Arab News — drones sur une station électrique de Khartoum",
+  "u": "https://www.arabnews.com/middle-east/sudan-rsf-drones-hit-khartoum-power-station-govt-source-3008470"
+ },
+ "aawsat26": {
+  "t": "Asharq Al-Awsat — trois tués à al-Mawasi",
+  "u": "https://english.aawsat.com/arab-world/5333747-israeli-strike-gaza-kills-three-including-child"
+ },
+ "lyonmag27": {
+  "t": "LyonMag — nouvelle manifestation interdite mardi",
+  "u": "https://www.lyonmag.com/article/154585/la-lutte-continue-a-lyon-une-nouvelle-manifestation-interdite-ce-mardi-la-prefecture-redoute-des-violences"
+ },
+ "lyoncap27": {
+  "t": "Lyon Capitale — la préfecture interdit la manifestation de mardi",
+  "u": "https://www.lyoncapitale.fr/actualite/la-prefecture-du-rhone-interdit-une-manifestation-annoncee-ce-mardi-a-lyon"
+ },
+ "lcpmacron26": {
+  "t": "LCP — Macron demande des cortèges hors des centres-villes",
+  "u": "https://lcp.fr/actualites/manifestations-du-31-octobre-macron-demande-des-corteges-hors-des-centres-villes-444302"
+ },
+ "boursomacron26": {
+  "t": "Boursorama (AFP) — Macron promet de maintenir le « calme »",
+  "u": "https://www.boursorama.com/actualite-economique/actualites/macron-promet-de-maintenir-le-calme-avant-un-nouveau-samedi-a-risque-62a2635cd8bf678f52e7e255ee9b4e85"
+ },
+ "armeesnunez27": {
+  "t": "Armees.com — dispositif renforcé pour le 31 octobre",
+  "u": "https://armees.com/laurent-nunez-emeute-31-octobre-police/"
+ },
+ "tdunez27": {
+  "t": "Trait d’Union (AFP) — Nuñez conteste toute protection de l’ultradroite",
+  "u": "https://www.traitdunion.com.ar/2026/10/27/colere-sociale-laurent-nunez-conteste-que-des-forces-de-lordre-aient-protege-lultradroite-en-marge-des-manifestations/"
+ },
+ "sudradionunez27": {
+  "t": "Sud Radio — Nuñez répond aux accusations sur l’ultradroite",
+  "u": "https://www.sudradio.fr/societe/les-forces-de-lordre-accusees-de-proteger-lultradroite-en-marge-des-manifs-nunez-conteste"
+ },
+ "bbcsrb27": {
+  "t": "BBC en serbe via Naslovi — majorité absolue pour la Liste étudiante",
+  "u": "https://naslovi.net/2026-10-27/bbc-news/rezultati-izbora-2026-apsolutna-vecina-studentske-liste-u-skupstini-srbije/42533813"
+ },
+ "novasrb27": {
+  "t": "Nova.rs — répartition des sièges",
+  "u": "https://nova.rs/vesti/politika/prvi-rezultati-izbora-u-srbiji-studentska-lista-138-mandata-ujedinjena-srbija-104/"
+ },
+ "efmex27": {
+  "t": "El Financiero — bloqueos de transportistas mardi",
+  "u": "https://www.elfinanciero.com.mx/nacional/2026/10/27/bloqueos-de-transportistas-hoy-que-carreteras-son-obstruidas-este-martes-27-de-octubre/"
+ },
+ "razonmex27": {
+  "t": "La Razón — ¿siguen los bloqueos el 27 octobre ?",
+  "u": "https://www.razon.com.mx/mexico/2026/10/27/siguen-bloqueos-en-carreteras-hoy-27-de-octubre-en-estos-puntos-se-reportan-afectaciones-por-transportistas/"
  }
 }

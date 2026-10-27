@@ -174,6 +174,10 @@
    [
     "27 oct.",
     "Le couvre-feu du secteur République a pris fin mardi à 6 h et n'était pas reconduit à 9 h 15 ; le couvre-feu des mineurs non accompagnés (21 h – 6 h) dans plusieurs secteurs et l'interdiction des rassemblements non déclarés restent en vigueur jusqu'au jeudi 29 octobre à 6 h (Sortiraparis). Dans le Nord, le couvre-feu des mineurs est prolongé jusqu'au 29 octobre dans des quartiers de six communes, dont Lille et Valenciennes (Horizon Actu, France 3)."
+   ],
+   [
+    "27 oct. soir",
+    "En visite à Marseille lundi, Emmanuel Macron a demandé que les cortèges des 31 octobre et 5 novembre évitent les centres-villes et annoncé un soutien financier aux commerçants, tout en reconnaissant des « demandes légitimes » (LCP, AFP via Boursorama). Mardi, Laurent Nuñez annonce un dispositif de sécurité comparable à celui du 24 octobre pour samedi, avec drones et hélicoptères (Armees.com). Le ministre conteste les accusations de députés LFI selon lesquelles la police aurait protégé des militants d'ultradroite en marge des cortèges du 24 : « Non, certainement pas » (AFP via Trait d'Union, Sud Radio)."
    ]
   ],
   "spots": [
@@ -409,7 +413,12 @@
    "boursomat26",
    "icimanche26",
    "sortcf27",
-   "horizonnord27"
+   "horizonnord27",
+   "lcpmacron26",
+   "boursomacron26",
+   "armeesnunez27",
+   "tdunez27",
+   "sudradionunez27"
   ],
   "photos": [
    {
@@ -446,7 +455,7 @@
   "cat": "emeute",
   "sev": 3,
   "live": true,
-  "date": "2026-10-24",
+  "date": "2026-10-27",
   "zoom": 9000,
   "title": "L'office de tourisme de Bellecour incendié",
   "summary": "Environ 20 000 manifestants. Le pavillon historique de l'office de tourisme, place Bellecour, a été saccagé puis incendié vers 14 h 30 ; des groupes hostiles ont empêché les pompiers d'approcher. Magasins attaqués, canons à eau sur les ponts en fin d'après-midi. Dimanche, une cinquantaine de jeunes ont tenté de forcer la vitrine d'un magasin Lacoste.",
@@ -528,6 +537,10 @@
    [
     "24 oct.",
     "Malgré l'interdiction de toute manifestation dans la ville, jusqu'à 10 000 personnes selon la préfecture. Place Jean-Macé (7e), un rassemblement sans déclarant est dispersé au gaz lacrymogène après sommations ; selon la préfecture, de nombreux participants étaient équipés et cagoulés. Bilan provisoire : 22 blessés dont 18 policiers ou gendarmes, 36 interpellations, trois commerces dégradés. Couvre-feu de 23 h à 6 h dans un périmètre restreint de la Presqu'île dans la nuit de samedi à dimanche (LyonMag, France 3)."
+   ],
+   [
+    "27 oct.",
+    "La préfecture interdit un rassemblement non déclaré appelé à 14 h devant l'Hôtel de Région, à Confluence, avec un cortège annoncé vers la place Jean-Macé ; elle invoque l'absence d'organisateur et un visuel d'appel montrant un véhicule en flammes (LyonMag, Lyon Capitale). Pas de bilan publié en fin d'après-midi."
    ]
   ],
   "spots": [
@@ -661,7 +674,9 @@
    "tdlbourse22",
    "tpmaires22",
    "lyonmagbil24",
-   "f3lyon24"
+   "f3lyon24",
+   "lyonmag27",
+   "lyoncap27"
   ],
   "photos": [
    {
@@ -1331,7 +1346,7 @@
   "cat": "emeute",
   "sev": 2,
   "live": false,
-  "date": "2026-10-17",
+  "date": "2026-10-27",
   "t": "2026-10-17T14:00",
   "ta": true,
   "zoom": 12000,
@@ -1374,12 +1389,18 @@
    "nicep",
    "ajeu2",
    "morandcf",
-   "boursocf"
+   "boursocf",
+   "tdunez27",
+   "sudradionunez27"
   ],
   "tl": [
    [
     "19 oct.",
     "Couvre-feu pour les mineurs de 21 h à 6 h dans le centre-ville jusqu'au dimanche 25 octobre, annoncé par le maire Éric Ciotti et relayé par la préfecture."
+   ],
+   [
+    "24-27 oct.",
+    "Selon la préfecture, une centaine de militants masqués d'ultradroite ont convergé vers le centre-ville samedi 24 pour s'en prendre aux manifestants ; onze personnes seront jugées, et des masques, gants, gaz lacrymogènes et matraques ont été saisis dans des voitures. Des députés LFI accusent la police de les avoir protégés, ce que conteste le ministre de l'Intérieur (AFP via Trait d'Union, Sud Radio)."
    ]
   ]
  },
@@ -2971,7 +2992,7 @@
   "cat": "manif",
   "sev": 1,
   "live": true,
-  "date": "2026-10-26",
+  "date": "2026-10-27",
   "t": "2026-10-16T12:00",
   "ta": true,
   "title": "La liste étudiante remporte les législatives",
@@ -3001,7 +3022,9 @@
    "ajsrb26",
    "danasrik26",
    "n1rik26",
-   "mojns26"
+   "mojns26",
+   "bbcsrb27",
+   "novasrb27"
   ],
   "tl": [
    [
@@ -3043,6 +3066,10 @@
    [
     "26 oct. soir",
     "Selon les résultats préliminaires de la commission électorale (RIK), la Liste étudiante obtient 52,65 % des voix et « Serbie unie » 39,22 % (Danas ; 52,54 % selon N1 à un stade antérieur du décompte). L'institut CeSID projette 140 sièges sur 250 pour la Liste étudiante et 103 pour la liste d'Aleksandar Vučić. Rassemblements festifs prévus lundi soir à Novi Sad, devant le palais de la Banovina à 19 h, et à Belgrade."
+   ],
+   [
+    "27 oct.",
+    "Selon les données préliminaires de la commission électorale (RIK) après dépouillement de 97 % des bureaux : 52,71 % pour la Liste étudiante (environ 140 sièges sur 250, majorité absolue) et 39,17 % pour « Serbie unie » (environ 104 sièges) ; participation proche de 70 % (BBC en serbe, Nova.rs, qui compte 141 sièges)."
    ]
   ],
   "figs": [
@@ -3227,7 +3254,9 @@
    "kpkyiv27",
    "unn27",
    "hromkyiv27",
-   "meduzakyiv27"
+   "meduzakyiv27",
+   "kiind27",
+   "censor27"
   ],
   "t": "2026-10-14T12:00",
   "ta": true,
@@ -3344,6 +3373,10 @@
    [
     "27 oct. matin",
     "Bilan porté à un mort et 14 blessés selon la police et la mairie (Meduza évoque au moins dix blessés). Selon l'armée de l'air, 280 drones (dont 69 à réaction) et des missiles balistiques tirés depuis la région de Briansk ; 255 drones et deux missiles neutralisés, impacts sur 25 sites. La ligne rouge du métro a repris ; la ligne verte reste interrompue entre Osokorky et Tchervonyï Khoutir (Hromadske, Meduza)."
+   ],
+   [
+    "27 oct.",
+    "Bilan de la nuit : au moins un mort et 15 blessés à Kyiv, dont un ambulancier et une étudiante de 20 ans ; 25 sites touchés par des munitions et 16 par des débris. À l'échelle du pays, au moins 4 morts et 55 blessés en 24 heures selon les autorités ukrainiennes (Kyiv Independent, Censor.net)."
    ]
   ],
   "media": [
@@ -3415,7 +3448,8 @@
    "azhormuz26",
    "ncordhormuz",
    "iwtehran27",
-   "anewstehran27"
+   "anewstehran27",
+   "fox27iran"
   ],
   "t": "2026-10-16T12:00",
   "ta": true,
@@ -3475,6 +3509,10 @@
    [
     "26-27 oct.",
     "La réunion de Téhéran entre l'Iran, l'Arabie saoudite, la Turquie et le Pakistan s'achève lundi, selon la télévision d'État iranienne : les quatre pays annoncent une déclaration commune promettant de poursuivre les discussions sur la coopération régionale, y compris « la paix et la sécurité ». Selon un responsable pakistanais cité par Reuters, la situation dans le détroit et les attaques houthies contre l'Arabie saoudite ont été abordées ; aucun résultat concret n'est annoncé. Les trois autres pays n'avaient pas publié de communiqué séparé (IranWire, A News)."
+   ],
+   [
+    "27 oct.",
+    "Selon la marine iranienne, un pétrolier naviguant sans transpondeur a heurté des mines dans l'est du détroit et pris feu ; l'Iran dit que le passage reste fermé aux navires « contrevenants ». Le commandement militaire américain (Centcom) qualifie de « fausse » l'affirmation des Gardiens de la révolution selon laquelle les forces américaines auraient quitté le détroit. L'Autorité iranienne du détroit annonce des « poursuites » contre les navires liés au groupe sud-coréen Sinokor à partir du 1er novembre. Information d'une seule source à ce stade (Fox News)."
    ]
   ]
  },
@@ -3561,7 +3599,7 @@
   "cat": "frappe",
   "sev": 3,
   "live": true,
-  "date": "2026-10-26",
+  "date": "2026-10-27",
   "title": "Les Houthis frappent l'aéroport",
   "summary": "Pire attaque sur le sol saoudien depuis 2015 : une frappe sur l'aéroport de la capitale a fait 13 morts.",
   "figs": [
@@ -3597,7 +3635,9 @@
    "ajcoal26",
    "toiteh26",
    "jtcoal26",
-   "ajteh27"
+   "ajteh27",
+   "gnriyad27",
+   "fox27iran"
   ],
   "t": "2026-10-14T12:00",
   "ta": true,
@@ -3645,6 +3685,10 @@
    [
     "26 oct. soir",
     "La coalition dit avoir abattu trois drones supplémentaires au-dessus de Riyad et du sud du pays ; le Parlement égyptien autorise l'armée à aider à la défense de l'Arabie saoudite (Al Jazeera)."
+   ],
+   [
+    "27 oct.",
+    "Selon la Défense civile saoudienne, des débris de deux missiles balistiques houthis interceptés au-dessus de Riyad endommagent un bâtiment, un chantier et un véhicule, sans faire de victime (Gulf News). Le département d'État américain ordonne le départ du personnel non essentiel de ses représentations en Arabie saoudite et de leurs familles, en invoquant les frappes houthies sur des aéroports et des infrastructures (Fox News)."
    ]
   ]
  },
@@ -3665,7 +3709,9 @@
    "fdd",
    "alhurra22",
    "ktsaudi27",
-   "toilive27"
+   "toilive27",
+   "aaras27",
+   "ajcoal27"
   ],
   "t": "2026-10-14T12:00",
   "ta": true,
@@ -3677,6 +3723,10 @@
    [
     "27 oct. nuit",
     "La coalition menée par l'Arabie saoudite dit avoir intercepté trois missiles balistiques houthis visant la province orientale, sans victime, et abattu quatre drones en direction du sud du royaume ; la Défense civile saoudienne a émis des alertes pour la province orientale et le gouvernorat d'Al-Kharj, levées ensuite (KUNA, Times of Israel). Les Houthis n'ont pas commenté dans l'immédiat."
+   ],
+   [
+    "27 oct.",
+    "Les Houthis revendiquent une attaque de missile contre la raffinerie de Ras Tanura, sur la côte est ; Riyad ne l'a pas confirmée, la coalition disant avoir intercepté trois missiles visant la province orientale sans victime (Anadolu, Al Jazeera)."
    ]
   ]
  },
@@ -3970,7 +4020,7 @@
   "cat": "guerre",
   "sev": 3,
   "live": true,
-  "date": "2026-10-26",
+  "date": "2026-10-27",
   "title": "Un an de cessez-le-feu, des frappes presque quotidiennes",
   "summary": "Le cessez-le-feu du 10 octobre 2025 a un an, mais plus de 100 ONG (Amnesty, NRC, Save the Children, Oxfam) estiment qu'il n'existe « que de nom ». Selon le ministère de la Santé de Gaza, 1 493 Palestiniens ont été tués et 5 299 blessés depuis la trêve (au 12 octobre). Israël, qui contrôle près des deux tiers de la bande, a encore avancé sa « ligne jaune » dans des quartiers de Gaza City. Israël affirme viser des membres de groupes armés ; plusieurs de ces affirmations sont contestées et non vérifiées de façon indépendante. L'aide entre à environ un tiers du rythme prévu.",
   "src": [
@@ -4000,7 +4050,8 @@
    "toilive26",
    "ajgaza26b",
    "toigaza26",
-   "toilb27"
+   "toilb27",
+   "aawsat26"
   ],
   "t": "2026-10-12T12:00",
   "ta": true,
@@ -4083,6 +4134,10 @@
    [
     "26 oct. soir",
     "Au moins cinq Palestiniens tués dans la journée selon les secours, dont une fillette de 7 ans à al-Mawasi (Al Jazeera). L'armée israélienne dit avoir frappé trois membres de groupes armés sortis d'un puits de tunnel à Khan Younès, du côté de la « ligne jaune » contrôlé par le Hamas, et avoir visé deux commandants du Hamas (Times of Israel)."
+   ],
+   [
+    "26 oct.",
+    "Selon la Défense civile de Gaza citée par l'AFP, 11 morts et 50 blessés en 24 heures, dont trois tués, parmi lesquels une fillette de 7 ans, dans une frappe sur un camp de déplacés à al-Mawasi ; l'armée israélienne dit examiner ces informations (Asharq Al-Awsat)."
    ],
    [
     "27 oct.",
@@ -6713,20 +6768,33 @@
   "lat": 15.585,
   "cat": "frappe",
   "sev": 1,
-  "live": false,
-  "date": "2026-10-19",
-  "t": "2026-10-19T12:00",
+  "live": true,
+  "date": "2026-10-27",
+  "t": "2026-10-27T05:00",
   "ta": true,
-  "title": "Trois enfants tués par un drone",
-  "summary": "Lundi, une frappe de drone dans le quartier d'Imtidad Nasser, à l'est de l'aéroport, tue trois enfants de 2, 4 et 6 ans selon le groupe Emergency Lawyers, qui l'attribue aux Forces de soutien rapide (FSR) ; les FSR n'ont pas réagi dans l'immédiat.",
+  "title": "Une station électrique frappée, la capitale privée de courant",
+  "summary": "Le 27 octobre au petit matin, un drone frappe la sous-station électrique d'Al-Markhiyat, au nord-ouest d'Omdourman : une grande partie de la capitale est privée de courant, selon des témoins et des habitants. Selon une source gouvernementale citée par Arab News, l'attaque est le fait des Forces de soutien rapide (FSR), qui commentent rarement ces accusations ; la veille, cinq stations électriques avaient été frappées dans d'autres États. Le 19 octobre, trois enfants avaient été tués par un drone selon le collectif Emergency Lawyers.",
   "figs": [
+   [
+    "1",
+    "sous-station électrique touchée (Omdourman)"
+   ],
    [
     "3",
     "enfants tués (Emergency Lawyers)"
    ]
   ],
   "src": [
-   "apsudan19"
+   "apsudan19",
+   "anewskrt27",
+   "stkrt27",
+   "ankrt27"
+  ],
+  "tl": [
+   [
+    "27 oct. matin",
+    "Drone sur la sous-station d'Al-Markhiyat (Omdourman) : coupures de courant dans une grande partie de Khartoum. Pas de bilan humain ni de communiqué officiel sur les dégâts à 6 h 30 GMT (A News/Anadolu, Sudan Tribune, Arab News)."
+   ]
   ]
  },
  {
@@ -7075,6 +7143,10 @@
    [
     "26 oct. soir",
     "Frappes répétées sur le district de Novobavarskyï à Kharkiv : deux morts et quatre blessés selon les autorités ; immeubles, maisons et voitures endommagés, un important incendie (UNN, Euronews)."
+   ],
+   [
+    "26-27 oct.",
+    "Trois morts et huit blessés dans la région en 24 heures, à Kharkiv, Chevtchenkove et Vilchany, selon les autorités régionales (Censor.net)."
    ]
   ],
   "spots": [],
@@ -7086,7 +7158,8 @@
    "rbcepic25",
    "ligaepic25",
    "unn27",
-   "euolesh27"
+   "euolesh27",
+   "censor27"
   ]
  },
  {
@@ -7399,7 +7472,7 @@
   "cat": "manif",
   "sev": 1,
   "live": false,
-  "date": "2026-10-24",
+  "date": "2026-10-27",
   "t": "2026-10-24T20:00",
   "ta": true,
   "title": "Rassemblement pour une commission d'enquête sur le 7-Octobre",
@@ -7414,10 +7487,16 @@
    [
     "24 oct.",
     "Rassemblement place des Otages (Times of Israel)."
+   ],
+   [
+    "27 oct.",
+    "Jour de vote : selon le parti des Démocrates, deux de ses militants sont frappés à un stand de campagne à Holon par un homme qu'il dit proche d'Otzma Yehudit ; la police interpelle à Tel-Aviv un homme porteur d'un couteau qui s'approchait de Yair Golan (Times of Israel, RTBF)."
    ]
   ],
   "src": [
-   "toi24"
+   "toi24",
+   "toiholon27",
+   "rtbflik27"
   ]
  },
  {
@@ -7561,7 +7640,7 @@
   "cat": "frappe",
   "sev": 2,
   "live": false,
-  "date": "2026-10-26",
+  "date": "2026-10-27",
   "t": "2026-10-26T12:00",
   "ta": true,
   "zoom": 250,
@@ -7581,6 +7660,10 @@
    [
     "26 oct.",
     "Quatre bombes guidées sur Yasnohirka (1 mort, 10 blessés) ; une maison détruite à Sloviansk (1 mort), selon les secours ukrainiens (Euromaidan Press, 112.ua, Glavnoe)."
+   ],
+   [
+    "26-27 oct.",
+    "Dans la région de Donetsk, trois morts (Kramatorsk, Soukhanivka, Iverske) et 22 blessés en 24 heures selon les autorités régionales (Censor.net, Kyiv Independent)."
    ]
   ],
   "spots": [
@@ -7604,7 +7687,9 @@
   "src": [
    "empua26",
    "112yas26",
-   "glavyas26"
+   "glavyas26",
+   "censor27",
+   "kiind27"
   ]
  },
  {
@@ -7690,6 +7775,10 @@
    [
     "27 oct. matin",
     "La plupart des blocages ont été levés dans la nuit, mais certains reprennent mardi matin : fermetures signalées sur l'autoroute Mexico-Toluca (Lerma, péage de La Marquesa) selon le ministère des Infrastructures (SICT). Des transporteurs rencontrent le ministère des Finances sur la loi de recettes 2027, puis les autorités de sécurité ; une partie des organisations maintient ses actions malgré ces tables de dialogue (El Financiero, El Informador)."
+   ],
+   [
+    "27 oct.",
+    "Deuxième jour de grève : sur l'autoroute Mexico-Toluca, à Ocoyoacac, un poids lourd percute un barrage dans la nuit et plusieurs véhicules prennent feu, le conducteur et son copilote sont blessés ; une seule voie libre sur Guadalajara-Zapotlanejo, blocages intermittents à Aguascalientes. Le syndicat Hamotac revendique des actions dans les 32 États, le gouvernement en compte 19. Le président de la Canacar demande que le dialogue se poursuive mercredi avec des responsables ayant pouvoir de décision (El Financiero, La Razón)."
    ]
   ],
   "spots": [
@@ -7742,7 +7831,9 @@
    "unotv26",
    "nmas27",
    "elfinmx27",
-   "infmx27"
+   "infmx27",
+   "efmex27",
+   "razonmex27"
   ]
  },
  {
