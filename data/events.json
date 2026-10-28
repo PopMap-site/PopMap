@@ -190,6 +190,10 @@
    [
     "28 oct. matin",
     "Pour samedi 31 octobre, Laurent Nuñez s'attend à ce que ce soit « de nouveau compliqué » et annonce un dispositif « extrêmement robuste » ; selon lui, la journée du 24 a été « maîtrisée », avec 1 435 interpellations, 267 policiers et gendarmes et 150 manifestants blessés, dont trois grièvement (LCP). Les gilets jaunes appellent à des « casserolades » le 31, avec un sit-in à 14 h devant le Palais-Bourbon et des rassemblements à 19 h devant les mairies ; leur plateforme recense plus de 400 rassemblements (Sud Radio)."
+   ],
+   [
+    "28 oct. midi",
+    "Débat sans vote sur l'avenir de Parcoursup à 17 h à l'Assemblée nationale, à la demande du gouvernement, qui a annoncé son remplacement en 2028 ; LFI juge un débat sans vote inutile, le PS y voit « un bon début », l'UDR doute que les annonces soient tenues. Les organisations de jeunesse appellent à poursuivre la mobilisation (LCP, Franceinfo). Pour samedi, les gilets jaunes ont déposé un parcours Bastille – Concorde ; la préfecture de police n'a pas encore rendu sa décision (Sortiraparis)."
    ]
   ],
   "spots": [
@@ -432,7 +436,10 @@
    "tdunez27",
    "sudradionunez27",
    "lcpnunez26",
-   "sudhallo26"
+   "sudhallo26",
+   "lcpparc28",
+   "fiparc28",
+   "srp31"
   ],
   "photos": [
    {
@@ -3562,7 +3569,7 @@
   "cat": "guerre",
   "sev": 2,
   "live": true,
-  "date": "2026-10-27",
+  "date": "2026-10-28",
   "title": "Menace de reprise des bombardements",
   "summary": "Le Pentagone a demandé de préparer une reprise des opérations majeures ; Trump a toutefois dit le 8 octobre ne pas frapper avant les midterms du 3 novembre, tout en menaçant un site nucléaire. Le 26 octobre, l'Iran reçoit l'Arabie saoudite, la Turquie et le Pakistan ; les quatre pays conviennent de poursuivre le dialogue.",
   "src": [
@@ -3584,7 +3591,10 @@
    "abcteh26",
    "trib96",
    "jpost96",
-   "ajteh27"
+   "ajteh27",
+   "aawsj28",
+   "ynetwsj28",
+   "ihwsj28"
   ],
   "t": "2026-10-16T12:00",
   "ta": true,
@@ -3624,6 +3634,10 @@
    [
     "27 oct.",
     "À l'issue des pourparlers de Téhéran, l'Iran, l'Arabie saoudite, la Turquie et le Pakistan disent dans un communiqué commun, rapporté par les médias d'État iraniens, vouloir « poursuivre le dialogue ». Selon un responsable pakistanais cité par Reuters, le maréchal Asim Munir a présenté une proposition, avec l'aval de Donald Trump selon lui ; son contenu n'est pas connu (Al Jazeera)."
+   ],
+   [
+    "28 oct.",
+    "Selon le Wall Street Journal, les États-Unis ont demandé à plusieurs pays du Golfe de se préparer à une campagne militaire « courte et intense » contre l'Iran après les élections de mi-mandat du 3 novembre ; Donald Trump n'aurait pas pris de décision finale. La Maison-Blanche refuse de commenter des « plans militaires sensibles qui peuvent exister ou non » et répète que toutes les options restent sur la table (Anadolu, Ynet, Israel Hayom)."
    ]
   ]
  },
@@ -3846,9 +3860,9 @@
   "cat": "guerre",
   "sev": 3,
   "live": true,
-  "date": "2026-10-27",
-  "title": "Nouvelle frappe de drone sur un marché : 21 morts",
-  "summary": "Lundi 26 octobre vers 20 h (heure locale), une frappe de drone touche un marché du nord de Nyala, capitale de fait des Forces de soutien rapide (FSR) au Darfour : au moins 21 morts et 40 blessés selon un médecin de l'hôpital de Nyala cité par l'AFP, qui ne peut dire combien de victimes étaient des combattants. La frappe n'a pas été revendiquée ; l'armée soudanaise frappe régulièrement la ville. Le 16 octobre, une frappe sur le marché au bétail avait fait 30 morts et 47 blessés selon une source hospitalière ; les FSR avaient accusé l'armée.",
+  "date": "2026-10-28",
+  "title": "Frappe sur un marché : plus de 100 morts selon un groupe de défense des droits",
+  "summary": "Lundi 26 octobre vers 20 h (heure locale), une frappe de drone touche un marché du nord de Nyala, capitale de fait des Forces de soutien rapide (FSR) au Darfour. Le bilan initial d'un médecin cité par l'AFP était d'au moins 21 morts ; selon le groupe soudanais Emergency Lawyers, qui accuse l'armée soudanaise et demande une enquête indépendante, plus de 100 personnes ont été tuées et 113 blessées. Médecins sans frontières dit avoir reçu 36 corps et 150 blessés dans son hôpital de Nyala. L'armée n'a pas réagi dans les sources consultées ; bilan non vérifié de façon indépendante. Le 16 octobre, une frappe sur le marché au bétail avait fait 30 morts selon une source hospitalière.",
   "src": [
    "aj",
    "nyalamarket",
@@ -3856,18 +3870,29 @@
    "citisudan20",
    "ajnyala27",
    "arabnyala27",
-   "sttnyala27"
+   "sttnyala27",
+   "apnyala28",
+   "arabnyala28",
+   "khaamanyala28"
   ],
   "t": "2026-10-17T12:00",
   "ta": true,
   "figs": [
    [
-    "21",
-    "morts au marché, 26 oct. (source médicale, AFP)"
+    "100+",
+    "morts, 26 oct. (Emergency Lawyers)"
    ],
    [
-    "40",
-    "blessés"
+    "36",
+    "corps reçus à l'hôpital MSF de Nyala"
+   ],
+   [
+    "150",
+    "blessés vus aux urgences (MSF)"
+   ],
+   [
+    "21",
+    "morts (premier bilan, source médicale, AFP)"
    ],
    [
     "30",
@@ -3886,6 +3911,10 @@
    [
     "27 oct.",
     "Selon une source locale citée par Sudan Tribune, la frappe de lundi soir a visé deux sites, dont un marché de nuit à Doumaya ; elle est attribuée à l'armée soudanaise, qui chercherait selon des sources militaires à affaiblir les FSR avant une éventuelle offensive terrestre. Bilan non vérifié de façon indépendante."
+   ],
+   [
+    "28 oct.",
+    "Emergency Lawyers évoque « un massacre » : plus de 100 morts et 113 blessés, dont de nombreuses femmes et enfants, et attribue la frappe à l'armée. MSF dit avoir reçu 36 corps et vu 150 blessés aux urgences. Pas de réaction de l'armée (AP, Arab News, Khaama)."
    ]
   ]
  },
@@ -4072,7 +4101,7 @@
   "cat": "guerre",
   "sev": 3,
   "live": true,
-  "date": "2026-10-27",
+  "date": "2026-10-28",
   "title": "Un an de cessez-le-feu, des frappes presque quotidiennes",
   "summary": "Le cessez-le-feu du 10 octobre 2025 a un an, mais plus de 100 ONG (Amnesty, NRC, Save the Children, Oxfam) estiment qu'il n'existe « que de nom ». Selon le ministère de la Santé de Gaza, 1 493 Palestiniens ont été tués et 5 299 blessés depuis la trêve (au 12 octobre). Israël, qui contrôle près des deux tiers de la bande, a encore avancé sa « ligne jaune » dans des quartiers de Gaza City. Israël affirme viser des membres de groupes armés ; plusieurs de ces affirmations sont contestées et non vérifiées de façon indépendante. L'aide entre à environ un tiers du rythme prévu.",
   "src": [
@@ -4105,7 +4134,8 @@
    "toilb27",
    "aawsat26",
    "dtgaza26",
-   "lptgaza27"
+   "lptgaza27",
+   "anewsgaza28"
   ],
   "t": "2026-10-12T12:00",
   "ta": true,
@@ -4200,6 +4230,10 @@
    [
     "26-27 oct.",
     "Selon la Défense civile de Gaza, 13 morts et une soixantaine de blessés en 24 heures, dans des frappes sur des tentes de déplacés à Khan Younès et al-Mawasi, à Rimal (Gaza-Ville) et à l'est de Deir al-Balah ; l'armée israélienne a dit à l'AFP ne pas avoir connaissance d'une activité à al-Mawasi lundi (AFP via Dhaka Tribune, La Presse)."
+   ],
+   [
+    "27-28 oct.",
+    "Selon des sources médicales citées par Anadolu, deux Palestiniens tués et cinq blessés mardi, à Jabalia et près de Rafah (al-Mawasi), le jour des législatives israéliennes ; deux blessés de frappes antérieures, dont une fillette de six ans, ont succombé. Une seule source à ce stade ; l'armée israélienne n'a pas commenté (A News)."
    ]
   ],
   "spots": [
@@ -5437,7 +5471,7 @@
   "cat": "guerre",
   "sev": 2,
   "live": true,
-  "date": "2026-10-27",
+  "date": "2026-10-28",
   "t": "2026-10-17T12:00",
   "ta": true,
   "title": "Combats intensifiés autour de la ville assiégée",
@@ -5450,7 +5484,8 @@
    "ajmecca25",
    "nationriy26",
    "apyem27",
-   "hrwtaiz26"
+   "hrwtaiz26",
+   "africanewsyem28"
   ],
   "tl": [
    [
@@ -5468,6 +5503,10 @@
    [
     "26-27 oct.",
     "Le ministère de la Santé contrôlé par les Houthis accuse les forces gouvernementales d'avoir frappé une station-service lundi soir : au moins deux morts et plusieurs blessés, information que l'AP n'a pas pu vérifier. Human Rights Watch accuse les Houthis d'avoir endommagé à l'explosif, le 18 octobre, la route de Hayjat al-Abd, principal accès de la ville pour la nourriture, le carburant et les médicaments (AP, HRW)."
+   ],
+   [
+    "27 oct.",
+    "À Sanaa, une cimenterie en feu après une frappe que les médias houthis attribuent aux forces gouvernementales soutenues par l'Arabie saoudite ; pas de bilan connu (Africanews)."
    ]
   ]
  },
@@ -7200,7 +7239,7 @@
   "cat": "frappe",
   "sev": 2,
   "live": true,
-  "date": "2026-10-27",
+  "date": "2026-10-28",
   "t": "2026-10-21T02:00",
   "ta": true,
   "title": "Drones sur des maisons : deux morts",
@@ -7231,9 +7270,22 @@
    [
     "26-27 oct.",
     "Trois morts et huit blessés dans la région en 24 heures, à Kharkiv, Chevtchenkove et Vilchany, selon les autorités régionales (Censor.net)."
+   ],
+   [
+    "28 oct.",
+    "Nouvelle frappe sur Kharkiv : cinq blessés, dont un enfant de 4 ans, et un important incendie dans le district d'Osnovianskyï, où entrepôts, une entreprise et une entrée de métro sont endommagés selon les autorités locales (Ukrainska Pravda, Euronews, Glavnoe). Dans la nuit, la Russie a lancé un missile balistique et 88 drones sur l'Ukraine ; 71 abattus ou neutralisés selon l'armée de l'air ukrainienne (Ukrinform)."
    ]
   ],
-  "spots": [],
+  "spots": [
+   {
+    "n": "Osnovianskyï (Kharkiv)",
+    "lon": 36.205,
+    "lat": 49.955,
+    "d": "Le 28 octobre, une frappe russe blesse cinq personnes, dont un enfant de 4 ans, et provoque un important incendie d'entrepôts dans le district d'Osnovianskyï, selon les autorités locales.",
+    "t": "2026-10-28T08:00",
+    "ta": true
+   }
+  ],
   "src": [
    "kharkiv21",
    "anua21",
@@ -7243,7 +7295,11 @@
    "ligaepic25",
    "unn27",
    "euolesh27",
-   "censor27"
+   "censor27",
+   "pravdakh28",
+   "eunkh28",
+   "glavkh28",
+   "ukrinf28"
   ]
  },
  {
@@ -8106,20 +8162,20 @@
   "summary": "Mardi 27 octobre, les Israéliens ont voté pour la 26e Knesset (120 sièges, majorité à 61). Participation de 77,7 % à la fermeture des bureaux selon la commission électorale centrale, 7,1 points de plus qu'en 2022. Selon les sondages de sortie des urnes, le Likoud de Benyamin Netanyahou arrive en tête devant Yashar de Gadi Eisenkot, mais aucun bloc n'atteint la majorité ; les listes arabes obtiendraient un nombre de sièges record. Les sondages révisés mercredi matin donnent l'avantage au bloc de Netanyahou. Plus de 650 000 bulletins sous double enveloppe restent à vérifier : les chiffres peuvent encore évoluer, en particulier pour les partis proches du seuil de 3,25 %.",
   "figs": [
    [
-    "53-57",
-    "sièges pour le bloc Netanyahou (sondages révisés du 28 oct., chaînes 11, 12, 13)"
+    "54",
+    "sièges pour le bloc Netanyahou (dépouillement en cours, 28 oct., Times of Israel)"
    ],
    [
-    "47",
-    "sièges pour le bloc d'opposition (mêmes sondages)"
+    "49",
+    "sièges pour le bloc d'opposition mené par Gadi Eisenkot (même décompte)"
    ],
    [
     "27-28",
     "sièges pour le Likoud ; 21 pour Yashar (Jerusalem Post)"
    ],
    [
-    "16-19",
-    "sièges pour les listes arabes (sondages)"
+    "17",
+    "sièges pour les listes arabes (même décompte)"
    ],
    [
     "77,7 %",
@@ -8134,6 +8190,10 @@
    [
     "28 oct. matin",
     "Sondages révisés après le début du dépouillement : 53 à 57 sièges pour le bloc Netanyahou, 47 pour l'opposition, toujours sans majorité ; i24NEWS donne 55 sièges à la coalition sortante, 49 à l'opposition et 16 aux partis arabes. Les partis d'Ofer Winter et de Yoaz Hendel seraient sous le seuil (Jerusalem Post, i24NEWS, Ynet). Le décompte des bulletins sous double enveloppe pourrait durer jusqu'à vendredi."
+   ],
+   [
+    "28 oct. midi",
+    "Selon le décompte partiel publié par le Times of Israel, le bloc mené par le Likoud obtiendrait 54 sièges, en deçà de la majorité de 61, le bloc d'opposition mené par Gadi Eisenkot 49 et les partis arabes 17. Benyamin Netanyahou revendique une « majorité décisive » au sein du public sioniste ; les votes sous double enveloppe, dont ceux des soldats, restent à compter (Times of Israel, Al Jazeera)."
    ]
   ],
   "spots": [
@@ -8150,7 +8210,9 @@
    "jpisr28",
    "ynetisr28",
    "i24isr27",
-   "toic12exit"
+   "toic12exit",
+   "toilive28",
+   "ajisr28"
   ]
  },
  {
@@ -8191,6 +8253,56 @@
   ],
   "src": [
    "natbagdad27"
+  ]
+ },
+ {
+  "id": "rastanura",
+  "place": "Ras Tanura",
+  "country": "Arabie saoudite",
+  "lon": 50.1583,
+  "lat": 26.6436,
+  "cat": "frappe",
+  "sev": 2,
+  "live": true,
+  "date": "2026-10-28",
+  "t": "2026-10-27T05:30",
+  "ta": true,
+  "title": "Missiles houthis sur la raffinerie et sur Riyad",
+  "summary": "Mardi 27 octobre vers l'aube, les Houthis disent avoir frappé au missile balistique la raffinerie de Ras Tanura (550 000 barils par jour), la plus grande du royaume, et le ministère de la Défense à Riyad. L'agence de sécurité maritime Vanguard signale un incendie dans la zone de Ras Tanura, maîtrisé, sans connaître l'ampleur des dégâts. Les autorités saoudiennes ne commentent pas les cibles ; elles disent avoir abattu deux missiles visant Riyad, dont des débris ont touché un bâtiment, un chantier et une voiture, et la coalition dit avoir intercepté trois missiles vers la province de l'Est. Aucune victime signalée.",
+  "figs": [
+   [
+    "2",
+    "missiles interceptés au-dessus de Riyad (autorités saoudiennes)"
+   ],
+   [
+    "3",
+    "missiles interceptés vers la province de l'Est (coalition)"
+   ],
+   [
+    "0",
+    "victime signalée"
+   ]
+  ],
+  "tl": [
+   [
+    "27 oct. aube",
+    "Explosions entendues par un habitant d'Al-Khobar (AFP). Le porte-parole houthi Yahya Saree revendique des « incendies massifs » à Ras Tanura et un coup direct sur le ministère de la Défense, non confirmés ; il revendique aussi des tirs vers les aéroports de Najran et d'Abha et la base de Khamis Mushait. Alerte par SMS aux habitants de Riyad (AFP via Dawn, Xinhua, Africanews)."
+   ]
+  ],
+  "spots": [
+   {
+    "n": "Riyad",
+    "lon": 46.6753,
+    "lat": 24.7136,
+    "d": "Deux missiles balistiques abattus au-dessus de Riyad le 27 octobre selon les autorités saoudiennes ; des débris ont endommagé un bâtiment, un chantier et une voiture.",
+    "t": "2026-10-27T05:30",
+    "ta": true
+   }
+  ],
+  "src": [
+   "dawnrt28",
+   "xinhuariy27",
+   "africanewsyem28"
   ]
  }
 ]

@@ -734,7 +734,7 @@
   "t": "2026-10-31T14:00",
   "ta": true,
   "title": "Nouvelle journée d'action contre la vie chère",
-  "text": "Samedi 31 octobre, la coordination des gilets jaunes appelle à des « casserolades » contre une « dérive autoritaire » : sit-in à 14 h devant le Palais-Bourbon à Paris, puis rassemblements à 19 h devant l'Assemblée nationale et des mairies ; plus de 400 rassemblements recensés sur sa plateforme (Sud Radio). Lieux et autorisations préfectorales à confirmer. Les organisations lycéennes et étudiantes appellent aussi à se mobiliser le 31 octobre et le 5 novembre. Selon Laurent Nuñez, le dispositif de sécurité sera « extrêmement robuste » ; Emmanuel Macron demande des parcours hors des centres-villes (LCP, Armees.com).",
+  "text": "Samedi 31 octobre, la coordination des gilets jaunes appelle à des « casserolades » contre une « dérive autoritaire » : sit-in à 14 h devant le Palais-Bourbon à Paris, puis rassemblements à 19 h devant l'Assemblée nationale et des mairies ; plus de 400 rassemblements recensés sur sa plateforme (Sud Radio). Lieux et autorisations préfectorales à confirmer. Les organisations lycéennes et étudiantes appellent aussi à se mobiliser le 31 octobre et le 5 novembre. Selon Laurent Nuñez, le dispositif de sécurité sera « extrêmement robuste » ; Emmanuel Macron demande des parcours hors des centres-villes (LCP, Armees.com). À Paris, un parcours Bastille – République – Opéra – Concorde a été déposé le 27 octobre, en attente de la décision de la préfecture de police (Sortiraparis).",
   "src": [
    "fi31oct",
    "dijonact26",
@@ -742,7 +742,8 @@
    "lcpmacron26",
    "armeesnunez27",
    "sudhallo26",
-   "lcpnunez26"
+   "lcpnunez26",
+   "srp31"
   ]
  },
  {
@@ -787,13 +788,14 @@
   "t": "2026-10-30T00:00",
   "ta": true,
   "title": "Grève générale des syndicats de base",
-  "text": "Vendredi 30 octobre, grève générale à l'appel de l'USB et d'autres syndicats de base (salaires, prix, loyers, dépenses militaires), avec des cortèges annoncés dans 41 villes dont Rome, Milan, Bologne, Turin, Florence, Naples et Palerme, et une journée d'action des dockers (Gênes, Livourne, Trieste…). Trains : du jeudi 29 à 21 h au vendredi 30 à 20 h 59 ; aérien et taxis toute la journée ; autoroutes dès jeudi 22 h ; transports locaux selon les villes (Il Post, Il Fatto Quotidiano). Selon Il Gazzettino, la grève des transports fait l'objet d'une réquisition (précettation), mais les syndicats maintiennent la protestation : vérifier les horaires garantis.",
+  "text": "Vendredi 30 octobre, grève générale à l'appel de l'USB et d'autres syndicats de base (salaires, prix, loyers, dépenses militaires), avec des cortèges annoncés dans 41 villes dont Rome, Milan, Bologne, Turin, Florence, Naples et Palerme, et une journée d'action des dockers (Gênes, Livourne, Trieste…). Trains : du jeudi 29 à 21 h au vendredi 30 à 20 h 59 ; aérien et taxis toute la journée ; autoroutes dès jeudi 22 h ; transports locaux selon les villes (Il Post, Il Fatto Quotidiano). Selon Il Gazzettino, la grève des transports fait l'objet d'une réquisition (précettation), mais les syndicats maintiennent la protestation : vérifier les horaires garantis. Rendez-vous : Milan piazza Duca d'Aosta 10 h, Rome piazza dei Cinquecento 10 h 30, Bologne piazza Maggiore 9 h 30, Naples piazza Mancini 9 h 30 (Il Fatto Quotidiano).",
   "src": [
    "ilpost30",
    "fatto30",
    "gazz30",
    "virgsciop",
-   "tl24sciop"
+   "tl24sciop",
+   "fattomap27"
   ]
  },
  {
@@ -854,6 +856,22 @@
   "src": [
    "edm11n",
    "eles11n"
+  ]
+ },
+ {
+  "id": "a-parcoursup28",
+  "kind": "agenda",
+  "place": "Assemblée nationale, Paris",
+  "lon": 2.3186,
+  "lat": 48.8617,
+  "t": "2026-10-28T17:00",
+  "until": "2026-10-28T20:00",
+  "ta": false,
+  "title": "Débat sur l'avenir de Parcoursup",
+  "text": "Mercredi 28 octobre à 17 h, débat sans vote (article 50-1) dans l'hémicycle sur l'avenir de Parcoursup, après l'annonce par le gouvernement de son remplacement en 2028 ; les onze groupes s'expriment (LCP, Franceinfo).",
+  "src": [
+   "lcpparc28",
+   "fiparc28"
   ]
  }
 ]
