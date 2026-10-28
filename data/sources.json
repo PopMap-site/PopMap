@@ -2860,7 +2860,7 @@
   "u": "https://www.aa.com.tr/en/middle-east/yemen-s-houthis-claim-missile-attack-on-saudi-arabia-s-ras-tanura-oil-refinery/4102578"
  },
  "ajcoal27": {
-  "t": "Al Jazeera — la coalition dit avoir abattu missiles et drones",
+  "t": "Al Jazeera — la coalition abat missiles et drones",
   "u": "https://www.aljazeera.com/news/2026/10/27/saudi-led-coalition-destroys-four-houthi-drones"
  },
  "anewskrt27": {
@@ -2922,5 +2922,129 @@
  "razonmex27": {
   "t": "La Razón — ¿siguen los bloqueos el 27 octobre ?",
   "u": "https://www.razon.com.mx/mexico/2026/10/27/siguen-bloqueos-en-carreteras-hoy-27-de-octubre-en-estos-puntos-se-reportan-afectaciones-por-transportistas/"
+ },
+ "jpisr28": {
+  "t": "Jerusalem Post — décompte et sondages révisés",
+  "u": "https://www.jpost.com/israel-election-2026/article-913053"
+ },
+ "ynetisr28": {
+  "t": "Ynet — sondages de sortie des urnes révisés",
+  "u": "https://www.ynetnews.com/article/skd97fc2gl"
+ },
+ "i24isr27": {
+  "t": "i24NEWS — sondage de sortie des urnes",
+  "u": "https://www.i24news.tv/en/news/israeli-elections/artc-i24news-exit-poll-likud-wins-27-seats-yashar-20-coalition-bloc-reaches-55-seats-opposition-49-and-arab-parties-16"
+ },
+ "toic12exit": {
+  "t": "Times of Israel — sondage de la chaîne 12",
+  "u": "https://www.timesofisrael.com/liveblog_entry/channel-12-exit-poll-shows-no-clear-victor-netanyahus-likud-is-largest-party-but-his-opponents-have-bigger-bloc/"
+ },
+ "lcpnunez26": {
+  "t": "LCP — Nuñez et le 31 octobre",
+  "u": "https://lcp.fr/actualites/manifestations-du-31-octobre-laurent-nunez-s-attend-a-ce-que-ce-soit-de-nouveau"
+ },
+ "sudhallo26": {
+  "t": "Sud Radio — les prochains actes",
+  "u": "https://www.sudradio.fr/sud-radio/halloween-social-greve-du-5-novembre-blocages-quels-sont-les-prochains-actes-a-venir"
+ },
+ "la1ereglp27": {
+  "t": "Guadeloupe La 1ère — dernier barrage de Moudong Nord dégagé",
+  "u": "https://la1ere.franceinfo.fr/guadeloupe/mobilisation-du-collectif-nou-las-pale-le-dernier-barrage-sur-la-rn1-a-moudong-nord-a-ete-degage-1752207.html"
+ },
+ "abolalx27": {
+  "t": "A Bola — manifestation devant le Parlement",
+  "u": "https://www.abola.pt/noticias/milhares-de-manifestantes-em-protesto-pelo-direito-a-uma-habitacao-junto-ao-parlamento-2026102720334416253"
+ },
+ "naomlx27": {
+  "t": "Notícias ao Minuto — appel à la grève générale",
+  "u": "https://www.noticiasaominuto.com/pais/3074052/habitacao-manifestantes-em-frente-do-parlamento-fazem-apelo-a-greve-geral"
+ },
+ "cmlx28": {
+  "t": "Correio da Manhã — tension devant le Parlement",
+  "u": "https://www.cmjornal.pt/sociedade/detalhe/tensao-em-frente-ao-parlamento-durante-protestos-pelo-direito-a-habitacao"
+ },
+ "ilpost30": {
+  "t": "Il Post — la grève du 30 octobre",
+  "u": "https://www.ilpost.it/2026/10/27/venerdi-30-ottobre-sciopero-generale/"
+ },
+ "fatto30": {
+  "t": "Il Fatto Quotidiano — carte de la grève du 30",
+  "u": "https://www.ilfattoquotidiano.it/2026/10/27/mappa-sciopero-generale-usb-carovita-carburanti-riarmo-30-ottobre-notizie/8550541/"
+ },
+ "gazz30": {
+  "t": "Il Gazzettino — précettation des transports",
+  "u": "https://www.ilgazzettino.it/italia/politica/sciopero_generale_30_ottobre_rischi_quali_sono-9852296.html"
+ },
+ "edm11n": {
+  "t": "El Diario de Madrid — grève générale du 11 novembre",
+  "u": "https://www.eldiariodemadrid.es/articulo/sociedad/huelga-general-11-noviembre-2026-ccoo-ugt-vivienda-salarios-elecciones-29-noviembre/20261007123521143580.html"
+ },
+ "eles11n": {
+  "t": "El Español — UGT et CCOO et le 11-N",
+  "u": "https://www.elespanol.com/invertia/economia/macroeconomia/20261007/sindicatos-convocan-huelga-general-noviembre-dias-elecciones-generales/1003744411553_0.html"
+ },
+ "trmx27": {
+  "t": "Transporte.mx — fin de la grève des transporteurs",
+  "u": "https://transporte.mx/termina-el-paro-nacional-de-transportistas-segob-y-canacar-acuerdan-retirar-bloqueos-y-abrir-mesas-de-negociacion/"
+ },
+ "eurekamx27": {
+  "t": "Eureka Medios — accord avec la Segob",
+  "u": "https://eurekamedios.mx/transportistas-acuerdan-retirar-bloqueos-tras-dialogo-con-segob-estas-son-sus-exigencias/"
+ },
+ "kibridge27": {
+  "t": "Kyiv Independent — université, pont et centres médicaux touchés",
+  "u": "https://kyivindependent.com/paramedics-caught-under-fire-as-russian-ballistic-missiles-slam-kyiv/"
+ },
+ "unnbridge27": {
+  "t": "UNN — le pont Sud après la frappe",
+  "u": "https://unn.ua/en/news/southern-bridge-in-kyiv-after-the-russian-strike-klitschko-showed-the-aftermath"
+ },
+ "sttnyala27": {
+  "t": "Sudan Tribune — frappes sur Nyala",
+  "u": "https://sudantribune.com/article/320509"
+ },
+ "apyem27": {
+  "t": "AP (WSLS) — combats autour de Taïz",
+  "u": "https://www.wsls.com/news/world/2026/10/27/houthis-say-2-dead-at-gas-station-as-fighting-around-taiz-intensifies-and-other-mideast-news/"
+ },
+ "hrwtaiz26": {
+  "t": "Human Rights Watch — la route de Taïz",
+  "u": "https://www.hrw.org/news/2026/10/26/yemen-houthi-attack-on-taizz-road-threatens-lives-welfare"
+ },
+ "nahebron27": {
+  "t": "The New Arab — près de 5 000 déplacés à Hébron",
+  "u": "https://www.newarab.com/news/nearly-5000-palestinians-displaced-israels-hebron-siege"
+ },
+ "ajpw27": {
+  "t": "Al Jazeera — Palestine weekly, 27 oct.",
+  "u": "https://www.aljazeera.com/news/2026/10/27/palestine-weekly-west-bank-under-siege-as-israelis-go-to-the-polls"
+ },
+ "aaleb27": {
+  "t": "Anadolu — frappes au Sud-Liban",
+  "u": "https://www.aa.com.tr/en/middle-east/israel-carries-out-strikes-in-southern-lebanon-in-fresh-ceasefire-violations/4101864"
+ },
+ "dtgaza26": {
+  "t": "Dhaka Tribune (AFP) — cinq tués à Gaza",
+  "u": "https://www.dhakatribune.com/world/middle-east/422957/israeli-strikes-in-gaza-kill-five-including-child"
+ },
+ "lptgaza27": {
+  "t": "La Presse (Tunisie) — bilan des 24 heures à Gaza",
+  "u": "https://www.lapresse.tn/2026/10/27/palestine-agression-sioniste-treize-martyrs-a-gaza-en-24-heures/"
+ },
+ "natbagdad27": {
+  "t": "The National — drones interceptés à Bagdad",
+  "u": "https://www.thenationalnews.com/news/mena/2026/10/27/loud-bang-as-drone-is-intercepted-in-baghdad/"
+ },
+ "wpafpak27": {
+  "t": "Washington Post (AP) — tirs de mortier à la frontière",
+  "u": "https://www.washingtonpost.com/world/2026/10/27/pakistan-afghanistan-border-clashes-northwest-civilian-killed/ac2c1210-d249-11f1-9931-2a41b76fc976_story.html"
+ },
+ "rtvrik28": {
+  "t": "RTV — résultats définitifs sous 96 heures",
+  "u": "https://rtv.rs/sr_lat/izbori-2026/parlamentarni-izbori/republicka-izborna-komisija-konacni-rezultati-izbora-u-roku-od-96-sati-od-prijema-svih-zbirnih-izvestaja_1754306.html"
+ },
+ "repsrb28": {
+  "t": "Republika — résultats définitifs jeudi ?",
+  "u": "https://www.republika.rs/vesti/politika/780219/konacni-rezultati-izbora-rik"
  }
 }

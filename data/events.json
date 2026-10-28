@@ -8,11 +8,19 @@
   "cat": "emeute",
   "sev": 3,
   "live": true,
-  "date": "2026-10-27",
+  "date": "2026-10-28",
   "zoom": 5000,
   "title": "Paris sous tension depuis le 17-octobre",
   "summary": "Mobilisation contre la vie chère, dans la foulée du mouvement lycéen et étudiant. Le 24 octobre, 110 000 manifestants à Paris selon l'Intérieur (250 000 selon la CGT) : cortège autorisé globalement calme, heurts en marge, 142 interpellations selon la préfecture de police. Le 17, cortèges sauvages, barricades sur les Champs-Élysées, pillages et stations de métro fermées. Lundi 26, reçues à Matignon, les organisations lycéennes et étudiantes saluent de « premières mesures » (classes plafonnées à 28 élèves, postes d'enseignants, rénovation des bâtiments, refonte de Parcoursup) mais les jugent insuffisantes et appellent à continuer ; les gilets jaunes appellent à une nouvelle journée le 31 octobre, l'intersyndicale à la grève le 5 novembre.",
   "figs": [
+   [
+    "1 435",
+    "interpellations en France le 24 oct. (Laurent Nuñez)"
+   ],
+   [
+    "267 / 150",
+    "policiers et gendarmes / manifestants blessés le 24 oct. (Laurent Nuñez)"
+   ],
    [
     "410 000 / 800 000",
     "manifestants en France le 24 oct. (Intérieur / CGT)"
@@ -178,6 +186,10 @@
    [
     "27 oct. soir",
     "En visite à Marseille lundi, Emmanuel Macron a demandé que les cortèges des 31 octobre et 5 novembre évitent les centres-villes et annoncé un soutien financier aux commerçants, tout en reconnaissant des « demandes légitimes » (LCP, AFP via Boursorama). Mardi, Laurent Nuñez annonce un dispositif de sécurité comparable à celui du 24 octobre pour samedi, avec drones et hélicoptères (Armees.com). Le ministre conteste les accusations de députés LFI selon lesquelles la police aurait protégé des militants d'ultradroite en marge des cortèges du 24 : « Non, certainement pas » (AFP via Trait d'Union, Sud Radio)."
+   ],
+   [
+    "28 oct. matin",
+    "Pour samedi 31 octobre, Laurent Nuñez s'attend à ce que ce soit « de nouveau compliqué » et annonce un dispositif « extrêmement robuste » ; selon lui, la journée du 24 a été « maîtrisée », avec 1 435 interpellations, 267 policiers et gendarmes et 150 manifestants blessés, dont trois grièvement (LCP). Les gilets jaunes appellent à des « casserolades » le 31, avec un sit-in à 14 h devant le Palais-Bourbon et des rassemblements à 19 h devant les mairies ; leur plateforme recense plus de 400 rassemblements (Sud Radio)."
    ]
   ],
   "spots": [
@@ -418,7 +430,9 @@
    "boursomacron26",
    "armeesnunez27",
    "tdunez27",
-   "sudradionunez27"
+   "sudradionunez27",
+   "lcpnunez26",
+   "sudhallo26"
   ],
   "photos": [
    {
@@ -2459,9 +2473,9 @@
   "cat": "manif",
   "sev": 2,
   "live": false,
-  "date": "2026-10-26",
+  "date": "2026-10-27",
   "zoom": 12000,
-  "title": "25 000 manifestants pour le logement selon les organisateurs",
+  "title": "Rassemblement devant le Parlement pour le logement",
   "summary": "Des dizaines de milliers de personnes ont marché le 17 octobre à l'appel du syndicat CGTP contre la vie chère, les bas salaires et le logement (prix doublés depuis 2017, inflation 3,6 % en septembre). Le cortège est parti de Cais do Sodré pour finir sur la place du Rossio, où des dizaines de tentes ont été montées ; elles y étaient encore dimanche matin. Le gouvernement dit qu'il « ne cédera pas aux cris de la rue ».",
   "spots": [
    {
@@ -2505,7 +2519,10 @@
    "jnlx24",
    "rrpt25",
    "sapo24pt25",
-   "obs26pt"
+   "obs26pt",
+   "abolalx27",
+   "naomlx27",
+   "cmlx28"
   ],
   "t": "2026-10-17T14:30",
   "ta": false,
@@ -2549,9 +2566,17 @@
    [
     "26 oct.",
     "Audiences des personnes interpellées au Campus de la Justice lundi et mardi ; vigile des soutiens, puis assemblée populaire au Rossio. Le mouvement décide de ne pas tenter de nouveau campement pour l'instant (Observador)."
+   ],
+   [
+    "27 oct.",
+    "Des milliers de personnes selon la presse (des centaines selon SIC Notícias) se rassemblent devant le Parlement à l'appel de la plateforme Casa Para Viver, au début du débat sur le budget 2027, sous un fort dispositif policier ; des tensions sont signalées avec la PSP et des intervenants réclament une grève générale. La CGTP dit pouvoir en convoquer une sans la décider « à la hâte ». L'Inspection générale de l'administration interne (IGAI) enquête sur les dispersions de dimanche ; le président António José Seguro appelle au dialogue « et jamais à la violence » (A Bola, Notícias ao Minuto, Correio da Manhã)."
    ]
   ],
   "figs": [
+   [
+    "33 / 33",
+    "blessés et personnes arrêtées dans la nuit du 25 oct. à Lisbonne et Porto (PSP)"
+   ],
    [
     "55",
     "personnes arrêtées pour désobéissance (PSP)"
@@ -2992,7 +3017,7 @@
   "cat": "manif",
   "sev": 1,
   "live": true,
-  "date": "2026-10-27",
+  "date": "2026-10-28",
   "t": "2026-10-16T12:00",
   "ta": true,
   "title": "La liste étudiante remporte les législatives",
@@ -3024,7 +3049,9 @@
    "n1rik26",
    "mojns26",
    "bbcsrb27",
-   "novasrb27"
+   "novasrb27",
+   "rtvrik28",
+   "repsrb28"
   ],
   "tl": [
    [
@@ -3070,6 +3097,10 @@
    [
     "27 oct.",
     "Selon les données préliminaires de la commission électorale (RIK) après dépouillement de 97 % des bureaux : 52,71 % pour la Liste étudiante (environ 140 sièges sur 250, majorité absolue) et 39,17 % pour « Serbie unie » (environ 104 sièges) ; participation proche de 70 % (BBC en serbe, Nova.rs, qui compte 141 sièges)."
+   ],
+   [
+    "28 oct.",
+    "La commission électorale (RIK) indique que les résultats définitifs seront publiés dans les 96 heures suivant la réception de tous les procès-verbaux ; une annonce est évoquée pour jeudi (RTV, Republika)."
    ]
   ],
   "figs": [
@@ -3256,7 +3287,9 @@
    "hromkyiv27",
    "meduzakyiv27",
    "kiind27",
-   "censor27"
+   "censor27",
+   "kibridge27",
+   "unnbridge27"
   ],
   "t": "2026-10-14T12:00",
   "ta": true,
@@ -3377,6 +3410,10 @@
    [
     "27 oct.",
     "Bilan de la nuit : au moins un mort et 15 blessés à Kyiv, dont un ambulancier et une étudiante de 20 ans ; 25 sites touchés par des munitions et 16 par des débris. À l'échelle du pays, au moins 4 morts et 55 blessés en 24 heures selon les autorités ukrainiennes (Kyiv Independent, Censor.net)."
+   ],
+   [
+    "27 oct.",
+    "Le pont Sud, qui porte la circulation routière et la ligne verte du métro au-dessus du Dniepr, a été endommagé : fermé à la circulation, il n'est franchi qu'à pied ; le métro fonctionne en deux tronçons de part et d'autre du fleuve, avec des bus de remplacement, selon le maire Vitali Klitschko (Kyiv Independent, UNN)."
    ]
   ],
   "media": [
@@ -3711,7 +3748,8 @@
    "ktsaudi27",
    "toilive27",
    "aaras27",
-   "ajcoal27"
+   "ajcoal27",
+   "apyem27"
   ],
   "t": "2026-10-14T12:00",
   "ta": true,
@@ -3727,6 +3765,10 @@
    [
     "27 oct.",
     "Les Houthis revendiquent une attaque de missile contre la raffinerie de Ras Tanura, sur la côte est ; Riyad ne l'a pas confirmée, la coalition disant avoir intercepté trois missiles visant la province orientale sans victime (Anadolu, Al Jazeera)."
+   ],
+   [
+    "27 oct. soir",
+    "La coalition dit avoir mené des frappes de représailles au Yémen, détruisant selon elle cinq tunnels de stockage de missiles, quatre lanceurs et un dépôt ; la Défense civile saoudienne a émis des alertes dans la province orientale et le gouvernorat d'Al-Kharj. Pas de victime signalée (Al Jazeera, AP)."
    ]
   ]
  },
@@ -3813,7 +3855,8 @@
    "ajnyala",
    "citisudan20",
    "ajnyala27",
-   "arabnyala27"
+   "arabnyala27",
+   "sttnyala27"
   ],
   "t": "2026-10-17T12:00",
   "ta": true,
@@ -3839,6 +3882,10 @@
    [
     "26 oct. soir",
     "Frappe de drone vers 20 h sur un marché du nord de la ville, fréquenté notamment par des combattants des FSR selon des habitants : au moins 21 morts et 40 blessés selon un médecin de l'hôpital de Nyala. Pas de revendication (AFP via Al Jazeera et Arab News)."
+   ],
+   [
+    "27 oct.",
+    "Selon une source locale citée par Sudan Tribune, la frappe de lundi soir a visé deux sites, dont un marché de nuit à Doumaya ; elle est attribuée à l'armée soudanaise, qui chercherait selon des sources militaires à affaiblir les FSR avant une éventuelle offensive terrestre. Bilan non vérifié de façon indépendante."
    ]
   ]
  },
@@ -3974,7 +4021,7 @@
   "cat": "guerre",
   "sev": 2,
   "live": true,
-  "date": "2026-10-17",
+  "date": "2026-10-27",
   "title": "Guerre ouverte depuis février",
   "summary": "Nouvelles frappes pakistanaises en Afghanistan début octobre et combats dans le district de Kamdesh (Nouristan). Le Pakistan vient de vivre sa plus forte hausse de violence en près de cinq ans.",
   "src": [
@@ -3982,7 +4029,8 @@
    "afpk",
    "lwjpak",
    "khaama17",
-   "nationpk18"
+   "nationpk18",
+   "wpafpak27"
   ],
   "t": "2026-10-17T12:00",
   "ta": true,
@@ -3998,6 +4046,10 @@
    [
     "17-18 oct.",
     "Échanges de tirs près du district de Dand Patan (Paktia), face au district de Kurram ; une roquette touche une zone habitée. Islamabad dit avoir tué des combattants talibans, ce qui n'est pas vérifié de façon indépendante ; Kaboul n'a pas donné de bilan."
+   ],
+   [
+    "27 oct.",
+    "Selon l'AP, des tirs de mortier attribués aux talibans afghans tuent un civil et en blessent cinq dans le nord-ouest du Pakistan lors d'un nouvel accrochage frontalier ; pas de version afghane disponible (Washington Post)."
    ]
   ],
   "spots": [
@@ -4051,18 +4103,20 @@
    "ajgaza26b",
    "toigaza26",
    "toilb27",
-   "aawsat26"
+   "aawsat26",
+   "dtgaza26",
+   "lptgaza27"
   ],
   "t": "2026-10-12T12:00",
   "ta": true,
   "zoom": 900,
   "figs": [
    [
-    "1 551",
-    "tués depuis la trêve (ministère de la Santé de Gaza, 25 oct.)"
+    "1 559",
+    "tués depuis la trêve (ministère de la Santé de Gaza, 27 oct.)"
    ],
    [
-    "5 573",
+    "5 608",
     "blessés depuis la trêve (même source)"
    ],
    [
@@ -4142,6 +4196,10 @@
    [
     "27 oct.",
     "L'armée israélienne dit avoir tué dans la matinée un membre d'un groupe armé palestinien qui avait franchi la « ligne jaune » dans le sud de la bande (Times of Israel). Pas de bilan des autorités de Gaza disponible à la mi-journée."
+   ],
+   [
+    "26-27 oct.",
+    "Selon la Défense civile de Gaza, 13 morts et une soixantaine de blessés en 24 heures, dans des frappes sur des tentes de déplacés à Khan Younès et al-Mawasi, à Rimal (Gaza-Ville) et à l'est de Deir al-Balah ; l'armée israélienne a dit à l'AFP ne pas avoir connaissance d'une activité à al-Mawasi lundi (AFP via Dhaka Tribune, La Presse)."
    ]
   ],
   "spots": [
@@ -4225,6 +4283,10 @@
   "title": "Hébron bouclée après une attaque meurtrière",
   "summary": "Le 23 octobre, deux Palestiniens armés attaquent un checkpoint militaire près d'Hébron : deux soldats israéliens tués et trois blessés, les deux assaillants abattus selon l'armée israélienne. Israël lance une opération « antiterroriste » de plusieurs jours, boucle Hébron et Halhoul et prépare une fermeture de toute la Cisjordanie. Benyamin Netanyahou dit vouloir « détruire cet endroit » ; l'ONU et l'ONG israélienne B'Tselem s'inquiètent d'une punition collective. La saison des olives reste marquée par une forte hausse des attaques de colons (au moins 170 depuis le 27 septembre selon Yesh Din).",
   "figs": [
+   [
+    "4 969",
+    "déplacés à Hébron selon la municipalité (27 oct.) ; plus de 3 000 selon l'ONU"
+   ],
    [
     "3 171",
     "déplacés dans le gouvernorat d'Hébron (gouverneur, 26 oct.)"
@@ -4310,7 +4372,9 @@
    "toi24",
    "toilive25",
    "ajhebron26",
-   "unhebron26"
+   "unhebron26",
+   "nahebron27",
+   "ajpw27"
   ],
   "tl": [
    [
@@ -4344,6 +4408,10 @@
    [
     "27 oct.",
     "Points de passage entre la Cisjordanie et Israël entièrement fermés pour le jour des législatives, selon l'armée israélienne (Al Jazeera)."
+   ],
+   [
+    "27 oct.",
+    "Cinquième jour de l'opération israélienne à Hébron, dont toutes les entrées sont fermées : la municipalité compte 780 familles, soit 4 969 personnes, déplacées ; l'ONU parle de plus de 3 000. Raid à Burin, au sud de Naplouse, avec une vingtaine de détentions selon le chef du conseil local ; selon des sources palestiniennes, des colons incendient trois voitures à Umm Safa et blessent deux Palestiniens à Huwara et Burqa (The New Arab, Al Jazeera)."
    ]
   ]
  },
@@ -4356,7 +4424,7 @@
   "cat": "guerre",
   "sev": 2,
   "live": true,
-  "date": "2026-10-22",
+  "date": "2026-10-27",
   "title": "La « ligne jaune » israélienne au Sud-Liban",
   "summary": "Israël occupe une bande allant jusqu'à 10 km au Sud-Liban, délimitée par une « ligne jaune » traitée comme une frontière de fait. Frappes aériennes et tirs d'artillerie quasi quotidiens sur les villages frontaliers ; le 16 octobre, des chars avancent vers Kfarchouba. Plus de 1,2 million de personnes ont été déplacées. Des pourparlers Liban-Israël sous égide américaine sont prévus le 20 octobre à Tampa.",
   "src": [
@@ -4367,7 +4435,8 @@
    "profleb",
    "meewadi",
    "awliban22",
-   "meeliban22"
+   "meeliban22",
+   "aaleb27"
   ],
   "t": "2026-10-14T12:00",
   "ta": true,
@@ -4440,6 +4509,10 @@
    [
     "22 oct.",
     "Deux jours de pourparlers israélo-libanais en Floride s'achèvent sans accord ni date de reprise, selon The New Arab cité par Antiwar.com. Frappes aériennes et démolitions signalées à Kfar Tebnit et Haddatha, explosions près d'Ain al-Samahiyah et de Zawtar ash-Sharqiyah, tirs d'artillerie vers Habbariyeh, selon des sources locales et l'agence Anadolu (Middle East Eye). Pas de bilan connu. L'armée israélienne n'a pas commenté dans les articles consultés."
+   ],
+   [
+    "27 oct.",
+    "Selon l'agence nationale libanaise (NNA) citée par Anadolu, un drone israélien largue deux bombes sur une maison entre Choukine et Mayfadoun (Nabatieh), sans blessé ; frappes signalées à Mansouri (Tyr) et près de Qantara (Marjayoun), explosions à Zawtar al-Charqiya. Un homme est blessé par l'explosion d'un objet suspect au carrefour de Deir Kifa."
    ]
   ]
  },
@@ -4995,7 +5068,7 @@
   "cat": "emeute",
   "sev": 2,
   "live": true,
-  "date": "2026-10-26",
+  "date": "2026-10-27",
   "t": "2026-10-18T21:00",
   "ta": true,
   "zoom": 300,
@@ -5100,7 +5173,8 @@
    "rcigua24",
    "la1gua24",
    "la1gua26",
-   "la1guaref26"
+   "la1guaref26",
+   "la1ereglp27"
   ],
   "tl": [
    [
@@ -5130,6 +5204,10 @@
    [
     "26 oct. matin",
     "Quelques barrages signalés dans la nuit, mais pas de perturbations majeures lundi matin selon Guadeloupe La 1ère. Une réunion prévue entre le préfet et le collectif Nou Las Palé a été annulée ; l'élue Solanges Nadille dit ne pas comprendre ce refus de l'échange (Guadeloupe La 1ère)."
+   ],
+   [
+    "27 oct.",
+    "Selon Guadeloupe La 1ère, le dernier barrage de la RN1 à Moudong Nord a été dégagé ; quelques barrages avaient encore été signalés dans la nuit, mais la circulation reprend normalement mardi matin."
    ]
   ]
  },
@@ -5359,7 +5437,7 @@
   "cat": "guerre",
   "sev": 2,
   "live": true,
-  "date": "2026-10-25",
+  "date": "2026-10-27",
   "t": "2026-10-17T12:00",
   "ta": true,
   "title": "Combats intensifiés autour de la ville assiégée",
@@ -5370,7 +5448,9 @@
    "toi24",
    "ajhouthi24",
    "ajmecca25",
-   "nationriy26"
+   "nationriy26",
+   "apyem27",
+   "hrwtaiz26"
   ],
   "tl": [
    [
@@ -5384,6 +5464,10 @@
    [
     "25 oct.",
     "Selon l'organisation de défense des droits Rasd, le siège imposé par les Houthis depuis le 4 octobre met en danger environ 1 110 patients dialysés, 192 patients en soins intensifs et 154 nouveau-nés en couveuse. L'ONU estime à environ 800 000 le nombre de personnes piégées ; le pape Léon XIV appelle à la fin des violences. Les forces gouvernementales disent avoir frappé un centre de commandement houthi dans la province (Al Jazeera, The Nation)."
+   ],
+   [
+    "26-27 oct.",
+    "Le ministère de la Santé contrôlé par les Houthis accuse les forces gouvernementales d'avoir frappé une station-service lundi soir : au moins deux morts et plusieurs blessés, information que l'AP n'a pas pu vérifier. Human Rights Watch accuse les Houthis d'avoir endommagé à l'explosif, le 18 octobre, la route de Hayjat al-Abd, principal accès de la ville pour la nourriture, le carburant et les médicaments (AP, HRW)."
    ]
   ]
  },
@@ -7734,12 +7818,12 @@
   "lat": 19.43,
   "cat": "manif",
   "sev": 1,
-  "live": true,
+  "live": false,
   "date": "2026-10-27",
   "t": "2026-10-26T08:00",
   "ta": true,
   "zoom": 40,
-  "title": "Grève nationale des transporteurs routiers",
+  "title": "Grève des transporteurs suspendue après un accord",
   "summary": "Le 26 octobre, des organisations de transporteurs (dont la Canacar, Fematrac, Hamotac et Indeco) lancent une grève nationale illimitée pour réclamer plus de sécurité sur les routes face aux vols et à l'extorsion, la régulation des fourrières et des changements à la loi de recettes 2027. Selon le ministère de l'Intérieur (Segob), à 9 h 30 heure locale, 858 personnes et 691 véhicules mobilisés sur 38 points dans 19 États. La présidente Claudia Sheinbaum évoque un avantage fiscal jugé « excessif » par les Finances ; le gouvernement dit garder le dialogue ouvert. Une partie des organisations a accepté de négocier.",
   "figs": [
    [
@@ -7779,6 +7863,10 @@
    [
     "27 oct.",
     "Deuxième jour de grève : sur l'autoroute Mexico-Toluca, à Ocoyoacac, un poids lourd percute un barrage dans la nuit et plusieurs véhicules prennent feu, le conducteur et son copilote sont blessés ; une seule voie libre sur Guadalajara-Zapotlanejo, blocages intermittents à Aguascalientes. Le syndicat Hamotac revendique des actions dans les 32 États, le gouvernement en compte 19. Le président de la Canacar demande que le dialogue se poursuive mercredi avec des responsables ayant pouvoir de décision (El Financiero, La Razón)."
+   ],
+   [
+    "27 oct. soir",
+    "Le ministère de l'Intérieur (Segob) et des organisations de transporteurs, dont la Canacar, s'accordent pour suspendre la grève et lever les blocages ; quatre tables de travail doivent être installées (sécurité routière, infrastructures, fiscalité dont les péages 2027, sécurité sociale et conditions de travail), sans calendrier public (Transporte.mx, Eureka Medios)."
    ]
   ],
   "spots": [
@@ -7833,7 +7921,9 @@
    "elfinmx27",
    "infmx27",
    "efmex27",
-   "razonmex27"
+   "razonmex27",
+   "trmx27",
+   "eurekamx27"
   ]
  },
  {
@@ -7998,6 +8088,109 @@
   "src": [
    "e1trappes",
    "bfmtrappes"
+  ]
+ },
+ {
+  "id": "jerusalem",
+  "place": "Jérusalem",
+  "country": "Israël",
+  "lon": 35.2049,
+  "lat": 31.7767,
+  "cat": "manif",
+  "sev": 1,
+  "live": true,
+  "date": "2026-10-28",
+  "t": "2026-10-27T21:00",
+  "ta": false,
+  "title": "Législatives : le Likoud en tête, aucun bloc majoritaire",
+  "summary": "Mardi 27 octobre, les Israéliens ont voté pour la 26e Knesset (120 sièges, majorité à 61). Participation de 77,7 % à la fermeture des bureaux selon la commission électorale centrale, 7,1 points de plus qu'en 2022. Selon les sondages de sortie des urnes, le Likoud de Benyamin Netanyahou arrive en tête devant Yashar de Gadi Eisenkot, mais aucun bloc n'atteint la majorité ; les listes arabes obtiendraient un nombre de sièges record. Les sondages révisés mercredi matin donnent l'avantage au bloc de Netanyahou. Plus de 650 000 bulletins sous double enveloppe restent à vérifier : les chiffres peuvent encore évoluer, en particulier pour les partis proches du seuil de 3,25 %.",
+  "figs": [
+   [
+    "53-57",
+    "sièges pour le bloc Netanyahou (sondages révisés du 28 oct., chaînes 11, 12, 13)"
+   ],
+   [
+    "47",
+    "sièges pour le bloc d'opposition (mêmes sondages)"
+   ],
+   [
+    "27-28",
+    "sièges pour le Likoud ; 21 pour Yashar (Jerusalem Post)"
+   ],
+   [
+    "16-19",
+    "sièges pour les listes arabes (sondages)"
+   ],
+   [
+    "77,7 %",
+    "participation (commission électorale centrale)"
+   ]
+  ],
+  "tl": [
+   [
+    "27 oct. 21 h",
+    "Premiers sondages de sortie des urnes : aucune majorité. Selon la chaîne 12 et la chaîne 13 citées par Ynet, l'opposition obtiendrait 52 à 53 sièges et le bloc Netanyahou 50 ; le Likoud resterait le premier parti (24-25 sièges) devant Yashar (22-23) (Ynet, Times of Israel)."
+   ],
+   [
+    "28 oct. matin",
+    "Sondages révisés après le début du dépouillement : 53 à 57 sièges pour le bloc Netanyahou, 47 pour l'opposition, toujours sans majorité ; i24NEWS donne 55 sièges à la coalition sortante, 49 à l'opposition et 16 aux partis arabes. Les partis d'Ofer Winter et de Yoaz Hendel seraient sous le seuil (Jerusalem Post, i24NEWS, Ynet). Le décompte des bulletins sous double enveloppe pourrait durer jusqu'à vendredi."
+   ]
+  ],
+  "spots": [
+   {
+    "n": "Knesset",
+    "lon": 35.2053,
+    "lat": 31.7767,
+    "d": "La Knesset compte 120 sièges ; selon les sondages de sortie des urnes du 27 octobre, aucun bloc n'obtient les 61 sièges nécessaires pour gouverner seul.",
+    "t": "2026-10-28T06:00",
+    "ta": true
+   }
+  ],
+  "src": [
+   "jpisr28",
+   "ynetisr28",
+   "i24isr27",
+   "toic12exit"
+  ]
+ },
+ {
+  "id": "bagdad",
+  "place": "Bagdad",
+  "country": "Irak",
+  "lon": 44.39,
+  "lat": 33.31,
+  "cat": "frappe",
+  "sev": 1,
+  "live": false,
+  "date": "2026-10-27",
+  "t": "2026-10-27T11:00",
+  "ta": true,
+  "title": "Drones interceptés près de la Zone verte",
+  "summary": "Mardi 27 octobre, une forte détonation est entendue dans le centre de Bagdad. Selon le porte-parole des médias de sécurité du gouvernement irakien, elle provient de la neutralisation d'un drone près de la Zone verte, qui abrite des bâtiments gouvernementaux, le Parlement et des ambassades dont celle des États-Unis. Aucun dégât ni victime signalé ; le drone n'a pas été identifié et l'attaque n'a pas été revendiquée.",
+  "figs": [
+   [
+    "0",
+    "victime signalée"
+   ]
+  ],
+  "tl": [
+   [
+    "27 oct.",
+    "Au moins un drone intercepté près de la Zone verte, sans dégât ni victime selon les services de sécurité (The National)."
+   ]
+  ],
+  "spots": [
+   {
+    "n": "Zone verte",
+    "lon": 44.389,
+    "lat": 33.304,
+    "d": "27 oct. : un drone non identifié est neutralisé près de la Zone verte, sans dégât ni victime selon les services de sécurité irakiens.",
+    "t": "2026-10-27T11:00",
+    "ta": true
+   }
+  ],
+  "src": [
+   "natbagdad27"
   ]
  }
 ]

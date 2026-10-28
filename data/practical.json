@@ -226,25 +226,13 @@
   "place": "Israël",
   "lon": 34.7818,
   "lat": 32.0853,
-  "t": "2026-10-27T06:00",
-  "ta": false,
-  "title": "Législatives en Israël : vote en cours",
-  "text": "Mardi 27 octobre, vote pour la 26e Knesset (environ 7,3 millions d'électeurs), bureaux ouverts de 7 h à 22 h (21 h à Paris) ; les électeurs déjà dans la file à 22 h pourront voter, selon la commission électorale. Participation de 55,7 % à 16 h, la plus forte à cette heure depuis 1973 selon la commission (44,9 % à 14 h). Le Likoud, soutenu par le Shas et Otzma Yehudit, a demandé une heure de vote supplémentaire en invoquant l'affluence ; le président de la commission, le juge Noam Solberg, a refusé à ce stade, en se réservant de réexaminer la question. Le parti Yashar de Gadi Eisenkot s'y opposait, y voyant une manière de préparer une contestation du scrutin. Benyamin Netanyahou accuse des militants du parti arabe Ra'am de vouloir « voler l'élection » ; la commission dit n'avoir aucun indice de fraude systématique. À Tel-Aviv, un homme porteur d'un couteau est interpellé près du chef des Démocrates Yair Golan. Premiers sondages de sortie des urnes attendus après 21 h (heure de Paris), résultats officiels le 4 novembre. Les derniers sondages donnaient une course serrée entre le bloc de Netanyahou (environ 50 sièges) et l'opposition menée par Gadi Eisenkot (environ 54), la majorité étant à 61 (Al Jazeera).",
+  "t": "2026-10-30T09:00",
+  "ta": true,
+  "title": "Législatives en Israël : fin du dépouillement attendue",
+  "text": "Après le vote du 27 octobre (participation de 77,7 % selon la commission électorale), les sondages de sortie des urnes placent le Likoud en tête sans majorité pour aucun bloc. Plus de 650 000 bulletins sous double enveloppe (militaires, diplomates, malades) restent à vérifier ; le décompte pourrait se poursuivre jusqu'à vendredi 30 octobre, résultats officiels annoncés pour le 4 novembre (Ynet, Jerusalem Post, Al Jazeera).",
   "src": [
-   "ajpw",
-   "toilive25",
-   "toilive27",
-   "lapresse27",
-   "i24vote27",
-   "toilb27",
-   "haaretzvote27",
-   "lalibreisr27",
-   "jpgolan27",
-   "ynetgolan27",
-   "toiturn27",
-   "ncordlik27",
-   "dbeirutlik27",
-   "rtbflik27",
+   "ynetisr28",
+   "jpisr28",
    "ajisrres27"
   ]
  },
@@ -746,13 +734,15 @@
   "t": "2026-10-31T14:00",
   "ta": true,
   "title": "Nouvelle journée d'action contre la vie chère",
-  "text": "Samedi 31 octobre, la coordination des gilets jaunes appelle à une nouvelle journée de mobilisation, en dénonçant une « dérive autoritaire » de l'exécutif ; rassemblements annoncés dans plusieurs villes, dont Dijon. Lieux et autorisations préfectorales à confirmer. Les organisations lycéennes et étudiantes appellent aussi à se mobiliser le 31 octobre et le 5 novembre (Sud Radio). Selon Laurent Nuñez, le dispositif de sécurité sera comparable à celui du 24 octobre ; Emmanuel Macron demande des parcours hors des centres-villes (LCP, Armees.com).",
+  "text": "Samedi 31 octobre, la coordination des gilets jaunes appelle à des « casserolades » contre une « dérive autoritaire » : sit-in à 14 h devant le Palais-Bourbon à Paris, puis rassemblements à 19 h devant l'Assemblée nationale et des mairies ; plus de 400 rassemblements recensés sur sa plateforme (Sud Radio). Lieux et autorisations préfectorales à confirmer. Les organisations lycéennes et étudiantes appellent aussi à se mobiliser le 31 octobre et le 5 novembre. Selon Laurent Nuñez, le dispositif de sécurité sera « extrêmement robuste » ; Emmanuel Macron demande des parcours hors des centres-villes (LCP, Armees.com).",
   "src": [
    "fi31oct",
    "dijonact26",
    "sudlyc26",
    "lcpmacron26",
-   "armeesnunez27"
+   "armeesnunez27",
+   "sudhallo26",
+   "lcpnunez26"
   ]
  },
  {
@@ -762,13 +752,13 @@
   "lon": -99.0,
   "lat": 19.5,
   "t": "2026-10-26T06:30",
-  "until": "2026-10-28T23:59",
+  "until": "2026-10-28T12:00",
   "ta": true,
-  "title": "Grève des transporteurs : routes bloquées",
-  "text": "Grève nationale illimitée des transporteurs routiers depuis lundi 26 octobre : blocages partiels de péages et d'autoroutes dans 19 États selon le ministère de l'Intérieur, notamment autour de Mexico (Mexico-Querétaro, Mexico-Puebla, Mexico-Pachuca) et sur l'autoroute Puebla-Oaxaca. Consulter la Garde nationale et Capufe avant de prendre la route. Mardi 27 : la plupart des blocages levés, mais des fermetures signalées sur l'autoroute Mexico-Toluca (Lerma, La Marquesa) ; d'autres axes de l'État de Mexico, du Veracruz et de Puebla-Tlaxcala peuvent être touchés (El Financiero).",
+  "title": "Grève des transporteurs suspendue",
+  "text": "Après deux jours de blocages dans 19 États, le ministère de l'Intérieur (Segob) et les organisations de transporteurs, dont la Canacar, ont convenu mardi 27 octobre de suspendre la grève et de lever les barrages. Des perturbations résiduelles restent possibles : consulter la Garde nationale et Capufe avant de prendre la route (Transporte.mx, Eureka Medios).",
   "src": [
-   "infmx26",
-   "razonmx26",
+   "trmx27",
+   "eurekamx27",
    "elfinmx27"
   ]
  },
@@ -797,8 +787,11 @@
   "t": "2026-10-30T00:00",
   "ta": true,
   "title": "Grève générale des syndicats de base",
-  "text": "Vendredi 30 octobre, grève générale toutes catégories à l'appel de l'USB et de syndicats Cobas et CUB ; les trains sont concernés dès le jeudi 29 à 21 h (jusqu'au 30 à 20 h 59), aéroports de Florence et Pise, ports et écoles dans plusieurs régions. Vérifier les éventuelles révocations auprès de la Commission de garantie des grèves (Virgilio, TuttoLavoro24).",
+  "text": "Vendredi 30 octobre, grève générale à l'appel de l'USB et d'autres syndicats de base (salaires, prix, loyers, dépenses militaires), avec des cortèges annoncés dans 41 villes dont Rome, Milan, Bologne, Turin, Florence, Naples et Palerme, et une journée d'action des dockers (Gênes, Livourne, Trieste…). Trains : du jeudi 29 à 21 h au vendredi 30 à 20 h 59 ; aérien et taxis toute la journée ; autoroutes dès jeudi 22 h ; transports locaux selon les villes (Il Post, Il Fatto Quotidiano). Selon Il Gazzettino, la grève des transports fait l'objet d'une réquisition (précettation), mais les syndicats maintiennent la protestation : vérifier les horaires garantis.",
   "src": [
+   "ilpost30",
+   "fatto30",
+   "gazz30",
    "virgsciop",
    "tl24sciop"
   ]
@@ -846,6 +839,21 @@
   "src": [
    "lyonmag27",
    "lyoncap27"
+  ]
+ },
+ {
+  "id": "a-espagne11",
+  "kind": "agenda",
+  "place": "Espagne",
+  "lon": -3.7038,
+  "lat": 40.4168,
+  "t": "2026-11-11T00:00",
+  "ta": true,
+  "title": "Grève générale pour le logement et les salaires",
+  "text": "Mercredi 11 novembre, grève générale de 24 heures convoquée par CCOO et UGT pour le logement et les salaires, à moins de trois semaines des législatives anticipées du 29 novembre ; la CGT appelle aussi à « arrêter le pays ». Services minimums à confirmer (El Diario de Madrid, El Español).",
+  "src": [
+   "edm11n",
+   "eles11n"
   ]
  }
 ]
