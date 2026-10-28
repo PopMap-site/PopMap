@@ -194,6 +194,10 @@
    [
     "28 oct. midi",
     "Débat sans vote sur l'avenir de Parcoursup à 17 h à l'Assemblée nationale, à la demande du gouvernement, qui a annoncé son remplacement en 2028 ; LFI juge un débat sans vote inutile, le PS y voit « un bon début », l'UDR doute que les annonces soient tenues. Les organisations de jeunesse appellent à poursuivre la mobilisation (LCP, Franceinfo). Pour samedi, les gilets jaunes ont déposé un parcours Bastille – Concorde ; la préfecture de police n'a pas encore rendu sa décision (Sortiraparis)."
+   ],
+   [
+    "28 oct. soir",
+    "Pour samedi 31, la coordination des gilets jaunes a déposé un parcours Bastille – République – Opéra – Concorde, avec l'Assemblée nationale pour objectif ; mercredi matin, la préfecture de police n'avait pas rendu sa décision (Sortiraparis). Selon Europe 1, la CGT demande de son côté un parcours Bastille – Nation et la préfecture s'orienterait vers une interdiction de la marche des gilets jaunes, qui disent vouloir maintenir le parcours déclaré et saisir la justice en cas de refus (Europe 1, France 3). « Casserolades » prévues vendredi 30 à 19 h. Le SNES-FSU maintient son appel à la grève du 5 novembre après le débat sur Parcoursup (Jeunesse du monde)."
    ]
   ],
   "spots": [
@@ -439,7 +443,11 @@
    "sudhallo26",
    "lcpparc28",
    "fiparc28",
-   "srp31"
+   "srp31",
+   "srp31en",
+   "e1cgt31",
+   "f3gj31",
+   "jdmsnes28"
   ],
   "photos": [
    {
@@ -1367,7 +1375,7 @@
   "cat": "emeute",
   "sev": 2,
   "live": false,
-  "date": "2026-10-27",
+  "date": "2026-10-28",
   "t": "2026-10-17T14:00",
   "ta": true,
   "zoom": 12000,
@@ -1412,7 +1420,8 @@
    "morandcf",
    "boursocf",
    "tdunez27",
-   "sudradionunez27"
+   "sudradionunez27",
+   "clepam27"
   ],
   "tl": [
    [
@@ -1422,6 +1431,10 @@
    [
     "24-27 oct.",
     "Selon la préfecture, une centaine de militants masqués d'ultradroite ont convergé vers le centre-ville samedi 24 pour s'en prendre aux manifestants ; onze personnes seront jugées, et des masques, gants, gaz lacrymogènes et matraques ont été saisis dans des voitures. Des députés LFI accusent la police de les avoir protégés, ce que conteste le ministre de l'Intérieur (AFP via Trait d'Union, Sud Radio)."
+   ],
+   [
+    "26 oct. – 1er nov.",
+    "La préfecture des Alpes-Maritimes prolonge jusqu'au dimanche 1er novembre à 23 h, dans tout le département, l'interdiction de porter des pétards et artifices, des carburants en contenants individuels, des armes par destination et des équipements de protection ; le couvre-feu des mineurs et l'interdiction de manifester à Nice ne sont pas reconduits (La Clé publique, d'après l'arrêté préfectoral). Une seule source à ce stade."
    ]
   ]
  },
@@ -2843,7 +2856,7 @@
   "cat": "emeute",
   "sev": 3,
   "live": true,
-  "date": "2026-10-26",
+  "date": "2026-10-28",
   "title": "Deux semaines de mobilisation étudiante",
   "summary": "Parti des étudiants (coût des études) et de la vente d'une partie du littoral à un projet de luxe lié à Jared Kushner, le mouvement réclame de meilleures conditions d'études, des emplois et la démission du Premier ministre. Heurts devant le ministère de l'Éducation et autour du bureau d'Edi Rama ; balles en caoutchouc, canons à eau et gaz lacrymogènes. Rama refuse de démissionner, évoque une « main étrangère » et un risque pour l'adhésion à l'UE.",
   "figs": [
@@ -2934,7 +2947,9 @@
    "usntir25",
    "bdtir25",
    "birnal26",
-   "trtal26"
+   "trtal26",
+   "hashtagtir28",
+   "stdtir28"
   ],
   "photos": [
    {
@@ -3011,6 +3026,10 @@
    [
     "26 oct.",
     "Edi Rama annonce un projet de loi pour remplacer la loi de 2001 sur les manifestations : amendes pour l'organisation de rassemblements non autorisés, le refus de se disperser, le port de masques et le blocage de la circulation, indemnisation des commerces touchés et retrait des publications appelant à la violence. Les étudiants, mobilisés depuis le 13 octobre, rejettent l'appel au dialogue et disent vouloir continuer (Balkan Insight, TRT World)."
+   ],
+   [
+    "28 oct.",
+    "Les étudiants poursuivent leur mobilisation : cortège vers le ministère de l'Éducation et le bureau du Premier ministre, puis halte devant la direction de la police de Tirana. Ils disent vouloir continuer jusqu'au départ d'Edi Rama ; aucun incident n'est signalé dans les articles consultés (Hashtag.al, Standard.al)."
    ]
   ],
   "zoom": 12000
@@ -3594,7 +3613,9 @@
    "ajteh27",
    "aawsj28",
    "ynetwsj28",
-   "ihwsj28"
+   "ihwsj28",
+   "almoqatar28",
+   "gnqatar28"
   ],
   "t": "2026-10-16T12:00",
   "ta": true,
@@ -3638,6 +3659,10 @@
    [
     "28 oct.",
     "Selon le Wall Street Journal, les États-Unis ont demandé à plusieurs pays du Golfe de se préparer à une campagne militaire « courte et intense » contre l'Iran après les élections de mi-mandat du 3 novembre ; Donald Trump n'aurait pas pris de décision finale. La Maison-Blanche refuse de commenter des « plans militaires sensibles qui peuvent exister ou non » et répète que toutes les options restent sur la table (Anadolu, Ynet, Israel Hayom)."
+   ],
+   [
+    "28 oct. soir",
+    "Selon un responsable cité par Al-Monitor, le Qatar a présenté dimanche à l'Iran, en coordination avec Washington, un projet sur sept jours avec des mesures de confiance quotidiennes et plusieurs pays garants. Un haut responsable iranien affirme mercredi que Doha n'a soumis que des « idées inacceptables » et « pas une offre » : Téhéran exige d'abord la levée du blocus de ses ports et des sanctions pétrolières, et reste inflexible sur le nucléaire. Washington veut inclure le nucléaire d'emblée (Al-Monitor, Gulf News)."
    ]
   ]
  },
@@ -3873,7 +3898,8 @@
    "sttnyala27",
    "apnyala28",
    "arabnyala28",
-   "khaamanyala28"
+   "khaamanyala28",
+   "apnyala28b"
   ],
   "t": "2026-10-17T12:00",
   "ta": true,
@@ -3885,6 +3911,10 @@
    [
     "36",
     "corps reçus à l'hôpital MSF de Nyala"
+   ],
+   [
+    "21+",
+    "morts selon le Réseau des médecins du Soudan (AP)"
    ],
    [
     "150",
@@ -3915,6 +3945,10 @@
    [
     "28 oct.",
     "Emergency Lawyers évoque « un massacre » : plus de 100 morts et 113 blessés, dont de nombreuses femmes et enfants, et attribue la frappe à l'armée. MSF dit avoir reçu 36 corps et vu 150 blessés aux urgences. Pas de réaction de l'armée (AP, Arab News, Khaama)."
+   ],
+   [
+    "28 oct. soir",
+    "Selon l'AP, les bilans divergent : plus de 100 morts selon Emergency Lawyers, au moins 21 morts et plus de 40 blessés selon le Réseau des médecins du Soudan ; MSF a reçu 36 corps. Le porte-parole des Forces d'opérations spéciales alliées à l'armée affirme qu'une frappe « précise » a tué plus de 150 « recrues de la milice » au camp de Doumaya, à l'ouest de Nyala ; deux témoins décrivent des combattants des FSR rassemblés et des femmes vendant de la nourriture parmi les victimes. Aucun bilan vérifié de façon indépendante."
    ]
   ]
  },
@@ -4135,7 +4169,9 @@
    "aawsat26",
    "dtgaza26",
    "lptgaza27",
-   "anewsgaza28"
+   "anewsgaza28",
+   "wafagaza28",
+   "palinfogaza28"
   ],
   "t": "2026-10-12T12:00",
   "ta": true,
@@ -4234,6 +4270,10 @@
    [
     "27-28 oct.",
     "Selon des sources médicales citées par Anadolu, deux Palestiniens tués et cinq blessés mardi, à Jabalia et près de Rafah (al-Mawasi), le jour des législatives israéliennes ; deux blessés de frappes antérieures, dont une fillette de six ans, ont succombé. Une seule source à ce stade ; l'armée israélienne n'a pas commenté (A News)."
+   ],
+   [
+    "28 oct.",
+    "Selon l'agence palestinienne Wafa, quatre Palestiniens tués et une vingtaine de blessés mercredi : trois dans une frappe sur un bâtiment du ministère de l'Économie à al-Mawasi (Rafah), un à Khan Younès ; frappes signalées aussi à Nuseirat et à al-Qarara. Sources palestiniennes uniquement à ce stade ; l'armée israélienne n'a pas commenté dans les articles consultés (Wafa, Palinfo)."
    ]
   ],
   "spots": [
@@ -4310,7 +4350,7 @@
   "cat": "guerre",
   "sev": 3,
   "live": true,
-  "date": "2026-10-27",
+  "date": "2026-10-28",
   "t": "2026-10-13T12:00",
   "ta": true,
   "zoom": 500,
@@ -4408,7 +4448,8 @@
    "ajhebron26",
    "unhebron26",
    "nahebron27",
-   "ajpw27"
+   "ajpw27",
+   "ajhebron28"
   ],
   "tl": [
    [
@@ -4446,6 +4487,10 @@
    [
     "27 oct.",
     "Cinquième jour de l'opération israélienne à Hébron, dont toutes les entrées sont fermées : la municipalité compte 780 familles, soit 4 969 personnes, déplacées ; l'ONU parle de plus de 3 000. Raid à Burin, au sud de Naplouse, avec une vingtaine de détentions selon le chef du conseil local ; selon des sources palestiniennes, des colons incendient trois voitures à Umm Safa et blessent deux Palestiniens à Huwara et Burqa (The New Arab, Al Jazeera)."
+   ],
+   [
+    "28 oct.",
+    "Sixième jour de bouclage d'Hébron : raids dans plusieurs quartiers et dans le camp de réfugiés d'al-Fawwar autour de minuit, selon Anadolu. L'UNRWA estime que les opérations ont déplacé près de 5 000 Palestiniens. Quatre arrestations à Tulkarem selon Wafa ; à Beita, gaz lacrymogène contre des habitants opposés à la démolition de deux maisons de familles de prisonniers. Les écoles du sud de Naplouse passent à l'enseignement à distance (Al Jazeera)."
    ]
   ]
  },
@@ -7242,12 +7287,16 @@
   "date": "2026-10-28",
   "t": "2026-10-21T02:00",
   "ta": true,
-  "title": "Drones sur des maisons : deux morts",
+  "title": "Osnovianskyï frappé deux fois en 24 heures",
   "summary": "Dans la nuit du 20 au 21 octobre, une attaque de drones russes a touché des maisons individuelles près de Kharkiv : un couple de 81 et 83 ans retrouvé mort sous les décombres, selon les autorités régionales citées par l'AFP.",
   "figs": [
    [
+    "1",
+    "mort et 9 blessés à Kharkiv les 27 et 28 oct. (parquet régional)"
+   ],
+   [
     "2",
-    "morts (gouverneur)"
+    "morts lors des frappes du 21 oct. (gouverneur)"
    ]
   ],
   "tl": [
@@ -7274,6 +7323,10 @@
    [
     "28 oct.",
     "Nouvelle frappe sur Kharkiv : cinq blessés, dont un enfant de 4 ans, et un important incendie dans le district d'Osnovianskyï, où entrepôts, une entreprise et une entrée de métro sont endommagés selon les autorités locales (Ukrainska Pravda, Euronews, Glavnoe). Dans la nuit, la Russie a lancé un missile balistique et 88 drones sur l'Ukraine ; 71 abattus ou neutralisés selon l'armée de l'air ukrainienne (Ukrinform)."
+   ],
+   [
+    "28 oct. après-midi",
+    "Nouvelle frappe de drone vers 12 h 55 (heure locale) sur le même quartier d'Osnovianskyï : un homme tué, quatre blessés et un bâtiment de la poste endommagé, selon le parquet régional cité par Gwara Media. En 24 heures, les deux frappes sur ce secteur ont fait un mort et neuf blessés."
    ]
   ],
   "spots": [
@@ -7281,8 +7334,8 @@
     "n": "Osnovianskyï (Kharkiv)",
     "lon": 36.205,
     "lat": 49.955,
-    "d": "Le 28 octobre, une frappe russe blesse cinq personnes, dont un enfant de 4 ans, et provoque un important incendie d'entrepôts dans le district d'Osnovianskyï, selon les autorités locales.",
-    "t": "2026-10-28T08:00",
+    "d": "Le district d'Osnovianskyï est frappé deux fois en 24 heures : le 27 octobre vers 22 h 40 (cinq blessés, dont un enfant de 4 ans) puis le 28 vers 12 h 55 (un mort, quatre blessés, un bâtiment postal endommagé), selon le parquet régional.",
+    "t": "2026-10-28T11:55",
     "ta": true
    }
   ],
@@ -7299,7 +7352,8 @@
    "pravdakh28",
    "eunkh28",
    "glavkh28",
-   "ukrinf28"
+   "ukrinf28",
+   "gwarakh28"
   ]
  },
  {
@@ -8158,24 +8212,28 @@
   "date": "2026-10-28",
   "t": "2026-10-27T21:00",
   "ta": false,
-  "title": "Législatives : le Likoud en tête, aucun bloc majoritaire",
+  "title": "Législatives : aucun bloc majoritaire, le Likoud dénonce une fraude",
   "summary": "Mardi 27 octobre, les Israéliens ont voté pour la 26e Knesset (120 sièges, majorité à 61). Participation de 77,7 % à la fermeture des bureaux selon la commission électorale centrale, 7,1 points de plus qu'en 2022. Selon les sondages de sortie des urnes, le Likoud de Benyamin Netanyahou arrive en tête devant Yashar de Gadi Eisenkot, mais aucun bloc n'atteint la majorité ; les listes arabes obtiendraient un nombre de sièges record. Les sondages révisés mercredi matin donnent l'avantage au bloc de Netanyahou. Plus de 650 000 bulletins sous double enveloppe restent à vérifier : les chiffres peuvent encore évoluer, en particulier pour les partis proches du seuil de 3,25 %.",
   "figs": [
    [
-    "54",
-    "sièges pour le bloc Netanyahou (dépouillement en cours, 28 oct., Times of Israel)"
+    "53",
+    "sièges pour le bloc Netanyahou (85,6 % des voix dépouillées, Ynet)"
    ],
    [
-    "49",
-    "sièges pour le bloc d'opposition mené par Gadi Eisenkot (même décompte)"
+    "48",
+    "sièges pour le bloc mené par Gadi Eisenkot (même décompte)"
    ],
    [
-    "27-28",
-    "sièges pour le Likoud ; 21 pour Yashar (Jerusalem Post)"
+    "19",
+    "sièges pour les partis arabes : 13 Liste unifiée, 6 Ra'am (même décompte)"
    ],
    [
-    "17",
-    "sièges pour les listes arabes (même décompte)"
+    "26 / 21",
+    "sièges pour le Likoud / Yashar (même décompte)"
+   ],
+   [
+    "500 000+",
+    "bulletins sous double enveloppe encore à compter (Ynet)"
    ],
    [
     "77,7 %",
@@ -8194,6 +8252,10 @@
    [
     "28 oct. midi",
     "Selon le décompte partiel publié par le Times of Israel, le bloc mené par le Likoud obtiendrait 54 sièges, en deçà de la majorité de 61, le bloc d'opposition mené par Gadi Eisenkot 49 et les partis arabes 17. Benyamin Netanyahou revendique une « majorité décisive » au sein du public sioniste ; les votes sous double enveloppe, dont ceux des soldats, restent à compter (Times of Israel, Al Jazeera)."
+   ],
+   [
+    "28 oct. soir",
+    "Avec 85,6 % des voix dépouillées, Ynet projette 53 sièges pour le bloc Netanyahou, 48 pour celui de Gadi Eisenkot et 19 pour les partis arabes ; plus d'un demi-million de bulletins sous double enveloppe restent à compter, jusqu'à jeudi soir. Le Likoud accuse les partis arabes d'avoir « volé » l'élection (achats de voix, intimidations, votes multiples) et réclame une enquête de la police et du Shin Bet ; Haaretz souligne qu'il n'apporte pas de preuve publique. Mardi, la police a arrêté trois hommes soupçonnés d'avoir tenté d'acheter des voix pour Ra'am, qui nient. Ra'am rejette les accusations et dénonce des arrestations destinées à décourager le vote arabe (Ynet, Haaretz, Times of Israel)."
    ]
   ],
   "spots": [
@@ -8201,8 +8263,8 @@
     "n": "Knesset",
     "lon": 35.2053,
     "lat": 31.7767,
-    "d": "La Knesset compte 120 sièges ; selon les sondages de sortie des urnes du 27 octobre, aucun bloc n'obtient les 61 sièges nécessaires pour gouverner seul.",
-    "t": "2026-10-28T06:00",
+    "d": "La Knesset compte 120 sièges ; selon le dépouillement partiel du 28 octobre, ni le bloc de Benyamin Netanyahou ni celui de Gadi Eisenkot n'atteint les 61 sièges nécessaires pour gouverner.",
+    "t": "2026-10-28T17:00",
     "ta": true
    }
   ],
@@ -8212,7 +8274,11 @@
    "i24isr27",
    "toic12exit",
    "toilive28",
-   "ajisr28"
+   "ajisr28",
+   "ynetres28",
+   "ynetfraud28",
+   "haaretzfraud28",
+   "toifraud28"
   ]
  },
  {
@@ -8303,6 +8369,52 @@
    "dawnrt28",
    "xinhuariy27",
    "africanewsyem28"
+  ]
+ },
+ {
+  "id": "novomoskovsk",
+  "place": "Novomoskovsk (région de Toula)",
+  "country": "Russie",
+  "lon": 38.2903,
+  "lat": 54.0109,
+  "cat": "frappe",
+  "sev": 1,
+  "live": false,
+  "date": "2026-10-28",
+  "t": "2026-10-28T02:00",
+  "ta": true,
+  "zoom": 300,
+  "title": "Drones ukrainiens sur une zone industrielle",
+  "summary": "Dans la nuit du 27 au 28 octobre, selon le gouverneur de la région de Toula Dmitri Milyaev, des débris de drones ont endommagé des immeubles, des maisons et des infrastructures de la zone industrielle de Novomoskovsk ; des chaînes Telegram ukrainiennes affirment que l'usine chimique Azot était visée, ce que les autorités n'ont pas confirmé. À Lipetsk, le gouverneur dément un incendie industriel et évoque un feu de forêt maîtrisé. Le ministère russe de la Défense dit avoir intercepté 531 drones sur treize régions pendant la nuit. Kyiv n'a pas commenté ; pas de victime confirmée.",
+  "figs": [
+   [
+    "531",
+    "drones interceptés en une nuit selon le ministère russe de la Défense"
+   ],
+   [
+    "45",
+    "drones abattus au-dessus de la région de Lipetsk (gouverneur)"
+   ]
+  ],
+  "tl": [
+   [
+    "28 oct. nuit",
+    "Explosions signalées à Novomoskovsk et à Lipetsk. Le gouverneur de Toula envoie des laboratoires de contrôle environnemental et sanitaire dans la ville, sans en préciser la raison ; d'éventuelles victimes sont « en cours de vérification » (Meduza, Kyiv Post)."
+   ]
+  ],
+  "spots": [
+   {
+    "n": "Lipetsk",
+    "lon": 39.5994,
+    "lat": 52.6031,
+    "d": "Dans la nuit du 27 au 28 octobre, 45 drones abattus au-dessus de la région selon le gouverneur, qui dément un incendie dans une usine et évoque un feu de forêt maîtrisé.",
+    "t": "2026-10-28T03:00",
+    "ta": true
+   }
+  ],
+  "src": [
+   "meduzatula28",
+   "kppostlip28"
   ]
  }
 ]

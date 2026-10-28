@@ -3126,5 +3126,97 @@
  "fattomap27": {
   "t": "Il Fatto Quotidiano — carte grève 30 oct.",
   "u": "https://www.ilfattoquotidiano.it/2026/10/27/mappa-sciopero-generale-usb-carovita-carburanti-riarmo-30-ottobre-notizie/8550541/"
+ },
+ "ynetres28": {
+  "t": "Ynet — résultats à 85,6 % dépouillés",
+  "u": "https://www.ynetnews.com/article/hjnatbkaml"
+ },
+ "ynetfraud28": {
+  "t": "Ynet — le Likoud accuse les partis arabes de fraude",
+  "u": "https://www.ynetnews.com/article/s1q6l51tmx"
+ },
+ "haaretzfraud28": {
+  "t": "Haaretz — le Likoud accuse les partis arabes",
+  "u": "https://www.haaretz.com/israel-news/elections/2026-10-28/ty-article/.premium/netanyahus-likud-accuses-arab-parties-of-stealing-election-without-evidence/000001a1-8326-d9a9-a3ed-9bee69e60000"
+ },
+ "toifraud28": {
+  "t": "Times of Israel — le Likoud dénonce une élection « volée »",
+  "u": "https://www.timesofisrael.com/liveblog_entry/likud-claims-election-stolen-by-arab-parties-demands-investigation-into-alleged-fraud/"
+ },
+ "wafagaza28": {
+  "t": "Wafa — frappes dans le sud de Gaza, 28 oct.",
+  "u": "https://english.wafa.ps/Pages/Details/176412"
+ },
+ "palinfogaza28": {
+  "t": "Palinfo — quatre tués à Gaza, 28 oct.",
+  "u": "https://english.palinfo.com/news/2026/10/28/372735/"
+ },
+ "ajhebron28": {
+  "t": "Al Jazeera — Hébron, sixième jour de bouclage",
+  "u": "https://www.aljazeera.com/news/2026/10/28/israeli-forces-continue-west-bank-raids-as-hebron-lockdown-enters-sixth-day"
+ },
+ "gwarakh28": {
+  "t": "Gwara Media — Kharkiv frappée deux fois en 24 h",
+  "u": "https://gwaramedia.com/en/russia-attacks-same-area-of-kharkiv-twice-in-24-hours-kills-1-injures-9-people-photo/"
+ },
+ "apnyala28b": {
+  "t": "AP via WSLS — témoins de la frappe de Nyala",
+  "u": "https://www.wsls.com/news/world/2026/10/28/strike-on-darfur-market-killed-civilians-selling-food-to-fighters-witnesses-say/"
+ },
+ "almoqatar28": {
+  "t": "Al-Monitor — l'Iran rejette les « idées » du Qatar",
+  "u": "https://www.al-monitor.com/originals/2026/10/iran-sees-only-unacceptable-ideas-latest-mediation-end-war-official-says"
+ },
+ "gnqatar28": {
+  "t": "Gulf News — l'Iran et la proposition qatarie",
+  "u": "https://gulfnews.com/world/mena/iran-says-qatar-offered-no-peace-deal-only-unacceptable-ideas-1.500727409"
+ },
+ "meduzatula28": {
+  "t": "Meduza — drones sur la région de Toula",
+  "u": "https://meduza.io/en/news/2026/10/28/ukrainian-drones-strike-russia-s-tula-region-reportedly-sparking-fire-at-chemical-plant"
+ },
+ "kppostlip28": {
+  "t": "Kyiv Post — Lipetsk et Novomoskovsk visés",
+  "u": "https://www.kyivpost.com/post/88382"
+ },
+ "hashtagtir28": {
+  "t": "Hashtag.al — les étudiants devant la police de Tirana",
+  "u": "https://www.hashtag.al/index.php/2026/10/28/studentet-vijojne-protesten-ne-tirane-ndalen-te-drejtoria-e-policise/"
+ },
+ "stdtir28": {
+  "t": "Standard.al — la manifestation étudiante continue",
+  "u": "https://www.standard.al/protesta-e-studenteve-vazhdon-ndalen-tek-drejtoria-e-policise/"
+ },
+ "e1cgt31": {
+  "t": "Europe 1 — parcours du 31 octobre à Paris",
+  "u": "https://www.europe1.fr/police-justice/info-europe-1-mobilisations-du-31-octobre-a-paris-la-cgt-demande-un-parcours-bastille-nation-vers-une-interdiction-de-la-manifestation-des-gilets-jaunes-1188882"
+ },
+ "f3gj31": {
+  "t": "France 3 Paris IDF — les gilets jaunes et le parcours déclaré",
+  "u": "https://france3-regions.franceinfo.fr/paris-ile-de-france/manifestation-du-31-octobre-nous-voulons-etre-au-c-ur-des-espaces-de-pouvoir-des-gilets-jaunes-determines-a-imposer-le-parcours-declare-3439929.html"
+ },
+ "srp31en": {
+  "t": "Sortiraparis — manifestation du 31 octobre (mise à jour 28 oct.)",
+  "u": "https://www.sortiraparis.com/en/news/in-paris/articles/355779-october-31-demonstration-what-to-expect-in-paris-information-and-route"
+ },
+ "qtsciop30": {
+  "t": "Qualitytravel — ordonnance Salvini sur la grève du 30",
+  "u": "https://www.qualitytravel.it/sciopero-trasporti-del-30-ottobre-rinviato-salvini-firma-lordinanza-agitazione-rinviata-ma-usb-conferma-lo-stop/194442"
+ },
+ "mitosciop30": {
+  "t": "MilanoToday — grève des trains du 30 octobre",
+  "u": "https://www.milanotoday.it/cronaca/sciopero/trasporti-treni-29-30-2026-ottobre-annullato-.html"
+ },
+ "clepam27": {
+  "t": "La Clé publique — restrictions prolongées dans les Alpes-Maritimes",
+  "u": "https://laclepublique.fr/alpes-maritimes/articles/2026/2026-10-27-interdictions-prolongees-departement/"
+ },
+ "jdmsnes28": {
+  "t": "Jeunesse du monde — débat Parcoursup, appel du 5 novembre maintenu",
+  "u": "https://jeunessedumonde.fr/2026/10/28/parcoursup-debat-sans-vote-a-l-assemblee-nationale-le-snes-fsu-maintient-l-appel-du-5-novembre/"
+ },
+ "fiparcdeb": {
+  "t": "Franceinfo — les députés débattent de l'avenir de Parcoursup",
+  "u": "https://www.franceinfo.fr/societe/education/blocage-des-lycees/les-deputes-debattront-de-l-avenir-de-parcoursup-mercredi-a-l-assemblee-nationale_8254528.html"
  }
 }

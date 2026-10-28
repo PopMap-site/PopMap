@@ -478,22 +478,6 @@
   ]
  },
  {
-  "id": "a-lyceens26",
-  "kind": "agenda",
-  "place": "Paris",
-  "lon": 2.33,
-  "lat": 48.85,
-  "t": "2026-10-26T14:30",
-  "ta": true,
-  "title": "Lycéens et étudiants reçus à Matignon",
-  "text": "Lundi 26 octobre, le Premier ministre Sébastien Lecornu a reçu des organisations lycéennes et étudiantes à Matignon, puis les ministres Édouard Geffray et Philippe Baptiste ont présenté des mesures (classes à 28 élèves, postes, bâtiments, Parcoursup, bourses). Les organisations jugent ces « premières mesures » insuffisantes et appellent à continuer la mobilisation.",
-  "src": [
-   "boursolyc26",
-   "pslyc26",
-   "sudlyc26"
-  ]
- },
- {
   "id": "p-paris22",
   "kind": "transport",
   "place": "Paris · Bastille – Place d'Italie",
@@ -734,7 +718,7 @@
   "t": "2026-10-31T14:00",
   "ta": true,
   "title": "Nouvelle journée d'action contre la vie chère",
-  "text": "Samedi 31 octobre, la coordination des gilets jaunes appelle à des « casserolades » contre une « dérive autoritaire » : sit-in à 14 h devant le Palais-Bourbon à Paris, puis rassemblements à 19 h devant l'Assemblée nationale et des mairies ; plus de 400 rassemblements recensés sur sa plateforme (Sud Radio). Lieux et autorisations préfectorales à confirmer. Les organisations lycéennes et étudiantes appellent aussi à se mobiliser le 31 octobre et le 5 novembre. Selon Laurent Nuñez, le dispositif de sécurité sera « extrêmement robuste » ; Emmanuel Macron demande des parcours hors des centres-villes (LCP, Armees.com). À Paris, un parcours Bastille – République – Opéra – Concorde a été déposé le 27 octobre, en attente de la décision de la préfecture de police (Sortiraparis).",
+  "text": "Samedi 31 octobre, la coordination des gilets jaunes appelle à des « casserolades » contre une « dérive autoritaire » : sit-in à 14 h devant le Palais-Bourbon à Paris, puis rassemblements à 19 h devant l'Assemblée nationale et des mairies ; plus de 400 rassemblements recensés sur sa plateforme (Sud Radio). Lieux et autorisations préfectorales à confirmer. Les organisations lycéennes et étudiantes appellent aussi à se mobiliser le 31 octobre et le 5 novembre. Selon Laurent Nuñez, le dispositif de sécurité sera « extrêmement robuste » ; Emmanuel Macron demande des parcours hors des centres-villes (LCP, Armees.com). À Paris, un parcours Bastille – République – Opéra – Concorde a été déposé le 27 octobre, en attente de la décision de la préfecture de police (Sortiraparis) ; selon Europe 1, la CGT demande un parcours Bastille – Nation et la préfecture s'orienterait vers une interdiction de la marche des gilets jaunes. Vendredi 30 à 19 h, « casserolades » annoncées partout en France.",
   "src": [
    "fi31oct",
    "dijonact26",
@@ -743,7 +727,9 @@
    "armeesnunez27",
    "sudhallo26",
    "lcpnunez26",
-   "srp31"
+   "srp31",
+   "e1cgt31",
+   "srp31en"
   ]
  },
  {
@@ -788,14 +774,16 @@
   "t": "2026-10-30T00:00",
   "ta": true,
   "title": "Grève générale des syndicats de base",
-  "text": "Vendredi 30 octobre, grève générale à l'appel de l'USB et d'autres syndicats de base (salaires, prix, loyers, dépenses militaires), avec des cortèges annoncés dans 41 villes dont Rome, Milan, Bologne, Turin, Florence, Naples et Palerme, et une journée d'action des dockers (Gênes, Livourne, Trieste…). Trains : du jeudi 29 à 21 h au vendredi 30 à 20 h 59 ; aérien et taxis toute la journée ; autoroutes dès jeudi 22 h ; transports locaux selon les villes (Il Post, Il Fatto Quotidiano). Selon Il Gazzettino, la grève des transports fait l'objet d'une réquisition (précettation), mais les syndicats maintiennent la protestation : vérifier les horaires garantis. Rendez-vous : Milan piazza Duca d'Aosta 10 h, Rome piazza dei Cinquecento 10 h 30, Bologne piazza Maggiore 9 h 30, Naples piazza Mancini 9 h 30 (Il Fatto Quotidiano).",
+  "text": "Vendredi 30 octobre, grève générale à l'appel de l'USB et d'autres syndicats de base (salaires, prix, loyers, dépenses militaires), avec des cortèges annoncés dans de nombreuses villes dont Rome, Milan, Bologne, Turin, Venise, Naples et Trieste, et une journée d'action des dockers. Le 27 octobre, le ministère des Transports de Matteo Salvini a signé une ordonnance qui reporte la grève dans les transports (trains, aérien, transports locaux, maritime, taxis, autoroutes) en invoquant la période de la Toussaint ; plusieurs opérateurs annoncent un service normal. L'USB juge l'ordonnance « illégitime » et maintient la grève : des perturbations restent possibles, vérifier auprès des opérateurs (Qualitytravel, MilanoToday). Rendez-vous : Milan piazza Duca d'Aosta 10 h, Rome piazza dei Cinquecento 10 h 30, Bologne piazza Maggiore 9 h 30, Naples piazza Mancini 9 h 30 (Il Fatto Quotidiano).",
   "src": [
    "ilpost30",
    "fatto30",
    "gazz30",
    "virgsciop",
    "tl24sciop",
-   "fattomap27"
+   "fattomap27",
+   "qtsciop30",
+   "mitosciop30"
   ]
  },
  {
@@ -872,6 +860,21 @@
   "src": [
    "lcpparc28",
    "fiparc28"
+  ]
+ },
+ {
+  "id": "p-alpesmar",
+  "kind": "interdiction",
+  "place": "Alpes-Maritimes",
+  "lon": 7.2,
+  "lat": 43.75,
+  "t": "2026-10-26T18:00",
+  "until": "2026-11-01T23:00",
+  "ta": false,
+  "title": "Pétards, carburant et équipements de protection interdits",
+  "text": "Jusqu'au dimanche 1er novembre à 23 h, dans tout le département : interdiction de porter ou transporter pétards et artifices, carburants dans des contenants individuels, armes ou objets pouvant servir d'armes et équipements de protection contre les forces de l'ordre (exceptions pour les professionnels). Halloween n'est pas interdit. Le couvre-feu des mineurs a pris fin le 26 octobre (La Clé publique, d'après l'arrêté préfectoral).",
+  "src": [
+   "clepam27"
   ]
  }
 ]
