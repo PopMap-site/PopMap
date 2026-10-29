@@ -198,6 +198,10 @@
    [
     "28 oct. soir",
     "Pour samedi 31, la coordination des gilets jaunes a déposé un parcours Bastille – République – Opéra – Concorde, avec l'Assemblée nationale pour objectif ; mercredi matin, la préfecture de police n'avait pas rendu sa décision (Sortiraparis). Selon Europe 1, la CGT demande de son côté un parcours Bastille – Nation et la préfecture s'orienterait vers une interdiction de la marche des gilets jaunes, qui disent vouloir maintenir le parcours déclaré et saisir la justice en cas de refus (Europe 1, France 3). « Casserolades » prévues vendredi 30 à 19 h. Le SNES-FSU maintient son appel à la grève du 5 novembre après le débat sur Parcoursup (Jeunesse du monde)."
+   ],
+   [
+    "28 oct. soir",
+    "Dans une interview à la chaîne YouTube HugoDécrypte, Emmanuel Macron reconnaît une réponse trop lente au mouvement lycéen (« On aurait dû y aller plus vite, moi le premier »), souhaite que les cours reprennent « dans le calme » à la rentrée, défend Parcoursup et rejette l'idée d'un « droit universel à l'université » ; il dénonce aussi une « désinhibition du racisme » après l'attentat de Trappes (Franceinfo, France Mag). Le débat sans vote sur Parcoursup s'est tenu à l'Assemblée ; selon Public Sénat, un débat est prévu au Sénat le mardi 3 novembre."
    ]
   ],
   "spots": [
@@ -447,7 +451,11 @@
    "srp31en",
    "e1cgt31",
    "f3gj31",
-   "jdmsnes28"
+   "jdmsnes28",
+   "fihugo29",
+   "fmhugo29",
+   "elyhugo28",
+   "psparc28"
   ],
   "photos": [
    {
@@ -484,7 +492,7 @@
   "cat": "emeute",
   "sev": 3,
   "live": true,
-  "date": "2026-10-27",
+  "date": "2026-10-28",
   "zoom": 9000,
   "title": "L'office de tourisme de Bellecour incendié",
   "summary": "Environ 20 000 manifestants. Le pavillon historique de l'office de tourisme, place Bellecour, a été saccagé puis incendié vers 14 h 30 ; des groupes hostiles ont empêché les pompiers d'approcher. Magasins attaqués, canons à eau sur les ponts en fin d'après-midi. Dimanche, une cinquantaine de jeunes ont tenté de forcer la vitrine d'un magasin Lacoste.",
@@ -570,6 +578,10 @@
    [
     "27 oct.",
     "La préfecture interdit un rassemblement non déclaré appelé à 14 h devant l'Hôtel de Région, à Confluence, avec un cortège annoncé vers la place Jean-Macé ; elle invoque l'absence d'organisateur et un visuel d'appel montrant un véhicule en flammes (LyonMag, Lyon Capitale). Pas de bilan publié en fin d'après-midi."
+   ],
+   [
+    "28 oct. soir",
+    "Pour samedi 31 octobre, la préfecture du Rhône et les organisateurs s'accordent sur un parcours de la Manufacture des Tabacs à la place Jean-Macé, par Garibaldi et Berthelot ; la préfecture annonce un « dispositif de sécurité conséquent » et les organisateurs s'engagent à renforcer leur service d'ordre (LyonMag). Une seule source à ce stade."
    ]
   ],
   "spots": [
@@ -705,7 +717,8 @@
    "lyonmagbil24",
    "f3lyon24",
    "lyonmag27",
-   "lyoncap27"
+   "lyoncap27",
+   "lyonmag31"
   ],
   "photos": [
    {
@@ -2493,7 +2506,7 @@
   "cat": "manif",
   "sev": 2,
   "live": false,
-  "date": "2026-10-27",
+  "date": "2026-10-28",
   "zoom": 12000,
   "title": "Rassemblement devant le Parlement pour le logement",
   "summary": "Des dizaines de milliers de personnes ont marché le 17 octobre à l'appel du syndicat CGTP contre la vie chère, les bas salaires et le logement (prix doublés depuis 2017, inflation 3,6 % en septembre). Le cortège est parti de Cais do Sodré pour finir sur la place du Rossio, où des dizaines de tentes ont été montées ; elles y étaient encore dimanche matin. Le gouvernement dit qu'il « ne cédera pas aux cris de la rue ».",
@@ -2542,7 +2555,9 @@
    "obs26pt",
    "abolalx27",
    "naomlx27",
-   "cmlx28"
+   "cmlx28",
+   "ecolx28",
+   "dnlx28"
   ],
   "t": "2026-10-17T14:30",
   "ta": false,
@@ -2590,6 +2605,10 @@
    [
     "27 oct.",
     "Des milliers de personnes selon la presse (des centaines selon SIC Notícias) se rassemblent devant le Parlement à l'appel de la plateforme Casa Para Viver, au début du débat sur le budget 2027, sous un fort dispositif policier ; des tensions sont signalées avec la PSP et des intervenants réclament une grève générale. La CGTP dit pouvoir en convoquer une sans la décider « à la hâte ». L'Inspection générale de l'administration interne (IGAI) enquête sur les dispersions de dimanche ; le président António José Seguro appelle au dialogue « et jamais à la violence » (A Bola, Notícias ao Minuto, Correio da Manhã)."
+   ],
+   [
+    "28 oct. soir",
+    "De 200 à 300 personnes au campement du Rossio vers 19 h 30 ; son assemblée vote (plus de 230 voix pour, 95 contre) une marche samedi du Marquês de Pombal au Rossio, suivie d'un rassemblement. À Porto, l'assemblée populaire (environ 200 personnes) décide de camper à nouveau (ECO, DN)."
    ]
   ],
   "figs": [
@@ -3459,7 +3478,7 @@
   "cat": "guerre",
   "sev": 3,
   "live": true,
-  "date": "2026-10-27",
+  "date": "2026-10-29",
   "title": "Guerre d'Iran : la bataille du détroit",
   "summary": "Guerre ouverte depuis l'offensive américaine du 28 février. Washington maintient un blocus des ports iraniens ; Washington et Téhéran revendiquent chacun le contrôle du détroit. Au moins 12 navires attaqués la semaine du 16 octobre selon l'agence britannique UKMTO (un coulé, deux immobilisés), un supertanker en feu après une mine selon les Gardiens de la révolution, un remorqueur touché le 18. Le flux pétrolier est tombé à environ 68 % du niveau d'avant-guerre ; le Brent a touché 110 $. L'Iran propose une réouverture du détroit en six jours puis des négociations, contre la levée du blocus.",
   "figs": [
@@ -3512,7 +3531,9 @@
    "ncordhormuz",
    "iwtehran27",
    "anewstehran27",
-   "fox27iran"
+   "fox27iran",
+   "gniran29",
+   "apiran29"
   ],
   "t": "2026-10-16T12:00",
   "ta": true,
@@ -3576,6 +3597,10 @@
    [
     "27 oct.",
     "Selon la marine iranienne, un pétrolier naviguant sans transpondeur a heurté des mines dans l'est du détroit et pris feu ; l'Iran dit que le passage reste fermé aux navires « contrevenants ». Le commandement militaire américain (Centcom) qualifie de « fausse » l'affirmation des Gardiens de la révolution selon laquelle les forces américaines auraient quitté le détroit. L'Autorité iranienne du détroit annonce des « poursuites » contre les navires liés au groupe sud-coréen Sinokor à partir du 1er novembre. Information d'une seule source à ce stade (Fox News)."
+   ],
+   [
+    "29 oct.",
+    "Selon Abbas Araghchi, l'Iran discute avec des médiateurs d'un plan en sept jours pour mettre fin à la guerre et rouvrir le détroit ; il met en garde contre l'effet « dévastateur » sur les marchés de toute action militaire déclenchée par Israël dans le Golfe (Gulf News). Le Pentagone a déployé dans le Golfe le porte-avions USS Theodore Roosevelt et des navires amphibies avec environ 9 000 militaires, selon l'AP."
    ]
   ]
  },
@@ -3588,7 +3613,7 @@
   "cat": "guerre",
   "sev": 2,
   "live": true,
-  "date": "2026-10-28",
+  "date": "2026-10-29",
   "title": "Menace de reprise des bombardements",
   "summary": "Le Pentagone a demandé de préparer une reprise des opérations majeures ; Trump a toutefois dit le 8 octobre ne pas frapper avant les midterms du 3 novembre, tout en menaçant un site nucléaire. Le 26 octobre, l'Iran reçoit l'Arabie saoudite, la Turquie et le Pakistan ; les quatre pays conviennent de poursuivre le dialogue.",
   "src": [
@@ -3615,7 +3640,9 @@
    "ynetwsj28",
    "ihwsj28",
    "almoqatar28",
-   "gnqatar28"
+   "gnqatar28",
+   "apiran29",
+   "gniran29"
   ],
   "t": "2026-10-16T12:00",
   "ta": true,
@@ -3663,6 +3690,10 @@
    [
     "28 oct. soir",
     "Selon un responsable cité par Al-Monitor, le Qatar a présenté dimanche à l'Iran, en coordination avec Washington, un projet sur sept jours avec des mesures de confiance quotidiennes et plusieurs pays garants. Un haut responsable iranien affirme mercredi que Doha n'a soumis que des « idées inacceptables » et « pas une offre » : Téhéran exige d'abord la levée du blocus de ses ports et des sanctions pétrolières, et reste inflexible sur le nucléaire. Washington veut inclure le nucléaire d'emblée (Al-Monitor, Gulf News)."
+   ],
+   [
+    "29 oct. nuit",
+    "Selon deux diplomates cités par l'AP, des responsables américains ont demandé à des pays de la région de se préparer à une possible reprise des frappes contre l'Iran après les élections du 3 novembre, pouvant durer plusieurs jours, et à d'éventuelles représailles ; Donald Trump n'a pas pris de décision finale. Le ministre iranien Abbas Araghchi dit que Téhéran « continue de donner une chance à la diplomatie » et discute avec les médiateurs d'un plan en sept jours ; un responsable iranien a dit à Reuters que le Qatar n'avait apporté que des « idées inacceptables » (AP, Gulf News)."
    ]
   ]
  },
@@ -4135,7 +4166,7 @@
   "cat": "guerre",
   "sev": 3,
   "live": true,
-  "date": "2026-10-28",
+  "date": "2026-10-29",
   "title": "Un an de cessez-le-feu, des frappes presque quotidiennes",
   "summary": "Le cessez-le-feu du 10 octobre 2025 a un an, mais plus de 100 ONG (Amnesty, NRC, Save the Children, Oxfam) estiment qu'il n'existe « que de nom ». Selon le ministère de la Santé de Gaza, 1 493 Palestiniens ont été tués et 5 299 blessés depuis la trêve (au 12 octobre). Israël, qui contrôle près des deux tiers de la bande, a encore avancé sa « ligne jaune » dans des quartiers de Gaza City. Israël affirme viser des membres de groupes armés ; plusieurs de ces affirmations sont contestées et non vérifiées de façon indépendante. L'aide entre à environ un tiers du rythme prévu.",
   "src": [
@@ -4171,7 +4202,9 @@
    "lptgaza27",
    "anewsgaza28",
    "wafagaza28",
-   "palinfogaza28"
+   "palinfogaza28",
+   "afpgaza28",
+   "trtgaza28"
   ],
   "t": "2026-10-12T12:00",
   "ta": true,
@@ -4274,6 +4307,10 @@
    [
     "28 oct.",
     "Selon l'agence palestinienne Wafa, quatre Palestiniens tués et une vingtaine de blessés mercredi : trois dans une frappe sur un bâtiment du ministère de l'Économie à al-Mawasi (Rafah), un à Khan Younès ; frappes signalées aussi à Nuseirat et à al-Qarara. Sources palestiniennes uniquement à ce stade ; l'armée israélienne n'a pas commenté dans les articles consultés (Wafa, Palinfo)."
+   ],
+   [
+    "28 oct. soir",
+    "Selon la Défense civile de Gaza citée par l'AFP, cinq morts mercredi : trois dans une frappe de drone près d'un point de contrôle à Rafah, où un hôpital dit avoir reçu 15 blessés, et un à Khan Younès ; interrogée, l'armée israélienne dit avoir « frappé des terroristes dans la zone ». Selon des sources médicales citées par Anadolu, deux blessés de frappes antérieures, dont une fillette de six ans, ont succombé (TRT World)."
    ]
   ],
   "spots": [
@@ -4503,7 +4540,7 @@
   "cat": "guerre",
   "sev": 2,
   "live": true,
-  "date": "2026-10-27",
+  "date": "2026-10-29",
   "title": "La « ligne jaune » israélienne au Sud-Liban",
   "summary": "Israël occupe une bande allant jusqu'à 10 km au Sud-Liban, délimitée par une « ligne jaune » traitée comme une frontière de fait. Frappes aériennes et tirs d'artillerie quasi quotidiens sur les villages frontaliers ; le 16 octobre, des chars avancent vers Kfarchouba. Plus de 1,2 million de personnes ont été déplacées. Des pourparlers Liban-Israël sous égide américaine sont prévus le 20 octobre à Tampa.",
   "src": [
@@ -4515,7 +4552,9 @@
    "meewadi",
    "awliban22",
    "meeliban22",
-   "aaleb27"
+   "aaleb27",
+   "gniran29",
+   "meedm29"
   ],
   "t": "2026-10-14T12:00",
   "ta": true,
@@ -4592,6 +4631,10 @@
    [
     "27 oct.",
     "Selon l'agence nationale libanaise (NNA) citée par Anadolu, un drone israélien largue deux bombes sur une maison entre Choukine et Mayfadoun (Nabatieh), sans blessé ; frappes signalées à Mansouri (Tyr) et près de Qantara (Marjayoun), explosions à Zawtar al-Charqiya. Un homme est blessé par l'explosion d'un objet suspect au carrefour de Deir Kifa."
+   ],
+   [
+    "29 oct. nuit",
+    "Selon l'agence nationale libanaise (NNA), l'armée israélienne a frappé la localité de Deir Mimas (Marjayoun) ; pas de bilan connu (Gulf News, Middle East Eye)."
    ]
   ]
  },
@@ -5591,7 +5634,7 @@
   "cat": "manif",
   "sev": 1,
   "live": false,
-  "date": "2026-10-17",
+  "date": "2026-10-28",
   "ta": true,
   "id": "nyc",
   "place": "New York",
@@ -5608,12 +5651,29 @@
     "d": "Rassemblement de plusieurs milliers de personnes.",
     "t": "2026-10-17T13:00",
     "ta": true
+   },
+   {
+    "n": "Pont de Brooklyn",
+    "lon": -74.0005,
+    "lat": 40.7093,
+    "d": "28 octobre : des manifestants opposés à l'ICE bloquent le pont côté Manhattan ; environ 14 interpellations selon les autorités.",
+    "t": "2026-10-28T18:00",
+    "ta": true
    }
   ],
   "src": [
    "fox5nk",
-   "ajnk"
-  ]
+   "ajnk",
+   "abc7bb28",
+   "aolbb28"
+  ],
+  "tl": [
+   [
+    "28 oct.",
+    "Des manifestants opposés à la police de l'immigration (ICE) bloquent le pont de Brooklyn côté Manhattan après une fusillade impliquant l'ICE à Marble Hill plus tôt ce mois-ci ; environ 14 interpellations selon les autorités, toutes les voies rouvertes peu avant 13 h 30 (ABC7, AOL)."
+   ]
+  ],
+  "zoom": 3000
  },
  {
   "country": "États-Unis",
@@ -7284,7 +7344,7 @@
   "cat": "frappe",
   "sev": 2,
   "live": true,
-  "date": "2026-10-28",
+  "date": "2026-10-29",
   "t": "2026-10-21T02:00",
   "ta": true,
   "title": "Osnovianskyï frappé deux fois en 24 heures",
@@ -7327,6 +7387,10 @@
    [
     "28 oct. après-midi",
     "Nouvelle frappe de drone vers 12 h 55 (heure locale) sur le même quartier d'Osnovianskyï : un homme tué, quatre blessés et un bâtiment de la poste endommagé, selon le parquet régional cité par Gwara Media. En 24 heures, les deux frappes sur ce secteur ont fait un mort et neuf blessés."
+   ],
+   [
+    "29 oct. nuit",
+    "Selon le maire Ihor Terekhov, frappes de drones sur Kharkiv vers 3 h 17 puis 4 h 40 (heure locale) : un incendie dans le district de Kholodnohirskyï et un établissement d'enseignement touché dans celui de Saltivskyï ; pas de bilan confirmé (24 Kanal). Une seule source à ce stade."
    ]
   ],
   "spots": [
@@ -7353,7 +7417,8 @@
    "eunkh28",
    "glavkh28",
    "ukrinf28",
-   "gwarakh28"
+   "gwarakh28",
+   "tv24kh29"
   ]
  },
  {
@@ -7467,7 +7532,7 @@
   "cat": "frappe",
   "sev": 2,
   "live": false,
-  "date": "2026-10-22",
+  "date": "2026-10-29",
   "t": "2026-10-22T01:22",
   "ta": false,
   "zoom": 300,
@@ -7503,6 +7568,10 @@
    [
     "22 oct. midi",
     "Le ministère russe de la Défense dit avoir abattu 808 drones ukrainiens au-dessus de la Russie et de la Crimée annexée entre mercredi soir et jeudi matin (AP). Selon le média en exil Astra, un entrepôt de munitions du ministère de la Défense aurait été touché à Serpoukhov, au sud de Moscou ; information non vérifiée (The Moscow Times). Au moins six civils blessés en Russie selon ce journal."
+   ],
+   [
+    "28-29 oct. nuit",
+    "Selon le maire Sergueï Sobianine, 74 drones ont été abattus en approche de Moscou ; Rosaviatsia restreint les vols à Vnoukovo, Domodedovo et Joukovski, deux vols venus de Turquie font demi-tour. Aucun dégât ni victime signalé ; des habitants de Naro-Fominsk rapportent des explosions selon le média Astra. Chiffres des autorités russes, non vérifiés (Kyiv Independent, Kyiv Post)."
    ]
   ],
   "spots": [
@@ -7536,7 +7605,9 @@
    "vedmsk22",
    "m24msk22",
    "mtmsk22",
-   "aphou22"
+   "aphou22",
+   "kimos29",
+   "kpmos29"
   ]
  },
  {
@@ -8209,7 +8280,7 @@
   "cat": "manif",
   "sev": 1,
   "live": true,
-  "date": "2026-10-28",
+  "date": "2026-10-29",
   "t": "2026-10-27T21:00",
   "ta": false,
   "title": "Législatives : aucun bloc majoritaire, le Likoud dénonce une fraude",
@@ -8256,6 +8327,10 @@
    [
     "28 oct. soir",
     "Avec 85,6 % des voix dépouillées, Ynet projette 53 sièges pour le bloc Netanyahou, 48 pour celui de Gadi Eisenkot et 19 pour les partis arabes ; plus d'un demi-million de bulletins sous double enveloppe restent à compter, jusqu'à jeudi soir. Le Likoud accuse les partis arabes d'avoir « volé » l'élection (achats de voix, intimidations, votes multiples) et réclame une enquête de la police et du Shin Bet ; Haaretz souligne qu'il n'apporte pas de preuve publique. Mardi, la police a arrêté trois hommes soupçonnés d'avoir tenté d'acheter des voix pour Ra'am, qui nient. Ra'am rejette les accusations et dénonce des arrestations destinées à décourager le vote arabe (Ynet, Haaretz, Times of Israel)."
+   ],
+   [
+    "29 oct. matin",
+    "La commission électorale centrale a commencé le décompte des bulletins sous double enveloppe (soldats, détenus, personnel médical, diplomates) ; les résultats de 11 712 des 12 018 bureaux ordinaires ont été traités, les autres sont en vérification. Toujours pas de majorité en vue (France 24). La Liste unifiée se dit prête à une « coopération politique » pour remplacer le gouvernement Netanyahou, ce que la plupart des partis d'opposition juive ont exclu ; un responsable de la commission a qualifié d'infondées les accusations de fraude du Likoud (Times of Israel)."
    ]
   ],
   "spots": [
@@ -8278,7 +8353,9 @@
    "ynetres28",
    "ynetfraud28",
    "haaretzfraud28",
-   "toifraud28"
+   "toifraud28",
+   "toi29",
+   "f24isr29"
   ]
  },
  {
@@ -8330,7 +8407,7 @@
   "cat": "frappe",
   "sev": 2,
   "live": true,
-  "date": "2026-10-28",
+  "date": "2026-10-29",
   "t": "2026-10-27T05:30",
   "ta": true,
   "title": "Missiles houthis sur la raffinerie et sur Riyad",
@@ -8353,6 +8430,10 @@
    [
     "27 oct. aube",
     "Explosions entendues par un habitant d'Al-Khobar (AFP). Le porte-parole houthi Yahya Saree revendique des « incendies massifs » à Ras Tanura et un coup direct sur le ministère de la Défense, non confirmés ; il revendique aussi des tirs vers les aéroports de Najran et d'Abha et la base de Khamis Mushait. Alerte par SMS aux habitants de Riyad (AFP via Dawn, Xinhua, Africanews)."
+   ],
+   [
+    "29 oct. nuit",
+    "Le porte-parole de la coalition, Turki al-Maliki, annonce l'interception et la destruction d'un missile balistique houthi tiré vers la province de l'Est ; aucun dégât ni victime signalé (AFP via Kuwait Times, Gulf News)."
    ]
   ],
   "spots": [
@@ -8368,7 +8449,9 @@
   "src": [
    "dawnrt28",
    "xinhuariy27",
-   "africanewsyem28"
+   "africanewsyem28",
+   "ktsaudi29",
+   "gniran29"
   ]
  },
  {
